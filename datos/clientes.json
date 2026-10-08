@@ -1,0 +1,19 @@
+{
+ "_nota": "Sectores: los mismos 13 de KeyCurul (decisión de Andrés, 2026-10-08). Clientes de Panamá: se agregan después, con sector (texto o lista) y temas. Los NOMBRES de clientes nunca se envían a Gemini.",
+ "sectores": [
+  "ALIMENTOS",
+  "BANANERO",
+  "CAMARONERO Y PESQUERO",
+  "CEMENTERAS",
+  "EXTRACTIVO",
+  "FINANCIERO",
+  "INDUSTRIAS",
+  "OTROS",
+  "PETRÓLEO",
+  "SALUD",
+  "SEGUROS",
+  "TRANSPORTE",
+  "TURISMO"
+ ],
+ "clientes": {}
+}

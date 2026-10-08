@@ -1,0 +1,53 @@
+name: Agente Panamá
+
+on:
+  # La revisión cada hora se enciende cuando Andrés decida cómo cubrir los minutos de Actions.
+  # schedule:
+  #   - cron: "17 * * * *" # cada hora, al minuto 17 (hora UTC)
+  workflow_dispatch: # botón "Run workflow" para correrlo a mano
+
+permissions:
+  contents: write # para guardar estado.json
+
+concurrency:
+  group: agente-panama
+  cancel-in-progress: false
+
+jobs:
+  revisar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar rclone (para Google Drive)
+        run: |
+          curl -sL https://downloads.rclone.org/rclone-current-linux-amd64.zip -o rclone.zip
+          unzip -q rclone.zip
+          sudo cp rclone-*-linux-amd64/rclone /usr/local/bin/
+
+      - name: Revisar la Asamblea y analizar
+        env:
+          GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          DRIVE_TOKEN: ${{ secrets.DRIVE_TOKEN }}
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+        run: python agente.py
+
+      - name: Guardar estado
+        if: always()
+        run: |
+          if [ -n "$(git status --porcelain estado.json)" ]; then
+            git config user.name "agente-panama"
+            git config user.email "agente-panama@users.noreply.github.com"
+            git add estado.json
+            git commit -m "Actualizar estado"
+            git pull --rebase
+            git push
+          fi
