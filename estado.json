@@ -1,5 +1,5 @@
 {
- "comisiones_revisadas": "2026-10-09T03:28:10",
+ "comisiones_revisadas": "2026-10-09T09:40:12",
  "drive": {
   "7779": {
    "carpeta": "Señalización vial en obras públicas (ficha 7779)",
@@ -7,6 +7,10 @@
   },
   "8197": {
    "carpeta": "Protección a estudiantes en zonas de difícil acceso (ficha 8197)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "8199": {
+   "carpeta": "Programa de educación segura en áreas de difícil acceso (ficha 8199)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
   "8284": {
@@ -2745,6 +2749,48 @@
    "anteproyecto": "321",
    "comision": "COMISION DE ASUNTOS INDIGENAS",
    "etapa": "Segundo Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-09-08"
+    },
+    {
+     "comentario": "REGRESADO A DEBATE DESPUES DE ANÁLISIS",
+     "etapa": "Regresado de analisis por subcomisión",
+     "fecha": "2026-09-01"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-09-01"
+    },
+    {
+     "comentario": "Conformada por los H.D. Nixon Andrade, Sergio Galvez y Flor Brenes. (Periodo 2025-2026)",
+     "etapa": "Enviado a subcomisión para analisis",
+     "fecha": "2025-08-19"
+    },
+    {
+     "comentario": "Conformada por Lenin Ulate, Flor Brenes y Isaac Mosquera.",
+     "etapa": "Enviado a subcomisión para analisis",
+     "fecha": "2025-03-26"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-03-20"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-03-18"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-02-10"
+    }
+   ],
    "fecha": "2025-02-10",
    "ficha": "7785",
    "proponente": "H.D NIXSON ANDRADE RODRÍGUEZ",
@@ -2756,6 +2802,28 @@
    "anteproyecto": "322",
    "comision": "COMISION DE ASUNTOS MUNICIPALES",
    "etapa": "Enviado a subcomisión para analisis",
+   "etapas": [
+    {
+     "comentario": "Conformada por los H.D. Manuel Samaniego, Neftali Zamora y Yesica Romero.",
+     "etapa": "Enviado a subcomisión para analisis",
+     "fecha": "2025-10-08"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-08"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-03-26"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-02-10"
+    }
+   ],
    "fecha": "2025-02-10",
    "ficha": "7786",
    "proponente": "H.D YAMIRELIZ DAYMIRELKIS CHONG SMITH,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D MANUEL ALBERTO SAMANIEGO RODRÍGUEZ,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D LUIS HENRIQUE DUKE WALKER,H.D ALEXANDRA MARÍA BRENES SAMANIEGO",
@@ -2767,6 +2835,28 @@
    "anteproyecto": "323",
    "comision": "COMISION DE INFRAESTRUCTURA PUBLICA Y ASUNTOS DEL CANAL",
    "etapa": "Enviado a subcomisión para analisis",
+   "etapas": [
+    {
+     "comentario": "Conformada por los H.D. Lenin Ulate,Graciela Hernandez y Miguel Campos.",
+     "etapa": "Enviado a subcomisión para analisis",
+     "fecha": "2026-08-20"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-03-20"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-02-25"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-02-10"
+    }
+   ],
    "fecha": "2025-02-10",
    "ficha": "7787",
    "proponente": "H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D JHONATHAN EDIR VEGA,H.D MANUEL ALBERTO SAMANIEGO RODRÍGUEZ,H.D GERTRUDIS RODRÍGUEZ DE GRACIA,H.D JOSÉ ANTONIO PÉREZ BARBONI,H.D AUGUSTO EFRAÍN PALACIOS MUÑOZ,H.D YUZAIDA ANDREA MARÍN NATERON DE AGUILAR,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D EDUARDO ALEJANDRO GAITÁN BEITÍA,H.D LUIS HENRIQUE DUKE WALKER,H.D YAMIRELIZ DAYMIRELKIS CHONG SMITH,H.D MIGUEL ÁNGEL CAMPOS LIMA,H.D ALEXANDRA MARÍA BRENES SAMANIEGO,H.D WALKIRIA A. CHANDLER D´ORCY",
@@ -2778,6 +2868,53 @@
    "anteproyecto": "0",
    "comision": "COMISION DE RELACIONES EXTERIORES",
    "etapa": "Ley",
+   "etapas": [
+    {
+     "comentario": "SANCIONADO POR EL ORGANO EJECUTIVO",
+     "etapa": "Ley",
+     "fecha": "2025-10-13"
+    },
+    {
+     "comentario": "ENVIADO AL ORGANO EJECUTIVO",
+     "etapa": "Enviado al Ejecutivo",
+     "fecha": "2025-10-09"
+    },
+    {
+     "comentario": "APROBADO EN III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2025-10-09"
+    },
+    {
+     "comentario": "PENDIENTE DE III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2025-10-08"
+    },
+    {
+     "comentario": "APROBADO EN II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-10-08"
+    },
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-03-31"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-03-19"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-02-20"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-02-19"
+    }
+   ],
    "fecha": "2025-02-19",
    "ficha": "7789",
    "proponente": "MINISTERIO DE RELACIONES EXTERIORES",
@@ -2789,6 +2926,53 @@
    "anteproyecto": "0",
    "comision": "COMISION DE RELACIONES EXTERIORES",
    "etapa": "Ley",
+   "etapas": [
+    {
+     "comentario": "SANCIONADO POR EL ORGANO EJECUTIVO",
+     "etapa": "Ley",
+     "fecha": "2025-08-14"
+    },
+    {
+     "comentario": "ENVIADO AL ORGANO EJECUTIVO",
+     "etapa": "Enviado al Ejecutivo",
+     "fecha": "2025-07-21"
+    },
+    {
+     "comentario": "APROBADO EN III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2025-07-17"
+    },
+    {
+     "comentario": "PENDIENTE DE III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2025-07-14"
+    },
+    {
+     "comentario": "APROBADO EN II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-07-14"
+    },
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-03-31"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-03-19"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-02-20"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-02-19"
+    }
+   ],
    "fecha": "2025-02-19",
    "ficha": "7790",
    "proponente": "MINISTERIO DE RELACIONES EXTERIORES",
@@ -2800,6 +2984,53 @@
    "anteproyecto": "0",
    "comision": "COMISION DE RELACIONES EXTERIORES",
    "etapa": "Ley",
+   "etapas": [
+    {
+     "comentario": "SANCIONADO POR EL ORGANO EJECUTIVO",
+     "etapa": "Ley",
+     "fecha": "2025-09-19"
+    },
+    {
+     "comentario": "ENVIADO AL ORGANO EJECUTIVO",
+     "etapa": "Enviado al Ejecutivo",
+     "fecha": "2025-08-18"
+    },
+    {
+     "comentario": "APROBADO EN III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2025-08-07"
+    },
+    {
+     "comentario": "PENDIENTE DE III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2025-08-05"
+    },
+    {
+     "comentario": "APROBADO EN II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-08-05"
+    },
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-03-31"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-03-19"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-02-20"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-02-19"
+    }
+   ],
    "fecha": "2025-02-19",
    "ficha": "7791",
    "proponente": "MINISTERIO DE RELACIONES EXTERIORES",
@@ -2811,6 +3042,53 @@
    "anteproyecto": "0",
    "comision": "COMISION DE RELACIONES EXTERIORES",
    "etapa": "Ley",
+   "etapas": [
+    {
+     "comentario": "SANCIONADO POR EL ORGANO EJECUTIVO",
+     "etapa": "Ley",
+     "fecha": "2025-08-26"
+    },
+    {
+     "comentario": "ENVIADO AL ORGANO EJECUTIVO",
+     "etapa": "Enviado al Ejecutivo",
+     "fecha": "2025-08-18"
+    },
+    {
+     "comentario": "APROBADO EN III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2025-08-12"
+    },
+    {
+     "comentario": "PENDIENTE DE III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2025-08-11"
+    },
+    {
+     "comentario": "APROBADO EN II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-08-11"
+    },
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-03-31"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-03-19"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-02-20"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-02-19"
+    }
+   ],
    "fecha": "2025-02-19",
    "ficha": "7792",
    "proponente": "MINISTERIO DE RELACIONES EXTERIORES",
@@ -2822,6 +3100,53 @@
    "anteproyecto": "0",
    "comision": "COMISION DE RELACIONES EXTERIORES",
    "etapa": "Ley",
+   "etapas": [
+    {
+     "comentario": "SANCIONADO POR EL ORGANO EJECUTIVO",
+     "etapa": "Ley",
+     "fecha": "2025-07-28"
+    },
+    {
+     "comentario": "ENVIADO AL ORGANO EJECUTIVO",
+     "etapa": "Enviado al Ejecutivo",
+     "fecha": "2025-07-15"
+    },
+    {
+     "comentario": "APROBADO EN III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2025-07-14"
+    },
+    {
+     "comentario": "PENDIENTE DE III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2025-07-09"
+    },
+    {
+     "comentario": "APROBADO EN II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-07-09"
+    },
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-03-31"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-03-19"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-02-20"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-02-19"
+    }
+   ],
    "fecha": "2025-02-19",
    "ficha": "7793",
    "proponente": "MINISTERIO DE RELACIONES EXTERIORES",
@@ -2833,6 +3158,53 @@
    "anteproyecto": "0",
    "comision": "COMISION DE RELACIONES EXTERIORES",
    "etapa": "Ley",
+   "etapas": [
+    {
+     "comentario": "SANCIONADO POR EL ORGANO EJECUTIVO",
+     "etapa": "Ley",
+     "fecha": "2025-09-19"
+    },
+    {
+     "comentario": "ENVIADO AL ORGANO EJECUTIVO",
+     "etapa": "Enviado al Ejecutivo",
+     "fecha": "2025-08-25"
+    },
+    {
+     "comentario": "APROBADO EN III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2025-08-19"
+    },
+    {
+     "comentario": "PENDIENTE DE III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2025-08-18"
+    },
+    {
+     "comentario": "APROBADO EN II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-08-18"
+    },
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-03-31"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-03-19"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-02-20"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-02-19"
+    }
+   ],
    "fecha": "2025-02-19",
    "ficha": "7794",
    "proponente": "MINISTERIO DE RELACIONES EXTERIORES",
@@ -2844,6 +3216,53 @@
    "anteproyecto": "0",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Ley",
+   "etapas": [
+    {
+     "comentario": "SANCIONADO POR EL ORGANO EJECUTIVO",
+     "etapa": "Ley",
+     "fecha": "2025-04-24"
+    },
+    {
+     "comentario": "ENVIADO AL ORGANO EJECUTIVO",
+     "etapa": "Enviado al Ejecutivo",
+     "fecha": "2025-04-22"
+    },
+    {
+     "comentario": "APROBADO EN III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2025-04-21"
+    },
+    {
+     "comentario": "PENDIENTE DE III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2025-04-09"
+    },
+    {
+     "comentario": "APROBADO EN II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-04-09"
+    },
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-04-07"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-03"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-02-27"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-02-25"
+    }
+   ],
    "fecha": "2025-02-25",
    "ficha": "7795",
    "proponente": "MINISTERIO DE VIVIENDA Y ORDENAMIENTO TERRITORIAL",
@@ -2855,6 +3274,53 @@
    "anteproyecto": "0",
    "comision": "COMISION DE RELACIONES EXTERIORES",
    "etapa": "Ley",
+   "etapas": [
+    {
+     "comentario": "SANCIONADO POR EL ORGANO EJECUTIVO",
+     "etapa": "Ley",
+     "fecha": "2025-05-29"
+    },
+    {
+     "comentario": "ENVIADO AL ORGANO EJECUTIVO",
+     "etapa": "Enviado al Ejecutivo",
+     "fecha": "2025-04-30"
+    },
+    {
+     "comentario": "APROBADO EN III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2025-04-29"
+    },
+    {
+     "comentario": "PENDIENTE DE III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2025-04-21"
+    },
+    {
+     "comentario": "APROBADO EN II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-04-21"
+    },
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-03-31"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-03-19"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-03-06"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-02-27"
+    }
+   ],
    "fecha": "2025-02-27",
    "ficha": "7796",
    "proponente": "MINISTERIO DE COMERCIO E INDUSTRIAS",
@@ -2866,6 +3332,53 @@
    "anteproyecto": "0",
    "comision": "COMISION DE RELACIONES EXTERIORES",
    "etapa": "Ley",
+   "etapas": [
+    {
+     "comentario": "SANCIONADO POR EL ORGANO EJECUTIVO",
+     "etapa": "Ley",
+     "fecha": "2025-09-19"
+    },
+    {
+     "comentario": "ENVIADO AL ORGANO EJECUTIVO",
+     "etapa": "Enviado al Ejecutivo",
+     "fecha": "2025-08-25"
+    },
+    {
+     "comentario": "APROBADO EN III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2025-08-19"
+    },
+    {
+     "comentario": "PENDIENTE DE III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2025-08-18"
+    },
+    {
+     "comentario": "APROBADO EN II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-08-18"
+    },
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-03-31"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-03-19"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-03-06"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-02-27"
+    }
+   ],
    "fecha": "2025-02-27",
    "ficha": "7797",
    "proponente": "MINISTERIO DE COMERCIO E INDUSTRIAS",
@@ -2877,6 +3390,28 @@
    "anteproyecto": "325",
    "comision": "COMISION DE POBLACION, AMBIENTE Y DESARROLLO",
    "etapa": "Negado",
+   "etapas": [
+    {
+     "comentario": "Negado en comisión y presentado al pleno el 27 de octubre.",
+     "etapa": "Negado",
+     "fecha": "2025-10-20"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-24"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-04-23"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-03-06"
+    }
+   ],
    "fecha": "2025-03-06",
    "ficha": "7798",
    "proponente": "CANDY CHEN",
@@ -2888,6 +3423,28 @@
    "anteproyecto": "327",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Enviado a subcomisión para analisis",
+   "etapas": [
+    {
+     "comentario": "Conformada por los H.D. Crispiano Adames, Ronald de Gracia y Miguel Campos.",
+     "etapa": "Enviado a subcomisión para analisis",
+     "fecha": "2026-02-25"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-22"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-04-15"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-03-17"
+    }
+   ],
    "fecha": "2025-03-17",
    "ficha": "7800",
    "proponente": "H.D ROGELIO RICARDO REVELLO TEM",
@@ -2899,6 +3456,33 @@
    "anteproyecto": "328",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-10-27"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-10-22"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-11"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-04-03"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-03-17"
+    }
+   ],
    "fecha": "2025-03-17",
    "ficha": "7801",
    "proponente": "H.D JORGE ISAAC BLOISE IGLESIAS,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D OLGA PAULETTE THOMAS HORLY,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D JANINE PRADO CASTAÑO,H.D JOSÉ ANTONIO PÉREZ BARBONI,H.D MANUEL CHENG PEÑALBA,H.D MIGUEL ÁNGEL CAMPOS LIMA",
@@ -2910,6 +3494,33 @@
    "anteproyecto": "329",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-09-22"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-09-17"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-21"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-04-03"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-03-17"
+    }
+   ],
    "fecha": "2025-03-17",
    "ficha": "7802",
    "proponente": "H.D JORGE ISAAC BLOISE IGLESIAS,H.D OLGA PAULETTE THOMAS HORLY,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D JOSÉ ANTONIO PÉREZ BARBONI,H.D MANUEL CHENG PEÑALBA,H.D MIGUEL ÁNGEL CAMPOS LIMA",
@@ -2921,6 +3532,33 @@
    "anteproyecto": "330",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-10-27"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-10-22"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-11"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-04-03"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-03-17"
+    }
+   ],
    "fecha": "2025-03-17",
    "ficha": "7804",
    "proponente": "H.D JORGE ISAAC BLOISE IGLESIAS,H.D OLGA PAULETTE THOMAS HORLY,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D JANINE PRADO CASTAÑO,H.D JOSÉ ANTONIO PÉREZ BARBONI,H.D MANUEL CHENG PEÑALBA,H.D MIGUEL ÁNGEL CAMPOS LIMA",
@@ -2932,6 +3570,43 @@
    "anteproyecto": "331",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-10-29"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-10-27"
+    },
+    {
+     "comentario": "REGRESADO A DEBATE DESPUES DE ANÁLISIS",
+     "etapa": "Regresado de analisis por subcomisión",
+     "fecha": "2025-10-22"
+    },
+    {
+     "comentario": "Conformada por los H.D. Jorge Bloise, Miguel Campos y Gertrudis Rodriguez.",
+     "etapa": "Enviado a subcomisión para analisis",
+     "fecha": "2025-10-08"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-11"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-04-03"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-03-17"
+    }
+   ],
    "fecha": "2025-03-17",
    "ficha": "7805",
    "proponente": "H.D JORGE ISAAC BLOISE IGLESIAS,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D OLGA PAULETTE THOMAS HORLY,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D JANINE PRADO CASTAÑO,H.D JOSÉ ANTONIO PÉREZ BARBONI,H.D MANUEL CHENG PEÑALBA,H.D MIGUEL ÁNGEL CAMPOS LIMA",
@@ -2943,6 +3618,58 @@
    "anteproyecto": "334",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Objetado por Ejecutivo",
+   "etapas": [
+    {
+     "comentario": "OBJETADO POR EL ORGANO EJECUTIVO",
+     "etapa": "Objetado por Ejecutivo",
+     "fecha": "2026-04-21"
+    },
+    {
+     "comentario": "ENVIADO AL ORGANO EJECUTIVO",
+     "etapa": "Enviado al Ejecutivo",
+     "fecha": "2026-03-10"
+    },
+    {
+     "comentario": "APROBADO EN III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2026-03-04"
+    },
+    {
+     "comentario": "PENDIENTE DE III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2026-03-03"
+    },
+    {
+     "comentario": "APROBADO EN II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-03-03"
+    },
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-09-03"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-08-27"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-16"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-04-09"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-03-17"
+    }
+   ],
    "fecha": "2025-03-17",
    "ficha": "7808",
    "proponente": "H.D JOSÉ ANTONIO PÉREZ BARBONI,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D MIGUEL ÁNGEL CAMPOS LIMA,H.D JORGE ISAAC BLOISE IGLESIAS",
@@ -2954,6 +3681,28 @@
    "anteproyecto": "336",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Enviado a subcomisión para analisis",
+   "etapas": [
+    {
+     "comentario": "Conformada por los H.D. Arquesio Arias, Edwin Vergara y Betserai Richards.",
+     "etapa": "Enviado a subcomisión para analisis",
+     "fecha": "2026-09-23"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-22"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-04-15"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-03-18"
+    }
+   ],
    "fecha": "2025-03-18",
    "ficha": "7810",
    "proponente": "H.D CRISPIANO ADAMES NAVARRO",
@@ -2965,6 +3714,33 @@
    "anteproyecto": "343",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Segundo Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-09-09"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-09-03"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-16"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-04-09"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-03-19"
+    }
+   ],
    "fecha": "2025-03-19",
    "ficha": "7811",
    "proponente": "H.D NEFTALÍ OMAR ZAMORA IBARRA",
@@ -2976,6 +3752,28 @@
    "anteproyecto": "344",
    "comision": "COMISION DE POBLACION, AMBIENTE Y DESARROLLO",
    "etapa": "Enviado a subcomisión para analisis",
+   "etapas": [
+    {
+     "comentario": "Conformada por los H.D. Arquesio Arias, Edwin Vergara y Omar Ortega.",
+     "etapa": "Enviado a subcomisión para analisis",
+     "fecha": "2025-09-03"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-24"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-04-23"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-03-19"
+    }
+   ],
    "fecha": "2025-03-19",
    "ficha": "7812",
    "proponente": "H.D NEFTALÍ OMAR ZAMORA IBARRA",
@@ -2987,6 +3785,28 @@
    "anteproyecto": "337",
    "comision": "COMISION DE POBLACION, AMBIENTE Y DESARROLLO",
    "etapa": "Negado",
+   "etapas": [
+    {
+     "comentario": "Negado en comisión y presentado al pleno el 27 de octubre.",
+     "etapa": "Negado",
+     "fecha": "2025-10-20"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-24"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-04-23"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-03-19"
+    }
+   ],
    "fecha": "2025-03-19",
    "ficha": "7813",
    "proponente": "Luis Carlos Rodriguez",
@@ -2998,6 +3818,53 @@
    "anteproyecto": "0",
    "comision": "COMISION DE LA MUJER, LA NIÑEZ Y LA FAMILIA",
    "etapa": "Ley",
+   "etapas": [
+    {
+     "comentario": "SANCIONADO POR EL ORGANO EJECUTIVO",
+     "etapa": "Ley",
+     "fecha": "2025-05-08"
+    },
+    {
+     "comentario": "ENVIADO AL ORGANO EJECUTIVO",
+     "etapa": "Enviado al Ejecutivo",
+     "fecha": "2025-05-06"
+    },
+    {
+     "comentario": "APROBADO EN III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2025-04-30"
+    },
+    {
+     "comentario": "PENDIENTE DE III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2025-04-29"
+    },
+    {
+     "comentario": "APROBADO EN II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-04-29"
+    },
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-04-10"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-10"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-03-24"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-03-20"
+    }
+   ],
    "fecha": "2025-03-20",
    "ficha": "7820",
    "proponente": "MINISTERIO DE GOBIERNO",
@@ -3009,6 +3876,28 @@
    "anteproyecto": "345",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Enviado a subcomisión para analisis",
+   "etapas": [
+    {
+     "comentario": "Conformada por los H.D. Nestor Guardia, Jamis Acosta y Julio de la Guardia.",
+     "etapa": "Enviado a subcomisión para analisis",
+     "fecha": "2025-09-30"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-16"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-04-10"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-03-20"
+    }
+   ],
    "fecha": "2025-03-20",
    "ficha": "7821",
    "proponente": "H.D.S GABRIEL ANDRÉS SOLÍS ARIAS,H.D.S BENISIO ENISIO ROBINSON GONZÁLEZ,H.D RAPHAEL BUCHANAN JOSEPH,H.D.S MARTA ESTELA SANDOYA BARSALLO,H.D.S BERTA NIDIA MORENO FLORES,H.D ARQUESIO ARIAS FELIX",
@@ -3020,6 +3909,28 @@
    "anteproyecto": "346",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Negado",
+   "etapas": [
+    {
+     "comentario": "Negado en la comisión y presentado al pleno el 15 de septiembre.",
+     "etapa": "Negado",
+     "fecha": "2025-09-10"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-16"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-04-09"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-03-20"
+    }
+   ],
    "fecha": "2025-03-20",
    "ficha": "7822",
    "proponente": "H.D JOSÉ ANTONIO PÉREZ BARBONI",
@@ -3031,6 +3942,58 @@
    "anteproyecto": "347",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Ley",
+   "etapas": [
+    {
+     "comentario": "SANCIONADO POR EL ORGANO EJECUTIVO",
+     "etapa": "Ley",
+     "fecha": "2026-05-26"
+    },
+    {
+     "comentario": "ENVIADO AL ORGANO EJECUTIVO",
+     "etapa": "Enviado al Ejecutivo",
+     "fecha": "2026-05-08"
+    },
+    {
+     "comentario": "APROBADO EN III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2026-04-30"
+    },
+    {
+     "comentario": "PENDIENTE DE III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2026-04-28"
+    },
+    {
+     "comentario": "APROBADO EN II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-04-28"
+    },
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-10-21"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-10-21"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-29"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-04-24"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-03-20"
+    }
+   ],
    "fecha": "2025-03-20",
    "ficha": "7823",
    "proponente": "H.D EDUARDO ALEJANDRO GAITÁN BEITÍA,H.D.S TATIANA ELOISA MORALES DE RAMOS,H.D JOSÉ ANTONIO PÉREZ BARBONI,H.D YUZAIDA ANDREA MARÍN NATERON DE AGUILAR,H.D PATSY CRISTINA LEE RENTERÍA DE HUANG,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D LUIS HENRIQUE DUKE WALKER,H.D.S LUIS ENRIQUE BATISTA CASTILLO,H.D YAMIRELIZ DAYMIRELKIS CHONG SMITH,H.D MANUEL CHENG PEÑALBA,H.D.S ALEXANDER ELIECER MORENO ,H.D.S MAIQUELY DEL CARMEN AÑINO MEDINA DE BARRIOS,H.D ALEXANDRA MARÍA BRENES SAMANIEGO,H.D.S MELVIN HAMET PÉREZ FERNÁNDEZ,H.D WALKIRIA A. CHANDLER D´ORCY,H.D ALAIN ALBENIS CEDEÑO HERRERA",
@@ -3042,6 +4005,33 @@
    "anteproyecto": "348",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-09-15"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-09-10"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-29"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-04-23"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-03-20"
+    }
+   ],
    "fecha": "2025-03-20",
    "ficha": "7824",
    "proponente": "H.D LUIS HENRIQUE DUKE WALKER,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D NEFTALÍ OMAR ZAMORA IBARRA,H.D BETSERAI AYIZE RICHARDS,H.D JANINE PRADO CASTAÑO,H.D PATSY CRISTINA LEE RENTERÍA DE HUANG,H.D YAMIRELIZ DAYMIRELKIS CHONG SMITH,H.D MIGUEL ÁNGEL CAMPOS LIMA,H.D ALEXANDRA MARÍA BRENES SAMANIEGO",
@@ -3053,6 +4043,23 @@
    "anteproyecto": "351",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Primer Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-16"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-04-10"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-03-24"
+    }
+   ],
    "fecha": "2025-03-24",
    "ficha": "7825",
    "proponente": "H.D PATSY CRISTINA LEE RENTERÍA DE HUANG,H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D EDUARDO ALEJANDRO GAITÁN BEITÍA,H.D MIGUEL ÁNGEL CAMPOS LIMA,H.D ALEXANDRA MARÍA BRENES SAMANIEGO",
@@ -3064,6 +4071,28 @@
    "anteproyecto": "352",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Enviado a subcomisión para analisis",
+   "etapas": [
+    {
+     "comentario": "Conformada por los H.D. Miguel Campos, Betserai Richards y Yarelis Rodriguez.",
+     "etapa": "Enviado a subcomisión para analisis",
+     "fecha": "2025-10-27"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-22"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-04-15"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-03-24"
+    }
+   ],
    "fecha": "2025-03-24",
    "ficha": "7826",
    "proponente": "H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D RICARDO AGUSTÍN VIGIL LÓPEZ,H.D OLGA PAULETTE THOMAS HORLY,H.D MANUEL ALBERTO SAMANIEGO RODRÍGUEZ,H.D CARLOS EDUARDO SALDAÑA LÓPEZ,H.D YESICA ROMERO GARCÍA,H.D GERTRUDIS RODRÍGUEZ DE GRACIA,H.D BETSERAI AYIZE RICHARDS,H.D JANINE PRADO CASTAÑO,H.D JOSÉ ANTONIO PÉREZ BARBONI,H.D AUGUSTO EFRAÍN PALACIOS MUÑOZ,H.D PATSY CRISTINA LEE RENTERÍA DE HUANG,H.D JORGE LUIS HERRERA,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D EDUARDO ALEJANDRO GAITÁN BEITÍA,H.D LUIS HENRIQUE DUKE WALKER,H.D YAMIRELIZ DAYMIRELKIS CHONG SMITH,H.D ARIANA MARISÍN COBA MARTÍNEZ,H.D ERNESTO CEDEÑO ALVARADO,H.D MIGUEL ÁNGEL CAMPOS LIMA,H.D ALEXANDRA MARÍA BRENES SAMANIEGO,H.D FRANCISCO JAVIER BREA TRISTÁN,H.D JORGE ISAAC BLOISE IGLESIAS,H.D ROBERTO ARCHIBOLD CHUITO",
@@ -3075,6 +4104,28 @@
    "anteproyecto": "353",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Negado",
+   "etapas": [
+    {
+     "comentario": "Negado en comisión y presentado al pleno el 9 de octubre de 2025.",
+     "etapa": "Negado",
+     "fecha": "2025-10-08"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-29"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-04-24"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-03-24"
+    }
+   ],
    "fecha": "2025-03-24",
    "ficha": "7827",
    "proponente": "H.D LUIS EDUARDO CAMACHO CASTRO",
@@ -3086,6 +4137,73 @@
    "anteproyecto": "350",
    "comision": "COMISION DE ASUNTOS MUNICIPALES",
    "etapa": "Objetado por Ejecutivo",
+   "etapas": [
+    {
+     "comentario": "INFORME DE LA COMISIÓN",
+     "etapa": "Objetado por Ejecutivo",
+     "fecha": "2026-08-18"
+    },
+    {
+     "comentario": "OBJETADO POR EL ORGANO EJECUTIVO",
+     "etapa": "Objetado por Ejecutivo",
+     "fecha": "2026-04-20"
+    },
+    {
+     "comentario": "ENVIADO AL ORGANO EJECUTIVO",
+     "etapa": "Enviado al Ejecutivo",
+     "fecha": "2026-03-10"
+    },
+    {
+     "comentario": "APROBADO EN III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2026-03-04"
+    },
+    {
+     "comentario": "PENDIENTE DE III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2026-03-03"
+    },
+    {
+     "comentario": "APROBADO EN II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-03-03"
+    },
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-10-15"
+    },
+    {
+     "comentario": "REGRESADO A DEBATE DESPUES DE ANÁLISIS",
+     "etapa": "Regresado de analisis por subcomisión",
+     "fecha": "2025-10-08"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-10-08"
+    },
+    {
+     "comentario": "Conformada por los H.D. Medin Jimenéz, Patsy Lee y Yesica Romero.",
+     "etapa": "Enviado a subcomisión para analisis",
+     "fecha": "2025-08-20"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-09"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-04-07"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-03-24"
+    }
+   ],
    "fecha": "2025-03-24",
    "ficha": "7829",
    "proponente": "H.D MEDIN JIMÉNEZ PITTI,H.D RICARDO AGUSTÍN VIGIL LÓPEZ,H.D JORGE LUIS HERRERA,H.D ARIANA MARISÍN COBA MARTÍNEZ,H.D FRANCISCO JAVIER BREA TRISTÁN,H.D ROBERTO ARCHIBOLD CHUITO",
@@ -3097,6 +4215,58 @@
    "anteproyecto": "354",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Ley",
+   "etapas": [
+    {
+     "comentario": "SANCIONADO POR EL ORGANO EJECUTIVO",
+     "etapa": "Ley",
+     "fecha": "2026-04-15"
+    },
+    {
+     "comentario": "ENVIADO AL ORGANO EJECUTIVO",
+     "etapa": "Enviado al Ejecutivo",
+     "fecha": "2026-02-25"
+    },
+    {
+     "comentario": "APROBADO EN III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2026-02-05"
+    },
+    {
+     "comentario": "PENDIENTE DE III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2026-02-04"
+    },
+    {
+     "comentario": "APROBADO EN II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-02-04"
+    },
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-10-09"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-10-08"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-29"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-04-24"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-03-25"
+    }
+   ],
    "fecha": "2025-03-25",
    "ficha": "7830",
    "proponente": "H.D LUIS EDUARDO CAMACHO CASTRO",
@@ -3108,6 +4278,23 @@
    "anteproyecto": "355",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Primer Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-03"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-04-02"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-03-25"
+    }
+   ],
    "fecha": "2025-03-25",
    "ficha": "7831",
    "proponente": "H.D MIGUEL ÁNGEL CAMPOS LIMA,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D NEFTALÍ OMAR ZAMORA IBARRA,H.D RICARDO AGUSTÍN VIGIL LÓPEZ,H.D EDWIN ANTONIO VERGARA CASTILLO,H.D JOSÉ LUIS VARELA RODRÍGUEZ,H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D OLGA PAULETTE THOMAS HORLY,H.D MANUEL ALBERTO SAMANIEGO RODRÍGUEZ,H.D CARLOS EDUARDO SALDAÑA LÓPEZ,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D JANINE PRADO CASTAÑO,H.D DIDIANO PINILLA RÍOS,H.D JOSÉ ANTONIO PÉREZ BARBONI,H.D PATSY CRISTINA LEE RENTERÍA DE HUANG,H.D JORGE LUIS HERRERA,H.D GRACIELA MERCEDES HERNÁNDEZ LACAYO,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D LUIS HENRIQUE DUKE WALKER,H.D YAMIRELIZ DAYMIRELKIS CHONG SMITH,H.D ARIANA MARISÍN COBA MARTÍNEZ,H.D RAPHAEL BUCHANAN JOSEPH,H.D ALEXANDRA MARÍA BRENES SAMANIEGO,H.D FRANCISCO JAVIER BREA TRISTÁN,H.D JORGE ISAAC BLOISE IGLESIAS,H.D WALKIRIA A. CHANDLER D´ORCY",
@@ -3119,6 +4306,28 @@
    "anteproyecto": "356",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Enviado a subcomisión para analisis",
+   "etapas": [
+    {
+     "comentario": "Conformada por los H.D. Roberto Zuñiga, Luis Camacho y Jose Perez.",
+     "etapa": "Enviado a subcomisión para analisis",
+     "fecha": "2025-10-14"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-30"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-04-30"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-03-27"
+    }
+   ],
    "fecha": "2025-03-27",
    "ficha": "7832",
    "proponente": "H.D JOSÉ ANTONIO PÉREZ BARBONI,H.D JORGE ISAAC BLOISE IGLESIAS",
@@ -3130,6 +4339,28 @@
    "anteproyecto": "361",
    "comision": "COMISION DE POBLACION, AMBIENTE Y DESARROLLO",
    "etapa": "Enviado a subcomisión para analisis",
+   "etapas": [
+    {
+     "comentario": "Conformada por los H.D. Graciela Hernandez, Arquesio Arias y Tomas Benavides.",
+     "etapa": "Enviado a subcomisión para analisis",
+     "fecha": "2025-09-03"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-24"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-04-23"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-04-02"
+    }
+   ],
    "fecha": "2025-04-02",
    "ficha": "7837",
    "proponente": "H.D WALKIRIA A. CHANDLER D´ORCY,H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D JANINE PRADO CASTAÑO,H.D YAMIRELIZ DAYMIRELKIS CHONG SMITH",
@@ -3141,6 +4372,33 @@
    "anteproyecto": "362",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Primer Debate",
+   "etapas": [
+    {
+     "comentario": "REGRESADO A DEBATE DESPUES DE ANÁLISIS",
+     "etapa": "Regresado de analisis por subcomisión",
+     "fecha": "2026-04-28"
+    },
+    {
+     "comentario": "Conformada por los H.D. Luis Duke, Isaac Mosquera y Nelson Jackson.",
+     "etapa": "Enviado a subcomisión para analisis",
+     "fecha": "2025-09-10"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-16"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-04-09"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-04-03"
+    }
+   ],
    "fecha": "2025-04-03",
    "ficha": "7838",
    "proponente": "H.D YAMIRELIZ DAYMIRELKIS CHONG SMITH,H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D JANINE PRADO CASTAÑO,H.D LUIS HENRIQUE DUKE WALKER,H.D ALEXANDRA MARÍA BRENES SAMANIEGO",
@@ -3152,6 +4410,33 @@
    "anteproyecto": "364",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Segundo Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-01-27"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-01-27"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-05-06"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-04-29"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-04-08"
+    }
+   ],
    "fecha": "2025-04-08",
    "ficha": "7840",
    "proponente": "H.D MEDIN JIMÉNEZ PITTI,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D NEFTALÍ OMAR ZAMORA IBARRA,H.D RICARDO AGUSTÍN VIGIL LÓPEZ,H.D EDUARDO ENRIQUE VÁSQUEZ GUTIÉRREZ,H.D JOSÉ LUIS VARELA RODRÍGUEZ,H.D MANUEL ALBERTO SAMANIEGO RODRÍGUEZ,H.D CARLOS EDUARDO SALDAÑA LÓPEZ,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D JANINE PRADO CASTAÑO,H.D JOSÉ ANTONIO PÉREZ BARBONI,H.D AUGUSTO EFRAÍN PALACIOS MUÑOZ,H.D JORGE LUIS HERRERA,H.D GRACIELA MERCEDES HERNÁNDEZ LACAYO,H.D JOAN MANUEL GUEVARA RODRÍGUEZ,H.D LUIS HENRIQUE DUKE WALKER,H.D JULIO DE LA GUARDIA ARROCHA,H.D RONALD AMETH DE GRACIA MORENO,H.D MANUEL CHENG PEÑALBA,H.D ARIANA MARISÍN COBA MARTÍNEZ,H.D ORLANDO VLADIMIR CARRASQUILLA BONILLA,H.D MIGUEL ÁNGEL CAMPOS LIMA,H.D FRANCISCO JAVIER BREA TRISTÁN,H.D JORGE ISAAC BLOISE IGLESIAS,H.D.S ROSALIA ELLIS SANTO,H.D.S MERCEDES A. GALVEZ USEDA,H.D CARLOS AGUSTIN AFU DECEREGA,H.D ALAIN ALBENIS CEDEÑO HERRERA",
@@ -3163,6 +4448,68 @@
    "anteproyecto": "366",
    "comision": "COMISION DE ASUNTOS AGROPECUARIOS",
    "etapa": "Ley",
+   "etapas": [
+    {
+     "comentario": "SANCIONADO POR EL ORGANO EJECUTIVO",
+     "etapa": "Ley",
+     "fecha": "2026-10-01"
+    },
+    {
+     "comentario": "ENVIADO AL ORGANO EJECUTIVO",
+     "etapa": "Enviado al Ejecutivo",
+     "fecha": "2026-08-26"
+    },
+    {
+     "comentario": "APROBADO EN III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2026-08-19"
+    },
+    {
+     "comentario": "PENDIENTE DE III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2026-08-18"
+    },
+    {
+     "comentario": "APROBADO EN II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-08-18"
+    },
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-04-29"
+    },
+    {
+     "comentario": "REGRESADO A DEBATE DESPUES DE ANÁLISIS",
+     "etapa": "Regresado de analisis por subcomisión",
+     "fecha": "2026-04-28"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-04-28"
+    },
+    {
+     "comentario": "Conformada por los H.D. Medin Jimenez, Patsy lee y Carlos Saldaña.",
+     "etapa": "Enviado a subcomisión para analisis",
+     "fecha": "2025-10-14"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-30"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-04-29"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-04-09"
+    }
+   ],
    "fecha": "2025-04-09",
    "ficha": "7842",
    "proponente": "H.D MEDIN JIMÉNEZ PITTI,H.D YESICA ROMERO GARCÍA,H.D JULIO DE LA GUARDIA ARROCHA",
@@ -3174,6 +4521,18 @@
    "anteproyecto": "0",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Primer Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-10"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-04-09"
+    }
+   ],
    "fecha": "2025-04-09",
    "ficha": "7843",
    "proponente": "H.D JAIRO ARIEL SALAZAR RAMIREZ,H.D.S JUAN DOMINGO DÍAZ CONCEPCIÓN,H.D EDWIN ANTONIO VERGARA CASTILLO,H.D ARIEL ULISES VALLARINO APARICIO,H.D YESICA ROMERO GARCÍA,H.D GERTRUDIS RODRÍGUEZ DE GRACIA,H.D.S BENISIO ENISIO ROBINSON GONZÁLEZ,H.D.S ABELARDO ENRIQUE ANTONÍO QUIJANO,H.D DIDIANO PINILLA RÍOS,H.D ISAAC MOSQUERA RIVAS,H.D YUZAIDA ANDREA MARÍN NATERON DE AGUILAR,H.D RONALD AMETH DE GRACIA MORENO,H.D VÍCTOR DE JESÚS CASTILLO CORTEZ,H.D SHIRLEY DE LA ROSA CASTAÑEDAS VALENTÍN,H.D ORLANDO VLADIMIR CARRASQUILLA BONILLA,H.D LUIS EDUARDO CAMACHO CASTRO,H.D FLOR ISABEL BRENES MEDINA,H.D TOMAS GABRIEL BENAVIDES AGUILAR,H.D JAIME EDGARDO VARGAS CENTELLA,H.D NELSON JACKSON PALMA,H.D NESTOR ANTONIO GUARDIA JAEN,H.D SERGIO RAFAEL GALVEZ EVERS,H.D ALAIN ALBENIS CEDEÑO HERRERA,H.D MARCOS ENRIQUE CASTILLERO BARAHONA,H.D LILIA EMERITA BATISTA RODRIGUEZ,H.D ARQUESIO ARIAS FELIX",
@@ -3185,6 +4544,53 @@
    "anteproyecto": "0",
    "comision": "COMISION DE RELACIONES EXTERIORES",
    "etapa": "Ley",
+   "etapas": [
+    {
+     "comentario": "SANCIONADO POR EL ORGANO EJECUTIVO",
+     "etapa": "Ley",
+     "fecha": "2025-10-15"
+    },
+    {
+     "comentario": "ENVIADO AL ORGANO EJECUTIVO",
+     "etapa": "Enviado al Ejecutivo",
+     "fecha": "2025-09-25"
+    },
+    {
+     "comentario": "APROBADO EN III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2025-09-25"
+    },
+    {
+     "comentario": "PENDIENTE DE III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2025-09-23"
+    },
+    {
+     "comentario": "APROBADO EN II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-09-23"
+    },
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-04-29"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-23"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-15"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-04-10"
+    }
+   ],
    "fecha": "2025-04-10",
    "ficha": "7844",
    "proponente": "MINISTERIO DE RELACIONES EXTERIORES",
@@ -3196,6 +4602,53 @@
    "anteproyecto": "0",
    "comision": "COMISION DE RELACIONES EXTERIORES",
    "etapa": "Ley",
+   "etapas": [
+    {
+     "comentario": "SANCIONADO POR EL ORGANO EJECUTIVO",
+     "etapa": "Ley",
+     "fecha": "2025-09-19"
+    },
+    {
+     "comentario": "ENVIADO AL ORGANO EJECUTIVO",
+     "etapa": "Enviado al Ejecutivo",
+     "fecha": "2025-08-26"
+    },
+    {
+     "comentario": "APROBADO EN III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2025-08-20"
+    },
+    {
+     "comentario": "PENDIENTE DE III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2025-08-19"
+    },
+    {
+     "comentario": "APROBADO EN II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-08-19"
+    },
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-04-29"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-23"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-15"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-04-10"
+    }
+   ],
    "fecha": "2025-04-10",
    "ficha": "7845",
    "proponente": "MINISTERIO DE RELACIONES EXTERIORES",
@@ -3218,6 +4671,53 @@
    "anteproyecto": "0",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Ley",
+   "etapas": [
+    {
+     "comentario": "SANCIONADO POR EL ORGANO EJECUTIVO",
+     "etapa": "Ley",
+     "fecha": "2025-11-13"
+    },
+    {
+     "comentario": "ENVIADO AL ORGANO EJECUTIVO",
+     "etapa": "Enviado al Ejecutivo",
+     "fecha": "2025-10-23"
+    },
+    {
+     "comentario": "APROBADO EN III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2025-10-15"
+    },
+    {
+     "comentario": "PENDIENTE DE III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2025-10-14"
+    },
+    {
+     "comentario": "APROBADO EN II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-10-14"
+    },
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-09-10"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-09-10"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-22"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-04-21"
+    }
+   ],
    "fecha": "2025-04-21",
    "ficha": "7851",
    "proponente": "MINISTERIO DE CULTURA",
@@ -3229,6 +4729,53 @@
    "anteproyecto": "0",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Ley",
+   "etapas": [
+    {
+     "comentario": "SANCIONADO POR EL ORGANO EJECUTIVO",
+     "etapa": "Ley",
+     "fecha": "2026-03-05"
+    },
+    {
+     "comentario": "ENVIADO AL ORGANO EJECUTIVO",
+     "etapa": "Enviado al Ejecutivo",
+     "fecha": "2026-01-14"
+    },
+    {
+     "comentario": "APROBADO EN III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2026-01-13"
+    },
+    {
+     "comentario": "PENDIENTE DE III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2026-01-12"
+    },
+    {
+     "comentario": "APROBADO EN II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-01-12"
+    },
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-10-13"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-10-08"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-22"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-04-21"
+    }
+   ],
    "fecha": "2025-04-21",
    "ficha": "7852",
    "proponente": "MINISTERIO DE CULTURA",
@@ -3240,6 +4787,18 @@
    "anteproyecto": "0",
    "comision": "COMISION DE CREDENCIALES, REGLAMENTO, ETICA PARLAMENTARIA Y ASUNTOS JUDICIALES",
    "etapa": "Primer Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-24"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-04-22"
+    }
+   ],
    "fecha": "2025-04-22",
    "ficha": "7853",
    "proponente": "H.D DANA D. CASTAÑEDA GUARDIA",
@@ -3251,6 +4810,18 @@
    "anteproyecto": "0",
    "comision": "COMISION DE CREDENCIALES, REGLAMENTO, ETICA PARLAMENTARIA Y ASUNTOS JUDICIALES",
    "etapa": "Primer Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-24"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-04-23"
+    }
+   ],
    "fecha": "2025-04-23",
    "ficha": "7854",
    "proponente": "H.D FRANCISCO JAVIER BREA TRISTÁN,H.D.S JUAN DOMINGO DÍAZ CONCEPCIÓN,H.D ARIEL ULISES VALLARINO APARICIO,H.D GERTRUDIS RODRÍGUEZ DE GRACIA,H.D.S ANA MARÍA POVEDA HERRERA,H.D ISAAC MOSQUERA RIVAS,H.D.S ARIEL ANÍBAL RÍOS ZAPATA,H.D.S BOLIVAR ENRIQUE ESCALA VERGARA,H.D MANUEL COHEN SALERNO,H.D ELIECER CASTRELLÓN BARRIOS,H.D LUIS EDUARDO CAMACHO CASTRO,H.D RAPHAEL BUCHANAN JOSEPH,H.D MARCOS ENRIQUE CASTILLERO BARAHONA",
@@ -3262,6 +4833,18 @@
    "anteproyecto": "0",
    "comision": "COMISION DE CREDENCIALES, REGLAMENTO, ETICA PARLAMENTARIA Y ASUNTOS JUDICIALES",
    "etapa": "Primer Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-24"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-04-23"
+    }
+   ],
    "fecha": "2025-04-23",
    "ficha": "7855",
    "proponente": "H.D MANUEL CHENG PEÑALBA",
@@ -3273,6 +4856,48 @@
    "anteproyecto": "0",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Ley",
+   "etapas": [
+    {
+     "comentario": "SANCIONADO POR EL ORGANO EJECUTIVO",
+     "etapa": "Ley",
+     "fecha": "2025-06-17"
+    },
+    {
+     "comentario": "ENVIADO AL ORGANO EJECUTIVO",
+     "etapa": "Enviado al Ejecutivo",
+     "fecha": "2025-06-13"
+    },
+    {
+     "comentario": "PENDIENTE DE III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2025-06-11"
+    },
+    {
+     "comentario": "APROBADO EN III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2025-06-11"
+    },
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-06-10"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-06-09"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-06-06"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-06-04"
+    }
+   ],
    "fecha": "2025-06-04",
    "ficha": "7868",
    "proponente": "MINISTERIO DE VIVIENDA Y ORDENAMIENTO TERRITORIAL",
@@ -3284,6 +4909,53 @@
    "anteproyecto": "0",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Ley",
+   "etapas": [
+    {
+     "comentario": "SANCIONADO POR EL ORGANO EJECUTIVO",
+     "etapa": "Ley",
+     "fecha": "2025-06-16"
+    },
+    {
+     "comentario": "ENVIADO AL ORGANO EJECUTIVO",
+     "etapa": "Enviado al Ejecutivo",
+     "fecha": "2025-06-13"
+    },
+    {
+     "comentario": "APROBADO EN III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2025-06-13"
+    },
+    {
+     "comentario": "PENDIENTE DE III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2025-06-12"
+    },
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-06-12"
+    },
+    {
+     "comentario": "APROBADO EN II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-06-12"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-06-11"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-06-11"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-06-11"
+    }
+   ],
    "fecha": "2025-06-11",
    "ficha": "7872",
    "proponente": "MINISTERIO DE TRABAJO Y DESARROLLO LABORAL",
@@ -3581,6 +5253,23 @@
    "anteproyecto": "4",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Primer Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-09-02"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-08-28"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-07-02"
+    }
+   ],
    "fecha": "2025-07-02",
    "ficha": "7884",
    "proponente": "GISELLE DE LA HOZ",
@@ -3592,6 +5281,33 @@
    "anteproyecto": "5",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Primer Debate",
+   "etapas": [
+    {
+     "comentario": "REGRESADO A DEBATE DESPUES DE ANÁLISIS",
+     "etapa": "Regresado de analisis por subcomisión",
+     "fecha": "2026-02-04"
+    },
+    {
+     "comentario": "Conformada por los H.D. Betserai Richards, Ronald De Gracia y Crispiano Adames.",
+     "etapa": "Enviado a subcomisión para analisis",
+     "fecha": "2025-09-24"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-09-02"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-08-28"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-07-02"
+    }
+   ],
    "fecha": "2025-07-02",
    "ficha": "7885",
    "proponente": "H.D EDUARDO ALEJANDRO GAITÁN BEITÍA,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D JHONATHAN EDIR VEGA,H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D OLGA PAULETTE THOMAS HORLY,H.D MANUEL ALBERTO SAMANIEGO RODRÍGUEZ,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D JANINE PRADO CASTAÑO,H.D.S ANA MARÍA POVEDA HERRERA,H.D PATSY CRISTINA LEE RENTERÍA DE HUANG,H.D LUIS HENRIQUE DUKE WALKER,H.D ARIANA MARISÍN COBA MARTÍNEZ,H.D MIGUEL ÁNGEL CAMPOS LIMA,H.D FRANCISCO JAVIER BREA TRISTÁN",
@@ -3603,6 +5319,38 @@
    "anteproyecto": "17",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Primer Debate",
+   "etapas": [
+    {
+     "comentario": "Devuelto a ID: Propuesta aprobada por el pleno.",
+     "etapa": "Primer Debate",
+     "fecha": "2026-03-30"
+    },
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-03-12"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-03-11"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-09-18"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-09-17"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-07-02"
+    }
+   ],
    "fecha": "2025-07-02",
    "ficha": "7886",
    "proponente": "H.D ERNESTO CEDEÑO ALVARADO",
@@ -3614,6 +5362,18 @@
    "anteproyecto": "7",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Archivado",
+   "etapas": [
+    {
+     "comentario": "Devuelto sin prohijar mediante nota 2026_734_AN_CGJYAC",
+     "etapa": "Archivado",
+     "fecha": "2026-03-04"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-07-02"
+    }
+   ],
    "fecha": "2025-07-02",
    "ficha": "7887",
    "proponente": "H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D NEFTALÍ OMAR ZAMORA IBARRA,H.D JHONATHAN EDIR VEGA,H.D JOSÉ LUIS VARELA RODRÍGUEZ,H.D OLGA PAULETTE THOMAS HORLY,H.D MANUEL ALBERTO SAMANIEGO RODRÍGUEZ,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D JANINE PRADO CASTAÑO,H.D JOSÉ ANTONIO PÉREZ BARBONI,H.D AUGUSTO EFRAÍN PALACIOS MUÑOZ,H.D PATSY CRISTINA LEE RENTERÍA DE HUANG,H.D GRACIELA MERCEDES HERNÁNDEZ LACAYO,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D EDUARDO ALEJANDRO GAITÁN BEITÍA,H.D LUIS HENRIQUE DUKE WALKER,H.D JULIO DE LA GUARDIA ARROCHA,H.D YAMIRELIZ DAYMIRELKIS CHONG SMITH,H.D ARIANA MARISÍN COBA MARTÍNEZ,H.D ERNESTO CEDEÑO ALVARADO,H.D MIGUEL ÁNGEL CAMPOS LIMA,H.D ALEXANDRA MARÍA BRENES SAMANIEGO,H.D JORGE ISAAC BLOISE IGLESIAS,H.D ROBERTO ARCHIBOLD CHUITO,H.D WALKIRIA A. CHANDLER D´ORCY",
@@ -3625,6 +5385,18 @@
    "anteproyecto": "18",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Archivado",
+   "etapas": [
+    {
+     "comentario": "Devuelto sin prohijar mediante nota No. 2025_421_AN_CGJYAC",
+     "etapa": "Archivado",
+     "fecha": "2025-08-26"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-07-02"
+    }
+   ],
    "fecha": "2025-07-02",
    "ficha": "7888",
    "proponente": "H.D ERNESTO CEDEÑO ALVARADO",
@@ -3636,6 +5408,33 @@
    "anteproyecto": "6",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Segundo Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-02-02"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-01-21"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-09-10"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-09-09"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-07-02"
+    }
+   ],
    "fecha": "2025-07-02",
    "ficha": "7889",
    "proponente": "H.D ALEXANDRA MARÍA BRENES SAMANIEGO,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D OLGA PAULETTE THOMAS HORLY,H.D MANUEL ALBERTO SAMANIEGO RODRÍGUEZ,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D JANINE PRADO CASTAÑO,H.D JOSÉ ANTONIO PÉREZ BARBONI,H.D AUGUSTO EFRAÍN PALACIOS MUÑOZ,H.D YUZAIDA ANDREA MARÍN NATERON DE AGUILAR,H.D PATSY CRISTINA LEE RENTERÍA DE HUANG,H.D GRACIELA MERCEDES HERNÁNDEZ LACAYO,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D EDUARDO ALEJANDRO GAITÁN BEITÍA,H.D LUIS HENRIQUE DUKE WALKER,H.D YAMIRELIZ DAYMIRELKIS CHONG SMITH,H.D ARIANA MARISÍN COBA MARTÍNEZ,H.D SHIRLEY DE LA ROSA CASTAÑEDAS VALENTÍN,H.D MIGUEL ÁNGEL CAMPOS LIMA,H.D FLOR ISABEL BRENES MEDINA,H.D FRANCISCO JAVIER BREA TRISTÁN,H.D JORGE ISAAC BLOISE IGLESIAS,H.D WALKIRIA A. CHANDLER D´ORCY",
@@ -3647,6 +5446,33 @@
    "anteproyecto": "11",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Segundo Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-04-16"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-04-15"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-09-25"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-09-23"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-07-02"
+    }
+   ],
    "fecha": "2025-07-02",
    "ficha": "7891",
    "proponente": "H.D JANINE PRADO CASTAÑO,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D NEFTALÍ OMAR ZAMORA IBARRA,H.D JHONATHAN EDIR VEGA,H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D OLGA PAULETTE THOMAS HORLY,H.D MANUEL ALBERTO SAMANIEGO RODRÍGUEZ,H.D CARLOS EDUARDO SALDAÑA LÓPEZ,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D AUGUSTO EFRAÍN PALACIOS MUÑOZ,H.D PATSY CRISTINA LEE RENTERÍA DE HUANG,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D EDUARDO ALEJANDRO GAITÁN BEITÍA,H.D LUIS HENRIQUE DUKE WALKER,H.D YAMIRELIZ DAYMIRELKIS CHONG SMITH,H.D ARIANA MARISÍN COBA MARTÍNEZ,H.D MIGUEL ÁNGEL CAMPOS LIMA,H.D ALEXANDRA MARÍA BRENES SAMANIEGO,H.D FRANCISCO JAVIER BREA TRISTÁN,H.D JORGE ISAAC BLOISE IGLESIAS,H.D WALKIRIA A. CHANDLER D´ORCY",
@@ -3658,6 +5484,58 @@
    "anteproyecto": "20",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Ley",
+   "etapas": [
+    {
+     "comentario": "SANCIONADO POR EL ORGANO EJECUTIVO",
+     "etapa": "Ley",
+     "fecha": "2026-04-01"
+    },
+    {
+     "comentario": "ENVIADO AL ORGANO EJECUTIVO",
+     "etapa": "Enviado al Ejecutivo",
+     "fecha": "2026-03-13"
+    },
+    {
+     "comentario": "APROBADO EN III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2026-03-12"
+    },
+    {
+     "comentario": "PENDIENTE DE III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2026-03-11"
+    },
+    {
+     "comentario": "APROBADO EN II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-03-11"
+    },
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-01-19"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-09-24"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-08-28"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-08-20"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-07-02"
+    }
+   ],
    "fecha": "2025-07-02",
    "ficha": "7893",
    "proponente": "H.D JOSÉ LUIS VARELA RODRÍGUEZ",
@@ -3669,6 +5547,33 @@
    "anteproyecto": "14",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Negado",
+   "etapas": [
+    {
+     "comentario": "Negado por la comisión y presentado al pleno el 21 de abril de 2026",
+     "etapa": "Negado",
+     "fecha": "2026-04-15"
+    },
+    {
+     "comentario": "Conformada por los H.D. Gertrudis Rodriguez, Osman Gómez y Jorge Bloise.",
+     "etapa": "Enviado a subcomisión para analisis",
+     "fecha": "2025-10-01"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-08-14"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-08-13"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-07-02"
+    }
+   ],
    "fecha": "2025-07-02",
    "ficha": "7895",
    "proponente": "H.D ERNESTO CEDEÑO ALVARADO",
@@ -3680,6 +5585,43 @@
    "anteproyecto": "15",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Segundo Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-02-02"
+    },
+    {
+     "comentario": "REGRESADO A DEBATE DESPUES DE ANÁLISIS",
+     "etapa": "Regresado de analisis por subcomisión",
+     "fecha": "2026-01-27"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-01-27"
+    },
+    {
+     "comentario": "Conformada por los H.D. Luis Duke, Manuel Cohen y Nelson Jackson.",
+     "etapa": "Enviado a subcomisión para analisis",
+     "fecha": "2025-09-10"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-08-26"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-08-20"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-07-02"
+    }
+   ],
    "fecha": "2025-07-02",
    "ficha": "7896",
    "proponente": "H.D ERNESTO CEDEÑO ALVARADO",
@@ -12796,6 +14738,24 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTÍCULOS A LA LEY 57 DEL 5 DE OCTUBRE DE 1976 POR LA CUAL SE CREA UNA NOTARIA ESPECIAL, EN EL CIRCUITO NOTARIAL DE PANAMA QUE FUNCIONARA EN EL DISTRITO DE SAN MIGUELITO"
   },
   "8199": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2: Aplica la ley a centros educativos oficiales y particulares de difícil acceso sin condiciones seguras de movilidad.",
+     "Artículo 5: Prohíbe el traslado de estudiantes y docentes por vías peligrosas o cuerpos de agua sin infraestructura segura o transporte regulado.",
+     "Artículo 6: Define el sistema de estudios por módulos como alternativa temporal mientras persistan situaciones de riesgo de traslado."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1rq7vJ_Q2XTWIK41kUsj6pdpxyxeX619d",
+    "fecha_analisis": "2026-10-09",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.5-flash",
+    "razon": "La iniciativa regula primordialmente la actividad del sector público (MEDUCA, MOP, SINAPROC) y la infraestructura estatal, sin generar obligaciones, costos o impactos directos para el sector empresarial privado.",
+    "resumen": "Propone un marco legal para garantizar la seguridad y continuidad educativa de estudiantes y docentes en zonas rurales de difícil acceso, obligando al Estado a proveer infraestructura segura o educación modular alternativa ante riesgos climáticos o geográficos.",
+    "sectores": [],
+    "titulo": "Que establece un programa de educación segura para comunidades rurales de difícil acceso",
+    "titulo_corto": "Programa de educación segura en áreas de difícil acceso"
+   },
    "anteproyecto": "289",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Objetado por Ejecutivo",
@@ -18588,6 +20548,93 @@
    "anteproyecto": "335",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Ley",
+   "etapas": [
+    {
+     "comentario": "SANCIONADO POR EL ORGANO EJECUTIVO",
+     "etapa": "Ley",
+     "fecha": "2026-09-29"
+    },
+    {
+     "comentario": "ENVIADO AL ORGANO EJECUTIVO",
+     "etapa": "Enviado al Ejecutivo",
+     "fecha": "2026-09-21"
+    },
+    {
+     "comentario": "APROBADO EN III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2026-09-16"
+    },
+    {
+     "comentario": "PENDIENTE DE III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2026-09-16"
+    },
+    {
+     "comentario": "APROBADO EN II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-09-16"
+    },
+    {
+     "comentario": "INFORME DE LA COMISIÓN",
+     "etapa": "Objetado por Ejecutivo",
+     "fecha": "2026-04-29"
+    },
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-04-29"
+    },
+    {
+     "comentario": "OBJETADO POR EL ORGANO EJECUTIVO",
+     "etapa": "Objetado por Ejecutivo",
+     "fecha": "2026-04-07"
+    },
+    {
+     "comentario": "ENVIADO AL ORGANO EJECUTIVO",
+     "etapa": "Enviado al Ejecutivo",
+     "fecha": "2026-02-25"
+    },
+    {
+     "comentario": "APROBADO EN III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2026-02-02"
+    },
+    {
+     "comentario": "PENDIENTE DE III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2026-01-26"
+    },
+    {
+     "comentario": "APROBADO EN II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-01-26"
+    },
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2025-08-20"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-08-19"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2025-04-03"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2025-04-02"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2025-03-18"
+    }
+   ],
    "fecha": "2025-03-18",
    "ficha": "8396",
    "proponente": "H.D PATSY CRISTINA LEE RENTERÍA DE HUANG,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D JANINE PRADO CASTAÑO,H.D EDUARDO ALEJANDRO GAITÁN BEITÍA,H.D YAMIRELIZ DAYMIRELKIS CHONG SMITH,H.D MIGUEL ÁNGEL CAMPOS LIMA,H.D JORGE ISAAC BLOISE IGLESIAS",
@@ -24623,56 +26670,56 @@
   "7779": "7e79bda4b304",
   "7782": "7b0a91ca429c",
   "7783": "9ee5c5f97d0a",
-  "7785": "96dfb92f071f",
-  "7786": "daa42d168f77",
-  "7787": "ff1691f639bd",
-  "7789": "67e64d677a27",
-  "7790": "87796f7a13db",
-  "7791": "cfb530a866b1",
-  "7792": "896f900c90bc",
-  "7793": "17365bba80c2",
-  "7794": "b46d9a81f333",
-  "7795": "cef7ea75786a",
-  "7796": "72a7b9cee949",
-  "7797": "d3097f24d090",
-  "7798": "52dcfb6b0dd4",
-  "7800": "51201be51104",
-  "7801": "ce2803eda58a",
-  "7802": "319b2cfef781",
-  "7804": "f0db22a54d0e",
-  "7805": "83f7ad12d5a0",
-  "7808": "a65516649058",
-  "7810": "1402319c1848",
-  "7811": "ec4600929bd1",
-  "7812": "ea8bfa20e16c",
-  "7813": "f1c37edc3038",
-  "7820": "254cf790e11d",
-  "7821": "5c6b3afc4c2e",
-  "7822": "168e9d2a7901",
-  "7823": "68faa7d8dcde",
-  "7824": "0c598e55820b",
-  "7825": "b62c9d70b6d1",
-  "7826": "0f2133302f2b",
-  "7827": "080de0974130",
-  "7829": "7fd900876939",
-  "7830": "79923a5b1639",
-  "7831": "9ddbdb323317",
-  "7832": "61c39dbb9913",
-  "7837": "f409b62fd0e3",
-  "7838": "96a29cf0cf01",
-  "7840": "cea42dde752d",
-  "7842": "216d1e629310",
-  "7843": "5b473fceee3a",
-  "7844": "f2c280ca50e7",
-  "7845": "3c02bac0f3ae",
+  "7785": "44c46c594077",
+  "7786": "9e8f58be39c5",
+  "7787": "896ebb4a1fa9",
+  "7789": "181b9528758f",
+  "7790": "f682309bc539",
+  "7791": "5bb960e3853c",
+  "7792": "fb099b419626",
+  "7793": "7e8464627753",
+  "7794": "e0e63f0417e7",
+  "7795": "997ff84fae7a",
+  "7796": "90b0f3c48ce2",
+  "7797": "3ff12af35b1e",
+  "7798": "715de1281fa4",
+  "7800": "6dc1e0f02df3",
+  "7801": "c5c5dbe2c128",
+  "7802": "50ffc815db77",
+  "7804": "db431e9ca307",
+  "7805": "30aae3d49324",
+  "7808": "9f766c9d688f",
+  "7810": "2b371395182a",
+  "7811": "4b93dfed9035",
+  "7812": "6a55809f45ff",
+  "7813": "e0632217a52f",
+  "7820": "ec72b215b47b",
+  "7821": "f8f08ce8cc7a",
+  "7822": "6652c1b95d07",
+  "7823": "e06b0ecab45e",
+  "7824": "d4ca8a9ab184",
+  "7825": "cc86248afa4f",
+  "7826": "ea69985c983d",
+  "7827": "832c758ef249",
+  "7829": "0575c5301e9b",
+  "7830": "c5fc4c8b37d1",
+  "7831": "ef520018c8cf",
+  "7832": "2b2369a789cc",
+  "7837": "c382dc1baaa0",
+  "7838": "49a3f8b5f858",
+  "7840": "9e1f1f9d0e5a",
+  "7842": "23bcf764d750",
+  "7843": "280bd2aa35d6",
+  "7844": "fb9fac0ce23b",
+  "7845": "c5480522b8b4",
   "7848": "05fa36c08c33",
-  "7851": "989cd5d0ab87",
-  "7852": "3572fc60be87",
-  "7853": "0be92d332bbe",
-  "7854": "224ba586ca25",
-  "7855": "19732979969f",
-  "7868": "a3be51927329",
-  "7872": "f8c8da4e323d",
+  "7851": "147e96525ae5",
+  "7852": "9dfe70b41fff",
+  "7853": "4f212860b0ca",
+  "7854": "a432f523e5cd",
+  "7855": "9a3b693b1011",
+  "7868": "f5731cc43a0c",
+  "7872": "0948f5f57ce5",
   "7877": "df1fc092a90c",
   "7878": "61eb6c0605b1",
   "7879": "559cf0785c12",
@@ -24680,16 +26727,16 @@
   "7881": "80239af66083",
   "7882": "bd5d4e295dd6",
   "7883": "71559773d48b",
-  "7884": "1266e05bc3d0",
-  "7885": "b65f790b228d",
-  "7886": "5ffd10c7f696",
-  "7887": "aaae3d0b0086",
-  "7888": "ec2436fc8366",
-  "7889": "b549e6744b64",
-  "7891": "f452729e25d2",
-  "7893": "e2de3c098717",
-  "7895": "c9f7da2d9b04",
-  "7896": "f12b6927c044",
+  "7884": "c55f0a7c888e",
+  "7885": "dde43749e85d",
+  "7886": "0823f7e68912",
+  "7887": "32f12c9b8e9b",
+  "7888": "f46e87e7a05b",
+  "7889": "8afff99df1a9",
+  "7891": "3c3d2434288d",
+  "7893": "004b2347f3e1",
+  "7895": "3cd128a30274",
+  "7896": "eea3302fe669",
   "7898": "d18f0d9dce10",
   "7899": "d4e2316e5013",
   "7900": "e8b0ab7aa511",
@@ -24933,7 +26980,7 @@
   "8196": "cfde496430ff",
   "8197": "aa3ebea49d2e",
   "8198": "13ab0fce41ba",
-  "8199": "64c1ea195dfc",
+  "8199": "e94570b9339b",
   "8200": "b920ab85f762",
   "8201": "fe65d455c89c",
   "8203": "f8527db787e6",
@@ -25092,7 +27139,7 @@
   "8392": "c997ec82b1bc",
   "8394": "d9a187b79850",
   "8395": "e36721da4b7e",
-  "8396": "0f75ef9342e3",
+  "8396": "8259f9b24a79",
   "8397": "bc4362e8af53",
   "8398": "03491c6d4774",
   "8399": "a1ec35a51e29",
@@ -25336,7 +27383,7 @@
    "8308",
    "8298"
   ],
-  "fecha": "2026-10-09T08:46:34",
+  "fecha": "2026-10-09T09:44:35",
   "notas": {
    "7779": "399fc6670871",
    "8298": "399fc6670871",
@@ -25670,7 +27717,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-09T08:47:01"
+  "revisada": "2026-10-09T09:45:01"
  },
- "ultima_corrida": "2026-10-09T08:46:34"
+ "ultima_corrida": "2026-10-09T09:44:35"
 }
