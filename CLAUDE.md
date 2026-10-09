@@ -42,7 +42,15 @@ sirva, pero no se comparte código ni datos. Alcance: todo lo de KeyCurul (alert
   completo, gaceta, fecha y `procedureNumber` p. ej. `2025_P_0287`, que une la ley con su proyecto).
 - **Orden del Día del Pleno**: https://www.asamblea.gob.pa/Page/LABORLEGISLATIVA/OrdenDelDia, PDF diario en
   /Uploads/OrdenDia/<id>/…pdf. El sitio www.asamblea.gob.pa tiene anti-bots F5 (TSPD): curl falla; hará falta navegador.
-- No sirven: Agenda de Comisiones (abandonada desde julio de 2024) y votaciones de prensa507 (vacías).
+- **Noticias y Agenda de Comisiones** (www.asamblea.gob.pa, anti-bots F5: solo con navegador): las lee `prensa.py` (la
+  Cronista) con Playwright. APIs JSON desde la misma página: GET /Data/Noticias/Client/0/List?page=N&pageSize=30 (+ texto en
+  /Noticias/Noticias/<slug>) y POST /Data/Agenda/List/0 (DataTables; ordenar desc por la columna 4). OJO: la Agenda NO está
+  abandonada; la tabla viene ordenada de la más vieja a la más nueva. Cruce con fichas por número ("proyecto de Ley 569",
+  "Anteproyectos de Ley: 154 «…», 148 «…»") confirmado con las palabras del título que acompaña al número (la prensa
+  llama "proyecto" a anteproyectos). Notas → tabla eventos (fuente noticia, con url); agenda → tablas agenda y
+  agenda_fichas. Telegram: nota o sesión nueva sobre ficha de impacto alto/medio. Paso propio en el workflow
+  (continue-on-error).
+- No sirven: votaciones de prensa507 (vacías).
 
 Diferencias con Ecuador: tres debates, prohijamiento (anteproyecto → proyecto), sin correo ni boletines.
 
@@ -63,7 +71,7 @@ Antonio Pérez Barboni"): 124 personas. El primero de la lista es el principal.
 Worker de Cloudflare `agente-panama` (https://agente-panama.agentemonitoreopa.workers.dev), binding D1 `DB`.
 Desplegar: `python3 bot/desplegar.py` (todo: código, claves y webhook de Telegram) o `--codigo` (solo worker.js y
 oficina.html; tarda unos segundos en propagarse). BOT_WEBHOOK_SECRET y OFICINA_CLAVE se generan la primera vez en .env.
-Autorizados del bot: BOT_AUTORIZADOS (si no está, TELEGRAM_CHAT_ID). Gemini: la misma GEMINI_KEY gratuita.
+Telegram es SOLO de notificaciones (decisión de Andrés, 2026-10-08): a cualquier mensaje responde que se pregunte en la oficina. Gemini: la misma GEMINI_KEY gratuita.
 - Cerebro (`responder`): 1) un modelo liviano (MODELOS_RAPIDOS, Flash-Lite) recibe el índice de las 931 fichas y las
   listas de proponentes, comisiones, etapas y sectores, y devuelve fichas a leer y filtros; 2) se arma el contexto con
   D1 (listado con totales ya contados por rol, etapa e impacto; Gemini no debe contar filas) y el .md más reciente de
