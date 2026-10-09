@@ -514,8 +514,8 @@ var QUE_HACE = {
   revisor: ["Revisa el Seguimiento Legislativo", "Cada hora lee todas las fichas de la Asamblea, detecta los anteproyectos nuevos y los cambios de etapa, y baja el PDF de cada uno."],
   analista: ["Lee y evalúa cada proyecto", "Resume cada proyecto, identifica las disposiciones que afectan a empresas y califica su impacto en cada uno de los 13 sectores con nuestros criterios."],
   archivista: ["Ordena los expedientes", "Guarda cada PDF y su análisis en Drive, en la carpeta de su comisión y de su proyecto, y mantiene al día la matriz de seguimiento."],
-  mensajera: ["Envía las alertas", "Manda a Telegram cada anteproyecto nuevo y cada avance de etapa, con su PDF y su impacto."],
-  asistente: ["Responde en Telegram", "Contesta las preguntas del equipo sobre cualquier proyecto o diputado, con la base y los análisis como fuente."],
+  mensajera: ["Envía las alertas", "Es la única que usa Telegram: manda cada anteproyecto nuevo y cada avance de etapa, con su PDF y su impacto."],
+  asistente: ["Ayuda a Kiwi en la oficina", "Busca en la base y en los análisis lo que haga falta para responder las preguntas del equipo sobre cualquier proyecto o diputado."],
   cronista: ["Sigue los debates y las comisiones", "Lee el historial de cada proyecto (prohijamiento, primer, segundo y tercer debate, sanción) y revisa en qué comisión está cada uno."],
   jefe: ["El jefe de la oficina", "Tú le preguntas y él va al escritorio de quien sepa la respuesta. En Panamá trabaja en guayabera."]
 };
@@ -605,24 +605,23 @@ function escritorio(a) {
    botones y bolsillos) en lugar de la corbata de Ecuador. */
 function kiwiCuerpo(g) {
   return '<defs><radialGradient id="' + g + '" cx="40%" cy="35%" r="70%"><stop offset="0" stop-color="#c9ee86"/><stop offset=".55" stop-color="#9bd14e"/><stop offset="1" stop-color="#78b336"/></radialGradient>' +
-    '<linearGradient id="' + g + 'g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#efe8d6"/></linearGradient>' +
+    '<linearGradient id="' + g + 'g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbf4e2"/><stop offset="1" stop-color="#efe2c0"/></linearGradient>' +
     '<clipPath id="' + g + 'c"><ellipse cx="45" cy="112" rx="40" ry="48"/></clipPath></defs>' +
     '<ellipse cx="45" cy="168" rx="30" ry="5" fill="#000" opacity=".12"/>' +
     '<path d="M40 66c-3-10 1-17 7-19-1 6 0 12 3 17M46 64c1-11 7-16 14-15-4 5-6 10-6 16M36 68c-6-6-7-12-4-17 2 5 5 9 9 12" fill="#8cc742"/>' +
     '<ellipse cx="45" cy="112" rx="40" ry="48" fill="url(#' + g + ')"/>' +
     '<g clip-path="url(#' + g + 'c)">' +
-      '<path d="M0 118q22-6 45 0q23-6 45 0v50H0z" fill="url(#' + g + 'g)"/>' +
-      '<path d="M45 118v42" stroke="#e1d7bf" stroke-width="1.2"/>' +
-      '<path d="M27 124v34M31 124v34M59 124v34M63 124v34" stroke="#e3d9c2" stroke-width="1.3"/>' +
-      '<path d="M8 141q37 5 74 0" stroke="#e3d9c2" stroke-width="1.1" fill="none"/>' +
-      '<path d="M17 136h9v8h-9zM64 136h9v8h-9z" fill="none" stroke="#d8ccb1" stroke-width="1.2"/>' +
-      '<path d="M17 136h9l-1 3h-7zM64 136h9l-1 3h-7z" fill="#e9e1cc"/>' +
-      '<g fill="#cdbf9f"><circle cx="45" cy="128" r="1.3"/><circle cx="45" cy="137" r="1.3"/><circle cx="45" cy="146" r="1.3"/><circle cx="45" cy="155" r="1.3"/><circle cx="21.5" cy="138" r=".9"/><circle cx="68.5" cy="138" r=".9"/></g>' +
+      '<path d="M0 116q22-5 45 2q23-7 45-2v30q-45 13-90 0z" fill="url(#' + g + 'g)"/>' +
+      '<path d="M0 146q45 13 90 0" fill="none" stroke="#dccba0" stroke-width="1.2"/>' +
+      '<path d="M30 125v24M33.5 125v25M56.5 125v25M60 125v24" stroke="#d5c08f" stroke-width="1.1"/>' +
+      '<g fill="#c9ad6e"><circle cx="31.75" cy="129" r=".8"/><circle cx="31.75" cy="134" r=".8"/><circle cx="31.75" cy="139" r=".8"/><circle cx="58.25" cy="129" r=".8"/><circle cx="58.25" cy="134" r=".8"/><circle cx="58.25" cy="139" r=".8"/></g>' +
+      '<path d="M45 126v26" stroke="#dccba0" stroke-width="1"/>' +
+      '<g fill="#bfa36a"><circle cx="45" cy="130" r="1.2"/><circle cx="45" cy="137" r="1.2"/><circle cx="45" cy="144" r="1.2"/></g>' +
+      '<path d="M17 134h9v8h-9zM64 134h9v8h-9z" fill="none" stroke="#d5c08f" stroke-width="1"/><path d="M17 134h9l-.8 2.6h-7.4zM64 134h9l-.8 2.6h-7.4z" fill="#ead9b0"/>' +
     '</g>' +
-    '<path d="M31 115l14 9 14-9-3 9-11 5-11-5z" fill="#ffffff" stroke="#e1d7bf" stroke-width="1"/>' +
-    '<path d="M39 118l6 6 6-6" fill="#9bd14e"/>' +
+    '<path d="M33 116l12 9-4 5-11-8zM57 116l-12 9 4 5 11-8z" fill="#fbf5e4" stroke="#dccba0" stroke-width="1"/>' +
     '<path d="M8 112c-6 10-5 22 3 28 4-8 5-18 3-27z" fill="#86c040"/><path d="M82 112c6 10 5 22-3 28-4-8-5-18-3-27z" fill="#86c040"/>' +
-    '<path d="M7 120c-2 6-1 12 2 16l6-3c-1-5-1-10 0-14z" fill="#ffffff" opacity=".95"/><path d="M83 120c2 6 1 12-2 16l-6-3c1-5 1-10 0-14z" fill="#ffffff" opacity=".95"/>' +
+    '<path d="M6 115q4-4 9-2l-1 10q-5 1-9-1z" fill="#f6ecd2" stroke="#dccba0" stroke-width=".8"/><path d="M84 115q-4-4-9-2l1 10q5 1 9-1z" fill="#f6ecd2" stroke="#dccba0" stroke-width=".8"/>' +
     '<circle cx="31" cy="92" r="12" fill="#fff"/><circle cx="59" cy="92" r="12" fill="#fff"/>' +
     '<g class="ojos-kiwi"><circle cx="33" cy="93" r="7.5" fill="#5f9a30"/><circle cx="57" cy="93" r="7.5" fill="#5f9a30"/>' +
     '<circle cx="33" cy="93" r="4.3" fill="#18220f"/><circle cx="57" cy="93" r="4.3" fill="#18220f"/>' +

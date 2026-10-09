@@ -1,9 +1,9 @@
 // Kiwi, el asistente del Agente Panamá (Cloudflare Worker).
 //
-// - Telegram envía cada mensaje a este Worker (webhook). Si quien escribe está autorizado, Kiwi responde con los
-//   datos de la base D1 (binding DB): fichas del Seguimiento Legislativo, historial de etapas, impacto por sector y
-//   proponentes, más el análisis completo (.md) de Drive de las fichas que toque la pregunta.
-// - /oficina?k=<OFICINA_CLAVE> sirve la oficina virtual y su API (mismo cerebro).
+// - /oficina?k=<OFICINA_CLAVE> sirve la oficina virtual y su API. Kiwi responde ahí con los datos de la base D1
+//   (binding DB): fichas del Seguimiento Legislativo, historial de etapas, impacto por sector y proponentes, más el
+//   análisis completo (.md) de Drive de las fichas que toque la pregunta.
+// - Telegram (webhook): el bot es solo de notificaciones; a cualquier mensaje responde que se pregunte en la oficina.
 //
 // Secretos (los sube bot/desplegar.py): TELEGRAM_TOKEN, WEBHOOK_SECRET, AUTORIZADOS (IDs de Telegram separados por
 // coma), GEMINI_KEY, GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, GOOGLE_REFRESH_TOKEN, OFICINA_CLAVE, MATRIZ_ID.
@@ -28,31 +28,11 @@ export default {
     const msg = update.message;
     if (!msg || !msg.text || msg.chat.type !== "private") return new Response("ok");
 
-    const autorizados = (env.AUTORIZADOS || "").split(",").map((s) => s.trim());
-    if (!autorizados.includes(String(msg.from.id))) {
-      await enviar(env, msg.chat.id,
-        `No tienes acceso a este bot. Si deberías tenerlo, pásale este número a Andrés: ${msg.from.id}`);
-      return new Response("ok");
-    }
-    const texto = msg.text.trim();
-    if (texto === "/start" || texto === "/ayuda") {
-      await enviar(env, msg.chat.id,
-        "Hola, soy Kiwi 🥝 Te ayudo con el seguimiento de la Asamblea Nacional de Panamá. Por ejemplo:\n\n" +
-        "• ¿Qué proyectos de impacto alto avanzaron esta semana?\n" +
-        "• ¿Qué proyectos presentó Janine Prado?\n" +
-        "• ¿En qué va el proyecto de inteligencia artificial?\n" +
-        "• ¿Qué hay para el sector financiero en segundo debate?");
-      return new Response("ok");
-    }
-    // Se responde dentro de la misma petición: Telegram espera y no reenvía el mensaje.
-    try {
-      await accion(env, msg.chat.id);
-      const r = await responder(env, texto, [], () => accion(env, msg.chat.id));
-      await enviar(env, msg.chat.id, r.respuesta);
-    } catch (e) {
-      console.log("error", e.stack || e);
-      await enviar(env, msg.chat.id, "No pude responder ahora (la IA de Google puede estar saturada). Intenta de nuevo en un minuto.");
-    }
+    // En Panamá el bot de Telegram es solo de notificaciones (decisión de Andrés, 2026-10-08): a Kiwi se le pregunta
+    // en la oficina. A cualquier mensaje se le contesta lo mismo, sin gastar Gemini.
+    await enviar(env, msg.chat.id,
+      "Hola 🥝 Este canal es solo de notificaciones: aquí llegan los anteproyectos nuevos y los avances de la Asamblea " +
+      "Nacional de Panamá. Para preguntarle algo a Kiwi, entra a la oficina virtual.");
     return new Response("ok");
   },
 };
