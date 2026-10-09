@@ -1,5 +1,23 @@
 {
- "drive": {},
+ "comisiones_revisadas": "2026-10-09T03:28:10",
+ "drive": {
+  "8330": {
+   "carpeta": "Sede de la Oficina de Área de la UIT en Panamá (ficha 8330)",
+   "comision": "Comisión de Relaciones Exteriores"
+  },
+  "8357": {
+   "carpeta": "Verificación de permiso de ocupación en avisos de operación (ficha 8357)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
+  "8570": {
+   "carpeta": "Reforma a la Ley 304 sobre arrecifes y pastos marinos (ficha 8570)",
+   "comision": "Comisión de Poblacion, Ambiente y Desarrollo"
+  },
+  "8573": {
+   "carpeta": "Configuración de circuitos electorales para diputados (ficha 8573)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  }
+ },
  "fichas": {
   "7403": {
    "anteproyecto": "1",
@@ -7203,6 +7221,20 @@
    "titulo": "QUE ESTABLECE UN PROGRAMA GENERAL DE BUENAS PRACTICAS DE CIBERSEGURIDAD EN EL SECTOR PUBLICO"
   },
   "8330": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1PZ-DpBGtsJuSKxG4tEjDEa_0weY-fYla",
+    "fecha_analisis": "2026-10-09",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Se trata de un acuerdo diplomático de sede entre el Estado panameño y un organismo de la ONU; no establece regulaciones, tributos, restricciones ni obligaciones para las empresas del sector privado.",
+    "resumen": "Aprueba el acuerdo internacional que autoriza el establecimiento de una Oficina de Área de la Unión Internacional de Telecomunicaciones (UIT) en Panamá tras su traslado desde Honduras. Define los privilegios, inmunidades y exenciones aplicables al organismo y su personal, así como los compromisos del Gobierno nacional de facilitar sede, equipamiento y conectividad para su operación.",
+    "sectores": [],
+    "titulo": "Que aprueba el Acuerdo entre el Gobierno de la República de Panamá y la Unión Internacional de Telecomunicaciones relativo al establecimiento de una Oficina de Área de la Unión Internacional de Telecomunicaciones en la República de Panamá, firmado en Ginebra el 9 de diciembre de 2025 y en Panamá el 22 de diciembre 2025.",
+    "titulo_corto": "Sede de la Oficina de Área de la UIT en Panamá"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE RELACIONES EXTERIORES",
    "etapa": "Enviado al Ejecutivo",
@@ -7412,6 +7444,33 @@
    "titulo": "QUE MODIFICA LA LEY 44 DE 2002 Y DICTA OTRAS DISPOSICIONES"
   },
   "8357": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2: Ordena a la plataforma Panamá Emprende verificar de forma automatizada la compatibilidad entre la actividad declarada y el permiso de ocupación municipal.",
+     "Artículo 3: Faculta a los municipios a solicitar la suspensión o cancelación del aviso de operación y disponer el desalojo del inmueble si hay incompatibilidad o falsedad en la información.",
+     "Artículo 4: Habilita mecanismos alternativos de validación ante el municipio cuando el permiso de ocupación no se encuentre digitalizado.",
+     "Artículo 8: Adiciona el artículo 2-A a la Ley 5 de 2007, formalizando como requisito indispensable el permiso de ocupación vigente y compatible para generar o actualizar avisos de operación."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1liwrI-vVtZYj5zYqsaH9iAJek8XPOexN",
+    "fecha_analisis": "2026-10-09",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Condiciona la emisión y actualización del aviso de operación a la validación de un permiso de ocupación municipal compatible, bajo riesgo de cancelación y desalojo.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea una validación previa obligatoria sobre el permiso de ocupación de locales comerciales o industriales, lo que puede retrasar o impedir aperturas de negocios que no cuenten con trámites municipales al día.",
+    "resumen": "Establece como requisito obligatorio contar con un permiso de ocupación municipal vigente y compatible con la actividad comercial para tramitar o actualizar el aviso de operación en Panamá Emprende. Introduce mecanismos de validación automatizada e interoperabilidad municipal, y faculta la cancelación del aviso y el desalojo del inmueble ante inconsistencias o falsedad.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que optimiza la verificación del permiso de ocupación en la generación y actualización del aviso de operación y adiciona un artículo a la Ley 5 de 2007, sobre el proceso de aperturas de empresas",
+    "titulo_corto": "Verificación de permiso de ocupación en avisos de operación"
+   },
    "anteproyecto": "424",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Enviado al Ejecutivo",
@@ -9051,6 +9110,23 @@
    "anteproyecto": "102",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Primer Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-08-20"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-08-18"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-03"
+    }
+   ],
    "fecha": "2026-08-03",
    "ficha": "8507",
    "proponente": "H.D JULIO DE LA GUARDIA ARROCHA",
@@ -9062,6 +9138,13 @@
    "anteproyecto": "108",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-03"
+    }
+   ],
    "fecha": "2026-08-03",
    "ficha": "8508",
    "proponente": "H.D RAUL GILBERTO PINEDA VERGARA",
@@ -9073,6 +9156,23 @@
    "anteproyecto": "103",
    "comision": "COMISION DE INFRAESTRUCTURA PUBLICA Y ASUNTOS DEL CANAL",
    "etapa": "Primer Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-08-25"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-08-20"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-03"
+    }
+   ],
    "fecha": "2026-08-03",
    "ficha": "8509",
    "proponente": "H.D ERNESTO CEDEÑO ALVARADO",
@@ -9084,6 +9184,23 @@
    "anteproyecto": "109",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Primer Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-08-13"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-08-12"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-03"
+    }
+   ],
    "fecha": "2026-08-03",
    "ficha": "8510",
    "proponente": "H.D RAPHAEL BUCHANAN JOSEPH",
@@ -9095,6 +9212,18 @@
    "anteproyecto": "104",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Retirado por proponente",
+   "etapas": [
+    {
+     "comentario": "Retirado mediante Nota 2026_563_AN_CTSyDS.",
+     "etapa": "Retirado por proponente",
+     "fecha": "2026-08-25"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-03"
+    }
+   ],
    "fecha": "2026-08-03",
    "ficha": "8511",
    "proponente": "H.D ROGELIO RICARDO REVELLO TEM",
@@ -9106,6 +9235,23 @@
    "anteproyecto": "105",
    "comision": "COMISION DE COMUNICACION Y TRANSPORTE",
    "etapa": "Primer Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-08-25"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-08-18"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-03"
+    }
+   ],
    "fecha": "2026-08-03",
    "ficha": "8512",
    "proponente": "H.D ROGELIO RICARDO REVELLO TEM",
@@ -9117,6 +9263,28 @@
    "anteproyecto": "106",
    "comision": "COMISION DE POBLACION, AMBIENTE Y DESARROLLO",
    "etapa": "Enviado a subcomisión para analisis",
+   "etapas": [
+    {
+     "comentario": "Conformada por los H.D. Arquesio Arias, Yarelis Rodriguez y Robeto Archibold.",
+     "etapa": "Enviado a subcomisión para analisis",
+     "fecha": "2026-09-15"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-08-28"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-08-26"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-03"
+    }
+   ],
    "fecha": "2026-08-03",
    "ficha": "8513",
    "proponente": "H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA",
@@ -9128,6 +9296,13 @@
    "anteproyecto": "110",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-03"
+    }
+   ],
    "fecha": "2026-08-03",
    "ficha": "8514",
    "proponente": "H.D MANUEL ALBERTO SAMANIEGO RODRÍGUEZ",
@@ -9139,6 +9314,18 @@
    "anteproyecto": "107",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Retirado por proponente",
+   "etapas": [
+    {
+     "comentario": "Retirado mediante Nota 2026_432_AN_CTSyDS",
+     "etapa": "Retirado por proponente",
+     "fecha": "2026-08-11"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-03"
+    }
+   ],
    "fecha": "2026-08-03",
    "ficha": "8515",
    "proponente": "H.D RAUL GILBERTO PINEDA VERGARA",
@@ -9150,6 +9337,33 @@
    "anteproyecto": "111",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Segundo Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-09-15"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-09-02"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-08-18"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-08-12"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-04"
+    }
+   ],
    "fecha": "2026-08-04",
    "ficha": "8516",
    "proponente": "H.D JAVIER FRANCISCO SUCRE MEJIA,H.D NIXSON ANDRADE RODRÍGUEZ,H.D ARQUESIO ARIAS FELIX",
@@ -9161,6 +9375,23 @@
    "anteproyecto": "112",
    "comision": "COMISION DE INFRAESTRUCTURA PUBLICA Y ASUNTOS DEL CANAL",
    "etapa": "Primer Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-08-25"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-08-20"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-04"
+    }
+   ],
    "fecha": "2026-08-04",
    "ficha": "8517",
    "proponente": "H.D ERNESTO CEDEÑO ALVARADO",
@@ -9172,6 +9403,13 @@
    "anteproyecto": "113",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-04"
+    }
+   ],
    "fecha": "2026-08-04",
    "ficha": "8518",
    "proponente": "H.D JAIRO ARIEL SALAZAR RAMIREZ",
@@ -9183,6 +9421,23 @@
    "anteproyecto": "114",
    "comision": "COMISION DE INFRAESTRUCTURA PUBLICA Y ASUNTOS DEL CANAL",
    "etapa": "Primer Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-09-16"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-09-09"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-05"
+    }
+   ],
    "fecha": "2026-08-05",
    "ficha": "8519",
    "proponente": "H.D GRACIELA MERCEDES HERNÁNDEZ LACAYO",
@@ -9194,6 +9449,13 @@
    "anteproyecto": "115",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-05"
+    }
+   ],
    "fecha": "2026-08-05",
    "ficha": "8520",
    "proponente": "H.D GRACIELA MERCEDES HERNÁNDEZ LACAYO",
@@ -9216,6 +9478,23 @@
    "anteproyecto": "117",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Primer Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-08-28"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-08-27"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-05"
+    }
+   ],
    "fecha": "2026-08-05",
    "ficha": "8522",
    "proponente": "H.D PATSY CRISTINA LEE RENTERÍA DE HUANG",
@@ -9227,6 +9506,23 @@
    "anteproyecto": "119",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Primer Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-09-09"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-09-08"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-05"
+    }
+   ],
    "fecha": "2026-08-05",
    "ficha": "8523",
    "proponente": "H.D ISAAC MOSQUERA RIVAS,H.D LUIS OMAR ORTEGA RIVERA,H.D.S LUIS MIGUEL CHARRIS ÁBREGO,H.D ROGELIO RICARDO REVELLO TEM,H.D.S BOLIVAR ENRIQUE ESCALA VERGARA,H.D JULIO DE LA GUARDIA ARROCHA,H.D RONALD AMETH DE GRACIA MORENO,H.D FLOR ISABEL BRENES MEDINA,H.D ROBERTO ARCHIBOLD CHUITO,H.D JAMIS GASPAR ACOSTA GUERRA,H.D.S MERCEDES A. GALVEZ USEDA,H.D JAIME EDGARDO VARGAS CENTELLA,H.D JAVIER FRANCISCO SUCRE MEJIA,H.D ALAIN ALBENIS CEDEÑO HERRERA,H.D MARCOS ENRIQUE CASTILLERO BARAHONA",
@@ -9238,6 +9534,13 @@
    "anteproyecto": "120",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-05"
+    }
+   ],
    "fecha": "2026-08-05",
    "ficha": "8524",
    "proponente": "H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA",
@@ -9249,6 +9552,13 @@
    "anteproyecto": "116",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-05"
+    }
+   ],
    "fecha": "2026-08-05",
    "ficha": "8525",
    "proponente": "H.D PATSY CRISTINA LEE RENTERÍA DE HUANG",
@@ -9260,6 +9570,23 @@
    "anteproyecto": "118",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Primer Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-09-21"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-09-15"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-05"
+    }
+   ],
    "fecha": "2026-08-05",
    "ficha": "8526",
    "proponente": "H.D MARCOS ENRIQUE CASTILLERO BARAHONA",
@@ -9271,6 +9598,23 @@
    "anteproyecto": "121",
    "comision": "COMISION DE ASUNTOS MUNICIPALES",
    "etapa": "Primer Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-08-20"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-08-18"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-06"
+    }
+   ],
    "fecha": "2026-08-06",
    "ficha": "8527",
    "proponente": "H.D.S LYDIA NORAYS CABALLERO CADASTRE",
@@ -9282,6 +9626,28 @@
    "anteproyecto": "124",
    "comision": "COMISION DE POBLACION, AMBIENTE Y DESARROLLO",
    "etapa": "Enviado a subcomisión para analisis",
+   "etapas": [
+    {
+     "comentario": "Conformada por los H.D. Arquesio Arias, Yarelis Rodriguez y Robeto Archibold.",
+     "etapa": "Enviado a subcomisión para analisis",
+     "fecha": "2026-09-15"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-08-28"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-08-26"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-06"
+    }
+   ],
    "fecha": "2026-08-06",
    "ficha": "8528",
    "proponente": "KATHERINE HERNANDEZ",
@@ -9293,6 +9659,13 @@
    "anteproyecto": "122",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-06"
+    }
+   ],
    "fecha": "2026-08-06",
    "ficha": "8529",
    "proponente": "H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA",
@@ -9304,6 +9677,23 @@
    "anteproyecto": "123",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Primer Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-08-25"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-08-19"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-06"
+    }
+   ],
    "fecha": "2026-08-06",
    "ficha": "8530",
    "proponente": "H.D CRISPIANO ADAMES NAVARRO",
@@ -9315,6 +9705,23 @@
    "anteproyecto": "125",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Primer Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-08-27"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-08-26"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-10"
+    }
+   ],
    "fecha": "2026-08-10",
    "ficha": "8531",
    "proponente": "H.D ALAIN ALBENIS CEDEÑO HERRERA",
@@ -9326,6 +9733,13 @@
    "anteproyecto": "126",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-10"
+    }
+   ],
    "fecha": "2026-08-10",
    "ficha": "8532",
    "proponente": "H.D WALKIRIA A. CHANDLER D´ORCY",
@@ -9337,6 +9751,13 @@
    "anteproyecto": "127",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-10"
+    }
+   ],
    "fecha": "2026-08-10",
    "ficha": "8533",
    "proponente": "H.D JOSÉ ANTONIO PÉREZ BARBONI",
@@ -9348,6 +9769,13 @@
    "anteproyecto": "128",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-10"
+    }
+   ],
    "fecha": "2026-08-10",
    "ficha": "8534",
    "proponente": "H.D YUZAIDA ANDREA MARÍN NATERON DE AGUILAR,H.D VÍCTOR DE JESÚS CASTILLO CORTEZ,H.D.S MERCEDES A. GALVEZ USEDA",
@@ -9359,6 +9787,13 @@
    "anteproyecto": "129",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-10"
+    }
+   ],
    "fecha": "2026-08-10",
    "ficha": "8535",
    "proponente": "H.D NEFTALÍ OMAR ZAMORA IBARRA",
@@ -9370,6 +9805,13 @@
    "anteproyecto": "130",
    "comision": "COMISION DE COMUNICACION Y TRANSPORTE",
    "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-11"
+    }
+   ],
    "fecha": "2026-08-11",
    "ficha": "8536",
    "proponente": "H.D JOSÉ LUIS VARELA RODRÍGUEZ",
@@ -9381,6 +9823,13 @@
    "anteproyecto": "131",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-11"
+    }
+   ],
    "fecha": "2026-08-11",
    "ficha": "8537",
    "proponente": "H.D MANUEL CHENG PEÑALBA",
@@ -9392,6 +9841,23 @@
    "anteproyecto": "132",
    "comision": "COMISION DE INFRAESTRUCTURA PUBLICA Y ASUNTOS DEL CANAL",
    "etapa": "Primer Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-09-16"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-09-09"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-11"
+    }
+   ],
    "fecha": "2026-08-11",
    "ficha": "8538",
    "proponente": "H.D RAUL GILBERTO PINEDA VERGARA",
@@ -9403,6 +9869,23 @@
    "anteproyecto": "133",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Primer Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-08-27"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-08-26"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-12"
+    }
+   ],
    "fecha": "2026-08-12",
    "ficha": "8539",
    "proponente": "H.D JANINE PRADO CASTAÑO,H.D.S GUMERCINDA EDITH PÉREZ CEDEÑO DE POLO,H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D OLGA PAULETTE THOMAS HORLY,H.D BETSERAI AYIZE RICHARDS,H.D.S ANA MARÍA POVEDA HERRERA,H.D PATSY CRISTINA LEE RENTERÍA DE HUANG,H.D.S ARIEL ANÍBAL RÍOS ZAPATA,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D YAMIRELIZ DAYMIRELKIS CHONG SMITH,H.D.S MAIQUELY DEL CARMEN AÑINO MEDINA DE BARRIOS,H.D MIGUEL ÁNGEL CAMPOS LIMA,H.D LILIA EMERITA BATISTA RODRIGUEZ",
@@ -9414,6 +9897,13 @@
    "anteproyecto": "135",
    "comision": "COMISION DE INFRAESTRUCTURA PUBLICA Y ASUNTOS DEL CANAL",
    "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-12"
+    }
+   ],
    "fecha": "2026-08-12",
    "ficha": "8540",
    "proponente": "H.D JORGE ISAAC BLOISE IGLESIAS,H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D LUIS HENRIQUE DUKE WALKER,H.D YAMIRELIZ DAYMIRELKIS CHONG SMITH,H.D MIGUEL ÁNGEL CAMPOS LIMA",
@@ -9425,6 +9915,13 @@
    "anteproyecto": "134",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-12"
+    }
+   ],
    "fecha": "2026-08-12",
    "ficha": "8541",
    "proponente": "H.D SHIRLEY DE LA ROSA CASTAÑEDAS VALENTÍN",
@@ -9436,6 +9933,13 @@
    "anteproyecto": "136",
    "comision": "COMISION DE ASUNTOS MUNICIPALES",
    "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-12"
+    }
+   ],
    "fecha": "2026-08-12",
    "ficha": "8542",
    "proponente": "H.D LUIS HENRIQUE DUKE WALKER,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D YAMIRELIZ DAYMIRELKIS CHONG SMITH,H.D ALEXANDRA MARÍA BRENES SAMANIEGO",
@@ -9447,6 +9951,53 @@
    "anteproyecto": "0",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Ley",
+   "etapas": [
+    {
+     "comentario": "SANCIONADO POR EL ORGANO EJECUTIVO",
+     "etapa": "Ley",
+     "fecha": "2026-08-31"
+    },
+    {
+     "comentario": "ENVIADO AL ORGANO EJECUTIVO",
+     "etapa": "Enviado al Ejecutivo",
+     "fecha": "2026-08-27"
+    },
+    {
+     "comentario": "APROBADO EN III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2026-08-26"
+    },
+    {
+     "comentario": "PENDIENTE DE III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2026-08-25"
+    },
+    {
+     "comentario": "APROBADO EN II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-08-25"
+    },
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-08-24"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-08-24"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-08-17"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-12"
+    }
+   ],
    "fecha": "2026-08-12",
    "ficha": "8543",
    "proponente": "MINISTERIO DE ECONOMIA Y FINANZAS",
@@ -9458,6 +10009,33 @@
    "anteproyecto": "137",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-09-23"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-09-16"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-08-28"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-08-27"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-17"
+    }
+   ],
    "fecha": "2026-08-17",
    "ficha": "8545",
    "proponente": "PETER CHATLANI",
@@ -9469,6 +10047,28 @@
    "anteproyecto": "0",
    "comision": "COMISION DE INFRAESTRUCTURA PUBLICA Y ASUNTOS DEL CANAL",
    "etapa": "Segundo Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-10-05"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-09-23"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-08-19"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-17"
+    }
+   ],
    "fecha": "2026-08-17",
    "ficha": "8546",
    "proponente": "MINISTERIO DE VIVIENDA Y ORDENAMIENTO TERRITORIAL",
@@ -9480,6 +10080,13 @@
    "anteproyecto": "139",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-17"
+    }
+   ],
    "fecha": "2026-08-17",
    "ficha": "8547",
    "proponente": "H.D SHIRLEY DE LA ROSA CASTAÑEDAS VALENTÍN",
@@ -9491,6 +10098,23 @@
    "anteproyecto": "138",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Primer Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-08-28"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-08-27"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-17"
+    }
+   ],
    "fecha": "2026-08-17",
    "ficha": "8548",
    "proponente": "H.D SHIRLEY DE LA ROSA CASTAÑEDAS VALENTÍN",
@@ -9502,6 +10126,13 @@
    "anteproyecto": "140",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-17"
+    }
+   ],
    "fecha": "2026-08-17",
    "ficha": "8549",
    "proponente": "H.D ALEXANDRA MARÍA BRENES SAMANIEGO",
@@ -9513,6 +10144,28 @@
    "anteproyecto": "145",
    "comision": "COMISION DE POBLACION, AMBIENTE Y DESARROLLO",
    "etapa": "Enviado a subcomisión para analisis",
+   "etapas": [
+    {
+     "comentario": "Conformada por los H.D. Javier Sucre, Ronald de Gracia y Lenin Ulate.",
+     "etapa": "Enviado a subcomisión para analisis",
+     "fecha": "2026-10-06"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-09-24"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-09-15"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-17"
+    }
+   ],
    "fecha": "2026-08-17",
    "ficha": "8550",
    "proponente": "H.D FRANCISCO JAVIER BREA TRISTÁN,H.D JANINE PRADO CASTAÑO,H.D MIGUEL ÁNGEL CAMPOS LIMA",
@@ -9524,6 +10177,13 @@
    "anteproyecto": "141",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-17"
+    }
+   ],
    "fecha": "2026-08-17",
    "ficha": "8551",
    "proponente": "H.D JANINE PRADO CASTAÑO,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D JHONATHAN EDIR VEGA,H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D AUGUSTO EFRAÍN PALACIOS MUÑOZ,H.D PATSY CRISTINA LEE RENTERÍA DE HUANG,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D EDUARDO ALEJANDRO GAITÁN BEITÍA,H.D LUIS HENRIQUE DUKE WALKER,H.D YAMIRELIZ DAYMIRELKIS CHONG SMITH,H.D MIGUEL ÁNGEL CAMPOS LIMA,H.D ALEXANDRA MARÍA BRENES SAMANIEGO,H.D JORGE ISAAC BLOISE IGLESIAS,H.D WALKIRIA A. CHANDLER D´ORCY",
@@ -9535,6 +10195,13 @@
    "anteproyecto": "142",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-17"
+    }
+   ],
    "fecha": "2026-08-17",
    "ficha": "8552",
    "proponente": "H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA",
@@ -9546,6 +10213,13 @@
    "anteproyecto": "143",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-17"
+    }
+   ],
    "fecha": "2026-08-17",
    "ficha": "8553",
    "proponente": "H.D NEFTALÍ OMAR ZAMORA IBARRA",
@@ -9557,6 +10231,23 @@
    "anteproyecto": "144",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Primer Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-09-09"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-09-08"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-17"
+    }
+   ],
    "fecha": "2026-08-17",
    "ficha": "8554",
    "proponente": "H.D FRANCISCO JAVIER BREA TRISTÁN,H.D JANINE PRADO CASTAÑO,H.D MIGUEL ÁNGEL CAMPOS LIMA",
@@ -9568,6 +10259,23 @@
    "anteproyecto": "146",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Primer Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-09-03"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-09-02"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-18"
+    }
+   ],
    "fecha": "2026-08-18",
    "ficha": "8556",
    "proponente": "H.D PATSY CRISTINA LEE RENTERÍA DE HUANG",
@@ -9579,6 +10287,13 @@
    "anteproyecto": "147",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-18"
+    }
+   ],
    "fecha": "2026-08-18",
    "ficha": "8557",
    "proponente": "H.D ALEXANDRA MARÍA BRENES SAMANIEGO",
@@ -9590,6 +10305,13 @@
    "anteproyecto": "148",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-19"
+    }
+   ],
    "fecha": "2026-08-19",
    "ficha": "8558",
    "proponente": "H.D JAMIS GASPAR ACOSTA GUERRA",
@@ -9601,6 +10323,13 @@
    "anteproyecto": "149",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-19"
+    }
+   ],
    "fecha": "2026-08-19",
    "ficha": "8559",
    "proponente": "H.D JHONATHAN EDIR VEGA,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D EDUARDO ALEJANDRO GAITÁN BEITÍA,H.D MIGUEL ÁNGEL CAMPOS LIMA",
@@ -9612,6 +10341,23 @@
    "anteproyecto": "150",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Primer Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-09-14"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-09-09"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-20"
+    }
+   ],
    "fecha": "2026-08-20",
    "ficha": "8560",
    "proponente": "H.D.S ARIEL ANÍBAL RÍOS ZAPATA",
@@ -9623,6 +10369,13 @@
    "anteproyecto": "151",
    "comision": "COMISION DE COMUNICACION Y TRANSPORTE",
    "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-20"
+    }
+   ],
    "fecha": "2026-08-20",
    "ficha": "8561",
    "proponente": "H.D RAUL GILBERTO PINEDA VERGARA",
@@ -9634,6 +10387,23 @@
    "anteproyecto": "152",
    "comision": "COMISION DE POBLACION, AMBIENTE Y DESARROLLO",
    "etapa": "Primer Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-09-24"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-09-15"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-24"
+    }
+   ],
    "fecha": "2026-08-24",
    "ficha": "8562",
    "proponente": "BRANDY MUÑOZ",
@@ -9645,6 +10415,13 @@
    "anteproyecto": "154",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-24"
+    }
+   ],
    "fecha": "2026-08-24",
    "ficha": "8563",
    "proponente": "H.D LUIS EDUARDO CAMACHO CASTRO",
@@ -9656,6 +10433,23 @@
    "anteproyecto": "153",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Primer Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-09-14"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-09-09"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-24"
+    }
+   ],
    "fecha": "2026-08-24",
    "ficha": "8564",
    "proponente": "H.D WALKIRIA A. CHANDLER D´ORCY",
@@ -9667,6 +10461,28 @@
    "anteproyecto": "155",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Enviado a subcomisión para analisis",
+   "etapas": [
+    {
+     "comentario": "Conformada por los H.D. Betserai Richards, Jairo Salazar y Yuzaida Marin.",
+     "etapa": "Enviado a subcomisión para analisis",
+     "fecha": "2026-09-08"
+    },
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-09-03"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-09-02"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-25"
+    }
+   ],
    "fecha": "2026-08-25",
    "ficha": "8565",
    "proponente": "H.D BETSERAI AYIZE RICHARDS",
@@ -9678,6 +10494,23 @@
    "anteproyecto": "156",
    "comision": "COMISION DE INFRAESTRUCTURA PUBLICA Y ASUNTOS DEL CANAL",
    "etapa": "Primer Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-09-16"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-09-09"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-26"
+    }
+   ],
    "fecha": "2026-08-26",
    "ficha": "8566",
    "proponente": "H.D GRACIELA HERNANDEZ",
@@ -9689,6 +10522,18 @@
    "anteproyecto": "0",
    "comision": "COMISION DE COMUNICACION Y TRANSPORTE",
    "etapa": "Primer Debate",
+   "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-08-28"
+    },
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-26"
+    }
+   ],
    "fecha": "2026-08-26",
    "ficha": "8567",
    "proponente": "COMUNICACION Y TRANSPORTE",
@@ -9700,6 +10545,13 @@
    "anteproyecto": "157",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-27"
+    }
+   ],
    "fecha": "2026-08-27",
    "ficha": "8568",
    "proponente": "H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D AUGUSTO EFRAÍN PALACIOS MUÑOZ,H.D WALKIRIA A. CHANDLER D´ORCY",
@@ -9786,6 +10638,36 @@
    "titulo": "QUE ESTABLECE EL PROCESO SUCESORIO SIMPLIFICADO ANTE NOTARIO"
   },
   "8570": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Modifica el artículo 12 de la Ley 304 de 2022, asignando al Ministerio de Ambiente la facultad de regular la construcción, modificación o actividades en pastos marinos y sus ecosistemas asociados, prohibiendo solo aquellas que causen daños irreversibles.",
+     "Artículo 2: Adiciona el artículo 12-A a la Ley 304 de 2022, prohibiendo construcciones o actividades que impliquen daño directo a los arrecifes coralinos o daño irreversible a su salud ecosistémica."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1U4XFGwVcbNaCOL9x9jlU0r9R0HaU9g-t",
+    "fecha_analisis": "2026-10-09",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Habilita la posibilidad de tramitar permisos ambientales ante MiAmbiente para obras y construcciones en pastos marinos, donde antes regía una prohibición absoluta.",
+      "sector": "CEMENTERAS"
+     },
+     {
+      "nivel": "bajo",
+      "razon": "Flexibiliza las condiciones para el desarrollo de proyectos turísticos costeros y náuticos (como muelles o facilidades sobre el agua) en áreas con pastos marinos.",
+      "sector": "TURISMO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Cambia el régimen ambiental aplicable a obras en zonas marino-costeras al reemplazar una prohibición absoluta en pastos marinos por autorizaciones discrecionales de MiAmbiente.",
+    "resumen": "Modifica la Ley 304 de 2022 para sustituir la prohibición general de actividades sobre pastos marinos por un régimen de regulación y permisos administrado por el Ministerio de Ambiente. Asimismo, delimita la prohibición de obras sobre arrecifes de coral a aquellas que generen daño directo o irreversible. Afecta principalmente a empresas con proyectos de infraestructura, construcción o desarrollos turísticos en zonas marino-costeras.",
+    "sectores": [
+     "CEMENTERAS"
+    ],
+    "titulo": "Que modifica y adiciona artículos a la Ley 304 de 2022, sobre la protección integral de los sistemas de arrecifes coralinos, ecosistemas y especies asociados",
+    "titulo_corto": "Reforma a la Ley 304 sobre arrecifes y pastos marinos"
+   },
    "anteproyecto": "406",
    "comision": "COMISION DE POBLACION, AMBIENTE Y DESARROLLO",
    "etapa": "Enviado al Ejecutivo",
@@ -9800,6 +10682,13 @@
    "anteproyecto": "158",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-08-27"
+    }
+   ],
    "fecha": "2026-08-27",
    "ficha": "8571",
    "proponente": "H.D NEFTALÍ OMAR ZAMORA IBARRA",
@@ -9841,6 +10730,20 @@
    "titulo": "QUE REFORMA EL CODIGO ELECTORAL DE LA REPUBLICA DE PANAMA"
   },
   "8573": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1o2mAbJcwboJcKXOhL0m0kdd7fLN2jhHV",
+    "fecha_analisis": "2026-10-09",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Se trata de una ley estrictamente político-electoral que define la división territorial del sufragio; no impone costos, trámites, tributos ni regulaciones sobre la actividad empresarial.",
+    "resumen": "Reorganiza los circuitos electorales a nivel nacional para la elección de los 71 diputados de la Asamblea Nacional, tomando como base el padrón de las elecciones generales de 2024. Ajusta la asignación de curules reduciendo escaños en la provincia de Panamá y aumentando en Panamá Oeste, además de modificar la conformación de circuitos en Bocas del Toro y Chiriquí. Regula exclusivamente el ámbito político-electoral y la representación de los ciudadanos en los comicios.",
+    "sectores": [],
+    "titulo": "Que establece la configuración de los circuitos electorales para la elección de diputados de la Asamblea Nacional",
+    "titulo_corto": "Configuración de circuitos electorales para diputados"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Enviado al Ejecutivo",
@@ -11158,7 +12061,952 @@
    "titulo": "QUE INSTITUYE EL FESTIVAL NACIONAL ARTESANAL Y FOLCLORICO DE LA ARENA DE CHITRE Y CREA SU PATRONATO"
   }
  },
+ "huellas_base": {
+  "7403": "ebba017d5bee",
+  "7404": "3a875345a1e8",
+  "7405": "946f9383a9a0",
+  "7406": "c9337ceb3033",
+  "7408": "997821f3b388",
+  "7410": "ae193725c28e",
+  "7411": "00e13d5a1a18",
+  "7412": "eb757b193a25",
+  "7413": "f04479f43852",
+  "7414": "e275f2008749",
+  "7415": "b5315ed158bd",
+  "7416": "ecb7b0298147",
+  "7417": "ac8a703a9a62",
+  "7419": "4c93820fe9b4",
+  "7420": "d6f1be091cd3",
+  "7421": "ab3820be0e37",
+  "7422": "9e0e6ab40e88",
+  "7423": "eeaa2599a01c",
+  "7424": "389cbd9b0245",
+  "7425": "9dafe2a01003",
+  "7428": "ecb6771dc350",
+  "7430": "20bbacec895e",
+  "7431": "a95fa1326f64",
+  "7432": "a48e6f076587",
+  "7433": "f5db8052ea59",
+  "7435": "28b2e8b6cc17",
+  "7436": "2ad352d1b26a",
+  "7437": "5431aac516ba",
+  "7438": "44e0a42f6ce8",
+  "7439": "9d542bf91390",
+  "7440": "f6076a7eaae3",
+  "7441": "99ba57cf5043",
+  "7445": "b8a5e8dbbe4e",
+  "7447": "ec51e062de4b",
+  "7449": "10558fe98f79",
+  "7450": "a664ba4366ae",
+  "7452": "fc9031dbbdb4",
+  "7453": "dd273ce8c4ef",
+  "7454": "574e029033bd",
+  "7456": "59e48420b91a",
+  "7461": "ff7f43072eea",
+  "7462": "67bc4c1acf03",
+  "7463": "e6c66b04bc9b",
+  "7465": "4b1b5016bf81",
+  "7467": "62cebcb54781",
+  "7470": "c9f83a815a7f",
+  "7471": "362848c03eed",
+  "7472": "84f6586ca8bc",
+  "7475": "5fb3e02f7fcb",
+  "7477": "382ce0dc73ac",
+  "7479": "c2b0386751da",
+  "7484": "bde5b39410c9",
+  "7486": "74b2b50cdecd",
+  "7487": "580231f26005",
+  "7488": "69ab1afed436",
+  "7489": "b3afdd4f0728",
+  "7490": "6797d2f101f3",
+  "7491": "037790ac55cb",
+  "7493": "472b82d0514e",
+  "7495": "006f548123c2",
+  "7496": "44544c4d2832",
+  "7497": "b5197baa747c",
+  "7498": "01f9cfe044dc",
+  "7499": "c036fcb6924c",
+  "7500": "5d638e52cf3a",
+  "7501": "e675ece82e63",
+  "7502": "e94ec6df45cf",
+  "7503": "ad6abfc451f8",
+  "7506": "b3236d83ea32",
+  "7507": "0c6fa4f089f6",
+  "7508": "8c92a346f75e",
+  "7509": "9e81e11fc63e",
+  "7510": "31695f64d09b",
+  "7511": "4f9b4ceeec6a",
+  "7512": "9839be56784f",
+  "7513": "ace21f243d5b",
+  "7516": "17940af19cf7",
+  "7519": "1e88dd10c820",
+  "7521": "fc348d3a9ad4",
+  "7525": "ea99e9f208a0",
+  "7527": "c98ec83a35f2",
+  "7528": "e9c8a07c01d8",
+  "7529": "8925a95de84d",
+  "7531": "e6890a04560b",
+  "7532": "60f13d288d2a",
+  "7533": "f81600c5425a",
+  "7535": "a34bb661c49d",
+  "7536": "c545b593a4c2",
+  "7537": "07a06dd810fa",
+  "7538": "f2e5f0b3bbb5",
+  "7539": "7d404418c46a",
+  "7540": "db2e7d8c0007",
+  "7541": "0a1bf537f041",
+  "7542": "de11527237f0",
+  "7543": "8f2ca4706172",
+  "7544": "8cbd0080b9d9",
+  "7545": "c268e6731b9e",
+  "7546": "0a4c0c699909",
+  "7547": "501eb792ef0c",
+  "7548": "fb1fc5f538d6",
+  "7550": "11ad5702b6e5",
+  "7551": "6533455853f6",
+  "7554": "78b9379c49d7",
+  "7555": "07c85ad64317",
+  "7558": "56646b32a2de",
+  "7560": "0d12c6034579",
+  "7563": "ed158fd9b075",
+  "7566": "5265e84f3021",
+  "7567": "ef03c531d2bc",
+  "7568": "15304e8bb572",
+  "7570": "4f061b6dd683",
+  "7571": "5871f5a0d3ff",
+  "7573": "4252a0929a23",
+  "7574": "210f87f7f949",
+  "7576": "1322bd503a73",
+  "7577": "def0551f6225",
+  "7578": "4fdba44f9313",
+  "7581": "41ebd19aafab",
+  "7582": "caf3920ab0b3",
+  "7583": "28b60c0b43fd",
+  "7585": "ff8c66f91418",
+  "7590": "c327ddec5bd6",
+  "7595": "8f0e4f3d7215",
+  "7596": "7e84ea5383ac",
+  "7597": "3c2cd273c349",
+  "7598": "ef37b833bfee",
+  "7601": "a66bb33c3308",
+  "7602": "8982c484a261",
+  "7603": "d093b8469436",
+  "7604": "375f03d47a33",
+  "7605": "671a49aa2220",
+  "7606": "e8038a9f8064",
+  "7607": "1c8d397983c6",
+  "7608": "82169efb67e9",
+  "7609": "d8ed27332201",
+  "7611": "e73af490bc2a",
+  "7612": "b21c7088d08b",
+  "7613": "26f36e6fea4b",
+  "7614": "1cc868a8cc56",
+  "7616": "9d00205672e9",
+  "7618": "bc2d2262b700",
+  "7619": "c24720d8fee2",
+  "7622": "dd55b3b4213f",
+  "7623": "0f68320b25b1",
+  "7624": "185a67c2df15",
+  "7625": "62061fb121e5",
+  "7627": "1f84eadba185",
+  "7634": "65673b5351e1",
+  "7635": "e2fd5e4332d0",
+  "7636": "18fc574507ec",
+  "7638": "f61ab107d8b6",
+  "7641": "e0d37949ec62",
+  "7642": "9029613f3c41",
+  "7644": "7b5e5b06ea70",
+  "7645": "d2ebcd0bba70",
+  "7647": "ab6a8a9523a1",
+  "7649": "c24a2d91f6ed",
+  "7650": "a4180dbf39f0",
+  "7652": "f8498ae19341",
+  "7653": "12ecc07b8803",
+  "7654": "e7a470b4dd02",
+  "7655": "9c3810d6bef4",
+  "7656": "e924e790376e",
+  "7657": "02aa06f42e6d",
+  "7658": "1834891d4b4c",
+  "7659": "4e1c6b211c01",
+  "7662": "9ae821a83158",
+  "7669": "cc6bf3cce5e1",
+  "7674": "0850d44b8980",
+  "7675": "54502d8bf1ff",
+  "7677": "d347ef90b791",
+  "7678": "a8fe1c1d4a4d",
+  "7680": "3636274f9740",
+  "7682": "e98e1007ebc4",
+  "7683": "9746056e78e8",
+  "7684": "472d3c8d0816",
+  "7686": "976e749ed5a6",
+  "7689": "185902f58908",
+  "7691": "455299fc82d9",
+  "7692": "2e6c5f9f4bb5",
+  "7693": "ffb9ecfe51fb",
+  "7694": "4141df8381d3",
+  "7695": "554d4d0c4a33",
+  "7696": "94db457c7003",
+  "7698": "266eedb1625d",
+  "7699": "d86f0fd6d1a5",
+  "7700": "b268dbe7c1d8",
+  "7701": "bf1ff2f092d7",
+  "7702": "e317f058dd18",
+  "7704": "d3c03f84c194",
+  "7705": "f6fdf4ef9b81",
+  "7708": "b83f3f0bd63e",
+  "7711": "807d57a23f6b",
+  "7712": "4f4276379f79",
+  "7714": "b3da85e31b37",
+  "7717": "0172746e211a",
+  "7720": "9bdeb613531c",
+  "7724": "a069991a79d3",
+  "7728": "ac35748e35a2",
+  "7729": "b0614e2d9e7e",
+  "7731": "fe6934f40a57",
+  "7733": "354377e8eb88",
+  "7734": "a2986f88bc02",
+  "7735": "b0770b38ffb9",
+  "7736": "01532824afc1",
+  "7738": "24e84127f8f0",
+  "7740": "877c0a6c4af5",
+  "7742": "c2f4fdac7687",
+  "7743": "58b9cb721d50",
+  "7745": "0fc28aaa13da",
+  "7747": "d0871b5ad973",
+  "7748": "560fb7005f2f",
+  "7750": "444333bb600f",
+  "7751": "d38423754056",
+  "7752": "cc7e1937b6c8",
+  "7753": "15bdab026158",
+  "7754": "13366bebaf4b",
+  "7756": "89ad2dfaf6e1",
+  "7757": "2938bf3150e9",
+  "7759": "d019934fe465",
+  "7760": "2417ccac4875",
+  "7764": "3969a62c9575",
+  "7767": "ee4cd271ad58",
+  "7768": "7d61dfb0d862",
+  "7775": "b3dd324a20ad",
+  "7776": "3da0f0d91630",
+  "7777": "5f631e0f1f85",
+  "7779": "d24fdf9b2ab2",
+  "7782": "dd8174102c17",
+  "7783": "be7d4721bb6e",
+  "7785": "e1b8bd906f20",
+  "7786": "4356b3a4f1de",
+  "7787": "c121c816f19d",
+  "7789": "3f19e4197a5d",
+  "7790": "abeb0f7423e8",
+  "7791": "5e19bd8fb28d",
+  "7792": "534b4c0442eb",
+  "7793": "05317ce011ce",
+  "7794": "1e0b556e8711",
+  "7795": "fb73d65ca45c",
+  "7796": "81d7bc0d8b57",
+  "7797": "7209fc8a05e7",
+  "7798": "bbf6c6032ca1",
+  "7800": "f1b9bdc5c8a0",
+  "7801": "7012583f7347",
+  "7802": "a32c0d81cf95",
+  "7804": "792dcc44182f",
+  "7805": "0fa4e23707d9",
+  "7808": "0304146f5ea6",
+  "7810": "88f982a13865",
+  "7811": "eb5b968a1568",
+  "7812": "d65b4296c599",
+  "7813": "84c47ef777b9",
+  "7820": "8f72960b0eb1",
+  "7821": "9c02d8ed3e9f",
+  "7822": "b0dd24dacfa2",
+  "7823": "41184d9b58c1",
+  "7824": "0c14c3b691f4",
+  "7825": "bcdd9aefc647",
+  "7826": "0c3d0d9e980f",
+  "7827": "6e6a00883e70",
+  "7829": "b6696f88d028",
+  "7830": "a6627bdad2b9",
+  "7831": "5e8cef143b5f",
+  "7832": "536a4dd4af24",
+  "7837": "f343fe08bed7",
+  "7838": "9e5c7108601c",
+  "7840": "0256e45c6aac",
+  "7842": "dafca1497255",
+  "7843": "d052570de3cb",
+  "7844": "ca4555d63f40",
+  "7845": "4f46e6f13354",
+  "7848": "d3ae41c9eec5",
+  "7851": "c8ce40057464",
+  "7852": "5675d77ee402",
+  "7853": "40085f608801",
+  "7854": "099167abe6fe",
+  "7855": "7deb125bfc49",
+  "7868": "45b142c2b82c",
+  "7872": "00032d6842f3",
+  "7877": "c9f489f11988",
+  "7878": "d3b566f92b33",
+  "7879": "71db8e2ac43d",
+  "7880": "d324a8a4ec94",
+  "7881": "2b70958e26a8",
+  "7882": "63716db26753",
+  "7883": "e1a4e9a97852",
+  "7884": "92d28006acd6",
+  "7885": "c8fe9fe35006",
+  "7886": "abc67c00844b",
+  "7887": "f9297c07870e",
+  "7888": "f936309cc2ff",
+  "7889": "bdf1f6adf74b",
+  "7891": "d8748be55752",
+  "7893": "e7fba46cfb7e",
+  "7895": "565d3186ede9",
+  "7896": "e3a4ec2762e5",
+  "7898": "ec5cd90b15f9",
+  "7899": "4fb2fd31f70b",
+  "7900": "bb09d90ea5e5",
+  "7901": "af31139cb19c",
+  "7902": "9385d0529f15",
+  "7903": "7cf12ed62e15",
+  "7906": "5ae24dfb6999",
+  "7907": "5c690c6e2baf",
+  "7908": "00be389b913d",
+  "7909": "cd6063f16683",
+  "7910": "75ad6f2f1618",
+  "7911": "99c69c429e3e",
+  "7912": "feec71884b06",
+  "7913": "7b0b25250f77",
+  "7914": "6ca1b1685aad",
+  "7915": "68f851fe27ec",
+  "7916": "e81d747949af",
+  "7917": "8253bf409509",
+  "7918": "6b06fe96d590",
+  "7919": "4d84b053b646",
+  "7920": "83e11c53ffee",
+  "7921": "227d51fda148",
+  "7922": "c10b354c3db2",
+  "7923": "c4fa92bf2ffc",
+  "7924": "acf18746e907",
+  "7925": "a2e072d07b8a",
+  "7926": "5981cbfb19fb",
+  "7928": "7569fc4eb5be",
+  "7929": "6549eb555152",
+  "7932": "d01adce4b70c",
+  "7933": "b707bf36acc4",
+  "7936": "7d228ea8f2af",
+  "7937": "bcae332a07dd",
+  "7939": "c53b0afa8f37",
+  "7940": "e3916896f398",
+  "7942": "d743d5297d51",
+  "7943": "a1ba968fb5dd",
+  "7944": "95d19dc12a55",
+  "7945": "6c7396366e41",
+  "7948": "560801be9d5a",
+  "7949": "2059e77e02ba",
+  "7952": "19d65091f0df",
+  "7953": "bf669e93b0c2",
+  "7955": "831f9ac72bfb",
+  "7956": "ff1b0378aef3",
+  "7958": "8a4e49843763",
+  "7959": "a6e447f85e5c",
+  "7961": "f6e302804583",
+  "7965": "bccc2282fc43",
+  "7966": "a6776d2d4bb9",
+  "7967": "a74f87e35122",
+  "7968": "d316bbe90a84",
+  "7969": "e961e15eea61",
+  "7970": "c39a797f5245",
+  "7971": "aa7f19072282",
+  "7972": "5e4180a02735",
+  "7973": "132ff49726f0",
+  "7974": "d9a5f7514212",
+  "7975": "8ae55c531641",
+  "7976": "ccda414ba3a1",
+  "7977": "c3ce4dbf5d66",
+  "7978": "d6e2829850ed",
+  "7981": "8f586cc7f84d",
+  "7983": "1cc878a46fa0",
+  "7984": "12060e1d1fd9",
+  "7986": "8fbd90d6e394",
+  "7987": "ed019a892f49",
+  "7989": "43af8ebe781f",
+  "7990": "ebda8d31a73c",
+  "7991": "b6cf8ff5ea39",
+  "7992": "187438ec6b09",
+  "7993": "cc81c871e864",
+  "7994": "8c8508babe08",
+  "7995": "98a75b240020",
+  "7996": "952861c2a2ae",
+  "7997": "4e4b570b6df0",
+  "7998": "f136646d4d4c",
+  "7999": "f29277b2f4f7",
+  "8000": "610673209666",
+  "8001": "b84e8c212c7a",
+  "8002": "28c8b66af8c7",
+  "8004": "4526ededd7e3",
+  "8005": "3e4224321c07",
+  "8006": "9bd3f6e590b4",
+  "8007": "a0b87ca2adb6",
+  "8008": "2f9211b07e3e",
+  "8009": "3e5000060d04",
+  "8010": "ad7445f24a66",
+  "8011": "01690cc07e09",
+  "8012": "a0a25d27b6e6",
+  "8013": "f4d32dc50da8",
+  "8014": "245b3a6c7470",
+  "8016": "1f8fd405fde2",
+  "8017": "0c07a7766233",
+  "8019": "ac42d50bd427",
+  "8020": "17011605e67f",
+  "8021": "cd838d3a6874",
+  "8022": "9b37160535a6",
+  "8023": "a475f0a881dd",
+  "8024": "2e75aa4df251",
+  "8025": "e226c948cab0",
+  "8026": "34661dc81b31",
+  "8027": "0ce83df59f7e",
+  "8028": "e3a5c05fe85c",
+  "8029": "69ced507b5ce",
+  "8030": "73d164620001",
+  "8031": "d1c5249e1077",
+  "8032": "f3de84990f91",
+  "8033": "1f237312f28f",
+  "8034": "e1cf35d29e1e",
+  "8035": "1ff7b5445753",
+  "8036": "efd316c07bf0",
+  "8037": "8947d22b34d7",
+  "8038": "6be5474dbe2a",
+  "8040": "61b6b7ada219",
+  "8041": "d8ac4bc21681",
+  "8042": "30e8b905529c",
+  "8043": "21b5fb64cfd8",
+  "8044": "b884b0a9c89c",
+  "8046": "8e661f5cb680",
+  "8047": "52751c145e8b",
+  "8048": "988d367de517",
+  "8050": "198bc5a64537",
+  "8051": "1be56a149b60",
+  "8052": "d67272816e86",
+  "8053": "dfdfde366807",
+  "8055": "63b0259f97ad",
+  "8056": "c1838bd804f5",
+  "8057": "fbd7f4eea121",
+  "8058": "507b65babdf1",
+  "8059": "b897bc73972f",
+  "8060": "113196193373",
+  "8061": "df2c8ffa18ae",
+  "8062": "bdf7776244e6",
+  "8063": "88bede367948",
+  "8064": "4ffbdc2d9c00",
+  "8068": "42744eb403a7",
+  "8069": "f1bfe31fe34f",
+  "8070": "54e8d4622709",
+  "8071": "2cfc93718024",
+  "8073": "0a7effa52ba0",
+  "8074": "13677b36a3c3",
+  "8075": "ad1f2f5f8dce",
+  "8076": "7060a5b9415a",
+  "8077": "9d0e80b9ed28",
+  "8078": "25bba20d20bb",
+  "8079": "6633bcac50de",
+  "8080": "42c93a9007df",
+  "8081": "ee56c6efde9f",
+  "8082": "7d28a1bba188",
+  "8083": "d2b17a1f349a",
+  "8084": "9c89adb093a2",
+  "8085": "870edce0b0b0",
+  "8088": "69170e06a9c0",
+  "8091": "f07067befa08",
+  "8092": "1712211fe398",
+  "8093": "cfa25162380c",
+  "8094": "5220c0b05190",
+  "8095": "80bedd63aba1",
+  "8096": "d744e08e3e0f",
+  "8097": "509d574b4dc2",
+  "8098": "7c1545b26616",
+  "8099": "eb994492eb08",
+  "8100": "71b2d8bea080",
+  "8101": "9bd8e1c6999e",
+  "8102": "af3df0c8a56a",
+  "8103": "08689991e71f",
+  "8104": "9dda8f545d26",
+  "8105": "6228c7c3ad65",
+  "8107": "6dd22a5d6b61",
+  "8108": "689093d87a6e",
+  "8109": "62a019a704ce",
+  "8110": "3d401e93f092",
+  "8112": "dd2e5072ba63",
+  "8114": "15ef4042461f",
+  "8117": "c61b5628aa97",
+  "8118": "d784c40f5ceb",
+  "8120": "6e606c2e9b7f",
+  "8121": "e154bdd891e5",
+  "8123": "cdae31c0b67f",
+  "8124": "7db28954fb3d",
+  "8125": "5685e45a11eb",
+  "8126": "608b3ed013da",
+  "8127": "aac9287d45a2",
+  "8129": "bb8745a9c4d3",
+  "8130": "2a32d22228fa",
+  "8131": "1c4e9837fa01",
+  "8132": "6499ecd693cc",
+  "8134": "b38d383bff81",
+  "8135": "a0d4019bbd17",
+  "8136": "39d1507ff443",
+  "8139": "2d901bd5919f",
+  "8141": "932a28820b27",
+  "8142": "b55f919f24aa",
+  "8143": "8f780fd90fef",
+  "8144": "1f29c6a4baa5",
+  "8145": "4831e0628fad",
+  "8146": "e77c983d603e",
+  "8147": "4d1752f60f3f",
+  "8148": "7a6f18fb448f",
+  "8149": "43c10bd9449c",
+  "8150": "1d73ece57813",
+  "8151": "862ef3875d05",
+  "8152": "9b57e344b4c4",
+  "8153": "b145b52db31b",
+  "8155": "f4e77c94d058",
+  "8156": "eb2cb50561cc",
+  "8158": "3dd5242d1b23",
+  "8159": "e5a005c17394",
+  "8160": "0f9e6e3a0e5d",
+  "8161": "3a9b5ed0ea82",
+  "8163": "04356a57c685",
+  "8164": "a5a9d8e3a3cb",
+  "8165": "8cd7700d9bd1",
+  "8166": "4fcb2b721322",
+  "8167": "571b91c6447f",
+  "8168": "2774e48d4344",
+  "8169": "c587c30e6839",
+  "8170": "25fe5f1f2788",
+  "8171": "bb0aa767ee6e",
+  "8172": "5e5107924d70",
+  "8173": "6389833f882a",
+  "8174": "1044bc10d981",
+  "8175": "7e071b091ceb",
+  "8176": "4a52b96b5a7b",
+  "8177": "f6cc7930a1ab",
+  "8178": "56a3bbefd7fb",
+  "8179": "44022caab347",
+  "8180": "de020be639bf",
+  "8182": "825eba136436",
+  "8183": "db0fba0a04d6",
+  "8184": "7b90216a7b08",
+  "8186": "be1deefccc6a",
+  "8188": "4c7eca1a11cf",
+  "8189": "5a93007d01dc",
+  "8191": "d5096156bdc5",
+  "8192": "690009f1fc72",
+  "8193": "703bd82f6ea8",
+  "8194": "7233c9d0a8a5",
+  "8195": "838ca2dfcae9",
+  "8196": "3c7affc86cea",
+  "8197": "ef04af3be685",
+  "8198": "9f5cb52e465d",
+  "8199": "92d8aad6870c",
+  "8200": "e1bd29fc50f5",
+  "8201": "c7662c514064",
+  "8203": "8284f4250b37",
+  "8205": "8fcd3f6488f1",
+  "8206": "33fe2ed5fb80",
+  "8207": "8fc8ad34d428",
+  "8210": "206c30ed6c4e",
+  "8212": "b4c0c9d8576a",
+  "8213": "d6d8ee120407",
+  "8214": "d2c548e457e3",
+  "8215": "97a2ee079555",
+  "8216": "0a2c4ca8d765",
+  "8217": "4f04ed294ccc",
+  "8218": "199706e5450d",
+  "8219": "51ff53bebde9",
+  "8220": "62d2e1b28762",
+  "8221": "a150ebd57dc1",
+  "8222": "157f11dbad0e",
+  "8223": "65f9759b078c",
+  "8224": "c839dd988a3d",
+  "8225": "cb71addc935d",
+  "8227": "1d1d7c3c2f44",
+  "8228": "9925da36ab38",
+  "8229": "9ce238831bd3",
+  "8230": "681ade5b24fe",
+  "8231": "1b96e175c2bf",
+  "8234": "08799e9292ab",
+  "8235": "3ac0233637b8",
+  "8236": "241925dab699",
+  "8237": "85f062acacef",
+  "8238": "262ac85c820b",
+  "8239": "a73645f985a5",
+  "8241": "8a920f5c99e4",
+  "8242": "c0debfc6743d",
+  "8243": "43574beb7170",
+  "8244": "dad66d8b8417",
+  "8245": "bc3a21597496",
+  "8246": "faab2caece5e",
+  "8247": "0ac14bd91c6e",
+  "8248": "18819f863e5d",
+  "8249": "93edc07d157b",
+  "8250": "b8074a0fe784",
+  "8251": "3c6641442d9e",
+  "8252": "8f9092bae37d",
+  "8253": "bad421ed0a97",
+  "8254": "1b603c651110",
+  "8255": "b80e515b527a",
+  "8256": "29b8086f387f",
+  "8257": "7551228f0dd7",
+  "8259": "8beb6bc91e5a",
+  "8261": "b5ece366c6f7",
+  "8262": "5cd9ec4a05c3",
+  "8263": "220129769ffd",
+  "8265": "ed8682629b69",
+  "8266": "1ce0715ed8da",
+  "8267": "e6e08a0a3e54",
+  "8268": "7a9c5eda428e",
+  "8269": "cffd35b784df",
+  "8270": "69068df801e0",
+  "8271": "c5e7c2401106",
+  "8272": "df39bf0c09b7",
+  "8273": "19cb33c8c1bf",
+  "8275": "76393d787d03",
+  "8276": "5cab5d49d085",
+  "8277": "55ae700cb153",
+  "8278": "696a0d102912",
+  "8279": "786ba249823c",
+  "8280": "a904ede97aa8",
+  "8281": "011a03b13346",
+  "8282": "d9bf37a50f76",
+  "8283": "d18df65c0f50",
+  "8284": "0906df4fdce8",
+  "8285": "1baa7ce9bd31",
+  "8286": "2f32f9d67788",
+  "8287": "471610ab9c1b",
+  "8288": "80b1aa0cf50b",
+  "8289": "3c3ff93fdbfc",
+  "8291": "6013134c42ad",
+  "8292": "ca68d8de8b1f",
+  "8293": "146946a943d1",
+  "8295": "e741647b6de6",
+  "8296": "b70a0f67bbac",
+  "8298": "1e6598da5197",
+  "8299": "000768d59f96",
+  "8300": "7143d81a110e",
+  "8301": "cd6b1efcaed6",
+  "8302": "4136ebfd7565",
+  "8303": "e12aed291985",
+  "8304": "b95dab18fcfb",
+  "8307": "dcd418c224be",
+  "8308": "6baa8651ee61",
+  "8309": "3e89cc33cf5c",
+  "8310": "01237379db9e",
+  "8311": "7d380ff99e84",
+  "8312": "75e6f3ae4da8",
+  "8313": "66a5c2f666ac",
+  "8314": "8c1efe5e21a4",
+  "8317": "222a8a83fce2",
+  "8319": "0f97231f5eed",
+  "8320": "bd6898e71389",
+  "8321": "64557c67dc5a",
+  "8323": "05daa094e25c",
+  "8324": "cb23dd5f31f3",
+  "8325": "9cfc7b5e775a",
+  "8326": "94be5c73710a",
+  "8327": "fd4995259097",
+  "8328": "842cb2d4bf1d",
+  "8329": "7473e7d4da20",
+  "8330": "1f41687214c6",
+  "8331": "200fd0506f5e",
+  "8333": "2fd306a20418",
+  "8334": "a913de9a3cfd",
+  "8335": "962c5b92bbe1",
+  "8337": "8d3c5e4ce800",
+  "8338": "6eaa111779b8",
+  "8339": "fbd576e548cc",
+  "8341": "512667e1d17c",
+  "8344": "3bae171fa5c1",
+  "8345": "72bd88d87158",
+  "8347": "e457f14d15b5",
+  "8349": "c78ad0a6ab94",
+  "8350": "f11098efabd9",
+  "8351": "d6d0e74762a8",
+  "8353": "3d38bcec0909",
+  "8354": "8e853a5fb771",
+  "8355": "d4707d2a4d69",
+  "8356": "69b6a5abeb6e",
+  "8357": "aeb1ca39c605",
+  "8358": "827ddc9859f2",
+  "8359": "167f8bba9ac7",
+  "8360": "3bce67650ad4",
+  "8361": "d1eb1a952a3b",
+  "8362": "1776a246ca55",
+  "8363": "ce9a43d46b09",
+  "8364": "ca64e5ac30ef",
+  "8365": "6d950a9dd0d0",
+  "8366": "a73802602358",
+  "8367": "9871d410eed9",
+  "8368": "2a0c0d6257b7",
+  "8369": "25833acc3bbc",
+  "8371": "084191277550",
+  "8372": "9cfc33d1aa22",
+  "8373": "8f6e70b970e1",
+  "8375": "9b7b4fef93e4",
+  "8377": "74b0bfa9b292",
+  "8380": "5c13b55db661",
+  "8381": "505f93e7a038",
+  "8382": "9d3635dbe97e",
+  "8383": "61a02bb639e4",
+  "8384": "62b6e93f54aa",
+  "8385": "08edcb642eda",
+  "8388": "2d00d61ee25c",
+  "8389": "d2339cbb1a17",
+  "8390": "386dde88023b",
+  "8391": "75f615fc565b",
+  "8392": "39d319aa83f8",
+  "8394": "7616b7e12ec5",
+  "8395": "6728372fd906",
+  "8396": "dce9723c49c0",
+  "8397": "5331830150cf",
+  "8398": "e776f90cb530",
+  "8399": "1b9fc231e884",
+  "8400": "d95532e7cc3e",
+  "8401": "bceced7a263c",
+  "8402": "0f1856d867cb",
+  "8403": "b869369d9a57",
+  "8404": "940be208a8fe",
+  "8405": "cc659dbb0b14",
+  "8406": "6adef5cfe221",
+  "8407": "ef647bcbcff6",
+  "8408": "43d371f15229",
+  "8409": "4e8c48fff2e4",
+  "8410": "e93df9d108e8",
+  "8411": "9d600cc235fe",
+  "8412": "9212ed438f33",
+  "8413": "46b4791aad8e",
+  "8414": "b5b8ca07f147",
+  "8415": "5f16c5beb9b3",
+  "8416": "97e760259060",
+  "8417": "4a62aeb61dcb",
+  "8418": "2000ae5a9ced",
+  "8419": "4283026db743",
+  "8420": "a707cc859e6a",
+  "8421": "ff440907398f",
+  "8422": "6d0bfa202b3b",
+  "8423": "285628f31cc9",
+  "8424": "e891cacc690d",
+  "8425": "75e4afe3d376",
+  "8426": "91fd2ee106e8",
+  "8427": "0d80328abefb",
+  "8428": "99801ca0e41b",
+  "8429": "46252f189c51",
+  "8430": "0128bfad86b3",
+  "8431": "dd4854c56d2b",
+  "8432": "a7dcd4d9337e",
+  "8433": "4cc67bd687d7",
+  "8434": "d54188c05ffb",
+  "8435": "9f278a7b4419",
+  "8436": "c1cd652e8240",
+  "8437": "90231ccfe5ad",
+  "8438": "0a0040c97ab3",
+  "8439": "bf8acb46a647",
+  "8440": "af5b2c00ff97",
+  "8441": "6bfd75eed529",
+  "8442": "4aa63f6295e0",
+  "8443": "41bbabd2a614",
+  "8444": "bfdcc5f2a518",
+  "8445": "cbb8644f1a52",
+  "8446": "15f7b52a5544",
+  "8447": "76d5cf0f26c4",
+  "8448": "a7b330ec48c7",
+  "8449": "25e1172c87bf",
+  "8450": "abf3ff466cc5",
+  "8451": "6b25b5d0db96",
+  "8452": "ada450624b9d",
+  "8453": "9fb760aaf24d",
+  "8454": "2039e12e1b7e",
+  "8455": "98b4f77e88c3",
+  "8456": "ecd4db6148a1",
+  "8457": "d3f500b35caf",
+  "8458": "6c4e052d4ef3",
+  "8460": "ed7c3f251be4",
+  "8461": "2b23dfbba00e",
+  "8462": "fb85c7c288c7",
+  "8463": "d017a675a691",
+  "8464": "5e808cf47665",
+  "8465": "d02fadb2bca9",
+  "8466": "bd277d35b920",
+  "8467": "159ec07185e3",
+  "8468": "3d8d1ba54664",
+  "8469": "b77c6498253c",
+  "8470": "b69ca80117fb",
+  "8471": "5705e36b4686",
+  "8472": "7bca0a18f15a",
+  "8473": "1e3eb54705b6",
+  "8474": "ad26b34a7015",
+  "8475": "ab60a715f4af",
+  "8476": "8dde607e8a29",
+  "8477": "bab54665d89b",
+  "8478": "bce663e6aca3",
+  "8479": "245a1bc1ef93",
+  "8480": "68df36576cca",
+  "8481": "3ef4641b4106",
+  "8482": "416debeaa53b",
+  "8483": "65c3d6eaceab",
+  "8484": "9a3b52442520",
+  "8485": "2fa0d9c694f3",
+  "8486": "a8a27f6b35f4",
+  "8487": "12725521d203",
+  "8488": "8533df54373b",
+  "8489": "c01384774fa2",
+  "8490": "039506dae601",
+  "8491": "8aaf7c81b7aa",
+  "8492": "45dad9808a5d",
+  "8493": "c0a989488370",
+  "8495": "e3dd1c5b160a",
+  "8496": "cede21f76cc5",
+  "8497": "b3aa010e2675",
+  "8498": "cb59d009f648",
+  "8499": "5895635ff146",
+  "8500": "f16fa90bb205",
+  "8501": "a062861f8594",
+  "8502": "613adf5e480e",
+  "8503": "dac0e83cb669",
+  "8504": "e311895cc151",
+  "8505": "76e3e4213171",
+  "8506": "c781d9fd148a",
+  "8507": "bb70366388cf",
+  "8508": "3a772ca01d4c",
+  "8509": "5e01bad9a802",
+  "8510": "9c1e6075a690",
+  "8511": "7bc5951d6fb4",
+  "8512": "a810cc8eb534",
+  "8513": "bc007d914123",
+  "8514": "5d2be85a24eb",
+  "8515": "2e90bb8597b3",
+  "8516": "538529de186c",
+  "8517": "9af38559defe",
+  "8518": "05ee0ea0de4b",
+  "8519": "a26080daa9e8",
+  "8520": "f3066223cbf3",
+  "8521": "839dc0c160d9",
+  "8522": "1841c72ccc5d",
+  "8523": "b839fd98df66",
+  "8524": "8548afe72993",
+  "8525": "e36e1b18760b",
+  "8526": "d2b0d1c9c246",
+  "8527": "3b3a205caa46",
+  "8528": "f590ba969587",
+  "8529": "35dc22df4205",
+  "8530": "bebc5ded1e17",
+  "8531": "e6f3a2634ebf",
+  "8532": "9338900e8ce8",
+  "8533": "f4b9a079555c",
+  "8534": "3f6da2d7d550",
+  "8535": "87958cd27a2f",
+  "8536": "9973c971b27f",
+  "8537": "0df1666d6be4",
+  "8538": "1e2e78391b57",
+  "8539": "924151d469d8",
+  "8540": "17cc29811fab",
+  "8541": "8fb910593cab",
+  "8542": "fd2753bb26b6",
+  "8543": "596333f85836",
+  "8545": "2f8232800fa9",
+  "8546": "622fedc93b63",
+  "8547": "4264f75d51d5",
+  "8548": "9992a3574ffe",
+  "8549": "07398e0bb03f",
+  "8550": "420951b3e2cd",
+  "8551": "d2724d41331f",
+  "8552": "814ab58929f4",
+  "8553": "a6b2ebcfcad4",
+  "8554": "179c759f0dee",
+  "8556": "9ab08e85403c",
+  "8557": "bbe352f51737",
+  "8558": "9eb364565a3f",
+  "8559": "b371260f024e",
+  "8560": "7f16643466bb",
+  "8561": "0cb6cd6997da",
+  "8562": "eb21f4898e44",
+  "8563": "bbe7e21f0fbd",
+  "8564": "3872b668ad4e",
+  "8565": "7851d5c26b2b",
+  "8566": "72a8ae4534aa",
+  "8567": "a51ddb65ef76",
+  "8568": "bb8a9ae8e8ae",
+  "8569": "afac98981274",
+  "8570": "041dbe92433a",
+  "8571": "2f3b064c1c99",
+  "8572": "98d48d719bf4",
+  "8573": "2b203f097163",
+  "8574": "b7e8033c46c3",
+  "8575": "a76ed80978c3",
+  "8576": "7a98d3ae1f73",
+  "8577": "616abad42410",
+  "8578": "6baba82f7e0c",
+  "8579": "0c37b0ca6aea",
+  "8580": "90c5d594e568",
+  "8581": "b795cbdca6e0",
+  "8582": "974f74cffcbd",
+  "8583": "ef7583749cc7",
+  "8584": "1418877ccf03",
+  "8585": "64dbbcf77156",
+  "8586": "ac228ac70ddd",
+  "8587": "d39c18dcd5ff",
+  "8588": "0b3260d5c69d",
+  "8589": "c7c3acb08f9b",
+  "8590": "8d4dee3837d8",
+  "8591": "6655940857ab",
+  "8592": "ab8821081775",
+  "8593": "b4ef191e8abb",
+  "8594": "c870845eb9e8",
+  "8595": "6cce01c70f90",
+  "8596": "708feeba777a",
+  "8597": "353b8950ab46",
+  "8598": "46d395df712d",
+  "8599": "92f53123776a",
+  "8600": "fb1fffc70460",
+  "8602": "0a563ed14eec",
+  "8603": "51f484afd987",
+  "8604": "8f6701752313",
+  "8605": "e5f866257763",
+  "8606": "195ccc2e3393",
+  "8607": "798464411553",
+  "8608": "40122fcf81b3",
+  "8609": "fa611199a238",
+  "8610": "5e92662f71be",
+  "8611": "9260c0562997",
+  "8612": "b9fadedc7acb",
+  "8613": "e44d6f07e189",
+  "8614": "7dbf377da05c",
+  "8615": "b50822dd5d80",
+  "8616": "2c95a6a022ac",
+  "8617": "4ff169a77f9a",
+  "8618": "12eb93ea193d",
+  "8619": "f8e5771d379f",
+  "8620": "36a7c1d44626",
+  "8621": "d6b2559f4885",
+  "8622": "d079c0f8b4a1",
+  "8623": "a1178a307efa",
+  "8624": "cf35d8a10ef0",
+  "8625": "f75e944e59af",
+  "8626": "b7445f8f94ca",
+  "8628": "4e2aa17b431e",
+  "8629": "f3eacb86d612",
+  "8630": "ce372d640992",
+  "8631": "6609dda43a56",
+  "8633": "94f0dd7d1d74",
+  "8634": "8a1724221685"
+ },
  "inicio": "2026-10-08",
+ "matriz_generada": {
+  "claves": [
+   "8357",
+   "8570"
+  ],
+  "fecha": "2026-10-09T03:31:36",
+  "notas": {
+   "8357": "399fc6670871",
+   "8570": "399fc6670871"
+  }
+ },
+ "matriz_id": "1xh7TLIrTJk3DI1snoLyXTN-HAFAGouiL08XvXa1xsEs",
  "pendientes": {},
- "ultima_corrida": "2026-10-08T23:03:00"
+ "ultima_corrida": "2026-10-09T03:31:36"
 }
