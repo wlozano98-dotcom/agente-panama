@@ -320,7 +320,7 @@ def cita_pleno(o, indice):
         for f in fs:
             if f["ficha"] not in fichas:
                 fichas.append(f["ficha"])
-        lineas.append(f"{p['n']}. {resumen(p['texto'], 240)}")
+        lineas.append(f"{p['n']}. {resumen(p['texto'], 170)}")
     return {"id": PLENO_BASE + o["id"], "fecha": o["fecha"], "hora": o["hora"], "comision": "Pleno de la Asamblea",
             "lugar": "Palacio Justo Arosemena · Orden del Día", "organizador": o["url"], "descripcion": "\n".join(lineas),
             "fichas": fichas, "por_punto": por_punto, "pleno": o}
@@ -467,8 +467,10 @@ def main():
             pass  # ya existe
         d1.insertar_muchas("eventos", ["ficha", "fecha", "etapa", "texto", "fuente", "id_origen", "creado", "url"], eventos,
                            modo="INSERT OR IGNORE")
-        d1.insertar_muchas("agenda", ["id", "fecha", "hora", "comision", "lugar", "organizador", "descripcion", "fichas",
-                                      "actualizado"], filas)
+        # las sesiones del Pleno son filas grandes (un orden del día entero): de a una, para no pasar el límite de D1
+        columnas = ["id", "fecha", "hora", "comision", "lugar", "organizador", "descripcion", "fichas", "actualizado"]
+        d1.insertar_muchas("agenda", columnas, [x for x in filas if x[0] < PLENO_BASE])
+        d1.insertar_muchas("agenda", columnas, [x for x in filas if x[0] >= PLENO_BASE], por_lote=1)
         ids = ",".join(str(c["id"]) for c in citas + plenos)
         if ids:
             d1.ejecutar_varias(f"DELETE FROM agenda_fichas WHERE agenda_id IN ({ids})")
