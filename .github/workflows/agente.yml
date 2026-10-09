@@ -1,9 +1,8 @@
 name: Agente Panamá
 
 on:
-  # La revisión cada hora se enciende cuando Andrés decida cómo cubrir los minutos de Actions.
-  # schedule:
-  #   - cron: "17 * * * *" # cada hora, al minuto 17 (hora UTC)
+  schedule:
+    - cron: "17 * * * *" # cada hora, al minuto 17 (hora UTC)
   workflow_dispatch: # botón "Run workflow" para correrlo a mano
 
 permissions:

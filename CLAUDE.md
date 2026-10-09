@@ -21,10 +21,10 @@ sirva, pero no se comparte código ni datos. Alcance: todo lo de KeyCurul (alert
 - Cloudflare: cuenta propia (CLOUDFLARE_ACCOUNT_ID, CLOUDFLARE_TOKEN con D1 Edit, Workers Scripts Edit y Account
   Settings Read), subdominio `agentemonitoreopa.workers.dev`.
 - Telegram: bot `@keyword_panama_alertas_bot` ("Monitoreo AN Panamá"), TELEGRAM_CHAT_ID = chat de Andrés.
-- GitHub: repo privado `wlozano98-dotcom/agente-panama` (GH_TOKEN de la cuenta de Andrés, el mismo de KeyCurul).
+- GitHub: repo PÚBLICO `wlozano98-dotcom/agente-panama` (decisión de Andrés, 2026-10-08: los repos públicos no gastan
+  minutos de Actions; KeyCurul ya usa más de los 2.000 gratis). Nada privado en el repo: claves en secretos y la lista de
+  clientes, cuando exista, irá como secreto CLIENTES_JSON, no como archivo (GH_TOKEN de la cuenta de Andrés, el mismo de KeyCurul).
 - `bin/` (no se sube): `rclone` y `gh` para macOS arm64.
-
-Pendiente: rotar GEMINI_KEY, CLOUDFLARE_TOKEN y TELEGRAM_TOKEN (pasaron por el chat el 2026-10-08) antes del uso del equipo.
 
 ## Fuentes (revisadas el 2026-10-08)
 

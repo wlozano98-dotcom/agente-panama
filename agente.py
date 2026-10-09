@@ -45,6 +45,7 @@ LIMITE_PDF_GEMINI = 30 * 1024 * 1024  # más grande: se analiza solo por el tít
 MAX_INTENTOS = 3
 REZAGADAS_POR_CORRIDA = 4   # fichas viejas sin análisis que se analizan en silencio en cada corrida
 ETAPAS_POR_CORRIDA = 60     # fichas viejas a las que se les baja el historial de etapas en cada corrida
+HORAS_COMISIONES = 6        # la comisión de cada ficha se revisa cada 6 horas (o antes si hay fichas nuevas)
 
 # Etapas donde el proyecto ya no avanza: no se analizan como rezagadas.
 TERMINADAS = {"Ley", "Archivado", "Negado", "Retirado por proponente", "Fusionado"}
@@ -550,8 +551,6 @@ def leer_asamblea(estado):
     cuantas viejas que aún no lo tienen."""
     s = seglegis.Seguimiento()
     t = time.time()
-    comisiones = s.comisiones()
-    print(f"comisiones: {len(comisiones)} fichas con comisión ({round(time.time() - t)} s)")
     viejas = estado["fichas"]
     primera_vez = not viejas
     cupo = {"historial": 0 if primera_vez else ETAPAS_POR_CORRIDA}
@@ -575,6 +574,18 @@ def leer_asamblea(estado):
           f"({round(time.time() - t)} s)")
     if len(actuales) < 0.8 * len(viejas):
         raise RuntimeError(f"la lista vino incompleta ({len(actuales)} de {len(viejas)}): no se toca el estado")
+
+    # La comisión sale de recorrer el filtro de cada comisión (~100 s): cada HORAS_COMISIONES o si hay fichas nuevas.
+    hay_nuevas = any(f["ficha"] not in viejas for f in actuales)
+    ultima = estado.get("comisiones_revisadas", "")
+    vencida = not ultima or datetime.datetime.now() - datetime.datetime.fromisoformat(ultima) > datetime.timedelta(hours=HORAS_COMISIONES)
+    if hay_nuevas or vencida:
+        t = time.time()
+        comisiones = s.comisiones()
+        estado["comisiones_revisadas"] = datetime.datetime.now().isoformat(timespec="seconds")
+        print(f"comisiones: {len(comisiones)} fichas con comisión ({round(time.time() - t)} s)")
+    else:
+        comisiones = {k: v.get("comision", "") for k, v in viejas.items()}
 
     novedades = []
     for f in actuales:
