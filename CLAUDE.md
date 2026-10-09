@@ -45,3 +45,15 @@ sirva, pero no se comparte código ni datos. Alcance: todo lo de KeyCurul (alert
 - No sirven: Agenda de Comisiones (abandonada desde julio de 2024) y votaciones de prensa507 (vacías).
 
 Diferencias con Ecuador: tres debates, prohijamiento (anteproyecto → proyecto), sin correo ni boletines.
+
+## Proponentes (pedido de Andrés, 2026-10-08)
+
+En Panamá es común que varios diputados presenten juntos (425 de 931 fichas; hasta 46 nombres). El sistema los trae en
+un solo texto con comas, "H.D" (diputado) o "H.D.S" (suplente) delante. `nombres.py` los separa (ojo: el nombre de la
+comisión de Credenciales lleva comas) y unifica las formas cortas en la más completa ("JOSE PEREZ BARBONI" → "José
+Antonio Pérez Barboni"): 124 personas. El primero de la lista es el principal.
+- Base: tabla `proponentes` (ficha, nombre, tipo, principal, orden).
+- Matriz: "Proponente principal" y "Otros proponentes" en la hoja Proyectos, y hoja "Proponentes" con una fila por
+  proponente y proyecto para filtrar por diputado. `MATRIZ_VERSION` en base.py: subirlo al cambiar columnas (esa vez
+  no se recogen Notas ni borrados, porque las columnas no calzarían).
+- Telegram: "Nombre y N más"; el .md de Drive trae la lista completa.

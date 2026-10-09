@@ -55,3 +55,15 @@ CREATE TABLE IF NOT EXISTS impactos (
   PRIMARY KEY (ficha, sector)
 );
 CREATE INDEX IF NOT EXISTS impactos_sector ON impactos(sector, nivel);
+
+-- Proponentes de cada ficha, uno por fila (en Panamá es común que varios diputados presenten juntos).
+-- Nombres unificados en su forma más completa (nombres.py); principal = 1 para el primero de la lista oficial.
+CREATE TABLE IF NOT EXISTS proponentes (
+  ficha INTEGER NOT NULL REFERENCES proyectos(ficha),
+  nombre TEXT NOT NULL,
+  tipo TEXT,                        -- Diputado, Suplente, Institución, Ciudadano
+  principal INTEGER DEFAULT 0,
+  orden INTEGER,
+  PRIMARY KEY (ficha, nombre)
+);
+CREATE INDEX IF NOT EXISTS proponentes_nombre ON proponentes(nombre);

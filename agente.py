@@ -29,6 +29,7 @@ import urllib.request
 import uuid
 
 import base
+import nombres
 import seglegis
 
 CARPETA = os.path.dirname(os.path.abspath(__file__))
@@ -141,6 +142,27 @@ def nombre_proponente(texto):
     t = re.sub(r"^H\.\s?D\.?\s*", "", texto or "").strip()
     nombre = titulo(t)
     return ("H.D. " + nombre) if re.match(r"^H\.\s?D", texto or "") else nombre
+
+
+_UNIFICADOR = {}
+
+
+def unificador(estado=None):
+    """Unificador de nombres de proponentes aprendido de todas las fichas (se arma una vez por corrida)."""
+    if "u" not in _UNIFICADOR:
+        _UNIFICADOR["u"] = nombres.Unificador([f["proponente"] for f in (estado or cargar_estado())["fichas"].values()])
+    return _UNIFICADOR["u"]
+
+
+def texto_proponentes(f, todos=False):
+    """'José Pérez Barboni' · 'José Pérez Barboni y 3 más' · o la lista completa."""
+    lista = unificador().lista(f["proponente"])
+    if not lista:
+        return nombre_proponente(f["proponente"])
+    nombres_ = [p["nombre"] + (" (suplente)" if p["tipo"] == "Suplente" else "") for p in lista]
+    if todos or len(nombres_) == 1:
+        return "; ".join(nombres_)
+    return f"{nombres_[0]} y {len(nombres_) - 1} más"
 
 
 def numero(f):
@@ -424,7 +446,7 @@ def analisis_md(f, r):
         f"# {r['titulo']}", "",
         f"- **{numero(f)}** · ficha {f['ficha']}",
         f"- **Presentado:** {ddmm(f['fecha'])}",
-        f"- **Proponente:** {nombre_proponente(f['proponente'])}",
+        f"- **Proponentes:** {texto_proponentes(f, todos=True)}",
         f"- **Comisión:** {nombre_comision(f.get('comision'))}",
         f"- **Etapa:** {f['etapa']}",
         f"- **Impacto:** {r['impacto'].capitalize()}",
@@ -499,7 +521,7 @@ def texto_nueva(f, r, encabezado="🆕 Nuevo"):
         f"{encabezado} · <b>{e(numero(f))}</b>",
         f"📜 {e(r['titulo'])}",
         f"📍 <b>Etapa:</b> {e(f['etapa'])} ({ddmm(f['fecha'])})",
-        f"👤 <b>Proponente:</b> {e(nombre_proponente(f['proponente']))}",
+        f"👤 <b>Proponente:</b> {e(texto_proponentes(f))}",
         f"🏛 <b>Comisión:</b> {e(nombre_comision(f.get('comision')))}",
     ] + lineas_impacto(r)
     if r["impacto"] != "ninguno":
@@ -696,6 +718,7 @@ def main():
         return
 
     novedades = leer_asamblea(estado)
+    unificador(estado)
     pendientes = [p for p in estado["pendientes"].values()] + novedades
     estado["pendientes"] = {}
     print(f"{len(novedades)} novedades nuevas, {len(pendientes) - len(novedades)} pendientes de corridas anteriores")
