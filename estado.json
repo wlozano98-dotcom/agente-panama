@@ -77,6 +77,10 @@
    "carpeta": "Patronato del Corpus Christi de Parita (ficha 8389)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "8391": {
+   "carpeta": "Aprobación de la Convención del Metro (ficha 8391)",
+   "comision": "Comisión de Relaciones Exteriores"
+  },
   "8491": {
    "carpeta": "Regulación de ácidos grasos trans industriales (ficha 8491)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
@@ -30281,6 +30285,20 @@
    "titulo": "QUE REFORMA LA LEY 47 DE 1946, ORGANICA DE EDUCACION Y DICTA OTRAS DISPOSICIONES"
   },
   "8391": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1dtIhb8qN8kfRm_WHy3PQu86ZsrMVQ9Vd",
+    "fecha_analisis": "2026-10-09",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Se trata de un convenio internacional de carácter técnico-científico e institucional que obliga exclusivamente al Estado panameño frente al organismo internacional; no establece regulaciones, trámites, impuestos ni exigencias directas sobre las empresas.",
+    "resumen": "Aprueba la adhesión de Panamá a la histórica Convención del Metro y su reglamento para convertir al país en miembro pleno de la Oficina Internacional de Pesas y Medidas (BIPM). El objetivo es fortalecer las capacidades científicas y de calibración técnica nacional a través de CENAMEP AIP, garantizando la trazabilidad internacional de las mediciones sin alterar normativas comerciales internas.",
+    "sectores": [],
+    "titulo": "Que aprueba la Convención del Metro, firmada en París el 20 de mayo de 1875, modificada el 6 de octubre de 1921 y Reglamento Anexo.",
+    "titulo_corto": "Aprobación de la Convención del Metro"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE RELACIONES EXTERIORES",
    "etapa": "Tercer Debate",
@@ -37421,18 +37439,6 @@
  },
  "matriz_id": "1xh7TLIrTJk3DI1snoLyXTN-HAFAGouiL08XvXa1xsEs",
  "pendientes": {
-  "cambio:8391": {
-   "antes": "Tercer Debate",
-   "ficha": "8391",
-   "nuevas": [
-    {
-     "comentario": "APROBADO EN III DEBATE",
-     "etapa": "Tercer Debate",
-     "fecha": "2026-10-07"
-    }
-   ],
-   "tipo": "cambio"
-  },
   "cambio:8392": {
    "antes": "Tercer Debate",
    "ficha": "8392",
@@ -37840,5 +37846,5 @@
   ],
   "revisada": "2026-10-09T13:42:09"
  },
- "ultima_corrida": "2026-10-09T16:39:31"
+ "ultima_corrida": "2026-10-09T17:34:14"
 }
