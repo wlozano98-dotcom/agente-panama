@@ -28,6 +28,7 @@ import urllib.parse
 import urllib.request
 import uuid
 
+import base
 import seglegis
 
 CARPETA = os.path.dirname(os.path.abspath(__file__))
@@ -51,6 +52,10 @@ HORAS_COMISIONES = 6        # la comisión de cada ficha se revisa cada 6 horas 
 TERMINADAS = {"Ley", "Archivado", "Negado", "Retirado por proponente", "Fusionado"}
 # La lista no cambia de etapa cuando el Pleno aprueba el tercer debate: a estas se les mira el historial siempre.
 VIGILAR_HISTORIAL = {"Tercer Debate", "Tercer Debate(Objetado)"}
+# Las rezagadas se analizan de las más avanzadas a las menos (lo que está por volverse ley importa más).
+AVANCE = {"Enviado al Ejecutivo": 9, "Objetado por Ejecutivo": 8, "Tercer Debate(Objetado)": 8, "Tercer Debate": 7,
+          "Segundo Debate(Objetado)": 6, "Segundo Debate": 6, "Primer Debate": 5, "Enviado a subcomisión para analisis": 4,
+          "Prohijado": 3, "Suspendido": 1}
 
 
 # ---------------------------------------------------------------- configuración
@@ -665,7 +670,7 @@ def mostrar(args, lineas, pdf=None, nombre_pdf="documento.pdf"):
 def rezagadas(estado, args, cupo):
     """Fichas activas sin análisis (de antes de que existiera el agente): se analizan sin avisar, las más nuevas primero."""
     candidatas = sorted((f for f in estado["fichas"].values() if "analisis" not in f and f["etapa"] not in TERMINADAS),
-                        key=lambda f: f["fecha"], reverse=True)
+                        key=lambda f: (AVANCE.get(f["etapa"], 0), f["fecha"]), reverse=True)
     print(f"rezagadas: {len(candidatas)} fichas activas sin análisis; hoy van {min(cupo, len(candidatas))}")
     for f in candidatas[:cupo]:
         print(f"→ rezagada: {numero(f)} {f['titulo'][:80]}")
@@ -721,6 +726,13 @@ def main():
             rezagadas(estado, args, REZAGADAS_POR_CORRIDA)
         except (CuotaAgotada, GeminiSaturado) as ex:
             print(f"  rezagadas: {ex}")
+    if not args.prueba and base.disponible():
+        try:
+            base.sincronizar(estado, sys.modules[__name__])
+            if drive_disponible():
+                base.matriz_generar(estado, DRIVE_RAIZ)
+        except Exception as ex:  # la base o la matriz fallan: se reintenta en la próxima corrida
+            print(f"base/matriz: {ex}")
     estado["ultima_corrida"] = datetime.datetime.now().isoformat(timespec="seconds")
     if not args.prueba:
         guardar_estado(estado)
