@@ -582,11 +582,16 @@ def leer_asamblea(estado):
     primera_vez = not viejas
     cupo = {"historial": 0 if primera_vez else ETAPAS_POR_CORRIDA}
     historiales = {}
+    # sin historial todavía: primero las analizadas (van a la matriz) y las próximas rezagadas; esas no gastan cupo
+    sin_historial = [f for f in viejas.values() if "etapas" not in f]
+    prioridad = {f["ficha"] for f in sin_historial if "analisis" in f}
+    prioridad |= {f["ficha"] for f in orden_rezagadas(viejas)[:2 * REZAGADAS_POR_CORRIDA]}
 
     def al_pasar(pagina, filas):
         for f in filas:
             v = viejas.get(f["ficha"])
             necesita = (not primera_vez and v is None) or (v and (v["etapa"] != f["etapa"] or f["etapa"] in VIGILAR_HISTORIAL))
+            necesita = necesita or (v is not None and "etapas" not in v and f["ficha"] in prioridad)
             if not necesita and v is not None and "etapas" not in v and cupo["historial"] > 0:
                 cupo["historial"] -= 1
                 necesita = True
@@ -689,10 +694,15 @@ def mostrar(args, lineas, pdf=None, nombre_pdf="documento.pdf"):
     print("  enviado a Telegram")
 
 
+def orden_rezagadas(fichas):
+    """Fichas activas sin análisis, de las más avanzadas a las menos (y las más nuevas primero)."""
+    return sorted((f for f in fichas.values() if "analisis" not in f and f["etapa"] not in TERMINADAS),
+                  key=lambda f: (AVANCE.get(f["etapa"], 0), f["fecha"]), reverse=True)
+
+
 def rezagadas(estado, args, cupo):
     """Fichas activas sin análisis (de antes de que existiera el agente): se analizan sin avisar, las más nuevas primero."""
-    candidatas = sorted((f for f in estado["fichas"].values() if "analisis" not in f and f["etapa"] not in TERMINADAS),
-                        key=lambda f: (AVANCE.get(f["etapa"], 0), f["fecha"]), reverse=True)
+    candidatas = orden_rezagadas(estado["fichas"])
     print(f"rezagadas: {len(candidatas)} fichas activas sin análisis; hoy van {min(cupo, len(candidatas))}")
     for f in candidatas[:cupo]:
         print(f"→ rezagada: {numero(f)} {f['titulo'][:80]}")
