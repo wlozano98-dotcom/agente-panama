@@ -7,6 +7,7 @@ Lee de .env: CLOUDFLARE_TOKEN, CLOUDFLARE_ACCOUNT_ID, TELEGRAM_TOKEN, GEMINI_KEY
 GOOGLE_CLIENT_SECRET, DRIVE_TOKEN (su refresh_token) y BOT_AUTORIZADOS (IDs de Telegram separados por coma; si no
 está, solo TELEGRAM_CHAT_ID). BOT_WEBHOOK_SECRET y OFICINA_CLAVE se generan la primera vez y quedan en .env.
 """
+import base64
 import json
 import os
 import secrets
@@ -49,6 +50,9 @@ def subir_codigo():
     limite = uuid.uuid4().hex
     codigo = open(os.path.join(CARPETA, "worker.js"), encoding="utf-8").read()
     pagina = open(os.path.join(CARPETA, "oficina.html"), encoding="utf-8").read()
+    for nombre in ("keyword-negro", "keyword-blanco"):  # logos de Keyword dentro de la página
+        datos = base64.b64encode(open(os.path.join(CARPETA, "img", nombre + ".png"), "rb").read()).decode()
+        pagina = pagina.replace(f"__LOGO_{nombre.split('-')[1].upper()}__", "data:image/png;base64," + datos)
     codigo = codigo.replace("__PAGINA_OFICINA__", json.dumps(pagina)).encode()
     meta = json.dumps({"main_module": "worker.js", "compatibility_date": "2026-09-01",
                        "bindings": [{"type": "d1", "name": "DB", "id": d1.id_base()}],

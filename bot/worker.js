@@ -9,6 +9,8 @@
 // coma), GEMINI_KEY, GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, GOOGLE_REFRESH_TOKEN, OFICINA_CLAVE, MATRIZ_ID.
 
 const MODELOS = ["gemini-3.8-flash", "gemini-3.5-flash", "gemini-flash-latest"];
+// para decidir qué buscar (elegir fichas y filtros del índice) basta un modelo liviano y mucho más rápido
+const MODELOS_RAPIDOS = ["gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemini-flash-lite-latest", "gemini-3.8-flash"];
 const MAX_FICHAS = 5;          // fichas que se leen completas por pregunta
 const MAX_LISTA = 60;          // filas que se le pasan a Gemini cuando la pregunta es un listado
 const MAX_CARACTERES_MD = 25000;
@@ -79,6 +81,7 @@ async function datos(env) {
     f.proponente = p ? (p.n > 1 ? `${p.nombre} y ${p.n - 1} más` : p.nombre) : "";
     f.ultima = ult.get(f.ficha) || f.fecha_presentacion || "";
     f.numero = numero(f);
+    f.titulo = oracion(f.titulo);
   }
   fichas.sort((a, b) => b.ultima.localeCompare(a.ultima));
   memo.datos = {
@@ -89,6 +92,21 @@ async function datos(env) {
   };
   memo.t = Date.now();
   return memo.datos;
+}
+
+// Los títulos sin analizar llegan en MAYÚSCULAS desde el sistema: se pasan a oración para leerlos mejor.
+const PALABRAS_PROPIAS = { panama: "Panamá", republica: "República", asamblea: "Asamblea", nacional: "Nacional", canal: "Canal",
+  colon: "Colón", chiriqui: "Chiriquí", veraguas: "Veraguas", darien: "Darién", cocle: "Coclé", herrera: "Herrera", "los santos": "Los Santos" };
+function oracion(t) {
+  t = String(t || "");
+  const letras = t.replace(/[^A-Za-zÁÉÍÓÚÑáéíóúñ]/g, "");
+  const mayus = letras.replace(/[^A-ZÁÉÍÓÚÑ]/g, "").length;
+  if (!letras || mayus / letras.length < 0.8) return t; // ya viene legible (análisis de Gemini); tolera erratas como "lOS"
+  let s = t.toLowerCase().replace(/\s+/g, " ").trim();
+  s = s.replace(/(^|[^a-zñáéíóú])(panam[aá]|rep[uú]blica|asamblea nacional|col[oó]n|chiriqu[ií]|veraguas|dari[eé]n|cocl[eé])(?![a-zñáéíóú])/g,
+    (m, antes, p) => antes + p.split(" ").map((w) => PALABRAS_PROPIAS[w.normalize("NFD").replace(/[\u0300-\u036f]/g, "")] || w).join(" "));
+  s = s.replace(/\b(ley|decreto|codigo|código)( \d)/g, (m, a, b) => a.charAt(0).toUpperCase() + a.slice(1) + b);
+  return s.charAt(0).toUpperCase() + s.slice(1);
 }
 
 function numero(f) {
@@ -144,6 +162,9 @@ const REGLAS =
   "- En Panamá los proyectos pasan por prohijamiento, primer debate (en comisión), segundo y tercer debate (en el Pleno), " +
   "y luego sanción u objeción del Ejecutivo.\n" +
   "- Usa SOLO la información entregada. Si algo no está, dilo claramente; nunca inventes.\n" +
+  "- Para cantidades usa los Totales del listado; no cuentes filas tú mismo.\n" +
+  "- Al listar proyectos di de qué trata cada uno en pocas palabras (no solo su número y etapa). Si son muchos, agrupa o " +
+  "muestra los más relevantes (primero los de mayor impacto o más avanzados) y di cuántos quedan.\n" +
   "- Si un proyecto aún no tiene análisis de impacto, dilo (el agente los va analizando de a poco).\n" +
   "- Texto plano: sin Markdown, sin asteriscos ni almohadillas. Usa guiones para listas.\n" +
   "- Desde el chat no puedes cambiar datos: nunca digas que actualizaste o corregiste algo; sugiere anotarlo en la columna Notas de la matriz.";
@@ -188,7 +209,7 @@ async function responder(env, pregunta, historial = [], seguirEscribiendo = asyn
       `Etapas: ${d.etapas.join("; ")}\n\nSectores: ${SECTORES.join("; ")}\n\n` +
       (previo ? `Conversación previa:\n${previo}\n\n` : "") + `Pregunta: ${pregunta}` }] }],
     generationConfig: { responseMimeType: "application/json", responseSchema: ESQUEMA_PLAN },
-  }));
+  }, MODELOS_RAPIDOS));
   await seguirEscribiendo();
 
   const elegidas = (plan.fichas || []).filter((n) => d.porFicha.has(n)).slice(0, MAX_FICHAS);
@@ -251,10 +272,18 @@ async function listado(env, d, filtros) {
   if (/^\d{4}-\d{2}-\d{2}$/.test(filtros.desde || "")) { fichas = fichas.filter((f) => f.ultima >= filtros.desde); desc.push(`con novedad desde ${dma(filtros.desde)}`); }
   const total = fichas.length;
   const sinAnalizar = fichas.filter((f) => !f.impacto).length;
-  fichas = [...fichas].sort((a, b) => (ORDEN_IMP[a.impacto] ?? 4) - (ORDEN_IMP[b.impacto] ?? 4) || b.ultima.localeCompare(a.ultima));
-  return `Listado (${desc.join(", ")}): ${total} fichas${sinAnalizar ? `, ${sinAnalizar} todavía sin análisis de impacto` : ""}` +
-    `${total > MAX_LISTA ? `; se muestran ${MAX_LISTA}` : ""}.\n` +
-    fichas.slice(0, MAX_LISTA).map((f) => lineaLista(f) + (f.rol ? ` · como ${f.rol}` : "")).join("\n");
+  // los totales van contados aquí (Gemini no debe contar filas): por rol, por etapa y por impacto
+  const contar = (clave) => Object.entries(fichas.reduce((c, f) => ((c[f[clave] || "sin analizar"] = (c[f[clave] || "sin analizar"] || 0) + 1), c), {}))
+    .sort((a, b) => b[1] - a[1]).map(([k, n]) => `${k}: ${n}`).join("; ");
+  let totales = `Totales: ${total} fichas${sinAnalizar ? ` (${sinAnalizar} todavía sin análisis de impacto)` : ""}.\n` +
+    `Por etapa: ${contar("etapa")}.\nPor impacto: ${contar("impacto")}.`;
+  if (filtros.proponente) totales += `\nPor rol: ${contar("rol")}.`;
+  const tope = filtros.proponente ? 200 : MAX_LISTA;
+  fichas = [...fichas].sort((a, b) => (a.rol === "principal" ? 0 : 1) - (b.rol === "principal" ? 0 : 1) ||
+    (ORDEN_IMP[a.impacto] ?? 4) - (ORDEN_IMP[b.impacto] ?? 4) || b.ultima.localeCompare(a.ultima));
+  return `Listado (${desc.join(", ")}).\n${totales}\n` +
+    `${total > tope ? `Se muestran las primeras ${tope} filas (los totales de arriba cuentan todas).\n` : ""}` +
+    fichas.slice(0, tope).map((f) => lineaLista(f) + (f.rol ? ` · como ${f.rol}` : "")).join("\n");
 }
 
 // ------------------------------------------------------------------ Google (Drive)
@@ -288,9 +317,9 @@ async function leerArchivo(token, id) {
 
 // ------------------------------------------------------------------ Gemini
 
-async function gemini(env, cuerpo) {
+async function gemini(env, cuerpo, modelos = MODELOS) {
   let ultimo = "";
-  for (const modelo of MODELOS) {
+  for (const modelo of modelos) {
     for (let intento = 0; intento < 2; intento++) {
       const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${modelo}:generateContent`, {
         method: "POST", headers: { "x-goog-api-key": env.GEMINI_KEY, "Content-Type": "application/json" },
@@ -356,14 +385,19 @@ async function oficina(request, env, url) {
 async function datosOficina(env) {
   const d = await datos(env);
   const desde = new Date(Date.now() + HORA_PANAMA * 3600 * 1000 - 14 * 86400000).toISOString().slice(0, 10);
-  const novedades = (await env.DB.prepare(
-    "SELECT e.ficha, e.fecha, e.etapa, e.texto FROM eventos e WHERE e.fecha >= ? ORDER BY e.fecha DESC, e.id ASC").bind(desde).all()).results;
+  const [novedades, props] = (await env.DB.batch([
+    env.DB.prepare("SELECT ficha, fecha, etapa, texto FROM eventos WHERE fecha >= ? ORDER BY fecha DESC, id ASC").bind(desde),
+    env.DB.prepare("SELECT ficha, nombre, principal FROM proponentes WHERE tipo IN ('Diputado', 'Suplente')"),
+  ])).map((r) => r.results);
+  // proponentes como {nombre: [[ficha, principal], ...]} (más liviano que una fila por objeto)
+  const porPersona = {};
+  for (const x of props) (porPersona[x.nombre] = porPersona[x.nombre] || []).push([x.ficha, x.principal]);
   return {
     hoy: hoyPanama(), matriz: env.MATRIZ_ID ? `https://docs.google.com/spreadsheets/d/${env.MATRIZ_ID}` : "",
     fichas: d.fichas.map((f) => ({ ficha: f.ficha, numero: f.numero, titulo: f.titulo, etapa: f.etapa, comision: f.comision,
       impacto: f.impacto || "", sectores: f.sectores || "", proponente: f.proponente, presentado: f.fecha_presentacion,
       ultima: f.ultima, seguimiento: f.en_seguimiento, carpeta: f.carpeta_url || "" })),
-    novedades, personas: d.personas, comisiones: d.comisiones,
+    novedades, personas: d.personas, porPersona, comisiones: d.comisiones,
   };
 }
 

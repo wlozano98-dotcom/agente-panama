@@ -122,8 +122,9 @@ def titulo(texto):
     """'COMISION DE ECONOMIA Y FINANZAS' → 'Comisión de Economía y Finanzas'."""
     palabras = []
     for i, p in enumerate((texto or "").split()):
-        if p in TILDES:
-            palabras.append(TILDES[p])
+        limpio, signo = p.rstrip(",.;"), p[len(p.rstrip(",.;")):]
+        if limpio in TILDES:
+            palabras.append(TILDES[limpio] + signo)
         elif i > 0 and p.lower() in MINUSCULAS:
             palabras.append(p.lower())
         else:

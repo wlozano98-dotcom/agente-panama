@@ -1,2 +1,745 @@
-<!doctype html><html lang="es"><meta charset="utf-8"><title>Oficina · Agente Panamá</title>
-<body style="font-family:system-ui;padding:2rem">La oficina está en construcción. Kiwi ya responde en Telegram.</body></html>
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Agente Panamá · Monitor legislativo de Keyword</title>
+<style>
+/* Mismo lenguaje visual que KeyCurul (Ecuador): vidrio, fuente del sistema, claro/oscuro, resortes.
+   Tres pestañas: Oficina (escena + chat con Kiwi + novedades día a día), Proyectos (las fichas con filtros) y
+   Diputados (proponentes y sus proyectos). El detalle de una ficha se abre en un panel lateral. */
+:root {
+  --fondo: #eef0f2; --mancha-1: #d3e6e1; --mancha-2: #f2e0c8;
+  --vidrio: rgb(255 255 255 / .66); --vidrio-fuerte: rgb(255 255 255 / .9);
+  --borde: rgb(20 40 50 / .09); --brillo: rgb(255 255 255 / .8);
+  --texto: #15212b; --texto-2: #5c6b75; --acento: #0a6cff; --sobre-acento: #fff; --burbuja: rgb(20 40 50 / .06);
+  --alto: #e5484d; --medio: #f08c2b; --bajo: #c9a400; --ninguno: #9aa5ad; --ok: #1fa35b;
+  --sombra: 0 1px 1px rgb(20 40 50 / .04), 0 10px 30px rgb(20 40 50 / .08);
+  --radio: 22px;
+  --fuente: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, "Segoe UI", Roboto, sans-serif;
+  --fuente-titulo: -apple-system, BlinkMacSystemFont, "SF Pro Display", system-ui, "Segoe UI", Roboto, sans-serif;
+  --muelle: cubic-bezier(.2, .9, .25, 1);
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --fondo: #0e1317; --mancha-1: #12383a; --mancha-2: #3a2a16;
+  --vidrio: rgb(30 38 44 / .6); --vidrio-fuerte: rgb(30 38 44 / .92); --borde: rgb(255 255 255 / .08); --brillo: rgb(255 255 255 / .12);
+  --texto: #eef3f5; --texto-2: #9aa9b2; --acento: #3b8cff; --burbuja: rgb(255 255 255 / .08); --ok: #3ccf7e;
+  --sombra: 0 1px 1px rgb(0 0 0 / .3), 0 12px 34px rgb(0 0 0 / .35); color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --fondo: #0e1317; --mancha-1: #12383a; --mancha-2: #3a2a16;
+  --vidrio: rgb(30 38 44 / .6); --vidrio-fuerte: rgb(30 38 44 / .92); --borde: rgb(255 255 255 / .08); --brillo: rgb(255 255 255 / .12);
+  --texto: #eef3f5; --texto-2: #9aa9b2; --acento: #3b8cff; --burbuja: rgb(255 255 255 / .08); --ok: #3ccf7e;
+  --sombra: 0 1px 1px rgb(0 0 0 / .3), 0 12px 34px rgb(0 0 0 / .35); color-scheme: dark; }
+
+* { box-sizing: border-box }
+[hidden] { display: none !important; }
+html, body { margin: 0; }
+body { background: var(--fondo); color: var(--texto); font: 16px/1.5 var(--fuente); -webkit-font-smoothing: antialiased; padding-inline: 16px; overflow-x: hidden; }
+body::before { content: ""; position: fixed; inset: -20%; z-index: -1; pointer-events: none;
+  background: radial-gradient(40% 35% at 15% 15%, var(--mancha-1), transparent 70%), radial-gradient(35% 30% at 88% 80%, var(--mancha-2), transparent 70%); }
+button, input, select, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; }
+:focus-visible { outline: 3px solid color-mix(in srgb, var(--acento) 60%, transparent); outline-offset: 2px; }
+.marco { max-width: 1320px; margin: 0 auto; padding-block: 24px 56px; display: grid; gap: 22px; }
+.vidrio { background: var(--vidrio); -webkit-backdrop-filter: blur(24px) saturate(170%); backdrop-filter: blur(24px) saturate(170%);
+  border: 1px solid var(--borde); box-shadow: var(--sombra), inset 0 1px 0 var(--brillo); border-radius: var(--radio); }
+
+/* barra de marca */
+header.barra { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px; padding: 12px 14px 12px 20px; }
+.marca-grupo { display: flex; align-items: center; gap: 16px; min-width: 0; }
+.marca img { display: block; height: clamp(24px, 2.6vw, 32px); width: auto; }
+.marca .oscuro { display: none; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .marca .claro { display: none; } :root:not([data-theme="light"]) .marca .oscuro { display: block; } }
+:root[data-theme="dark"] .marca .claro { display: none; } :root[data-theme="dark"] .marca .oscuro { display: block; }
+.separador { width: 1px; align-self: stretch; margin: 4px 0; background: var(--borde); }
+h1 { font: 700 clamp(20px, 2.2vw, 26px)/1.05 var(--fuente-titulo); letter-spacing: -.025em; margin: 0; }
+.subtitulo { margin: 0; font-size: 13px; font-weight: 500; color: var(--texto-2); }
+.pestanas { position: relative; display: inline-flex; gap: 2px; padding: 4px; border-radius: 999px; background: var(--burbuja); }
+.pestanas button { position: relative; z-index: 1; border: 0; background: none; padding: 7px 16px; border-radius: 999px; font-size: 14px; font-weight: 600; color: var(--texto-2); }
+.pestanas button[aria-selected="true"] { color: var(--texto); }
+.indicador { position: absolute; z-index: 0; top: 4px; bottom: 4px; border-radius: 999px; background: var(--vidrio-fuerte); box-shadow: 0 1px 3px rgb(0 0 0 / .1);
+  transition: left .45s var(--muelle), width .45s var(--muelle); }
+.cuenta { font-weight: 500; color: var(--texto-2); font-variant-numeric: tabular-nums; }
+@media (max-width: 640px) { header.barra { padding: 12px; } .pestanas { width: 100%; } .pestanas button { flex: 1; padding: 7px 8px; } }
+
+/* oficina */
+.piso { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(320px, 1fr); gap: 22px; align-items: stretch; }
+@media (max-width: 1000px) { .piso { grid-template-columns: minmax(0, 1fr); } }
+.escena { align-self: start; position: relative; border-radius: var(--radio); overflow: hidden; box-shadow: var(--sombra); aspect-ratio: 1200 / 640; min-height: 220px; background: #e9e3da; }
+.escena svg.fondo { position: absolute; inset: 0; width: 100%; height: 100%; }
+.persona { position: absolute; width: 10.5%; transform: translate(-50%, -100%); border: 0; background: none; padding: 0; }
+.persona svg { width: 100%; height: auto; display: block; overflow: visible; }
+.persona .placa { position: absolute; left: 50%; top: 100%; transform: translate(-50%, 4px); white-space: nowrap; font-size: clamp(9px, 1vw, 12px); font-weight: 600;
+  padding: 2px 8px; border-radius: 999px; background: var(--vidrio-fuerte); border: 1px solid var(--borde); color: var(--texto); }
+.tip { position: absolute; left: 50%; bottom: 102%; transform: translateX(-50%) translateY(6px); width: min(240px, 46vw); padding: 10px 12px; border-radius: 14px;
+  font-size: 12.5px; line-height: 1.4; text-align: left; background: var(--vidrio-fuerte); border: 1px solid var(--borde); box-shadow: var(--sombra);
+  opacity: 0; pointer-events: none; transition: opacity .2s, transform .3s var(--muelle); z-index: 20; color: var(--texto); }
+.tip b { display: block; margin-bottom: 2px; }
+.persona:hover .tip, .persona:focus-visible .tip, .persona.abierto .tip { opacity: 1; transform: translateX(-50%) translateY(0); }
+.kiwi { position: absolute; left: 83.5%; top: 79%; width: 8.5%; transform: translate(-50%, -100%); }
+.kiwi svg { width: 100%; height: auto; display: block; }
+.kiwi.pensando .cuerpo-kiwi { animation: rebote .7s var(--muelle) infinite alternate; transform-origin: 50% 100%; }
+@keyframes rebote { from { transform: translateY(0) scaleY(1); } to { transform: translateY(-6%) scaleY(1.03); } }
+.globo { position: absolute; right: 9%; top: 23%; max-width: 30%; padding: 8px 12px; border-radius: 16px 16px 4px 16px; font-size: clamp(10px, 1.1vw, 13px);
+  background: var(--vidrio-fuerte); border: 1px solid var(--borde); box-shadow: var(--sombra); }
+@media (max-width: 640px) { .persona .placa { display: none; } .globo { max-width: 46%; } }
+
+/* chat con Kiwi */
+.chat { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; height: clamp(440px, 40vw, 620px); overflow: hidden; }
+@media (max-width: 1000px) { .chat { height: min(620px, 75vh); } }
+.chat-cab { display: flex; align-items: center; gap: 12px; padding: 14px 16px; border-bottom: 1px solid var(--borde); }
+.chat-cab .mini { width: 38px; height: 38px; flex: none; }
+.chat-cab b { display: block; line-height: 1.2; }
+.chat-cab span { font-size: 13px; color: var(--texto-2); }
+.chat-cab .borrar { margin-left: auto; border: 0; background: none; color: var(--texto-2); font-size: 13px; padding: 6px 8px; border-radius: 8px; }
+.chat-cab .borrar:hover { background: var(--burbuja); }
+.mensajes { overflow-y: auto; padding: 16px; display: flex; flex-direction: column; gap: 10px; }
+.msg { max-width: 88%; padding: 9px 13px; border-radius: 18px; white-space: pre-wrap; font-size: 15px; line-height: 1.45; overflow-wrap: anywhere; }
+.msg.yo { align-self: flex-end; background: var(--acento); color: var(--sobre-acento); border-bottom-right-radius: 6px; }
+.msg.kiwi-m { align-self: flex-start; background: var(--burbuja); border-bottom-left-radius: 6px; }
+.msg.error { background: color-mix(in srgb, var(--alto) 14%, transparent); }
+.msg .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.escribiendo span { display: inline-block; width: 6px; height: 6px; margin-right: 3px; border-radius: 50%; background: var(--texto-2); animation: punto 1s infinite; }
+.escribiendo span:nth-child(2) { animation-delay: .15s; } .escribiendo span:nth-child(3) { animation-delay: .3s; }
+@keyframes punto { 0%, 60%, 100% { opacity: .25; } 30% { opacity: 1; } }
+.sugerencias { display: flex; flex-wrap: wrap; gap: 8px; padding: 0 16px 10px; }
+.chip { border: 1px solid var(--borde); background: var(--vidrio-fuerte); padding: 5px 11px; border-radius: 999px; font-size: 13px; text-align: left; }
+.chip:hover { border-color: color-mix(in srgb, var(--acento) 40%, var(--borde)); }
+form.enviar { display: flex; gap: 8px; padding: 12px; border-top: 1px solid var(--borde); }
+form.enviar textarea { flex: 1; resize: none; border: 1px solid var(--borde); background: var(--vidrio-fuerte); border-radius: 18px; padding: 9px 14px; min-height: 42px; max-height: 120px; }
+form.enviar button { border: 0; background: var(--acento); color: var(--sobre-acento); border-radius: 999px; padding: 0 18px; font-weight: 600; }
+form.enviar button:disabled { opacity: .5; cursor: default; }
+
+/* secciones y tarjetas */
+section.bloque { padding: 18px 20px 20px; }
+.bloque-cab { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 16px; margin-bottom: 12px; }
+h2 { font: 700 20px/1.2 var(--fuente-titulo); letter-spacing: -.015em; margin: 0; }
+.eyebrow { font-size: 13px; font-weight: 600; color: var(--texto-2); margin: 0 0 2px; font-variant-numeric: tabular-nums; }
+.navdia { display: flex; align-items: center; gap: 6px; }
+.navdia button { border: 1px solid var(--borde); background: var(--vidrio-fuerte); border-radius: 999px; min-width: 36px; height: 34px; padding: 0 12px; font-weight: 600; }
+.navdia button:disabled { opacity: .4; cursor: default; }
+.lista { display: grid; gap: 8px; }
+.item { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 4px 12px; align-items: start; text-align: left; width: 100%;
+  border: 1px solid var(--borde); background: var(--vidrio-fuerte); border-radius: 16px; padding: 11px 14px; transition: transform .25s var(--muelle), border-color .2s; }
+.item:hover { transform: translateY(-1px); border-color: color-mix(in srgb, var(--acento) 30%, var(--borde)); }
+.punto { width: 10px; height: 10px; border-radius: 50%; margin-top: 7px; background: var(--ninguno); }
+.punto.alto { background: var(--alto); } .punto.medio { background: var(--medio); } .punto.bajo { background: var(--bajo); }
+.punto.sin { background: transparent; border: 2px solid var(--ninguno); }
+.item .linea1 { display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: center; font-size: 13px; color: var(--texto-2); }
+.item .num { font-weight: 700; color: var(--texto); }
+.item .titulo { font-weight: 600; line-height: 1.35; }
+.item .linea3 { font-size: 13px; color: var(--texto-2); }
+.etiqueta { display: inline-block; font-size: 11.5px; font-weight: 700; padding: 1px 8px; border-radius: 999px; background: var(--burbuja); color: var(--texto); }
+.etiqueta.e-prelim { background: color-mix(in srgb, #8e9aa6 22%, transparent); }
+.etiqueta.e-com { background: color-mix(in srgb, #2f80ed 18%, transparent); }
+.etiqueta.e-pleno { background: color-mix(in srgb, #8e44ad 18%, transparent); }
+.etiqueta.e-ejec { background: color-mix(in srgb, #f08c2b 22%, transparent); }
+.etiqueta.e-ley { background: color-mix(in srgb, var(--ok) 22%, transparent); }
+.etiqueta.e-fin { background: color-mix(in srgb, var(--alto) 16%, transparent); }
+.vacio { color: var(--texto-2); padding: 18px 4px; }
+.filtros { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.filtros input, .filtros select { border: 1px solid var(--borde); background: var(--vidrio-fuerte); border-radius: 12px; padding: 8px 12px; min-width: 0; }
+.filtros input[type="search"] { flex: 1 1 240px; }
+.filtros select { flex: 0 1 220px; max-width: 100%; }
+.mas { margin-top: 10px; border: 1px solid var(--borde); background: var(--vidrio-fuerte); border-radius: 999px; padding: 8px 16px; font-weight: 600; }
+.resumen-filtro { font-size: 13px; color: var(--texto-2); margin: -4px 0 10px; }
+
+/* diputados */
+.diputados { display: grid; grid-template-columns: minmax(260px, 340px) minmax(0, 1fr); gap: 18px; align-items: start; }
+@media (max-width: 800px) { .diputados { grid-template-columns: minmax(0, 1fr); } }
+.personas { display: grid; gap: 6px; max-height: 70vh; overflow-y: auto; padding-right: 4px; }
+.pers { display: flex; justify-content: space-between; gap: 10px; text-align: left; border: 1px solid var(--borde); background: var(--vidrio-fuerte); border-radius: 12px; padding: 8px 12px; }
+.pers[aria-pressed="true"] { border-color: var(--acento); box-shadow: 0 0 0 2px color-mix(in srgb, var(--acento) 25%, transparent); }
+.pers small { color: var(--texto-2); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.segmento { display: inline-flex; gap: 2px; padding: 3px; border-radius: 999px; background: var(--burbuja); }
+.segmento button { border: 0; background: none; border-radius: 999px; padding: 4px 12px; font-size: 13px; font-weight: 600; color: var(--texto-2); }
+.segmento button[aria-pressed="true"] { background: var(--vidrio-fuerte); color: var(--texto); box-shadow: 0 1px 2px rgb(0 0 0 / .08); }
+
+/* detalle de ficha */
+dialog.detalle { position: fixed; inset: 0 0 0 auto; margin: 0; height: 100dvh; max-height: none; width: min(560px, 100vw); border: 0; padding: 0;
+  background: var(--vidrio-fuerte); -webkit-backdrop-filter: blur(30px) saturate(170%); backdrop-filter: blur(30px) saturate(170%);
+  color: var(--texto); box-shadow: -10px 0 40px rgb(0 0 0 / .18); border-left: 1px solid var(--borde); }
+dialog.detalle[open] { animation: entra .45s var(--muelle); }
+@keyframes entra { from { transform: translateX(40px); opacity: 0; } to { transform: none; opacity: 1; } }
+dialog.detalle::backdrop { background: rgb(10 20 30 / .25); }
+.det { padding: 20px 22px 40px; overflow-y: auto; height: 100%; }
+.det-cab { display: flex; justify-content: space-between; align-items: start; gap: 12px; }
+.cerrar { border: 0; background: var(--burbuja); width: 34px; height: 34px; border-radius: 50%; font-size: 18px; flex: none; }
+.det h3 { font: 700 20px/1.25 var(--fuente-titulo); margin: 4px 0 10px; letter-spacing: -.01em; }
+.det .datos { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 4px 14px; font-size: 14px; margin: 12px 0; }
+.det .datos dt { color: var(--texto-2); } .det .datos dd { margin: 0; }
+.det h4 { font-size: 13px; text-transform: uppercase; letter-spacing: .04em; color: var(--texto-2); margin: 20px 0 6px; }
+.det p { margin: 0 0 8px; }
+.det ul { margin: 0; padding-left: 18px; }
+.sectores { display: flex; flex-wrap: wrap; gap: 6px; }
+.sector { font-size: 12.5px; padding: 3px 10px; border-radius: 999px; border: 1px solid var(--borde); }
+.sector.alto { background: color-mix(in srgb, var(--alto) 16%, transparent); } .sector.medio { background: color-mix(in srgb, var(--medio) 18%, transparent); }
+.sector.bajo { background: color-mix(in srgb, var(--bajo) 18%, transparent); }
+.historial { list-style: none; padding: 0 !important; margin: 0; border-left: 2px solid var(--borde); }
+.historial li { position: relative; padding: 0 0 10px 16px; font-size: 14px; }
+.historial li::before { content: ""; position: absolute; left: -6px; top: 6px; width: 10px; height: 10px; border-radius: 50%; background: var(--acento); }
+.historial time { font-weight: 600; font-variant-numeric: tabular-nums; }
+.enlaces { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+.enlaces a { text-decoration: none; color: var(--acento); font-weight: 600; border: 1px solid var(--borde); border-radius: 999px; padding: 6px 14px; background: var(--vidrio); }
+.pie { text-align: center; font-size: 12px; color: var(--texto-2); }
+
+@media (prefers-reduced-transparency: reduce) { .vidrio, dialog.detalle { backdrop-filter: none; -webkit-backdrop-filter: none; background: var(--vidrio-fuerte); } }
+@media (prefers-contrast: more) { :root { --borde: rgb(20 40 50 / .35); --texto-2: #34424b; } }
+@media (prefers-reduced-motion: reduce) { *, *::before { animation: none !important; transition: none !important; } }
+</style>
+</head>
+<body>
+<div class="marco">
+  <header class="barra vidrio">
+    <div class="marca-grupo">
+      <span class="marca" aria-label="Keyword"><img class="claro" alt="Keyword" src="__LOGO_NEGRO__"><img class="oscuro" alt="Keyword" src="__LOGO_BLANCO__"></span>
+      <span class="separador" aria-hidden="true"></span>
+      <div><h1>Agente Panamá</h1><p class="subtitulo">Monitor legislativo de Keyword · Asamblea Nacional de Panamá</p></div>
+    </div>
+    <nav class="pestanas" role="tablist" aria-label="Secciones">
+      <span class="indicador" id="indicador" aria-hidden="true"></span>
+      <button role="tab" id="t-oficina" aria-controls="p-oficina" aria-selected="true">Oficina</button>
+      <button role="tab" id="t-proyectos" aria-controls="p-proyectos" aria-selected="false" tabindex="-1">Proyectos <span class="cuenta" id="c-proyectos"></span></button>
+      <button role="tab" id="t-diputados" aria-controls="p-diputados" aria-selected="false" tabindex="-1">Diputados <span class="cuenta" id="c-diputados"></span></button>
+    </nav>
+  </header>
+
+  <!-- ============================================================ Oficina -->
+  <div class="panel" id="p-oficina" role="tabpanel" aria-labelledby="t-oficina">
+    <div class="piso">
+      <section class="escena" aria-label="La oficina" id="escena">
+        <svg class="fondo" viewBox="0 0 1200 640" preserveAspectRatio="none" aria-hidden="true">
+          <defs>
+            <linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1"><stop id="cielo-a" offset="0" stop-color="#8fc8ea"/><stop id="cielo-b" offset="1" stop-color="#d6ecf6"/></linearGradient>
+            <linearGradient id="mar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5aa3c4"/><stop offset="1" stop-color="#2f7ea3"/></linearGradient>
+            <linearGradient id="piso-g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d8c1a1"/><stop offset="1" stop-color="#c9ad88"/></linearGradient>
+            <linearGradient id="pared-g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#efe9e0"/><stop offset="1" stop-color="#e4ddd2"/></linearGradient>
+            <linearGradient id="vidrio-g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#cfe6f3" stop-opacity=".5"/><stop offset="1" stop-color="#a9cfe2" stop-opacity=".3"/></linearGradient>
+            <clipPath id="ventana-c"><rect x="52" y="44" width="520" height="210" rx="10"/></clipPath>
+          </defs>
+          <rect width="1200" height="300" fill="url(#pared-g)"/>
+          <rect y="300" width="1200" height="340" fill="url(#piso-g)"/>
+          <g stroke="#bb9d77" stroke-opacity=".35" stroke-width="2"><path d="M0 360H1200M0 430H1200M0 510H1200M0 600H1200"/>
+            <path d="M160 300v60M520 300v60M880 300v60M60 360v70M420 360v70M780 360v70M260 430v80M640 430v80M1000 430v80M140 510v90M500 510v90M860 510v90"/></g>
+          <rect y="288" width="1200" height="14" fill="#d8cfc2"/>
+          <!-- ventana: la ciudad de Panamá, la bahía y el Puente de las Américas -->
+          <rect x="42" y="34" width="540" height="230" rx="16" fill="#fff"/>
+          <g clip-path="url(#ventana-c)">
+            <rect x="52" y="44" width="520" height="210" fill="url(#cielo)"/>
+            <g id="estrellas" fill="#f3f1d8" opacity="0"><circle cx="90" cy="64" r="1.6"/><circle cx="170" cy="90" r="1.2"/><circle cx="240" cy="58" r="1.5"/><circle cx="330" cy="80" r="1.1"/><circle cx="420" cy="62" r="1.4"/><circle cx="520" cy="92" r="1.2"/></g>
+            <circle id="astro" cx="500" cy="80" r="16" fill="#fff4c2"/>
+            <rect x="52" y="206" width="520" height="48" fill="url(#mar)"/>
+            <!-- Puente de las Américas (arco) a la izquierda -->
+            <g stroke="#3c5566" stroke-width="3" fill="none"><path d="M60 196 Q140 128 220 196"/><path d="M52 198H240"/>
+              <path d="M84 176v22M108 160v38M132 152v46M156 152v46M180 160v38M204 176v22" stroke-width="1.6"/></g>
+            <!-- barco que cruza hacia el Canal -->
+            <g id="barco"><path d="M250 214h70l-8 10h-56z" fill="#c0392b"/><rect x="262" y="202" width="40" height="12" fill="#e9eef2"/><rect x="268" y="196" width="8" height="6" fill="#e9eef2"/></g>
+            <!-- rascacielos de la Cinta Costera -->
+            <g fill="#7e93a3">
+              <rect x="330" y="132" width="22" height="76"/><rect x="356" y="108" width="18" height="100"/><rect x="378" y="150" width="26" height="58"/>
+              <path d="M410 208V96l12-14 12 14v112z"/><rect x="440" y="124" width="20" height="84"/>
+              <path d="M466 208V118q14-22 28 0v90z"/><rect x="498" y="140" width="22" height="68"/><rect x="524" y="104" width="16" height="104"/><rect x="544" y="160" width="28" height="48"/>
+            </g>
+            <g id="luces" fill="#ffd66b" opacity="0"><rect x="336" y="150" width="4" height="4"/><rect x="360" y="126" width="4" height="4"/><rect x="384" y="170" width="4" height="4"/><rect x="418" y="120" width="4" height="4"/><rect x="446" y="146" width="4" height="4"/><rect x="474" y="140" width="4" height="4"/><rect x="504" y="160" width="4" height="4"/><rect x="528" y="130" width="4" height="4"/><rect x="552" y="176" width="4" height="4"/></g>
+          </g>
+          <rect x="306" y="44" width="6" height="210" fill="#fff"/>
+          <rect x="34" y="262" width="556" height="10" rx="5" fill="#f7f3ec"/>
+          <!-- pizarra: hoy en la Asamblea -->
+          <rect x="612" y="56" width="214" height="154" rx="12" fill="#fff" stroke="#d9d2c6" stroke-width="3"/>
+          <text x="630" y="86" font-family="-apple-system, system-ui, sans-serif" font-size="15" font-weight="700" fill="#2c3e57">Hoy en la Asamblea</text>
+          <text id="piz-1" x="630" y="118" font-family="-apple-system, system-ui, sans-serif" font-size="13" fill="#44566b">—</text>
+          <text id="piz-2" x="630" y="142" font-family="-apple-system, system-ui, sans-serif" font-size="13" fill="#44566b"></text>
+          <text id="piz-3" x="630" y="166" font-family="-apple-system, system-ui, sans-serif" font-size="13" fill="#44566b"></text>
+          <text id="piz-4" x="630" y="190" font-family="-apple-system, system-ui, sans-serif" font-size="12" fill="#7a8796"></text>
+          <!-- bandera de Panamá -->
+          <g transform="translate(560 300)"><rect x="-2" y="-112" width="4" height="112" fill="#9a8a74"/>
+            <g transform="translate(2 -110)"><rect width="56" height="38" fill="#fff"/><rect x="28" width="28" height="19" fill="#d21034"/><rect y="19" width="28" height="19" fill="#005293"/>
+              <path d="M14 4.5l1.6 4.8h5l-4 3 1.5 4.8-4.1-3-4.1 3 1.5-4.8-4-3h5z" fill="#005293" transform="scale(.8) translate(3.5 1)"/>
+              <path d="M42 23.5l1.6 4.8h5l-4 3 1.5 4.8-4.1-3-4.1 3 1.5-4.8-4-3h5z" fill="#d21034" transform="translate(0 -2) scale(1)"/></g></g>
+          <!-- oficina de vidrio de Kiwi -->
+          <rect x="880" y="40" width="300" height="540" rx="14" fill="url(#vidrio-g)" stroke="#b8d4e3" stroke-width="3"/>
+          <rect x="890" y="52" width="280" height="22" rx="6" fill="#ffffff" opacity=".7"/>
+          <text x="1030" y="68" text-anchor="middle" font-family="-apple-system, system-ui, sans-serif" font-size="13" font-weight="700" fill="#2c3e57">Kiwi · Jefe</text>
+          <rect x="930" y="430" width="200" height="16" rx="6" fill="#8d6e4f"/><rect x="944" y="446" width="10" height="64" fill="#7a5d40"/><rect x="1106" y="446" width="10" height="64" fill="#7a5d40"/>
+          <path d="M1120 430v-30h-8v30" fill="#2b2b2b"/><rect x="1080" y="400" width="44" height="30" rx="3" fill="#2f3b4a"/>
+          <!-- escritorios del equipo -->
+          <g fill="#f3efe8" stroke="#d6cdbf" stroke-width="2">
+            <rect x="90" y="440" width="170" height="20" rx="6"/><rect x="300" y="440" width="170" height="20" rx="6"/>
+            <rect x="510" y="440" width="170" height="20" rx="6"/><rect x="90" y="560" width="170" height="20" rx="6" opacity="0"/>
+          </g>
+          <g fill="#cfc6b8"><rect x="100" y="460" width="8" height="60"/><rect x="242" y="460" width="8" height="60"/><rect x="310" y="460" width="8" height="60"/>
+            <rect x="452" y="460" width="8" height="60"/><rect x="520" y="460" width="8" height="60"/><rect x="662" y="460" width="8" height="60"/></g>
+          <g fill="#34495e"><rect x="190" y="410" width="48" height="30" rx="3"/><rect x="400" y="410" width="48" height="30" rx="3"/><rect x="610" y="410" width="48" height="30" rx="3"/></g>
+          <!-- planta -->
+          <g transform="translate(40 600)"><rect x="-22" y="-40" width="44" height="40" rx="6" fill="#c97b4a"/>
+            <path d="M0-40c-30-30-30-70-6-92 4 30 8 56 6 92zM0-40c26-26 40-56 30-86-14 24-22 52-30 86zM0-40c-34-8-52-30-54-58 22 12 40 30 54 58z" fill="#4f9a4a"/></g>
+        </svg>
+        <div id="personas"></div>
+        <div class="kiwi" id="kiwi" title="Kiwi, el jefe de la oficina"></div>
+        <div class="globo" id="globo" hidden></div>
+      </section>
+
+      <section class="chat vidrio" aria-label="Conversación con Kiwi">
+        <div class="chat-cab">
+          <span class="mini" id="kiwi-mini"></span>
+          <div><b>Kiwi</b><span id="estado-kiwi">Jefe de la oficina</span></div>
+          <button class="borrar" id="borrar-chat" type="button">Borrar chat</button>
+        </div>
+        <div class="mensajes" id="mensajes" aria-live="polite"></div>
+        <div>
+          <div class="sugerencias" id="sugerencias"></div>
+          <form class="enviar" id="formulario">
+            <label for="pregunta" class="subtitulo" hidden>Pregunta para Kiwi</label>
+            <textarea id="pregunta" rows="1" placeholder="Pregúntale a Kiwi…" required></textarea>
+            <button type="submit" id="boton">Enviar</button>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <section class="bloque vidrio" aria-labelledby="h-novedades" style="margin-top:22px">
+      <div class="bloque-cab">
+        <div><p class="eyebrow" id="nov-fecha">—</p><h2 id="h-novedades">Novedades del día</h2></div>
+        <div class="navdia"><button type="button" id="dia-ant" aria-label="Día anterior">‹</button><button type="button" id="dia-hoy">Hoy</button><button type="button" id="dia-sig" aria-label="Día siguiente">›</button></div>
+      </div>
+      <div class="lista" id="novedades"></div>
+    </section>
+  </div>
+
+  <!-- ============================================================ Proyectos -->
+  <div class="panel" id="p-proyectos" role="tabpanel" aria-labelledby="t-proyectos" hidden>
+    <section class="bloque vidrio">
+      <div class="bloque-cab"><div><p class="eyebrow">Seguimiento Legislativo</p><h2>Proyectos y anteproyectos</h2></div>
+        <a class="chip" id="enlace-matriz" target="_blank" rel="noopener" hidden>Abrir la matriz ↗</a></div>
+      <div class="filtros">
+        <input type="search" id="f-texto" placeholder="Buscar por título, número o ficha" aria-label="Buscar">
+        <select id="f-comision" aria-label="Comisión"><option value="">Todas las comisiones</option></select>
+        <select id="f-etapa" aria-label="Etapa"><option value="">Todas las etapas</option></select>
+        <select id="f-impacto" aria-label="Impacto">
+          <option value="">Cualquier impacto</option><option value="alto">Impacto alto</option><option value="medio">Alto o medio</option>
+          <option value="bajo">Con algún impacto</option><option value="sin">Sin analizar todavía</option></select>
+        <select id="f-estado" aria-label="Estado"><option value="activos">Solo en trámite</option><option value="">Todos</option></select>
+      </div>
+      <p class="resumen-filtro" id="f-resumen"></p>
+      <div class="lista" id="proyectos"></div>
+      <button class="mas" id="mas-proyectos" type="button" hidden>Ver más</button>
+    </section>
+  </div>
+
+  <!-- ============================================================ Diputados -->
+  <div class="panel" id="p-diputados" role="tabpanel" aria-labelledby="t-diputados" hidden>
+    <section class="bloque vidrio">
+      <div class="bloque-cab"><div><p class="eyebrow">Proponentes</p><h2>Diputados y sus proyectos</h2></div></div>
+      <div class="diputados">
+        <div>
+          <div class="filtros"><input type="search" id="d-texto" placeholder="Buscar diputado" aria-label="Buscar diputado"></div>
+          <div class="personas" id="personas-lista"></div>
+        </div>
+        <div>
+          <div class="bloque-cab"><div><p class="eyebrow" id="d-cuenta"></p><h2 id="d-nombre" style="font-size:18px">Elige un diputado</h2></div>
+            <div class="segmento" role="group" aria-label="Rol"><button type="button" data-rol="" aria-pressed="true">Todos</button>
+              <button type="button" data-rol="1" aria-pressed="false">Como principal</button><button type="button" data-rol="0" aria-pressed="false">Coproponente</button></div></div>
+          <div class="lista" id="d-proyectos"><p class="vacio">Toca un nombre para ver los proyectos que presentó o firmó.</p></div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <p class="pie">Datos públicos del Seguimiento Legislativo de la Asamblea Nacional de Panamá · se actualizan cada hora · <span id="pie-hora"></span></p>
+</div>
+
+<dialog class="detalle" id="detalle" aria-labelledby="det-titulo"><div class="det" id="det"></div></dialog>
+
+<script>
+(function () {
+"use strict";
+var BUSCA = location.search;
+var datos = { fichas: [], novedades: [], personas: [], porPersona: {}, comisiones: [] };
+var porFicha = {};
+var reducir = matchMedia("(prefers-reduced-motion: reduce)").matches;
+var TERMINADAS = ["Ley", "Archivado", "Negado", "Retirado por proponente", "Fusionado"];
+var ORDEN_IMP = { alto: 0, medio: 1, bajo: 2, ninguno: 3 };
+
+function el(tag, clase, texto) { var n = document.createElement(tag); if (clase) n.className = clase; if (texto != null) n.textContent = texto; return n; }
+function api(ruta) { return ruta + (ruta.indexOf("?") >= 0 ? "&" : "?") + BUSCA.replace(/^\?/, ""); }
+function dma(iso) { var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso || ""); return m ? m[3] + "/" + m[2] + "/" + m[1] : iso || ""; }
+var MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
+var DIAS = ["domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"];
+function largo(iso) { var d = new Date(iso + "T12:00:00Z"); return DIAS[d.getUTCDay()] + " " + d.getUTCDate() + " de " + MESES[d.getUTCMonth()]; }
+function sinTildes(t) { return String(t || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase(); }
+function claseEtapa(e) {
+  e = sinTildes(e);
+  if (/preliminar|prohijado/.test(e)) return "e-prelim";
+  if (/primer|subcomision/.test(e)) return "e-com";
+  if (/segundo|tercer/.test(e)) return "e-pleno";
+  if (/ejecutivo/.test(e)) return "e-ejec";
+  if (e === "ley") return "e-ley";
+  return "e-fin";
+}
+function etiqueta(etapa) { return el("span", "etiqueta " + claseEtapa(etapa), etapa); }
+function punto(imp) { var p = el("span", "punto " + (imp || "sin")); p.title = imp ? "Impacto " + imp : "Sin analizar todavía"; return p; }
+
+/* ---------------------------------------------------------------- Kiwi (dibujo de KeyCurul) */
+var serie = 0;
+function kiwiCuerpo(g) {
+  return '<defs><radialGradient id="' + g + '" cx="40%" cy="35%" r="70%"><stop offset="0" stop-color="#c9ee86"/><stop offset=".55" stop-color="#9bd14e"/><stop offset="1" stop-color="#78b336"/></radialGradient>' +
+    '<radialGradient id="' + g + 'p" cx="50%" cy="40%" r="60%"><stop offset="0" stop-color="#eefbd2"/><stop offset="1" stop-color="#cfeaa0"/></radialGradient></defs>' +
+    '<ellipse cx="45" cy="168" rx="30" ry="5" fill="#000" opacity=".12"/>' +
+    '<path d="M40 66c-3-10 1-17 7-19-1 6 0 12 3 17M46 64c1-11 7-16 14-15-4 5-6 10-6 16M36 68c-6-6-7-12-4-17 2 5 5 9 9 12" fill="#8cc742"/>' +
+    '<ellipse cx="45" cy="112" rx="40" ry="48" fill="url(#' + g + ')"/><ellipse cx="45" cy="126" rx="25" ry="28" fill="url(#' + g + 'p)"/>' +
+    '<path d="M8 112c-6 10-5 22 3 28 4-8 5-18 3-27z" fill="#86c040"/><path d="M82 112c6 10 5 22-3 28-4-8-5-18-3-27z" fill="#86c040"/>' +
+    '<circle cx="31" cy="92" r="12" fill="#fff"/><circle cx="59" cy="92" r="12" fill="#fff"/>' +
+    '<g><circle cx="33" cy="93" r="7.5" fill="#5f9a30"/><circle cx="57" cy="93" r="7.5" fill="#5f9a30"/><circle cx="33" cy="93" r="4.3" fill="#18220f"/><circle cx="57" cy="93" r="4.3" fill="#18220f"/>' +
+    '<circle cx="35.5" cy="90.5" r="2" fill="#fff"/><circle cx="59.5" cy="90.5" r="2" fill="#fff"/></g>' +
+    '<circle cx="22" cy="106" r="4" fill="#ff8f70" opacity=".25"/><circle cx="68" cy="106" r="4" fill="#ff8f70" opacity=".25"/>' +
+    '<path d="M38 103q7-5 14 0q-1.5 8-7 10q-5.5-2-7-10z" fill="#f7a93b"/><path d="M39 104.5q6 2.5 12 0" fill="none" stroke="#dc8b1d" stroke-width="1.3"/>' +
+    '<path d="M39 117h12l-2.5 6h-7z" fill="#26324d"/><path d="M41.5 123h7l4 24-7.5 7-7.5-7z" fill="#2b3a55"/>' +
+    '<g fill="#b9c4d8"><circle cx="44" cy="129" r=".9"/><circle cx="47" cy="134" r=".9"/><circle cx="43" cy="139" r=".9"/><circle cx="47" cy="144" r=".9"/><circle cx="44" cy="149" r=".9"/></g>';
+}
+function kiwiSvg() {
+  var g = "k" + (serie++);
+  return '<svg viewBox="0 0 90 190" aria-hidden="true"><g><path d="M32 156v10M32 166l-7 4M32 166v5M32 166l7 4M58 156v10M58 166l-7 4M58 166v5M58 166l7 4" stroke="#f0a02a" stroke-width="4" stroke-linecap="round" fill="none"/></g>' +
+    '<g class="cuerpo-kiwi">' + kiwiCuerpo(g) + '</g></svg>';
+}
+document.getElementById("kiwi").innerHTML = kiwiSvg();
+document.getElementById("kiwi-mini").innerHTML = '<svg viewBox="0 40 90 125" aria-hidden="true">' + kiwiCuerpo("km") + '</svg>';
+
+/* ---------------------------------------------------------------- el equipo */
+var EQUIPO = [
+  { id: "revisor", nombre: "El Revisor", x: 175, y: 440, piel: "#e0ac85", pelo: "#3b2a20", ropa: "#2f80ed", pelo_largo: false,
+    rol: "Revisa cada hora el Seguimiento Legislativo: las fichas nuevas, los cambios de etapa y el historial de cada proyecto." },
+  { id: "analista", nombre: "La Analista", x: 385, y: 440, piel: "#c98e66", pelo: "#1f1a17", ropa: "#8e44ad", pelo_largo: true,
+    rol: "Lee con inteligencia artificial el texto de cada proyecto y le asigna un impacto por sector según los criterios del equipo." },
+  { id: "archivista", nombre: "El Archivista", x: 595, y: 440, piel: "#f1c9a5", pelo: "#8a5a3b", ropa: "#16a085", pelo_largo: false,
+    rol: "Guarda los PDF y análisis en Drive (una carpeta por comisión y por proyecto) y rehace la matriz de seguimiento." },
+  { id: "mensajera", nombre: "La Mensajera", x: 790, y: 600, piel: "#a86f4c", pelo: "#2b1d16", ropa: "#e67e22", pelo_largo: true,
+    rol: "Envía por Telegram los avisos de proyectos nuevos y de avances, con el PDF y su impacto." },
+];
+function persona(a) {
+  var pelo = a.pelo_largo
+    ? '<path d="M14 38c0-22 12-32 31-32s31 10 31 32v26c-6-4-8-12-8-22-8 6-34 6-46 0 0 10-2 18-8 22z" fill="' + a.pelo + '"/>'
+    : '<path d="M16 36c0-20 12-30 29-30s29 10 29 30c-6-8-14-12-29-12s-23 4-29 12z" fill="' + a.pelo + '"/>';
+  return '<svg viewBox="0 0 90 150" aria-hidden="true">' +
+    '<path d="M12 150c0-30 14-48 33-48s33 18 33 48z" fill="' + a.ropa + '"/>' +
+    '<rect x="38" y="84" width="14" height="20" rx="6" fill="' + a.piel + '"/>' +
+    '<ellipse cx="45" cy="50" rx="27" ry="31" fill="' + a.piel + '"/>' + pelo +
+    '<circle cx="35" cy="54" r="3.4" fill="#1d1d1d"/><circle cx="55" cy="54" r="3.4" fill="#1d1d1d"/>' +
+    '<circle cx="36.2" cy="52.8" r="1.1" fill="#fff"/><circle cx="56.2" cy="52.8" r="1.1" fill="#fff"/>' +
+    '<path d="M37 68q8 7 16 0" fill="none" stroke="#7a3b2e" stroke-width="2.4" stroke-linecap="round"/>' +
+    '<circle cx="27" cy="63" r="4" fill="#ff8f70" opacity=".25"/><circle cx="63" cy="63" r="4" fill="#ff8f70" opacity=".25"/></svg>';
+}
+var cajaPersonas = document.getElementById("personas");
+var tips = {};
+EQUIPO.forEach(function (a) {
+  var b = el("button", "persona"); b.type = "button";
+  b.style.left = (a.x / 1200 * 100) + "%"; b.style.top = (a.y / 640 * 100) + "%";
+  b.innerHTML = persona(a);
+  var tip = el("span", "tip"); tip.innerHTML = "<b></b><span></span><em style='display:block;margin-top:4px;font-style:normal;color:var(--texto-2)'></em>";
+  tip.querySelector("b").textContent = a.nombre; tip.querySelector("span").textContent = a.rol;
+  tips[a.id] = tip.querySelector("em");
+  b.append(tip, el("span", "placa", a.nombre));
+  b.setAttribute("aria-label", a.nombre + ": " + a.rol);
+  b.addEventListener("click", function (e) { e.stopPropagation(); var abierto = b.classList.contains("abierto");
+    document.querySelectorAll(".persona.abierto").forEach(function (x) { x.classList.remove("abierto"); }); if (!abierto) b.classList.add("abierto"); });
+  cajaPersonas.append(b);
+});
+document.addEventListener("click", function () { document.querySelectorAll(".persona.abierto").forEach(function (x) { x.classList.remove("abierto"); }); });
+
+/* cielo según la hora de Panamá (UTC-5) */
+function pintarCielo() {
+  var d = new Date(Date.now() - 5 * 3600000), h = d.getUTCHours() + d.getUTCMinutes() / 60;
+  var noche = h < 6 || h >= 19, atardecer = (h >= 17.5 && h < 19) || (h >= 6 && h < 7);
+  document.getElementById("cielo-a").setAttribute("stop-color", noche ? "#0f1d3a" : atardecer ? "#f0a46b" : "#8fc8ea");
+  document.getElementById("cielo-b").setAttribute("stop-color", noche ? "#253a63" : atardecer ? "#f7d9a8" : "#d6ecf6");
+  document.getElementById("estrellas").setAttribute("opacity", noche ? "1" : "0");
+  document.getElementById("luces").setAttribute("opacity", noche || atardecer ? "1" : "0");
+  var astro = document.getElementById("astro");
+  astro.setAttribute("fill", noche ? "#eef0f5" : "#fff4c2");
+  var t = noche ? ((h + 24 - 19) % 24) / 11 : (h - 6) / 13;
+  astro.setAttribute("cx", String(340 + t * 200)); astro.setAttribute("cy", String(110 - Math.sin(t * Math.PI) * 50));
+  document.getElementById("pie-hora").textContent = "hora de Panamá " + String(d.getUTCHours()).padStart(2, "0") + ":" + String(d.getUTCMinutes()).padStart(2, "0");
+}
+pintarCielo(); setInterval(pintarCielo, 60000);
+if (!reducir) { var bx = 0; setInterval(function () { bx = (bx + 1) % 300; document.getElementById("barco").setAttribute("transform", "translate(" + (bx * .6) + " 0)"); }, 120); }
+
+/* ---------------------------------------------------------------- pestañas */
+var PESTANAS = ["oficina", "proyectos", "diputados"];
+function moverIndicador() {
+  var b = document.querySelector('.pestanas button[aria-selected="true"]'), i = document.getElementById("indicador");
+  i.style.left = b.offsetLeft + "px"; i.style.width = b.offsetWidth + "px";
+}
+function abrirPestana(nombre, enfocar) {
+  PESTANAS.forEach(function (p) {
+    var t = document.getElementById("t-" + p), activo = p === nombre;
+    t.setAttribute("aria-selected", String(activo)); t.tabIndex = activo ? 0 : -1;
+    document.getElementById("p-" + p).hidden = !activo;
+    if (activo && enfocar) t.focus();
+  });
+  moverIndicador();
+  try { history.replaceState(null, "", BUSCA + (nombre === "oficina" ? "" : "#" + nombre)); } catch (e) {}
+}
+PESTANAS.forEach(function (p, i) {
+  var b = document.getElementById("t-" + p);
+  b.addEventListener("click", function () { abrirPestana(p); });
+  b.addEventListener("keydown", function (e) {
+    if (e.key === "ArrowRight" || e.key === "ArrowLeft") { e.preventDefault(); abrirPestana(PESTANAS[(i + (e.key === "ArrowRight" ? 1 : PESTANAS.length - 1)) % PESTANAS.length], true); }
+  });
+});
+window.addEventListener("resize", moverIndicador);
+
+/* ---------------------------------------------------------------- tarjeta de ficha */
+function tarjeta(f, extra) {
+  var b = el("button", "item"); b.type = "button";
+  b.append(punto(f.impacto));
+  var cuerpo = el("div");
+  var l1 = el("div", "linea1"); l1.append(el("span", "num", f.numero), etiqueta(f.etapa));
+  if (extra && extra.fecha) l1.append(el("span", null, dma(extra.fecha)));
+  else if (f.ultima) l1.append(el("span", null, "última novedad " + dma(f.ultima)));
+  if (extra && extra.rol) l1.append(el("span", null, extra.rol));
+  cuerpo.append(l1, el("div", "titulo", f.titulo));
+  var l3 = [];
+  if (extra && extra.texto) l3.push(extra.texto.charAt(0) + extra.texto.slice(1).toLowerCase());
+  l3.push(f.comision || "Sin comisión");
+  if (f.proponente) l3.push(f.proponente);
+  if (f.sectores) l3.push(f.sectores);
+  cuerpo.append(el("div", "linea3", l3.join(" · ")));
+  b.append(cuerpo);
+  b.addEventListener("click", function () { abrirFicha(f.ficha); });
+  return b;
+}
+
+/* ---------------------------------------------------------------- novedades día a día */
+var dias = [], diaActual = 0;
+function pintarNovedades() {
+  var caja = document.getElementById("novedades"); caja.textContent = "";
+  var hoy = datos.hoy;
+  var dia = dias[diaActual] || hoy;
+  document.getElementById("nov-fecha").textContent = (dia === hoy ? "Hoy, " : "") + largo(dia);
+  var del = datos.novedades.filter(function (n) { return n.fecha === dia; });
+  // una tarjeta por ficha (con su novedad más reciente del día)
+  var vistas = {};
+  del.forEach(function (n) {
+    var f = porFicha[n.ficha]; if (!f || vistas[n.ficha]) return; vistas[n.ficha] = 1;
+    caja.append(tarjeta(f, { fecha: n.fecha, texto: n.texto }));
+  });
+  if (!caja.children.length) {
+    var v = el("p", "vacio", "No hubo novedades registradas este día.");
+    var otro = dias.findIndex(function (d, i) { return i > diaActual && datos.novedades.some(function (n) { return n.fecha === d; }); });
+    if (otro >= 0) { var ir = el("button", "chip", "Ir al " + largo(dias[otro])); ir.type = "button"; ir.style.marginLeft = "8px"; ir.onclick = function () { diaActual = otro; pintarNovedades(); }; v.append(ir); }
+    caja.append(v);
+  }
+  document.getElementById("dia-ant").disabled = diaActual >= dias.length - 1;
+  document.getElementById("dia-sig").disabled = diaActual <= 0;
+  document.getElementById("dia-hoy").disabled = diaActual === 0;
+}
+document.getElementById("dia-ant").onclick = function () { if (diaActual < dias.length - 1) { diaActual++; pintarNovedades(); } };
+document.getElementById("dia-sig").onclick = function () { if (diaActual > 0) { diaActual--; pintarNovedades(); } };
+document.getElementById("dia-hoy").onclick = function () { diaActual = 0; pintarNovedades(); };
+
+/* ---------------------------------------------------------------- proyectos */
+var visibles = 50;
+function filtrarProyectos() {
+  var t = sinTildes(document.getElementById("f-texto").value.trim());
+  var com = document.getElementById("f-comision").value, eta = document.getElementById("f-etapa").value;
+  var imp = document.getElementById("f-impacto").value, est = document.getElementById("f-estado").value;
+  return datos.fichas.filter(function (f) {
+    if (est === "activos" && TERMINADAS.indexOf(f.etapa) >= 0) return false;
+    if (com && f.comision !== com) return false;
+    if (eta && f.etapa !== eta) return false;
+    if (imp === "sin" && f.impacto) return false;
+    if (imp && imp !== "sin" && !(f.impacto && ORDEN_IMP[f.impacto] <= ORDEN_IMP[imp])) return false;
+    if (t && sinTildes(f.titulo + " " + f.numero + " " + f.ficha + " " + f.proponente).indexOf(t) < 0) return false;
+    return true;
+  });
+}
+function pintarProyectos() {
+  var lista = filtrarProyectos(), caja = document.getElementById("proyectos"); caja.textContent = "";
+  var sin = lista.filter(function (f) { return !f.impacto; }).length;
+  document.getElementById("f-resumen").textContent = lista.length + (lista.length === 1 ? " ficha" : " fichas") +
+    (sin ? " · " + sin + " todavía sin análisis de impacto (se analizan de a poco)" : "");
+  lista.slice(0, visibles).forEach(function (f) { caja.append(tarjeta(f)); });
+  if (!lista.length) caja.append(el("p", "vacio", "Ninguna ficha con esos filtros."));
+  var mas = document.getElementById("mas-proyectos"); mas.hidden = lista.length <= visibles;
+  mas.textContent = "Ver más (" + (lista.length - visibles) + ")";
+}
+["f-texto", "f-comision", "f-etapa", "f-impacto", "f-estado"].forEach(function (id) {
+  document.getElementById(id).addEventListener("input", function () { visibles = 50; pintarProyectos(); });
+});
+document.getElementById("mas-proyectos").onclick = function () { visibles += 50; pintarProyectos(); };
+
+/* ---------------------------------------------------------------- diputados */
+var elegido = null, rol = "";
+function pintarPersonas() {
+  var t = sinTildes(document.getElementById("d-texto").value.trim()), caja = document.getElementById("personas-lista");
+  caja.textContent = "";
+  var nombres = {};
+  datos.personas.forEach(function (p) { if (!nombres[p.nombre]) nombres[p.nombre] = p; });
+  Object.keys(nombres).filter(function (n) { return !t || sinTildes(n).indexOf(t) >= 0; })
+    .sort(function (a, b) { return (datos.porPersona[b] || []).length - (datos.porPersona[a] || []).length; })
+    .forEach(function (n) {
+      var suyas = datos.porPersona[n] || [], princ = suyas.filter(function (x) { return x[1]; }).length;
+      var b = el("button", "pers"); b.type = "button"; b.setAttribute("aria-pressed", String(n === elegido));
+      b.append(el("span", null, n + (nombres[n].tipo === "Suplente" ? " (suplente)" : "")), el("small", null, suyas.length + " · " + princ + " principal"));
+      b.onclick = function () { elegido = n; pintarPersonas(); pintarDiputado(); };
+      caja.append(b);
+    });
+}
+function pintarDiputado() {
+  var caja = document.getElementById("d-proyectos"); caja.textContent = "";
+  if (!elegido) return;
+  var suyas = (datos.porPersona[elegido] || []).filter(function (x) { return rol === "" || String(x[1]) === rol; });
+  var fichas = suyas.map(function (x) { return { f: porFicha[x[0]], principal: x[1] }; }).filter(function (x) { return x.f; })
+    .sort(function (a, b) { return b.f.ultima.localeCompare(a.f.ultima); });
+  document.getElementById("d-nombre").textContent = elegido;
+  var conImpacto = fichas.filter(function (x) { return x.f.impacto && x.f.impacto !== "ninguno"; }).length;
+  document.getElementById("d-cuenta").textContent = fichas.length + (fichas.length === 1 ? " proyecto" : " proyectos") + (conImpacto ? " · " + conImpacto + " con impacto" : "");
+  fichas.forEach(function (x) { caja.append(tarjeta(x.f, { rol: x.principal ? "principal" : "coproponente" })); });
+  if (!fichas.length) caja.append(el("p", "vacio", "Sin proyectos con ese filtro."));
+}
+document.getElementById("d-texto").addEventListener("input", pintarPersonas);
+document.querySelectorAll(".segmento button").forEach(function (b) {
+  b.onclick = function () { rol = b.dataset.rol; document.querySelectorAll(".segmento button").forEach(function (x) { x.setAttribute("aria-pressed", String(x === b)); }); pintarDiputado(); };
+});
+
+/* ---------------------------------------------------------------- detalle de una ficha */
+var dialogo = document.getElementById("detalle");
+dialogo.addEventListener("click", function (e) { if (e.target === dialogo) dialogo.close(); });
+function abrirFicha(n) {
+  var det = document.getElementById("det"); det.textContent = "";
+  det.append(el("p", "vacio", "Cargando la ficha…"));
+  if (!dialogo.open) dialogo.showModal();
+  fetch(api("/oficina/ficha?n=" + n)).then(function (r) { return r.json(); }).then(function (f) {
+    det.textContent = "";
+    if (f.error) { det.append(el("p", "vacio", f.error)); return; }
+    var cab = el("div", "det-cab"), izq = el("div");
+    var l1 = el("div", "linea1"); l1.style.cssText = "display:flex;gap:8px;align-items:center;font-size:13px;color:var(--texto-2)";
+    l1.append(el("b", null, f.numero), etiqueta(f.etapa), el("span", null, "ficha " + f.ficha));
+    var h = el("h3", null, f.titulo || f.titulo_oficial); h.id = "det-titulo";
+    izq.append(l1, h);
+    var x = el("button", "cerrar", "×"); x.type = "button"; x.setAttribute("aria-label", "Cerrar"); x.onclick = function () { dialogo.close(); };
+    cab.append(izq, x); det.append(cab);
+    var dl = el("dl", "datos");
+    [["Presentado", dma(f.fecha_presentacion)], ["Comisión", f.comision || "Sin comisión"], ["Impacto", f.impacto ? f.impacto.charAt(0).toUpperCase() + f.impacto.slice(1) : "Sin analizar todavía"]]
+      .forEach(function (p) { dl.append(el("dt", null, p[0]), el("dd", null, p[1])); });
+    det.append(dl);
+    if (f.impactos && f.impactos.length) {
+      det.append(el("h4", null, "Impacto por sector"));
+      var s = el("div", "sectores");
+      f.impactos.forEach(function (i) { var c = el("span", "sector " + i.nivel, i.sector + " · " + i.nivel); c.title = i.razon; s.append(c); });
+      det.append(s);
+    }
+    if (f.resumen) { det.append(el("h4", null, "Resumen"), el("p", null, f.resumen)); }
+    if (f.razon) { det.append(el("h4", null, "Por qué"), el("p", null, f.razon)); }
+    if (f.disposiciones && f.disposiciones.length) {
+      det.append(el("h4", null, "Disposiciones de posible impacto"));
+      var ul = el("ul"); f.disposiciones.forEach(function (d) { ul.append(el("li", null, d)); }); det.append(ul);
+    }
+    det.append(el("h4", null, "Proponentes (" + f.proponentes.length + ")"));
+    var pr = el("p"); pr.style.fontSize = "14px";
+    f.proponentes.forEach(function (p, i) {
+      var n = el(p.principal ? "b" : "span", null, p.nombre + (p.tipo === "Suplente" ? " (suplente)" : ""));
+      if (i) pr.append(document.createTextNode(" · "));
+      pr.append(n);
+    });
+    det.append(pr);
+    det.append(el("h4", null, "Historial de etapas"));
+    if (f.eventos.length) {
+      var ol = el("ul", "historial");
+      f.eventos.forEach(function (e) { var li = el("li"); li.append(el("time", null, dma(e.fecha)), document.createTextNode(" · " + e.etapa + " — " + e.texto.charAt(0) + e.texto.slice(1).toLowerCase())); ol.append(li); });
+      det.append(ol);
+    } else det.append(el("p", "vacio", "El historial se completa en las próximas revisiones."));
+    if (f.notas) { det.append(el("h4", null, "Notas del equipo"), el("p", null, f.notas)); }
+    var en = el("div", "enlaces");
+    var a1 = el("a", null, "Texto oficial (PDF) ↗"); a1.href = f.pdf; a1.target = "_blank"; a1.rel = "noopener"; en.append(a1);
+    if (f.carpeta_url) { var a2 = el("a", null, "Carpeta en Drive ↗"); a2.href = f.carpeta_url; a2.target = "_blank"; a2.rel = "noopener"; en.append(a2); }
+    det.append(en);
+  }).catch(function () { det.textContent = ""; det.append(el("p", "vacio", "No pude cargar la ficha. Intenta de nuevo.")); });
+}
+
+/* ---------------------------------------------------------------- chat con Kiwi */
+var historial = [];
+try { historial = JSON.parse(sessionStorage.getItem("kiwi-panama") || "[]"); } catch (e) { historial = []; }
+function guardar() { try { sessionStorage.setItem("kiwi-panama", JSON.stringify(historial.slice(-40))); } catch (e) {} }
+var SUGERENCIAS = ["¿Qué avanzó esta semana?", "¿Qué proyectos de impacto alto hay en trámite?", "¿Qué proyectos presentó Janine Prado?", "¿Qué hay para el sector financiero?"];
+SUGERENCIAS.forEach(function (q) { var b = el("button", "chip", q); b.type = "button"; b.onclick = function () { preguntar(q); }; document.getElementById("sugerencias").append(b); });
+function pintarMensajes(pensando) {
+  var caja = document.getElementById("mensajes"); caja.textContent = "";
+  if (!historial.length) caja.append(el("div", "msg kiwi-m", "Hola, soy Kiwi. Pregúntame por cualquier proyecto de la Asamblea de Panamá, por un diputado o por un sector."));
+  historial.forEach(function (m) {
+    var d = el("div", "msg " + (m.rol === "yo" ? "yo" : "kiwi-m") + (m.error ? " error" : ""), m.texto);
+    if (m.fichas && m.fichas.length) {
+      var ch = el("div", "chips");
+      m.fichas.forEach(function (n) { var f = porFicha[n]; if (!f) return; var b = el("button", "chip", f.numero + " · " + f.titulo.slice(0, 48) + (f.titulo.length > 48 ? "…" : "")); b.type = "button"; b.onclick = function () { abrirFicha(n); }; ch.append(b); });
+      d.append(ch);
+    }
+    caja.append(d);
+  });
+  if (pensando) { var p = el("div", "msg kiwi-m escribiendo"); p.innerHTML = "<span></span><span></span><span></span>"; caja.append(p); }
+  document.getElementById("sugerencias").hidden = historial.some(function (m) { return m.rol === "yo"; });
+  caja.scrollTop = caja.scrollHeight;
+}
+var ocupado = false;
+function preguntar(q) {
+  if (ocupado || !q.trim()) return;
+  ocupado = true; document.getElementById("boton").disabled = true;
+  var previo = historial.filter(function (m) { return !m.error; }).map(function (m) { return { rol: m.rol === "yo" ? "yo" : "agente", texto: m.texto }; });
+  historial.push({ rol: "yo", texto: q }); pintarMensajes(true);
+  var kiwi = document.getElementById("kiwi"), globo = document.getElementById("globo");
+  kiwi.classList.add("pensando"); globo.textContent = "Déjame revisar…"; globo.hidden = false;
+  document.getElementById("estado-kiwi").textContent = "Revisando la base…";
+  fetch(api("/oficina/kiwi"), { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ mensaje: q, historial: previo }) })
+    .then(function (r) { return r.json(); })
+    .then(function (d) { historial.push(d.error ? { rol: "kiwi", texto: d.error, error: true } : { rol: "kiwi", texto: d.respuesta, fichas: d.fichas || [] }); })
+    .catch(function () { historial.push({ rol: "kiwi", texto: "No pude conectarme. Revisa tu conexión e intenta de nuevo.", error: true }); })
+    .then(function () {
+      ocupado = false; document.getElementById("boton").disabled = false; kiwi.classList.remove("pensando"); globo.hidden = true;
+      document.getElementById("estado-kiwi").textContent = "Jefe de la oficina"; guardar(); pintarMensajes();
+    });
+}
+var area = document.getElementById("pregunta");
+document.getElementById("formulario").addEventListener("submit", function (e) { e.preventDefault(); var q = area.value; area.value = ""; preguntar(q); });
+area.addEventListener("keydown", function (e) { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); document.getElementById("formulario").requestSubmit(); } });
+document.getElementById("borrar-chat").onclick = function () { historial = []; guardar(); pintarMensajes(); };
+pintarMensajes();
+
+/* ---------------------------------------------------------------- datos */
+function cargar() {
+  return fetch(api("/oficina/datos")).then(function (r) { return r.json(); }).then(function (d) {
+    datos = d; porFicha = {}; d.fichas.forEach(function (f) { porFicha[f.ficha] = f; });
+    // días de novedades: de hoy hacia atrás 14 días
+    dias = []; var base = new Date(d.hoy + "T12:00:00Z");
+    for (var i = 0; i < 14; i++) dias.push(new Date(base - i * 86400000).toISOString().slice(0, 10));
+    var activas = d.fichas.filter(function (f) { return TERMINADAS.indexOf(f.etapa) < 0; }).length;
+    document.getElementById("c-proyectos").textContent = activas;
+    document.getElementById("c-diputados").textContent = Object.keys(d.porPersona).length;
+    var sc = document.getElementById("f-comision"), se = document.getElementById("f-etapa");
+    if (sc.options.length === 1) {
+      d.comisiones.forEach(function (c) { sc.append(new Option(c, c)); });
+      Array.from(new Set(d.fichas.map(function (f) { return f.etapa; }))).sort().forEach(function (e) { se.append(new Option(e, e)); });
+    }
+    if (d.matriz) { var m = document.getElementById("enlace-matriz"); m.href = d.matriz; m.hidden = false; }
+    // pizarra y estado del equipo
+    var hoyN = d.novedades.filter(function (n) { return n.fecha === d.hoy; });
+    var nuevas = d.fichas.filter(function (f) { return f.presentado === d.hoy; }).length;
+    var analizadas = d.fichas.filter(function (f) { return f.impacto; }).length;
+    document.getElementById("piz-1").textContent = nuevas + (nuevas === 1 ? " anteproyecto nuevo" : " anteproyectos nuevos");
+    document.getElementById("piz-2").textContent = new Set(hoyN.map(function (n) { return n.ficha; })).size + " fichas con novedad";
+    document.getElementById("piz-3").textContent = activas + " en trámite";
+    document.getElementById("piz-4").textContent = analizadas + " de " + d.fichas.length + " analizadas";
+    tips.revisor.textContent = d.fichas.length + " fichas vigiladas; " + new Set(hoyN.map(function (n) { return n.ficha; })).size + " con novedad hoy.";
+    tips.analista.textContent = analizadas + " fichas analizadas; quedan " + (d.fichas.filter(function (f) { return !f.impacto && TERMINADAS.indexOf(f.etapa) < 0; }).length) + " en trámite por analizar.";
+    tips.archivista.textContent = d.fichas.filter(function (f) { return f.seguimiento; }).length + " fichas en la matriz de seguimiento.";
+    tips.mensajera.textContent = "Avisa al chat de Telegram de Andrés.";
+    pintarNovedades(); pintarProyectos(); pintarPersonas(); if (elegido) pintarDiputado();
+    moverIndicador();
+  });
+}
+var inicial = (location.hash || "").replace("#", "");
+abrirPestana(PESTANAS.indexOf(inicial) >= 0 ? inicial : "oficina");
+cargar().catch(function () { document.getElementById("novedades").append(el("p", "vacio", "No pude cargar los datos. Recarga la página en un momento.")); });
+setInterval(function () { cargar().catch(function () {}); }, 10 * 60000);
+if (document.fonts && document.fonts.ready) document.fonts.ready.then(moverIndicador);
+})();
+</script>
+</body>
+</html>

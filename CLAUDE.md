@@ -57,3 +57,19 @@ Antonio Pérez Barboni"): 124 personas. El primero de la lista es el principal.
   proponente y proyecto para filtrar por diputado. `MATRIZ_VERSION` en base.py: subirlo al cambiar columnas (esa vez
   no se recogen Notas ni borrados, porque las columnas no calzarían).
 - Telegram: "Nombre y N más"; el .md de Drive trae la lista completa.
+
+## Kiwi y la oficina (etapa 3, 2026-10-08)
+
+Worker de Cloudflare `agente-panama` (https://agente-panama.agentemonitoreopa.workers.dev), binding D1 `DB`.
+Desplegar: `python3 bot/desplegar.py` (todo: código, claves y webhook de Telegram) o `--codigo` (solo worker.js y
+oficina.html; tarda unos segundos en propagarse). BOT_WEBHOOK_SECRET y OFICINA_CLAVE se generan la primera vez en .env.
+Autorizados del bot: BOT_AUTORIZADOS (si no está, TELEGRAM_CHAT_ID). Gemini: la misma GEMINI_KEY gratuita.
+- Cerebro (`responder`): 1) un modelo liviano (MODELOS_RAPIDOS, Flash-Lite) recibe el índice de las 931 fichas y las
+  listas de proponentes, comisiones, etapas y sectores, y devuelve fichas a leer y filtros; 2) se arma el contexto con
+  D1 (listado con totales ya contados por rol, etapa e impacto; Gemini no debe contar filas) y el .md más reciente de
+  Drive de cada ficha elegida; 3) Kiwi responde. 15-20 s por respuesta.
+- Gemini no admite "" en un enum del esquema (da 400): por eso impacto_minimo usa "ninguno".
+- Oficina: `/oficina?k=<OFICINA_CLAVE>`. Pestañas Oficina (escena con la ciudad de Panamá, chat con Kiwi, novedades
+  día a día de los últimos 14 días), Proyectos (filtros por comisión, etapa, impacto, en trámite) y Diputados (124
+  proponentes; principal/coproponente). Detalle de ficha en panel lateral (`/oficina/ficha?n=`). Los títulos sin
+  analizar llegan en MAYÚSCULAS y el Worker los pasa a oración (`oracion()`).
