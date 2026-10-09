@@ -33528,8 +33528,13 @@
   "8518": {
    "anteproyecto": "113",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
-   "etapa": "Prohijado",
+   "etapa": "Primer Debate",
    "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-10-08"
+    },
     {
      "comentario": "PROHIJADO",
      "etapa": "Prohijado",
@@ -34551,8 +34556,13 @@
   "8558": {
    "anteproyecto": "148",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
-   "etapa": "Prohijado",
+   "etapa": "Primer Debate",
    "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-10-08"
+    },
     {
      "comentario": "PROHIJADO",
      "etapa": "Prohijado",
@@ -34666,8 +34676,13 @@
   "8563": {
    "anteproyecto": "154",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
-   "etapa": "Prohijado",
+   "etapa": "Primer Debate",
    "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-10-08"
+    },
     {
      "comentario": "PROHIJADO",
      "etapa": "Prohijado",
@@ -35915,8 +35930,13 @@
   "8609": {
    "anteproyecto": "188",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
-   "etapa": "Prohijado",
+   "etapa": "Primer Debate",
    "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-10-06"
+    },
     {
      "comentario": "PROHIJADO",
      "etapa": "Prohijado",
@@ -36378,7 +36398,7 @@
    "ficha": "8633",
    "proponente": "H.D ALAIN ALBENIS CEDEÑO HERRERA",
    "proyecto": "",
-   "tiene_documento": false,
+   "tiene_documento": true,
    "titulo": "POR EL CUAL SE ESTABLECE EL MARCO REGULATORIO, PARA LA PRESTACION DE LOS SERVICIOS PUBLICOS DE AGUA, ENERGIA ELECTRICA E INTERNET EN AREAS EXCEPCIONALES, DE FORMA TEMPORAL EN LA REPUBLICA DE PANAMA Y DICTA OTRAS DISPOSICIONES"
   },
   "8634": {
@@ -36396,7 +36416,7 @@
    "ficha": "8634",
    "proponente": "H.D MANUEL COHEN SALERNO",
    "proyecto": "",
-   "tiene_documento": false,
+   "tiene_documento": true,
    "titulo": "QUE INSTITUYE EL FESTIVAL NACIONAL ARTESANAL Y FOLCLORICO DE LA ARENA DE CHITRE Y CREA SU PATRONATO"
   }
  },
@@ -37428,37 +37448,37 @@
    "tipo": "cambio"
   },
   "cambio:8518": {
-   "antes": "Preliminar",
+   "antes": "Prohijado",
    "ficha": "8518",
    "nuevas": [
     {
-     "comentario": "PROHIJADO",
-     "etapa": "Prohijado",
-     "fecha": "2026-10-07"
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-10-08"
     }
    ],
    "tipo": "cambio"
   },
   "cambio:8558": {
-   "antes": "Preliminar",
+   "antes": "Prohijado",
    "ficha": "8558",
    "nuevas": [
     {
-     "comentario": "PROHIJADO",
-     "etapa": "Prohijado",
-     "fecha": "2026-10-07"
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-10-08"
     }
    ],
    "tipo": "cambio"
   },
   "cambio:8563": {
-   "antes": "Preliminar",
+   "antes": "Prohijado",
    "ficha": "8563",
    "nuevas": [
     {
-     "comentario": "PROHIJADO",
-     "etapa": "Prohijado",
-     "fecha": "2026-10-07"
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-10-08"
     }
    ],
    "tipo": "cambio"
@@ -37471,6 +37491,18 @@
      "comentario": "PENDIENTE DE II DEBATE",
      "etapa": "Segundo Debate",
      "fecha": "2026-10-07"
+    }
+   ],
+   "tipo": "cambio"
+  },
+  "cambio:8609": {
+   "antes": "Prohijado",
+   "ficha": "8609",
+   "nuevas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-10-06"
     }
    ],
    "tipo": "cambio"
@@ -37798,5 +37830,5 @@
   ],
   "revisada": "2026-10-09T13:42:09"
  },
- "ultima_corrida": "2026-10-09T14:42:10"
+ "ultima_corrida": "2026-10-09T15:36:55"
 }
