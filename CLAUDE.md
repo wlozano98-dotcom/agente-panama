@@ -40,8 +40,10 @@ sirva, pero no se comparte código ni datos. Alcance: todo lo de KeyCurul (alert
   proponente, Fusionado, Negado, Suspendido, En Corte Sup. de Justicia.
 - **Legispan** (Gaceta y normas, sin anti-bots): API JSON https://legispan.asamblea.gob.pa/api/search/norm (texto
   completo, gaceta, fecha y `procedureNumber` p. ej. `2025_P_0287`, que une la ley con su proyecto).
-- **Orden del Día del Pleno**: https://www.asamblea.gob.pa/Page/LABORLEGISLATIVA/OrdenDelDia, PDF diario en
-  /Uploads/OrdenDia/<id>/…pdf. El sitio www.asamblea.gob.pa tiene anti-bots F5 (TSPD): curl falla; hará falta navegador.
+- **Orden del Día del Pleno**: https://www.asamblea.gob.pa/Page/LABORLEGISLATIVA/OrdenDelDia, PDF por sesión en
+  /Uploads/OrdenDia/<id>/…pdf (~175 puntos). Lo lee prensa.py (navegador + pypdf): la sesión entra a la agenda como "Pleno
+  de la Asamblea" (id 10.000.000 + id; filas grandes, se insertan de a una) y a la bitácora solo cuando un proyecto entra
+  al Orden del Día o cambia de debate. Telegram avisa cada Orden del Día y TODAS las sesiones nuevas de comisión.
 - **Noticias y Agenda de Comisiones** (www.asamblea.gob.pa, anti-bots F5: solo con navegador): las lee `prensa.py` (la
   Cronista) con Playwright. APIs JSON desde la misma página: GET /Data/Noticias/Client/0/List?page=N&pageSize=30 (+ texto en
   /Noticias/Noticias/<slug>) y POST /Data/Agenda/List/0 (DataTables; ordenar desc por la columna 4). OJO: la Agenda NO está
