@@ -1,5 +1,5 @@
 {
- "comisiones_revisadas": "2026-10-09T09:40:12",
+ "comisiones_revisadas": "2026-10-09T16:37:42",
  "drive": {
   "7779": {
    "carpeta": "Señalización vial en obras públicas (ficha 7779)",
@@ -28,6 +28,10 @@
   "8199": {
    "carpeta": "Programa de educación segura en áreas de difícil acceso (ficha 8199)",
    "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "8248": {
+   "carpeta": "Sanciones por disparos al aire (ficha 8248)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
   "8284": {
    "carpeta": "Creación del Patronato del Estadio Roberto Mariano Bula (ficha 8284)",
@@ -68,6 +72,10 @@
   "8377": {
    "carpeta": "Reforma al Reglamento Interno de la Asamblea Nacional (ficha 8377)",
    "comision": "Comisión de Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
+  },
+  "8389": {
+   "carpeta": "Patronato del Corpus Christi de Parita (ficha 8389)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
   },
   "8491": {
    "carpeta": "Regulación de ácidos grasos trans industriales (ficha 8491)",
@@ -25032,6 +25040,20 @@
    "titulo": "QUE ADICIONA EL CAPITULO XVIII DE LA TRANSFORMACION DIGITAL PORTUARIA Y DE LOS PUERTOS INTELIGENTES A LA LEY 56 DE 6 DE AGOSTO DE 2008, GENERAL DE PUERTOS DE PANAMA, Y DICTA OTRAS DISPOSICIONES"
   },
   "8248": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1ObaQPXN8o1AR0bYVtH7Nc6PgwQUaxqAd",
+    "fecha_analisis": "2026-10-09",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto se enfoca en seguridad ciudadana y derecho penal individual; no modifica obligaciones, tributos ni esquemas regulatorios aplicables al sector empresarial.",
+    "resumen": "La iniciativa tipifica como delito penal la realización de disparos al aire con armas de fuego, fijando penas de 2 a 8 años de prisión. Asimismo, modifica la Ley 57 de 2011 para catalogar esta conducta como infracción grave sujeta a decomiso y cancelación de licencias de portación o tenencia. Afecta principalmente a personas naturales poseedoras de armas.",
+    "sectores": [],
+    "titulo": "Que adopta medidas para sancionar los disparos al aire.",
+    "titulo_corto": "Sanciones por disparos al aire"
+   },
    "anteproyecto": "332",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Primer Debate",
@@ -30176,6 +30198,23 @@
    "titulo": "QUE ADICIONA ARTICULOS A LA LEY 288 DEL 10 DE MARZO DE 2022 QUE CREA LA UNIVERSIDAD AUTONOMA DE LOS PUEBLOS INDIGENAS"
   },
   "8389": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 4: Prohíbe a bares, jardines, cantinas, discotecas y discotecas móviles reproducir música o presentar artistas que no sean afines a los valores folclóricos locales durante la festividad.",
+     "Artículo 10: Declara que toda contribución o donación que personas naturales o jurídicas realicen al Patronato será deducible para efectos del impuesto sobre la renta."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1NkrbF0YddvZQIiaASuhhuq3Nml5kveY1",
+    "fecha_analisis": "2026-10-09",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No genera impacto relevante para el sector empresarial conforme a los criterios, al tratarse de la creación de un patronato para la gestión de una festividad folclórica y cultural local.",
+    "resumen": "La iniciativa instituye oficialmente la Festividad de Corpus Christi, la Octava y Corazón de Jesús en el distrito de Parita como evento cultural y folclórico nacional. Crea un patronato con personería jurídica y patrimonio propio encargado de su organización y administración. Asimismo, asigna fondos públicos anuales de MiCultura y la ATP, y restringe temporalmente cierto tipo de música en locales de entretenimiento del área.",
+    "sectores": [],
+    "titulo": "Que instituye la Festividad de Corpus Christi, la Octava y Corazón de Jesús, del Distrito de Parita y crea su Patronato",
+    "titulo_corto": "Patronato del Corpus Christi de Parita"
+   },
    "anteproyecto": "454",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Primer Debate",
@@ -37382,35 +37421,6 @@
  },
  "matriz_id": "1xh7TLIrTJk3DI1snoLyXTN-HAFAGouiL08XvXa1xsEs",
  "pendientes": {
-  "cambio:8248": {
-   "antes": "Enviado a subcomisión para analisis",
-   "ficha": "8248",
-   "nuevas": [
-    {
-     "comentario": "REGRESADO A DEBATE DESPUES DE ANÁLISIS",
-     "etapa": "Regresado de analisis por subcomisión",
-     "fecha": "2026-10-07"
-    }
-   ],
-   "tipo": "cambio"
-  },
-  "cambio:8389": {
-   "antes": "Enviado a subcomisión para analisis",
-   "ficha": "8389",
-   "nuevas": [
-    {
-     "comentario": "REGRESADO A DEBATE DESPUES DE ANÁLISIS",
-     "etapa": "Regresado de analisis por subcomisión",
-     "fecha": "2026-10-07"
-    },
-    {
-     "comentario": "APROBADO EN I DEBATE",
-     "etapa": "Primer Debate",
-     "fecha": "2026-10-07"
-    }
-   ],
-   "tipo": "cambio"
-  },
   "cambio:8391": {
    "antes": "Tercer Debate",
    "ficha": "8391",
@@ -37830,5 +37840,5 @@
   ],
   "revisada": "2026-10-09T13:42:09"
  },
- "ultima_corrida": "2026-10-09T15:36:55"
+ "ultima_corrida": "2026-10-09T16:39:31"
 }
