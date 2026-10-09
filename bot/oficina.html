@@ -212,6 +212,27 @@ h2.seccion { font: 600 13px var(--fuente); letter-spacing: .04em; text-transform
 .ultimas .nada { margin: 0; padding: 18px; color: var(--texto-2); font-size: 14px; border-radius: 18px; }
 footer { font-size: 12px; color: var(--texto-2); text-align: center; }
 
+/* ---------- agenda de comisiones */
+.agenda { display: grid; gap: 12px; }
+.fuente-agenda { font-size: 12px; color: var(--texto-2); margin: -4px 4px 0; }
+.sesion { display: grid; grid-template-columns: 70px minmax(0, 1fr); gap: 16px; padding: 16px 18px; border-radius: 20px; }
+.sesion.de-impacto { box-shadow: var(--sombra), inset 3px 0 0 var(--alto); }
+.hora { font: 700 20px/1.1 var(--fuente-titulo); font-variant-numeric: tabular-nums; letter-spacing: -.02em; }
+.sesion h3 { margin: 0; font: 600 16px/1.3 var(--fuente-titulo); letter-spacing: -.01em; }
+.sesion .lugar { margin: 2px 0 0; font-size: 12.5px; color: var(--texto-2); }
+.sesion .desc { margin: 8px 0 0; font-size: 14px; line-height: 1.5; white-space: pre-line; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+.sesion .desc.abierta { -webkit-line-clamp: unset; }
+.sesion .ver-mas { all: unset; cursor: pointer; font-size: 13px; font-weight: 600; color: var(--acento); margin-top: 4px; }
+.fichas-sesion { display: grid; gap: 6px; margin-top: 10px; }
+.fichas-sesion button { all: unset; box-sizing: border-box; cursor: pointer; display: grid; grid-template-columns: 9px minmax(0, 1fr); gap: 0 10px; align-items: baseline;
+  padding: 8px 12px; border-radius: 12px; background: var(--burbuja); font-size: 13.5px; line-height: 1.35; }
+.fichas-sesion button:hover { background: color-mix(in srgb, var(--acento) 10%, var(--burbuja)); }
+.fichas-sesion button:focus-visible { outline: 2px solid var(--acento); }
+.fichas-sesion i { width: 8px; height: 8px; border-radius: 50%; background: var(--c); }
+.fichas-sesion b { font-weight: 700; margin-right: 4px; }
+@media (max-width: 560px) { .sesion { grid-template-columns: minmax(0, 1fr); gap: 6px; } }
+.nov .q a, .historial a { color: var(--acento); font-weight: 600; text-decoration: none; }
+
 /* ---------- Proyectos y Diputados */
 button, input, select { font: inherit; color: inherit; }
 section.bloque { padding: 18px 20px 20px; }
@@ -235,6 +256,7 @@ section.bloque { padding: 18px 20px 20px; }
 .etiqueta.e-ejec { background: color-mix(in srgb, #c2410c 18%, transparent); }
 .etiqueta.e-ley { background: color-mix(in srgb, var(--ok) 22%, transparent); }
 .etiqueta.e-fin { background: color-mix(in srgb, var(--alto) 16%, transparent); }
+.etiqueta.e-noticia { background: color-mix(in srgb, #0f8ea3 18%, transparent); }
 .vacio { color: var(--texto-2); padding: 18px 4px; }
 .chip { border: 1px solid var(--borde); background: var(--vidrio-fuerte); padding: 5px 11px; border-radius: 999px; font-size: 13px; text-decoration: none; color: var(--acento); font-weight: 600; cursor: pointer; }
 .filtros { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
@@ -316,6 +338,7 @@ dialog.ficha-panel::backdrop { background: rgb(10 20 30 / .25); }
     <span class="indicador" id="indicador" aria-hidden="true"></span>
     <button role="tab" id="t-oficina" aria-controls="p-oficina" aria-selected="true">Oficina</button>
     <button role="tab" id="t-proyectos" aria-controls="p-proyectos" aria-selected="false" tabindex="-1">Proyectos de ley <span class="cuenta" id="c-proyectos"></span></button>
+    <button role="tab" id="t-agenda" aria-controls="p-agenda" aria-selected="false" tabindex="-1">Agenda <span class="cuenta" id="c-agenda"></span></button>
     <button role="tab" id="t-diputados" aria-controls="p-diputados" aria-selected="false" tabindex="-1">Diputados <span class="cuenta" id="c-diputados"></span></button>
   </nav>
 
@@ -471,6 +494,12 @@ dialog.ficha-panel::backdrop { background: rgb(10 20 30 / .25); }
     </section>
   </div>
 
+  <!-- ============================================================ Agenda -->
+  <div class="panel" id="p-agenda" role="tabpanel" aria-labelledby="t-agenda" hidden>
+    <p class="fuente-agenda">Agenda de comisiones publicada por la Asamblea Nacional. Las sesiones con borde rojo tratan proyectos de impacto alto o medio.</p>
+    <div class="agenda" id="agenda"></div>
+  </div>
+
   <!-- ============================================================ Diputados -->
   <div class="panel" id="p-diputados" role="tabpanel" aria-labelledby="t-diputados" hidden>
     <section class="bloque vidrio">
@@ -516,7 +545,7 @@ var QUE_HACE = {
   archivista: ["Ordena los expedientes", "Guarda cada PDF y su análisis en Drive, en la carpeta de su comisión y de su proyecto, y mantiene al día la matriz de seguimiento."],
   mensajera: ["Envía las alertas", "Es la única que usa Telegram: manda cada anteproyecto nuevo y cada avance de etapa, con su PDF y su impacto."],
   asistente: ["Ayuda a Kiwi en la oficina", "Busca en la base y en los análisis lo que haga falta para responder las preguntas del equipo sobre cualquier proyecto o diputado."],
-  cronista: ["Sigue los debates y las comisiones", "Lee el historial de cada proyecto (prohijamiento, primer, segundo y tercer debate, sanción) y revisa en qué comisión está cada uno."],
+  cronista: ["Lee las noticias y la agenda", "Como la periodista de la oficina: lee las noticias de la Asamblea y la agenda de comisiones, las cruza con cada proyecto y anota en su bitácora cómo avanza y cuándo se discute."],
   jefe: ["El jefe de la oficina", "Tú le preguntas y él va al escritorio de quien sepa la respuesta. En Panamá trabaja en guayabera."]
 };
 var datosTip = {};
@@ -647,7 +676,9 @@ AGENTES.forEach(function (a) {
   oficina.append(d); puestos[a.id] = d;
 });
 var botonPizarra = el("button", "pizarra"); botonPizarra.type = "button"; botonPizarra.setAttribute("aria-label", "Ver las últimas actualizaciones");
-botonPizarra.addEventListener("click", function () { if (diaPizarra) { diaNov = diaPizarra; pintarUltimas(); }
+botonPizarra.addEventListener("click", function () {
+  if (agendaPizarra) { diaAgenda = agendaPizarra; pintarAgenda(); abrirPestana("agenda"); return; }
+  if (diaPizarra) { diaNov = diaPizarra; pintarUltimas(); }
   document.getElementById("h-ultimas").scrollIntoView({ behavior: reducir ? "auto" : "smooth", block: "start" }); });
 oficina.append(botonPizarra);
 var botonHemiciclo = el("button", "cuadro-hemiciclo"); botonHemiciclo.type = "button"; botonHemiciclo.setAttribute("aria-label", "Ver los diputados y sus proyectos");
@@ -770,7 +801,7 @@ function aQuienPregunta(q) {
   if (/diputad|present|propon|firm|autor/.test(t)) return "revisor";
   if (/impacto|sector|cliente|riesgo|afect|financ|banc|energ|salud|mineri|telecom/.test(t)) return "analista";
   if (/matriz|drive|carpeta|pdf|documento|archivo|texto/.test(t)) return "archivista";
-  if (/debate|etapa|avanz|comision|semana|hoy|ayer|sancion|pleno|tercer|segundo|primer/.test(t)) return "cronista";
+  if (/agenda|sesion|reunion|noticia|debate|etapa|avanz|comision|semana|hoy|ayer|manana|sancion|pleno|tercer|segundo|primer/.test(t)) return "cronista";
   return "asistente";
 }
 var ocupado = false;
@@ -812,7 +843,7 @@ function pintarEstados() {
 }
 
 /* ---------------------------------------------------------------- pestañas */
-var PESTANAS = ["oficina", "proyectos", "diputados"];
+var PESTANAS = ["oficina", "proyectos", "agenda", "diputados"];
 if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { moverIndicador(); });
 function moverIndicador() {
   var activa = document.querySelector('.pestanas [aria-selected="true"]'), ind = document.getElementById("indicador");
@@ -845,9 +876,10 @@ function claseEtapa(e) {
   if (/segundo|tercer/.test(e)) return "e-pleno";
   if (/ejecutivo/.test(e)) return "e-ejec";
   if (e === "ley") return "e-ley";
+  if (e === "noticia") return "e-noticia";
   return "e-fin";
 }
-var COLOR_ETAPA = { "e-prelim": "#6b7c8a", "e-com": "#7a4fd0", "e-pleno": "#d9771a", "e-ejec": "#c2410c", "e-ley": "#1f9a6a", "e-fin": "#8a8f94" };
+var COLOR_ETAPA = { "e-noticia": "#0f8ea3", "e-prelim": "#6b7c8a", "e-com": "#7a4fd0", "e-pleno": "#d9771a", "e-ejec": "#c2410c", "e-ley": "#1f9a6a", "e-fin": "#8a8f94" };
 function etiqueta(etapa) { return el("span", "etiqueta " + claseEtapa(etapa), etapa); }
 function punto(imp) { var p = el("span", "punto " + (imp || "sin")); p.title = imp ? "Impacto " + imp : "Sin analizar todavía"; return p; }
 function comisionCorta(c) { return String(c || "").replace(/^Comisión (Permanente )?(de |del |de la )?/i, "") || "Sin comisión"; }
@@ -859,7 +891,8 @@ function novedadesPorDia() {
   datos.novedades.forEach(function (n) {
     var f = porFicha[n.ficha]; if (!f) return;
     var lista = porDia[n.fecha] = porDia[n.fecha] || [];
-    if (!lista.some(function (x) { return x.f.ficha === n.ficha; })) lista.push({ f: f, n: n }); // una fila por ficha: su novedad más reciente del día
+    var fuente = n.fuente === "noticia" ? "noticia" : "etapa";
+    if (!lista.some(function (x) { return x.f.ficha === n.ficha && x.fuente === fuente; })) lista.push({ f: f, n: n, fuente: fuente }); // una fila por ficha y fuente
   });
   Object.keys(porDia).forEach(function (d) {
     porDia[d].sort(function (a, b) { return (ORDEN_IMP[a.f.impacto] == null ? 4 : ORDEN_IMP[a.f.impacto]) - (ORDEN_IMP[b.f.impacto] == null ? 4 : ORDEN_IMP[b.f.impacto]); });
@@ -896,6 +929,7 @@ function pintarUltimas() {
     tag.style.setProperty("--c", COLOR_ETAPA[claseEtapa(etapa)]);
     var txt = oracion(it.n.texto || ""), igual = sinTildes(txt) === sinTildes(etapa) || !txt;
     q.append(tag, el("b", null, it.f.numero + " · " + comisionCorta(it.f.comision) + (igual ? "" : " · ")), document.createTextNode(igual ? "" : txt));
+    if (it.n.url) { var a = el("a", null, " Leer la nota ↗"); a.href = it.n.url; a.target = "_blank"; a.rel = "noopener"; a.onclick = function (e) { e.stopPropagation(); }; q.append(a); }
     b.append(pt, el("span", "t", it.f.titulo), q);
     b.onclick = function () { abrirFicha(it.f.ficha); };
     li.append(b); ol.append(li);
@@ -913,7 +947,7 @@ function lineas(texto, ancho, max) {
   if (res.length > max) { res = res.slice(0, max); res[max - 1] = res[max - 1].replace(/.{0,2}$/, "") + "…"; }
   return res;
 }
-var diaPizarra = null;
+var diaPizarra = null, agendaPizarra = null;
 function pintarPizarra() {
   var NS = "http://www.w3.org/2000/svg", g = document.getElementById("pizarra-puntos"), titulo = document.getElementById("pizarra-titulo");
   var porDia = novedadesPorDia(), dias = Object.keys(porDia).sort(), ultimo = dias[dias.length - 1];
@@ -922,7 +956,26 @@ function pintarPizarra() {
     var n = document.createElementNS(NS, "text"); n.setAttribute("x", x); n.setAttribute("y", y); n.setAttribute("font-size", tam);
     if (peso) n.setAttribute("font-weight", peso); if (color) n.setAttribute("fill", color); n.textContent = t; g.append(n); return n;
   }
-  diaPizarra = ultimo || null;
+  diaPizarra = ultimo || null; agendaPizarra = null;
+  var por = sesionesPorDia(), proxima = Object.keys(por).sort().filter(function (d) { return d >= datos.hoy; })[0];
+  if (proxima) {
+    agendaPizarra = proxima;
+    var ses = por[proxima].slice().sort(function (a, b) { return (deImpacto(b) - deImpacto(a)) || (b.fichas.length - a.fichas.length); });
+    titulo.textContent = proxima === datos.hoy ? "Agenda de hoy" : "Próxima agenda";
+    texto(492, 110, fechaLarga(proxima) + " · " + ses.length + (ses.length === 1 ? " sesión" : " sesiones"), 11, 600, "#0a6cff");
+    var yy = 132;
+    ses.slice(0, 3).forEach(function (a) {
+      if (yy > 196) return;
+      var f = porFicha[a.fichas[0]], tema = f ? f.titulo : a.descripcion.replace(/\s+/g, " ").replace(/^[^.]*\.\s*/, "");
+      var ls = lineas(a.hora + " · " + comisionCorta(a.comision), 30, 1).concat(lineas(tema, 32, 1));
+      var c0 = document.createElementNS(NS, "circle"); c0.setAttribute("cx", 496); c0.setAttribute("cy", yy - 4); c0.setAttribute("r", 4);
+      c0.setAttribute("fill", f ? ({ alto: "#e5484d", medio: "#f08c2b", bajo: "#d4b106" }[f.impacto] || "#c3cad0") : "#c3cad0"); g.append(c0);
+      ls.forEach(function (l, i) { texto(506, yy + i * 13, l, i === 0 ? 11.5 : 11, i === 0 ? 600 : null, i === 0 ? "#2f3e49" : "#5c6b75"); });
+      yy += ls.length * 13 + 9;
+    });
+    botonPizarra.setAttribute("aria-label", titulo.textContent + ": " + ses.length + " sesiones. Ver la agenda");
+    return;
+  }
   titulo.textContent = ultimo === datos.hoy ? "Hoy en la Asamblea" : "Lo último en la Asamblea";
   if (!ultimo) { texto(492, 118, "Sin novedades en dos semanas.", 12, null, "#6b7a85"); return; }
   var items = porDia[ultimo];
@@ -937,6 +990,54 @@ function pintarPizarra() {
     y += ls.length * 13 + 9;
   });
   botonPizarra.setAttribute("aria-label", titulo.textContent + ": " + items.length + " novedades. Ver las últimas actualizaciones");
+}
+
+
+/* ---------------------------------------------------------------- agenda de comisiones, un día a la vez */
+var diaAgenda = null;
+function sesionesPorDia() {
+  var por = {};
+  (datos.agenda || []).forEach(function (a) { (por[a.fecha] = por[a.fecha] || []).push(a); });
+  return por;
+}
+function deImpacto(a) { return a.fichas.some(function (n) { var f = porFicha[n]; return f && (f.impacto === "alto" || f.impacto === "medio"); }); }
+function pintarAgenda() {
+  var cont = document.getElementById("agenda"); cont.replaceChildren();
+  var hoy = datos.hoy, por = sesionesPorDia(), dias = Object.keys(por).sort();
+  if (!dias.length) { cont.append(el("p", "nada vidrio", "Todavía no hay agenda cargada.")); return; }
+  if (!diaAgenda || !por[diaAgenda] && diaAgenda !== hoy) diaAgenda = dias.filter(function (d) { return d >= hoy; })[0] || dias[dias.length - 1];
+  var i = dias.indexOf(diaAgenda), items = por[diaAgenda] || [];
+  var antes = dias.filter(function (d) { return d < diaAgenda; }).pop(), despues = dias.filter(function (d) { return d > diaAgenda; })[0];
+  var dif = Math.round((new Date(diaAgenda + "T12:00:00Z") - new Date(hoy + "T12:00:00Z")) / 864e5);
+  function boton(clase, txt, etiq, accion, apagado) { var b = el("button", clase, txt); b.type = "button"; b.setAttribute("aria-label", etiq); b.onclick = accion; b.disabled = !!apagado; return b; }
+  var nav = el("div", "cal-nav vidrio"), titulo = el("div", "cal-fecha"), fechaTxt = fechaLarga(diaAgenda);
+  titulo.append(el("small", null, (dif === 0 ? "Hoy" : dif === 1 ? "Mañana" : dif === -1 ? "Ayer" : dif > 0 ? "En " + dif + " días" : "Hace " + (-dif) + " días") + " · " +
+    items.length + (items.length === 1 ? " sesión" : " sesiones")), el("b", null, fechaTxt.charAt(0).toUpperCase() + fechaTxt.slice(1)));
+  var proxima = dias.filter(function (d) { return d >= hoy; })[0];
+  nav.append(boton("cal-flecha", "‹", "Día anterior con sesiones", function () { diaAgenda = antes; pintarAgenda(); }, !antes), titulo,
+    boton("cal-flecha", "›", "Día siguiente con sesiones", function () { diaAgenda = despues; pintarAgenda(); }, !despues),
+    boton("cal-hoy", "Próximas", "Ir a las próximas sesiones", function () { diaAgenda = proxima; pintarAgenda(); }, !proxima || diaAgenda === proxima));
+  cont.append(nav);
+  if (!items.length) { cont.append(el("p", "nada vidrio", "No hay sesiones este día.")); return; }
+  items.forEach(function (a) {
+    var c = el("article", "sesion vidrio" + (deImpacto(a) ? " de-impacto" : "")), der = el("div");
+    der.append(el("h3", null, a.comision), el("p", "lugar", a.lugar));
+    var desc = el("p", "desc", a.descripcion); der.append(desc);
+    if (a.descripcion.length > 260) { var vm = el("button", "ver-mas", "Ver todo"); vm.type = "button";
+      vm.onclick = function () { var ab = desc.classList.toggle("abierta"); vm.textContent = ab ? "Ver menos" : "Ver todo"; }; der.append(vm); }
+    var fs = a.fichas.map(function (n) { return porFicha[n]; }).filter(Boolean);
+    if (fs.length) {
+      var caja = el("div", "fichas-sesion");
+      fs.sort(function (x, y) { return (ORDEN_IMP[x.impacto] == null ? 4 : ORDEN_IMP[x.impacto]) - (ORDEN_IMP[y.impacto] == null ? 4 : ORDEN_IMP[y.impacto]); })
+        .forEach(function (f) {
+          var b = el("button"), i2 = el("i"); b.type = "button"; i2.style.setProperty("--c", IMPACTO[f.impacto || "ninguno"]); i2.title = f.impacto ? "Impacto " + f.impacto : "Sin analizar todavía";
+          var t = el("span"); t.append(el("b", null, f.numero), document.createTextNode(f.titulo.length > 110 ? f.titulo.slice(0, 108) + "…" : f.titulo));
+          b.append(i2, t); b.onclick = function () { abrirFicha(f.ficha); }; caja.append(b);
+        });
+      der.append(caja);
+    }
+    c.append(el("div", "hora", a.hora), der); cont.append(c);
+  });
 }
 
 /* ---------------------------------------------------------------- tarjeta de ficha (Proyectos y Diputados) */
@@ -1063,10 +1164,20 @@ function abrirFicha(n) {
       pr.append(nn);
     });
     det.append(pr);
-    det.append(el("h4", null, "Historial de etapas"));
+    if (f.agenda && f.agenda.length) {
+      det.append(el("h4", null, "En la agenda de comisiones"));
+      var ag = el("ul", "historial");
+      f.agenda.forEach(function (a) { var li = el("li"); li.append(el("time", null, dma(a.fecha) + " " + a.hora), document.createTextNode(" · " + a.comision + " — " + a.descripcion.replace(/\s+/g, " ").slice(0, 260))); ag.append(li); });
+      det.append(ag);
+    }
+    det.append(el("h4", null, "Historial de etapas y noticias"));
     if (f.eventos.length) {
       var ol = el("ul", "historial");
-      f.eventos.forEach(function (e) { var li = el("li"); li.append(el("time", null, dma(e.fecha)), document.createTextNode(" · " + e.etapa + " — " + oracion(e.texto))); ol.append(li); });
+      f.eventos.forEach(function (e) {
+        var li = el("li"); li.append(el("time", null, dma(e.fecha)), document.createTextNode(" · " + e.etapa + " — " + oracion(e.texto)));
+        if (e.url) { var a = el("a", null, " Leer la nota ↗"); a.href = e.url; a.target = "_blank"; a.rel = "noopener"; li.append(a); }
+        ol.append(li);
+      });
       det.append(ol);
     } else det.append(el("p", "vacio", "El historial se completa en las próximas revisiones."));
     if (f.notas) { det.append(el("h4", null, "Notas del equipo"), el("p", null, f.notas)); }
@@ -1088,7 +1199,10 @@ function pintarDatos() {
   datosTip.revisor.textContent = datos.fichas.length + " fichas vigiladas · " + conNovedad + " con novedad hoy";
   datosTip.analista.textContent = analizadas + " analizadas · " + datos.fichas.filter(function (f) { return !f.impacto && TERMINADAS.indexOf(f.etapa) < 0; }).length + " en trámite por analizar";
   datosTip.archivista.textContent = datos.fichas.filter(function (f) { return f.seguimiento; }).length + " proyectos en la matriz de seguimiento";
-  datosTip.cronista.textContent = activas + " proyectos en trámite en " + datos.comisiones.length + " comisiones";
+  var proxSes = (datos.agenda || []).filter(function (a) { return a.fecha >= datos.hoy; });
+  var notas = datos.novedades.filter(function (n) { return n.fuente === "noticia"; }).length;
+  datosTip.cronista.textContent = proxSes.length + " sesiones próximas en la agenda · " + notas + " noticias anotadas en dos semanas";
+  document.getElementById("c-agenda").textContent = proxSes.length || "";
   datosTip.asistente.textContent = Object.keys(datos.porPersona).length + " diputados con proyectos";
   document.getElementById("c-proyectos").textContent = activas || "";
   document.getElementById("c-diputados").textContent = Object.keys(datos.porPersona).length || "";
@@ -1098,7 +1212,7 @@ function pintarDatos() {
     Array.from(new Set(datos.fichas.map(function (f) { return f.etapa; }))).sort().forEach(function (e) { se.append(new Option(e, e)); });
   }
   if (datos.matriz) { var m = document.getElementById("enlace-matriz"); m.href = datos.matriz; m.hidden = false; }
-  pintarUltimas(); pintarPizarra(); pintarProyectos(); pintarPersonas(); if (elegido) pintarDiputado();
+  pintarUltimas(); pintarAgenda(); pintarPizarra(); pintarProyectos(); pintarPersonas(); if (elegido) pintarDiputado();
   moverIndicador(); // los números cambian el ancho de las pestañas: el fondo de la elegida se vuelve a medir
 }
 function cargar() {

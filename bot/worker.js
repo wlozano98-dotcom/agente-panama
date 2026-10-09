@@ -104,9 +104,10 @@ function lineaIndice(f) {
 
 // Ficha completa: datos, impacto por sector, proponentes, historial y análisis .md de Drive.
 async function fichaCompleta(env, ficha, token) {
-  const [p, evs, imps, props] = (await env.DB.batch([
+  const [p, evs, ags, imps, props] = (await env.DB.batch([
     env.DB.prepare("SELECT * FROM proyectos WHERE ficha = ?").bind(ficha),
     env.DB.prepare("SELECT fecha, etapa, texto FROM eventos WHERE ficha = ? ORDER BY fecha DESC, id ASC").bind(ficha),
+    env.DB.prepare(SQL_AGENDA_FICHA).bind(ficha),
     env.DB.prepare("SELECT sector, nivel, razon FROM impactos WHERE ficha = ?").bind(ficha),
     env.DB.prepare("SELECT nombre, tipo, principal FROM proponentes WHERE ficha = ? ORDER BY orden").bind(ficha),
   ])).map((r) => r.results);
@@ -121,7 +122,8 @@ async function fichaCompleta(env, ficha, token) {
     `Impacto: ${f.impacto || "sin analizar todavía"}${f.sectores ? ` | Sectores: ${f.sectores}` : ""}`,
     ...(imps.length ? [`Impacto por sector:\n${imps.map((i) => `- ${i.sector}: ${i.nivel} (${i.razon})`).join("\n")}`] : []),
     `Resumen: ${f.resumen || "—"}`, `Por qué: ${f.razon || "—"}`, `Notas del equipo: ${f.notas || "—"}`,
-    `Historial de etapas (más reciente primero):\n${evs.map((e) => `- ${dma(e.fecha)} · ${e.etapa}: ${e.texto}`).join("\n") || "- sin historial todavía"}`,
+    `Historial de etapas y noticias de la Asamblea (más reciente primero):\n${evs.map((e) => `- ${dma(e.fecha)} · ${e.etapa}: ${e.texto}`).join("\n") || "- sin historial todavía"}`,
+    `En la agenda de comisiones:\n${ags.map((a) => `- ${dma(a.fecha)} ${a.hora} · ${a.comision}: ${a.descripcion.replace(/\s+/g, " ").slice(0, 300)}`).join("\n") || "- no aparece en la agenda reciente"}`,
     `Texto oficial: https://sistemas.asamblea.gob.pa/segLegis/Documents/${f.ficha}.pdf`,
   ].join("\n");
   const carpeta = (String(f.carpeta_url || "").match(/folders\/([\w-]+)/) || [])[1];
@@ -132,6 +134,21 @@ async function fichaCompleta(env, ficha, token) {
     } catch (e) { console.log("drive", e); }
   }
   return texto;
+}
+
+// Agenda de comisiones de hoy a 7 días, compacta, para que Kiwi pueda contestar "qué se ve esta semana".
+async function agendaProxima(env, d) {
+  const hoy = hoyPanama(), hasta = new Date(Date.parse(hoy + "T12:00:00Z") + 7 * 864e5).toISOString().slice(0, 10);
+  try {
+    const { results } = await env.DB.prepare("SELECT fecha, hora, comision, descripcion, fichas FROM agenda WHERE fecha BETWEEN ? AND ? ORDER BY fecha, hora")
+      .bind(hoy, hasta).all();
+    if (!results.length) return "";
+    return "Agenda de comisiones (hoy y próximos 7 días):\n" + results.map((a) => {
+      const fs = (a.fichas ? a.fichas.split(",") : []).map((n) => d.porFicha.get(Number(n))).filter(Boolean);
+      return `- ${dma(a.fecha)} ${a.hora} · ${a.comision}: ${a.descripcion.replace(/\s+/g, " ").slice(0, 220)}` +
+        (fs.length ? ` [fichas: ${fs.map((f) => `${f.numero} (ficha ${f.ficha}, impacto ${f.impacto || "sin analizar"})`).join("; ")}]` : "");
+    }).join("\n");
+  } catch (e) { return ""; }
 }
 
 // ------------------------------------------------------------------ cerebro de Kiwi
@@ -145,6 +162,8 @@ const REGLAS =
   "- Para cantidades usa los Totales del listado; no cuentes filas tú mismo.\n" +
   "- Al listar proyectos di de qué trata cada uno en pocas palabras (no solo su número y etapa). Si son muchos, agrupa o " +
   "muestra los más relevantes (primero los de mayor impacto o más avanzados) y di cuántos quedan.\n" +
+  "- La bitácora suma las noticias oficiales de la Asamblea (etapa \"Noticia\") y la agenda de comisiones: úsalas para " +
+  "contar en qué va un proyecto y cuándo se discute.\n" +
   "- Si un proyecto aún no tiene análisis de impacto, dilo (el agente los va analizando de a poco).\n" +
   "- Texto plano: sin Markdown, sin asteriscos ni almohadillas. Usa guiones para listas.\n" +
   "- Desde el chat no puedes cambiar datos: nunca digas que actualizaste o corregiste algo; sugiere anotarlo en la columna Notas de la matriz.";
@@ -199,11 +218,13 @@ async function responder(env, pregunta, historial = [], seguirEscribiendo = asyn
   let contexto = "";
   if (lista) contexto += lista + "\n\n";
   if (completas.length) contexto += "Fichas relacionadas:\n\n" + completas.join("\n\n---\n\n");
+  const proximas = await agendaProxima(env, d);
   if (!contexto) {
     const resumen = d.fichas.filter((f) => f.en_seguimiento).slice(0, MAX_LISTA);
     contexto = `Fichas en seguimiento (con impacto), novedad más reciente primero:\n${resumen.map(lineaLista).join("\n") || "(ninguna todavía)"}\n\n` +
       `Total de fichas en el Seguimiento Legislativo: ${d.fichas.length}; analizadas: ${d.fichas.filter((f) => f.impacto).length}.`;
   }
+  if (proximas) contexto += "\n\n" + proximas;
   const contents = historial.slice(-8).filter((h) => h && h.texto && (h.rol === "yo" || h.rol === "agente"))
     .map((h) => ({ role: h.rol === "yo" ? "user" : "model", parts: [{ text: String(h.texto).slice(0, 2000) }] }));
   contents.push({ role: "user", parts: [{ text: `${contexto}\n\nPregunta: ${pregunta}` }] });
@@ -365,11 +386,13 @@ async function oficina(request, env, url) {
 async function datosOficina(env) {
   const d = await datos(env);
   const desde = new Date(Date.now() + HORA_PANAMA * 3600 * 1000 - 14 * 86400000).toISOString().slice(0, 10);
-  const [novedades, props, act] = (await env.DB.batch([
-    env.DB.prepare("SELECT ficha, fecha, etapa, texto FROM eventos WHERE fecha >= ? ORDER BY fecha DESC, id ASC").bind(desde),
+  const [novedades, props, act, agenda] = (await env.DB.batch([
+    env.DB.prepare("SELECT ficha, fecha, etapa, texto, fuente, url FROM eventos WHERE fecha >= ? ORDER BY fecha DESC, id ASC").bind(desde),
     env.DB.prepare("SELECT ficha, nombre, principal FROM proponentes WHERE tipo IN ('Diputado', 'Suplente')"),
     // cuándo trabajó el equipo por última vez (UTC): la oficina pone a teclear a quien trabajó hace poco
     env.DB.prepare("SELECT (SELECT MAX(actualizado) FROM proyectos) AS corrida, (SELECT MAX(actualizado) FROM impactos) AS analisis"),
+    // agenda de comisiones (la lee la Cronista, prensa.py): de dos semanas atrás en adelante
+    env.DB.prepare("SELECT id, fecha, hora, comision, lugar, descripcion, fichas FROM agenda WHERE fecha >= ? ORDER BY fecha, hora").bind(desde),
   ])).map((r) => r.results);
   // proponentes como {nombre: [[ficha, principal], ...]} (más liviano que una fila por objeto)
   const porPersona = {};
@@ -381,13 +404,18 @@ async function datosOficina(env) {
       ultima: f.ultima, seguimiento: f.en_seguimiento, carpeta: f.carpeta_url || "" })),
     novedades, personas: d.personas, porPersona, comisiones: d.comisiones,
     ahora: new Date().toISOString().slice(0, 19), actividad: act[0] || {},
+    agenda: agenda.map((a) => ({ ...a, fichas: a.fichas ? a.fichas.split(",").map(Number) : [] })),
   };
 }
 
+const SQL_AGENDA_FICHA = "SELECT a.id, a.fecha, a.hora, a.comision, a.lugar, a.descripcion FROM agenda a " +
+  "JOIN agenda_fichas x ON x.agenda_id = a.id WHERE x.ficha = ? ORDER BY a.fecha DESC, a.hora DESC LIMIT 12";
+
 async function fichaOficina(env, n) {
-  const [p, evs, imps, props] = (await env.DB.batch([
+  const [p, evs, ags, imps, props] = (await env.DB.batch([
     env.DB.prepare("SELECT * FROM proyectos WHERE ficha = ?").bind(n),
-    env.DB.prepare("SELECT fecha, etapa, texto FROM eventos WHERE ficha = ? ORDER BY fecha DESC, id ASC").bind(n),
+    env.DB.prepare("SELECT fecha, etapa, texto, url FROM eventos WHERE ficha = ? ORDER BY fecha DESC, id ASC").bind(n),
+    env.DB.prepare(SQL_AGENDA_FICHA).bind(n),
     env.DB.prepare("SELECT sector, nivel, razon FROM impactos WHERE ficha = ?").bind(n),
     env.DB.prepare("SELECT nombre, tipo, principal FROM proponentes WHERE ficha = ? ORDER BY orden").bind(n),
   ])).map((r) => r.results);
@@ -395,7 +423,7 @@ async function fichaOficina(env, n) {
   imps.sort((a, b) => ORDEN_IMP[a.nivel] - ORDEN_IMP[b.nivel]);
   let disposiciones = [];
   try { disposiciones = JSON.parse(p[0].disposiciones || "[]"); } catch (e) { /* vacío */ }
-  return { ...p[0], numero: numero(p[0]), disposiciones, eventos: evs, impactos: imps, proponentes: props,
+  return { ...p[0], numero: numero(p[0]), disposiciones, eventos: evs, agenda: ags, impactos: imps, proponentes: props,
     pdf: `https://sistemas.asamblea.gob.pa/segLegis/Documents/${n}.pdf` };
 }
 
