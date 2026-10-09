@@ -47,7 +47,7 @@ const memo = { t: 0, datos: null };
 async function datos(env) {
   if (memo.datos && Date.now() - memo.t < 300000) return memo.datos;
   const [fichas, principales, personas, ultimos] = (await env.DB.batch([
-    env.DB.prepare("SELECT ficha, proyecto, anteproyecto, COALESCE(titulo, titulo_oficial) AS titulo, fecha_presentacion, " +
+    env.DB.prepare("SELECT ficha, proyecto, anteproyecto, COALESCE(titulo, titulo_oficial) AS titulo, titulo_corto, fecha_presentacion, " +
       "comision, etapa, impacto, sectores, en_seguimiento, carpeta_url FROM proyectos"),
     env.DB.prepare("SELECT ficha, nombre, (SELECT COUNT(*) FROM proponentes y WHERE y.ficha = x.ficha) AS n " +
       "FROM proponentes x WHERE principal = 1"),
@@ -392,14 +392,14 @@ async function datosOficina(env) {
     // cuándo trabajó el equipo por última vez (UTC): la oficina pone a teclear a quien trabajó hace poco
     env.DB.prepare("SELECT (SELECT MAX(actualizado) FROM proyectos) AS corrida, (SELECT MAX(actualizado) FROM impactos) AS analisis"),
     // agenda de comisiones (la lee la Cronista, prensa.py): de dos semanas atrás en adelante
-    env.DB.prepare("SELECT id, fecha, hora, comision, lugar, descripcion, fichas FROM agenda WHERE fecha >= ? ORDER BY fecha, hora").bind(desde),
+    env.DB.prepare("SELECT id, fecha, hora, comision, lugar, organizador, descripcion, fichas FROM agenda WHERE fecha >= ? ORDER BY fecha, hora").bind(desde),
   ])).map((r) => r.results);
   // proponentes como {nombre: [[ficha, principal], ...]} (más liviano que una fila por objeto)
   const porPersona = {};
   for (const x of props) (porPersona[x.nombre] = porPersona[x.nombre] || []).push([x.ficha, x.principal]);
   return {
     hoy: hoyPanama(), matriz: env.MATRIZ_ID ? `https://docs.google.com/spreadsheets/d/${env.MATRIZ_ID}` : "",
-    fichas: d.fichas.map((f) => ({ ficha: f.ficha, numero: f.numero, titulo: f.titulo, etapa: f.etapa, comision: f.comision,
+    fichas: d.fichas.map((f) => ({ ficha: f.ficha, numero: f.numero, titulo: f.titulo, corto: f.titulo_corto || "", etapa: f.etapa, comision: f.comision,
       impacto: f.impacto || "", sectores: f.sectores || "", proponente: f.proponente, presentado: f.fecha_presentacion,
       ultima: f.ultima, seguimiento: f.en_seguimiento, carpeta: f.carpeta_url || "" })),
     novedades, personas: d.personas, porPersona, comisiones: d.comisiones,

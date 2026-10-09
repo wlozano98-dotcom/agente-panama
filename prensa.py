@@ -11,7 +11,11 @@ Cada nota y cada cita se cruza con las fichas por el número que menciona ("proy
 número se buscan los dos y se confirma con las palabras del título. También sirve un título entre comillas «…».
 - Las notas que nombran fichas van a la bitácora (tabla eventos, fuente "noticia") y a la oficina.
 - La agenda va a la tabla agenda (+ agenda_fichas); la oficina la muestra y la pizarra anuncia las próximas sesiones.
-- Telegram (la Mensajera): nota nueva o sesión nueva sobre una ficha de impacto alto o medio.
+- Orden del Día del Pleno: la lista está en /Page/LABORLEGISLATIVA/OrdenDelDia (un PDF por sesión en /Uploads/OrdenDia/<id>/).
+  Se lee el PDF (pypdf), se separan los puntos ("4. Segundo Debate al Proyecto de Ley No. 724; …") y la sesión entra a la
+  agenda como "Pleno de la Asamblea"; cada proyecto del orden del día suma un evento a su bitácora (fuente "pleno").
+- Telegram (la Mensajera): TODAS las sesiones nuevas de comisión (un mensaje por tanda), cada Orden del Día nuevo y
+  las notas sobre fichas de impacto alto o medio.
 
 Uso: python prensa.py [--prueba]   (--prueba: no escribe en la base, no avisa, no guarda estado)
 """
@@ -150,7 +154,7 @@ def numeros(resto):
             return out
         i += m.end()
         q = re.match(r"\s*[«“\"][^»”\"]{0,500}[»”\"]", resto[i:])
-        cerca = q.group(0) if q else re.split(r"\b\d{1,4}\b", resto[i:i + 250])[0]
+        cerca = q.group(0) if q else re.split(r"(?i)\b(?:ante)?proyectos?\s+de\s+ley\b|\n\s*\d{1,3}\.\s", resto[i:i + 300])[0]
         out.append((int(m.group(1)), cerca))
         if q:
             i += q.end()
@@ -239,6 +243,89 @@ def leer_agenda(sitio):
     return citas
 
 
+# ---------------------------------------------------------------- Orden del Día del Pleno
+
+PLENO_BASE = 10_000_000     # las sesiones del Pleno van a la tabla agenda con id = PLENO_BASE + id del Orden del Día
+JS_ORDENES = """() => [...document.querySelectorAll('table tbody tr')].map(tr => {
+  const a = tr.querySelector('a[href*="/Uploads/OrdenDia/"]'); const td = [...tr.querySelectorAll('td')].map(x => x.innerText.trim());
+  return {id: td[0], publicado: td[1], nombre: td[2], pdf: a ? a.getAttribute('href') : ''}; })"""
+JS_PDF = """async (u) => { const r = await fetch(u); const a = new Uint8Array(await r.arrayBuffer());
+  let s = ''; for (let i = 0; i < a.length; i += 32768) s += String.fromCharCode.apply(null, a.subarray(i, i + 32768)); return btoa(s); }"""
+ORDINALES = {"primer": "1.er debate", "segundo": "2.º debate", "tercer": "3.er debate"}
+
+
+def texto_pdf(datos):
+    import io
+    from pypdf import PdfReader
+    return "\n".join(p.extract_text() or "" for p in PdfReader(io.BytesIO(datos)).pages)
+
+
+def puntos_pleno(texto):
+    """Los puntos numerados del Orden del Día: [{n, texto, debate, suspendido}] (sin encabezados de página)."""
+    t = re.sub(r"\n\s*\d{1,2}\s*\n\s*Orden de[l]? D[ií]a\s*\n[^\n]*\d{4}\s*\n", "\n", texto)
+    t = re.sub(r"[ \t]+", " ", t)
+    partes = re.split(r"\n\s*(\d{1,3})\.\s+", "\n" + t)
+    out = []
+    for i in range(1, len(partes) - 1, 2):
+        cuerpo = re.sub(r"\s+", " ", partes[i + 1]).strip()
+        d = re.search(r"\b(primer|segundo|tercer)\s+debate", cuerpo, re.I)
+        out.append({"n": int(partes[i]), "texto": cuerpo, "debate": ORDINALES[d.group(1).lower()] if d else "",
+                    "suspendido": bool(re.search(r"\(suspendid", cuerpo, re.I))})
+    return out
+
+
+def fecha_sesion(nombre, publicado):
+    """'ORDEN DEL DÍA JUEVES 8 DE OCTUBRE DE 2026' → '2026-10-08' (si no, la fecha de publicación)."""
+    m = re.search(r"(\d{1,2})\s+DE\s+([A-ZÁÉÍÓÚ]+)\s+DE\s+(\d{4})", ag.normalizar(nombre))
+    if m and m.group(2).lower() in MESES:
+        return f"{m.group(3)}-{MESES[m.group(2).lower()]:02d}-{int(m.group(1)):02d}"
+    return fecha_hora(publicado)[0]
+
+
+def leer_pleno(sitio, vistos, desde):
+    """Órdenes del Día nuevos (sesión desde `desde`): [{id, fecha, hora, nombre, url, puntos}]."""
+    pg = sitio.pagina
+    pg.goto(SITIO + "/Page/LABORLEGISLATIVA/OrdenDelDia", timeout=120000)
+    for _ in range(30):
+        pg.wait_for_timeout(1000)
+        filas = pg.evaluate(JS_ORDENES)
+        if filas and filas[0].get("pdf"):
+            break
+    out = []
+    for x in filas:
+        if not x.get("pdf") or not x["id"].isdigit() or x["id"] in vistos:
+            continue
+        fecha = fecha_sesion(x["nombre"], x["publicado"])
+        if not fecha or fecha < desde:
+            continue
+        try:
+            import base64
+            texto = texto_pdf(base64.b64decode(sitio.texto(JS_PDF, x["pdf"])))
+        except Exception as ex:
+            print(f"  orden del día {x['id']}: {ex}")
+            continue
+        m = re.search(r"Primer llamado\s*-?\s*(\d{1,2}):(\d{2})\s*([ap])", texto, re.I)
+        hora = f"{int(m.group(1)) % 12 + (12 if m.group(3).lower() == 'p' else 0):02d}:{m.group(2)}" if m else ""
+        out.append({"id": int(x["id"]), "fecha": fecha, "hora": hora, "nombre": ag.titulo(x["nombre"]),
+                    "url": SITIO + x["pdf"].replace(" ", "%20"), "puntos": puntos_pleno(texto)})
+    return out
+
+
+def cita_pleno(o, indice):
+    """Un Orden del Día como cita de agenda: una línea por punto y las fichas de cada punto."""
+    lineas, fichas, por_punto = [], [], []
+    for p in o["puntos"]:
+        fs = indice.buscar(p["texto"])
+        por_punto.append((p, fs))
+        for f in fs:
+            if f["ficha"] not in fichas:
+                fichas.append(f["ficha"])
+        lineas.append(f"{p['n']}. {resumen(p['texto'], 240)}")
+    return {"id": PLENO_BASE + o["id"], "fecha": o["fecha"], "hora": o["hora"], "comision": "Pleno de la Asamblea",
+            "lugar": "Palacio Justo Arosemena · Orden del Día", "organizador": o["url"], "descripcion": "\n".join(lineas),
+            "fichas": fichas, "por_punto": por_punto, "pleno": o}
+
+
 # ---------------------------------------------------------------- avisos
 
 def impacto(f):
@@ -246,7 +333,7 @@ def impacto(f):
 
 
 def nombre(f):
-    return (f.get("analisis") or {}).get("titulo") or ag.titulo(f["titulo"])
+    return (f.get("analisis") or {}).get("titulo") or oracion(f["titulo"])
 
 
 def aviso_nota(n, fichas):
@@ -257,11 +344,41 @@ def aviso_nota(n, fichas):
     return "\n".join(lineas)
 
 
-def aviso_cita(c, fichas):
-    lineas = [f"📅 <b>Agenda de comisión</b> · {ag.ddmm(c['fecha'])} {c['hora']}", f"<b>{ag.e(c['comision'])}</b>",
-              ag.e(resumen(c["descripcion"], 400)), ag.e(c["lugar"]), ""]
-    for f in fichas:
-        lineas.append(f"{ag.ICONOS.get(impacto(f), '⚪')} {ag.numero(f)}: {ag.e(nombre(f))} ({ag.e(f['etapa'])})")
+def tema_cita(c):
+    """La descripción sin el tipo de reunión del comienzo ("Reunión ordinaria. …")."""
+    d = re.sub(r"\s+", " ", c["descripcion"]).strip()
+    return re.sub(r"^(reuni[oó]n|sesi[oó]n|mesa t[eé]cnica|gira|consulta)[^.:]{0,40}[.:]\s*", "", d, flags=re.I) or d
+
+
+def avisos_agenda(citas, fichas_de):
+    """Todas las sesiones de comisión nuevas, en un solo mensaje por tanda (se parte si es muy largo)."""
+    bloques = []
+    for c in sorted(citas, key=lambda x: (x["fecha"], x["hora"])):
+        b = [f"• <b>{ag.ddmm(c['fecha'])} {c['hora']} · {ag.e(c['comision'])}</b>", ag.e(resumen(tema_cita(c), 280))]
+        for f in fichas_de(c):
+            b.append(f"   {ag.ICONOS.get(impacto(f), '⚪')} {ag.numero(f)}: {ag.e(nombre(f))}")
+        bloques.append("\n".join(b))
+    mensajes, actual = [], "📅 <b>Agenda de comisiones: sesiones nuevas</b>"
+    for b in bloques:
+        if len(actual) + len(b) > 3800:
+            mensajes.append(actual)
+            actual = "📅 <b>Agenda de comisiones (sigue)</b>"
+        actual += "\n\n" + b
+    return mensajes + [actual] if bloques else []
+
+
+def aviso_pleno(c):
+    o = c["pleno"]
+    lineas = [f"🏛️ <b>Orden del Día del Pleno</b> · {ag.ddmm(c['fecha'])} {c['hora']}".rstrip(), f"{len(o['puntos'])} puntos", ""]
+    con = [(p, fs) for p, fs in c["por_punto"] if fs]
+    con.sort(key=lambda x: min(["alto", "medio", "bajo", "ninguno", None].index(impacto(f)) for f in x[1]))
+    for p, fs in con[:15]:
+        f = fs[0]
+        lineas.append(f"{ag.ICONOS.get(impacto(f), '⚪')} {p['n']}. {p['debate'] or 'Punto'}{' (suspendido)' if p['suspendido'] else ''} · "
+                      f"{ag.numero(f)}: {ag.e(nombre(f))}")
+    if len(con) > 15:
+        lineas.append(f"… y {len(con) - 15} proyectos más")
+    lineas.append(f'\n<a href="{o["url"]}">Orden del Día (PDF)</a>')
     return "\n".join(lineas)
 
 
@@ -279,6 +396,7 @@ def main():
     primera = "noticias" not in prensa
     vistas = set(prensa.get("noticias", []))
     citas_vistas = set(map(str, prensa.get("agenda", [])))
+    plenos_vistos = set(map(str, prensa.get("pleno", [])))
     indice = Indice(estado["fichas"])
     hoy = ag.hoy()
     desde = (datetime.date.today() - datetime.timedelta(days=DIAS_NOTICIAS if primera else DIAS_REVISION)).isoformat()
@@ -286,7 +404,12 @@ def main():
     with Sitio() as sitio:
         notas = leer_noticias(sitio, vistas, desde)
         citas = leer_agenda(sitio)
-    print(f"Prensa: {len(notas)} notas nuevas desde {desde}, {len(citas)} citas de agenda")
+        try:
+            ordenes = leer_pleno(sitio, plenos_vistos, (datetime.date.today() - datetime.timedelta(days=DIAS_NOTICIAS)).isoformat())
+        except Exception as ex:
+            print(f"  orden del día: {ex}")
+            ordenes = []
+    print(f"Prensa: {len(notas)} notas nuevas desde {desde}, {len(citas)} citas de agenda, {len(ordenes)} órdenes del día nuevos")
 
     eventos, avisos = [], []
     for n in notas:
@@ -298,16 +421,35 @@ def main():
         de_impacto = [f for f in fichas if impacto(f) in AVISAR]
         if de_impacto and not primera:
             avisos.append(aviso_nota(n, de_impacto))
-    filas, relaciones = [], []
+    filas, relaciones, nuevas = [], [], []
     for c in citas:
-        fichas = indice.buscar(c["descripcion"])
-        c["fichas"] = [f["ficha"] for f in fichas]
+        c["fichas"] = [f["ficha"] for f in indice.buscar(c["descripcion"])]
+        if str(c["id"]) not in citas_vistas and c["fecha"] >= hoy:
+            nuevas.append(c)
+    plenos = [cita_pleno(o, indice) for o in ordenes]
+    for c in citas + plenos:
         filas.append([c["id"], c["fecha"], c["hora"], c["comision"], c["lugar"], c["organizador"], c["descripcion"],
                       ",".join(c["fichas"]), base.ahora()])
         relaciones += [[c["id"], int(x)] for x in c["fichas"]]
-        de_impacto = [f for f in fichas if impacto(f) in AVISAR]
-        if de_impacto and not primera and str(c["id"]) not in citas_vistas and c["fecha"] >= hoy:
-            avisos.append(aviso_cita(c, de_impacto))
+    # el Orden del Día se repite casi igual cada sesión: a la bitácora va solo cuando un proyecto entra o cambia de debate
+    linea_base = "en_pleno" not in prensa  # la primera vez solo se anota qué hay en el Pleno (llevan meses ahí)
+    en_pleno = prensa.setdefault("en_pleno", {})
+    for c in sorted(plenos, key=lambda x: x["fecha"]):
+        print(f"  pleno {c['fecha']} {c['hora']}: {len(c['pleno']['puntos'])} puntos, {len(c['fichas'])} fichas")
+        for p, fs in c["por_punto"]:
+            for f in fs:
+                if en_pleno.get(f["ficha"]) == p["debate"]:
+                    continue
+                en_pleno[f["ficha"]] = p["debate"]
+                if linea_base:
+                    continue
+                eventos.append([int(f["ficha"]), c["fecha"], "Pleno", f"En el Orden del Día del Pleno (punto {p['n']}"
+                                f"{', ' + p['debate'] if p['debate'] else ''}{', suspendido' if p['suspendido'] else ''})",
+                                "pleno", f"pleno:{c['pleno']['id']}:{p['n']}:{f['ficha']}", base.ahora(), c["pleno"]["url"]])
+        if not primera and c["fecha"] >= hoy:
+            avisos.append(aviso_pleno(c))
+    if not primera:  # la Mensajera avisa TODAS las sesiones nuevas de comisión (pedido de Andrés)
+        avisos += avisos_agenda(nuevas, lambda c: [estado["fichas"][x] for x in c["fichas"]])
     con_fichas = sum(1 for c in citas if c["fichas"])
     print(f"  agenda: {con_fichas} de {len(citas)} citas tratan fichas conocidas; {len(eventos)} notas a la bitácora; {len(avisos)} avisos")
 
@@ -327,7 +469,7 @@ def main():
                            modo="INSERT OR IGNORE")
         d1.insertar_muchas("agenda", ["id", "fecha", "hora", "comision", "lugar", "organizador", "descripcion", "fichas",
                                       "actualizado"], filas)
-        ids = ",".join(str(c["id"]) for c in citas)
+        ids = ",".join(str(c["id"]) for c in citas + plenos)
         if ids:
             d1.ejecutar_varias(f"DELETE FROM agenda_fichas WHERE agenda_id IN ({ids})")
         d1.insertar_muchas("agenda_fichas", ["agenda_id", "ficha"], relaciones, modo="INSERT OR IGNORE")
@@ -338,6 +480,7 @@ def main():
             print(f"  aviso: {ex}")
     prensa["noticias"] = sorted(vistas | {n["id"] for n in notas}, key=int)[-400:]
     prensa["agenda"] = sorted(citas_vistas | {str(c["id"]) for c in citas}, key=int)[-600:]
+    prensa["pleno"] = sorted(plenos_vistos | {str(o["id"]) for o in ordenes}, key=int)[-60:]
     prensa["revisada"] = base.ahora()
     ag.guardar_estado(estado)
 

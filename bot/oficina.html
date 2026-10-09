@@ -85,11 +85,14 @@ h2.seccion { font: 600 13px var(--fuente); letter-spacing: .04em; text-transform
 .piso { display: grid; grid-template-columns: minmax(0, 1fr) 370px; gap: 24px; align-items: stretch; }
 
 /* ---------- la oficina ilustrada */
-.oficina { position: relative; aspect-ratio: 1200 / 640; max-width: 100%; border-radius: 26px; overflow: hidden; box-shadow: var(--sombra); background: #e9e3da; }
-.oficina > svg.fondo { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+/* el dibujo se recorta con las esquinas redondeadas en su propia capa; la oficina no recorta, así las fichas de los
+   agentes y los globos pueden sobresalir sin cortarse */
+.oficina { position: relative; aspect-ratio: 1200 / 640; max-width: 100%; }
+.lienzo { position: absolute; inset: 0; border-radius: 26px; overflow: hidden; box-shadow: var(--sombra); background: #e9e3da; }
+.lienzo > svg.fondo { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
 .persona { position: absolute; transform: translate(-50%, -100%); cursor: help; outline: none; }
 .persona:hover, .persona:focus-visible, .persona.tip-abierto { z-index: 1000 !important; }
-.tip { position: absolute; left: 50%; bottom: 96%; transform: translate(-50%, 6px) scale(.96); width: max-content; max-width: min(280px, 60vw);
+.tip { position: absolute; left: 50%; bottom: 96%; transform: translate(-50%, 6px) scale(.96); width: max-content; max-width: min(280px, 72vw); white-space: normal; overflow-wrap: break-word;
   padding: 10px 12px; border-radius: 14px; background: rgb(255 255 255 / .94); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px);
   box-shadow: 0 10px 28px rgb(0 0 0 / .18); color: #15212b; font-size: 12.5px; line-height: 1.4; text-align: left;
   opacity: 0; pointer-events: none; transition: opacity .18s ease, transform .3s var(--muelle); }
@@ -126,7 +129,7 @@ h2.seccion { font: 600 13px var(--fuente); letter-spacing: .04em; text-transform
 .ojos-kiwi { animation: mira 7s ease-in-out infinite; }
 @keyframes mira { 0%, 40%, 100% { transform: translateX(0) } 50%, 70% { transform: translateX(-2px) } }
 @keyframes paso { from { transform: rotate(-13deg); } to { transform: rotate(13deg); } }
-.globo { position: absolute; transform: translate(-50%, -100%); max-width: 30%; font-size: clamp(10px, 1vw, 13px); line-height: 1.35; color: #15212b;
+.globo { position: absolute; transform: translate(-50%, -100%); max-width: 30%; overflow-wrap: break-word; font-size: clamp(10px, 1vw, 13px); line-height: 1.35; color: #15212b;
   background: rgb(255 255 255 / .92); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); padding: 7px 10px; border-radius: 14px;
   box-shadow: 0 6px 18px rgb(0 0 0 / .14); pointer-events: none; z-index: 900; transform-origin: 50% 100%; animation: globo .35s var(--muelle); }
 .globo::after { content: ""; position: absolute; left: 50%; bottom: -6px; transform: translateX(-50%); border: 6px solid transparent; border-bottom: 0; border-top-color: rgb(255 255 255 / .92); }
@@ -135,7 +138,7 @@ h2.seccion { font: 600 13px var(--fuente); letter-spacing: .04em; text-transform
 .globo.escribe i:nth-child(2) { animation-delay: .15s } .globo.escribe i:nth-child(3) { animation-delay: .3s }
 @keyframes globo { from { opacity: 0; transform: translate(-50%, -92%) scale(.85); } to { opacity: 1; transform: translate(-50%, -100%) scale(1); } }
 @keyframes salto { 0%, 60%, 100% { transform: translateY(0); opacity: .4 } 30% { transform: translateY(-3px); opacity: 1 } }
-.pizarra { position: absolute; left: 39%; top: 9.5%; width: 19.8%; height: 23.8%; border: 0; padding: 0; background: transparent; cursor: pointer; border-radius: 12px; z-index: 50; }
+.pizarra { position: absolute; left: 39%; top: 9.5%; width: 19.8%; height: 25.6%; border: 0; padding: 0; background: transparent; cursor: pointer; border-radius: 12px; z-index: 50; }
 .pizarra:hover { box-shadow: 0 0 0 3px rgb(10 108 255 / .35); }
 .pizarra:active { transform: scale(.98); }
 .pizarra:focus-visible { outline: 3px solid var(--acento); outline-offset: 2px; }
@@ -283,7 +286,7 @@ dialog.ficha-panel { position: fixed; inset: 0 0 0 auto; margin: 0; height: 100d
 dialog.ficha-panel[open] { animation: entra .45s var(--muelle); }
 @keyframes entra { from { transform: translateX(40px); opacity: 0; } to { transform: none; opacity: 1; } }
 dialog.ficha-panel::backdrop { background: rgb(10 20 30 / .25); }
-.det { padding: 20px 22px 40px; overflow-y: auto; height: 100%; }
+.det { padding: 20px 22px 40px; overflow-y: auto; overflow-x: hidden; height: 100%; overflow-wrap: anywhere; }
 .det-cab { display: flex; justify-content: space-between; align-items: start; gap: 12px; }
 .cerrar { border: 0; background: var(--burbuja); width: 34px; height: 34px; border-radius: 50%; font-size: 18px; flex: none; cursor: pointer; }
 .det h3 { font: 700 20px/1.25 var(--fuente-titulo); margin: 4px 0 10px; letter-spacing: -.01em; }
@@ -346,7 +349,7 @@ dialog.ficha-panel::backdrop { background: rgb(10 20 30 / .25); }
   <div class="piso">
     <section class="escena" aria-label="La oficina">
       <div class="oficina" id="oficina">
-        <svg class="fondo" viewBox="0 0 1200 640" preserveAspectRatio="none" aria-hidden="true">
+        <div class="lienzo"><svg class="fondo" viewBox="0 0 1200 640" preserveAspectRatio="none" aria-hidden="true">
           <defs>
             <linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1"><stop id="cielo-a" offset="0" stop-color="#8fc8ea"/><stop id="cielo-b" offset="1" stop-color="#d6ecf6"/></linearGradient>
             <linearGradient id="mar" x1="0" y1="0" x2="0" y2="1"><stop id="mar-a" offset="0" stop-color="#4f9fc4"/><stop id="mar-b" offset="1" stop-color="#2c7aa0"/></linearGradient>
@@ -409,12 +412,12 @@ dialog.ficha-panel::backdrop { background: rgb(10 20 30 / .25); }
           <rect x="237" y="52" width="6" height="196" fill="#ffffff"/>
           <rect x="44" y="256" width="392" height="10" rx="5" fill="#f7f3ec"/>
           <!-- pizarra con lo último de la Asamblea -->
-          <rect x="470" y="62" width="236" height="150" rx="12" fill="#ffffff" stroke="#d9d2c6" stroke-width="3"/>
-          <text id="pizarra-titulo" x="490" y="92" font-family="-apple-system, system-ui, sans-serif" font-size="15" font-weight="700" fill="#2c3e57">Hoy en la Asamblea</text>
+          <rect x="470" y="62" width="236" height="162" rx="12" fill="#ffffff" stroke="#d9d2c6" stroke-width="3"/>
+          <text id="pizarra-titulo" x="490" y="88" font-family="-apple-system, system-ui, sans-serif" font-size="15" font-weight="700" fill="#2c3e57">Hoy en la Asamblea</text>
           <g id="pizarra-puntos" font-family="-apple-system, system-ui, sans-serif" font-size="11.5" fill="#3d4f5c">
             <path d="M492 118h150M492 140h176M492 162h120M492 184h160" stroke="#9fb0bd" stroke-width="5" stroke-linecap="round"/>
           </g>
-          <rect x="560" y="212" width="56" height="8" rx="4" fill="#d9d2c6"/>
+          <rect x="560" y="224" width="56" height="8" rx="4" fill="#d9d2c6"/>
           <!-- reloj (hora de Panamá) -->
           <circle cx="770" cy="104" r="34" fill="#ffffff" stroke="#2c3e57" stroke-width="5"/>
           <g stroke="#2c3e57" stroke-linecap="round"><line id="aguja-h" x1="770" y1="104" x2="770" y2="84" stroke-width="5"/><line id="aguja-m" x1="770" y1="104" x2="770" y2="76" stroke-width="3"/></g>
@@ -454,7 +457,7 @@ dialog.ficha-panel::backdrop { background: rgb(10 20 30 / .25); }
             <path d="M875 234c-22-6-34-24-30-44 10 6 18 12 22 22 0-12 4-22 10-28 8 10 8 22 4 32 6-8 16-12 26-12-2 16-14 28-32 30z" fill="#3f8f5c"/>
             <path d="M856 200l8 6M866 196l2 9M884 188l-3 9M896 206l-9 4" stroke="#e9e3da" stroke-width="2" stroke-linecap="round"/></g>
           <ellipse cx="420" cy="585" rx="300" ry="38" fill="#2f8f8a" opacity=".16"/>
-        </svg>
+        </svg></div>
       </div>
     </section>
 
@@ -496,7 +499,7 @@ dialog.ficha-panel::backdrop { background: rgb(10 20 30 / .25); }
 
   <!-- ============================================================ Agenda -->
   <div class="panel" id="p-agenda" role="tabpanel" aria-labelledby="t-agenda" hidden>
-    <p class="fuente-agenda">Agenda de comisiones publicada por la Asamblea Nacional. Las sesiones con borde rojo tratan proyectos de impacto alto o medio.</p>
+    <p class="fuente-agenda">Agenda de comisiones y Orden del Día del Pleno, publicados por la Asamblea Nacional. Las sesiones con borde rojo tratan proyectos de impacto alto o medio.</p>
     <div class="agenda" id="agenda"></div>
   </div>
 
@@ -948,6 +951,31 @@ function lineas(texto, ancho, max) {
   return res;
 }
 var diaPizarra = null, agendaPizarra = null;
+/* Los títulos de Panamá son largos y empiezan igual ("Que establece…", "Que modifica la Ley 134 de 2013, que…"):
+   se quita lo que no informa para que en la pizarra quepa de qué trata. */
+function temaCorto(t) {
+  t = oracion(String(t || "")).replace(/\s+/g, " ").trim()
+    .replace(/[,;]?\s*y (se )?dicta(n)? (otras?|una) disposici\w+\.?$/i, "").replace(/\s+en (el territorio nacional|la rep[uú]blica de panam[aá])\.?$/i, "").replace(/\.$/, "");
+  var m = /^(?:que|por (?:el|la) cual(?:es)?)\s+(?:se\s+)?(\S+)\s+(.*)$/i.exec(t);
+  if (!m) return t.charAt(0).toUpperCase() + t.slice(1);
+  var verbo = m[1].toLowerCase(), resto = m[2];
+  var ley = /^(?:y adiciona\s+)?(?:(?:el|los|un|varios|algunos)\s+)?(?:art[ií]culos?\s+(?:\w+\s+)?(?:a|de|al|del)\s+)?(?:la\s+|el\s+)?(ley|decreto ley|c[oó]digo [a-záéíóú]+)\s*(?:n[o°º]\.?\s*)?(\d+)?(?:\s+(?:de|del)\s+[^,]*?\d{4})?\s*,?\s*(?:(?:que|por la cual|sobre)\s+(?:se\s+)?\S+\s+)?(.*)$/i.exec(resto);
+  if (/^(modifica|adiciona|reforma|subroga|deroga)/.test(verbo) && ley) {
+    var nom = ley[1].charAt(0).toUpperCase() + ley[1].slice(1).toLowerCase() + (ley[2] ? " " + ley[2] : "");
+    return "Reforma " + (/^c/i.test(ley[1]) ? "al " : "a la ") + nom + (ley[3] ? ": " + ley[3] : "");
+  }
+  return verbo.charAt(0).toUpperCase() + verbo.slice(1) + " " + resto;
+}
+function esPleno(a) { return a.id >= 10000000; }
+function temaDescripcion(d) {
+  d = String(d || "").replace(/\s+/g, " ").replace(/^(reuni[oó]n|sesi[oó]n|mesa t[eé]cnica|gira|consulta)[^.:]{0,40}[.:]\s*/i, "");
+  var q = /«([^»]{15,})»/.exec(d); return q ? q[1] : d;
+}
+function fichaPrincipal(a) {
+  var fs = a.fichas.map(function (n) { return porFicha[n]; }).filter(Boolean);
+  fs.sort(function (x, y) { return (ORDEN_IMP[x.impacto] == null ? 4 : ORDEN_IMP[x.impacto]) - (ORDEN_IMP[y.impacto] == null ? 4 : ORDEN_IMP[y.impacto]); });
+  return fs[0];
+}
 function pintarPizarra() {
   var NS = "http://www.w3.org/2000/svg", g = document.getElementById("pizarra-puntos"), titulo = document.getElementById("pizarra-titulo");
   var porDia = novedadesPorDia(), dias = Object.keys(porDia).sort(), ultimo = dias[dias.length - 1];
@@ -960,18 +988,18 @@ function pintarPizarra() {
   var por = sesionesPorDia(), proxima = Object.keys(por).sort().filter(function (d) { return d >= datos.hoy; })[0];
   if (proxima) {
     agendaPizarra = proxima;
-    var ses = por[proxima].slice().sort(function (a, b) { return (deImpacto(b) - deImpacto(a)) || (b.fichas.length - a.fichas.length); });
+    var ses = por[proxima].slice().sort(function (a, b) { return (esPleno(b) - esPleno(a)) || (deImpacto(b) - deImpacto(a)) || (b.fichas.length - a.fichas.length); });
     titulo.textContent = proxima === datos.hoy ? "Agenda de hoy" : "Próxima agenda";
-    texto(492, 110, fechaLarga(proxima) + " · " + ses.length + (ses.length === 1 ? " sesión" : " sesiones"), 11, 600, "#0a6cff");
-    var yy = 132;
-    ses.slice(0, 3).forEach(function (a) {
-      if (yy > 196) return;
-      var f = porFicha[a.fichas[0]], tema = f ? f.titulo : a.descripcion.replace(/\s+/g, " ").replace(/^[^.]*\.\s*/, "");
-      var ls = lineas(a.hora + " · " + comisionCorta(a.comision), 30, 1).concat(lineas(tema, 32, 1));
+    texto(492, 106, fechaLarga(proxima) + " · " + ses.length + (ses.length === 1 ? " sesión" : " sesiones"), 10.5, 600, "#0a6cff");
+    var yy = 126;
+    ses.slice(0, 2).forEach(function (a) {
+      var f = fichaPrincipal(a), cab = a.hora + " · " + (esPleno(a) ? "Pleno · " + a.descripcion.split("\n").length + " puntos" : comisionCorta(a.comision));
+      var tema = f ? temaCorto(f.corto || f.titulo) : temaCorto(temaDescripcion(a.descripcion));
+      var ls = lineas(cab, 34, 1).concat(lineas(tema, 36, 2));
       var c0 = document.createElementNS(NS, "circle"); c0.setAttribute("cx", 496); c0.setAttribute("cy", yy - 4); c0.setAttribute("r", 4);
       c0.setAttribute("fill", f ? ({ alto: "#e5484d", medio: "#f08c2b", bajo: "#d4b106" }[f.impacto] || "#c3cad0") : "#c3cad0"); g.append(c0);
-      ls.forEach(function (l, i) { texto(506, yy + i * 13, l, i === 0 ? 11.5 : 11, i === 0 ? 600 : null, i === 0 ? "#2f3e49" : "#5c6b75"); });
-      yy += ls.length * 13 + 9;
+      ls.forEach(function (l, i) { texto(506, yy + i * 12.5, l, i === 0 ? 11 : 10.5, i === 0 ? 700 : null, i === 0 ? "#2f3e49" : "#4d5d69"); });
+      yy += ls.length * 12.5 + 8;
     });
     botonPizarra.setAttribute("aria-label", titulo.textContent + ": " + ses.length + " sesiones. Ver la agenda");
     return;
@@ -1022,18 +1050,27 @@ function pintarAgenda() {
   items.forEach(function (a) {
     var c = el("article", "sesion vidrio" + (deImpacto(a) ? " de-impacto" : "")), der = el("div");
     der.append(el("h3", null, a.comision), el("p", "lugar", a.lugar));
+    if (esPleno(a) && /^https?:/.test(a.organizador || "")) { var pdf = el("a", "ver-mas", "Orden del Día (PDF) ↗"); pdf.href = a.organizador; pdf.target = "_blank"; pdf.rel = "noopener"; der.append(pdf); }
     var desc = el("p", "desc", a.descripcion); der.append(desc);
     if (a.descripcion.length > 260) { var vm = el("button", "ver-mas", "Ver todo"); vm.type = "button";
       vm.onclick = function () { var ab = desc.classList.toggle("abierta"); vm.textContent = ab ? "Ver menos" : "Ver todo"; }; der.append(vm); }
     var fs = a.fichas.map(function (n) { return porFicha[n]; }).filter(Boolean);
     if (fs.length) {
-      var caja = el("div", "fichas-sesion");
+      var caja = el("div", "fichas-sesion"), MAX_VISIBLES = 10;
       fs.sort(function (x, y) { return (ORDEN_IMP[x.impacto] == null ? 4 : ORDEN_IMP[x.impacto]) - (ORDEN_IMP[y.impacto] == null ? 4 : ORDEN_IMP[y.impacto]); })
         .forEach(function (f) {
           var b = el("button"), i2 = el("i"); b.type = "button"; i2.style.setProperty("--c", IMPACTO[f.impacto || "ninguno"]); i2.title = f.impacto ? "Impacto " + f.impacto : "Sin analizar todavía";
           var t = el("span"); t.append(el("b", null, f.numero), document.createTextNode(f.titulo.length > 110 ? f.titulo.slice(0, 108) + "…" : f.titulo));
           b.append(i2, t); b.onclick = function () { abrirFicha(f.ficha); }; caja.append(b);
         });
+      // el Pleno trata más de cien proyectos: primero los de mayor impacto y el resto a pedido
+      var botones = [].slice.call(caja.children);
+      if (botones.length > MAX_VISIBLES) {
+        botones.slice(MAX_VISIBLES).forEach(function (b) { b.hidden = true; });
+        var mas = el("button", "ver-mas", "Ver los " + botones.length + " proyectos"); mas.type = "button";
+        mas.onclick = function () { botones.forEach(function (b) { b.hidden = false; }); mas.remove(); };
+        caja.append(mas);
+      }
       der.append(caja);
     }
     c.append(el("div", "hora", a.hora), der); cont.append(c);
@@ -1196,14 +1233,8 @@ function pintarDatos() {
   var activas = datos.fichas.filter(function (f) { return TERMINADAS.indexOf(f.etapa) < 0; }).length;
   var analizadas = datos.fichas.filter(function (f) { return f.impacto; }).length;
   var conNovedad = new Set(datos.novedades.filter(function (n) { return n.fecha === datos.hoy; }).map(function (n) { return n.ficha; })).size;
-  datosTip.revisor.textContent = datos.fichas.length + " fichas vigiladas · " + conNovedad + " con novedad hoy";
-  datosTip.analista.textContent = analizadas + " analizadas · " + datos.fichas.filter(function (f) { return !f.impacto && TERMINADAS.indexOf(f.etapa) < 0; }).length + " en trámite por analizar";
-  datosTip.archivista.textContent = datos.fichas.filter(function (f) { return f.seguimiento; }).length + " proyectos en la matriz de seguimiento";
   var proxSes = (datos.agenda || []).filter(function (a) { return a.fecha >= datos.hoy; });
-  var notas = datos.novedades.filter(function (n) { return n.fuente === "noticia"; }).length;
-  datosTip.cronista.textContent = proxSes.length + " sesiones próximas en la agenda · " + notas + " noticias anotadas en dos semanas";
   document.getElementById("c-agenda").textContent = proxSes.length || "";
-  datosTip.asistente.textContent = Object.keys(datos.porPersona).length + " diputados con proyectos";
   document.getElementById("c-proyectos").textContent = activas || "";
   document.getElementById("c-diputados").textContent = Object.keys(datos.porPersona).length || "";
   var sc = document.getElementById("f-comision"), se = document.getElementById("f-etapa");

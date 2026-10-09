@@ -41,7 +41,7 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: python agente.py
 
-      # La Cronista (prensa.py): noticias y agenda de comisiones de www.asamblea.gob.pa, que tiene anti-bots y solo
+      # La Cronista (prensa.py): noticias, agenda de comisiones y Orden del Día del Pleno de www.asamblea.gob.pa, que tiene anti-bots y solo
       # abre con un navegador. Si falla, no frena el resto (el estado se guarda igual).
       - name: Cache del navegador
         uses: actions/cache@v4
@@ -58,7 +58,7 @@ jobs:
           CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
-          pip install -q playwright
+          pip install -q playwright pypdf
           python -m playwright install --with-deps chromium-headless-shell || python -m playwright install --with-deps chromium
           python prensa.py
 
