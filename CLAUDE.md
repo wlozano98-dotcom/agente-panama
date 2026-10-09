@@ -85,3 +85,12 @@ Telegram es SOLO de notificaciones (decisión de Andrés, 2026-10-08): a cualqui
   día a día de los últimos 14 días), Proyectos (filtros por comisión, etapa, impacto, en trámite) y Diputados (124
   proponentes; principal/coproponente). Detalle de ficha en panel lateral (`/oficina/ficha?n=`). Los títulos sin
   analizar llegan en MAYÚSCULAS y el Worker los pasa a oración (`oracion()`).
+
+## Pendientes (2026-10-09)
+
+- **Duda abierta (clave):** cómo saber qué se discute de verdad en cada sesión del Pleno. El Orden del Día oficial
+  trae toda la fila (~175 puntos). Lo observado (sin confirmar): lo que se vota sale de la cabeza de la lista (tercer
+  debate y proyectos que la Asamblea sube), lo nuevo entra al final. Hay que confirmarlo con el equipo de Panamá
+  antes de mostrar "en discusión hoy" como un hecho.
+- Siguientes, de a poco (decisión de Andrés: más lento que Ecuador): 1) Proyectos de ley con el edificio de la
+  Asamblea (comisiones, Pleno, Ejecutivo, publicados), como KeyCurul; 2) afinar la agenda; 3) Gaceta Oficial (Legispan).
