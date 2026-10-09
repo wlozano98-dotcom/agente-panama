@@ -69,7 +69,9 @@ Autorizados del bot: BOT_AUTORIZADOS (si no está, TELEGRAM_CHAT_ID). Gemini: la
   D1 (listado con totales ya contados por rol, etapa e impacto; Gemini no debe contar filas) y el .md más reciente de
   Drive de cada ficha elegida; 3) Kiwi responde. 15-20 s por respuesta.
 - Gemini no admite "" en un enum del esquema (da 400): por eso impacto_minimo usa "ninguno".
-- Oficina: `/oficina?k=<OFICINA_CLAVE>`. Pestañas Oficina (escena con la ciudad de Panamá, chat con Kiwi, novedades
+- Oficina: `/oficina?k=<OFICINA_CLAVE>`. Mismo diseño que la de KeyCurul (pedido de Andrés): pestañas debajo de la barra, seis
+  escritorios (Revisor, Analista, Archivista, Mensajera, Asistente, Cronista), Kiwi en guayabera que camina al escritorio
+  que corresponde mientras el Worker responde, ventana con el Puente de las Américas y pizarra con lo último. Pestañas Oficina (escena con la ciudad de Panamá, chat con Kiwi, novedades
   día a día de los últimos 14 días), Proyectos (filtros por comisión, etapa, impacto, en trámite) y Diputados (124
   proponentes; principal/coproponente). Detalle de ficha en panel lateral (`/oficina/ficha?n=`). Los títulos sin
   analizar llegan en MAYÚSCULAS y el Worker los pasa a oración (`oracion()`).

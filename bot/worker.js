@@ -385,9 +385,11 @@ async function oficina(request, env, url) {
 async function datosOficina(env) {
   const d = await datos(env);
   const desde = new Date(Date.now() + HORA_PANAMA * 3600 * 1000 - 14 * 86400000).toISOString().slice(0, 10);
-  const [novedades, props] = (await env.DB.batch([
+  const [novedades, props, act] = (await env.DB.batch([
     env.DB.prepare("SELECT ficha, fecha, etapa, texto FROM eventos WHERE fecha >= ? ORDER BY fecha DESC, id ASC").bind(desde),
     env.DB.prepare("SELECT ficha, nombre, principal FROM proponentes WHERE tipo IN ('Diputado', 'Suplente')"),
+    // cuándo trabajó el equipo por última vez (UTC): la oficina pone a teclear a quien trabajó hace poco
+    env.DB.prepare("SELECT (SELECT MAX(actualizado) FROM proyectos) AS corrida, (SELECT MAX(actualizado) FROM impactos) AS analisis"),
   ])).map((r) => r.results);
   // proponentes como {nombre: [[ficha, principal], ...]} (más liviano que una fila por objeto)
   const porPersona = {};
@@ -398,6 +400,7 @@ async function datosOficina(env) {
       impacto: f.impacto || "", sectores: f.sectores || "", proponente: f.proponente, presentado: f.fecha_presentacion,
       ultima: f.ultima, seguimiento: f.en_seguimiento, carpeta: f.carpeta_url || "" })),
     novedades, personas: d.personas, porPersona, comisiones: d.comisiones,
+    ahora: new Date().toISOString().slice(0, 19), actividad: act[0] || {},
   };
 }
 
