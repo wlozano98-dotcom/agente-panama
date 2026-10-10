@@ -93,9 +93,21 @@
    "carpeta": "Regulación de ácidos grasos trans industriales (ficha 8491)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
+  "8518": {
+   "carpeta": "Responsabilidad penal excepcional para menores de doce años (ficha 8518)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
   "8521": {
    "carpeta": "Educación para menores hospitalizados o enfermos (ficha 8521)",
    "comision": "Comisión de Educacion, Cultura y Deportes"
+  },
+  "8558": {
+   "carpeta": "Reforma al Código Procesal Penal (ficha 8558)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "8563": {
+   "carpeta": "Ampliación de acuerdos en el proceso penal (ficha 8563)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
   "8570": {
    "carpeta": "Reforma a la Ley 304 sobre arrecifes y pastos marinos (ficha 8570)",
@@ -33631,6 +33643,20 @@
    "titulo": "QUE MODIFICA Y ADICIONA DISPOSICIONES DE LA LEY 284 DE 14 DE FEBRERO DE 2022, QUE SUBROGA LA LEY 31 DE 18 DE JUNIO DE 2010, SOBRE EL RÉGIMEN DE PROPIEDAD HORIZONTAL, Y DICTA OTRAS DISPOSICIONES"
   },
   "8518": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1bcPxyh0_lsEZiS_fRfGdfSbrL6P1e6Wo",
+    "fecha_analisis": "2026-10-10",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa se enfoca exclusivamente en la justicia penal para menores y la tutela legal de los padres, sin imponer regulaciones, cargas tributarias, trámites ni costos sobre las empresas.",
+    "resumen": "Propone modificar el régimen de responsabilidad penal juvenil (Ley 40 de 1999) y el Código Penal para permitir la imputabilidad penal excepcional de menores de entre diez y doce años en delitos graves contra la vida (como homicidio, femicidio y terrorismo). Asimismo, tipifica sanciones agravadas para adultos que utilicen a menores en delitos y define responsabilidades para padres o tutores por negligencia grave. El proyecto afecta exclusivamente el ámbito del derecho penal y de justicia juvenil.",
+    "sectores": [],
+    "titulo": "Que modifica artículos de la Ley 40 de 26 de agosto de 1999, adiciona un artículo al Código Penal y dicta disposiciones sobre la responsabilidad penal excepcional de personas menores de doce años por delitos contra la vida",
+    "titulo_corto": "Responsabilidad penal excepcional para menores de doce años"
+   },
    "anteproyecto": "113",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Primer Debate",
@@ -34659,6 +34685,20 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 462 DEL 18 DE MARZO DE 2025 QUE MODIFICA ADICIONA Y DEROGA ARTICULOS DE LA LEY 51 DE 2005 QUE REFORMA LA LEY ORGANICA DE LA CAJA DE SEGURO SOCIAL Y DICTA OTRAS DISPOSICIONES"
   },
   "8558": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1-3AjqlXihkwEFwK0PyLY4CMScfT7qnOJ",
+    "fecha_analisis": "2026-10-10",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No genera impacto en el sector empresarial, ya que se limita a regular etapas y garantías del proceso judicial penal sin imponer obligaciones comerciales, tributarias o laborales a las empresas.",
+    "resumen": "La iniciativa propone modificar los artículos 271, 280 y 349 del Código Procesal Penal para regular los plazos de la investigación preliminar del Ministerio Público, fijar causales de control judicial y rechazo a la formulación de la imputación por parte del Juez de Garantías, y establecer causales específicas para el rechazo de la acusación antes del juicio oral. Afecta principalmente a operadores del sistema de justicia penal, investigados y víctimas en procesos penales.",
+    "sectores": [],
+    "titulo": "Por la cual modifican artículos a la Ley No. 63 de 28 de agosto de 2008",
+    "titulo_corto": "Reforma al Código Procesal Penal"
+   },
    "anteproyecto": "148",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Primer Debate",
@@ -34779,6 +34819,20 @@
    "titulo": "QUE ADICIONA NUMERALES AL ARTICULO 9 Y AL ARTICULO 10 DE LA LEY 187 DE 2 DE DICIEMBRE DE 2020 QUE REGULA LA REDUCCION Y EL REEMPLAZO PROGRESIVO DE LOS PLASTICOS DE UN SOLO USO"
   },
   "8563": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1hwfB6O1bcHmc8b5wvVHkbPT7AFdS8mM-",
+    "fecha_analisis": "2026-10-10",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Se trata de una reforma de procedimiento penal de carácter general que no regula la actividad económica ni impone obligaciones, costos, permisos o cargas tributarias a las empresas.",
+    "resumen": "Propone modificar el Código Procesal Penal para permitir que los acuerdos de pena, conciliaciones, mediaciones y desistimientos puedan solicitarse y aprobarse hasta antes de la apertura del debate en el juicio oral. La medida busca incentivar la justicia restaurativa y descongestionar los tribunales de juicio, aplicando a procesos penales en curso y futuros.",
+    "sectores": [],
+    "titulo": "Que modifica disposiciones del Código Procesal Penal para fortalecer el principio de solución del conflicto y ampliar la utilización de los mecanismos consensuados de terminación del proceso penal",
+    "titulo_corto": "Ampliación de acuerdos en el proceso penal"
+   },
    "anteproyecto": "154",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Primer Debate",
@@ -37345,7 +37399,7 @@
   "8515": "b405c6d6e989",
   "8516": "16be674972cc",
   "8517": "04e6a148bb0a",
-  "8518": "1ba2a6aa68e8",
+  "8518": "c376f54f46a9",
   "8519": "93c263d16edb",
   "8520": "6042e9aad35a",
   "8521": "df9a7341a288",
@@ -37383,12 +37437,12 @@
   "8554": "a8d57cf079cd",
   "8556": "6b36c22c3f6b",
   "8557": "68085b3d7b99",
-  "8558": "2e22cbcd3106",
+  "8558": "6e4ba150502e",
   "8559": "4a9ee860223c",
   "8560": "9bb68406a364",
   "8561": "d560f5d305c9",
   "8562": "f47b2f824f53",
-  "8563": "cf80541be24d",
+  "8563": "50a07b93f9e1",
   "8564": "338912c9d02a",
   "8565": "c2d3ee4aee0d",
   "8566": "7166c6ae86d7",
@@ -37472,7 +37526,7 @@
    "8298",
    "8132"
   ],
-  "fecha": "2026-10-10T04:35:27",
+  "fecha": "2026-10-10T05:34:41",
   "notas": {
    "7779": "399fc6670871",
    "8132": "399fc6670871",
@@ -37489,42 +37543,6 @@
  },
  "matriz_id": "1xh7TLIrTJk3DI1snoLyXTN-HAFAGouiL08XvXa1xsEs",
  "pendientes": {
-  "cambio:8518": {
-   "antes": "Prohijado",
-   "ficha": "8518",
-   "nuevas": [
-    {
-     "comentario": "PENDIENTE DE I DEBATE",
-     "etapa": "Primer Debate",
-     "fecha": "2026-10-08"
-    }
-   ],
-   "tipo": "cambio"
-  },
-  "cambio:8558": {
-   "antes": "Prohijado",
-   "ficha": "8558",
-   "nuevas": [
-    {
-     "comentario": "PENDIENTE DE I DEBATE",
-     "etapa": "Primer Debate",
-     "fecha": "2026-10-08"
-    }
-   ],
-   "tipo": "cambio"
-  },
-  "cambio:8563": {
-   "antes": "Prohijado",
-   "ficha": "8563",
-   "nuevas": [
-    {
-     "comentario": "PENDIENTE DE I DEBATE",
-     "etapa": "Primer Debate",
-     "fecha": "2026-10-08"
-    }
-   ],
-   "tipo": "cambio"
-  },
   "cambio:8586": {
    "antes": "Primer Debate",
    "ficha": "8586",
@@ -37870,7 +37888,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-10T04:35:50"
+  "revisada": "2026-10-10T05:35:04"
  },
- "ultima_corrida": "2026-10-10T04:35:27"
+ "ultima_corrida": "2026-10-10T05:34:41"
 }
