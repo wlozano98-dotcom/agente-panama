@@ -9,6 +9,10 @@
    "carpeta": "Penalización de disparos al aire (ficha 7898)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
+  "8100": {
+   "carpeta": "Sistema Digital Universal de Créditos Académicos (ficha 8100)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "8132": {
    "carpeta": "Reformas a la Ley 45 sobre garantías al consumidor (ficha 8132)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
@@ -116,6 +120,14 @@
   "8573": {
    "carpeta": "Configuración de circuitos electorales para diputados (ficha 8573)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "8586": {
+   "carpeta": "Reforma al marco regulatorio del sector eléctrico (Ley 6 de 1997) (ficha 8586)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
+  "8609": {
+   "carpeta": "Creación del Documento de Identidad Sanitaria (DIS) (ficha 8609)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   }
  },
  "fichas": {
@@ -20214,6 +20226,24 @@
    "titulo": "QUE ESTABLECE MEDIDAS QUE PROMUEVAN LA ALIMENTACION SALUDABLE PARA LA PREVENCION DE ENFERMEDADES NO TRANSMISIBLES Y DICTA OTRAS NORMAS"
   },
   "8100": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Prohíbe a centros educativos particulares retener o bloquear créditos académicos por motivos administrativos o financieros.",
+     "Artículos 2 y 3: Obliga a las escuelas particulares a registrar trimestral y anualmente calificaciones, boletines y certificaciones en la plataforma SDUCA del MEDUCA.",
+     "Artículo 9: Modifica el artículo 47 de la Ley 285 de 2022, exigiendo a los colegios particulares emitir certificaciones de notas y registrar convenios de pago en el SDUCA sin impedir la obtención de créditos oficiales."
+    ],
+    "drive": "https://drive.google.com/drive/folders/10MotBnT7DDsivbZjiLgNKzftjN9Qi6g8",
+    "fecha_analisis": "2026-10-10",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No afecta a los sectores económicos prioritarios bajo monitoreo. Su alcance se restringe al ámbito de los colegios particulares en su relación administrativa y contractual con los acudientes.",
+    "resumen": "Crea una plataforma oficial administrada por el MEDUCA para registrar y validar digitalmente las notas y créditos escolares en escuelas oficiales y particulares. Prohíbe a los colegios privados retener documentos o historiales académicos por mora o deudas en mensualidades, e impone la obligación de cargar la información de forma periódica y registrar convenios de pago.",
+    "sectores": [],
+    "titulo": "Que crea el Sistema Digital Universal de Créditos Académicos (SDUCA) y dicta otras disposiciones",
+    "titulo_corto": "Sistema Digital Universal de Créditos Académicos"
+   },
    "anteproyecto": "203",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Objetado por Ejecutivo",
@@ -35611,6 +35641,37 @@
    "titulo": "QUE ESTABLECE UN MAXIMO DE CINCO ANOS DE PERMANENCIA EN EL SERVICIO PUBLICO DESPUES DE LA EDAD DE RETIRO POR VEJEZ"
   },
   "8586": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1 (adiciona Art. 4-A a la Ley 6 de 1997): Faculta a la ASEP para ordenar la intervención administrativa y operativa de los prestadores de electricidad ante riesgos de continuidad, a costo del prestador.",
+     "Artículos 4 y 5 (modifica Art. 48 y adiciona Art. 48-A a la Ley 6 de 1997): Fija las reglas del proceso de licitación pública para la venta del paquete accionario mayoritario de las distribuidoras al culminar el contrato de 15 años y la fórmula de pago al Estado.",
+     "Artículo 6 (modifica Art. 49 a la Ley 6 de 1997): Amplía las causales de terminación de concesiones eléctricas por fallas de calidad contractuales o cuando las multas acumuladas superen el 25% del ingreso anual facturado.",
+     "Artículo 10 (modifica Art. 59 a la Ley 6 de 1997): Prohíbe a las empresas generadoras solicitar nuevas concesiones o licencias si atienden más del 30% de la capacidad instalada del mercado nacional.",
+     "Artículo 12 (modifica Art. 80 a la Ley 6 de 1997): Impone a distribuidoras obligaciones de electrificación rural obligatoria, medición tecnológica de consumos e inversiones en redes inteligentes.",
+     "Artículo 22 (modifica Art. 125 a la Ley 6 de 1997): Establece un plazo de 15 días calendario para que las distribuidoras resuelvan reclamos de facturación (bajo presunción a favor del cliente si no responden) y permite abstenerse del pago de la suma reclamada.",
+     "Artículo 24 (modifica Art. 151 a la Ley 6 de 1997): Eleva las multas aplicables por la ASEP hasta B/. 20,000,000.00 y crea multas coercitivas diarias de B/. 100 a B/. 10,000 por desatención a órdenes del regulador.",
+     "Artículo 26 (modifica Art. 32 de la Ley 26 de 1996): Otorga jurisdicción coactiva a la ASEP mediante jueces ejecutores para exigir cobros y asegurar el resarcimiento económico efectivo a los clientes finales."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1JH07vC_LOKAk_lqDHiZ0dNSzTcmJ9XYS",
+    "fecha_analisis": "2026-10-10",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Otorga a las empresas clientes del servicio eléctrico plazos expeditos de 15 días para resolver reclamos comerciales, derecho a no pagar la porción en disputa y créditos directos ante interrupciones o fallas de calidad.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Aunque transforma de forma directa las operaciones, sanciones y reglas de mercado para las empresas concesionarias y operadores del sector eléctrico (distribución, generación y transmisión), para el conjunto general del tejido empresarial el impacto se limita a mejoras en la calidad del suministro y la resolución de reclamos como usuarios del servicio.",
+    "resumen": "Reforma integralmente el marco regulatorio del sector eléctrico en Panamá para fortalecer la fiscalización de la ASEP sobre las empresas distribuidoras y generadoras de energía. Establece facultades de intervención temporal ante riesgos de continuidad del servicio, incrementa las sanciones hasta B/. 20 millones e introduce límites de concentración de mercado (30% de la capacidad instalada para generadores). Asimismo, mejora los derechos de los usuarios reduciendo a 15 días el plazo para resolver reclamos comerciales y garantizando compensaciones y créditos en la facturación por deficiencias de calidad.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que modifica y adiciona artículos al Texto Único de la Ley 6 de 3 de febrero de 1997 y dicta otras disposiciones",
+    "titulo_corto": "Reforma al marco regulatorio del sector eléctrico (Ley 6 de 1997)"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Segundo Debate",
@@ -36087,6 +36148,47 @@
    "titulo": "QUE MODIFICA LA LEY 93 DE 19 DE SEPTIEMBRE DE 2019, QUE CREA EL REGIMEN DE ASOCIACION PUBLICO PRIVADA PARA EL DESARROLLO COMO INCENTIVO A LA INVERSION PRIVADA, AL DESARROLLO SOCIAL Y A LA CREACION DE EMPLEOS"
   },
   "8609": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2: Define el ámbito de aplicación para personal directo e indirecto en alimentos, bebidas, entrega a domicilio (delivery), hospedaje, estética, recreación y control de plagas.",
+     "Artículo 5 (adiciona Artículo 186-B al Código Sanitario): Crea el DIS como documento único que reemplaza de forma definitiva al carné blanco y al carné verde.",
+     "Artículo 5 (adiciona Artículo 186-D al Código Sanitario): Establece vigencia anual para la evaluación médica y quinquenal para la capacitación, permitiendo la renovación virtual sin descartar la tarjeta física.",
+     "Artículo 5 (adiciona Artículo 186-E al Código Sanitario): Autoriza a laboratorios clínicos y consultorios privados certificados a realizar los análisis médicos con interconexión obligatoria a los sistemas del MINSA.",
+     "Artículo 5 (adiciona Artículo 186-G al Código Sanitario): Establece la emisión de una Constancia Provisional Digital por 30 días que permite la vinculación laboral inmediata mientras se entrega la tarjeta física.",
+     "Artículo 7: Obliga a administradores y gerentes de agroindustrias, restaurantes, empresas de delivery y comercios a verificar en un portal público la vigencia del DIS de su personal, bajo riesgo de multas y suspensión temporal de actividades."
+    ],
+    "drive": "https://drive.google.com/drive/folders/17gl5pp45IGb3k31QHtXquV1fdrvlhUgj",
+    "fecha_analisis": "2026-10-10",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Unifica los carnés de salud en el DIS, agiliza la contratación con constancias digitales de 30 días y exige a restaurantes, delivery y agroindustrias verificar en línea la credencial de su personal bajo sanción.",
+      "sector": "ALIMENTOS"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Aplica de forma directa al personal de hotelería, hospedaje y recreación, obligando a los operadores a fiscalizar la vigencia del DIS previo a la jornada laboral.",
+      "sector": "TURISMO"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Habilita a los laboratorios clínicos y consultorios privados certificados a prestar servicios de pruebas diagnósticas para el trámite del DIS mediante interconexión con el MINSA.",
+      "sector": "SALUD"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Moderniza y digitaliza los carnés de salud facilitando contrataciones rápidas en gastronomía, turismo y delivery, pero traslada a los empleadores el deber de verificación obligatoria en plataforma estatal sujeta a sanciones comerciales.",
+    "resumen": "La iniciativa unifica los actuales carné blanco (buena salud) y carné verde (capacitación) en un único Documento de Identidad Sanitaria (DIS) digital y físico con chip para manipuladores de alimentos, repartidores y personal de establecimientos de interés sanitario. Además, faculta a laboratorios clínicos privados a realizar pruebas diagnósticas e impone a las empresas la obligación de verificar la vigencia de la credencial de sus colaboradores mediante un portal digital so pena de multas y suspensión temporal.",
+    "sectores": [
+     "ALIMENTOS",
+     "TURISMO",
+     "SALUD"
+    ],
+    "titulo": "Que modifica y adiciona disposiciones a la Ley 66 de 10 de noviembre de 1947 del Código Sanitario, unifica el régimen de habilitación médica y de capacitación para manipuladores de alimentos y personal de establecimientos de interés sanitario a través del Documento de Identidad Sanitaria (DIS), fortalece la autogestión de la red local de salud y los Comités de Salud, y dicta otras disposiciones",
+    "titulo_corto": "Creación del Documento de Identidad Sanitaria (DIS)"
+   },
    "anteproyecto": "188",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Primer Debate",
@@ -37040,7 +37142,7 @@
   "8097": "e94f82790271",
   "8098": "759e0ce9e2f8",
   "8099": "97ac0666be38",
-  "8100": "8fdf5d300fe8",
+  "8100": "38ccac56cd5d",
   "8101": "e790a5923d4c",
   "8102": "faf899aebf3e",
   "8103": "755626707c26",
@@ -37465,7 +37567,7 @@
   "8583": "8facda7fe248",
   "8584": "2cb1eb745206",
   "8585": "f1342de6fd72",
-  "8586": "e4391665332a",
+  "8586": "670c617d2a0c",
   "8587": "2b59c3a45e8d",
   "8588": "5ab1e552f3df",
   "8589": "d49f87d231cd",
@@ -37487,7 +37589,7 @@
   "8606": "d5b11fb59162",
   "8607": "452caa938063",
   "8608": "a233bf56f955",
-  "8609": "adf546a6ee54",
+  "8609": "3d927ce7f542",
   "8610": "dc5c11fa60f2",
   "8611": "cd7a699d5022",
   "8612": "82a2eb88bf4a",
@@ -37516,6 +37618,8 @@
  "matriz_generada": {
   "claves": [
    "8481",
+   "8586",
+   "8609",
    "8302",
    "8304",
    "8177",
@@ -37526,7 +37630,7 @@
    "8298",
    "8132"
   ],
-  "fecha": "2026-10-10T06:42:17",
+  "fecha": "2026-10-10T08:44:32",
   "notas": {
    "7779": "399fc6670871",
    "8132": "399fc6670871",
@@ -37537,37 +37641,14 @@
    "8308": "399fc6670871",
    "8349": "399fc6670871",
    "8481": "399fc6670871",
-   "8491": "399fc6670871"
+   "8491": "399fc6670871",
+   "8586": "399fc6670871",
+   "8609": "399fc6670871"
   },
   "version": 2
  },
  "matriz_id": "1xh7TLIrTJk3DI1snoLyXTN-HAFAGouiL08XvXa1xsEs",
- "pendientes": {
-  "cambio:8586": {
-   "antes": "Primer Debate",
-   "ficha": "8586",
-   "nuevas": [
-    {
-     "comentario": "PENDIENTE DE II DEBATE",
-     "etapa": "Segundo Debate",
-     "fecha": "2026-10-07"
-    }
-   ],
-   "tipo": "cambio"
-  },
-  "cambio:8609": {
-   "antes": "Prohijado",
-   "ficha": "8609",
-   "nuevas": [
-    {
-     "comentario": "PENDIENTE DE I DEBATE",
-     "etapa": "Primer Debate",
-     "fecha": "2026-10-06"
-    }
-   ],
-   "tipo": "cambio"
-  }
- },
+ "pendientes": {},
  "prensa": {
   "agenda": [
    "1246",
@@ -37888,7 +37969,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-10T06:42:55"
+  "revisada": "2026-10-10T08:45:06"
  },
- "ultima_corrida": "2026-10-10T06:42:17"
+ "ultima_corrida": "2026-10-10T08:44:32"
 }
