@@ -9,6 +9,22 @@
    "carpeta": "Penalización de disparos al aire (ficha 7898)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
+  "7968": {
+   "carpeta": "Regulación de actividades de cobranza extrajudicial (ficha 7968)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
+  "7971": {
+   "carpeta": "Sanciones por cierre de caminos públicos y titulación indebida (ficha 7971)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "7976": {
+   "carpeta": "Fomento del turismo deportivo (ficha 7976)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "8079": {
+   "carpeta": "Reconocimiento administrativo de prescripción de deudas (ficha 8079)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
   "8100": {
    "carpeta": "Sistema Digital Universal de Créditos Académicos (ficha 8100)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -15400,6 +15416,36 @@
    "titulo": "QUE MODIFICA LA LEY 468 DE 2025, QUE SUBROGA LA LEY 3 DE 1985 QUE ESTABLE UN REGIMEN DE INTERESES PREFERENCIALES EN CIERTOS PRESTAMOS HIPOTECARIOS Y DICTA OTRAS DISPOSICIONES"
   },
   "7968": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2: Extiende el ámbito de aplicación a toda persona natural o jurídica que realice cobranza directa, tercerizada o por cesión, incluyendo bancos, financieras y cooperativas.",
+     "Artículo 10: Prohíbe contactar a referencias personales, familiares o laborales para comunicar o inferir la existencia de la deuda crediticia.",
+     "Artículo 14: Restringe los horarios de cobranza de lunes a viernes (8:00 a.m. a 6:00 p.m.) y sábados (8:00 a.m. a 3:00 p.m.), prohibiendo contacto domingos y feriados, e impide más de un contacto directo el mismo día.",
+     "Artículo 15: Limita la gestión a un solo contacto telefónico por día y un máximo de una visita domiciliaria por semana.",
+     "Artículo 16: Obliga a registrar y almacenar en formato digital todas las actuaciones de cobranza (efectivas o no) por un término mínimo de varios años.",
+     "Artículo 20: Modifica la Ley 45 de 2007 para sancionar las violaciones a los derechos de los consumidores en gestiones de cobro con multas de hasta B/.25,000.00.",
+     "Artículo 21: Exige que el acreedor original notifique al consumidor de forma previa, expresa y desglosada cualquier cesión de su obligación financiera antes de que un cesionario inicie cobros."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1Crm0jZGP9xx4D8tSZV7zMgyR_R85aIH_",
+    "fecha_analisis": "2026-10-10",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Restringe severamente la operativa de recuperación de créditos y carteras morosas de bancos, financieras, cooperativas y agencias de cobro, imponiendo límites diarios de llamadas, prohibiciones de cobro a terceros y sanciones de hasta B/.25,000.00.",
+      "sector": "FINANCIERO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Afecta directamente el modelo operativo de gestión y recuperación de créditos morosos de las entidades financieras y empresas de cobranza, al limitar los horarios de contacto, restringir la frecuencia de llamadas a una diaria y sancionar prácticas comunes de cobro.",
+    "resumen": "La iniciativa establece un marco regulatorio obligatorio para las gestiones de cobranza extrajudicial que efectúan bancos, cooperativas, financieras y agencias de cobro especializadas.\nLimita los horarios y canales de contacto autorizados, restringe la frecuencia a un solo contacto telefónico diario y prohíbe comunicarse con referencias personales, familiares o laborales para divulgar la deuda.\nAsimismo, impone obligaciones de registro de llamadas por varios años y faculta la imposición de multas de hasta B/.25,000.00 por infracciones a estas disposiciones.",
+    "sectores": [
+     "FINANCIERO"
+    ],
+    "titulo": "Que regula las actividades de cobranza realizadas por las agencias de cobro y establece disposiciones para la protección del derecho a la intimidad de los consumidores",
+    "titulo_corto": "Regulación de actividades de cobranza extrajudicial"
+   },
    "anteproyecto": "89",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Objetado por Ejecutivo",
@@ -15579,6 +15625,23 @@
    "titulo": "QUE PERMITE LA OPCION DE SUSTITUIR BEBIDAS AZUCARADAS POR AGUAS EN COMBOS DE COMIDAS RAPIDAS EN LA REPUBLICA DE PANAMA"
   },
   "7971": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 229-A: Sanciona con prisión de 3 a 7 años a quien, sin causa justificada, obstruya, cierre o restrinja caminos o accesos públicos a ríos, playas, áreas protegidas o reservas hídricas mediante cercas, portones o estructuras.",
+     "Artículo 229-B: Establece pena de prisión de 5 a 10 años a quien logre la titulación o adjudicación de tierras pertenecientes al Estado o áreas protegidas mediante falsedad o engaño."
+    ],
+    "drive": "https://drive.google.com/drive/folders/18etjE-0S-EqqxvzDnzEB28YZrt8VUc1F",
+    "fecha_analisis": "2026-10-10",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No modifica directamente regulaciones comerciales, tributarias o laborales de ningún sector empresarial en particular; se trata de una reforma al Código Penal orientada a sancionar conductas individuales vinculadas al uso de caminos públicos y procesos de titulación de tierras.",
+    "resumen": "El proyecto tipifica como delito penal con penas de 3 a 7 años de prisión el cierre u obstrucción de caminos y servidumbres de uso público, en especial los accesos a playas, ríos y áreas protegidas. Asimismo, sanciona con 5 a 10 años de cárcel la titulación fraudulenta de tierras estatales o de valor ambiental. La iniciativa fue objetada totalmente por el Órgano Ejecutivo por considerar que criminaliza controversias civiles o agrarias y vulnera la seguridad jurídica.",
+    "sectores": [],
+    "titulo": "Que adiciona el artículo 229-A y 229-B al Código Penal y dicta otras disposiciones en materia de protección del libre tránsito en caminos y espacios públicos, de interés nacional y protege los bienes patrimoniales del Estado",
+    "titulo_corto": "Sanciones por cierre de caminos públicos y titulación indebida"
+   },
    "anteproyecto": "92",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Objetado por Ejecutivo",
@@ -15804,6 +15867,28 @@
    "titulo": "QUE MODIFICA UN ARTICULO DE LA LEY 37 DE 2009, QUE DESCENTRALIZA LA ADMINISTRACION PUBLICA"
   },
   "7976": {
+   "analisis": {
+    "con_pdf": false,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1Ii-JjpGHJjfuTLVXsPrfmS1mUZlZhCGx",
+    "fecha_analisis": "2026-10-10",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Promueve la atracción de eventos y visitantes deportivos, lo que generaría oportunidades comerciales para hoteles y operadores turísticos sin imponerles cargas regulatorias severas.",
+      "sector": "TURISMO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto se orienta al fomento de una modalidad turística específica, lo que representa potenciales beneficios comerciales para el sector hotelero y de servicios turísticos sin alterar obligaciones tributarias o laborales generales.",
+    "resumen": "Análisis basado solo en el título. La iniciativa busca establecer un marco legal para promover y desarrollar actividades, competencias y eventos de turismo deportivo en el país. Podría incidir en operadores turísticos, sector hotelero y empresas organizadoras de eventos deportivos.",
+    "sectores": [
+     "TURISMO"
+    ],
+    "titulo": "Que desarrolla y fomenta el turismo deportivo en la República de Panamá",
+    "titulo_corto": "Fomento del turismo deportivo"
+   },
    "anteproyecto": "96",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Objetado por Ejecutivo",
@@ -19500,6 +19585,36 @@
    "titulo": "QUE TIPIFICA LA NEGLIGENCIA MEDICA COMO DELITO AUTONOMO, FORTALECE LA SEGURIDAD DEL PACIENTE Y MODIFICA DISPOSICIONES DEL CODIGO PENAL Y DE LA LEY 68 DE 2003"
   },
   "8079": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Establece el trámite obligatorio para que acreedores reconozcan por vía administrativa y sin proceso judicial la prescripción de deudas.",
+     "Artículo 2: Define el alcance a bancos de licencia general e internacional, empresas financieras, cooperativas de ahorro y crédito, y emisores de tarjetas.",
+     "Artículo 4: Fija en tres años el término de prescripción comercial y prohíbe expresamente que llamadas, mensajes, cartas o gestiones de cobro extrajudicial interrumpan el plazo legal.",
+     "Artículo 5: Obliga a resolver reclamos de prescripción en un plazo máximo de 30 días, estableciendo que el silencio de la entidad financiera equivale a su aceptación (silencio administrativo positivo).",
+     "Artículo 6: Dispone que el reconocimiento administrativo extingue la obligación, obliga a eliminar la cuenta por cobrar de los registros y a borrar los reportes de crédito negativos (APC) en diez días hábiles.",
+     "Artículo 7: Prohíbe ceder, transferir o vender a agencias de cobro las obligaciones cuyo plazo haya vencido, declarando nula de pleno derecho cualquier gestión de cobro posterior.",
+     "Artículos 8, 9, 10 y 11: Facultan a la Superintendencia de Bancos, al MICI y al IPACOOP a sancionar incumplimientos y tramitar reclamos de prescripción contra entidades supervisadas."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1rHcfSbW8jD1SUlWnTmMT1O8Cfwd059Zx",
+    "fecha_analisis": "2026-10-10",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Modifica directamente los mecanismos de cobro, recuperación y cesión de cartera de crédito, aplicando silencio administrativo positivo para extinguir deudas y eliminar registros crediticios.",
+      "sector": "FINANCIERO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Afecta de forma crítica al sector bancario, cooperativo y financiero al forzar la extinción administrativa de acreencias vencidas de más de tres años y anular la cesión de créditos a agencias de cobro.",
+    "resumen": "La iniciativa obliga a bancos, financieras y cooperativas a tramitar y reconocer administrativamente la prescripción de deudas sin requerir fallo judicial previo. Dispone que el silencio de la entidad en un plazo de 30 días operará como silencio administrativo positivo, extinguiendo la obligación. Además, prohíbe interrumpir la prescripción mediante cobros extrajudiciales o llamadas, y veta la cesión o cobro posterior de deudas prescritas bajo sanción de los entes reguladores.",
+    "sectores": [
+     "FINANCIERO"
+    ],
+    "titulo": "Que establece el reconocimiento administrativo de la prescripción de deudas por bancos y entidades financieras",
+    "titulo_corto": "Reconocimiento administrativo de prescripción de deudas"
+   },
    "anteproyecto": "187",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Objetado por Ejecutivo",
@@ -37030,15 +37145,15 @@
   "7965": "47948cee55d0",
   "7966": "6fda8e2eb03a",
   "7967": "c91acaf521c6",
-  "7968": "a0aedc163255",
+  "7968": "dea8fffd98e3",
   "7969": "35849128b30c",
   "7970": "b55d8cbdbf34",
-  "7971": "ec6f48b1c71d",
+  "7971": "91a0de1f2fa0",
   "7972": "ff0e5bfae406",
   "7973": "1d3c1c8c00a2",
   "7974": "ce83200a2618",
   "7975": "c25d85ae0bf9",
-  "7976": "7630efe12091",
+  "7976": "43159f2b4157",
   "7977": "ac04206b7aa1",
   "7978": "5fcf1a3e3428",
   "7981": "ef677cf8d8cd",
@@ -37125,7 +37240,7 @@
   "8076": "7f51c09b3ee9",
   "8077": "69bc083d3fa7",
   "8078": "1b0e7e27e49d",
-  "8079": "e9d821b15d64",
+  "8079": "cf0893c0aa8e",
   "8080": "844618eec7be",
   "8081": "e08d09f91443",
   "8082": "85a90007762a",
@@ -37624,15 +37739,21 @@
    "8304",
    "8177",
    "8349",
+   "7968",
    "8491",
    "7779",
    "8308",
    "8298",
-   "8132"
+   "8132",
+   "8079",
+   "7976"
   ],
-  "fecha": "2026-10-10T08:44:32",
+  "fecha": "2026-10-10T09:49:35",
   "notas": {
    "7779": "399fc6670871",
+   "7968": "399fc6670871",
+   "7976": "399fc6670871",
+   "8079": "399fc6670871",
    "8132": "399fc6670871",
    "8177": "399fc6670871",
    "8298": "399fc6670871",
@@ -37969,7 +38090,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-10T08:45:06"
+  "revisada": "2026-10-10T09:50:00"
  },
- "ultima_corrida": "2026-10-10T08:44:32"
+ "ultima_corrida": "2026-10-10T09:49:35"
 }
