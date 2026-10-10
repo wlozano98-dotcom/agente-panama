@@ -81,6 +81,10 @@
    "carpeta": "Aprobación de la Convención del Metro (ficha 8391)",
    "comision": "Comisión de Relaciones Exteriores"
   },
+  "8392": {
+   "carpeta": "Aprobación del Convenio sobre Metrología Legal (OIML) (ficha 8392)",
+   "comision": "Comisión de Relaciones Exteriores"
+  },
   "8491": {
    "carpeta": "Regulación de ácidos grasos trans industriales (ficha 8491)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
@@ -30347,6 +30351,20 @@
    "titulo": "QUE APRUEBA LA CONVENCION DEL METRO, FIRMADA EN PARIS EL 20 DE MAYO DE 1875, MODIFICADA EL6 DE OCTUBRE DE 1921 Y REGLAMENTO ANEXO."
   },
   "8392": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1QxWfDRgLZ2J4vnHIW1Sg0B2nAJOXmG1h",
+    "fecha_analisis": "2026-10-10",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No impone obligaciones, costos ni regulaciones directas inmediatas sobre las empresas, pues se circunscribe a la membresía estatal en un organismo intergubernamental de cooperación técnica.",
+    "resumen": "Aprueba la adhesión de Panamá como Estado miembro pleno a la Organización Internacional de Metrología Legal (OIML).\nEl tratado formaliza la participación del país ante los comités técnicos internacionales de estandarización metrológica.\nLos costos de la membresía son asumidos por el Centro Nacional de Metrología de Panamá (CENAMEP AIP) sin imponer obligaciones directas a los particulares.",
+    "sectores": [],
+    "titulo": "Que aprueba el Convenio por el que se establece una Organización Internacional de Metrología Legal, firmado en París, el 12 de octubre de 1955, modificado en 1968",
+    "titulo_corto": "Aprobación del Convenio sobre Metrología Legal (OIML)"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE RELACIONES EXTERIORES",
    "etapa": "Tercer Debate",
@@ -36480,13 +36498,13 @@
  "huellas_base": {
   "7403": "a89f1040a194",
   "7404": "d93135d21a47",
-  "7405": "45fda6998473",
-  "7406": "aa90b936ab18",
-  "7408": "a2e425187021",
-  "7410": "772eee13be09",
-  "7411": "03289223cf13",
-  "7412": "e86b914fdb77",
-  "7413": "810077debad9",
+  "7405": "ff3ae68265ca",
+  "7406": "76cefb692f64",
+  "7408": "c0478fd9116d",
+  "7410": "5c229442f490",
+  "7411": "612a06cf4640",
+  "7412": "95107b09f2ff",
+  "7413": "673274dd208b",
   "7414": "0befb29d5556",
   "7415": "735178f06a46",
   "7416": "5fc52a59476d",
@@ -36703,7 +36721,7 @@
   "7767": "06022176e2ee",
   "7768": "c12d0dd55804",
   "7775": "eaacbec5b615",
-  "7776": "d6924d42fbe2",
+  "7776": "6fb3687697d7",
   "7777": "0c533031a23a",
   "7779": "7e79bda4b304",
   "7782": "47557f7e622c",
@@ -36775,7 +36793,7 @@
   "7893": "004b2347f3e1",
   "7895": "3cd128a30274",
   "7896": "eea3302fe669",
-  "7898": "6be9b915970f",
+  "7898": "93ecff287237",
   "7899": "d4e2316e5013",
   "7900": "e8b0ab7aa511",
   "7901": "8fb134a48993",
@@ -36896,7 +36914,7 @@
   "8044": "ea11b934dc1e",
   "8046": "4ad6f7c21e0c",
   "8047": "a4793de9acc8",
-  "8048": "c718dea4a4d7",
+  "8048": "43e968de2783",
   "8050": "f9c0324b219c",
   "8051": "1e12577cf4ed",
   "8052": "b0641d91926e",
@@ -37058,7 +37076,7 @@
   "8245": "79636469a482",
   "8246": "37705eb744c0",
   "8247": "a5e4d797d278",
-  "8248": "fda0e30dd5a3",
+  "8248": "148a6e9e24cf",
   "8249": "6b7f87003db5",
   "8250": "6b43b6543153",
   "8251": "5e18be528e72",
@@ -37171,10 +37189,10 @@
   "8384": "813f07fa073b",
   "8385": "ea6151d7d0f5",
   "8388": "79fab6ac3403",
-  "8389": "175ff0bf5e35",
+  "8389": "7f098c26d3bb",
   "8390": "2b2890c7bdd5",
-  "8391": "cd3c22b8dd1b",
-  "8392": "e1b34094a7b3",
+  "8391": "a93be1ef04f2",
+  "8392": "76d2f4758c63",
   "8394": "d9a187b79850",
   "8395": "e36721da4b7e",
   "8396": "8259f9b24a79",
@@ -37297,7 +37315,7 @@
   "8515": "b405c6d6e989",
   "8516": "16be674972cc",
   "8517": "04e6a148bb0a",
-  "8518": "3e50c0ca8435",
+  "8518": "1ba2a6aa68e8",
   "8519": "93c263d16edb",
   "8520": "6042e9aad35a",
   "8521": "df9a7341a288",
@@ -37335,12 +37353,12 @@
   "8554": "a8d57cf079cd",
   "8556": "6b36c22c3f6b",
   "8557": "68085b3d7b99",
-  "8558": "7b025acdec4c",
+  "8558": "2e22cbcd3106",
   "8559": "4a9ee860223c",
   "8560": "9bb68406a364",
   "8561": "d560f5d305c9",
   "8562": "f47b2f824f53",
-  "8563": "942a1897df70",
+  "8563": "cf80541be24d",
   "8564": "338912c9d02a",
   "8565": "c2d3ee4aee0d",
   "8566": "7166c6ae86d7",
@@ -37385,7 +37403,7 @@
   "8606": "d5b11fb59162",
   "8607": "452caa938063",
   "8608": "a233bf56f955",
-  "8609": "8b9efe4c024c",
+  "8609": "adf546a6ee54",
   "8610": "dc5c11fa60f2",
   "8611": "cd7a699d5022",
   "8612": "82a2eb88bf4a",
@@ -37407,8 +37425,8 @@
   "8629": "5a8ad5ea0d39",
   "8630": "bda401b89259",
   "8631": "f14586b39eab",
-  "8633": "542e1a1e0b97",
-  "8634": "4529e5ca154b"
+  "8633": "7f7aa2420094",
+  "8634": "56736ef79e5d"
  },
  "inicio": "2026-10-08",
  "matriz_generada": {
@@ -37423,7 +37441,7 @@
    "8298",
    "8132"
   ],
-  "fecha": "2026-10-09T13:41:46",
+  "fecha": "2026-10-10T00:53:27",
   "notas": {
    "7779": "399fc6670871",
    "8132": "399fc6670871",
@@ -37439,18 +37457,6 @@
  },
  "matriz_id": "1xh7TLIrTJk3DI1snoLyXTN-HAFAGouiL08XvXa1xsEs",
  "pendientes": {
-  "cambio:8392": {
-   "antes": "Tercer Debate",
-   "ficha": "8392",
-   "nuevas": [
-    {
-     "comentario": "APROBADO EN III DEBATE",
-     "etapa": "Tercer Debate",
-     "fecha": "2026-10-07"
-    }
-   ],
-   "tipo": "cambio"
-  },
   "cambio:8481": {
    "antes": "Tercer Debate",
    "ficha": "8481",
@@ -37844,7 +37850,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-09T13:42:09"
+  "revisada": "2026-10-10T00:53:51"
  },
- "ultima_corrida": "2026-10-09T23:34:07"
+ "ultima_corrida": "2026-10-10T00:53:27"
 }
