@@ -1,6 +1,10 @@
 {
  "comisiones_revisadas": "2026-10-10T20:34:11",
  "drive": {
+  "7767": {
+   "carpeta": "Regulación de la profesión de relaciones internacionales (ficha 7767)",
+   "comision": "Comisión de Relaciones Exteriores"
+  },
   "7779": {
    "carpeta": "Señalización vial en obras públicas (ficha 7779)",
    "comision": "Comisión de Comunicación y Transporte"
@@ -10075,6 +10079,32 @@
    "titulo": "QUE MODIFICA LA LEY 15 DEL 28 DE ABRIL DE 1995"
   },
   "7767": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2: Exige ser panameño y contar con certificado de idoneidad emitido por el Consejo Técnico para ejercer la profesión de relaciones internacionales.",
+     "Artículo 3: Establece que el profesional en relaciones internacionales puede ejercer sus funciones en el sector privado.",
+     "Artículo 12: Concede protección de estabilidad y mantenimiento de derechos adquiridos a quienes ya laboren en el sector privado o público en esta área al entrar en vigencia la ley."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1yGi_pf3CDNJYTV7vRVN_RzIPdINkBCf8",
+    "fecha_analisis": "2026-10-10",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Reserva el ejercicio de la profesión exclusivamente a panameños con idoneidad técnica, restringiendo marginalmente los criterios de contratación privada para cargos del área.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es marginal y transversal al mercado laboral privado, pues exige idoneidad y nacionalidad panameña para desempeñar funciones de relaciones internacionales en cualquier empresa; el proyecto actualmente se encuentra objetado por el Ejecutivo.",
+    "resumen": "La iniciativa busca regular el ejercicio profesional de las relaciones internacionales, creando un Consejo Técnico encargado de otorgar idoneidades y estableciendo un escalafón salarial para el sector público. Además, limita la práctica profesional exclusivamente a ciudadanos panameños con título e idoneidad técnica. El proyecto fue aprobado en tercer debate pero posteriormente objetado en su totalidad por el Órgano Ejecutivo por razones de inconveniencia e inexequibilidad.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que regula el ejercicio de la profesión de relaciones internacionales en la República de Panamá",
+    "titulo_corto": "Regulación de la profesión de relaciones internacionales"
+   },
    "anteproyecto": "307",
    "comision": "COMISION DE RELACIONES EXTERIORES",
    "etapa": "Objetado por Ejecutivo",
@@ -37136,7 +37166,7 @@
   "7759": "fdeb5a3835a2",
   "7760": "2dc0c5cb8b49",
   "7764": "6201c8998283",
-  "7767": "06022176e2ee",
+  "7767": "2ec39718e593",
   "7768": "c12d0dd55804",
   "7775": "eaacbec5b615",
   "7776": "6fb3687697d7",
@@ -37864,12 +37894,14 @@
    "8298",
    "7915",
    "8132",
+   "7767",
    "8079",
    "7976",
    "7808"
   ],
-  "fecha": "2026-10-10T21:34:23",
+  "fecha": "2026-10-10T22:33:10",
   "notas": {
+   "7767": "399fc6670871",
    "7779": "399fc6670871",
    "7808": "399fc6670871",
    "7829": "399fc6670871",
@@ -38213,7 +38245,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-10T21:34:54"
+  "revisada": "2026-10-10T22:33:34"
  },
- "ultima_corrida": "2026-10-10T21:34:23"
+ "ultima_corrida": "2026-10-10T22:33:10"
 }
