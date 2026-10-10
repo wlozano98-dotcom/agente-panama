@@ -85,6 +85,10 @@
    "carpeta": "Aprobación del Convenio sobre Metrología Legal (OIML) (ficha 8392)",
    "comision": "Comisión de Relaciones Exteriores"
   },
+  "8481": {
+   "carpeta": "Aprobación del Convenio Internacional del Cacao, 2026 (ficha 8481)",
+   "comision": "Comisión de Relaciones Exteriores"
+  },
   "8491": {
    "carpeta": "Regulación de ácidos grasos trans industriales (ficha 8491)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
@@ -32586,6 +32590,32 @@
    "titulo": "QUE MODIFICA LA LEY 93 DE 19 DE SEPTIEMBRE DE 2019, QUE CREA EL REGIMEN DE ASOCIACION PUBLICO PRIVADA, PARA LA INCLUSION REGULADA Y EXCLUSIVA DEL INSTITUTO DE ACUEDUCTOS Y ALCANTARILLADOS NACIONALES (IDAAN) EN PROYECTOS DE INFRAESTRUCTURA HIDRICA, Y DICTA OTRAS DISPOSICIONES"
   },
   "8481": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 31 del Convenio: Establece la recopilación de datos sobre existencias de cacao en grano y derivados, previendo la cooperación del sector privado bajo criterios de confidencialidad comercial.",
+     "Artículo 37 del Convenio: Compromete a los Estados miembros a implementar estrategias de aseguramiento de calidad e impulsar esquemas de trazabilidad en la cadena de valor del grano.",
+     "Artículo 39 del Convenio: Dispone mecanismos de evaluación técnica para certificar y clasificar a los países productores que exportan cacao fino y de aroma en el mercado internacional."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1Cs4adD2MZHkDlzSsZ21G71bRZIaRfHyF",
+    "fecha_analisis": "2026-10-10",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Establece un marco internacional de cooperación técnica, estadísticas y trazabilidad para el sector cacaotero sin imponer cargas regulatorias o tributarias directas a la industria local.",
+      "sector": "ALIMENTOS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es bajo y principalmente indirecto; se trata de la ratificación de un acuerdo intergubernamental que promueve la cooperación económica y estándares internacionales de calidad sin fijar nuevas obligaciones operativas o impositivas inmediatas para el sector privado.",
+    "resumen": "Aprueba el Convenio Internacional del Cacao de 2026 que regula la continuidad de la Organización Internacional del Cacao (ICCO). Busca insertar formalmente a Panamá en el organismo para acceder a asistencia técnica, estadísticas comerciales y promover el reconocimiento del país como productor y exportador de cacao fino y de aroma.",
+    "sectores": [
+     "ALIMENTOS"
+    ],
+    "titulo": "Que aprueba el Convenio Internacional del Cacao, 2026, hecho en Ginebra el 13 de febrero 2026",
+    "titulo_corto": "Aprobación del Convenio Internacional del Cacao, 2026"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE RELACIONES EXTERIORES",
    "etapa": "Tercer Debate",
@@ -37279,7 +37309,7 @@
   "8478": "3d9148f3d868",
   "8479": "40d9cfd561f2",
   "8480": "945b9a2ef837",
-  "8481": "95ed9b5622a1",
+  "8481": "d42694c900f7",
   "8482": "eb41acb05d77",
   "8483": "6886b9e7468d",
   "8484": "80693cd29077",
@@ -37431,6 +37461,7 @@
  "inicio": "2026-10-08",
  "matriz_generada": {
   "claves": [
+   "8481",
    "8302",
    "8304",
    "8177",
@@ -37441,7 +37472,7 @@
    "8298",
    "8132"
   ],
-  "fecha": "2026-10-10T01:36:22",
+  "fecha": "2026-10-10T02:37:52",
   "notas": {
    "7779": "399fc6670871",
    "8132": "399fc6670871",
@@ -37451,24 +37482,13 @@
    "8304": "399fc6670871",
    "8308": "399fc6670871",
    "8349": "399fc6670871",
+   "8481": "399fc6670871",
    "8491": "399fc6670871"
   },
   "version": 2
  },
  "matriz_id": "1xh7TLIrTJk3DI1snoLyXTN-HAFAGouiL08XvXa1xsEs",
  "pendientes": {
-  "cambio:8481": {
-   "antes": "Tercer Debate",
-   "ficha": "8481",
-   "nuevas": [
-    {
-     "comentario": "APROBADO EN III DEBATE",
-     "etapa": "Tercer Debate",
-     "fecha": "2026-10-07"
-    }
-   ],
-   "tipo": "cambio"
-  },
   "cambio:8518": {
    "antes": "Prohijado",
    "ficha": "8518",
@@ -37850,7 +37870,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-10T01:36:59"
+  "revisada": "2026-10-10T02:38:20"
  },
- "ultima_corrida": "2026-10-10T01:36:22"
+ "ultima_corrida": "2026-10-10T02:37:52"
 }
