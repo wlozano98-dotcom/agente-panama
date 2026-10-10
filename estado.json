@@ -5,6 +5,10 @@
    "carpeta": "Señalización vial en obras públicas (ficha 7779)",
    "comision": "Comisión de Comunicación y Transporte"
   },
+  "7808": {
+   "carpeta": "Reducción de alquileres de oficinas públicas (ficha 7808)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
   "7829": {
    "carpeta": "Reforma al impuesto de degüello y traslado de ganado (ficha 7829)",
    "comision": "Comisión de Asuntos Municipales"
@@ -11489,6 +11493,34 @@
    "titulo": "QUE ESTABLECE UN SISTEMA DE EVALUACION CONTINUA MEDIANTE PRUEBAS ESTANDARIZADAS NACIONALES E INTERNACIONALES (SECAPE) Y DEROGA LA LEY 434 DE 13 DE MAYO DE 2024"
   },
   "7808": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2: Obliga a las entidades públicas a formular planes de construcción y remodelación de infraestructura propia en terrenos estatales para reemplazar alquileres.",
+     "Artículo 3: Ordena crear una ciudad gubernamental en cada capital de provincia para centralizar las oficinas estatales.",
+     "Artículo 5: Establece porcentajes mínimos de reducción obligatoria del gasto público en alquiler de oficinas, que van del 10% en 2028 al 60% en 2040.",
+     "Artículo 6: Faculta a la Contraloría General de la República a fijar un precio máximo anual por metro cuadrado para locales u oficinas alquiladas por el Estado con base en el IPC.",
+     "Artículo 14: Dispone que las entidades públicas deberán cerrar o no renovar progresivamente sus contratos de arrendamiento para cumplir con las metas de ahorro."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1m53gYUObLDsB73wn4S9EafGex-pd-OdE",
+    "fecha_analisis": "2026-10-10",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Afecta a empresas inmobiliarias y arrendadores del Estado mediante topes de precio por metro cuadrado y rescisión de contratos, al tiempo que contempla proyectos de obra pública gubernamental.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Incide en el sector inmobiliario y de arrendamiento comercial vinculado al Estado al fijar precios máximos de alquiler por metro cuadrado y programar la reducción progresiva de contratos vigentes, además de plantear obras públicas para sustituir sedes rentadas.",
+    "resumen": "Establece una política para reducir gradualmente el gasto público en arrendamiento de oficinas (desde un 10% en 2028 hasta un 60% en 2040), promoviendo la construcción de infraestructuras propias y ciudades gubernamentales en las provincias. Asimismo, faculta fijar precios máximos por metro cuadrado en alquileres estatales y ordena el cierre o no renovación paulatina de dichos contratos.",
+    "sectores": [
+     "CEMENTERAS"
+    ],
+    "titulo": "Que reduce los gastos de alquiler de oficinas en el sector público y dicta otras disposiciones",
+    "titulo_corto": "Reducción de alquileres de oficinas públicas"
+   },
    "anteproyecto": "334",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Objetado por Ejecutivo",
@@ -37130,7 +37162,7 @@
   "7802": "50ffc815db77",
   "7804": "db431e9ca307",
   "7805": "30aae3d49324",
-  "7808": "9f766c9d688f",
+  "7808": "25c9c18758f7",
   "7810": "2b371395182a",
   "7811": "4b93dfed9035",
   "7812": "6a55809f45ff",
@@ -37833,11 +37865,13 @@
    "7915",
    "8132",
    "8079",
-   "7976"
+   "7976",
+   "7808"
   ],
-  "fecha": "2026-10-10T20:34:19",
+  "fecha": "2026-10-10T21:34:23",
   "notas": {
    "7779": "399fc6670871",
+   "7808": "399fc6670871",
    "7829": "399fc6670871",
    "7915": "399fc6670871",
    "7968": "399fc6670871",
@@ -38179,7 +38213,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-10T20:34:43"
+  "revisada": "2026-10-10T21:34:54"
  },
- "ultima_corrida": "2026-10-10T20:34:19"
+ "ultima_corrida": "2026-10-10T21:34:23"
 }
