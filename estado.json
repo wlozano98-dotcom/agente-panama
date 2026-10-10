@@ -9,6 +9,10 @@
    "carpeta": "Penalización de disparos al aire (ficha 7898)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
+  "7915": {
+   "carpeta": "Prevención de estafas en páginas web y comercio digital (ficha 7915)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
   "7968": {
    "carpeta": "Regulación de actividades de cobranza extrajudicial (ficha 7968)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
@@ -14088,6 +14092,37 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS AL DECRETO LEY 3 DE 2008"
   },
   "7915": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 3: Obliga a toda empresa con sitio web comercial a publicar en el pie de página su razón social y dirección física exacta comprobable (oficina, piso, provincia), indicando si el inmueble es propio o arrendado.",
+     "Artículo 4: Exige a las empresas con sitio web demostrar la obtención de un certificado de conformidad expedido por la Dirección General de Comercio Electrónico (DGCE) del MICI vinculado a su Aviso de Operación.",
+     "Artículo 5: Crea el procedimiento para la expedición digital del certificado de conformidad por parte de la DGCE.",
+     "Artículo 6: Obliga a notificar cambios de domicilio con al menos 30 días de anticipación a la DGCE y a mantener un enlace visible al certificado de conformidad en el sitio web.",
+     "Artículo 7: Prohíbe el uso de direcciones exclusivamente virtuales o electrónicas para ejercer actividades comerciales si no cuentan con sede física cierta en Panamá.",
+     "Artículo 8: Establece un plazo de un año para adecuarse, bajo sanción de suspensión automática del Aviso de Operación y su posterior cancelación en caso de renuencia.",
+     "Artículo 10: Crea un registro público digital de sitios web comerciales certificados a cargo de la DGCE.",
+     "Artículo 11: Faculta al Ejecutivo a reglamentar la ley y fijar sanciones administrativas aplicables a las empresas infractoras."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1q_Z1TN5Bfig5Cuff2GLS-KNmS3En7ibx",
+    "fecha_analisis": "2026-10-10",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Impone un nuevo trámite obligatorio de certificación digital ante el MICI, prohíbe las oficinas virtuales y supedita la vigencia del Aviso de Operación al cumplimiento de requisitos en sus sitios web.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea una carga regulatoria general para cualquier empresa o emprendedor que utilice canales digitales, arriesgando la suspensión automática del Aviso de Operación si no cuenta con sede física comprobable y certificado estatal.",
+    "resumen": "La iniciativa obliga a toda empresa que venda productos o preste servicios a través de un sitio web a publicar su dirección física exacta y obtener un certificado de conformidad emitido por la Dirección General de Comercio Electrónico del MICI.\nCondiciona el Aviso de Operación al reporte del sitio web y a dicha certificación, prohibiendo operar comercialmente con domicilios exclusivamente virtuales.\nEl incumplimiento de estas exigencias conlleva la suspensión automática o la cancelación definitiva del Aviso de Operación comercial.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que establece medidas para prevenir y sancionar estafas mediante uso de páginas web",
+    "titulo_corto": "Prevención de estafas en páginas web y comercio digital"
+   },
    "anteproyecto": "39",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Objetado por Ejecutivo",
@@ -37109,7 +37144,7 @@
   "7912": "1de1807cf609",
   "7913": "10e2be43d39c",
   "7914": "003f2813250e",
-  "7915": "4411c829718d",
+  "7915": "8c969127465f",
   "7916": "c71758673c33",
   "7917": "dea26c1cdea6",
   "7918": "dbae1971ddf1",
@@ -37744,13 +37779,15 @@
    "7779",
    "8308",
    "8298",
+   "7915",
    "8132",
    "8079",
    "7976"
   ],
-  "fecha": "2026-10-10T15:33:26",
+  "fecha": "2026-10-10T16:36:05",
   "notas": {
    "7779": "399fc6670871",
+   "7915": "399fc6670871",
    "7968": "399fc6670871",
    "7976": "399fc6670871",
    "8079": "399fc6670871",
@@ -38090,7 +38127,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-10T15:33:54"
+  "revisada": "2026-10-10T16:36:39"
  },
- "ultima_corrida": "2026-10-10T15:33:26"
+ "ultima_corrida": "2026-10-10T16:36:05"
 }
