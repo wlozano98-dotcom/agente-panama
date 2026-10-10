@@ -5,8 +5,16 @@
    "carpeta": "Señalización vial en obras públicas (ficha 7779)",
    "comision": "Comisión de Comunicación y Transporte"
   },
+  "7829": {
+   "carpeta": "Reforma al impuesto de degüello y traslado de ganado (ficha 7829)",
+   "comision": "Comisión de Asuntos Municipales"
+  },
   "7898": {
    "carpeta": "Penalización de disparos al aire (ficha 7898)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "7903": {
+   "carpeta": "Programa Educativo Penitenciario (ficha 7903)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
   "7915": {
@@ -12000,6 +12008,34 @@
    "titulo": "QUE MODIFICA EL ARTICULO 196 DEL CODIGO PENAL DE LA REPUBLICA DE PANAMA"
   },
   "7829": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Modifica el artículo 48 de la Ley 55 de 1973 para exigir el pago del impuesto de degüello en el municipio de origen a animales que partan a sacrificio o subastas ganaderas.",
+     "Artículo 2: Modifica el artículo 49 de la Ley 55 de 1973, exigiendo licencia previa de la alcaldía para el traslado a matadero o comercialización, previa verificación de marcas de fuego y paz y salvo del Fondo de Desarrollo Ganadero.",
+     "Artículo 3: Modifica el artículo 50 de la Ley 55 de 1973 para requerir cinco ejemplares de la guía de traslado y verificación sanitaria por parte de Salud Animal del MIDA.",
+     "Artículo 4: Adiciona el artículo 50-A a la Ley 55 de 1973, fijando una vigencia de 48 horas a las guías de transporte, plazo de tres días para registro en Trazar Agro y obligatoriedad de sello oficial de matadero.",
+     "Artículo 5: Adiciona el artículo 63-A a la Ley 55 de 1973, estableciendo multas de B/. 50 a B/. 1,000 para personas naturales y de B/. 1,000 a B/. 5,000 para personas jurídicas que comercialicen carne sin guía ni sello oficial, facultando a los municipios para inspeccionar locales comerciales."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1GuMSvXpQDEaV7BwGHJKyrQjtcSC8uTsA",
+    "fecha_analisis": "2026-10-10",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Establece nuevas exigencias operativas y documentales para la comercialización de ganado y venta de carne, fijando multas de hasta B/. 5,000 a comerciantes que vendan producto sin sellos de matadero ni guías municipales.",
+      "sector": "ALIMENTOS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea trámites de movilización, controles de trazabilidad y multas específicas para las empresas dedicadas a la cría, subasta, sacrificio y venta al por menor o mayor de carnes.",
+    "resumen": "Regula el cobro del impuesto municipal de degüello y el traslado de ganado vacuno, porcino, caprino, ovino y bufalino. Introduce nuevas exigencias de licencias de traslado, plazos de vigencia de 48 horas, registro de trazabilidad y sanciones a establecimientos comerciales que vendan carne sin guías de degüello ni sellos oficiales de matadero. La propuesta fue objetada parcialmente por el Órgano Ejecutivo por inconveniencia e inexequibilidad.",
+    "sectores": [
+     "ALIMENTOS"
+    ],
+    "titulo": "Que modifica y adiciona artículos a la Ley 55 de 1973, que regula la administración, fiscalización y cobro de varios tributos municipales",
+    "titulo_corto": "Reforma al impuesto de degüello y traslado de ganado"
+   },
    "anteproyecto": "350",
    "comision": "COMISION DE ASUNTOS MUNICIPALES",
    "etapa": "Objetado por Ejecutivo",
@@ -13757,6 +13793,20 @@
    "titulo": "QUE CONVOCA A UN PLEBISCITO NACIONAL SOBRE LA PERMANENCIA DE LA REPUBLICA DE PANAMA EN EL PARLAMENTO CENTROAMERICANO"
   },
   "7903": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1ziWs2TFhowRMsNVXwgK1MJokQPCCmB3l",
+    "fecha_analisis": "2026-10-10",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa regula temas estrictamente penitenciarios, procesales penales y de educación pública dentro de las cárceles, por lo que no impone obligaciones, costos ni restricciones sobre las empresas.",
+    "resumen": "Crea el Programa Educativo Penitenciario dirigido a la población recluida a nivel nacional, bajo la coordinación del Ministerio de Educación y la Universidad de Panamá. Establece la conmutación de penas mediante el estudio y la reducción a la mitad de la inhabilitación para funciones públicas al graduarse. El proyecto fue objetado en su totalidad por el Órgano Ejecutivo por inconveniente e inexequible.",
+    "sectores": [],
+    "titulo": "Que crea el Programa Educativo Penitenciario y dicta otra disposición",
+    "titulo_corto": "Programa Educativo Penitenciario"
+   },
    "anteproyecto": "24",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Objetado por Ejecutivo",
@@ -37093,7 +37143,7 @@
   "7825": "cc86248afa4f",
   "7826": "ea69985c983d",
   "7827": "832c758ef249",
-  "7829": "0575c5301e9b",
+  "7829": "840a4042fc93",
   "7830": "c5fc4c8b37d1",
   "7831": "ef520018c8cf",
   "7832": "2b2369a789cc",
@@ -37134,7 +37184,7 @@
   "7900": "e8b0ab7aa511",
   "7901": "8fb134a48993",
   "7902": "deeae93afbae",
-  "7903": "fd61afae12df",
+  "7903": "efd46f7c5c0f",
   "7906": "262598fa2a2c",
   "7907": "e3f2e515c52c",
   "7908": "9fb155288d10",
@@ -37778,15 +37828,17 @@
    "8491",
    "7779",
    "8308",
+   "7829",
    "8298",
    "7915",
    "8132",
    "8079",
    "7976"
   ],
-  "fecha": "2026-10-10T16:36:05",
+  "fecha": "2026-10-10T17:32:48",
   "notas": {
    "7779": "399fc6670871",
+   "7829": "399fc6670871",
    "7915": "399fc6670871",
    "7968": "399fc6670871",
    "7976": "399fc6670871",
@@ -38127,7 +38179,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-10T16:36:39"
+  "revisada": "2026-10-10T17:33:11"
  },
- "ultima_corrida": "2026-10-10T16:36:05"
+ "ultima_corrida": "2026-10-10T17:32:48"
 }
