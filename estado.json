@@ -1,6 +1,14 @@
 {
  "comisiones_revisadas": "2026-10-11T02:35:46",
  "drive": {
+  "7531": {
+   "carpeta": "Reforma al seguro obligatorio básico de accidentes de tránsito (ficha 7531)",
+   "comision": "Comisión de Comunicación y Transporte"
+  },
+  "7543": {
+   "carpeta": "Ley de deporte seguro (ficha 7543)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "7622": {
    "carpeta": "Política nacional de orientación vocacional (ficha 7622)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
@@ -3733,6 +3741,33 @@
    "titulo": "LEY GENERAL DE ALIMENTACION ADECUADA Y SOSTENIBLE DE LA REPUBLICA DE PANAMA"
   },
   "7531": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1 (modifica art. 2 de la Ley 68 de 2016): Crea un comité para fijar precios base del SOAT, impone un descuento obligatorio y automático del 25% por 'Buen Conductor' en pólizas vehiculares y establece multas de B/. 10,000 a B/. 50,000 por incumplimiento.",
+     "Artículo 2 (modifica art. 3 de la Ley 68 de 2016): Incluye daños a bienes estatales dentro de la cobertura obligatoria y obliga a retirar definitiva y registralmente los vehículos declarados pérdida total, impidiendo su reparación o venta como automotor.",
+     "Artículo 3 (adiciona párrafo al art. 4 de la Ley 68 de 2016): Obliga a la aseguradora a reembolsar la prima no devengada cuando se transfiera la propiedad del auto durante el año de vigencia.",
+     "Artículo 4 (adiciona numeral 17 al art. 241 de la Ley 12 de 2012): Establece un plazo de 30 días hábiles para que las aseguradoras resuelvan reclamos que cuenten con fallo o acuerdo, aplicando silencio administrativo positivo si no responden."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1wSI0xQPF5MIn876Fp2-GR4t38jinMll6",
+    "fecha_analisis": "2026-10-11",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Interviene directamente en la fijación tarifaria del seguro automotriz, impone un descuento forzoso del 25%, acorta plazos de reclamo bajo apercibimiento y restringe la venta de salvamentos por pérdida total.",
+      "sector": "SEGUROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Afecta de forma directa la fijación de tarifas, la gestión actuarial y la operativa de siniestros de las compañías de seguros privadas en el país.",
+    "resumen": "Propone regular los precios de las pólizas de seguro obligatorio de autos mediante un comité interinstitucional y fija un descuento obligatorio del 25% en renovaciones para conductores sin accidentes. Además, impone a las aseguradoras un plazo de 30 días para resolver reclamos, la devolución de primas no devengadas ante traspaso del auto y prohíbe comercializar salvamentos de vehículos declarados pérdida total.",
+    "sectores": [
+     "SEGUROS"
+    ],
+    "titulo": "Que modifica artículos de la Ley 68 de 2016, que regula el seguro obligatorio básico de accidentes de tránsito, adiciona una disposición a la Ley 12 de 2012, que regula la actividad de seguros",
+    "titulo_corto": "Reforma al seguro obligatorio básico de accidentes de tránsito"
+   },
    "anteproyecto": "115",
    "comision": "COMISION DE COMUNICACION Y TRANSPORTE",
    "etapa": "Objetado por Ejecutivo",
@@ -4241,6 +4276,20 @@
    "titulo": "QUE ESTABLECE EL MARCO LEGAL PARA FOMENTO DE LA AGRICULTURA URBANA EN PANAMA"
   },
   "7543": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1nOLvEmEQoXs4kv03zgrxf2yaO0roP-T7",
+    "fecha_analisis": "2026-10-11",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa está dirigida exclusivamente al ámbito deportivo e institucional (PANDEPORTES, federaciones y atletas), por lo que no modifica normativas comerciales, tributarias o laborales de alcance empresarial.",
+    "resumen": "Propone un marco normativo para prevenir, investigar y sancionar el acoso, hostigamiento, violencia y discriminación en el ámbito deportivo nacional. Obliga a federaciones, asociaciones y clubes deportivos a implementar protocolos de protección y participar en procesos de denuncia administrados por el Instituto Panameño de Deportes (PANDEPORTES). La iniciativa fue devuelta con objeciones parciales por el Órgano Ejecutivo por invasión de competencias administrativas e inconsistencias procesales.",
+    "sectores": [],
+    "titulo": "Que promueve el deporte seguro",
+    "titulo_corto": "Ley de deporte seguro"
+   },
    "anteproyecto": "126",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Objetado por Ejecutivo",
@@ -37124,7 +37173,7 @@
   "7527": "a771f6af8848",
   "7528": "547d88594444",
   "7529": "a95e81d75628",
-  "7531": "2db1ea891f6f",
+  "7531": "d89b0c435cab",
   "7532": "2e3d3e0c4ad4",
   "7533": "ee38155d6190",
   "7535": "6623f1e994f7",
@@ -37135,7 +37184,7 @@
   "7540": "5c1c7506f00a",
   "7541": "e82befe319d2",
   "7542": "dd7cc52e2abe",
-  "7543": "6b5d4340085c",
+  "7543": "cc36cc297062",
   "7544": "9dba2bc267b8",
   "7545": "98308ed360ba",
   "7546": "ca79f525cecf",
@@ -37996,10 +38045,12 @@
    "8079",
    "7976",
    "7808",
-   "7659"
+   "7659",
+   "7531"
   ],
-  "fecha": "2026-10-11T03:38:38",
+  "fecha": "2026-10-11T04:39:09",
   "notas": {
+   "7531": "399fc6670871",
    "7659": "399fc6670871",
    "7750": "399fc6670871",
    "7767": "399fc6670871",
@@ -38346,7 +38397,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-11T03:39:03"
+  "revisada": "2026-10-11T04:39:35"
  },
- "ultima_corrida": "2026-10-11T03:38:38"
+ "ultima_corrida": "2026-10-11T04:39:09"
 }
