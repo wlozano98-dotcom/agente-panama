@@ -161,6 +161,10 @@
    "carpeta": "Día contra la violencia y abuso sexual infantil (ficha 8381)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "8383": {
+   "carpeta": "Reconocimiento del Festival del Bollo y el Chicheme (ficha 8383)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "8388": {
    "carpeta": "Organización de la Universidad de los Pueblos Indígenas (ficha 8388)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -30619,6 +30623,20 @@
    "titulo": "QUE REGULA LOS PABELLONES NACIONALES Y OFICIALES DE LA REPUBLICA DE PANAMA EN EL AMBITO INTERNACIONAL"
   },
   "8383": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1m5TpN6KUwqbgE-hv6QVhjEvSaNzN20va",
+    "fecha_analisis": "2026-10-11",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Se trata de una iniciativa cultural y conmemorativa local que no establece obligaciones, regulaciones comerciales ni costos operativos para las empresas.",
+    "resumen": "Reconoce oficialmente el Festival del Bollo y el Chicheme Chorrerano como patrimonio cultural inmaterial y evento de interés turístico nacional en La Chorrera. Crea un comité organizador para su realización anual y asigna un aporte estatal anual a través del Ministerio de Cultura.",
+    "sectores": [],
+    "titulo": "Que reconoce el Festival del Bollo y el Chicheme Chorrerano",
+    "titulo_corto": "Reconocimiento del Festival del Bollo y el Chicheme"
+   },
    "anteproyecto": "448",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -38193,7 +38211,7 @@
   "8380": "d7258fced33b",
   "8381": "985df5cd6685",
   "8382": "68d588aad1e6",
-  "8383": "610b96a762ae",
+  "8383": "c32b45958b89",
   "8384": "813f07fa073b",
   "8385": "ea6151d7d0f5",
   "8388": "79650069037b",
@@ -38470,7 +38488,7 @@
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-11T14:34:20",
+  "fecha": "2026-10-11T15:34:21",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -38827,7 +38845,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-11T14:34:44"
+  "revisada": "2026-10-11T15:34:43"
  },
- "ultima_corrida": "2026-10-11T14:34:20"
+ "ultima_corrida": "2026-10-11T15:34:21"
 }
