@@ -1,9 +1,17 @@
 {
  "comisiones_revisadas": "2026-10-11T02:35:46",
  "drive": {
+  "7511": {
+   "carpeta": "Día del desfile del vestido ngäbe-buglé y campesino (ficha 7511)",
+   "comision": "Comisión de Asuntos Indígenas"
+  },
   "7531": {
    "carpeta": "Reforma al seguro obligatorio básico de accidentes de tránsito (ficha 7531)",
    "comision": "Comisión de Comunicación y Transporte"
+  },
+  "7532": {
+   "carpeta": "Evaluación y transparencia de incentivos tributarios (ficha 7532)",
+   "comision": "Comisión de Economía y Finanzas"
   },
   "7543": {
    "carpeta": "Ley de deporte seguro (ficha 7543)",
@@ -3261,6 +3269,20 @@
    "titulo": "QUE CREA EL PROGRAMA ANUAL DE MANTENIMIENTO DE LOS CENTROS EDUCATIVOS OFICIALES"
   },
   "7511": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1IzeUR_HyCRmqQ6hHtg2UmEr4jvjVVX6k",
+    "fecha_analisis": "2026-10-11",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto es exclusivamente cultural y festivo; no crea tributos, costos, regulaciones ni obligaciones para el sector empresarial.",
+    "resumen": "Propone instituir el 27 de octubre como fecha conmemorativa y desfile del vestido tradicional ngäbe-buglé y campesino, asignando recursos a la Autoridad de Turismo para su celebración e instruyendo actividades en entidades públicas y educativas. La iniciativa fue objetada por el Órgano Ejecutivo por coincidir con el Día del Estudiante y por asignar fondos sin sustento presupuestario.",
+    "sectores": [],
+    "titulo": "Que declara el 27 de octubre de cada año Día del Desfile del Vestido Tradicional del Pueblo Ngäbe-Buglé y Campesino",
+    "titulo_corto": "Día del desfile del vestido ngäbe-buglé y campesino"
+   },
    "anteproyecto": "96",
    "comision": "COMISION DE ASUNTOS INDIGENAS",
    "etapa": "Objetado por Ejecutivo",
@@ -3841,6 +3863,31 @@
    "titulo": "QUE MODIFICA ARTICULOS DE LA LEY N° 68 DE 2016, QUE REGULA EL SEGURO OBLIGATORIO BASICO DE ACCIDENTES DE TRANSITO, ADICIONA UNA DISPOSICIÓN A LA LEY 12 DE 2012, QUE REGULA LA ACTIVIDAD DE SEGUROS"
   },
   "7532": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Modifica el artículo 11 del Código de Procedimiento Tributario; obliga a la Asamblea a solicitar al MEF un informe de evaluación costo-beneficio antes del primer debate de proyectos sobre incentivos, deducciones, tarifas o nuevos tributos, y supedita el texto a dichas recomendaciones fiscales.",
+     "Artículo 2: Obliga al MEF a publicar de forma trimestral en redes, medios oficiales y web la lista de beneficiarios de incentivos fiscales con el monto dejado de pagar, así como una evaluación anual sobre la continuidad y costo-beneficio de dichos regímenes."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1smp7N_yyz-wlvHJS1OQOQjtmvhe1dLRk",
+    "fecha_analisis": "2026-10-11",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Elimina la reserva sobre las empresas receptoras de incentivos fiscales al ordenar la publicación de sus nombres y montos ahorrados, además de rigidizar la aprobación legislativa de futuros beneficios.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No crea ni aumenta tributos de manera directa, pero expone públicamente los beneficios fiscales recibidos por el sector privado y frena la creación de futuros incentivos sin previo aval técnico del MEF.",
+    "resumen": "El proyecto reforma el Código de Procedimiento Tributario para exigir que todo proyecto de ley que afecte la recaudación cuente con estudios previos costo-beneficio del MEF y de la Contraloría General. Además, ordena al MEF publicar trimestralmente el listado de empresas y personas que reciben incentivos fiscales junto con los montos exonerados. Afecta de forma transversal a las empresas que aprovechan o soliciten incentivos y regímenes especiales.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que modifica un artículo del Código de Procedimiento Tributario, referente a la evaluación de proyectos que afecten la recaudación, y dicta otra disposición",
+    "titulo_corto": "Evaluación y transparencia de incentivos tributarios"
+   },
    "anteproyecto": "116",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Objetado por Ejecutivo",
@@ -37163,7 +37210,7 @@
   "7508": "779d036d95c4",
   "7509": "ba8409e23a89",
   "7510": "ef849ac36efc",
-  "7511": "f2e7747970f5",
+  "7511": "233faa6cad04",
   "7512": "6c6d1483a947",
   "7513": "e3dc193a0fad",
   "7516": "051562ec338a",
@@ -37174,7 +37221,7 @@
   "7528": "547d88594444",
   "7529": "a95e81d75628",
   "7531": "d89b0c435cab",
-  "7532": "2e3d3e0c4ad4",
+  "7532": "b852a58ac39f",
   "7533": "ee38155d6190",
   "7535": "6623f1e994f7",
   "7536": "0d7e1a5fd1b6",
@@ -38025,6 +38072,7 @@
  "inicio": "2026-10-08",
  "matriz_generada": {
   "claves": [
+   "7532",
    "8481",
    "8586",
    "8609",
@@ -38048,9 +38096,10 @@
    "7659",
    "7531"
   ],
-  "fecha": "2026-10-11T04:39:09",
+  "fecha": "2026-10-11T05:36:04",
   "notas": {
    "7531": "399fc6670871",
+   "7532": "399fc6670871",
    "7659": "399fc6670871",
    "7750": "399fc6670871",
    "7767": "399fc6670871",
@@ -38397,7 +38446,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-11T04:39:35"
+  "revisada": "2026-10-11T05:36:38"
  },
- "ultima_corrida": "2026-10-11T04:39:09"
+ "ultima_corrida": "2026-10-11T05:36:04"
 }
