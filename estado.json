@@ -153,6 +153,10 @@
    "carpeta": "Verificación de permiso de ocupación en avisos de operación (ficha 8357)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
   },
+  "8365": {
+   "carpeta": "Festival del Toro Galán de La Chorrera (ficha 8365)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "8373": {
    "carpeta": "Programa de Alto Rendimiento Deportivo y Medicina Deportiva (ficha 8373)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -30019,6 +30023,20 @@
    "titulo": "QUE REGULA LA APERTURA Y FUNCIONAMIENTO DE LOS CENTROS DE ACOGIMIENTO INSTITUCIONALES Y RESIDENCIALES PARA NIÑOS, NIÑAS, ADOLESCENTES Y ADULTOS CON DISCAPACIDAD Y DEROGA EL DECRETO EJECUTIVO 404 DE 30 DE OCTUBRE DE 2020"
   },
   "8365": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1_SRPGz-KhQN7FlR7nAwiBzKGHxV9bXZ5",
+    "fecha_analisis": "2026-10-11",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Se trata de una iniciativa de orden estrictamente cultural y conmemorativo que no impone obligaciones, costos ni regulaciones sobre la actividad empresarial privada.",
+    "resumen": "Declara formalmente el Festival Folklórico Nacional del Toro Galán de La Chorrera como evento de carácter nacional e internacional a celebrarse anualmente en septiembre. Designa a la Fundación para el Desarrollo de la Cultura Vernacular de La Chorrera como responsable de su organización y establece asignaciones presupuestarias anuales a cargo del Ministerio de Cultura y la Autoridad de Turismo de Panamá.",
+    "sectores": [],
+    "titulo": "Que reconoce el Festival Folklórico Nacional del Toro Galán de La Chorrera",
+    "titulo_corto": "Festival del Toro Galán de La Chorrera"
+   },
    "anteproyecto": "435",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -38234,7 +38252,7 @@
   "8362": "88ec34dc1803",
   "8363": "f78b7496cc29",
   "8364": "0322524ec0a8",
-  "8365": "677078ebf3c6",
+  "8365": "200bf903ba28",
   "8366": "94247e429d57",
   "8367": "c3ca450a3236",
   "8368": "7c0b76639b9e",
@@ -38524,7 +38542,7 @@
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-11T19:33:22",
+  "fecha": "2026-10-11T20:34:36",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -38881,7 +38899,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-11T19:33:49"
+  "revisada": "2026-10-11T20:34:59"
  },
- "ultima_corrida": "2026-10-11T19:33:22"
+ "ultima_corrida": "2026-10-11T20:34:36"
 }
