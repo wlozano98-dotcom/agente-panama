@@ -157,6 +157,10 @@
    "carpeta": "Reforma al Reglamento Interno de la Asamblea Nacional (ficha 8377)",
    "comision": "Comisión de Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
   },
+  "8388": {
+   "carpeta": "Organización de la Universidad de los Pueblos Indígenas (ficha 8388)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "8389": {
    "carpeta": "Patronato del Corpus Christi de Parita (ficha 8389)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -30776,6 +30780,22 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 1 DE 19 DE ENERO DE 2018, QUE ADOPTA MEDIDAS PARA PROMOVER EL USO DE BOLSAS REUTILIZABLES EN ESTABLECIMIENTOS COMERCIALES"
   },
   "8388": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2: Adiciona el artículo 19-A a la Ley 288 de 2022 para autorizar al Ministerio de Educación a designar autoridades provisionales por un plazo máximo de dos años para concluir la organización universitaria."
+    ],
+    "drive": "https://drive.google.com/drive/folders/18q_mCaFbI7nT1O0YVprKZM5zj8zxLlVc",
+    "fecha_analisis": "2026-10-11",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.5-flash",
+    "razon": "La iniciativa se limita estrictamente al régimen de gobernanza y transición administrativa de una universidad pública, por lo que no genera obligaciones, tributos ni regulaciones sobre el sector empresarial.",
+    "resumen": "La propuesta adiciona un régimen transitorio a la Ley 288 de 2022 para permitir que el Órgano Ejecutivo, a través del Ministerio de Educación, designe autoridades provisionales por un periodo improrrogable de hasta dos años en la Universidad Autónoma de los Pueblos Indígenas. El objetivo es asegurar la continuidad administrativa y culminar la estructuración de la institución y la elección del nuevo rector. Afecta únicamente la administración interna de dicha entidad de educación superior pública.",
+    "sectores": [],
+    "titulo": "Que adiciona artículos a la Ley 288 del 10 de marzo de 2022 \"Que crea la Universidad Autónoma de los Pueblos Indígenas\"",
+    "titulo_corto": "Organización de la Universidad de los Pueblos Indígenas"
+   },
    "anteproyecto": "455",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -38158,7 +38178,7 @@
   "8383": "610b96a762ae",
   "8384": "813f07fa073b",
   "8385": "ea6151d7d0f5",
-  "8388": "79fab6ac3403",
+  "8388": "79650069037b",
   "8389": "7f098c26d3bb",
   "8390": "2b2890c7bdd5",
   "8391": "a93be1ef04f2",
@@ -38432,7 +38452,7 @@
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-11T10:44:12",
+  "fecha": "2026-10-11T11:39:41",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -38789,7 +38809,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-11T10:44:40"
+  "revisada": "2026-10-11T11:40:05"
  },
- "ultima_corrida": "2026-10-11T10:44:12"
+ "ultima_corrida": "2026-10-11T11:39:41"
 }
