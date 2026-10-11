@@ -157,6 +157,10 @@
    "carpeta": "Reforma al Reglamento Interno de la Asamblea Nacional (ficha 8377)",
    "comision": "Comisión de Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
   },
+  "8381": {
+   "carpeta": "Día contra la violencia y abuso sexual infantil (ficha 8381)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "8388": {
    "carpeta": "Organización de la Universidad de los Pueblos Indígenas (ficha 8388)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -30530,6 +30534,20 @@
    "titulo": "QUE CREA EL FESTIVAL NACIONAL DEL ACORDEON DORINDO CARDENAS Y SU PATRONATO"
   },
   "8381": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1rg7Sxubq2zkg_OgSlzLYz_bSnkwGzvGZ",
+    "fecha_analisis": "2026-10-11",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Se trata de una iniciativa conmemorativa y de sensibilización educativa que no modifica regulaciones económicas, laborales ni tributarias para las empresas.",
+    "resumen": "El proyecto establece el 18 de noviembre como una fecha conmemorativa nacional enfocada en prevenir el abuso y la violencia sexual infantil.\nDispone la realización de actividades anuales de orientación y capacitación para docentes y estudiantes en centros educativos oficiales y particulares, en coordinación con el Ministerio de Educación.\nNo impone cargas tributarias, regulatorias ni comerciales sobre el sector productivo o empresarial.",
+    "sectores": [],
+    "titulo": "Que declara el 18 de noviembre de cada año el Día para la Prevención de la Explotación, el Abuso y la Violencia Sexuales contra los Niños y la Sanación de sus Efectos",
+    "titulo_corto": "Día contra la violencia y abuso sexual infantil"
+   },
    "anteproyecto": "450",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -38173,7 +38191,7 @@
   "8375": "ad857b958159",
   "8377": "8da427ebcaef",
   "8380": "d7258fced33b",
-  "8381": "1b7219cbcde0",
+  "8381": "985df5cd6685",
   "8382": "68d588aad1e6",
   "8383": "610b96a762ae",
   "8384": "813f07fa073b",
@@ -38452,7 +38470,7 @@
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-11T11:39:41",
+  "fecha": "2026-10-11T12:42:15",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -38809,7 +38827,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-11T11:40:05"
+  "revisada": "2026-10-11T12:42:44"
  },
- "ultima_corrida": "2026-10-11T11:39:41"
+ "ultima_corrida": "2026-10-11T12:42:15"
 }
