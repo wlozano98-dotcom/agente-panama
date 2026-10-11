@@ -1,6 +1,10 @@
 {
- "comisiones_revisadas": "2026-10-10T20:34:11",
+ "comisiones_revisadas": "2026-10-11T02:35:46",
  "drive": {
+  "7659": {
+   "carpeta": "Tipificación de delitos contra la seguridad alimentaria (ficha 7659)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
   "7750": {
    "carpeta": "Modificaciones a la Ley 6 de 1987 sobre beneficios a jubilados (ficha 7750)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
@@ -7521,6 +7525,37 @@
    "titulo": "QUE MODIFICA EL CODIGO PENAL"
   },
   "7659": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1 (adiciona Artículo 311-A al Código Penal): Sanciona con 6 a 8 años de prisión a quien introduzca al país productos alimenticios de origen animal o vegetal sin permisos fitosanitarios y de inocuidad para su venta, distribución o comercialización.",
+     "Artículo 1 (adiciona Artículo 311-B al Código Penal): Aplica la pena de 6 a 8 años a personas naturales o jurídicas que a sabiendas almacenen, reempaquen, reetiqueten, combinen, procesen o transporten productos introducidos bajo el supuesto delictivo."
+    ],
+    "drive": "https://drive.google.com/drive/folders/10sTiJVTSV7po0vfCAwnbhoJiNNTTkz11",
+    "fecha_analisis": "2026-10-11",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Crea tipos penales con penas de 6 a 8 años de prisión por importar, almacenar, reempacar, procesar o vender productos alimenticios sin permisos fitosanitarios o de inocuidad.",
+      "sector": "ALIMENTOS"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Establece responsabilidad penal de 6 a 8 años de prisión para empresas y transportistas que trasladen alimentos introducidos sin los permisos requeridos.",
+      "sector": "TRANSPORTE"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Impone severas sanciones penales directas sobre la cadena de importación, procesamiento, logística y venta de alimentos ante faltas de permisos sanitarios.",
+    "resumen": "Propone tipificar delitos contra la seguridad alimentaria en el Código Penal, sancionando con 6 a 8 años de prisión la introducción de alimentos de origen vegetal o animal sin permisos fitosanitarios o de inocuidad. Además, castiga con igual pena a quienes almacenen, procesen, reempaquen o transporten dichos productos. La iniciativa fue objetada totalmente por inconveniente por el Órgano Ejecutivo tras advertencias del sector empresarial e institucional sobre inseguridad jurídica y riesgos para el comercio formal.",
+    "sectores": [
+     "ALIMENTOS",
+     "TRANSPORTE"
+    ],
+    "titulo": "Que adiciona un capítulo al Título IX del Código Penal, sobre seguridad alimentaria",
+    "titulo_corto": "Tipificación de delitos contra la seguridad alimentaria"
+   },
    "anteproyecto": "219",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Objetado por Ejecutivo",
@@ -37153,7 +37188,7 @@
   "7656": "006165c652d6",
   "7657": "91fdfe058ad6",
   "7658": "2467da2ade4a",
-  "7659": "baa6df52ee2e",
+  "7659": "8589c3999a18",
   "7662": "305fce1850da",
   "7669": "99610dd7e650",
   "7674": "523463591edb",
@@ -37942,10 +37977,12 @@
    "7767",
    "8079",
    "7976",
-   "7808"
+   "7808",
+   "7659"
   ],
-  "fecha": "2026-10-11T01:33:58",
+  "fecha": "2026-10-11T02:36:39",
   "notas": {
+   "7659": "399fc6670871",
    "7750": "399fc6670871",
    "7767": "399fc6670871",
    "7779": "399fc6670871",
@@ -38291,7 +38328,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-11T01:34:21"
+  "revisada": "2026-10-11T02:37:06"
  },
- "ultima_corrida": "2026-10-11T01:33:58"
+ "ultima_corrida": "2026-10-11T02:36:39"
 }
