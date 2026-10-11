@@ -185,6 +185,14 @@
    "carpeta": "Educación para menores hospitalizados o enfermos (ficha 8521)",
    "comision": "Comisión de Educacion, Cultura y Deportes"
   },
+  "8545": {
+   "carpeta": "Día conmemorativo de la etnia india (ficha 8545)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "8546": {
+   "carpeta": "Cierre de operaciones del Banco Hipotecario Nacional (ficha 8546)",
+   "comision": "Comisión de Infraestructura Pública y Asuntos del Canal"
+  },
   "8558": {
    "carpeta": "Reforma al Código Procesal Penal (ficha 8558)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
@@ -201,6 +209,10 @@
    "carpeta": "Reforma a la Ley 304 sobre arrecifes y pastos marinos (ficha 8570)",
    "comision": "Comisión de Poblacion, Ambiente y Desarrollo"
   },
+  "8572": {
+   "carpeta": "Reforma al Código Electoral (ficha 8572)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
   "8573": {
    "carpeta": "Configuración de circuitos electorales para diputados (ficha 8573)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
@@ -212,6 +224,10 @@
   "8609": {
    "carpeta": "Creación del Documento de Identidad Sanitaria (DIS) (ficha 8609)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
+  "8613": {
+   "carpeta": "Prórroga del régimen fiscal de Ciudad del Saber (ficha 8613)",
+   "comision": "Comisión de Economía y Finanzas"
   }
  },
  "fichas": {
@@ -34949,6 +34965,20 @@
    "titulo": "QUE MODIFICA UN ARTÍCULO DE LA LEY 106 DE 1974, SOBRE EL IMPUESTO DE TRANSFERENCIA DE BIENES INMUEBLES, Y DICTA OTRA DISPOSICIÓN"
   },
   "8545": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1sPgoOwVb7j7eO8Y_QJBnMPfU-8_9vxz_",
+    "fecha_analisis": "2026-10-11",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto es de carácter exclusivamente cívico y educativo, por lo que no impone días de descanso obligatorio, costos tributarios ni obligaciones comerciales a las empresas.",
+    "resumen": "La iniciativa declara el 2 de octubre de cada año como Día Cívico y de Conmemoración de la comunidad de origen indio en Panamá. Faculta a los ministerios de Educación y Cultura y a la Autoridad de Turismo para organizar actividades alusivas a la fecha, e instruye a centros educativos e instituciones públicas a realizar jornadas culturales. La propuesta no establece un día feriado ni descanso obligatorio para el sector privado.",
+    "sectores": [],
+    "titulo": "Que resalta los valores y aportes de la etnia india",
+    "titulo_corto": "Día conmemorativo de la etnia india"
+   },
    "anteproyecto": "137",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -34987,6 +35017,41 @@
    "titulo": "QUE RESALTA LOS VALORES Y APORTES DE LA ETNIA INDIA"
   },
   "8546": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 6: Transfiere la cartera crediticia y funciones de financiamiento del BHN a la Caja de Ahorros, exigiendo su administración segregada de los estados financieros ordinarios del banco.",
+     "Artículo 9: Establece el régimen de colaboración público-privada para la construcción de viviendas de interés social para venta o alquiler, con una participación estatal de hasta el 49% regida por la Ley 22 de 2006.",
+     "Artículo 10 y 12: Obliga a formalizar los recursos y terrenos aportados por el sector privado mediante fideicomisos administrados por la Caja de Ahorros en beneficio del Estado.",
+     "Artículo 11: Fija requisitos técnicos, zonificación, servicios y condiciones económicas para las empresas privadas que aporten terrenos a los programas habitacionales.",
+     "Artículo 20: Exonera a los proyectos certificados de interés social por el MIVIOT de la segunda y tercera fase del artículo 38 de la Ley 284 de 2022 de Propiedad Horizontal.",
+     "Artículo 21: Obliga a las sociedades anónimas de ahorros y préstamos para vivienda a enfocar su objeto en vivienda social y supedita sus tasas, plazos y fiscalización a la reglamentación del IPACOOP."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1FsmpF5ae1wSzVX2dS2CBX7mvJdy7cNay",
+    "fecha_analisis": "2026-10-11",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Crea un régimen de colaboración público-privada para promotores y constructores de vivienda social, además de flexibilizar trámites de incorporación a propiedad horizontal (PH).",
+      "sector": "CEMENTERAS"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Traspasa la cartera crediticia del BHN a la Caja de Ahorros bajo gestión separada y somete a las sociedades anónimas de ahorro y préstamo para vivienda a la fiscalización del IPACOOP.",
+      "sector": "FINANCIERO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Impacta directamente a empresas constructoras y promotoras de vivienda mediante esquemas de coinversión público-privada y fideicomisos, e incide en entidades de financiamiento habitacional y ahorro.",
+    "resumen": "Ordena el cierre progresivo y liquidación del Banco Hipotecario Nacional (BHN) a más tardar el 31 de diciembre de 2027, transfiriendo su cartera hipotecaria a la Caja de Ahorros y sus competencias rectoras al MIVIOT. Crea un régimen de colaboración público-privada para el desarrollo de proyectos de vivienda de interés social y establece reglas para la incorporación a régimen de propiedad horizontal y sociedades de ahorro y préstamo.",
+    "sectores": [
+     "CEMENTERAS",
+     "FINANCIERO"
+    ],
+    "titulo": "Que ordena el cierre total de las operaciones del Banco Hipotecario Nacional",
+    "titulo_corto": "Cierre de operaciones del Banco Hipotecario Nacional"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE INFRAESTRUCTURA PUBLICA Y ASUNTOS DEL CANAL",
    "etapa": "Segundo Debate",
@@ -35779,6 +35844,20 @@
    "titulo": "QUE FORTALECE LA SEGURIDAD DE ZONAS DE ECONOMIA NOCTURNA"
   },
   "8572": {
+   "analisis": {
+    "con_pdf": false,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1OYIoJ-Q1ME8Kj0T4xOU9v_S-F3I2gHmJ",
+    "fecha_analisis": "2026-10-11",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Las modificaciones al Código Electoral regulan materias de índole política e institucional, sin crear obligaciones operativas, fiscales ni regulatorias directas sobre el sector empresarial.",
+    "resumen": "Análisis basado solo en el título. La propuesta busca modificar las normas que regulan los procesos electorales, partidos políticos y candidaturas en la República de Panamá. Está dirigida principalmente al régimen electoral, autoridades de comicios y actores políticos, sin relación directa con la actividad económica empresarial.",
+    "sectores": [],
+    "titulo": "Que reforma el Código Electoral de la República de Panamá",
+    "titulo_corto": "Reforma al Código Electoral"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Segundo Debate",
@@ -36825,6 +36904,32 @@
    "titulo": "QUE ESTABLECE EL MARCO JURIDICO PARA EL OTORGAMIENTO DE LA CALIFICACION DE LABORATORIO DE INTERES NACIONAL, DIRIGIDO A LAS ASOCIACIONES DE INTERES PUBLICO QUE SE DEDICAN A LA INVESTIGACION CIENTIFICA, EL DESARROLLO TECNOLOGICO Y LA INNOVACION"
   },
   "8613": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Cláusula Segunda de la Adenda (modifica la Cláusula Quinta del Contrato): Extiende hasta el 12 de febrero de 2048 las exoneraciones de aranceles de importación, ITBMS, impuesto de inmuebles, transferencias al exterior e impuestos directos sobre capital o licencias comerciales para empresas de tecnología en Ciudad del Saber, e impone remitir anualmente a la DGI el listado de empresas afiliadas con RUC.",
+     "Cláusula Tercera de la Adenda: Crea una comisión interinstitucional con plazo de 9 meses para evaluar modificaciones al contrato y proponer un proyecto de ley que reglamente el régimen especial.",
+     "Artículo 2 del Proyecto: Otorga carácter retroactivo a la ley hasta el 13 de febrero de 2023, cubriendo el período vencido desde el término original de los incentivos."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1yv5h9g2RFuoVArHjB5qNyq2t1N4Z7wqJ",
+    "fecha_analisis": "2026-10-11",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Garantiza por 25 años adicionales la exoneración de impuestos directos, ITBMS y aranceles a las empresas del régimen especial de Ciudad del Saber.",
+      "sector": "OTROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Mantiene y da certeza jurídica a las exoneraciones tributarias de importación, ITBMS y renta aplicables a más de 200 empresas y organismos radicados en el régimen especial de Ciudad del Saber hasta 2048.",
+    "resumen": "Aprueba la Adenda No. 1 al contrato-ley de la Fundación Ciudad del Saber para prorrogar por 25 años adicionales (hasta el 12 de febrero de 2048, con efecto retroactivo a febrero de 2023) su régimen de exoneraciones fiscales. El beneficio ampara a la Fundación y a las empresas innovadoras y de alta tecnología instaladas en su campus, manteniendo incentivos sobre importaciones, ITBMS, remesas y tributos directos. Asimismo, establece nuevos mecanismos de reporte ante la DGI y crea una comisión para revisar la reglamentación del régimen.",
+    "sectores": [
+     "OTROS"
+    ],
+    "titulo": "Que aprueba la Adenda No. 1 al Contrato aprobado mediante el Decreto Ley No. 6 de 10 de febrero de 1998, suscrito entre el Estado y la Fundación Ciudad del Saber, para el Establecimiento y Desarrollo de la Ciudad del Saber",
+    "titulo_corto": "Prórroga del régimen fiscal de Ciudad del Saber"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Segundo Debate",
@@ -38071,8 +38176,8 @@
   "8541": "46b33eb6c397",
   "8542": "0f4281ab8d09",
   "8543": "f1c3363aed3e",
-  "8545": "65e357fb7f61",
-  "8546": "e320e3f688ad",
+  "8545": "e1cdb35667a7",
+  "8546": "4622bc850982",
   "8547": "b77bf8f034b8",
   "8548": "a745627737d1",
   "8549": "af0c384ec755",
@@ -38097,7 +38202,7 @@
   "8569": "9e72a764cf2a",
   "8570": "ce48760c4ee8",
   "8571": "1e2fdeb93bdc",
-  "8572": "376bbc714a4b",
+  "8572": "e34918c4539d",
   "8573": "40c9d5d0349f",
   "8574": "57d7336add2a",
   "8575": "2ece769a775d",
@@ -38137,7 +38242,7 @@
   "8610": "dc5c11fa60f2",
   "8611": "cd7a699d5022",
   "8612": "82a2eb88bf4a",
-  "8613": "8d9ba34e5b8a",
+  "8613": "05945d5c0bb1",
   "8614": "298c77bada24",
   "8615": "b2b971f511da",
   "8616": "2c4d4f2ac382",
@@ -38165,6 +38270,8 @@
    "8481",
    "8586",
    "8609",
+   "8546",
+   "8613",
    "8302",
    "8304",
    "8177",
@@ -38186,7 +38293,7 @@
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-11T07:40:56",
+  "fecha": "2026-10-11T08:38:02",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -38210,8 +38317,10 @@
    "8349": "399fc6670871",
    "8481": "399fc6670871",
    "8491": "399fc6670871",
+   "8546": "399fc6670871",
    "8586": "399fc6670871",
-   "8609": "399fc6670871"
+   "8609": "399fc6670871",
+   "8613": "399fc6670871"
   },
   "version": 2
  },
@@ -38537,7 +38646,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-11T07:41:27"
+  "revisada": "2026-10-11T08:38:27"
  },
- "ultima_corrida": "2026-10-11T07:40:56"
+ "ultima_corrida": "2026-10-11T08:38:02"
 }
