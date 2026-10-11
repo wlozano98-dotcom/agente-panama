@@ -1,6 +1,10 @@
 {
  "comisiones_revisadas": "2026-10-10T20:34:11",
  "drive": {
+  "7750": {
+   "carpeta": "Modificaciones a la Ley 6 de 1987 sobre beneficios a jubilados (ficha 7750)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
   "7767": {
    "carpeta": "Regulación de la profesión de relaciones internacionales (ficha 7767)",
    "comision": "Comisión de Relaciones Exteriores"
@@ -147,6 +151,10 @@
   },
   "8563": {
    "carpeta": "Ampliación de acuerdos en el proceso penal (ficha 8563)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "8569": {
+   "carpeta": "Proceso sucesorio simplificado ante notario (ficha 8569)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
   "8570": {
@@ -9654,6 +9662,28 @@
    "titulo": "QUE MODIFICA ARTICULOS DE LA LEY 14 DE 18 DE MAYO DE 2007, QUE ADOPTA EL CODIGO PENAL Y DE LA LEY 63 DE 28 DE AGOSTO DE 2008, QUE ADOPTA EL CODIGO PROCESAL PENAL"
   },
   "7750": {
+   "analisis": {
+    "con_pdf": false,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1pE_Y7G0ffVcyKlNuMLCCmhMcR36MnmYv",
+    "fecha_analisis": "2026-10-11",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Podría modificar las obligaciones, porcentajes de descuento o condiciones comerciales aplicables a establecimientos que venden bienes o servicios a adultos mayores.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Cualquier modificación al régimen de beneficios para la tercera edad incide en los márgenes de venta y en las obligaciones comerciales de múltiples actividades económicas.",
+    "resumen": "Análisis basado solo en el título. El proyecto propone modificar y adicionar artículos a la Ley 6 de 1987, norma que rige los descuentos y beneficios obligatorios para personas jubiladas, pensionadas y de la tercera edad en Panamá. Al no disponerse del texto de la propuesta, no es posible detallar los cambios específicos, pero impactaría a los comercios y proveedores de servicios que deben conceder estos descuentos.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que modifica y adiciona artículos a la Ley 6 de 1987 sobre beneficios a los jubilados, pensionados y tercera edad y dicta otras disposiciones",
+    "titulo_corto": "Modificaciones a la Ley 6 de 1987 sobre beneficios a jubilados"
+   },
    "anteproyecto": "291",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Objetado por Ejecutivo",
@@ -35283,6 +35313,20 @@
    "titulo": "QUE REGULA EL COBRO DE DIETAS Y PROMUEVE BUENAS PRACTICAS EN LAS JUNTAS DIRECTIVAS DE EMPRESAS ESTATALES, EMPRESAS MIXTAS, DIRECCIONES AUTONOMAS Y SEMIAUTONOMAS DE LA REPUBLICA DE PANAMA"
   },
   "8569": {
+   "analisis": {
+    "con_pdf": false,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1IvfI4XJ5Lmh3O96u3pL_tIWEoV2QaDin",
+    "fecha_analisis": "2026-10-11",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa se circunscribe al ámbito del derecho civil y de familia para la transmisión de bienes hereditarios, sin crear obligaciones, cargas tributarias ni regulaciones directas para la actividad empresarial.",
+    "resumen": "Análisis basado solo en el título. La propuesta busca habilitar una vía notarial ágil para tramitar juicios de sucesión no contenciosos sin recurrir necesariamente a los juzgados civiles. Afecta fundamentalmente a personas naturales en calidad de herederos, abogados y notarías, facilitando la adjudicación de herencias.",
+    "sectores": [],
+    "titulo": "Que establece el proceso sucesorio simplificado ante notario",
+    "titulo_corto": "Proceso sucesorio simplificado ante notario"
+   },
    "anteproyecto": "295",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Tercer Debate(Objetado)",
@@ -37156,7 +37200,7 @@
   "7745": "8ec92eb41786",
   "7747": "c0256421e0ac",
   "7748": "f1884dcec194",
-  "7750": "e9fd643e6347",
+  "7750": "e77cc2d3906d",
   "7751": "3174adcdf0ea",
   "7752": "eeb8bcdc8d1f",
   "7753": "86846c000566",
@@ -37812,7 +37856,7 @@
   "8566": "7166c6ae86d7",
   "8567": "e25737f8bd31",
   "8568": "fcfa8b31ea3a",
-  "8569": "7156c83bf325",
+  "8569": "9e72a764cf2a",
   "8570": "ce48760c4ee8",
   "8571": "1e2fdeb93bdc",
   "8572": "376bbc714a4b",
@@ -37886,6 +37930,7 @@
    "8304",
    "8177",
    "8349",
+   "7750",
    "7968",
    "8491",
    "7779",
@@ -37899,8 +37944,9 @@
    "7976",
    "7808"
   ],
-  "fecha": "2026-10-10T23:31:53",
+  "fecha": "2026-10-11T00:45:52",
   "notas": {
+   "7750": "399fc6670871",
    "7767": "399fc6670871",
    "7779": "399fc6670871",
    "7808": "399fc6670871",
@@ -38245,7 +38291,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-10T23:32:19"
+  "revisada": "2026-10-11T00:46:23"
  },
- "ultima_corrida": "2026-10-10T23:31:53"
+ "ultima_corrida": "2026-10-11T00:45:52"
 }
