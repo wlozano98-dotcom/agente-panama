@@ -1,5 +1,5 @@
 {
- "comisiones_revisadas": "2026-10-11T02:35:46",
+ "comisiones_revisadas": "2026-10-11T10:35:57",
  "drive": {
   "7423": {
    "carpeta": "Protección e inclusión de personas con autismo (TEA) (ficha 7423)",
@@ -169,6 +169,18 @@
    "carpeta": "Aprobación del Convenio sobre Metrología Legal (OIML) (ficha 8392)",
    "comision": "Comisión de Relaciones Exteriores"
   },
+  "8394": {
+   "carpeta": "Creación del Sistema de Integración Logística y Portuaria (ficha 8394)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
+  "8395": {
+   "carpeta": "Reforma al Código Tributario sobre evaluación de incentivos fiscales (ficha 8395)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
+  "8465": {
+   "carpeta": "Traspaso de plantas de tratamiento de aguas residuales al IDAAN (ficha 8465)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
   "8481": {
    "carpeta": "Aprobación del Convenio Internacional del Cacao, 2026 (ficha 8481)",
    "comision": "Comisión de Relaciones Exteriores"
@@ -176,6 +188,10 @@
   "8491": {
    "carpeta": "Regulación de ácidos grasos trans industriales (ficha 8491)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
+  "8516": {
+   "carpeta": "Uso de CEPANIM en comercios y acreditación de ISR (ficha 8516)",
+   "comision": "Comisión de Economía y Finanzas"
   },
   "8518": {
    "carpeta": "Responsabilidad penal excepcional para menores de doce años (ficha 8518)",
@@ -31005,6 +31021,34 @@
    "titulo": "QUE APRUEBA EL CONVENIO POR EL QUE SE ESTABLECE UNA ORGANIZACION INTERNACIONAL DE METROLOGIA LEGAL, FIRMADO EN PARIS, EL 12 DE OCTUBRE DE 1955, MODIFICADO EN 1968."
   },
   "8394": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2: Establece su ámbito de aplicación sobre entidades públicas y privadas que intervienen en la gestión, supervisión y control de la cadena logística, marítima y portuaria.",
+     "Artículo 5: Designa a la Autoridad Marítima de Panamá (AMP) como coordinadora general del sistema junto a aduanas, Canal de Panamá y otras entidades estatales.",
+     "Artículo 6: Ordena la integración e interoperabilidad de sistemas y plataformas de información para simplificar trámites y asegurar la trazabilidad.",
+     "Artículo 7: Incorpora a la Ventanilla Única Marítima de Panamá (VUMPA) como plataforma obligatoria de gestión e integración digital de trámites.",
+     "Artículo 8: Define un plan de acción con fases de corto, mediano y largo plazo que incluye el portal PORTCEL, un piloto de trazabilidad de carga por RFID y la digitalización total del comercio exterior intermodal."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1S7bzH-R9f_aoSpmaPcXee384zPNx2511",
+    "fecha_analisis": "2026-10-11",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Requerirá ajustar procesos operativos y de intercambio de datos para integrarse a plataformas digitales unificadas (VUMPA, PORTCEL) y a nuevos esquemas de trazabilidad de carga.",
+      "sector": "TRANSPORTE"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Aunque impacta un área prioritaria como la logística y los puertos, la iniciativa se centra en la coordinación técnica, interoperabilidad institucional y digitalización de trámites sin establecer nuevos gravámenes, sanciones ni barreras de entrada para los operadores.",
+    "resumen": "Propone articular un mecanismo permanente entre entidades públicas y operadores privados para coordinar la Estrategia Logística y Marítima Nacional. Dispone la digitalización de trámites, la integración tecnológica a través de la Ventanilla Única Marítima de Panamá (VUMPA) y la implementación de trazabilidad de carga mediante RFID y el portal PORTCEL. Afecta a empresas de transporte de carga, agentes marítimos, agencias de aduanas y operadores portuarios y logísticos.",
+    "sectores": [
+     "TRANSPORTE"
+    ],
+    "titulo": "Que crea el Sistema Nacional de Integración Logística, Marítima y Portuaria en Panamá",
+    "titulo_corto": "Creación del Sistema de Integración Logística y Portuaria"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Segundo Debate",
@@ -31038,6 +31082,34 @@
    "titulo": "QUE CREA EL SISTEMA NACIONAL DE INTEGRACIÓN LOGÍSTICA, MARÍTIMA Y PORTUARIA EN PANAMÁ."
   },
   "8395": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1 (modifica art. 11): Exige un estudio de impacto económico del MEF (análisis costo-beneficio y gasto tributario) antes de discutir en tercer debate cualquier ley que cree, prorrogue o modifique tributos o incentivos fiscales.",
+     "Artículo 3 (adiciona art. 11-B): Ordena al MEF evaluar los incentivos fiscales cada dos años; si tras tres ciclos consecutivos (seis años) no se demuestra un costo-beneficio favorable, el MEF recomendará formalmente su modificación o terminación.",
+     "Artículo 4 (adiciona art. 11-C): Obliga a que toda norma que otorgue beneficios fiscales incluya metas cuantitativas y una cláusula de expiración automática si no se prorroga expresamente por ley.",
+     "Artículo 5 (adiciona art. 11-D): Dispone la publicación en datos abiertos de estadísticas sobre beneficiarios, gasto tributario y empleo generado por régimen fiscal.",
+     "Artículo 7: Concede un plazo de hasta cuatro años al MEF para evaluar progresivamente los incentivos fiscales vigentes, priorizando los de mayor impacto fiscal."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1jR-IaPTcv6By0eEIgktxbBExldS87267",
+    "fecha_analisis": "2026-10-11",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Introduce revisiones bienales de costo-beneficio, vencimiento automático obligatorio y posible eliminación para los incentivos y exoneraciones fiscales vigentes o futuros.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea un marco estricto de control y transparencia para los incentivos tributarios, facultando al MEF y a la Asamblea a recomendar la derogación de beneficios existentes si no demuestran rentabilidad económica y social en seis años.",
+    "resumen": "La iniciativa reforma el Código de Procedimiento Tributario para someter todos los incentivos y exoneraciones fiscales a evaluaciones periódicas de costo-beneficio cada dos años por parte del MEF. Establece la obligatoriedad de cláusulas de vencimiento automático ('sunset clauses') para nuevos beneficios tributarios y fija un plazo de cuatro años para revisar los regímenes de incentivos vigentes, recomendando la eliminación de aquellos que no cumplan sus metas económicas.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que modifica la Ley 76 de 2019 que aprueba el Código de Procedimiento Tributario de la República de Panamá y dicta otras disposiciones",
+    "titulo_corto": "Reforma al Código Tributario sobre evaluación de incentivos fiscales"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Segundo Debate",
@@ -32795,6 +32867,35 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 285 DE 15 DE FEBRERO DE 2022, QUE CREA EL PROGRAMA NACIONAL DE ACOMPAÑAMIENTO INTEGRAL PARA JOVENES EGRESADOS DEL SISTEMA DE PROTECCION Y ACOGIMIENTO Y EL REGISTRO NACIONAL DE JOVENES EGRESADOS DEL SISTEMA DE PROTECCIÓN Y ACOGIMIENTO. Y DICTA OTRAS DISPOSICIONES"
   },
   "8465": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 3: Faculta al IDAAN o a comunidades a iniciar de oficio el traspaso excepcional de plantas abandonadas o con promotores inactivos, sin extinguir responsabilidades civiles, ambientales o penales del promotor.",
+     "Artículo 7: Exige inspección previa del IDAAN en la Ventanilla Única del MIVIOT durante la aprobación de planos y obliga a usar el modelo de diseño de planta suministrado por el IDAAN.",
+     "Artículo 8: Condiciona la recepción al suministro obligatorio por el desarrollador de planos conforme a obra, acta de inspección final, manuales de operación y pruebas de funcionamiento.",
+     "Artículo 9: Modifica el artículo 41 de la Ley 77 de 2001, obligando a promotores a traspasar plantas al IDAAN a título gratuito en un máximo de 365 días y otorgando 12 meses de plazo para corregir incumplimientos técnicos.",
+     "Artículo 10: Adiciona el artículo 41-A a la Ley 77 de 2001, estableciendo multas de B/. 5,000.00 a B/. 10,000.00 a promotores que incumplan el plazo de traspaso.",
+     "Artículo 11: Modifica el artículo 52 de la Ley 77 de 2001, eliminando el tope de B/. 15,000.00 y obligando al IDAAN a recibir, operar y mantener las plantas de cualquier desarrollo urbanístico debidamente traspasado."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1nr1tnDsmq1WW9YLbUQd7KHIkJ6Pg_Xw9",
+    "fecha_analisis": "2026-10-11",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Impone nuevas condiciones técnicas de diseño ante el MIVIOT, trámites obligatorios de traspaso de plantas de aguas residuales al IDAAN y multas pecuniarias para los promotores urbanísticos.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea obligaciones formales y operativas en los permisos urbanísticos de promotores inmobiliarios, imponiendo requisitos técnicos de entrega y sanciones administrativas si no traspasan la infraestructura al IDAAN a tiempo.",
+    "resumen": "Regula el procedimiento para que promotores inmobiliarios traspasen obligatoriamente al IDAAN las plantas de tratamiento de aguas residuales tras finalizar sus obras. Elimina la restricción que limitaba la recepción a viviendas de interés social de hasta B/. 15,000, fijando un plazo de 365 días para la cesión y multas de hasta B/. 10,000 por incumplimiento. Afecta directamente a empresas promotoras, desarrolladores urbanísticos y constructoras.",
+    "sectores": [
+     "CEMENTERAS"
+    ],
+    "titulo": "Que establece un procedimiento excepcional para el traspaso de los sistemas o plantas de tratamiento de las aguas residuales y modifica la Ley 77 de 28 de diciembre de 2001",
+    "titulo_corto": "Traspaso de plantas de tratamiento de aguas residuales al IDAAN"
+   },
    "anteproyecto": "67",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Segundo Debate",
@@ -34153,6 +34254,40 @@
    "titulo": "QUE ADICIONA UNA SECCION II AL CAPITULO I DEL TITULO 11 DEL LIBRO IV DEL CODIGO SANITARIO, CREA EL SISTEMA DE HABILITACION SANITARIA PARA MANIPULADORES DE ALIMENTOS, ESTABLECE EL CARNE SANITARIO UNICO Y DICTA OTRAS DISPOSICIONES"
   },
   "8516": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2: Faculta a los establecimientos comerciales y empresas a recibir voluntariamente certificados CEPANIM al 100% de su valor nominal como medio de pago.",
+     "Artículo 3: Permite aplicar los CEPANIM recibidos como crédito directo para pagar hasta el 65% del saldo acumulado de ISR al 31 de diciembre de 2025 sin intereses ni recargos, o utilizarlos como deducción de la renta gravable.",
+     "Artículo 4: Adiciona un parágrafo al artículo 694 del Código Fiscal declarando a los CEPANIM como instrumento fiscal compensatorio liberatorio a partir del período 2027.",
+     "Artículo 5: Exonera del impuesto sobre la renta los rendimientos o ganancias generadas por el uso y compensación fiscal de estos certificados.",
+     "Artículo 6: Prohíbe a los comercios cobrar recargos, descuentos o costos adicionales al recibir los CEPANIM de beneficiarios primarios.",
+     "Artículo 7: Modifica el artículo 7 de la Ley 506 de 2026 para permitir el uso de los títulos como fianza estatal, garantía bancaria y transaccional, y canje en entidades financieras."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1kjPHEq_6Gh1Wd82QVPvz6MpTFsFd7eds",
+    "fecha_analisis": "2026-10-11",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Otorga un incentivo tributario voluntario para compensar hasta el 65% del ISR adeudado a 2025 mediante la aceptación de CEPANIM a valor nominal.",
+      "sector": "TODAS LAS EMPRESAS"
+     },
+     {
+      "nivel": "bajo",
+      "razon": "Habilita a los CEPANIM como garantía en obligaciones bancarias y contempla su canje por efectivo en bancos, casas de valores y cooperativas.",
+      "sector": "FINANCIERO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Establece un mecanismo de alivio y compensación fiscal de alcance general sobre el impuesto sobre la renta para las empresas que decidan recibir los certificados a su valor nominal.",
+    "resumen": "El proyecto promueve que empresas y comercios reciban voluntariamente los CEPANIM (certificados por intereses moratorios del décimo tercer mes histórico) al 100% de su valor nominal para pagar bienes y servicios. A cambio, los negocios podrán aplicar estos títulos como crédito fiscal para saldar hasta el 65% del impuesto sobre la renta acumulado al cierre fiscal de 2025 sin recargos ni intereses.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que incentiva la recepción de los Certificados de Pago Negociables por Interés por Mora (CEPANIM) por parte del comercio, la industria e instituciones públicas, modifica el Código Fiscal y dicta otras disposiciones",
+    "titulo_corto": "Uso de CEPANIM en comercios y acreditación de ISR"
+   },
    "anteproyecto": "111",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Segundo Debate",
@@ -38028,8 +38163,8 @@
   "8390": "2b2890c7bdd5",
   "8391": "a93be1ef04f2",
   "8392": "76d2f4758c63",
-  "8394": "d9a187b79850",
-  "8395": "e36721da4b7e",
+  "8394": "6662d0a2360b",
+  "8395": "b14b03bf1c1d",
   "8396": "8259f9b24a79",
   "8397": "fe716792d8f1",
   "8398": "03491c6d4774",
@@ -38098,7 +38233,7 @@
   "8462": "ca0be5718e81",
   "8463": "107a3aa918ac",
   "8464": "65af875c5c1a",
-  "8465": "3edf08b77c60",
+  "8465": "9e7b5eef6491",
   "8466": "3b18c4715832",
   "8467": "79229fc33bc0",
   "8468": "4fe7b52a8e51",
@@ -38148,7 +38283,7 @@
   "8513": "90625969f10d",
   "8514": "3458e2e557fb",
   "8515": "b405c6d6e989",
-  "8516": "16be674972cc",
+  "8516": "6fe8542f7202",
   "8517": "04e6a148bb0a",
   "8518": "c376f54f46a9",
   "8519": "93c263d16edb",
@@ -38269,6 +38404,7 @@
    "7532",
    "8481",
    "8586",
+   "8465",
    "8609",
    "8546",
    "8613",
@@ -38277,6 +38413,7 @@
    "8177",
    "8349",
    "7750",
+   "8516",
    "7968",
    "8491",
    "7779",
@@ -38284,6 +38421,8 @@
    "7829",
    "8298",
    "7915",
+   "8394",
+   "8395",
    "8132",
    "7767",
    "8079",
@@ -38293,7 +38432,7 @@
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-11T08:38:02",
+  "fecha": "2026-10-11T10:44:12",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -38315,8 +38454,12 @@
    "8304": "399fc6670871",
    "8308": "399fc6670871",
    "8349": "399fc6670871",
+   "8394": "399fc6670871",
+   "8395": "399fc6670871",
+   "8465": "399fc6670871",
    "8481": "399fc6670871",
    "8491": "399fc6670871",
+   "8516": "399fc6670871",
    "8546": "399fc6670871",
    "8586": "399fc6670871",
    "8609": "399fc6670871",
@@ -38646,7 +38789,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-11T08:38:27"
+  "revisada": "2026-10-11T10:44:40"
  },
- "ultima_corrida": "2026-10-11T08:38:02"
+ "ultima_corrida": "2026-10-11T10:44:12"
 }
