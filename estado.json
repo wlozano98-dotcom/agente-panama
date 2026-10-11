@@ -1,5 +1,5 @@
 {
- "comisiones_revisadas": "2026-10-11T10:35:57",
+ "comisiones_revisadas": "2026-10-11T17:34:44",
  "drive": {
   "7423": {
    "carpeta": "Protección e inclusión de personas con autismo (TEA) (ficha 7423)",
@@ -153,9 +153,17 @@
    "carpeta": "Verificación de permiso de ocupación en avisos de operación (ficha 8357)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
   },
+  "8373": {
+   "carpeta": "Programa de Alto Rendimiento Deportivo y Medicina Deportiva (ficha 8373)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "8377": {
    "carpeta": "Reforma al Reglamento Interno de la Asamblea Nacional (ficha 8377)",
    "comision": "Comisión de Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
+  },
+  "8380": {
+   "carpeta": "Festival del Acordeón Dorindo Cárdenas y Patronato (ficha 8380)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
   },
   "8381": {
    "carpeta": "Día contra la violencia y abuso sexual infantil (ficha 8381)",
@@ -30367,6 +30375,20 @@
    "titulo": "QUE ESTABLECE MEDIDAS DE PROTECCION CONTRA ACCIONES JUDICIALES ESTRATEGICAS CONTRA ACCIONES PUBLICAS Y PROTEGE A LOS DEFENSORES AMBIENTALES"
   },
   "8373": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1Cu0mJxXoGU60YQyfBZtm59W5DedzpKCP",
+    "fecha_analisis": "2026-10-11",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa se enfoca exclusivamente en la gobernanza pública deportiva y el apoyo estatal a atletas de alto rendimiento y paralímpicos a través de Pandeportes, sin imponer obligaciones, costos ni regulaciones a las empresas privadas.",
+    "resumen": "Reorganiza el Programa de Alto Rendimiento Deportivo y de Medicina Aplicada al Deporte bajo la gestión de Pandeportes, incorporando expresamente la categoría del deporte paralímpico. Establece criterios técnicos de certificación y evaluación de atletas, centros de tecnificación deportiva provinciales y mecanismos de afiliación voluntaria a la seguridad social para deportistas certificados.",
+    "sectores": [],
+    "titulo": "Que modifica la Ley 488 del 2025, del Texto Único de la Ley 16 de 1995, que reorganiza el Instituto Nacional de Deportes, relativos al Programa de Alto Rendimiento Deportivo y de Medicina Aplicada al Deporte.",
+    "titulo_corto": "Programa de Alto Rendimiento Deportivo y Medicina Deportiva"
+   },
    "anteproyecto": "444",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -30500,6 +30522,20 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTÍCULOS A LA LEY 49 DE 1984, QUE DICTA EL REGLAMENTO ORGÁNICO DEL RÉGIMEN INTERNO DE LA ASAMBLEA NACIONAL"
   },
   "8380": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1UYzKGukyeI9X9rLe5ZlpLVixSkWM8N-w",
+    "fecha_analisis": "2026-10-11",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Se trata de una iniciativa cultural y conmemorativa para instituir un festival y su patronato, por lo que no impone cargas ni modifica normativas aplicables a la actividad empresarial.",
+    "resumen": "El proyecto oficializa la celebración anual del Festival Nacional del Acordeón en el corregimiento de Sabana Grande, provincia de Los Santos, en homenaje a Daniel Dorindo Cárdenas. Asimismo, crea un patronato sin fines de lucro para gestionar los fondos, coordinar las actividades culturales y salvaguardar la música típica representativa del país.",
+    "sectores": [],
+    "titulo": "Que crea el Festival Nacional del Acordeón Dorindo Cárdenas y su Patronato",
+    "titulo_corto": "Festival del Acordeón Dorindo Cárdenas y Patronato"
+   },
    "anteproyecto": "447",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -38205,10 +38241,10 @@
   "8369": "a81199464a85",
   "8371": "718b27f7c84d",
   "8372": "b4537896492b",
-  "8373": "ad4e5e76e1e1",
+  "8373": "39e6c5389456",
   "8375": "ad857b958159",
   "8377": "8da427ebcaef",
-  "8380": "d7258fced33b",
+  "8380": "90793b551199",
   "8381": "985df5cd6685",
   "8382": "68d588aad1e6",
   "8383": "c32b45958b89",
@@ -38488,7 +38524,7 @@
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-11T16:34:37",
+  "fecha": "2026-10-11T17:35:47",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -38845,7 +38881,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-11T16:35:05"
+  "revisada": "2026-10-11T17:36:12"
  },
- "ultima_corrida": "2026-10-11T16:34:37"
+ "ultima_corrida": "2026-10-11T17:35:47"
 }
