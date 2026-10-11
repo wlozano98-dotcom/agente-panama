@@ -1,6 +1,10 @@
 {
  "comisiones_revisadas": "2026-10-11T02:35:46",
  "drive": {
+  "7622": {
+   "carpeta": "Política nacional de orientación vocacional (ficha 7622)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
   "7659": {
    "carpeta": "Tipificación de delitos contra la seguridad alimentaria (ficha 7659)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
@@ -6471,6 +6475,20 @@
    "titulo": "POR LA CUAL SE APRUEBA EL ACUERDO EN EL MARCO DE LA CONVENCIÓN DE LAS NACIONES UNIDAS SOBRE EL DERECHO DEL MAR RELATIVO A LA CONSERVACIÓN Y EL USO SOSTENIBLE DE LA DIVERSIDAD BIOLÓGICA MARINA DE LAS ZONAS SITUADAS FUERA DE LA JURISDICCIÓN NACIONAL, ADOPTADO EN NUEVA YORK, EL 19 DE JUNIO DE 2023"
   },
   "7622": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1TngNtd8jM2Rc2JEsYMbkxPzmM47jpNTA",
+    "fecha_analisis": "2026-10-11",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No impone obligaciones, costos ni modificaciones regulatorias al sector privado; se limita a la gestión pública estatal de orientación educativa y preveía coordinación voluntaria para ferias de empleo.",
+    "resumen": "Establece una política pública a cargo del Ministerio de Trabajo y Desarrollo Laboral para orientar vocacional y profesionalmente a jóvenes en su inserción laboral. Fomenta el uso de plataformas informáticas, coordinación interinstitucional y divulgación de opciones de empleo y pasantías. El proyecto fue objetado en su totalidad por el Órgano Ejecutivo por considerarlo inconveniente e inexequible.",
+    "sectores": [],
+    "titulo": "Que establece la Política Nacional de Orientación Vocacional y Profesional para Jóvenes Adultos",
+    "titulo_corto": "Política nacional de orientación vocacional"
+   },
    "anteproyecto": "188",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Objetado por Ejecutivo",
@@ -37165,7 +37183,7 @@
   "7616": "cb437d6cdf50",
   "7618": "3c332209e1b6",
   "7619": "858e2458b486",
-  "7622": "204b6122e53f",
+  "7622": "2c51f96a347b",
   "7623": "2686a84141a2",
   "7624": "8a389b8e51d2",
   "7625": "601d7115b864",
@@ -37980,7 +37998,7 @@
    "7808",
    "7659"
   ],
-  "fecha": "2026-10-11T02:36:39",
+  "fecha": "2026-10-11T03:38:38",
   "notas": {
    "7659": "399fc6670871",
    "7750": "399fc6670871",
@@ -38328,7 +38346,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-11T02:37:06"
+  "revisada": "2026-10-11T03:39:03"
  },
- "ultima_corrida": "2026-10-11T02:36:39"
+ "ultima_corrida": "2026-10-11T03:38:38"
 }
