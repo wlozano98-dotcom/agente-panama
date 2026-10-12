@@ -145,9 +145,25 @@
    "carpeta": "Sede de la Oficina de Área de la UIT en Panamá (ficha 8330)",
    "comision": "Comisión de Relaciones Exteriores"
   },
+  "8333": {
+   "carpeta": "Modificaciones a la Ley General de Adopciones (ficha 8333)",
+   "comision": "Comisión de la Mujer, la Niñez y la Familia"
+  },
+  "8344": {
+   "carpeta": "Día del Congreso Anfictiónico de Panamá (ficha 8344)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "8347": {
+   "carpeta": "Día de la Numismática Panameña (ficha 8347)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "8349": {
    "carpeta": "Gobernanza de la inteligencia artificial (ficha 8349)",
    "comision": "Comisión de Educacion, Cultura y Deportes"
+  },
+  "8351": {
+   "carpeta": "Reforma a la Junta Directiva de la SENNIAF (ficha 8351)",
+   "comision": "Comisión de la Mujer, la Niñez y la Familia"
   },
   "8353": {
    "carpeta": "Facturación en servicios continuos y efectos de suspensión (ficha 8353)",
@@ -28999,6 +29015,31 @@
    "titulo": "QUE ESTABLECE CONDICIONES PARA EL INGRESO DE MENORES DE EDAD A ESTABLECIMIENTOS DE HOSPEDAJE Y DICTA OTRAS DISPOSICIONES"
   },
   "8333": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1 (modifica el artículo 29 de la Ley 46 de 2013): Obliga a directores de servicios de salud y hospitalarios privados a informar al SENNIAF en un plazo máximo de 24 horas sobre menores en presunta privación del derecho a la familia.",
+     "Artículo 4 (adiciona el artículo 30-A a la Ley 46 de 2013): Fija a los centros hospitalarios un plazo no mayor de cinco días calendario para remitir al SENNIAF información solicitada sobre nacimientos sujetos a investigación."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1SA4so4cs2tZosTn_hDn5BIg8oJ4niSpU",
+    "fecha_analisis": "2026-10-12",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Exige a clínicas y hospitales privados notificar menores en desamparo en 24 horas y remitir registros de nacimientos en un plazo máximo de cinco días.",
+      "sector": "SALUD"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es marginal para el sector empresarial, circunscribiéndose a deberes de reporte y suministro de información sobre nacimientos por parte de centros médicos y hospitalarios privados en procesos de protección infantil.",
+    "resumen": "Reforma el marco legal de adopciones para agilizar los procesos de declaratoria de adoptabilidad ante el SENNIAF y los tribunales de niñez. Sustituye el término de niños expósitos por niños privados de cuidado parental por desconocimiento de origen y establece plazos perentorios para investigaciones administrativas, inscripción de nacimientos y trámite de exequátur.",
+    "sectores": [
+     "SALUD"
+    ],
+    "titulo": "Que modifica la Ley 46 de 2013, General de Adopciones de la República de Panamá y dicta otras disposiciones",
+    "titulo_corto": "Modificaciones a la Ley General de Adopciones"
+   },
    "anteproyecto": "404",
    "comision": "COMISION DE LA MUJER, LA NIÑEZ Y LA FAMILIA",
    "etapa": "Segundo Debate",
@@ -29335,6 +29376,20 @@
    "titulo": "LEY DE PROTECCION INTEGRAL DE HIJAS E HIJOS DE VICTIMAS DE FEMICIDIO"
   },
   "8344": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1HYsPtXXLjmdhhkYNWd47-J2TQIbpUvMy",
+    "fecha_analisis": "2026-10-12",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Se trata de una iniciativa puramente conmemorativa y educativa que no impone cargas tributarias, laborales ni regulatorias a las empresas, ni establece un día de descanso obligatorio.",
+    "resumen": "Declara el 22 de junio como Día Nacional de Conmemoración del Congreso Anfictiónico de Panamá de 1826. Establece actividades formativas y cívicas en entidades del Estado y centros educativos, además de ordenar la inclusión del tema en el currículo escolar y programación en medios estatales.",
+    "sectores": [],
+    "titulo": "Que declara el 22 de junio como Día del Congreso Anfictiónico de Panamá, convocado por el Libertador Simón Bolívar",
+    "titulo_corto": "Día del Congreso Anfictiónico de Panamá"
+   },
    "anteproyecto": "412",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -29406,6 +29461,20 @@
    "titulo": "QUE REGULA LA OPERACION DE CONCESIONARIAS Y DISTRIBUIDORES DE VEHICULOS AUTOMOTORES EN LA REPUBLICA DE PANAMA, ESTABLECE OBLIGACIONES DE SERVICIO TECNICO AUTORIZADO, INVENTARIO DE REPUESTOS."
   },
   "8347": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1h-3oIiqoXk5BxPAstueYjbzBM4Z335Mh",
+    "fecha_analisis": "2026-10-12",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Se trata de una iniciativa de carácter conmemorativo y cultural que no genera obligaciones, costos ni regulaciones para la actividad empresarial.",
+    "resumen": "Declara el 5 de julio de cada año como el Día de la Numismática Panameña en conmemoración de la creación del balboa en 1904. Faculta al Ministerio de Cultura, al MEDUCA y al Banco Nacional de Panamá a coordinar eventos académicos y culturales con asociaciones numismáticas.",
+    "sectores": [],
+    "titulo": "Que declara el 5 de julio de cada año como el Día de la Numismática Panameña.",
+    "titulo_corto": "Día de la Numismática Panameña"
+   },
    "anteproyecto": "417",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -29557,6 +29626,20 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS SOBRE PROCEDIMIENTO EXCEPCIONAL DE CONTRATACION DEL TEXTO UNICO DE LA LEY 22 DE 27 DE JUNIO DE 2006, ORDENADO POR LA LEY 153 DE 2020 Y DICTA OTRAS DISPOSICIONES"
   },
   "8351": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1wYBABHHdhBxDgJB-R8XtRodi1JqKQEe-",
+    "fecha_analisis": "2026-10-12",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa se limita a la estructura institucional del Estado y la fiscalización del sistema de protección de la niñez (SENNIAF y albergues), sin imponer cargas, trámites ni obligaciones sobre el sector empresarial privado.",
+    "resumen": "Modifica la composición y funciones de la Junta Directiva de la Secretaría Nacional de Niñez, Adolescencia y Familia (SENNIAF). Establece reuniones trimestrales obligatorias y crea una Oficina de Supervisión para fiscalizar los centros de acogimiento institucional públicos y de ONGs.",
+    "sectores": [],
+    "titulo": "Que modifica artículos de la Ley 14 de 23 de enero de 2009",
+    "titulo_corto": "Reforma a la Junta Directiva de la SENNIAF"
+   },
    "anteproyecto": "420",
    "comision": "COMISION DE LA MUJER, LA NIÑEZ Y LA FAMILIA",
    "etapa": "Segundo Debate",
@@ -38364,19 +38447,19 @@
   "8329": "f1d376dae731",
   "8330": "a268e67ddaab",
   "8331": "b80231a7080a",
-  "8333": "5b6ec0da57ac",
+  "8333": "ac7f1a1e0010",
   "8334": "e81b1c75fc7d",
   "8335": "b09edf823b9f",
   "8337": "6ad7ee3daceb",
   "8338": "f7a17c84cd43",
   "8339": "1bb569b4007b",
   "8341": "1e2bec273928",
-  "8344": "e648dba23f2f",
+  "8344": "91562e92257a",
   "8345": "eeb287dfc450",
-  "8347": "2068d6921572",
+  "8347": "3e74ed784f17",
   "8349": "d2c72021e5f7",
   "8350": "7905351860a7",
-  "8351": "612be5889526",
+  "8351": "66d330971dd7",
   "8353": "d1632789e01e",
   "8354": "db3a5333070a",
   "8355": "f3cff5b6b2f3",
@@ -38665,6 +38748,7 @@
    "8491",
    "7779",
    "8308",
+   "8333",
    "7829",
    "8298",
    "7915",
@@ -38682,7 +38766,7 @@
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-12T07:48:41",
+  "fecha": "2026-10-12T08:46:30",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -38703,6 +38787,7 @@
    "8302": "399fc6670871",
    "8304": "399fc6670871",
    "8308": "399fc6670871",
+   "8333": "399fc6670871",
    "8349": "399fc6670871",
    "8353": "399fc6670871",
    "8355": "399fc6670871",
@@ -39042,7 +39127,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-12T07:49:07"
+  "revisada": "2026-10-12T08:47:18"
  },
- "ultima_corrida": "2026-10-12T07:48:41"
+ "ultima_corrida": "2026-10-12T08:46:30"
 }
