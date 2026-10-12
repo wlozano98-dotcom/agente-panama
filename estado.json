@@ -157,6 +157,10 @@
    "carpeta": "Festival del Toro Galán de La Chorrera (ficha 8365)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "8369": {
+   "carpeta": "Patronato del Festival del Tambor Peligreño (ficha 8369)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "8373": {
    "carpeta": "Programa de Alto Rendimiento Deportivo y Medicina Deportiva (ficha 8373)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -30229,6 +30233,20 @@
    "titulo": "PARA LA REGULACION DE HORARIOS DE TRABAJO CON EL OBJETIVO DE REDUCIR EL TRAFICO VEHICULAR EN LA REPUBLICA DE PANAMA Y SE ESTABLECE UN MECANISMO DE CONSULTA CIUDADANA PARA SU APROBACION"
   },
   "8369": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1ohFpIuthjncZSWyTQ_aj5CoAk0R2PMGD",
+    "fecha_analisis": "2026-10-12",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto se limita a crear un patronato cultural y declarar un evento folclórico local, sin imponer obligaciones regulatorias, costos operativos ni restricciones al sector empresarial.",
+    "resumen": "Declara como patrimonio cultural inmaterial de Panamá el Festival Folclórico del Tambor Peligreño, celebrado anualmente en David, provincia de Chiriquí. Crea un patronato sin fines de lucro para gestionar y organizar el festival, integrando a entidades públicas y organizaciones locales. La norma prevé apoyo institucional de MiCultura y la ATP, además de otorgar deducibilidad del impuesto sobre la renta a las donaciones privadas que reciba la organización.",
+    "sectores": [],
+    "titulo": "Que declara patrimonio inmaterial de Panamá el Festival Folclórico del Tambor Peligreño y crea su patronato",
+    "titulo_corto": "Patronato del Festival del Tambor Peligreño"
+   },
    "anteproyecto": "438",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -38256,7 +38274,7 @@
   "8366": "94247e429d57",
   "8367": "c3ca450a3236",
   "8368": "7c0b76639b9e",
-  "8369": "a81199464a85",
+  "8369": "9af3e01782cf",
   "8371": "718b27f7c84d",
   "8372": "b4537896492b",
   "8373": "39e6c5389456",
@@ -38542,7 +38560,7 @@
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-12T01:38:38",
+  "fecha": "2026-10-12T02:38:09",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -38899,7 +38917,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-12T01:39:04"
+  "revisada": "2026-10-12T02:38:32"
  },
- "ultima_corrida": "2026-10-12T01:38:38"
+ "ultima_corrida": "2026-10-12T02:38:09"
 }
