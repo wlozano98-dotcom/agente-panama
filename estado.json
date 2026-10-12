@@ -125,6 +125,10 @@
    "carpeta": "Regulación del poliestireno biodegradable para alimentos (ficha 8298)",
    "comision": "Comisión de Población, Ambiente y Desarrollo"
   },
+  "8299": {
+   "carpeta": "Declaratoria de Casa Blanca como patrimonio cultural (ficha 8299)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "8302": {
    "carpeta": "Regulación de textos escolares y su reutilización (ficha 8302)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -136,6 +140,10 @@
   "8308": {
    "carpeta": "Regulación de drones en la actividad agropecuaria (ficha 8308)",
    "comision": "Comisión de Asuntos Agropecuarios"
+  },
+  "8313": {
+   "carpeta": "Competencia y concentración en telecomunicaciones (ficha 8313)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
   },
   "8319": {
    "carpeta": "Regulación y venta de textos, uniformes y útiles escolares (ficha 8319)",
@@ -27848,6 +27856,20 @@
    "titulo": "QUE REGULA LA IMPORTACION Y PRODUCCION DE POLIESTIRENO EXPANDIBLE Y POLIESTIRENO EXTRUIDO BIODEGRADABLE PARA ALIMENTOS Y DICTA OTRAS DISPOSICIONES"
   },
   "8299": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1F5la_iwgpXIFGg93O0hTxRcQ56Fc_Anl",
+    "fecha_analisis": "2026-10-12",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Se trata de una declaratoria patrimonial puntual sobre una propiedad específica sin implicaciones regulatorias, tributarias ni operativas para el sector empresarial.",
+    "resumen": "Declara como patrimonio cultural material inmueble de la nación el edificio 'Casa Blanca', situado en Bella Vista y actual sede de la Alianza Francesa. Define directrices de protección sobre su arquitectura original y encarga la gestión de conservación a la Alianza Francesa en conjunto con el Ministerio de Cultura.",
+    "sectores": [],
+    "titulo": "Por el cual se declara la Casa Blanca, actual sede de la Alianza Francesa, como patrimonio cultural de la Nación y dicta otras disposiciones",
+    "titulo_corto": "Declaratoria de Casa Blanca como patrimonio cultural"
+   },
    "anteproyecto": "374",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -28445,6 +28467,36 @@
    "titulo": "QUE ESTABLECE LA OBLIGATORIEDAD DE PROGRAMAS DE ACOMPAÑAMIENTO PSICOLOGICO PARA ELPERSONAL QUE ATIENDE SINIESTROS, EMERGENCIAS Y ESCENAS DE VIOLENCIA EXTREMA Y DICTA OTRAS DISIPACIONES"
   },
   "8313": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 6: Faculta la imposición de obligaciones regulatorias especiales a operadores dominantes, tales como regulación tarifaria temporal, compartición forzosa de infraestructura y separación funcional contable u operativa.",
+     "Artículo 7 y Artículo 18: Obliga a operadores dominantes o que controlen infraestructura esencial a dar acceso no discriminatorio y regulado a competidores.",
+     "Artículo 8: Presume posición dominante cuando un operador alcance o supere el 40% de participación de mercado en suscriptores o ingresos brutos.",
+     "Artículo 9: Exige autorización previa obligatoria de la ASEP y la ACODECO para cualquier fusión, adquisición o cesión de activos que supere el 25% de concentración.",
+     "Artículo 11: Autoriza a la ASEP a fijar topes tarifarios máximos, ordenar reducciones de tarifas y exigir planes sociales en ausencia de competencia efectiva.",
+     "Artículo 13: Establece compensación mediante descuento automático en factura al usuario si el servicio incumple los estándares de calidad.",
+     "Artículo 20 y Artículo 22: Fija multas por conductas anticompetitivas de hasta el 10% de los ingresos brutos anuales, y faculta medidas estructurales de desinversión o revocatoria parcial de concesiones en casos graves."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1rAyuPSR73nPnINIydJdjI2b2wfM-BZUj",
+    "fecha_analisis": "2026-10-12",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Modifica de forma sustancial las reglas operativas y de inversión del sector de telecomunicaciones al imponer posibles topes tarifarios, separación funcional forzosa y multas de hasta el 10% de los ingresos brutos.",
+      "sector": "OTROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea obligaciones regulatorias de gran impacto para los operadores y concesionarios de telecomunicaciones en Panamá, limitando fusiones, condicionando el uso de infraestructura y habilitando la intervención de tarifas.",
+    "resumen": "Establece un marco regulatorio para frenar la concentración económica y prevenir abusos de posición dominante en el sector de telecomunicaciones. Faculta a la ASEP y a la ACODECO a intervenir en tarifas, revisar fusiones sobre el 25% de participación, exigir la compartición obligatoria de infraestructura esencial e imponer compensaciones directas a los usuarios por fallas de calidad del servicio.",
+    "sectores": [
+     "OTROS"
+    ],
+    "titulo": "Que promueve la libre competencia, regula la concentración económica en el mercado de telecomunicaciones y fortalece la protección de los usuarios",
+    "titulo_corto": "Competencia y concentración en telecomunicaciones"
+   },
    "anteproyecto": "388",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Segundo Debate",
@@ -38491,7 +38543,7 @@
   "8295": "c3a07414ecd6",
   "8296": "ea5fe74d67aa",
   "8298": "ac33a709c646",
-  "8299": "848e243e8a74",
+  "8299": "de3109399baf",
   "8300": "9ba43272bf99",
   "8301": "242046170467",
   "8302": "00edfa5d46e5",
@@ -38503,7 +38555,7 @@
   "8310": "437e597794e7",
   "8311": "87c0205ad8a3",
   "8312": "ca547b4396f4",
-  "8313": "c62a01b34c1f",
+  "8313": "175afff413c6",
   "8314": "f0e28bd91412",
   "8317": "0b153f6a3b17",
   "8319": "43347a4b0447",
@@ -38833,13 +38885,14 @@
    "8361",
    "7808",
    "8319",
+   "8313",
    "8355",
    "8353",
    "7659",
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-12T10:51:24",
+  "fecha": "2026-10-12T11:40:32",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -38860,6 +38913,7 @@
    "8302": "399fc6670871",
    "8304": "399fc6670871",
    "8308": "399fc6670871",
+   "8313": "399fc6670871",
    "8319": "399fc6670871",
    "8325": "399fc6670871",
    "8333": "399fc6670871",
@@ -39202,7 +39256,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-12T10:55:14"
+  "revisada": "2026-10-12T11:40:57"
  },
- "ultima_corrida": "2026-10-12T10:51:24"
+ "ultima_corrida": "2026-10-12T11:40:32"
 }
