@@ -1,5 +1,5 @@
 {
- "comisiones_revisadas": "2026-10-12T00:49:38",
+ "comisiones_revisadas": "2026-10-12T07:44:04",
  "drive": {
   "7423": {
    "carpeta": "Protección e inclusión de personas con autismo (TEA) (ficha 7423)",
@@ -149,8 +149,24 @@
    "carpeta": "Gobernanza de la inteligencia artificial (ficha 8349)",
    "comision": "Comisión de Educacion, Cultura y Deportes"
   },
+  "8353": {
+   "carpeta": "Facturación en servicios continuos y efectos de suspensión (ficha 8353)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
+  "8355": {
+   "carpeta": "Restricciones y distancias mínimas para canteras (ficha 8355)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
   "8357": {
    "carpeta": "Verificación de permiso de ocupación en avisos de operación (ficha 8357)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
+  "8359": {
+   "carpeta": "Protección educativa e inclusión de personas con epilepsia (ficha 8359)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "8361": {
+   "carpeta": "Régimen tarifario para acueductos comunitarios (ficha 8361)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
   },
   "8365": {
@@ -29579,6 +29595,32 @@
    "titulo": "QUE MODIFICA ARTICULOS DE LA LEY 14 DE 23 DE ENERO DE 2009"
   },
   "8353": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1 (adiciona el artículo 77-A a la Ley 45 de 2007): Define los contratos de prestación continua, prohíbe el cobro de cargos recurrentes cuando el servicio esté suspendido o interrumpido, suspende el cómputo del plazo contractual durante dicho lapso, extiende la vigencia por el tiempo suspendido al reactivarse y establece la coordinación entre ACODECO y la ASEP.",
+     "Artículo 2: Formaliza la adición formal del artículo 77-A a la Ley 45 de 31 de octubre de 2007.",
+     "Artículo 3: Fija la entrada en vigor a partir de su promulgación en la Gaceta Oficial."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1i2ThGhszollf0Kac4IqJTdhBke-CDfHw",
+    "fecha_analisis": "2026-10-12",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Modifica la Ley 45 de 2007 de protección al consumidor, prohibiendo a los proveedores de servicios periódicos o continuos cobrar cargos recurrentes durante periodos de suspensión o interrupción.",
+      "sector": "OTROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea una restricción operativa y comercial directa a las empresas proveedoras de servicios continuos, obligándolas a pausar la facturación y ajustar los plazos de vigencia de contratos cuando el servicio no esté disponible.",
+    "resumen": "La propuesta adiciona el artículo 77-A a la Ley 45 de 2007 para regular la facturación en contratos de prestación continua entre agentes económicos y consumidores. Prohíbe generar cargos recurrentes durante periodos de interrupción o suspensión del servicio por mora o falla del proveedor. Además, suspende el cómputo del plazo del contrato durante la suspensión y lo prorroga por el tiempo equivalente tras su reanudación si el contrato tiene plazo definido.",
+    "sectores": [
+     "OTROS"
+    ],
+    "titulo": "Que regula la facturación de servicios de prestación continua y los efectos de su suspensión",
+    "titulo_corto": "Facturación en servicios continuos y efectos de suspensión"
+   },
    "anteproyecto": "423",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Segundo Debate",
@@ -29645,6 +29687,39 @@
    "titulo": "QUE INCENTIVA Y FORTALECE EL MERCADO DE ESPECTACULOS PUBLICOS"
   },
   "8355": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Modifica el literal b del artículo 29 del Código de Recursos Minerales para establecer como áreas de reserva donde no se otorgarán concesiones no metálicas los radios a menos de 2 km de viviendas y poblados, 1 km de escuelas y centros médicos, 2 km de lugares turísticos, 2 km de carreteras y 3 km de autopistas.",
+     "Artículo 2: Prohíbe al Ministerio de Comercio e Industrias (MICI) otorgar nuevas concesiones o autorizar prórrogas, renovaciones o extensiones de contratos de minerales no metálicos en dichas áreas de reserva.",
+     "Artículo 3: Ordena rechazar y archivar en un plazo de tres meses todas las solicitudes en trámite de concesión, prórroga o renovación que queden comprendidas dentro de las nuevas áreas de reserva.",
+     "Artículo 4: Exige a las concesiones de minerales no metálicos actualmente en ejecución adecuar sus operaciones y establecer zonas de amortiguamiento de al menos 100 metros respecto a comunidades y bienes protegidos."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1COGtRAyUyZqkw9JCqEDEGFh-9WSLswY8",
+    "fecha_analisis": "2026-10-12",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Prohíbe nuevas concesiones y prórrogas de canteras cerca de vías y poblados, limitando drásticamente el suministro de piedra, arena y materiales pétreos para la construcción.",
+      "sector": "CEMENTERAS"
+     },
+     {
+      "nivel": "alto",
+      "razon": "Modifica el Código de Recursos Minerales para rechazar de plano solicitudes y prórrogas de concesiones de minerales no metálicos e impone zonas de amortiguamiento a las actuales.",
+      "sector": "EXTRACTIVO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Tiene un impacto alto porque cambia las reglas nucleares de operación de las canteras de minerales no metálicos, prohibiendo el otorgamiento y renovación de contratos en amplias zonas de exclusión y obligando a archivar solicitudes en trámite.",
+    "resumen": "El proyecto restringe fuertemente la actividad de minería no metálica (canteras y extracción de materiales de construcción) al ampliar las áreas de reserva donde queda prohibido otorgar o renovar concesiones. Fija distancias mínimas obligatorias de alejamiento respecto a poblados, viviendas, vías principales e infraestructuras comunitarias. Afecta directamente a empresas explotadoras de canteras, productoras de agregados y a la cadena de suministro de la construcción.",
+    "sectores": [
+     "CEMENTERAS",
+     "EXTRACTIVO"
+    ],
+    "titulo": "Que modifica una disposición del Código de Recursos Minerales y dicta otras disposiciones",
+    "titulo_corto": "Restricciones y distancias mínimas para canteras"
+   },
    "anteproyecto": "427",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Segundo Debate",
@@ -29839,6 +29914,25 @@
    "titulo": "QUE MODIFICA LA LEY 82 DE 2013, QUE ADOPTA MEDIDAS DE PREVENCION CONTRA LA VIOLENCIA EN LAS MUJERES Y REFORMA EL CODIGO PENAL PARA TIPIFICAR EL FEMICIDIO Y SANCIONAR LOS HECHOS DE VIOLENCIA CONTRA LA MUJER"
   },
   "8359": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2: Obliga a los centros educativos particulares a adoptar e implementar protocolos ante crisis epilépticas y capacitar periódicamente a su personal docente y administrativo.",
+     "Artículo 3: Dispone que los centros educativos elaboren un Plan Individual de Atención para cada estudiante diagnosticado, en conjunto con sus acudientes y médicos.",
+     "Artículo 7: Exige a los colegios particulares realizar ajustes razonables y adaptaciones necesarias para la permanencia y aprendizaje de los alumnos con epilepsia.",
+     "Artículo 8: Faculta al MEDUCA y MINSA a supervisar el cumplimiento e imponer sanciones administrativas ante infracciones."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1ouuRgPznxHdE8GPZQ0nrwndpC2FiXtI1",
+    "fecha_analisis": "2026-10-12",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No afecta a los sectores económicos o productivos prioritarios del país; sus exigencias operativas y de cumplimiento se circunscriben a centros de enseñanza y colegios particulares.",
+    "resumen": "Propone un marco legal para garantizar la inclusión y no discriminación de estudiantes con epilepsia en el sistema escolar nacional. Obliga a centros educativos oficiales y particulares a diseñar protocolos de actuación ante crisis, capacitar a su personal y realizar ajustes razonables de enseñanza. Además, compromete al Estado a asegurar el suministro de medicamentos antiepilépticos y coordinar redes de atención médica y psicosocial.",
+    "sectores": [],
+    "titulo": "Que establece la atención integral, protección educativa y no discriminación de las personas con epilepsia, y dicta otras disposiciones",
+    "titulo_corto": "Protección educativa e inclusión de personas con epilepsia"
+   },
    "anteproyecto": "430",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -29905,6 +29999,31 @@
    "titulo": "QUE PREVIENE, REGULA Y SANCIONA EL ABANDONO HOSPITALARIO DE PACIENTES CON ALTA MEDICA, ESPECIALMENTE ADULTOS MAYORES, Y ESTABLECE MECANISMOS DE EGRESO SEGURO, RESPONSABILIDAD FAMILIAR E INSTITUCIONAL, Y DICTA OTRAS DISPOSICIONES."
   },
   "8361": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 8: Establece que el Fondo de Apoyo a los Sistemas de Acueductos Rurales y Comunitarios se financiará, entre otros aportes, con un porcentaje a definir de las utilidades de las empresas de servicios públicos relacionadas con agua y saneamiento.",
+     "Artículo 10: Obliga a las empresas de distribución eléctrica a asumir el cincuenta por ciento (50%) del costo de la facturación eléctrica correspondiente a la operación de los acueductos comunitarios registrados."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1PC-0echMdhDrG_pJWW1WG-53j9f2RMQ-",
+    "fecha_analisis": "2026-10-12",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Impone a las empresas de distribución eléctrica la obligación de asumir el 50% de la facturación de consumo de los acueductos comunitarios y grava utilidades de empresas de servicios públicos para un fondo administrado por la ASEP.",
+      "sector": "PETRÓLEO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea una carga financiera directa para las empresas de distribución eléctrica al obligarlas a absorber el 50% de la facturación eléctrica de acueductos comunitarios, además de captar un porcentaje de las utilidades de empresas de servicios públicos de agua y saneamiento.",
+    "resumen": "Propone un marco legal y tarifario preferencial para los acueductos comunitarios rurales y urbanos administrados por juntas comunitarias (JAAR). Crea un Fondo de Apoyo bajo la supervisión de la ASEP financiado en parte con utilidades de empresas de agua y saneamiento, y ordena a las empresas de distribución eléctrica asumir el 50% de la factura eléctrica de estos acueductos. Afecta directamente a concesionarias de distribución eléctrica y empresas de servicios públicos de agua.",
+    "sectores": [
+     "PETRÓLEO"
+    ],
+    "titulo": "Que establece un régimen tarifario especial para los sistemas de acueductos comunitarios en la República de Panamá y dicta otras disposiciones",
+    "titulo_corto": "Régimen tarifario para acueductos comunitarios"
+   },
    "anteproyecto": "431",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Segundo Debate",
@@ -38258,15 +38377,15 @@
   "8349": "d2c72021e5f7",
   "8350": "7905351860a7",
   "8351": "612be5889526",
-  "8353": "d73eed7ad66f",
+  "8353": "d1632789e01e",
   "8354": "db3a5333070a",
-  "8355": "4c2885c19eb3",
+  "8355": "f3cff5b6b2f3",
   "8356": "416bfd8c27cf",
   "8357": "b1fd37cf7d1c",
   "8358": "c9a9c5f7c978",
-  "8359": "ccf69b735873",
+  "8359": "de61bc5c5047",
   "8360": "1cd4c83c67f5",
-  "8361": "218b1bae3203",
+  "8361": "e511e1b72779",
   "8362": "88ec34dc1803",
   "8363": "f78b7496cc29",
   "8364": "0322524ec0a8",
@@ -38555,12 +38674,15 @@
    "7767",
    "8079",
    "7976",
+   "8361",
    "7808",
+   "8355",
+   "8353",
    "7659",
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-12T06:49:18",
+  "fecha": "2026-10-12T07:48:41",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -38582,6 +38704,9 @@
    "8304": "399fc6670871",
    "8308": "399fc6670871",
    "8349": "399fc6670871",
+   "8353": "399fc6670871",
+   "8355": "399fc6670871",
+   "8361": "399fc6670871",
    "8394": "399fc6670871",
    "8395": "399fc6670871",
    "8465": "399fc6670871",
@@ -38917,7 +39042,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-12T06:49:48"
+  "revisada": "2026-10-12T07:49:07"
  },
- "ultima_corrida": "2026-10-12T06:49:18"
+ "ultima_corrida": "2026-10-12T07:48:41"
 }
