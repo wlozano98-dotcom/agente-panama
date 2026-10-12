@@ -121,6 +121,10 @@
    "carpeta": "Creación del Patronato del Estadio Roberto Mariano Bula (ficha 8284)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "8293": {
+   "carpeta": "Regulación de servicios de sangre y donación voluntaria (ficha 8293)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
   "8296": {
    "carpeta": "Reforma al marco regulatorio del servicio eléctrico (ficha 8296)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
@@ -27664,6 +27668,32 @@
    "titulo": "QUE REGULA LA PROMOCION E IMPLEMENTACION DEL HIDROGENO VERDE COMO COMBUSTIBLE EN LA REPUBLICA DE PANAMA"
   },
   "8293": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 3 (modifica el artículo 28 de la Ley 35 de 2018): Exige que el proceso de selección y obtención de sangre en servicios públicos y privados se ciña estrictamente a criterios técnicos, objetivos y sustentados en evidencia científica conforme a normas sanitarias.",
+     "Artículo 4 (adiciona el artículo 58-A a la Ley 35 de 2018): Prohíbe en servicios de sangre públicos y privados las prácticas discriminatorias o de diferimiento sin respaldo científico en la atención a donantes, facultando al Minsa para imponer sanciones administrativas.",
+     "Artículos 6 y 9 (adicionan los artículos 58-B y 58-E a la Ley 35 de 2018): Facultan a las empresas a fomentar jornadas internas de donación voluntaria pero prohíben vincular la donación a incentivos económicos, evaluaciones de desempeño o presiones laborales, protegiendo la confidencialidad médica del trabajador."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1_Y1xytvKGNNFH9uDSz2aG8KBHP5Ujj3x",
+    "fecha_analisis": "2026-10-12",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Exige a los bancos de sangre y clínicas privadas ajustar sus protocolos de selección y diferimiento de donantes a criterios estrictamente científicos bajo apercibimiento de sanciones.",
+      "sector": "SALUD"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea obligaciones y ajustes de procesos para clínicas y bancos de sangre privados en materia de selección de donantes y no discriminación técnica, mientras que para el resto del sector empresarial los programas de donación y el sello corporativo son estrictamente voluntarios.",
+    "resumen": "Actualiza la legislación sobre bancos de sangre y medicina transfusional en Panamá, promoviendo la donación voluntaria y altruista. Prohíbe criterios de selección y diferimiento de donantes que carezcan de fundamento técnico o científico en centros públicos y privados, bajo sanción administrativa. Además, establece un sello honorífico y voluntario de reconocimiento para empresas que promuevan jornadas de captación sin coaccionar a sus colaboradores.",
+    "sectores": [
+     "SALUD"
+    ],
+    "titulo": "Que modifica y adiciona artículos a la Ley 35 de 30 de mayo de 2018, que regula los servicios de sangre y transfusiones sanguíneas",
+    "titulo_corto": "Regulación de servicios de sangre y donación voluntaria"
+   },
    "anteproyecto": "369",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Segundo Debate",
@@ -38571,7 +38601,7 @@
   "8289": "c6f44b80adea",
   "8291": "3d20853871cd",
   "8292": "d8249710ad57",
-  "8293": "5def39e77f66",
+  "8293": "577b4a71eae4",
   "8295": "c3a07414ecd6",
   "8296": "da600ed7168c",
   "8298": "ac33a709c646",
@@ -38909,6 +38939,7 @@
    "7915",
    "8394",
    "8395",
+   "8293",
    "8132",
    "7767",
    "8079",
@@ -38925,7 +38956,7 @@
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-12T18:41:31",
+  "fecha": "2026-10-12T19:37:08",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -38942,6 +38973,7 @@
    "8079": "399fc6670871",
    "8132": "399fc6670871",
    "8177": "399fc6670871",
+   "8293": "399fc6670871",
    "8296": "399fc6670871",
    "8298": "399fc6670871",
    "8302": "399fc6670871",
@@ -39292,7 +39324,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-12T18:42:00"
+  "revisada": "2026-10-12T19:37:34"
  },
- "ultima_corrida": "2026-10-12T18:41:31"
+ "ultima_corrida": "2026-10-12T19:37:08"
 }
