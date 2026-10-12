@@ -1,5 +1,5 @@
 {
- "comisiones_revisadas": "2026-10-12T13:51:47",
+ "comisiones_revisadas": "2026-10-12T20:39:44",
  "drive": {
   "7423": {
    "carpeta": "Protección e inclusión de personas con autismo (TEA) (ficha 7423)",
@@ -120,6 +120,10 @@
   "8284": {
    "carpeta": "Creación del Patronato del Estadio Roberto Mariano Bula (ficha 8284)",
    "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "8292": {
+   "carpeta": "Regulación del hidrógeno verde como combustible (ficha 8292)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
   },
   "8293": {
    "carpeta": "Regulación de servicios de sangre y donación voluntaria (ficha 8293)",
@@ -27630,6 +27634,42 @@
    "titulo": "QUE DECLARA LA PLAZA BELISARIO PORRAS PATRIMONIO CULTURAL MATERIAL DE LA NACIÓN PANAMEÑA"
   },
   "8292": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 10 y 11: Exige licencia previa de la Secretaría Nacional de Energía (piloto, demostrativa o comercial) para toda actividad de producción, transformación o industrialización de hidrógeno verde.",
+     "Artículo 12 y 16: Obliga a presentar planes de gestión hídrica, certificaciones de energía renovable, estudios técnico-económicos y a priorizar la desalación en zonas de estrés hídrico.",
+     "Artículo 17 y 18: Impone el cumplimiento de normas técnicas internacionales de seguridad, planes de contingencia y programas de capacitación certificada de personal.",
+     "Artículo 19: Faculta a la ASEP para ordenar acceso abierto a infraestructura esencial de la cadena de valor ante posiciones dominantes o interés público.",
+     "Artículo 21: Crea el Sistema Nacional de Certificación de Hidrógeno Renovable para verificar origen y trazabilidad.",
+     "Artículo 22: Habilita al Órgano Ejecutivo a otorgar incentivos fiscales temporales sujetos a desempeño ambiental, empleo local y transferencia técnica.",
+     "Artículo 25: Establece multas administrativas que van desde B/. 5,000 hasta B/. 2,000,000, además de suspensión o cancelación de licencias e inhabilitación por hasta 10 años."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1GCa0LC0e6YUhbmjUecqhUhYhoDtx0nal",
+    "fecha_analisis": "2026-10-12",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Crea reglas operativas, licencias de comercialización y eventuales obligaciones de acceso abierto a infraestructura para nuevos combustibles y sus derivados.",
+      "sector": "PETRÓLEO"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Establece licencias obligatorias, requisitos técnicos de seguridad y certificaciones para la transformación industrial y producción de derivados sintéticos.",
+      "sector": "INDUSTRIAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea un régimen completo de licencias, normativas de seguridad industrial y posibles incentivos fiscales para el desarrollo de un nuevo mercado de combustibles limpios en el país.",
+    "resumen": "Establece el marco institucional y regulatorio para la producción, almacenamiento, transporte, comercialización, exportación y uso de hidrógeno verde y sus derivados en Panamá. Designa a la Secretaría Nacional de Energía como ente rector e introduce un régimen de licencias operativas, certificación de origen y supervisión ambiental e hídrica. Afecta directamente a empresas del sector energético, comercializadores de combustibles y proyectos industriales interesados en invertir en energías renovables y combustibles limpios.",
+    "sectores": [
+     "PETRÓLEO",
+     "INDUSTRIAS"
+    ],
+    "titulo": "Que regula la promoción e implementación del hidrógeno verde como combustible en la República de Panamá",
+    "titulo_corto": "Regulación del hidrógeno verde como combustible"
+   },
    "anteproyecto": "367",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Segundo Debate",
@@ -38600,7 +38640,7 @@
   "8288": "753993820800",
   "8289": "c6f44b80adea",
   "8291": "3d20853871cd",
-  "8292": "d8249710ad57",
+  "8292": "0f34bb39870a",
   "8293": "577b4a71eae4",
   "8295": "c3a07414ecd6",
   "8296": "da600ed7168c",
@@ -38939,6 +38979,7 @@
    "7915",
    "8394",
    "8395",
+   "8292",
    "8293",
    "8132",
    "7767",
@@ -38956,7 +38997,7 @@
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-12T19:37:08",
+  "fecha": "2026-10-12T20:40:28",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -38973,6 +39014,7 @@
    "8079": "399fc6670871",
    "8132": "399fc6670871",
    "8177": "399fc6670871",
+   "8292": "399fc6670871",
    "8293": "399fc6670871",
    "8296": "399fc6670871",
    "8298": "399fc6670871",
@@ -39324,7 +39366,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-12T19:37:34"
+  "revisada": "2026-10-12T20:40:54"
  },
- "ultima_corrida": "2026-10-12T19:37:08"
+ "ultima_corrida": "2026-10-12T20:40:28"
 }
