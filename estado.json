@@ -121,6 +121,10 @@
    "carpeta": "Creación del Patronato del Estadio Roberto Mariano Bula (ficha 8284)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "8296": {
+   "carpeta": "Reforma al marco regulatorio del servicio eléctrico (ficha 8296)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
   "8298": {
    "carpeta": "Regulación del poliestireno biodegradable para alimentos (ficha 8298)",
    "comision": "Comisión de Población, Ambiente y Desarrollo"
@@ -27721,6 +27725,34 @@
    "titulo": "QUE MODIFICA EL CODIGO PROCESAL PENAL (LEY 63 DE 2008) PARA DECLARAR LA INAPELABILIDAD DE LAS SENTENCIAS ABSOLUTORIA DICTADA EN PRIMERA INSTANCIA Y LIMITA LA CAPACIDAD DEL MINISTERIO PUBLICO Y DE LA QUERELLA PARA RECURRIRLAS."
   },
   "8296": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1 (adiciona Art. 84-A a la Ley 6 de 1997): Obliga a las distribuidoras a ejecutar la extensión de la red eléctrica hasta 10 km en zonas rurales previa aprobación de la OER y la ASEP con fondos del FER, a partir de noviembre de 2028.",
+     "Artículo 2 (modifica Art. 89 de la Ley 6 de 1997): Crea una contribución anual obligatoria de hasta el 5% de la utilidad neta antes de ISR para los agentes del mercado eléctrico (1% del ingreso bruto menos compras para cogeneradoras/autogeneradoras) destinada al Fondo de Electrificación Rural por 4 años prorrogables.",
+     "Artículo 3 (adiciona Art. 93-A a la Ley 6 de 1997): Prohíbe a las distribuidoras exigir depósitos de garantía o fianzas en zonas rurales y sujeta a autorización previa de la ASEP cualquier ajuste en el resto del país.",
+     "Artículo 4 (modifica Art. 123 de la Ley 6 de 1997): Prohíbe la facturación con base en lecturas estimadas, promedios históricos o proyecciones, exigiendo medición real, efectiva y verificable.",
+     "Artículo 5 (adiciona Art. 93-B a la Ley 6 de 1997): Traslada a gobiernos locales las labores de poda y manejo de vegetación en zonas rurales y les permite recaudar costos, tasas o tributos municipales por estos trabajos."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1fGU6c6nbDLI3b03IsKrK-EspXiDZYTO7",
+    "fecha_analisis": "2026-10-12",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Crea una contribución obligatoria de hasta el 5% de la utilidad neta a las empresas del mercado eléctrico e impone a las distribuidoras obligaciones operativas de extensión de red y restricciones de facturación.",
+      "sector": "PETRÓLEO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Afecta de forma directa a las empresas generadoras y distribuidoras de energía al crearles una nueva carga económica de hasta el 5% de sus utilidades para electrificación rural y prohibirles el cobro por estimación.",
+    "resumen": "Modifica la ley del sector eléctrico para crear un aporte obligatorio de hasta el 5% de las utilidades netas de los agentes del mercado eléctrico destinado al Fondo de Electrificación Rural. Además, obliga a las empresas distribuidoras a extender la red hasta 10 km en áreas rurales, prohíbe exigir depósitos de garantía en dichas zonas y prohíbe la facturación mediante lecturas estimadas o promedios históricos.",
+    "sectores": [
+     "PETRÓLEO"
+    ],
+    "titulo": "Que modifica la Ley 6 del 3 de febrero de 1997, que dicta el marco regulatorio e institucional para la prestación del servicio público de electricidad y dicta otras disposiciones",
+    "titulo_corto": "Reforma al marco regulatorio del servicio eléctrico"
+   },
    "anteproyecto": "372",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Segundo Debate",
@@ -38541,7 +38573,7 @@
   "8292": "d8249710ad57",
   "8293": "5def39e77f66",
   "8295": "c3a07414ecd6",
-  "8296": "ea5fe74d67aa",
+  "8296": "da600ed7168c",
   "8298": "ac33a709c646",
   "8299": "de3109399baf",
   "8300": "9ba43272bf99",
@@ -38888,11 +38920,12 @@
    "8313",
    "8355",
    "8353",
+   "8296",
    "7659",
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-12T15:39:32",
+  "fecha": "2026-10-12T16:39:26",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -38909,6 +38942,7 @@
    "8079": "399fc6670871",
    "8132": "399fc6670871",
    "8177": "399fc6670871",
+   "8296": "399fc6670871",
    "8298": "399fc6670871",
    "8302": "399fc6670871",
    "8304": "399fc6670871",
@@ -39244,7 +39278,9 @@
    "3376",
    "3377",
    "3378",
-   "3379"
+   "3379",
+   "3380",
+   "3381"
   ],
   "pleno": [
    "497",
@@ -39256,7 +39292,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-12T15:39:57"
+  "revisada": "2026-10-12T16:39:52"
  },
- "ultima_corrida": "2026-10-12T15:39:32"
+ "ultima_corrida": "2026-10-12T16:39:26"
 }
