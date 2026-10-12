@@ -137,9 +137,17 @@
    "carpeta": "Regulación de drones en la actividad agropecuaria (ficha 8308)",
    "comision": "Comisión de Asuntos Agropecuarios"
   },
+  "8319": {
+   "carpeta": "Regulación y venta de textos, uniformes y útiles escolares (ficha 8319)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "8324": {
    "carpeta": "Creación de la Orden Futbolística Luis Matador Tejada (ficha 8324)",
    "comision": "Comisión de Educacion, Cultura y Deportes"
+  },
+  "8325": {
+   "carpeta": "Transparencia y topes a penalidades en créditos bancarios (ficha 8325)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
   },
   "8330": {
    "carpeta": "Sede de la Oficina de Área de la UIT en Panamá (ficha 8330)",
@@ -28531,6 +28539,42 @@
    "titulo": "LEY MARCO DE CIBERSEGURIDAD DE LA REPUBLICA DE PANAMA"
   },
   "8319": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1 (modifica art. 351 Ley 47/1946): Prohíbe toda venta atada, exclusividad comercial o condicionamiento del servicio educativo a comercios específicos, e instruye coordinación entre MEDUCA, MICI y ACODECO para vigilar prácticas anticompetitivas.",
+     "Artículo 2 (adiciona art. 351-A): Prohíbe a las escuelas exigir marcas o proveedores exclusivos de uniformes escolares, permitiendo la compra en cualquier comercio que cumpla las especificaciones técnicas.",
+     "Artículo 3 (adiciona art. 351-C): Obliga a los centros educativos a publicar la lista definitiva de textos y uniformes a más tardar el 31 de octubre, sin cambios posteriores sin autorización del MEDUCA.",
+     "Artículo 5 (modifica art. 354-A): Fija una vigencia mínima obligatoria de seis años para los textos escolares, prohíbe a editoriales inducir cambios anticipados e impone multas de B/. 5,000 a B/. 50,000, suspensión o inhabilitación comercial por hasta cinco años.",
+     "Artículo 6 (modifica art. 354-B): Crea el Programa Nacional de Reutilización de Textos Escolares y condiciona la renovación de licencia de colegios privados a la adopción de programas internos de reutilización.",
+     "Artículo 7 (modifica art. 354-C): Dispone la publicación de una lista vinculante con precio máximo de referencia para libros, exige preferencia de impresión nacional, prohíbe la exclusividad comercial y ordena auditorías anuales del MEDUCA a editoriales y colegios.",
+     "Artículo 9 (adiciona art. 354-E): Obliga a empresas comerciales y colegios particulares infractores a restituir el monto cobrado de forma indebida más intereses legales."
+    ],
+    "drive": "https://drive.google.com/drive/folders/18OAZ91km-zwqGQ1AMWLUO1WlZx3kB_-1",
+    "fecha_analisis": "2026-10-12",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Obliga a la industria editorial e imprentas a una vigencia mínima de seis años por edición, impone precios máximos de referencia, auditorías anuales y multas de hasta B/. 50,000 por inducir reemplazos anticipados.",
+      "sector": "INDUSTRIAS"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Afecta al comercio minorista al prohibir acuerdos de exclusividad en la venta de uniformes o útiles escolares y penalizar las ventas atadas bajo supervisión de ACODECO.",
+      "sector": "OTROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Regula de forma directa el negocio de editoriales, imprentas y comercios de insumos escolares al restringir la periodicidad de renovación de textos, prohibir contratos de exclusividad comercial y fijar precios de referencia bajo sanciones económicas.",
+    "resumen": "La propuesta establece un marco de control sobre la comercialización de textos, útiles y uniformes escolares en centros educativos oficiales y particulares. Fija una vigencia mínima de seis años para los libros de texto, prohíbe ventas atadas y acuerdos de exclusividad con marcas o comercios específicos, e implementa precios máximos de referencia y programas de reutilización. Afecta directamente a empresas editoriales, imprentas, comercios minoristas y colegios particulares.",
+    "sectores": [
+     "INDUSTRIAS",
+     "OTROS"
+    ],
+    "titulo": "Que modifica y adiciona disposiciones a la Ley 47 de 1946, Orgánica de Educación, en materia de regulación, vigencia, reutilización y comercialización de textos escolares, uniformes y útiles",
+    "titulo_corto": "Regulación y venta de textos, uniformes y útiles escolares"
+   },
    "anteproyecto": "393",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -28725,6 +28769,33 @@
    "titulo": "QUE CREA LA ORDEN NACIONAL DE HONOR FUTBOLÍSTICO LUIS \"MATADOR\" TEJADA HANSELL"
   },
   "8325": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1 (adiciona numerales 29 a 32 al art. 16 del Decreto Ley 9 de 1998): Faculta a la Superintendencia de Bancos a fiscalizar tasas de interés, regular índices de referencia oficiales, ordenar la eliminación de cláusulas contractuales indebidas y ordenar la devolución de cobros indebidos.",
+     "Artículo 2 (modifica el art. 79 del Decreto Ley 9 de 1998): Obliga a fijar topes mínimos y máximos en contratos con tasa variable y prohíbe aumentar tasas o comisiones sin notificación previa de al menos 60 días al cliente.",
+     "Artículo 3 (adiciona numeral 7 y parágrafo al art. 193 del Decreto Ley 9 de 1998): Exige ajustar a la baja automáticamente la tasa cuando baje el índice de referencia y limita las penalidades y recargos por mora a un tope máximo acumulado del 20% del capital prestado.",
+     "Artículo 4 (modifica numerales 6 y 10, adiciona 12 y 13 al art. 196 del Decreto Ley 9 de 1998): Exige incluir en los contratos la fórmula matemática exacta de cálculo de intereses, rango de tasas, índice verificable y requiere consentimiento expreso del cliente para modificar tasas o condiciones esenciales."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1nMdVBFsjZ7Pz-qvHYqrU13UjZSmmacW5",
+    "fecha_analisis": "2026-10-12",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Modifica directamente las reglas operativas y contractuales de la banca, imponiendo techos a penalidades, techos/pisos a tasas variables y mayores facultades sancionatorias a la Superintendencia.",
+      "sector": "FINANCIERO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Impacta directamente al centro bancario al restringir la flexibilidad en la fijación de tasas variables, topar penalidades por mora y exigir aceptación expresa previa del deudor para modificar costos crediticios.",
+    "resumen": "Propone modificar la Ley Bancaria para regular las condiciones de los contratos de crédito comercial y de consumo. Exige que los préstamos a tasa variable incluyan un rango mínimo y máximo pactado y que las reducciones del índice de referencia se trasladen automáticamente al deudor. Asimismo, limita las penalidades por mora a un máximo del 20% del capital original y prohíbe aumentos de tasas sin aviso previo y aceptación expresa del cliente.",
+    "sectores": [
+     "FINANCIERO"
+    ],
+    "titulo": "Que establece normas de transparencia y equilibrio en los contratos de crédito del sistema bancario",
+    "titulo_corto": "Transparencia y topes a penalidades en créditos bancarios"
+   },
    "anteproyecto": "396",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Segundo Debate",
@@ -38435,12 +38506,12 @@
   "8313": "c62a01b34c1f",
   "8314": "f0e28bd91412",
   "8317": "0b153f6a3b17",
-  "8319": "26226e2f2af9",
+  "8319": "43347a4b0447",
   "8320": "7aa31c705406",
   "8321": "4b52f17d9411",
   "8323": "1159c88b6100",
   "8324": "1c205a03a869",
-  "8325": "6d89c0aacbf7",
+  "8325": "1c38b68212f3",
   "8326": "94b53753a0e2",
   "8327": "e4402c95e2ac",
   "8328": "bb22b4c5dc99",
@@ -38758,15 +38829,17 @@
    "7767",
    "8079",
    "7976",
+   "8325",
    "8361",
    "7808",
+   "8319",
    "8355",
    "8353",
    "7659",
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-12T08:46:30",
+  "fecha": "2026-10-12T10:51:24",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -38787,6 +38860,8 @@
    "8302": "399fc6670871",
    "8304": "399fc6670871",
    "8308": "399fc6670871",
+   "8319": "399fc6670871",
+   "8325": "399fc6670871",
    "8333": "399fc6670871",
    "8349": "399fc6670871",
    "8353": "399fc6670871",
@@ -39127,7 +39202,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-12T08:47:18"
+  "revisada": "2026-10-12T10:55:14"
  },
- "ultima_corrida": "2026-10-12T08:46:30"
+ "ultima_corrida": "2026-10-12T10:51:24"
 }
