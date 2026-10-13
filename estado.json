@@ -125,6 +125,10 @@
    "carpeta": "Patrimonio histórico de Barrio Bolívar y Tambor Peligreño (ficha 8286)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "8288": {
+   "carpeta": "Educación y seguridad vial nacional (ficha 8288)",
+   "comision": "Comisión de Comunicación y Transporte"
+  },
   "8292": {
    "carpeta": "Regulación del hidrógeno verde como combustible (ficha 8292)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
@@ -27435,6 +27439,33 @@
    "titulo": "QUE CREA EL CORREGIMIENTO DE PUNTA ALEGRE, EN EL DISTRITO DE CHEPIGANA, PROVINCIA DE DARIEN, Y DICTA OTRAS DISPOSICIONES"
   },
   "8288": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 5: Exige a los instructores de escuelas de manejo cursar programas de formación y certificación continua de la ATTT como requisito obligatorio para obtener y renovar sus licencias de operación.",
+     "Artículo 14: Dispone que medios de comunicación radiales, escritos, televisivos y digitales incluyan en su programación mensajes alusivos al Día de la Seguridad Vial.",
+     "Artículo 16: Obliga a centros educativos particulares a realizar concursos, simulacros y actividades formativas de prevención vial durante la Semana y el Día de la Seguridad Vial.",
+     "Artículo 19: Crea el Fondo Nacional de Educación y Seguridad Vial administrado por la ATTT, el cual admite aportes y donaciones privadas voluntarias."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1yXFx4LQbU6gxORkP0u7mcsyZZJ1kz2KA",
+    "fecha_analisis": "2026-10-13",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Exige a las escuelas de manejo capacitar y certificar obligatoriamente a sus instructores ante la ATTT para obtener o renovar licencias de operación.",
+      "sector": "TRANSPORTE"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es marginal y sectorialmente muy acotado: introduce un requisito operativo directo para escuelas de manejo y obligaciones menores de difusión para medios de comunicación.",
+    "resumen": "Establece un marco permanente de educación y cultura vial bajo la rectoría de la ATTT, derogando la Ley 58 de 2015. Impone a las escuelas de manejo la certificación obligatoria de sus instructores para renovar licencias de operación, e instruye a colegios particulares y medios de comunicación a difundir contenidos y actividades de prevención vial.",
+    "sectores": [
+     "TRANSPORTE"
+    ],
+    "titulo": "Que fomenta la movilidad segura, accesible, confiable y sostenible, fortalece la educación y la seguridad vial y dicta otras disposiciones.",
+    "titulo_corto": "Educación y seguridad vial nacional"
+   },
    "anteproyecto": "363",
    "comision": "COMISION DE COMUNICACION Y TRANSPORTE",
    "etapa": "Segundo Debate",
@@ -38667,7 +38698,7 @@
   "8285": "eb1a4a4c6458",
   "8286": "36567e2355f2",
   "8287": "cdc8787f138b",
-  "8288": "753993820800",
+  "8288": "23367170cacc",
   "8289": "c6f44b80adea",
   "8291": "3d20853871cd",
   "8292": "0f34bb39870a",
@@ -39003,6 +39034,7 @@
    "8491",
    "7779",
    "8308",
+   "8288",
    "8333",
    "7829",
    "8298",
@@ -39028,7 +39060,7 @@
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-13T03:40:29",
+  "fecha": "2026-10-13T04:40:27",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -39046,6 +39078,7 @@
    "8132": "399fc6670871",
    "8177": "399fc6670871",
    "8286": "399fc6670871",
+   "8288": "399fc6670871",
    "8292": "399fc6670871",
    "8293": "399fc6670871",
    "8296": "399fc6670871",
@@ -39398,7 +39431,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-13T03:40:59"
+  "revisada": "2026-10-13T04:40:55"
  },
- "ultima_corrida": "2026-10-13T03:40:29"
+ "ultima_corrida": "2026-10-13T04:40:27"
 }
