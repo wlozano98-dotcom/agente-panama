@@ -121,6 +121,10 @@
    "carpeta": "Creación del Patronato del Estadio Roberto Mariano Bula (ficha 8284)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "8286": {
+   "carpeta": "Patrimonio histórico de Barrio Bolívar y Tambor Peligreño (ficha 8286)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "8292": {
    "carpeta": "Regulación del hidrógeno verde como combustible (ficha 8292)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
@@ -27329,6 +27333,32 @@
    "titulo": "QUE ADICIONA ARTICULOS AL CODIGO CIVIL PARA REGULAR EL TRATAMIENTO SUCESORIO DE LOS ACTIVOS DIGITALES"
   },
   "8286": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 4: Impone a propietarios y administradores privados la obligación de mantenimiento, conservación y restauración de inmuebles declarados o dentro del conjunto monumental.",
+     "Artículo 6: Condiciona toda obra de construcción, remodelación y restauración en el Barrio Bolívar y su zona adyacente a la supervisión del Ministerio de Cultura y la Ley 175 de 2020.",
+     "Artículo 18: Concede deducción total del impuesto sobre la renta a las personas naturales o jurídicas que realicen donaciones al Patronato."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1bQ7Xlfr76QninlfsaQ3i2C_Ro_CVTd1O",
+    "fecha_analisis": "2026-10-13",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Somete las obras, remodelaciones y construcciones en el Barrio Bolívar a autorizaciones y supervisión técnica de patrimonio histórico.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es bajo y focalizado geográficamente, afectando únicamente a propietarios privados y proyectos de construcción o remodelación dentro del perímetro patrimonial en David.",
+    "resumen": "Declara como conjunto monumental histórico al Barrio Bolívar en David, Chiriquí, y crea su respectivo patronato de administración y conservación. Impone obligaciones de mantenimiento a los propietarios privados y sujeta las obras o remodelaciones en el área a la normativa de patrimonio cultural. Asimismo, establece incentivos fiscales para donaciones que reciba el patronato.",
+    "sectores": [
+     "CEMENTERAS"
+    ],
+    "titulo": "Que reconoce al Barrio Bolívar como sitio de valor histórico y cultural, y declara al Tambor Peligreño patrimonio cultural inmaterial de Panamá",
+    "titulo_corto": "Patrimonio histórico de Barrio Bolívar y Tambor Peligreño"
+   },
    "anteproyecto": "365",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -38635,7 +38665,7 @@
   "8283": "8e719b1c2f60",
   "8284": "526e3cd8e734",
   "8285": "eb1a4a4c6458",
-  "8286": "fed4341da311",
+  "8286": "36567e2355f2",
   "8287": "cdc8787f138b",
   "8288": "753993820800",
   "8289": "c6f44b80adea",
@@ -38992,12 +39022,13 @@
    "8313",
    "8355",
    "8353",
+   "8286",
    "8296",
    "7659",
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-13T01:39:11",
+  "fecha": "2026-10-13T02:39:40",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -39014,6 +39045,7 @@
    "8079": "399fc6670871",
    "8132": "399fc6670871",
    "8177": "399fc6670871",
+   "8286": "399fc6670871",
    "8292": "399fc6670871",
    "8293": "399fc6670871",
    "8296": "399fc6670871",
@@ -39366,7 +39398,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-13T01:39:35"
+  "revisada": "2026-10-13T02:40:08"
  },
- "ultima_corrida": "2026-10-13T01:39:11"
+ "ultima_corrida": "2026-10-13T02:39:40"
 }
