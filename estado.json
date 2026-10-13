@@ -117,6 +117,10 @@
    "carpeta": "Patrimonio histórico del puente sobre el río Changuinola (ficha 8225)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "8227": {
+   "carpeta": "Exención de ITBMS a gestión menstrual e ISC a tabaco y vapeo (ficha 8227)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
   "8248": {
    "carpeta": "Sanciones por disparos al aire (ficha 8248)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
@@ -25275,6 +25279,33 @@
    "titulo": "POR LA CUAL SE DECLARA MONUMENTO HISTORICO NACIONAL EL PUENTE SOBRE EL RÍO CHANGUINOLA, UBICADO EN LA PROVINCIA DE BOCAS DEL TORO, Y SE ESTABLECEN DISPOSICIONES PARA SU CONSERVACION, PROMOCION CULTURAL Y APROVECHAMIENTO EDUCATIVO Y TURISTICO"
   },
   "8227": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Adiciona el numeral 18 al literal a del Parágrafo 8 del artículo 1057-V del Código Fiscal para declarar exentos de ITBMS los productos destinados a la gestión menstrual (toallas sanitarias, tampones, copas menstruales y similares).",
+     "Artículo 2: Modifica el artículo 1 de la Ley 45 de 1995 para incluir dentro de los bienes sujetos al Impuesto Selectivo al Consumo (ISC) los productos de tabaco calentado, bolsas de nicotina oral, líquidos de vapeo y cigarrillos electrónicos.",
+     "Artículo 3: Modifica el artículo 28 de la Ley 45 de 1995, fijando una tarifa de ISC del 105% del precio de venta al consumidor (con un mínimo de B/.1.50 por cajetilla) para cigarrillos y productos derivados del tabaco.",
+     "Artículo 4: Modifica el artículo 28-A de la Ley 45 de 1995 para fijar tarifas específicas de ISC: $0.10 por gramo para tabaco calentado, $0.06 por gramo para bolsas de nicotina oral y $0.15 por mililitro para líquidos de vapeo y cigarrillos electrónicos."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1EZV2pw-tpcZg40K1XN3WXh7x-YdStSm-",
+    "fecha_analisis": "2026-10-13",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Crea y aumenta significativamente el Impuesto Selectivo al Consumo sobre productos de tabaco y dispositivos de vapeo, e introduce una exención de ITBMS para productos de higiene menstrual en el comercio minorista.",
+      "sector": "OTROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Establece nuevos costos fiscales y ajustes en puntos de venta mediante la fijación del ISC al 105% para cigarrillos y tasas específicas para cigarrillos electrónicos y vapeo, además de eximir de ITBMS a los productos menstruales.",
+    "resumen": "La iniciativa exonera del pago de ITBMS a los productos de gestión menstrual (toallas, tampones y copas) reconociéndolos como bienes de primera necesidad. Como medida de compensación fiscal, grava con el Impuesto Selectivo al Consumo (ISC) a los cigarrillos electrónicos, líquidos de vapeo y tabaco calentado, además de elevar el ISC aplicable a cigarrillos tradicionales y derivados del tabaco al 105%. Afecta a importadores, distribuidores y comercios minoristas de estos productos.",
+    "sectores": [
+     "OTROS"
+    ],
+    "titulo": "Que modifica y adiciona disposiciones a la Ley 45 de 1995 y al Código Fiscal",
+    "titulo_corto": "Exención de ITBMS a gestión menstrual e ISC a tabaco y vapeo"
+   },
    "anteproyecto": "330",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Segundo Debate",
@@ -38951,7 +38982,7 @@
   "8223": "11e44ddd4fe4",
   "8224": "69f5f6035c41",
   "8225": "ceb2177cfc1f",
-  "8227": "fe971b3990d3",
+  "8227": "05af36829c7f",
   "8228": "c409b7919187",
   "8229": "38e4a04c84da",
   "8230": "ab6097654faf",
@@ -39350,6 +39381,7 @@
    "8394",
    "8395",
    "8266",
+   "8227",
    "8273",
    "8292",
    "8293",
@@ -39372,7 +39404,7 @@
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-13T19:50:04",
+  "fecha": "2026-10-13T21:48:35",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -39389,6 +39421,7 @@
    "8079": "399fc6670871",
    "8132": "399fc6670871",
    "8177": "399fc6670871",
+   "8227": "399fc6670871",
    "8257": "399fc6670871",
    "8263": "399fc6670871",
    "8266": "399fc6670871",
@@ -39749,7 +39782,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-13T19:50:28"
+  "revisada": "2026-10-13T21:49:01"
  },
- "ultima_corrida": "2026-10-13T19:50:04"
+ "ultima_corrida": "2026-10-13T21:48:35"
 }
