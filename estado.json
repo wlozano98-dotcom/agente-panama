@@ -1,5 +1,5 @@
 {
- "comisiones_revisadas": "2026-10-13T17:39:23",
+ "comisiones_revisadas": "2026-10-13T23:45:26",
  "drive": {
   "7423": {
    "carpeta": "Protección e inclusión de personas con autismo (TEA) (ficha 7423)",
@@ -120,6 +120,10 @@
   "8227": {
    "carpeta": "Exención de ITBMS a gestión menstrual e ISC a tabaco y vapeo (ficha 8227)",
    "comision": "Comisión de Economía y Finanzas"
+  },
+  "8229": {
+   "carpeta": "Igualdad del voto en elecciones de universidades públicas (ficha 8229)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
   },
   "8248": {
    "carpeta": "Sanciones por disparos al aire (ficha 8248)",
@@ -25377,6 +25381,20 @@
    "titulo": "LEY MARCO INTEGRAL DE TECNOLOGIAS FINANCIERAS (FINTECH) PANAMA"
   },
   "8229": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1phmUvyBAlj_hKxdkJJOMMy_A32bbxrB7",
+    "fecha_analisis": "2026-10-13",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La propuesta regula estrictamente los procesos de elección interna y gobierno en las universidades oficiales del Estado, sin crear obligaciones, costos ni regulaciones para el sector privado.",
+    "resumen": "La iniciativa busca eliminar el voto ponderado en las universidades oficiales de Panamá (UP, UTP, UNACHI, UDELAS, UMIP y UAPI). Propone implementar el principio de 'un elector, un voto', otorgando el mismo valor jurídico y electoral a los votos emitidos por docentes, estudiantes y personal administrativo. La medida afecta exclusivamente la gobernanza electoral interna de la educación superior estatal.",
+    "sectores": [],
+    "titulo": "Que democratiza las elecciones de autoridades universitarias en las universidades oficiales de la República de Panamá",
+    "titulo_corto": "Igualdad del voto en elecciones de universidades públicas"
+   },
    "anteproyecto": "315",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -38984,7 +39002,7 @@
   "8225": "ceb2177cfc1f",
   "8227": "05af36829c7f",
   "8228": "c409b7919187",
-  "8229": "38e4a04c84da",
+  "8229": "1962458ce6af",
   "8230": "ab6097654faf",
   "8231": "e14033fb0436",
   "8234": "ea20445b9377",
@@ -39404,7 +39422,7 @@
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-13T22:47:47",
+  "fecha": "2026-10-13T23:46:52",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -39783,7 +39801,7 @@
    "512",
    "514"
   ],
-  "revisada": "2026-10-13T22:48:16"
+  "revisada": "2026-10-13T23:47:20"
  },
- "ultima_corrida": "2026-10-13T22:47:47"
+ "ultima_corrida": "2026-10-13T23:46:52"
 }
