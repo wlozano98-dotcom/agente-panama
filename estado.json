@@ -117,6 +117,22 @@
    "carpeta": "Sanciones por disparos al aire (ficha 8248)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
+  "8256": {
+   "carpeta": "Estatuto Orgánico de la Procuraduría de la Administración (ficha 8256)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "8257": {
+   "carpeta": "Reforma al procedimiento administrativo general (Ley 38) (ficha 8257)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "8259": {
+   "carpeta": "Ventanilla única digital para espectáculos públicos (ficha 8259)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "8263": {
+   "carpeta": "Fortalecimiento de medidas fito y zoosanitarias (ficha 8263)",
+   "comision": "Comisión de Asuntos Agropecuarios"
+  },
   "8266": {
    "carpeta": "Regulación integral a promotoras de vivienda y propiedad horizontal (ficha 8266)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
@@ -26269,6 +26285,20 @@
    "titulo": "QUE DECLARA MONUMENTO HISTORICO DE LA NACION EL EDIFICIO DE ARCHIVO NACIONAL DE PANAMA Y MODIFICA LA LEY 37 DE 22 DE MAYO DE 1966, POR LA CUAL SE DECLARAN HISTORICOS VARIOS MONUMENTOS"
   },
   "8256": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1-sfZp9tCkdLIq3wINclHe3tS7KIUaLjP",
+    "fecha_analisis": "2026-10-13",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No genera impacto en el sector empresarial por ser una norma de carácter estrictamente orgánico e institucional del Estado, enfocada en la estructura interna de la Procuraduría de la Administración sin fijar cargas, obligaciones ni tributos para el sector privado.",
+    "resumen": "Propone independizar y actualizar el estatuto orgánico de la Procuraduría de la Administración, derogando el Libro I de la Ley 38 de 2000 para separar la organización de la entidad del procedimiento administrativo general. Establece su estructura institucional, competencias judiciales de defensa del Estado y el régimen de atención de quejas, denuncias y consultas formuladas exclusivamente por servidores públicos con mando y jurisdicción.",
+    "sectores": [],
+    "titulo": "Que aprueba el Estatuto Orgánico de la Procuraduría de la Administración y deroga el Libro 1 de la Ley 38 de 31 de julio de 2000",
+    "titulo_corto": "Estatuto Orgánico de la Procuraduría de la Administración"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Segundo Debate",
@@ -26312,6 +26342,28 @@
    "titulo": "QUE APRUEBA EL ESTATUTO ORGANICO DE LA PROCURADURIA DE LA ADMINISTRACION Y DEROGA EL LIBRO I DE LA LEY 38 DE 31 DE JULIO DE 2000"
   },
   "8257": {
+   "analisis": {
+    "con_pdf": false,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1XxL-2Y_-J_VwlGNEiw0aQKs0smNcvPmm",
+    "fecha_analisis": "2026-10-13",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Actualiza transversalmente las reglas procesales, términos de respuesta, recursos legales y trámites de permisos o defensas ante la administración pública.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-flash-latest",
+    "razon": "Establece el marco general aplicable a cualquier gestión, solicitud de licencias, contrataciones, sanciones o recursos que las empresas tramitan frente a las instituciones públicas.",
+    "resumen": "Análisis basado solo en el título. La iniciativa busca modernizar el régimen del procedimiento administrativo general panameño mediante la subrogación del Libro II de la Ley 38 de 2000. Regula de forma transversal las actuaciones, plazos, peticiones, recursos y procesos sancionatorios entre los administrados y las entidades del sector público.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que regula el procedimiento administrativo general y subroga disposiciones del Libro II de la Ley 38 de 31 de julio de 2000",
+    "titulo_corto": "Reforma al procedimiento administrativo general (Ley 38)"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Segundo Debate",
@@ -26355,6 +26407,26 @@
    "titulo": "QUE REGULA EL PROCEDIMIENTO ADMINISTRATIVO GENERAL Y SUBROGA DISPOSICIONES DEL LIBRO II DE LA LEY 38 DE 31 DE JULIO DE 2000"
   },
   "8259": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Crea el sistema de ventanilla única digital para gestionar y unificar las solicitudes de permisos, licencias y autorizaciones de espectáculos y eventos.",
+     "Artículo 2: Asigna el desarrollo de la ventanilla digital a la AIG mediante plataformas gubernamentales, preservando el trámite físico solo para municipios rurales sin conectividad.",
+     "Artículo 3: Establece el registro y clasificación obligatoria de espectáculos para generar estadísticas oficiales sobre asistencia, organizadores y periodicidad.",
+     "Artículo 4: Precisa que el pago de tasas, impuestos y contribuciones para espectáculos seguirá rigiéndose por la normativa vigente sin alterar competencias recaudadoras.",
+     "Artículo 5: Promueve programas de formación y certificación técnica en conjunto con centros de educación superior y el sector empresarial para el personal de eventos."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1j_wE9d6m-oCxYdWwb4E4So53XgcUE7v5",
+    "fecha_analisis": "2026-10-13",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-flash-latest",
+    "razon": "La iniciativa beneficia operativamente a promotores y organizadores de espectáculos al simplificar la burocracia de permisos, pero no modifica marcos regulatorios ni impone cargas obligatorias a los sectores empresariales clave evaluados.",
+    "resumen": "Crea una ventanilla única digital gestionada a través de la plataforma gubernamental (AIG) para centralizar y agilizar los permisos requeridos para la realización de eventos y espectáculos culturales, artísticos o deportivos. Mantiene el régimen tributario y tarifario vigente para cada entidad competente e impulsa programas de educación superior y formación técnica para profesionalizar al personal de producción de eventos.",
+    "sectores": [],
+    "titulo": "Que regula la tramitación digital de permisos para el espectáculo público o actividad de diversión temporal y dicta otras disposiciones",
+    "titulo_corto": "Ventanilla única digital para espectáculos públicos"
+   },
    "anteproyecto": "340",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -26449,6 +26521,31 @@
    "titulo": "QUE REGULA EL SALVAMENTO ACUATICO Y DICTA OTRAS DISPOSICIONES"
   },
   "8263": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Adiciona un párrafo al numeral 10 del artículo 51 de la Ley 23 de 1997 para facultar a la Dirección de Cuarentena a realizar tratamientos o autorizar a ONG especializadas para ejecutarlos conjuntamente, manteniendo que los costos corren por cuenta del importador o propietario.",
+     "Artículo 2: Modifica el artículo 55 de la Ley 23 de 1997 para crear un fondo común fuera de la caja única del Estado con los cobros por servicios cuarentenarios, el cual podrá ser administrado en conjunto con una ONG internacional/nacional o una entidad financiera acreditada."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1OMr3RRnLd1zkzPROnGqEI69FHHypazo2",
+    "fecha_analisis": "2026-10-13",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Establece que los costos de inspección, muestreo y tratamientos cuarentenarios corren por cuenta del importador y permite tercerizar su ejecución técnica con ONG especializadas.",
+      "sector": "ALIMENTOS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Impacta de forma directa los costos y la operativa logística de los importadores de materias primas agrícolas y alimentos, al regular los procedimientos de cuarentena y la gestión del fondo de servicios.",
+    "resumen": "El proyecto autoriza a la Dirección Nacional de Cuarentena Agropecuaria del MIDA a ejecutar tratamientos sanitarios directamente o mediante convenios con organismos no gubernamentales especializados. Asimismo, reestructura el fondo especial fuera de la caja única del Estado que financia estos servicios con las tasas cobradas a los importadores, permitiendo su gestión con entidades financieras u ONG. Afecta directamente a empresas importadoras y comercializadoras de productos agropecuarios y alimentos al regular la ejecución y costos de las medidas de bioseguridad.",
+    "sectores": [
+     "ALIMENTOS"
+    ],
+    "titulo": "Que fortalece la ejecución de las medidas zoosanitarias en la República de Panamá",
+    "titulo_corto": "Fortalecimiento de medidas fito y zoosanitarias"
+   },
    "anteproyecto": "339",
    "comision": "COMISION DE ASUNTOS AGROPECUARIOS",
    "etapa": "Segundo Debate",
@@ -38844,12 +38941,12 @@
   "8253": "2b6c8bbda84e",
   "8254": "22b994a4f45d",
   "8255": "0611200f866e",
-  "8256": "5023afb69f06",
-  "8257": "6127fec59fc1",
-  "8259": "8ee15117e68f",
+  "8256": "244cfa669c53",
+  "8257": "96dd875a4578",
+  "8259": "07f5c4202189",
   "8261": "5963d98dc362",
   "8262": "52d977fb4635",
-  "8263": "3f75d4605ab6",
+  "8263": "98a16a3b5895",
   "8265": "058a592d83a1",
   "8266": "dfd6c6baea21",
   "8267": "be415efbc23e",
@@ -39211,6 +39308,7 @@
    "8288",
    "8333",
    "7829",
+   "8263",
    "8298",
    "7915",
    "8394",
@@ -39233,11 +39331,12 @@
    "8353",
    "8286",
    "8296",
+   "8257",
    "7659",
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-13T07:47:22",
+  "fecha": "2026-10-13T10:02:13",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -39254,6 +39353,8 @@
    "8079": "399fc6670871",
    "8132": "399fc6670871",
    "8177": "399fc6670871",
+   "8257": "399fc6670871",
+   "8263": "399fc6670871",
    "8266": "399fc6670871",
    "8273": "399fc6670871",
    "8282": "399fc6670871",
@@ -39611,7 +39712,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-13T07:47:52"
+  "revisada": "2026-10-13T10:02:51"
  },
- "ultima_corrida": "2026-10-13T07:47:22"
+ "ultima_corrida": "2026-10-13T10:02:13"
 }
