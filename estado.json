@@ -1,5 +1,5 @@
 {
- "comisiones_revisadas": "2026-10-13T03:40:20",
+ "comisiones_revisadas": "2026-10-13T10:41:37",
  "drive": {
   "7423": {
    "carpeta": "Protección e inclusión de personas con autismo (TEA) (ficha 7423)",
@@ -113,9 +113,17 @@
    "carpeta": "Programa de educación segura en áreas de difícil acceso (ficha 8199)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "8225": {
+   "carpeta": "Patrimonio histórico del puente sobre el río Changuinola (ficha 8225)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "8248": {
    "carpeta": "Sanciones por disparos al aire (ficha 8248)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "8255": {
+   "carpeta": "Declaratoria patrimonial del Archivo Nacional (ficha 8255)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
   },
   "8256": {
    "carpeta": "Estatuto Orgánico de la Procuraduría de la Administración (ficha 8256)",
@@ -25205,6 +25213,20 @@
    "titulo": "POR LA CUAL SE ADICIONA A LA LEY 25 DE 1995 UN CAPITULO SOBRE LA FUSION, ESCISIÓN Y REACTIVACION DE LAS FUNDACIONES DE INTERES PRIVADO, Y SE DICTAN OTRAS DISPOSICIONES"
   },
   "8225": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/126vib0ZBA8ePnKFo_QTXTIAG07yP6-gK",
+    "fecha_analisis": "2026-10-13",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Se trata de una declaratoria patrimonial sobre una infraestructura pública que asigna competencias a entidades estatales, sin regular actividades comerciales ni crear obligaciones para el sector privado.",
+    "resumen": "La iniciativa declara como patrimonio cultural material al histórico puente sobre el río Changuinola (construido en 1908) en la provincia de Bocas del Toro.\nAsigna al Ministerio de Cultura y al Ministerio de Obras Públicas la responsabilidad de su mantenimiento, conservación y restauración.\nAsimismo, suspende la circulación vehicular y peatonal sobre la estructura hasta que se ejecuten las reparaciones que garanticen condiciones de seguridad pública.",
+    "sectores": [],
+    "titulo": "Por la cual se declara monumento histórico nacional el puente sobre el río Changuinola, ubicado en la provincia de Bocas del Toro, y se establecen disposiciones para su conservación, promoción cultural y aprovechamiento educativo y turístico",
+    "titulo_corto": "Patrimonio histórico del puente sobre el río Changuinola"
+   },
    "anteproyecto": "311",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -26247,6 +26269,20 @@
    "titulo": "QUE MODIFICA ARTICULOS DE LA LEY 106 DE 1973 SOBRE REGIMEN MUNICIPAL Y DICTA OTRAS DISPOSICIONES EN MATERIA DE GESTION DE RESIDUOS SOILIDOS"
   },
   "8255": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1TOCi_JsRsszDEyiE31LP0LcH2V0xHw61",
+    "fecha_analisis": "2026-10-13",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No genera impacto sobre el sector empresarial privado, ya que es una disposición netamente cultural y administrativa limitada a un inmueble estatal y a entidades públicas.",
+    "resumen": "La iniciativa declara el edificio del Archivo Nacional de Panamá, ubicado en el corregimiento de Calidonia, como patrimonio cultural material de la Nación. Establece la colocación de una placa conmemorativa y asigna la responsabilidad de su mantenimiento y conservación al Registro Público de Panamá, bajo la supervisión del Ministerio de Cultura. Se trata de una medida estrictamente institucional y cultural.",
+    "sectores": [],
+    "titulo": "Que declara monumento histórico de la nación el edificio de Archivo Nacional de Panamá y modifica la Ley 37 de 22 de mayo de 1966, \"Por la cual se declaran históricos varios monumentos\"",
+    "titulo_corto": "Declaratoria patrimonial del Archivo Nacional"
+   },
    "anteproyecto": "336",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -38914,7 +38950,7 @@
   "8222": "f5a6848ec546",
   "8223": "11e44ddd4fe4",
   "8224": "69f5f6035c41",
-  "8225": "50417ee21c8a",
+  "8225": "ceb2177cfc1f",
   "8227": "fe971b3990d3",
   "8228": "c409b7919187",
   "8229": "38e4a04c84da",
@@ -38940,7 +38976,7 @@
   "8252": "3210a08a9ee4",
   "8253": "2b6c8bbda84e",
   "8254": "22b994a4f45d",
-  "8255": "0611200f866e",
+  "8255": "9b7100713d0a",
   "8256": "244cfa669c53",
   "8257": "96dd875a4578",
   "8259": "07f5c4202189",
@@ -39336,7 +39372,7 @@
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-13T10:02:13",
+  "fecha": "2026-10-13T10:45:48",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -39712,7 +39748,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-13T10:02:51"
+  "revisada": "2026-10-13T10:46:16"
  },
- "ultima_corrida": "2026-10-13T10:02:13"
+ "ultima_corrida": "2026-10-13T10:45:48"
 }
