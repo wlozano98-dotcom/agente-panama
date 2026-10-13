@@ -117,6 +117,22 @@
    "carpeta": "Sanciones por disparos al aire (ficha 8248)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
+  "8266": {
+   "carpeta": "Regulación integral a promotoras de vivienda y propiedad horizontal (ficha 8266)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
+  "8267": {
+   "carpeta": "Reforma a la Ley General de Pensión Alimenticia (ficha 8267)",
+   "comision": "Comisión de la Mujer, la Niñez y la Familia"
+  },
+  "8273": {
+   "carpeta": "Reforma a la ley de intereses preferenciales agropecuarios (FECI) (ficha 8273)",
+   "comision": "Comisión de Asuntos Agropecuarios"
+  },
+  "8275": {
+   "carpeta": "Festival de la Pollera Veragüense y Patronato (ficha 8275)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "8280": {
    "carpeta": "Incorporación de los CEFACEI al sistema regular de MEDUCA (ficha 8280)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -26589,6 +26605,43 @@
    "titulo": "QUE REGULA EL ACOGIMIENTO COMO MEDIDA DE PROTECCION DE CARACTER TEMPORAL"
   },
   "8266": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 10: Obliga a promotoras y constructoras a contratar un seguro de construcción con cobertura mínima de diez (10) años contra vicios ocultos y defectos.",
+     "Artículo 11: Exige constituir una fianza de construcción equivalente al 10% del valor total del proyecto por un período mínimo de diez (10) años.",
+     "Artículo 14: Impone a promotoras y constructoras la obligación de brindar mantenimiento preventivo durante tres (3) años posteriores a la entrega.",
+     "Artículo 28: Establece la devolución total del abono inicial más intereses legales al comprador ante defectos graves o retrasos insubsanables.",
+     "Artículo 40 a 43: Fija multas administrativas de hasta B/. 50,000.00, suspensión de actividades e inhabilitación comercial hasta por dos (2) años ante incumplimientos.",
+     "Artículo 50: Exige constituir garantías financieras por el 20% del valor del proyecto antes de iniciar su comercialización o preventa para cubrir riesgo de abandono.",
+     "Artículos 54 y 55: Establece responsabilidad objetiva y solidaria que alcanza a promotoras, constructoras, ingenieros, arquitectos y directivos sin requerir prueba de dolo o culpa.",
+     "Artículo 57: Amplía formalmente a diez (10) años el plazo legal de responsabilidad por vicios ocultos y fallas estructurales."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1agClTwgMPR9Onw4uxH9yMY3GAEAErZcT",
+    "fecha_analisis": "2026-10-13",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Modifica de forma sustancial las obligaciones del sector inmobiliario y de la construcción, imponiendo responsabilidad objetiva solidaria por 10 años, mantenimiento post-entrega por 3 años y fuertes inmovilizaciones de capital en garantías.",
+      "sector": "CEMENTERAS"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Crea la obligación legal de contratar pólizas de seguro decenal de construcción y fianzas de cumplimiento a largo plazo para todos los proyectos residenciales.",
+      "sector": "SEGUROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Aumenta significativamente los costos operativos, financieros y legales de las promotoras y constructoras residenciales, extendiendo su responsabilidad legal hasta por 10 años y vinculando patrimonialmente a sus directivos y beneficiarios finales.",
+    "resumen": "Establece un régimen estricto de regulación y supervisión para promotoras, constructoras e inmobiliarias a través de ACODECO. Introduce responsabilidades objetivas y solidarias por 10 años ante vicios ocultos, la obligatoriedad de fianzas y seguros decenales, un período forzoso de 3 años de mantenimiento posterior a la entrega y garantías financieras del 20% para evitar el abandono de obras.",
+    "sectores": [
+     "CEMENTERAS",
+     "SEGUROS"
+    ],
+    "titulo": "Que regula de forma integral a las promotoras de vivienda, fortalece la protección del adquirente inmobiliario, actualiza el régimen de propiedad horizontal y establece medidas contra el abandono de proyectos en la República de Panamá.",
+    "titulo_corto": "Regulación integral a promotoras de vivienda y propiedad horizontal"
+   },
    "anteproyecto": "348",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Segundo Debate",
@@ -26627,6 +26680,20 @@
    "titulo": "QUE REGULA DEFORMA INTEGRAL A LAS PROMOTORAS DE VIVIENDA, FORTALECE LA PROTECCION DEL ADQUIRENTE INMOBILIARIO, ACTUALIZA EL REGIMEN DE PROPIEDAD HORIZONTAL Y ESTABLECE MEDIDAS CONTRA EL ABANDONO DE PROYECTOS EN LA REPUBLICA DE PANAMA."
   },
   "8267": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1zjF6vSuWvWFIJSWh2XbwOBF_Al-s9Lja",
+    "fecha_analisis": "2026-10-13",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa es de estricto orden familiar y procesal civil entre particulares; no establece cargas administrativas, tributarias, laborales ni regulatorias sobre las empresas.",
+    "resumen": "Propone modificar el artículo 22 de la Ley 42 de 2012 para permitir la revisión inmediata de la cuota de pensión alimenticia cuando ocurran cambios sustanciales en la situación económica de las partes, sin tener que esperar el plazo general de un año. Establece que la solicitud se tramitará ante el juez de conocimiento y que los ajustes surtirán efecto a partir de la notificación y ejecutoria de la resolución. La medida afecta exclusivamente a las personas naturales involucradas en procesos judiciales de alimentos de familia.",
+    "sectores": [],
+    "titulo": "Que modifica un artículo de la Ley 42 de agosto de 2012, General de Pensión Alimenticia",
+    "titulo_corto": "Reforma a la Ley General de Pensión Alimenticia"
+   },
    "anteproyecto": "346",
    "comision": "COMISION DE LA MUJER, LA NIÑEZ Y LA FAMILIA",
    "etapa": "Segundo Debate",
@@ -26845,6 +26912,44 @@
    "titulo": "QUE CREA EL PATRONATO DE LA BIBLIOTECA NACIONAL ERNESTO J. CASTILLERO R"
   },
   "8273": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1 (del Texto Único): Añade un glosario con 15 términos clave que regulan la aplicación de la ley, incluyendo agroindustria, ciclo productivo, tasa de referencia y banco o entidad financiera.",
+     "Artículo 2 (modifica el artículo 1 de la Ley 4 de 1994): Regula el derecho a descuento en tasas de interés pactadas con bancos para el sector agropecuario y la agroindustria nacional; fija un monto máximo de B/. 1,000,000 por ciclo productivo y rubro, y un límite de hasta tres operaciones crediticias por persona natural o jurídica.",
+     "Artículo 3 (modifica el artículo 8 de la Ley 4 de 1994): Detalla exhaustivamente los rubros elegibles (incluyendo nuevos cultivos, ciclos de ganadería de ceba de 4 y 6 meses, acuicultura y agroindustria nacional) y los destinos autorizados para los fondos (bienes de capital, tecnologías verdes, insumos, mano de obra, tierras e instalaciones productivas)."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1jAQIm67Taf4US6osMZmT1Mv7DgVyRK3d",
+    "fecha_analisis": "2026-10-13",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Exige a los bancos y entidades financieras prestamistas ajustar sus parámetros de evaluación, condiciones y procesos operativos para otorgar créditos preferenciales y tramitar reembolsos del FECI.",
+      "sector": "FINANCIERO"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Habilita a empresas de agroindustria que transformen materia prima 100% nacional a acceder a tasas preferenciales para capital de trabajo, activos fijos y compra de cosechas.",
+      "sector": "ALIMENTOS"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Incorpora y detalla el financiamiento con descuento de tasa para cultivo de camarones, tinas, laboratorios de larvas, alevines y pesca artesanal.",
+      "sector": "CAMARONERO Y PESQUERO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Modifica las condiciones crediticias de la cartera agropecuaria y agroindustrial en el sistema bancario, ampliando rubros elegibles y redefiniendo ciclos técnicos para acceder a los subsidios de tasa del FECI.",
+    "resumen": "El proyecto actualiza el régimen de préstamos con intereses preferenciales (compensados por el FECI) para el sector agropecuario y la agroindustria nacional. Define un glosario técnico y ajusta los ciclos productivos (como la ceba de ganado) para adaptarlos a tecnologías modernas. Además, fija condiciones de financiamiento hasta por B/. 1,000,000 por ciclo y amplía los rubros e inversiones elegibles en agricultura, acuicultura y procesamiento.",
+    "sectores": [
+     "FINANCIERO",
+     "ALIMENTOS",
+     "CAMARONERO Y PESQUERO"
+    ],
+    "titulo": "Que modifica artículos de la Ley 4 de 17 de mayo de 1994, por la cual se establece el sistema de intereses preferenciales al sector agropecuario y se toman otras medidas",
+    "titulo_corto": "Reforma a la ley de intereses preferenciales agropecuarios (FECI)"
+   },
    "anteproyecto": "351",
    "comision": "COMISION DE ASUNTOS AGROPECUARIOS",
    "etapa": "Segundo Debate",
@@ -26883,6 +26988,20 @@
    "titulo": "QUE MODIFICA ARTICULOS DE LA LEY 4 DE 17 DE MAYO DE 1994, POR LA CUAL SE ESTABLECE EL SISTEMA DE INTERESES PREFERENCIALES AL SECTOR AGROPECUARIO Y SE TOMAN OTRAS MEDIDAS"
   },
   "8275": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1qcWuDB0UnV5DVyF2NbyNqT3Z8U5jfljA",
+    "fecha_analisis": "2026-10-13",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa se limita a instituir una festividad cultural y crear su patronato organizador, sin establecer cargas, obligaciones regulatorias ni afectaciones directas sobre el sector empresarial.",
+    "resumen": "Declara fiesta folclórica nacional el Festival Folclórico de la Pollera Veragüense a celebrarse anualmente en Soná, Veraguas. Asimismo, crea un patronato sin fines de lucro encargado de su administración, financiamiento y organización cultural.",
+    "sectores": [],
+    "titulo": "Que instituye el Festival Folclórico de la Pollera Veragüense",
+    "titulo_corto": "Festival de la Pollera Veragüense y Patronato"
+   },
    "anteproyecto": "354",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -38732,15 +38851,15 @@
   "8262": "52d977fb4635",
   "8263": "3f75d4605ab6",
   "8265": "058a592d83a1",
-  "8266": "f7433aca4666",
-  "8267": "fe8964584be6",
+  "8266": "dfd6c6baea21",
+  "8267": "be415efbc23e",
   "8268": "6e392d71b65d",
   "8269": "48635d67e23d",
   "8270": "5cc10840facf",
   "8271": "e561f593051b",
   "8272": "c1b23241b5cd",
-  "8273": "11d5230a69ef",
-  "8275": "66796626da11",
+  "8273": "ee98307dc14d",
+  "8275": "ac02d4af1551",
   "8276": "f60d67f57e69",
   "8277": "60ab38fe1488",
   "8278": "d142fa44ab5f",
@@ -39096,6 +39215,8 @@
    "7915",
    "8394",
    "8395",
+   "8266",
+   "8273",
    "8292",
    "8293",
    "8132",
@@ -39116,7 +39237,7 @@
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-13T06:47:25",
+  "fecha": "2026-10-13T07:47:22",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -39133,6 +39254,8 @@
    "8079": "399fc6670871",
    "8132": "399fc6670871",
    "8177": "399fc6670871",
+   "8266": "399fc6670871",
+   "8273": "399fc6670871",
    "8282": "399fc6670871",
    "8286": "399fc6670871",
    "8288": "399fc6670871",
@@ -39488,7 +39611,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-13T06:47:54"
+  "revisada": "2026-10-13T07:47:52"
  },
- "ultima_corrida": "2026-10-13T06:47:25"
+ "ultima_corrida": "2026-10-13T07:47:22"
 }
