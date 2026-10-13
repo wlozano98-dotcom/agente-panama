@@ -117,6 +117,14 @@
    "carpeta": "Sanciones por disparos al aire (ficha 8248)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
+  "8280": {
+   "carpeta": "Incorporación de los CEFACEI al sistema regular de MEDUCA (ficha 8280)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "8282": {
+   "carpeta": "Regulación y garantías en venta de viviendas nuevas (ficha 8282)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
   "8284": {
    "carpeta": "Creación del Patronato del Estadio Roberto Mariano Bula (ficha 8284)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -27100,6 +27108,20 @@
    "titulo": "QUE ADICIONA UN ARTICULO AL CODIGO DE TRABAJO, SOBRE MEDIDAS ANTIDISCRIMINATORIAS EN MATERIA LABORAL"
   },
   "8280": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1mnxBxOs6Tiewm7eAtynwMntYtTBjZa45",
+    "fecha_analisis": "2026-10-13",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa es de carácter estrictamente público y comunitario dentro del sistema educativo nacional y el MEDUCA, por lo que no genera costos, cargas tributarias ni obligaciones para el sector empresarial privado.",
+    "resumen": "El proyecto formaliza la integración de los Centros Familiares y Comunitarios de Educación Inicial (CEFACEI) al subsistema regular público del Ministerio de Educación (MEDUCA). Establece un régimen laboral público especial, requisitos y escalafón salarial para los promotores comunales que atienden a la primera infancia en zonas rurales y vulnerables. Asimismo, dispone que el funcionamiento y financiamiento de estos centros correrá por cuenta del Presupuesto General del Estado.",
+    "sectores": [],
+    "titulo": "Que incorpora los Centros Familiares y Comunitarios de Educación Inicial (CE.FA.C.E.I.) al Subsistema Regular de Educación Inicial del Ministerio de Educación, y dicta otras disposiciones.",
+    "titulo_corto": "Incorporación de los CEFACEI al sistema regular de MEDUCA"
+   },
    "anteproyecto": "359",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -27166,6 +27188,39 @@
    "titulo": "REFORMA LEYES PROCESALES PARA LA PROTECCION DE DERECHOS Y GARANTIAS EN MATERIA PENAL Y CIVIL, MODIFICANDO LA LEY 63 DEL 28 DE AGOSTO DE 2008 Y LA LEY 402 DE 9 DE OCTUBRE DE 2023"
   },
   "8282": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1 (modifica el artículo 79 de la Ley 45 de 2007): Establece contenidos obligatorios en promesas de compraventa y contratos de vivienda nueva; plazos de garantía forzosos (10 a 15 años estructurales, 5 en instalaciones y 2 en acabados); indemnizaciones por retraso en entrega; y responsabilidad solidaria para integrantes de grupos económicos inmobiliarios.",
+     "Artículo 2 (adiciona el artículo 79-A a la Ley 45 de 2007): Limita los ajustes de precios por aumento de costos (materiales, mano de obra e intereses) a una comprobación previa obligatoria y vinculante ante la ACODECO, pagando una tarifa por proyecto o etapa.",
+     "Artículo 3 (adiciona el artículo 79-B a la Ley 45 de 2007): Obliga a contratar una fianza con afianzadoras autorizadas en Panamá por el 2% del precio de venta de cada vivienda, con vigencia de 10 años desde la entrega, para responder por reclamos y vicios.",
+     "Artículo 4 (modifica el artículo 114 de la Ley 45 de 2007): Instituye el arbitraje de consumo como método alterno para dirimir controversias entre consumidores y proveedores de bienes o servicios, reglamentado por ACODECO."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1kgo6-fVJ2rQKHTf8fcRyRkpnQgHJWEAF",
+    "fecha_analisis": "2026-10-13",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Impone a promotoras y constructoras garantías obligatorias de largo plazo, fianza de vicios del 2% por 10 años, responsabilidad solidaria a grupos económicos y control de ACODECO sobre aumentos de precios.",
+      "sector": "CEMENTERAS"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Crea la obligatoriedad de emitir fianzas de garantía con cobertura del 2% del valor de cada vivienda vendida, vigentes por 10 años para cubrir reclamos de consumidores.",
+      "sector": "SEGUROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Afecta severamente los costos operativos, la estructura de financiamiento y los márgenes del sector inmobiliario y de construcción residencial al exigir fianzas decenales y someter cualquier aumento de costos a aprobación de ACODECO.",
+    "resumen": "El proyecto impone estrictas obligaciones contractuales a promotoras y constructoras de viviendas nuevas, fijando plazos legales de garantía de hasta 15 años y la contratación obligatoria de una fianza del 2% por unidad durante 10 años. Además, condiciona el traspaso de incrementos en costos de construcción a la autorización previa y onerosa de la ACODECO, e implementa el arbitraje de consumo.",
+    "sectores": [
+     "CEMENTERAS",
+     "SEGUROS"
+    ],
+    "titulo": "Que modifica los artículos 79 y 114, y adiciona otros artículos a la Ley 45 de 2007, que dicta normas sobre protección al consumidor y defensa de la competencia",
+    "titulo_corto": "Regulación y garantías en venta de viviendas nuevas"
+   },
    "anteproyecto": "361",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Segundo Debate",
@@ -38690,9 +38745,9 @@
   "8277": "60ab38fe1488",
   "8278": "d142fa44ab5f",
   "8279": "c55895910887",
-  "8280": "7f368fea50cc",
+  "8280": "1eec23ca3c7d",
   "8281": "eba82aadfcac",
-  "8282": "619d6f813517",
+  "8282": "6e8da9ee545f",
   "8283": "8e719b1c2f60",
   "8284": "526e3cd8e734",
   "8285": "eb1a4a4c6458",
@@ -39051,6 +39106,7 @@
    "8361",
    "7808",
    "8319",
+   "8282",
    "8313",
    "8355",
    "8353",
@@ -39060,7 +39116,7 @@
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-13T04:40:27",
+  "fecha": "2026-10-13T05:39:48",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -39077,6 +39133,7 @@
    "8079": "399fc6670871",
    "8132": "399fc6670871",
    "8177": "399fc6670871",
+   "8282": "399fc6670871",
    "8286": "399fc6670871",
    "8288": "399fc6670871",
    "8292": "399fc6670871",
@@ -39431,7 +39488,7 @@
    "511",
    "512"
   ],
-  "revisada": "2026-10-13T04:40:55"
+  "revisada": "2026-10-13T05:40:18"
  },
- "ultima_corrida": "2026-10-13T04:40:27"
+ "ultima_corrida": "2026-10-13T05:39:48"
 }
