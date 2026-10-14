@@ -1,5 +1,5 @@
 {
- "comisiones_revisadas": "2026-10-14T05:49:24",
+ "comisiones_revisadas": "2026-10-14T11:52:04",
  "drive": {
   "7423": {
    "carpeta": "Protección e inclusión de personas con autismo (TEA) (ficha 7423)",
@@ -111,6 +111,10 @@
   },
   "8199": {
    "carpeta": "Programa de educación segura en áreas de difícil acceso (ficha 8199)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "8201": {
+   "carpeta": "Calendario escolar diferenciado en la Ley de Educación (ficha 8201)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
   "8213": {
@@ -24599,6 +24603,20 @@
    "titulo": "POR LA CUAL SE MODIFICA EL ARTÍCULO 32 DEL CÓDIGO PENAL"
   },
   "8201": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1Z3dAmEgZaB0pCpxFoyEFMRg2-PSflUSv",
+    "fecha_analisis": "2026-10-14",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No establece regulaciones, costos ni obligaciones directas sobre el sector empresarial, circunscribiéndose a la gestión del calendario académico del sistema educativo público.",
+    "resumen": "La iniciativa reforma la Ley Orgánica de Educación para facultar al Ministerio de Educación a implementar calendarios escolares diferenciados según riesgos climáticos y geográficos. La propuesta prioriza el período de verano (época seca) para las clases presenciales en comarcas y zonas rurales vulnerables a inundaciones o crecidas de ríos. Afecta administrativamente al sistema escolar oficial, a los directores regionales y a la comunidad estudiantil de áreas de difícil acceso.",
+    "sectores": [],
+    "titulo": "Por el cual se modifica el artículo 30 de la Ley Orgánica de Educación y establece un calendario escolar diferenciado",
+    "titulo_corto": "Calendario escolar diferenciado en la Ley de Educación"
+   },
    "anteproyecto": "291",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -39223,7 +39241,7 @@
   "8198": "13ab0fce41ba",
   "8199": "e94570b9339b",
   "8200": "b920ab85f762",
-  "8201": "fe65d455c89c",
+  "8201": "243f51094aa4",
   "8203": "f8527db787e6",
   "8205": "906daaad2979",
   "8206": "ee82f95968a0",
@@ -39669,7 +39687,7 @@
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-14T10:53:25",
+  "fecha": "2026-10-14T11:54:41",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -40053,7 +40071,7 @@
    "512",
    "514"
   ],
-  "revisada": "2026-10-14T10:54:10"
+  "revisada": "2026-10-14T11:55:11"
  },
- "ultima_corrida": "2026-10-14T10:53:25"
+ "ultima_corrida": "2026-10-14T11:54:41"
 }
