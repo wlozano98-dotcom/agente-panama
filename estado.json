@@ -113,8 +113,24 @@
    "carpeta": "Programa de educación segura en áreas de difícil acceso (ficha 8199)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "8213": {
+   "carpeta": "Gestión y uso de canchas deportivas municipales (ficha 8213)",
+   "comision": "Comisión de Asuntos Municipales"
+  },
+  "8214": {
+   "carpeta": "Reforma al régimen penal de la adolescencia (ficha 8214)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
   "8217": {
    "carpeta": "Patronato del Estadio Kenny Serracín (ficha 8217)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "8219": {
+   "carpeta": "Financiamiento de premios y fiscalización de la actividad hípica (ficha 8219)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
+  "8220": {
+   "carpeta": "Fondo Nacional de Becas Agropecuarias (ficha 8220)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
   "8222": {
@@ -24820,6 +24836,24 @@
    "titulo": "QUE PROMUEVE LA CONSERVACION Y APROVECHAMIENTO SOSTENIBLE DEL GOLFO DE CHIRIQUI"
   },
   "8213": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 10: Exige a las escuelas y programas de enseñanza deportiva que operen en canchas municipales apegarse a la Ley 50 de 2007 (Pandeportes) y notificar sus horarios a los estamentos de seguridad.",
+     "Artículo 13: Prohíbe expresamente el subarriendo de las canchas municipales cuando su administración sea delegada a comités, juntas comunales o patronatos.",
+     "Artículo 15: Requiere notificar a los estamentos de seguridad y a la SENNIAF cuando se autoricen permisos municipales para el expendio de bebidas alcohólicas en eventos masivos realizados en estos espacios."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1YtvLJ6CDh8CUWoL3SJaTMqQ6CvhFVInH",
+    "fecha_analisis": "2026-10-14",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-flash-latest",
+    "razon": "La propuesta se enfoca en la gobernanza comunitaria y la administración pública de instalaciones deportivas municipales, sin generar obligaciones, cargas fiscales ni afectaciones regulatorias sobre la actividad empresarial formal.",
+    "resumen": "Establece un marco regulatorio para garantizar que las canchas y espacios deportivos municipales se destinen preferentemente a la recreación comunitaria y a la práctica deportiva. Dispone que cualquier tasa o cobro por el uso de estas instalaciones deba fijarse mediante acuerdo municipal y reinvertirse en su mantenimiento. Asimismo, prohíbe el subarriendo de estos bienes públicos y somete el funcionamiento de escuelas deportivas y eventos complementarios a lineamientos de supervisión y seguridad.",
+    "sectores": [],
+    "titulo": "Que establece el marco general para el uso prioritariamente deportivo y la gestión de las canchas municipales.",
+    "titulo_corto": "Gestión y uso de canchas deportivas municipales"
+   },
    "anteproyecto": "302",
    "comision": "COMISION DE ASUNTOS MUNICIPALES",
    "etapa": "Segundo Debate",
@@ -24868,6 +24902,20 @@
    "titulo": "QUE ESTABLECE EL MARCO GENERAL PARA EL USO PRIORITARIAMENTE DEPORTIVO Y LA GESTION DE LAS CANCHAS MUNICIPALES."
   },
   "8214": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1am4AVE5ow-cvDrnVar581j5uyvQBGBUZ",
+    "fecha_analisis": "2026-10-14",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto aborda exclusivamente normas de derecho penal de adolescentes y procedimientos judiciales, sin crear obligaciones, costos, regulaciones ni trámites para el sector empresarial.",
+    "resumen": "La iniciativa modifica la Ley 40 de 1999 para reestructurar los grupos etarios del régimen penal adolescente, ajustar los criterios de procedencia de la detención provisional y endurecer las penas privativas de libertad aplicables a menores que cometen delitos graves. Asimismo, incorpora principios de justicia juvenil restaurativa y contempla la planificación estatal para centros especializados de cumplimiento. Afecta directamente al sistema judicial penal de adolescentes y a las entidades públicas de seguridad y niñez.",
+    "sectores": [],
+    "titulo": "Que modifica artículos de la Ley 40 de 1999, del Régimen Especial de Responsabilidad Penal para la Adolescencia",
+    "titulo_corto": "Reforma al régimen penal de la adolescencia"
+   },
    "anteproyecto": "299",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Segundo Debate",
@@ -25052,6 +25100,24 @@
    "titulo": "QUE ESTABLECE LA OBLIGACION DE TRANSPARENCIA Y TRAZABILIDAD DEL USO DE LOS RECURSOS PUBLICOS PROVENIENTES DE FINANCIAMIENTO INTERNACIONAL"
   },
   "8219": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2 (modifica el artículo 61 del Decreto Ley 2 de 1998): Ordena a la Junta de Control de Juegos transferir B/. 8,000,000 anuales a un fideicomiso en el Banco Nacional o Caja de Ahorros para premios semanales de carreras (mínimo 50% para caballos nacionales) y exige informes mensuales a la empresa operadora.",
+     "Artículo 3: Prohíbe destinar los dineros aportados para premios a gastos administrativos, mantenimiento o infraestructura del hipódromo.",
+     "Artículo 4: Faculta a la Junta de Control de Juegos a sancionar a la empresa administradora-operadora ante el incumplimiento en las condiciones y mantenimiento de las instalaciones, según informes de un comisario fiscalizador."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1Itr4AlLTrsdopUyjcCEGfzYz5RDmHWQ6",
+    "fecha_analisis": "2026-10-14",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No impacta a ninguno de los sectores económicos prioritarios ni de monitoreo; sus disposiciones se circunscriben a la actividad hípica y a la empresa operadora de la concesión del hipódromo.",
+    "resumen": "Propone asignar ocho millones de balboas anuales recaudados por la Junta de Control de Juegos a un fideicomiso para el pago de premios de carreras en el Hipódromo Presidente Remón.\nRegula la distribución de los premios a favor de ejemplares nacionales y clásicos, e introduce un comisario fiscalizador sobre las instalaciones.\nAfecta a la empresa concesionaria operadora del hipódromo y a los gremios de propietarios y criadores de caballos de carrera.",
+    "sectores": [],
+    "titulo": "Que modifica el artículo 61 y adiciona un artículo del Decreto Ley 2 de 10 de febrero de 1998",
+    "titulo_corto": "Financiamiento de premios y fiscalización de la actividad hípica"
+   },
    "anteproyecto": "306",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Segundo Debate",
@@ -25100,6 +25166,20 @@
    "titulo": "QUE MODIFICA EL ARTÍCULO 61 Y ADICIONA UN ARTICULO DEL DECRETO LEY 2 DE 10 DE FEBRERO DE 1998"
   },
   "8220": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1FUOBSfDpzIX7U5J_8uu4KgnuCyEdkasw",
+    "fecha_analisis": "2026-10-14",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-flash-latest",
+    "razon": "Se trata de una redistribución presupuestaria interna de los recursos estatales del FECI hacia programas de becas de SENACYT, sin imponer nuevas tasas, regulaciones ni cargas operativas a las empresas ni a las entidades financieras.",
+    "resumen": "La iniciativa crea el Fondo Nacional de Becas Agropecuarias, administrado por la Secretaría Nacional de Ciencia, Tecnología e Innovación (SENACYT), para financiar estudios técnicos, universitarios y de posgrado vinculados al agro. Los recursos provendrán de destinar al menos un 10 % anual de los fondos que el Fondo Especial de Compensación de Intereses (FECI) asigna al sector agropecuario. El proyecto modifica la distribución interna de dichos fondos sin alterar las tasas ni la mecánica de retención bancaria.",
+    "sectores": [],
+    "titulo": "Que establece un Fondo Nacional de Becas Agropecuarias y dicta otras disposiciones",
+    "titulo_corto": "Fondo Nacional de Becas Agropecuarias"
+   },
    "anteproyecto": "307",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -39132,14 +39212,14 @@
   "8207": "1d5a6cdeacfd",
   "8210": "b65e98b46354",
   "8212": "5242f1c85b23",
-  "8213": "8374d5c60b66",
-  "8214": "5b77a6bc52f4",
+  "8213": "293073b40be6",
+  "8214": "ba0a21863436",
   "8215": "69a9f8e9ea02",
   "8216": "da89b0fef052",
   "8217": "2cdb39dd4583",
   "8218": "bca0e5c478df",
-  "8219": "c83d53818cc5",
-  "8220": "50cbec79c7bd",
+  "8219": "1785a99c5700",
+  "8220": "ea275fe4c76c",
   "8221": "da0adf3619a2",
   "8222": "3c265d2c8b90",
   "8223": "11e44ddd4fe4",
@@ -39571,7 +39651,7 @@
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-14T05:51:28",
+  "fecha": "2026-10-14T07:20:15",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -39955,7 +40035,7 @@
    "512",
    "514"
   ],
-  "revisada": "2026-10-14T05:52:04"
+  "revisada": "2026-10-14T07:20:43"
  },
- "ultima_corrida": "2026-10-14T05:51:28"
+ "ultima_corrida": "2026-10-14T07:20:15"
 }
