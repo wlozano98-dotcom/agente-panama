@@ -38722,7 +38722,7 @@
    "ficha": "8635",
    "proponente": "H.D FRANCISCO JAVIER BREA TRISTÁN",
    "proyecto": "",
-   "tiene_documento": false,
+   "tiene_documento": true,
    "titulo": "QUE ADICIONA UN ARTICULO A LA LEY 61 DE 2009, PARA FACILITAR EL ACCESO A SOLUCIONES HABITACIONALES DE INTERES SOCIAL Y DICTA OTRAS DISPOSICIONES"
   },
   "8636": {
@@ -38740,7 +38740,7 @@
    "ficha": "8636",
    "proponente": "H.D PATSY CRISTINA LEE RENTERÍA DE HUANG",
    "proyecto": "",
-   "tiene_documento": false,
+   "tiene_documento": true,
    "titulo": "QUE ESTABLECE EL REGIMEN GENERAL DE PRESTAMOS INTERINSTITUCIONALES DE SERVIDORES PUBLICOS Y DICTA OTRAS DISPOSICIONES"
   },
   "8637": {
@@ -38758,7 +38758,7 @@
    "ficha": "8637",
    "proponente": "H.D JAVIER FRANCISCO SUCRE MEJIA",
    "proyecto": "",
-   "tiene_documento": false,
+   "tiene_documento": true,
    "titulo": "QUE MODIFICA DISPOSICIONES DE LA LEY 37 DE 2009, QUE DESCENTRALIZA LA ADMINISTRACION PUBLICA, PARA FACILITAR LA ATENCION DE EMERGENCIAS CATASTROFICAS Y LA RECONSTRUCCION TRAS EL TERREMOTO EN PANAMA"
   }
  },
@@ -39694,9 +39694,9 @@
   "8631": "f14586b39eab",
   "8633": "7f7aa2420094",
   "8634": "56736ef79e5d",
-  "8635": "8686641aa000",
-  "8636": "b9bf38866fdb",
-  "8637": "589264a7aae9"
+  "8635": "134bcc06a680",
+  "8636": "59cd580b3d3d",
+  "8637": "4412b7fd6a27"
  },
  "inicio": "2026-10-08",
  "matriz_generada": {
@@ -39754,7 +39754,7 @@
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-14T20:48:59",
+  "fecha": "2026-10-14T21:48:44",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -39945,7 +39945,8 @@
    "1351",
    "1352",
    "1353",
-   "1354"
+   "1354",
+   "1355"
   ],
   "en_pleno": {
    "7405": "2.º debate",
@@ -40167,9 +40168,10 @@
    "510",
    "511",
    "512",
-   "514"
+   "514",
+   "515"
   ],
-  "revisada": "2026-10-14T20:49:39"
+  "revisada": "2026-10-14T21:49:13"
  },
- "ultima_corrida": "2026-10-14T20:48:59"
+ "ultima_corrida": "2026-10-14T21:48:44"
 }
