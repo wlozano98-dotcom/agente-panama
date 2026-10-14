@@ -125,6 +125,14 @@
    "carpeta": "Igualdad del voto en elecciones de universidades públicas (ficha 8229)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "8235": {
+   "carpeta": "Trazabilidad de pagos electrónicos y fiscalización del ITBMS (ficha 8235)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
+  "8238": {
+   "carpeta": "Ley marco del Presupuesto General del Estado y reglas fiscales (ficha 8238)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
   "8248": {
    "carpeta": "Sanciones por disparos al aire (ficha 8248)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
@@ -25512,6 +25520,38 @@
    "titulo": "QUE CREA LA VENTANILLA UNICA DE RECAUDACION PUBLICA PARA LAS MICRO, PEQUEÑAS Y MEDIANAS EMPRESAS (MIPYMES) Y SOCIEDADES DE EMPRENDIMIENTO, COMO MECANISMO TECNOLOGICO DE PAGO INTERINSTITUCIONAL DE CARACTER VOLUNTARIO Y DICTA OTRAS DISPOSICIONES"
   },
   "8235": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2 (adiciona el artículo 1057-V-A al Código Fiscal): obliga a proveedores de servicios de pago (bancos, procesadores, adquirentes) que procesen más de B/.500,000 anuales a reportar mensualmente a la DGI los montos agregados de comercios con facturación igual o superior a B/.500,000; faculta a la DGI a realizar conciliaciones automáticas e implementar un sistema algorítmico de gestión de riesgo.",
+     "Artículo 3 (modifica el artículo 752-A del Código Fiscal): establece canales digitales para denuncias tributarias por no emisión de factura o retención indebida de ITBMS, fijando una recompensa del 25% de las sumas efectivamente recaudadas a favor del denunciante.",
+     "Artículo 4 (adiciona el numeral 22 al artículo 4 de la Ley 23 de 2015): incorpora formalmente la definición de Proveedor de servicios de pago dentro del marco regulatorio de prevención de blanqueo de capitales."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1VLWW2LdOe2EOhcoa2Jk1_MX2S5vnGD_b",
+    "fecha_analisis": "2026-10-14",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Impone a bancos, adquirentes y pasarelas de pago una obligación de reporte mensual a la DGI sobre montos procesados y adiciona su definición en la Ley 23 de 2015.",
+      "sector": "FINANCIERO"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Somete a los comercios a conciliación fiscal automática entre ventas declaradas y pagos electrónicos, e incentiva denuncias ciudadanas mediante recompensas económicas.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea una nueva obligación periódica de reporte para el sector bancario y procesadores de pagos, al tiempo que intensifica la fiscalización y el riesgo de auditorías tributarias para empresas comerciales.",
+    "resumen": "El proyecto obliga a entidades bancarias y procesadores de pagos a reportar mensualmente a la DGI las transacciones electrónicas de comercios que facturen más de B/.500,000 anuales. Faculta a la DGI a conciliar automáticamente estos flujos con las declaraciones de ITBMS y aplicar un sistema de gestión de riesgo algorítmico. Además, reforma el régimen de denuncias tributarias otorgando al denunciante una recompensa del 25% de lo recaudado por evasión o falta de facturación.",
+    "sectores": [
+     "FINANCIERO",
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que fortalece la recaudación del Impuesto a la Transferencia de Bienes Corporales Muebles y la Prestación de Servicios (ITBMS) mediante la trazabilidad de pagos electrónicos, incentivos a los consumidores y la participación ciudadana",
+    "titulo_corto": "Trazabilidad de pagos electrónicos y fiscalización del ITBMS"
+   },
    "anteproyecto": "321",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Segundo Debate",
@@ -25606,6 +25646,32 @@
    "titulo": "QUE MODIFICA Y ADICIONA DISPOSICIONES DEL CODIGO PROCESAL PENAL, RELATIVAS AL RESARCIMIENTO DE LA VICTIMA Y LA ACCION RESTAURATIVA"
   },
   "8238": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 8 (Texto Único): Establece una duración máxima de 5 años para subsidios y transferencias corrientes, condicionando su continuidad a evaluaciones de impacto favorables y ordenando su eliminación gradual si resultan desfavorables.",
+     "Artículo 13 (Texto Único): Obliga al Ministerio de Economía y Finanzas a publicar anualmente un informe detallado del gasto tributario, desagregando por tributo y régimen especial los beneficiarios y costos fiscales de exoneraciones, deducciones y créditos.",
+     "Artículos 6 y 11 (Texto Único): Fijan un piso y seguimiento a la inversión pública y exigen una cartera de proyectos evaluada con costos totales y cronogramas para licitaciones de infraestructura."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1VSW8tXTRL77xxT2b9vqXcCwjr0yBB4z5",
+    "fecha_analisis": "2026-10-14",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Crea controles de disciplina fiscal, plazos máximos a subsidios estatales y monitoreo al gasto tributario por exoneraciones, con efectos indirectos en beneficios e incentivos empresariales.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La ley impone directrices presupuestarias y de rendición de cuentas al sector público. Su impacto hacia las empresas es transversal e indirecto, derivado del escrutinio técnico sobre subsidios vigentes y del reporte público obligatorio sobre exoneraciones e incentivos fiscales.",
+    "resumen": "Establece un marco normativo para la formulación, aprobación, ejecución y control del Presupuesto General del Estado mediante reformas a la Ley de Responsabilidad Social Fiscal. Fija topes al crecimiento del gasto corriente, exige umbrales de inversión pública y somete los subsidios estatales a evaluaciones de impacto y plazos de caducidad. Además, institucionaliza la publicación y fiscalización anual del costo fiscal de las exoneraciones e incentivos tributarios otorgados a empresas y regímenes especiales.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que dicta la Ley Marco del Presupuesto General del Estado, establece reglas para su formulación, ejecución y control, racionaliza los compromisos legales de gasto y se dictan otras disposiciones",
+    "titulo_corto": "Ley marco del Presupuesto General del Estado y reglas fiscales"
+   },
    "anteproyecto": "318",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Segundo Debate",
@@ -39006,10 +39072,10 @@
   "8230": "ab6097654faf",
   "8231": "e14033fb0436",
   "8234": "ea20445b9377",
-  "8235": "8949c76b829a",
+  "8235": "de96a3590a80",
   "8236": "85ed683f142a",
   "8237": "7ce7bc9be009",
-  "8238": "b7990520dc85",
+  "8238": "6bc5f4dc6c8c",
   "8239": "176130f60ae9",
   "8241": "96cf94673bfb",
   "8242": "61c12cbde65e",
@@ -39403,6 +39469,7 @@
    "8273",
    "8292",
    "8293",
+   "8238",
    "8132",
    "7767",
    "8079",
@@ -39415,6 +39482,7 @@
    "8313",
    "8355",
    "8353",
+   "8235",
    "8286",
    "8296",
    "8257",
@@ -39422,7 +39490,7 @@
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-14T01:01:18",
+  "fecha": "2026-10-14T01:47:31",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -39440,6 +39508,8 @@
    "8132": "399fc6670871",
    "8177": "399fc6670871",
    "8227": "399fc6670871",
+   "8235": "399fc6670871",
+   "8238": "399fc6670871",
    "8257": "399fc6670871",
    "8263": "399fc6670871",
    "8266": "399fc6670871",
@@ -39802,7 +39872,7 @@
    "512",
    "514"
   ],
-  "revisada": "2026-10-14T01:01:50"
+  "revisada": "2026-10-14T01:48:00"
  },
- "ultima_corrida": "2026-10-14T01:01:18"
+ "ultima_corrida": "2026-10-14T01:47:31"
 }
