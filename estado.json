@@ -121,6 +121,10 @@
    "carpeta": "Reforma al régimen penal de la adolescencia (ficha 8214)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
+  "8216": {
+   "carpeta": "Residencia para profesionales del deporte (ficha 8216)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
   "8217": {
    "carpeta": "Patronato del Estadio Kenny Serracín (ficha 8217)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -24982,6 +24986,20 @@
    "titulo": "QUE ADICIONA EL CAPITULO DE DELITOS CONTRA LOS SERVICIOS PUBLICOS DE EMERGENCIA AL CODIGO PENAL SANCIONANDO LAS LLAMADAS FALSAS EN LA REPUBLICA DE PANAMA."
   },
   "8216": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1v3d5D8-23T6vIXweoF3QpOvmBLTaqWl7",
+    "fecha_analisis": "2026-10-14",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No tiene impacto sobre el sector empresarial ni altera la regulación económica general, ya que su ámbito se restringe a facilidades migratorias individuales para técnicos y atletas vinculados al ecosistema deportivo nacional.",
+    "resumen": "Propone modificar el régimen migratorio aplicable a atletas y entrenadores extranjeros contratados en el país, permitiéndoles acceder a una categoría de residencia permanente tras un periodo provisional de dos años. Además, autoriza la inclusión de dependientes económicos y establece que la acreditación profesional deberá ser certificada exclusivamente por el Instituto Panameño de Deportes (Pandeportes) o el Comité Olímpico de Panamá.",
+    "sectores": [],
+    "titulo": "Que modifica la Ley 54 de 2011, que establece la categoría de residente temporal en calidad de profesional del deporte",
+    "titulo_corto": "Residencia para profesionales del deporte"
+   },
    "anteproyecto": "301",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Segundo Debate",
@@ -39215,7 +39233,7 @@
   "8213": "293073b40be6",
   "8214": "ba0a21863436",
   "8215": "69a9f8e9ea02",
-  "8216": "da89b0fef052",
+  "8216": "48c70640b8dd",
   "8217": "2cdb39dd4583",
   "8218": "bca0e5c478df",
   "8219": "1785a99c5700",
@@ -39651,7 +39669,7 @@
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-14T09:50:25",
+  "fecha": "2026-10-14T10:53:25",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -40035,7 +40053,7 @@
    "512",
    "514"
   ],
-  "revisada": "2026-10-14T09:50:54"
+  "revisada": "2026-10-14T10:54:10"
  },
- "ultima_corrida": "2026-10-14T09:50:25"
+ "ultima_corrida": "2026-10-14T10:53:25"
 }
