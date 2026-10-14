@@ -1,5 +1,5 @@
 {
- "comisiones_revisadas": "2026-10-14T11:52:04",
+ "comisiones_revisadas": "2026-10-14T14:52:01",
  "drive": {
   "7423": {
    "carpeta": "Protección e inclusión de personas con autismo (TEA) (ficha 7423)",
@@ -37885,8 +37885,18 @@
   "8596": {
    "anteproyecto": "178",
    "comision": "COMISION DE POBLACION, AMBIENTE Y DESARROLLO",
-   "etapa": "Preliminar",
+   "etapa": "Primer Debate",
    "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-10-13"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-10-06"
+    },
     {
      "comentario": "PRELIMINAR",
      "etapa": "Preliminar",
@@ -37896,7 +37906,7 @@
    "fecha": "2026-09-09",
    "ficha": "8596",
    "proponente": "H.D JOSE PEREZ BARBONI",
-   "proyecto": "",
+   "proyecto": "743",
    "tiene_documento": true,
    "titulo": "QUE DECLARA AREA PROTEGIDA UNA ZONA BOSCOSA DEL CORREGIMIENTO DE ANCON QUE COLINDA CON EL AREA DE VILLA DE LAS FUENTES EN EL CORREGIMIENTO DE BETANIA"
   },
@@ -38696,6 +38706,24 @@
    "proyecto": "",
    "tiene_documento": true,
    "titulo": "QUE INSTITUYE EL FESTIVAL NACIONAL ARTESANAL Y FOLCLORICO DE LA ARENA DE CHITRE Y CREA SU PATRONATO"
+  },
+  "8635": {
+   "anteproyecto": "206",
+   "comision": "COMISION DE INFRAESTRUCTURA PUBLICA Y ASUNTOS DEL CANAL",
+   "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-10-13"
+    }
+   ],
+   "fecha": "2026-10-13",
+   "ficha": "8635",
+   "proponente": "H.D FRANCISCO JAVIER BREA TRISTÁN",
+   "proyecto": "",
+   "tiene_documento": false,
+   "titulo": "QUE ADICIONA UN ARTICULO A LA LEY 61 DE 2009, PARA FACILITAR EL ACCESO A SOLUCIONES HABITACIONALES DE INTERES SOCIAL Y DICTA OTRAS DISPOSICIONES"
   }
  },
  "huellas_base": {
@@ -39594,7 +39622,7 @@
   "8593": "714f188e54f4",
   "8594": "21a8c540820e",
   "8595": "0a6607739118",
-  "8596": "f192cfed929f",
+  "8596": "fc7a07ab6da9",
   "8597": "3514b424da1c",
   "8598": "719673ba95ed",
   "8599": "af191537bda6",
@@ -39629,7 +39657,8 @@
   "8630": "bda401b89259",
   "8631": "f14586b39eab",
   "8633": "7f7aa2420094",
-  "8634": "56736ef79e5d"
+  "8634": "56736ef79e5d",
+  "8635": "8686641aa000"
  },
  "inicio": "2026-10-08",
  "matriz_generada": {
@@ -39687,7 +39716,7 @@
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-14T13:53:47",
+  "fecha": "2026-10-14T14:52:26",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -39745,7 +39774,29 @@
   "version": 2
  },
  "matriz_id": "1xh7TLIrTJk3DI1snoLyXTN-HAFAGouiL08XvXa1xsEs",
- "pendientes": {},
+ "pendientes": {
+  "cambio:8596": {
+   "antes": "Preliminar",
+   "ficha": "8596",
+   "nuevas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-10-13"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-10-06"
+    }
+   ],
+   "tipo": "cambio"
+  },
+  "nueva:8635": {
+   "ficha": "8635",
+   "tipo": "nueva"
+  }
+ },
  "prensa": {
   "agenda": [
    "1246",
@@ -40071,7 +40122,7 @@
    "512",
    "514"
   ],
-  "revisada": "2026-10-14T13:54:17"
+  "revisada": "2026-10-14T14:52:56"
  },
- "ultima_corrida": "2026-10-14T13:53:47"
+ "ultima_corrida": "2026-10-14T14:52:26"
 }
