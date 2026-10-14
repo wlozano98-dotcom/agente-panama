@@ -433,6 +433,10 @@
    "carpeta": "Reforma al marco regulatorio del sector eléctrico (Ley 6 de 1997) (ficha 8586)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
   },
+  "8596": {
+   "carpeta": "Área protegida en zona boscosa de Ancón y Betania (ficha 8596)",
+   "comision": "Comisión de Población, Ambiente y Desarrollo"
+  },
   "8609": {
    "carpeta": "Creación del Documento de Identidad Sanitaria (DIS) (ficha 8609)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
@@ -37883,6 +37887,33 @@
    "titulo": "QUE CREA EL SISTEMA DE ASISTENCIA OPORTUNA, VOLUNTARIEDAD ASISTIDA Y DIRECTRICES ANTICIPADAS EN MATERIA DE SALUD MENTAL Y DICTA OTRAS DISPOSICIONES"
   },
   "8596": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Declara área protegida una superficie de 33 hectáreas y 10,822.53 m2 de la finca No. 129683 en Ancón, colindante con Villa de las Fuentes.",
+     "Artículo 4: Califica la zona boscosa como bien de dominio público, restringiendo su uso exclusivamente a fines de conservación y manejo ambiental.",
+     "Artículo 5: Prohíbe la construcción de obras civiles, tala de árboles, quemas, actividades agropecuarias, extracción mineral y cualquier actividad económica que altere el ecosistema.",
+     "Artículos 6 y 7: Asigna la administración del área protegida al Ministerio de Ambiente y lo faculta para elaborar su Plan de Manejo."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1QRo53lYqHEmpENvYTvMyK-XpA5pH9YjE",
+    "fecha_analisis": "2026-10-14",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Prohíbe la construcción de obras civiles y proyectos inmobiliarios exclusivamente dentro del polígono delimitado de 33 hectáreas.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es bajo y muy puntual, restringiendo el desarrollo inmobiliario y de obras únicamente en un terreno específico de 33 hectáreas en Ancón.",
+    "resumen": "Declara como área protegida un polígono boscoso de más de 33 hectáreas en la finca No. 129683, ubicado en Ancón y colindante con Villa de las Fuentes (Betania). Prohíbe el desarrollo de obras civiles, tala y actividades económicas en dicho terreno para preservar la cuenca del río Curundú. La administración y reglamentación del plan de manejo quedan a cargo del Ministerio de Ambiente.",
+    "sectores": [
+     "CEMENTERAS"
+    ],
+    "titulo": "Que declara área protegida una zona boscosa del corregimiento de Ancón que colinda con el área de Villa de las Fuentes en el corregimiento de Betania",
+    "titulo_corto": "Área protegida en zona boscosa de Ancón y Betania"
+   },
    "anteproyecto": "178",
    "comision": "COMISION DE POBLACION, AMBIENTE Y DESARROLLO",
    "etapa": "Primer Debate",
@@ -39658,7 +39689,7 @@
   "8593": "714f188e54f4",
   "8594": "21a8c540820e",
   "8595": "0a6607739118",
-  "8596": "fc7a07ab6da9",
+  "8596": "b7bc6bfccc10",
   "8597": "3514b424da1c",
   "8598": "719673ba95ed",
   "8599": "af191537bda6",
@@ -39701,6 +39732,7 @@
  "inicio": "2026-10-08",
  "matriz_generada": {
   "claves": [
+   "8596",
    "7532",
    "8481",
    "8586",
@@ -39754,7 +39786,7 @@
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-14T22:49:14",
+  "fecha": "2026-10-14T23:44:04",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -39806,6 +39838,7 @@
    "8516": "399fc6670871",
    "8546": "399fc6670871",
    "8586": "399fc6670871",
+   "8596": "399fc6670871",
    "8609": "399fc6670871",
    "8613": "399fc6670871"
   },
@@ -39813,23 +39846,6 @@
  },
  "matriz_id": "1xh7TLIrTJk3DI1snoLyXTN-HAFAGouiL08XvXa1xsEs",
  "pendientes": {
-  "cambio:8596": {
-   "antes": "Preliminar",
-   "ficha": "8596",
-   "nuevas": [
-    {
-     "comentario": "PENDIENTE DE I DEBATE",
-     "etapa": "Primer Debate",
-     "fecha": "2026-10-13"
-    },
-    {
-     "comentario": "PROHIJADO",
-     "etapa": "Prohijado",
-     "fecha": "2026-10-06"
-    }
-   ],
-   "tipo": "cambio"
-  },
   "nueva:8635": {
    "ficha": "8635",
    "tipo": "nueva"
@@ -40172,7 +40188,7 @@
    "514",
    "515"
   ],
-  "revisada": "2026-10-14T22:49:43"
+  "revisada": "2026-10-14T23:44:36"
  },
- "ultima_corrida": "2026-10-14T22:49:14"
+ "ultima_corrida": "2026-10-14T23:44:04"
 }
