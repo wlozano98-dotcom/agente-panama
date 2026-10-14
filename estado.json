@@ -1,5 +1,5 @@
 {
- "comisiones_revisadas": "2026-10-14T14:52:01",
+ "comisiones_revisadas": "2026-10-14T15:57:15",
  "drive": {
   "7423": {
    "carpeta": "Protección e inclusión de personas con autismo (TEA) (ficha 7423)",
@@ -38724,6 +38724,42 @@
    "proyecto": "",
    "tiene_documento": false,
    "titulo": "QUE ADICIONA UN ARTICULO A LA LEY 61 DE 2009, PARA FACILITAR EL ACCESO A SOLUCIONES HABITACIONALES DE INTERES SOCIAL Y DICTA OTRAS DISPOSICIONES"
+  },
+  "8636": {
+   "anteproyecto": "205",
+   "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
+   "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-10-08"
+    }
+   ],
+   "fecha": "2026-10-08",
+   "ficha": "8636",
+   "proponente": "H.D PATSY CRISTINA LEE RENTERÍA DE HUANG",
+   "proyecto": "",
+   "tiene_documento": false,
+   "titulo": "QUE ESTABLECE EL REGIMEN GENERAL DE PRESTAMOS INTERINSTITUCIONALES DE SERVIDORES PUBLICOS Y DICTA OTRAS DISPOSICIONES"
+  },
+  "8637": {
+   "anteproyecto": "207",
+   "comision": "COMISION DE ASUNTOS MUNICIPALES",
+   "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-10-13"
+    }
+   ],
+   "fecha": "2026-10-13",
+   "ficha": "8637",
+   "proponente": "H.D JAVIER FRANCISCO SUCRE MEJIA",
+   "proyecto": "",
+   "tiene_documento": false,
+   "titulo": "QUE MODIFICA DISPOSICIONES DE LA LEY 37 DE 2009, QUE DESCENTRALIZA LA ADMINISTRACION PUBLICA, PARA FACILITAR LA ATENCION DE EMERGENCIAS CATASTROFICAS Y LA RECONSTRUCCION TRAS EL TERREMOTO EN PANAMA"
   }
  },
  "huellas_base": {
@@ -39658,7 +39694,9 @@
   "8631": "f14586b39eab",
   "8633": "7f7aa2420094",
   "8634": "56736ef79e5d",
-  "8635": "8686641aa000"
+  "8635": "8686641aa000",
+  "8636": "b9bf38866fdb",
+  "8637": "589264a7aae9"
  },
  "inicio": "2026-10-08",
  "matriz_generada": {
@@ -39716,7 +39754,7 @@
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-14T14:52:26",
+  "fecha": "2026-10-14T15:57:54",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -39794,6 +39832,14 @@
   },
   "nueva:8635": {
    "ficha": "8635",
+   "tipo": "nueva"
+  },
+  "nueva:8636": {
+   "ficha": "8636",
+   "tipo": "nueva"
+  },
+  "nueva:8637": {
+   "ficha": "8637",
    "tipo": "nueva"
   }
  },
@@ -39898,7 +39944,8 @@
    "1350",
    "1351",
    "1352",
-   "1353"
+   "1353",
+   "1354"
   ],
   "en_pleno": {
    "7405": "2.º debate",
@@ -40122,7 +40169,7 @@
    "512",
    "514"
   ],
-  "revisada": "2026-10-14T14:52:56"
+  "revisada": "2026-10-14T15:58:26"
  },
- "ultima_corrida": "2026-10-14T14:52:26"
+ "ultima_corrida": "2026-10-14T15:57:54"
 }
