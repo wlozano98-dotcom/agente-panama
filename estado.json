@@ -1,5 +1,5 @@
 {
- "comisiones_revisadas": "2026-10-13T23:45:26",
+ "comisiones_revisadas": "2026-10-14T05:49:24",
  "drive": {
   "7423": {
    "carpeta": "Protección e inclusión de personas con autismo (TEA) (ficha 7423)",
@@ -112,6 +112,14 @@
   "8199": {
    "carpeta": "Programa de educación segura en áreas de difícil acceso (ficha 8199)",
    "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "8217": {
+   "carpeta": "Patronato del Estadio Kenny Serracín (ficha 8217)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "8222": {
+   "carpeta": "Listado digital de sancionados en contratación pública (ficha 8222)",
+   "comision": "Comisión de Economía y Finanzas"
   },
   "8225": {
    "carpeta": "Patrimonio histórico del puente sobre el río Changuinola (ficha 8225)",
@@ -24964,6 +24972,20 @@
    "titulo": "QUE MODIFICA LA LEY 54 DE 2011, QUE ESTABLECE LA CATEGORIA DE RESIDENTE TEMPORAL EN CALIDAD DE PROFESIONAL DEL DEPORTE"
   },
   "8217": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1sy7CZ6PUVXqubMu4MEil_BAoNj4JtSqD",
+    "fecha_analisis": "2026-10-14",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No impone obligaciones, costos ni regulaciones directas sobre la actividad empresarial; la creación de patronatos para administrar instalaciones deportivas públicas no modifica las reglas de ningún sector económico.",
+    "resumen": "Propone la creación del Patronato del Estadio de Béisbol Kenny Serracín en David, Chiriquí, como entidad con personería jurídica y autonomía para su administración, mantenimiento y operación.\nEstablece la conformación de su junta directiva con representación del sector público, deportivo y empresarial local, así como mecanismos para la captación de fondos mediante eventos, patrocinios y concesiones de áreas comerciales dentro del recinto.\nAfecta principalmente la estructura de gobernanza y gestión de la infraestructura deportiva pública bajo la titularidad de Pandeportes.",
+    "sectores": [],
+    "titulo": "Que crea el Patronato del Estadio Kenny Serracín de David y dicta otras disposiciones",
+    "titulo_corto": "Patronato del Estadio Kenny Serracín"
+   },
    "anteproyecto": "304",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -25139,6 +25161,34 @@
    "titulo": "QUE ESTABLECE LA PONDERACION DEL VOTO EN LOS PROCESOS DE ELECCION DE AUTORIDADES DE LAS UNIVERSIDADES OFICIALES DE LA REPUBLICA DE PANAMA Y DICTA OTRAS DISPOSICIONES"
   },
   "8222": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 5: Define la inclusión en el listado de personas naturales y jurídicas condenadas penalmente o multadas administrativamente por corrupción o faltas graves a la probidad.",
+     "Artículo 9: Fija la duración de la publicación en la plataforma por un periodo equivalente a la pena principal o un mínimo de 10 años en el caso de sanciones administrativas.",
+     "Artículo 10: Obliga a publicar la razón social, RUC, directores, accionistas significativos y beneficiarios finales de las personas jurídicas sancionadas.",
+     "Artículo 11 y 15: Establece la certificación digital del listado como requisito de verificación obligatoria para los servidores públicos antes de adjudicar contratos estatales.",
+     "Artículo 18: Adiciona el numeral 12 al artículo 24 de la Ley 22 de 2006 para fijar incapacidad legal expresa para contratar con el Estado a quienes figuren en el listado digital."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1OQQPRTFk_aErx1LKobF8adHYXDPj1g41",
+    "fecha_analisis": "2026-10-14",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Establece una causal expresa de incapacidad legal para contratar con el Estado y dispone la publicación detallada de directores, accionistas y beneficiarios finales de personas jurídicas sancionadas.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Afecta a todas las empresas proveedoras del Estado al introducir un requisito obligatorio de verificación y una causal directa de inhabilitación por condenas o faltas de corrupción, además de exponer información societaria y beneficiarios finales de infractores.",
+    "resumen": "Crea una plataforma pública digital administrada por la ANTAI que registra a personas naturales y jurídicas con condenas penales o sanciones administrativas firmes por corrupción o faltas contra la administración pública. La iniciativa reforma la Ley 22 de 2006 de Contrataciones Públicas para establecer la verificación obligatoria previa a cualquier adjudicación y declarar la incapacidad legal para contratar con el Estado a quienes figuren en dicho registro. Además, expone públicamente los nombres de directivos, accionistas significativos y beneficiarios finales de las empresas listadas.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Por la cual se fortalece la contratación pública en la República de Panamá y se crea el Listado Público Digital de personas condenadas y sancionadas por delitos contra la administración pública",
+    "titulo_corto": "Listado digital de sancionados en contratación pública"
+   },
    "anteproyecto": "309",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Segundo Debate",
@@ -39086,12 +39136,12 @@
   "8214": "5b77a6bc52f4",
   "8215": "69a9f8e9ea02",
   "8216": "da89b0fef052",
-  "8217": "064242a84f9a",
+  "8217": "2cdb39dd4583",
   "8218": "bca0e5c478df",
   "8219": "c83d53818cc5",
   "8220": "50cbec79c7bd",
   "8221": "da0adf3619a2",
-  "8222": "f5a6848ec546",
+  "8222": "3c265d2c8b90",
   "8223": "11e44ddd4fe4",
   "8224": "69f5f6035c41",
   "8225": "ceb2177cfc1f",
@@ -39510,6 +39560,7 @@
    "8282",
    "8313",
    "8355",
+   "8222",
    "8353",
    "8235",
    "8286",
@@ -39520,7 +39571,7 @@
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-14T04:52:21",
+  "fecha": "2026-10-14T05:51:28",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -39537,6 +39588,7 @@
    "8079": "399fc6670871",
    "8132": "399fc6670871",
    "8177": "399fc6670871",
+   "8222": "399fc6670871",
    "8227": "399fc6670871",
    "8235": "399fc6670871",
    "8238": "399fc6670871",
@@ -39903,7 +39955,7 @@
    "512",
    "514"
   ],
-  "revisada": "2026-10-14T04:52:47"
+  "revisada": "2026-10-14T05:52:04"
  },
- "ultima_corrida": "2026-10-14T04:52:21"
+ "ultima_corrida": "2026-10-14T05:51:28"
 }
