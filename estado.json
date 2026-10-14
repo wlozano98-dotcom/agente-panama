@@ -133,6 +133,10 @@
    "carpeta": "Ley marco del Presupuesto General del Estado y reglas fiscales (ficha 8238)",
    "comision": "Comisión de Economía y Finanzas"
   },
+  "8243": {
+   "carpeta": "Plazos máximos de pago a mipymes en compras públicas (ficha 8243)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
   "8248": {
    "carpeta": "Sanciones por disparos al aire (ficha 8248)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
@@ -25794,6 +25798,31 @@
    "titulo": "QUE ADICIONA UN ARTICULO AL CODIGO PENAL EN MATERIA DE ENRIQUECIMIENTO INJUSTIFICADO"
   },
   "8243": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2: Modifica el numeral 1 del artículo 22 de la Ley 22 de 2006 para someter el derecho de pago de los contratistas a los plazos máximos que impone la ley.",
+     "Artículo 3: Modifica el artículo 100 de la Ley 22 de 2006 para ordenar que en contratos con mipymes el plazo de pago estatal no exceda los 90 días calendario desde el cumplimiento del objeto contractual."
+    ],
+    "drive": "https://drive.google.com/drive/folders/16iUKM4YCb6fQrI9DcoCzqBv0d9A5KFTo",
+    "fecha_analisis": "2026-10-14",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Establece un plazo máximo legal de 90 días para el pago a micro, pequeñas y medianas empresas contratistas del Estado, mejorando su previsibilidad financiera y flujo de caja.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Impacta de manera transversal a las micro, pequeñas y medianas empresas que licitan o contratan con el Estado, fijando un tope de 90 días calendario para recibir sus pagos e intereses moratorios por retrasos.",
+    "resumen": "La iniciativa reforma la Ley de Contrataciones Públicas para establecer un límite legal máximo de pago a favor de las micro, pequeñas y medianas empresas contratistas del Estado.\nFija un término perentorio de noventa (90) días calendario para que las entidades públicas cancelen las cuentas una vez certificado el cumplimiento contractual.\nLa medida busca reducir la morosidad estatal y dotar de certeza de liquidez al tejido empresarial de menor tamaño que provee bienes, obras y servicios al sector público.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que modifica la Ley 22 de 2006, ordenada por la Ley 153 de 2020, para establecer plazos máximos de pago a micro, pequeñas y medianas empresas en la contratación pública",
+    "titulo_corto": "Plazos máximos de pago a mipymes en compras públicas"
+   },
    "anteproyecto": "323",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Segundo Debate",
@@ -39079,7 +39108,7 @@
   "8239": "176130f60ae9",
   "8241": "96cf94673bfb",
   "8242": "61c12cbde65e",
-  "8243": "3e2add203d74",
+  "8243": "cca761d20fde",
   "8244": "d1c1ee0661a2",
   "8245": "79636469a482",
   "8246": "37705eb744c0",
@@ -39486,11 +39515,12 @@
    "8286",
    "8296",
    "8257",
+   "8243",
    "7659",
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-14T01:47:31",
+  "fecha": "2026-10-14T02:50:19",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -39510,6 +39540,7 @@
    "8227": "399fc6670871",
    "8235": "399fc6670871",
    "8238": "399fc6670871",
+   "8243": "399fc6670871",
    "8257": "399fc6670871",
    "8263": "399fc6670871",
    "8266": "399fc6670871",
@@ -39872,7 +39903,7 @@
    "512",
    "514"
   ],
-  "revisada": "2026-10-14T01:48:00"
+  "revisada": "2026-10-14T02:50:55"
  },
- "ultima_corrida": "2026-10-14T01:47:31"
+ "ultima_corrida": "2026-10-14T02:50:19"
 }
