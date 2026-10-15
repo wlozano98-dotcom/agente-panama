@@ -101,9 +101,21 @@
    "carpeta": "Semáforos sonoros inclusivos para personas con discapacidad (ficha 8161)",
    "comision": "Comisión de Comunicación y Transporte"
   },
+  "8167": {
+   "carpeta": "Reforma a la titulación masiva de tierras estatales (ficha 8167)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
+  "8169": {
+   "carpeta": "Apoyo económico estatal a juntas de carnaval (ficha 8169)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
   "8177": {
    "carpeta": "Contratación de mano de obra local en obras públicas (ficha 8177)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
+  "8179": {
+   "carpeta": "Ley de promoción del autoconsumo de energía eléctrica (ficha 8179)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
   },
   "8182": {
    "carpeta": "Tatuajes en servidores públicos (ficha 8182)",
@@ -23324,6 +23336,24 @@
    "titulo": "QUE DEROGA LA LEY 389 DE 2023, QUE REGULA EL FUNCIONAMIENTO DE LOS CENTROS DE EDUCACION POSMEDIA DE LOS INSTITUTOS TECNICOS SUPERIORES O CENTROS DE ENSEÑANZA SUPERIOR"
   },
   "8167": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2 (modifica el artículo 10 de la Ley 24 de 2006): Exige a personas jurídicas acreditar personería y paz y salvo con el fisco para tramitar bajo este régimen, y prohíbe adjudicaciones múltiples a familiares directos o empresas vinculadas.",
+     "Artículo 3 (adiciona el artículo 10-A a la Ley 24 de 2006): Inhabilita para ser beneficiarios de adjudicaciones sociales a funcionarios de alta jerarquía (durante el cargo y hasta 5 años después), sus socios comerciales y las personas jurídicas en las que participen, controlen o sean beneficiarios finales.",
+     "Artículo 4 (adiciona el artículo 10-B a la Ley 24 de 2006): Limita la superficie adjudicable a 5 ha rurales y 1 ha urbana para personas naturales, y hasta 20 ha para entidades comunitarias o sociales, prohibiendo acumular tierras mediante empresas vinculadas salvo proyectos de interés público expresamente autorizados por ANATI con visto bueno de MIDA y MiAmbiente."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1_wjeKofwNNpMeNLAqBTai5tzS4JlnXr7",
+    "fecha_analisis": "2026-10-15",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No impone obligaciones, tributos ni cambios regulatorios sobre la actividad empresarial ordinaria, ya que restringe el uso indebido de un programa asistencial y social de adjudicación de tierras del Estado.",
+    "resumen": "Establece controles y límites máximos de superficie en los programas de regularización y titulación masiva de tierras de carácter social ejecutados por la ANATI. Prohíbe que altos funcionarios, sus familiares y sociedades vinculadas reciban tierras bajo este régimen abreviado. Asimismo, fija un tope de superficie adjudicable (5 ha rurales y 1 ha urbana para personas naturales, y hasta 20 ha para cooperativas o asociaciones comunitarias) e implementa una plataforma pública de consulta y mecanismos de revocación de títulos fraudulentos.",
+    "sectores": [],
+    "titulo": "Que modifica la Ley 24 de 2006, que declara de orden público y de interés social las actividades de regulación y titulación masiva de tierras que ejecuta el Estado y adopta otras disposiciones",
+    "titulo_corto": "Reforma a la titulación masiva de tierras estatales"
+   },
    "anteproyecto": "263",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Segundo Debate",
@@ -23390,6 +23420,20 @@
    "titulo": "QUE ESTABLECE EL REGIMEN LEGAL DE LOS SITIOS DE DISPOSICION FINAL DE RESIDUOS EN LA REPUBLICA DE PANAMA, REGULA SU DISEÑO, OPERACION, CLAUSURA Y POSCLAUSURA, Y DICTA OTRAS DISPOSICIONES"
   },
   "8169": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1ZO5ZP3lwDsU4A3d_wj--PKokm3I7fEAt",
+    "fecha_analisis": "2026-10-15",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa no regula la actividad comercial ni impone obligaciones o costos al sector empresarial; se circunscribe a la asignación de subsidios presupuestarios estatales para comités y juntas de festividades locales.",
+    "resumen": "El proyecto propone crear una partida anual en el Presupuesto General del Estado, administrada por la Autoridad de Turismo de Panamá (ATP), para otorgar aportes económicos a las juntas y asociaciones de carnaval y carnavalitos formalmente constituidas.\nEstablece criterios de elegibilidad basados en trayectoria y afluencia, y fija normas de rendición de cuentas para las organizaciones beneficiarias.\nNo impone cargas operativas ni tributarias sobre las empresas privadas, contemplando únicamente la posibilidad de fomentar patrocinios y alianzas público-privadas.",
+    "sectores": [],
+    "titulo": "Que establece un apoyo económico por parte del Estado a las asociaciones y/o juntas de carnaval legalmente reconocidas",
+    "titulo_corto": "Apoyo económico estatal a juntas de carnaval"
+   },
    "anteproyecto": "267",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Segundo Debate",
@@ -23843,6 +23887,41 @@
    "titulo": "QUE MODIFICA EL ARTICULO UNICO DE LA LEY N 31 DE 5 DE DICIEMBRE DE 1949 (POR LA CUAL SE DECLARA \"DIA DEL PADRE\", EL TERCER DOMINGO DE JUNIO DE CADA AÑO) Y ESTABLECE EL DIA 19 DE MARZO DE CADA AÑO COMO \"DIA DEL PADRE\" Y DICTA OTRAS DISPOSICIONES"
   },
   "8179": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 4 (numeral 11): Prohíbe a las empresas generadoras, transmisoras y distribuidoras participar en la comercialización de equipos o servicios de autoconsumo sin autorización de la ASEP.",
+     "Artículo 95-C: Otorga a los usuarios finales el derecho a recibir compensación económica auditable y reflejada en la factura eléctrica por los excedentes inyectados a la red, sin cargos adicionales no autorizados.",
+     "Artículo 95-D: Obliga a proveedores e instaladores a cumplir normas del MICI y ASEP, contar con certificaciones internacionales de sus equipos y asumir responsabilidad civil por fallas técnicas.",
+     "Artículo 95-I: Permite acumular créditos energéticos por hasta 12 meses y transferir hasta el 50% de ellos a otra cuenta propia dentro de la misma área de concesión.",
+     "Artículo 95-M (parágrafo único): Asigna a las distribuidoras eléctricas la instalación, mantenimiento y calibración del medidor bidireccional sin costo adicional para el usuario.",
+     "Artículos 95-R y 95-S: Fija plazos de 20 a 45 días hábiles a las distribuidoras y entidades para resolver solicitudes de interconexión, aplicando el silencio administrativo positivo si no responden a tiempo.",
+     "Artículo 95-U: Faculta al MEF, la SNE y la ASEP a reglamentar incentivos fiscales y financieros para estimular inversiones en autoconsumo por parte de comercios y pymes."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1KSexgqp4UQ1gzSXB561oKauMsx1aKbOF",
+    "fecha_analisis": "2026-10-15",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Crea requisitos de certificación técnica y responsabilidad civil para proveedores e instaladores de equipos solares, protegiendo a su vez su mercado al prohibir a las distribuidoras eléctricas comercializar dichos sistemas.",
+      "sector": "OTROS"
+     },
+     {
+      "nivel": "bajo",
+      "razon": "Facilita a cualquier comercio o industria reducir sus costos energéticos mediante autogeneración renovable, reconocimiento de créditos en factura y aprobación por silencio positivo.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto tiene un impacto medio al regular de forma directa la venta, importación e instalación de tecnologías de energía renovable, e introduce facilidades de ahorro de costos operativos y autogeneración para las empresas comerciales e industriales.",
+    "resumen": "Regula legalmente el régimen de autoconsumo eléctrico con fuentes renovables para clientes regulados (hogares, comercios, pymes e industrias). Establece compensación por excedentes inyectados a la red, medidor bidireccional sin costo directo para el usuario y plazos obligatorios de interconexión con silencio administrativo positivo. Asimismo, fija normas técnicas y certificaciones para instaladores y proveedores de paneles solares, prohibiendo a las empresas distribuidoras eléctricas comercializar dichos equipos.",
+    "sectores": [
+     "OTROS"
+    ],
+    "titulo": "Que reduce el costo de energía eléctrica promoviendo el autoconsumo de energía eléctrica en la República de Panamá, y dicta otras disposiciones",
+    "titulo_corto": "Ley de promoción del autoconsumo de energía eléctrica"
+   },
    "anteproyecto": "270",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Segundo Debate",
@@ -39467,9 +39546,9 @@
   "8164": "9d9df66d76ce",
   "8165": "ba4cf488554c",
   "8166": "cf005955db18",
-  "8167": "9c5b8e949dbc",
+  "8167": "286ec23c877f",
   "8168": "79b78260171e",
-  "8169": "4e14e5bf5ae8",
+  "8169": "41956526a170",
   "8170": "a1dc0f1fe07c",
   "8171": "81ffd305c1b5",
   "8172": "1fa05cc923af",
@@ -39479,7 +39558,7 @@
   "8176": "7791a98dd6e1",
   "8177": "26f81fe3c287",
   "8178": "db29a0cf7202",
-  "8179": "4871db6137f4",
+  "8179": "8e1e06815ca4",
   "8180": "f6b566295a7b",
   "8182": "9d8006bb4c6b",
   "8183": "58e60bdd4904",
@@ -39944,11 +40023,12 @@
    "8257",
    "8243",
    "7659",
+   "8179",
    "8188",
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-15T08:02:12",
+  "fecha": "2026-10-15T08:56:11",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -39965,6 +40045,7 @@
    "8079": "399fc6670871",
    "8132": "399fc6670871",
    "8177": "399fc6670871",
+   "8179": "399fc6670871",
    "8188": "399fc6670871",
    "8222": "399fc6670871",
    "8227": "399fc6670871",
@@ -40338,7 +40419,7 @@
    "514",
    "515"
   ],
-  "revisada": "2026-10-15T08:02:41"
+  "revisada": "2026-10-15T08:56:38"
  },
- "ultima_corrida": "2026-10-15T08:02:12"
+ "ultima_corrida": "2026-10-15T08:56:11"
 }
