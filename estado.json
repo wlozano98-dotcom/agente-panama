@@ -105,6 +105,10 @@
    "carpeta": "Contratación de mano de obra local en obras públicas (ficha 8177)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
+  "8182": {
+   "carpeta": "Tatuajes en servidores públicos (ficha 8182)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
   "8188": {
    "carpeta": "Reforma a la regulación de la actividad panelera (ficha 8188)",
    "comision": "Comisión de Asuntos Agropecuarios"
@@ -23905,6 +23909,20 @@
    "titulo": "QUE ESTABLECE EL PATRONATO DEL HOSPITAL MULTIMODAL INTEGRADO DE LA PROVINCIA DE COLON"
   },
   "8182": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/17g57bFEr6huQHXoeWY5rZ8hBeQ98cUeH",
+    "fecha_analisis": "2026-10-15",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La norma se limita a regular los requisitos de ingreso y permanencia en la carrera pública y entidades estatales, sin modificar el Código de Trabajo ni crear obligaciones para el sector privado.",
+    "resumen": "La iniciativa busca eliminar la discriminación por tatuajes visibles en los procesos de selección y permanencia de personal en las instituciones públicas del Estado panameño. Prohíbe rechazar candidatos por tener tatuajes, salvo aquellos que hagan alusión a discursos de odio o agrupaciones criminales, y permite a las entidades reservarse la contratación si se ubican en rostro, cuello u orejas.",
+    "sectores": [],
+    "titulo": "Que permite los tatuajes corporales temporales o permanentes en los servidores públicos",
+    "titulo_corto": "Tatuajes en servidores públicos"
+   },
    "anteproyecto": "277",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Segundo Debate",
@@ -39463,7 +39481,7 @@
   "8178": "db29a0cf7202",
   "8179": "4871db6137f4",
   "8180": "f6b566295a7b",
-  "8182": "f381d348d811",
+  "8182": "9d8006bb4c6b",
   "8183": "58e60bdd4904",
   "8184": "3781be217e49",
   "8186": "780c6847e363",
@@ -39930,7 +39948,7 @@
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-15T07:09:04",
+  "fecha": "2026-10-15T08:02:12",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -40320,7 +40338,7 @@
    "514",
    "515"
   ],
-  "revisada": "2026-10-15T07:09:36"
+  "revisada": "2026-10-15T08:02:41"
  },
- "ultima_corrida": "2026-10-15T07:09:04"
+ "ultima_corrida": "2026-10-15T08:02:12"
 }
