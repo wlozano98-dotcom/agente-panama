@@ -97,6 +97,14 @@
    "carpeta": "Reformas a la Ley 45 sobre garantías al consumidor (ficha 8132)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
   },
+  "8134": {
+   "carpeta": "Ajuste de límites entre La Pintada y El Potrero (ficha 8134)",
+   "comision": "Comisión de Asuntos Municipales"
+  },
+  "8153": {
+   "carpeta": "Regulación del sistema nacional de hidrantes contra incendios (ficha 8153)",
+   "comision": "Comisión de Infraestructura Pública y Asuntos del Canal"
+  },
   "8161": {
    "carpeta": "Semáforos sonoros inclusivos para personas con discapacidad (ficha 8161)",
    "comision": "Comisión de Comunicación y Transporte"
@@ -22016,6 +22024,20 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 45 DE 2007 SOBRE PROTECCION AL CONSUMIDOR"
   },
   "8134": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1EhFkR1wwoUZ8VF60OcUDBIyRr5GWvCz5",
+    "fecha_analisis": "2026-10-15",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Se trata de un reordenamiento territorial estrictamente comunitario y administrativo a nivel municipal, sin repercusión regulatoria, fiscal ni operativa sobre el sector empresarial.",
+    "resumen": "La iniciativa ajusta la delimitación limítrofe entre los corregimientos de La Pintada (cabecera) y El Potrero, en el distrito de La Pintada, provincia de Coclé. Su propósito exclusivo es incorporar la totalidad de la comunidad de Toro Bravo dentro del corregimiento de La Pintada. El proyecto no establece regulaciones ni cargas para el sector privado.",
+    "sectores": [],
+    "titulo": "Que modifica la Ley 58 de 1998, que establece la división política administrativa de las provincias de Coclé, Herrera, Los Santos y Veraguas",
+    "titulo_corto": "Ajuste de límites entre La Pintada y El Potrero"
+   },
    "anteproyecto": "239",
    "comision": "COMISION DE ASUNTOS MUNICIPALES",
    "etapa": "Segundo Debate",
@@ -22719,6 +22741,36 @@
    "titulo": "QUE ESTABLECE EL MARCO NORMATIVO PARA LA EVALUACION DE SUBSIDIOS, EXONERACIONES Y TODO TIPO DE INCENTIVOS QUE OTORGA EL ESTADO PANAMEÑO A ORGANIZACIONES, Y PERSONAS NATURALES O JURIDICAS"
   },
   "8153": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2: Define el ámbito de aplicación a proyectos residenciales, comerciales, industriales, logísticos, puertos, aeropuertos y obras públicas, alcanzando directamente a desarrolladores, contratistas y concesionarios.",
+     "Artículo 7 (artículo 8 en versión dictaminada): Obliga al promotor a costear y garantizar el diseño, instalación, señalización, prueba y entrega operativa de los hidrantes ante los Bomberos y el IDAAN.",
+     "Artículo 6 (artículo 7 en versión dictaminada): Dispone que todo proyecto urbanístico debe presentar un expediente técnico conjunto ante el IDAAN y Bomberos para evaluar distancias, presión, caudal y tipo de hidrantes.",
+     "Artículo 9: Declara los hidrantes de uso público sin alterar la titularidad del predio, prohíbe a propietarios cobrar o restringir su uso a los bomberos, reconoce servidumbre en emergencias y otorga 12 meses para transferir o regularizar hidrantes existentes en terrenos privados.",
+     "Artículo 10: Condiciona la puesta en servicio a la recepción técnica, pruebas de flujo y presión, georreferenciación e ingreso al Registro Nacional de Hidrantes.",
+     "Artículo 11: Prohíbe ubicar estacionamientos, vallas, toldas, casetas u obstáculos dentro del perímetro de seguridad del hidrante.",
+     "Artículos 27, 28 y 29: Faculta al IDAAN y a la ATTT para sancionar la obstrucción, manipulación no autorizada o incumplimientos de mantenimiento y reportes."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1ux54Gz44fUxCRf-0Wvy-Ec-seWBaH2mq",
+    "fecha_analisis": "2026-10-15",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Exige a los promotores y constructores diseñar, financiar, probar y transferir los hidrantes bajo nuevas especificaciones técnicas en proyectos residenciales, comerciales e industriales.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto impone cargas operativas y financieras directas sobre los desarrolladores inmobiliarios y de infraestructura, quienes deberán asumir los costos de diseño, instalación, pruebas técnicas y cesión de hidrantes al IDAAN, además de regularizar instalaciones en propiedades privadas.",
+    "resumen": "Establece el régimen normativo para la planificación, instalación, mantenimiento y control técnico de los hidrantes contra incendios en Panamá, bajo la supervisión del IDAAN y el Benemérito Cuerpo de Bomberos. Obliga a promotores y constructores a asumir los costos de instalación y entrega de hidrantes en desarrollos urbanos e inmobiliarios, crea un Registro Nacional de Hidrantes georreferenciado e impone zonas de seguridad libres de obstáculos con un régimen sancionatorio.",
+    "sectores": [
+     "CEMENTERAS"
+    ],
+    "titulo": "Que regula la instalación, protección, mantenimiento y gestión del Sistema de Hidrantes en la República de Panamá",
+    "titulo_corto": "Regulación del sistema nacional de hidrantes contra incendios"
+   },
    "anteproyecto": "256",
    "comision": "COMISION DE INFRAESTRUCTURA PUBLICA Y ASUNTOS DEL CANAL",
    "etapa": "Segundo Debate",
@@ -39519,7 +39571,7 @@
   "8130": "bf6f82797fb7",
   "8131": "d19b6feaa229",
   "8132": "b04668505bc5",
-  "8134": "ce716d1d5337",
+  "8134": "87388c08369c",
   "8135": "a946487417ed",
   "8136": "189cc0b9c591",
   "8139": "3af15d03d0f8",
@@ -39535,7 +39587,7 @@
   "8150": "b55318017217",
   "8151": "4d91118d25f2",
   "8152": "bc7395899389",
-  "8153": "3f888929a8e7",
+  "8153": "3c3580d98411",
   "8155": "8ef9289a5532",
   "8156": "9fe2f50ffbc7",
   "8158": "b86e6814929d",
@@ -40010,6 +40062,7 @@
    "7976",
    "8325",
    "8361",
+   "8153",
    "7808",
    "8319",
    "8282",
@@ -40028,7 +40081,7 @@
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-15T10:56:05",
+  "fecha": "2026-10-15T11:59:10",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -40044,6 +40097,7 @@
    "7976": "399fc6670871",
    "8079": "399fc6670871",
    "8132": "399fc6670871",
+   "8153": "399fc6670871",
    "8177": "399fc6670871",
    "8179": "399fc6670871",
    "8188": "399fc6670871",
@@ -40419,7 +40473,7 @@
    "514",
    "515"
   ],
-  "revisada": "2026-10-15T10:56:37"
+  "revisada": "2026-10-15T11:59:38"
  },
- "ultima_corrida": "2026-10-15T10:56:05"
+ "ultima_corrida": "2026-10-15T11:59:10"
 }
