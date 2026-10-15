@@ -105,6 +105,18 @@
    "carpeta": "Contratación de mano de obra local en obras públicas (ficha 8177)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
+  "8188": {
+   "carpeta": "Reforma a la regulación de la actividad panelera (ficha 8188)",
+   "comision": "Comisión de Asuntos Agropecuarios"
+  },
+  "8192": {
+   "carpeta": "Creación del Centro Agroindustrial de Panamá Oeste (ficha 8192)",
+   "comision": "Comisión de Asuntos Agropecuarios"
+  },
+  "8193": {
+   "carpeta": "Creación del Instituto Nacional de la Mujer (ficha 8193)",
+   "comision": "Comisión de la Mujer, la Niñez y la Familia"
+  },
   "8197": {
    "carpeta": "Protección a estudiantes en zonas de difícil acceso (ficha 8197)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -115,6 +127,10 @@
   },
   "8201": {
    "carpeta": "Calendario escolar diferenciado en la Ley de Educación (ficha 8201)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "8203": {
+   "carpeta": "Patronato del CEFODEA de San Miguelito (ficha 8203)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
   "8213": {
@@ -444,6 +460,18 @@
   "8613": {
    "carpeta": "Prórroga del régimen fiscal de Ciudad del Saber (ficha 8613)",
    "comision": "Comisión de Economía y Finanzas"
+  },
+  "8635": {
+   "carpeta": "Acceso a viviendas de interés social del Miviot (ficha 8635)",
+   "comision": "Comisión de Infraestructura Pública y Asuntos del Canal"
+  },
+  "8636": {
+   "carpeta": "Préstamos interinstitucionales de servidores públicos (ficha 8636)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
+  "8637": {
+   "carpeta": "Uso de fondos de descentralización para emergencias (ficha 8637)",
+   "comision": "Comisión de Asuntos Municipales"
   }
  },
  "fichas": {
@@ -24009,6 +24037,34 @@
    "titulo": "QUE ESTABLECE EL USO DE DISPOSITIVOS DE MONITOREO ELECTRONICO COMO MEDIDA DE PROTECCION A LAS VICTIMAS DE DELITOS DE VIOLENCIA DOMESTICA, DELITOS CONTRA LA LIBERTAD SEXUAL, MALTRATO A PERSONAS MENORES DE EDAD, LESIONES PERSONALES Y TRATA DE PERSONAS, ASI COMO EN LOS DELITOS DONDE SE PUEDA VER AFECTADA LA SEGURIDAD PERSONAL DE LA VICTIMA"
   },
   "8188": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 4 (modifica el artículo 4 de la Ley 69 de 2001): Obliga a los trapiches a cumplir normas técnicas de higiene, inocuidad, eficiencia energética y control de residuos emitidas por el MINSA y MiAmbiente.",
+     "Artículo 5 y Artículo 6 (modifican los artículos 7 y 8 de la Ley 69 de 2001): Exigen que los derivados del jugo de caña y productos paneleros (nacionales o importados) cumplan con las normas técnicas de DGNTI, COPANIT y MINSA.",
+     "Artículo 10 (modifica el artículo 12 de la Ley 69 de 2001): Prohíbe usar azúcar refinada, hidrosulfito de sodio, colorantes tóxicos o mieles de ingenio en la panela, fijando multas de B/. 500 a B/. 5,000, suspensión y cierre del establecimiento.",
+     "Artículo 11 (modifica el artículo 13 de la Ley 69 de 2001): Sanciona el contrabando de panela y la falsificación de etiquetado u origen con decomiso, prisión de 1 a 2 años o multa equivalente al triple del valor del producto.",
+     "Artículo 12 (modifica el artículo 15 de la Ley 69 de 2001): Establece el trámite de registro de trapiches ante la Dirección de Agroindustrias del MIDA."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1GCYw0Dzf3nLjnS_C6g_YRSo5sq9QtdjH",
+    "fecha_analisis": "2026-10-15",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Establece normas técnicas obligatorias de inocuidad, control de residuos y etiquetado, y prohíbe el uso de aditivos químicos o azúcar refinada en la fabricación e importación de panela.",
+      "sector": "ALIMENTOS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea requerimientos sanitarios y técnicos específicos para trapiches, prohíbe el uso de insumos industriales en la elaboración del producto y tipifica sanciones administrativas y penales por contrabando o adulteración de origen.",
+    "resumen": "Moderniza el marco normativo de la producción y comercialización de la raspadura (panela) en Panamá. Fija exigencias técnicas, ambientales y sanitarias para trapiches, además de someter la panela nacional e importada a estándares de calidad de la DGNTI, COPANIT y MINSA. Prohíbe la adulteración con azúcar refinada o químicos e impone sanciones por contrabando y fraude en etiquetado, afectando a productores agroindustriales, ingenios e importadores.",
+    "sectores": [
+     "ALIMENTOS"
+    ],
+    "titulo": "Que adiciona y modifica algunos artículos de la Ley 69 de 2001, que regula la actividad panelera o de la raspadura y dicta otras disposiciones.",
+    "titulo_corto": "Reforma a la regulación de la actividad panelera"
+   },
    "anteproyecto": "281",
    "comision": "COMISION DE ASUNTOS AGROPECUARIOS",
    "etapa": "Segundo Debate",
@@ -24123,6 +24179,20 @@
    "titulo": "QUE EXONERA DEL PAGO DE GASTOS HOSPITALARIOS A LOS FAMILIARES DE PARIENTES FALLECIDOS EN HOSPITALES ESTATALES BAJO LA ADMINISTRACION DEL MINISTERIO DE SALUD DE LA REPUBLICA DE PANAMA Y DICTA OTRAS DISPOSICIONES"
   },
   "8192": {
+   "analisis": {
+    "con_pdf": false,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1MQEy6_vXQr6CnBjHhx9KfV3u9N3DH7i-",
+    "fecha_analisis": "2026-10-15",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "A partir del título no se desprenden regulaciones, tributos ni obligaciones directas para las empresas, aparentando ser una entidad institucional o de fomento público.",
+    "resumen": "Análisis basado solo en el título. El proyecto propone establecer un centro especializado en agroindustria y bioeconomía para la provincia de Panamá Oeste. Al no disponerse del texto del proyecto, parece tratarse de una iniciativa de fomento o infraestructura estatal que no establece de forma evidente regulaciones directas ni cargas para el sector privado.",
+    "sectores": [],
+    "titulo": "Que crea el Centro Agroindustrial y Bioeconómico de la provincia de Panamá Oeste",
+    "titulo_corto": "Creación del Centro Agroindustrial de Panamá Oeste"
+   },
    "anteproyecto": "284",
    "comision": "COMISION DE ASUNTOS AGROPECUARIOS",
    "etapa": "Segundo Debate",
@@ -24161,6 +24231,20 @@
    "titulo": "QUE CREA EL CENTRO AGROINDUSTRIAL Y BIOECONOMICO DE LA PROVINCIA DE PANAMA OESTE"
   },
   "8193": {
+   "analisis": {
+    "con_pdf": false,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/17XtMokpu8Aee-rCY6Ua-JSFgNB0uoWvS",
+    "fecha_analisis": "2026-10-15",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Se trata de una iniciativa de carácter institucional gubernamental que no crea cargas, regulaciones ni tributos directos para la actividad empresarial.",
+    "resumen": "Análisis basado solo en el título. La propuesta busca crear el Instituto Nacional de la Mujer para coordinar y ejecutar políticas públicas enfocadas en los derechos y desarrollo de la mujer. Afecta principalmente a la administración pública y su estructura institucional, sin modificar normas mercantiles o sectoriales.",
+    "sectores": [],
+    "titulo": "Que crea el Instituto Nacional de la Mujer y dicta otras disposiciones",
+    "titulo_corto": "Creación del Instituto Nacional de la Mujer"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE LA MUJER, LA NIÑEZ Y LA FAMILIA",
    "etapa": "Segundo Debate",
@@ -24669,6 +24753,23 @@
    "titulo": "POR EL CUAL SE MODIFICA EL ARTÍCULO 30 DE LA LEY ORGÁNICA DE EDUCACIÓN Y ESTABLECE UN CALENDARIO ESCOLAR DIFERENCIADO"
   },
   "8203": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 8: Dispone que las donaciones que reciba el Patronato por parte de personas naturales o jurídicas serán deducibles del Impuesto sobre la Renta conforme al Código Fiscal.",
+     "Artículo 12: Asigna representación del sector privado en la Junta Directiva del Patronato mediante un delegado de la Asociación Panameña de Ejecutivos de Empresa (APEDE) y uno del Consejo Nacional de la Empresa Privada (CONEP)."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1QYIssn8e4qbNcsqIy_EBiudhR1x4psrG",
+    "fecha_analisis": "2026-10-15",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No crea cargas, costos ni regulaciones obligatorias para el sector productivo; la creación de patronatos carece de impacto empresarial directo, limitándose a habilitar la deducibilidad de donaciones voluntarias y representación gremial ad honorem.",
+    "resumen": "La iniciativa crea el Patronato del Centro de Formación y Desarrollo de Adolescentes (CEFODEA) de San Miguelito como una entidad de derecho público sin fines de lucro con autonomía administrativa y financiera. Su finalidad es fortalecer los programas de educación vocacional, formación técnica y reinserción social para jóvenes en riesgo de 14 a 17 años. Además, incorpora representación gremial del sector privado en su directiva y establece incentivos de deducibilidad fiscal para las donaciones.",
+    "sectores": [],
+    "titulo": "Que crea el Patronato del Centro de Formación y Desarrollo de Adolescentes (CEFODEA) de San Miguelito",
+    "titulo_corto": "Patronato del CEFODEA de San Miguelito"
+   },
    "anteproyecto": "294",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -38739,6 +38840,20 @@
    "titulo": "QUE INSTITUYE EL FESTIVAL NACIONAL ARTESANAL Y FOLCLORICO DE LA ARENA DE CHITRE Y CREA SU PATRONATO"
   },
   "8635": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1W09TRu_gvoh2kPQsPbA8i-8q1q4ZoUWk",
+    "fecha_analisis": "2026-10-15",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No establece cargas, regulaciones, impuestos ni obligaciones para las empresas; es una norma estrictamente administrativa y de asistencia social pública gestionada por el Miviot.",
+    "resumen": "La iniciativa flexibiliza los requisitos de acceso a los programas estatales de vivienda social, reconstrucción y asistencia del Miviot ante desastres o emergencias. Permite evaluar a beneficiarios que no cuenten con título de propiedad inscrito mediante certificación del juez comunitario, y habilita la atención o reubicación coordinada con MiAmbiente para familias afectadas en áreas protegidas. Se enfoca en asistencia social pública directa a familias vulnerables o damnificadas.",
+    "sectores": [],
+    "titulo": "Que adiciona un artículo a la Ley 61 de 2009, para facilitar el acceso a soluciones habitacionales de interés social y dicta otras disposiciones",
+    "titulo_corto": "Acceso a viviendas de interés social del Miviot"
+   },
    "anteproyecto": "206",
    "comision": "COMISION DE INFRAESTRUCTURA PUBLICA Y ASUNTOS DEL CANAL",
    "etapa": "Preliminar",
@@ -38757,6 +38872,20 @@
    "titulo": "QUE ADICIONA UN ARTICULO A LA LEY 61 DE 2009, PARA FACILITAR EL ACCESO A SOLUCIONES HABITACIONALES DE INTERES SOCIAL Y DICTA OTRAS DISPOSICIONES"
   },
   "8636": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1Ha3RYfqaxuz5XSLpIz7ICe127YyRgPvP",
+    "fecha_analisis": "2026-10-15",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No tiene impacto en el sector empresarial, ya que regula de forma exclusiva los movimientos administrativos internos de los funcionarios en las instituciones del Estado.",
+    "resumen": "Regula el mecanismo de traslado temporal de funcionarios entre entidades de la Administración Pública, limitando su duración a un máximo de 24 meses y fijando requisitos de justificación y transparencia. La medida está dirigida exclusivamente a la gestión de recursos humanos dentro del sector público.",
+    "sectores": [],
+    "titulo": "Que establece el régimen general de préstamos interinstitucionales de servidores públicos y dicta otras disposiciones",
+    "titulo_corto": "Préstamos interinstitucionales de servidores públicos"
+   },
    "anteproyecto": "205",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Preliminar",
@@ -38775,6 +38904,20 @@
    "titulo": "QUE ESTABLECE EL REGIMEN GENERAL DE PRESTAMOS INTERINSTITUCIONALES DE SERVIDORES PUBLICOS Y DICTA OTRAS DISPOSICIONES"
   },
   "8637": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1_FY2xw5YNEok53pvXuJjUi0o8UzO7TnC",
+    "fecha_analisis": "2026-10-15",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No impone obligaciones, costos ni cambios regulatorios o tributarios sobre las empresas privadas; se limita a modificar reglas internas de gasto y asignación presupuestaria de los municipios.",
+    "resumen": "La iniciativa autoriza a los municipios afectados por emergencias nacionales a reasignar hasta el 100% de los fondos del impuesto de inmuebles a gastos operativos, remoción de escombros y ayuda humanitaria durante las vigencias 2026-2027. Además, a partir de 2028 fija en 40% el tope para gastos de funcionamiento municipal y ajusta el mecanismo de distribución de proyectos entre alcaldías y juntas comunales. Su impacto se concentra en la gestión presupuestaria de los gobiernos locales.",
+    "sectores": [],
+    "titulo": "Que modifica disposiciones de la Ley 37 de 2009, que descentraliza la administración pública, para facilitar la atención de emergencias catastróficas y la reconstrucción tras el terremoto en Panamá",
+    "titulo_corto": "Uso de fondos de descentralización para emergencias"
+   },
    "anteproyecto": "207",
    "comision": "COMISION DE ASUNTOS MUNICIPALES",
    "etapa": "Preliminar",
@@ -39324,11 +39467,11 @@
   "8183": "58e60bdd4904",
   "8184": "3781be217e49",
   "8186": "780c6847e363",
-  "8188": "59cb1d529589",
+  "8188": "315473ac671a",
   "8189": "7bfef9a93794",
   "8191": "1a5f364437b7",
-  "8192": "acef73e41a15",
-  "8193": "0c2a6403fbe0",
+  "8192": "240f3960c5e5",
+  "8193": "1d82fe23f021",
   "8194": "c17bc23f8e61",
   "8195": "45c2d201338f",
   "8196": "cfde496430ff",
@@ -39337,7 +39480,7 @@
   "8199": "e94570b9339b",
   "8200": "b920ab85f762",
   "8201": "243f51094aa4",
-  "8203": "f8527db787e6",
+  "8203": "79632a45bc05",
   "8205": "906daaad2979",
   "8206": "ee82f95968a0",
   "8207": "1d5a6cdeacfd",
@@ -39725,9 +39868,9 @@
   "8631": "f14586b39eab",
   "8633": "7f7aa2420094",
   "8634": "56736ef79e5d",
-  "8635": "134bcc06a680",
-  "8636": "59cd580b3d3d",
-  "8637": "4412b7fd6a27"
+  "8635": "a311ddce8705",
+  "8636": "d7fa4e2fe610",
+  "8637": "e4e414814a58"
  },
  "inicio": "2026-10-08",
  "matriz_generada": {
@@ -39783,10 +39926,11 @@
    "8257",
    "8243",
    "7659",
+   "8188",
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-15T05:48:30",
+  "fecha": "2026-10-15T07:09:04",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -39803,6 +39947,7 @@
    "8079": "399fc6670871",
    "8132": "399fc6670871",
    "8177": "399fc6670871",
+   "8188": "399fc6670871",
    "8222": "399fc6670871",
    "8227": "399fc6670871",
    "8235": "399fc6670871",
@@ -39845,20 +39990,7 @@
   "version": 2
  },
  "matriz_id": "1xh7TLIrTJk3DI1snoLyXTN-HAFAGouiL08XvXa1xsEs",
- "pendientes": {
-  "nueva:8635": {
-   "ficha": "8635",
-   "tipo": "nueva"
-  },
-  "nueva:8636": {
-   "ficha": "8636",
-   "tipo": "nueva"
-  },
-  "nueva:8637": {
-   "ficha": "8637",
-   "tipo": "nueva"
-  }
- },
+ "pendientes": {},
  "prensa": {
   "agenda": [
    "1246",
@@ -40188,7 +40320,7 @@
    "514",
    "515"
   ],
-  "revisada": "2026-10-15T05:48:59"
+  "revisada": "2026-10-15T07:09:36"
  },
- "ultima_corrida": "2026-10-15T05:48:30"
+ "ultima_corrida": "2026-10-15T07:09:04"
 }
