@@ -97,6 +97,10 @@
    "carpeta": "Transparencia y gobernanza en peajes de ENA (ficha 8108)",
    "comision": "Comisión de Economía y Finanzas"
   },
+  "8110": {
+   "carpeta": "Día cívico por víctimas de la dictadura (ficha 8110)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "8118": {
    "carpeta": "Señalización de zonas de alta accidentalidad vial (ficha 8118)",
    "comision": "Comisión de Comunicación y Transporte"
@@ -21503,6 +21507,20 @@
    "titulo": "QUE MODIFICA EL ARTICULO 349 Y ADICIONA EL ARTICULO 349-A DEL CODIGO PENAL QUE VERSA EN DELITOS CONTRA LA ADMINISTRACION PUBLICA, EN LA MODALIDAD DE CORRUPCION DE SERVIDORES PUBLICOS"
   },
   "8110": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1Tm_SumZrsqVMk-Ca5BTgGQYDy3ODD1K6",
+    "fecha_analisis": "2026-10-16",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Se trata de una normativa estrictamente cívica y educativa que no impone cargas tributarias, regulatorias ni laborales sobre el sector privado.",
+    "resumen": "Declara el 9 de junio de cada año como Día Cívico Nacional de Reflexión y Memoria Histórica por las Víctimas de la Dictadura Militar. Promueve actividades pedagógicas y conmemorativas en entidades estatales y centros de enseñanza, disponiendo de forma expresa que no genera efectos ni obligaciones bajo el Código de Trabajo.",
+    "sectores": [],
+    "titulo": "Que conmemora a las víctimas de la dictadura militar.",
+    "titulo_corto": "Día cívico por víctimas de la dictadura"
+   },
    "anteproyecto": "214",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -39682,7 +39700,7 @@
   "8107": "b28614bc689a",
   "8108": "4bba24d648f0",
   "8109": "eee0fc80a3df",
-  "8110": "add55f6b2295",
+  "8110": "6cd1305ab9ae",
   "8112": "2c06dae1d251",
   "8114": "0c8231b194b0",
   "8117": "92fc68312b2b",
@@ -40210,7 +40228,7 @@
    "7531",
    "7461"
   ],
-  "fecha": "2026-10-16T01:46:59",
+  "fecha": "2026-10-16T02:51:25",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -40608,7 +40626,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-16T01:47:29"
+  "revisada": "2026-10-16T02:52:01"
  },
- "ultima_corrida": "2026-10-16T01:46:59"
+ "ultima_corrida": "2026-10-16T02:51:25"
 }
