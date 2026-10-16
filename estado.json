@@ -545,6 +545,10 @@
    "carpeta": "Uso de fondos de descentralización para emergencias (ficha 8637)",
    "comision": "Comisión de Asuntos Municipales"
   },
+  "8638": {
+   "carpeta": "Viviendas para comunidades damnificadas por desastres (ficha 8638)",
+   "comision": "Comisión de Infraestructura Pública y Asuntos del Canal"
+  },
   "8640": {
    "carpeta": "Modificación al Código Procesal Penal (ficha 8640)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
@@ -14031,7 +14035,7 @@
    ],
    "fecha": "2025-07-02",
    "ficha": "7887",
-   "proponente": "H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D PATSY CRISTINA LEE RENTERÍA DE HUANG,H.D MIGUEL ÁNGEL CAMPOS LIMA,H.D AUGUSTO EFRAÍN PALACIOS MUÑOZ,H.D MANUEL ALBERTO SAMANIEGO RODRÍGUEZ,H.D JOSÉ LUIS VARELA RODRÍGUEZ,H.D GRACIELA MERCEDES HERNÁNDEZ LACAYO,H.D JANINE PRADO CASTAÑO,H.D JULIO DE LA GUARDIA ARROCHA,H.D LUIS HENRIQUE DUKE WALKER,H.D EDUARDO ALEJANDRO GAITÁN BEITÍA,H.D WALKIRIA A. CHANDLER D´ORCY,H.D ARIANA MARISÍN COBA MARTÍNEZ,H.D OLGA PAULETTE THOMAS HORLY,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D JHONATHAN EDIR VEGA,H.D JOSÉ ANTONIO PÉREZ BARBONI,H.D JORGE ISAAC BLOISE IGLESIAS,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D ERNESTO CEDEÑO ALVARADO,H.D ROBERTO ARCHIBOLD CHUITO,H.D ALEXANDRA MARÍA BRENES SAMANIEGO,H.D YAMIRELIZ DAYMIRELKIS CHONG SMITH,H.D NEFTALÍ OMAR ZAMORA IBARRA",
+   "proponente": "H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D NEFTALÍ OMAR ZAMORA IBARRA,H.D JHONATHAN EDIR VEGA,H.D JOSÉ LUIS VARELA RODRÍGUEZ,H.D OLGA PAULETTE THOMAS HORLY,H.D MANUEL ALBERTO SAMANIEGO RODRÍGUEZ,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D JANINE PRADO CASTAÑO,H.D JOSÉ ANTONIO PÉREZ BARBONI,H.D AUGUSTO EFRAÍN PALACIOS MUÑOZ,H.D PATSY CRISTINA LEE RENTERÍA DE HUANG,H.D GRACIELA MERCEDES HERNÁNDEZ LACAYO,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D EDUARDO ALEJANDRO GAITÁN BEITÍA,H.D LUIS HENRIQUE DUKE WALKER,H.D JULIO DE LA GUARDIA ARROCHA,H.D YAMIRELIZ DAYMIRELKIS CHONG SMITH,H.D ARIANA MARISÍN COBA MARTÍNEZ,H.D ERNESTO CEDEÑO ALVARADO,H.D MIGUEL ÁNGEL CAMPOS LIMA,H.D ALEXANDRA MARÍA BRENES SAMANIEGO,H.D JORGE ISAAC BLOISE IGLESIAS,H.D ROBERTO ARCHIBOLD CHUITO,H.D WALKIRIA A. CHANDLER D´ORCY",
    "proyecto": "",
    "tiene_documento": true,
    "titulo": "QUE REGULA EL USO DE AGENTES QUIMICOS Y MUNICIONES DE CONTROL DE MULTITUDES POR PARTE DE LOS ESTAMENTOS DE SEGURIDAD DEL ESTADO"
@@ -39415,6 +39419,28 @@
    "titulo": "QUE MODIFICA DISPOSICIONES DE LA LEY 37 DE 2009, QUE DESCENTRALIZA LA ADMINISTRACION PUBLICA, PARA FACILITAR LA ATENCION DE EMERGENCIAS CATASTROFICAS Y LA RECONSTRUCCION TRAS EL TERREMOTO EN PANAMA"
   },
   "8638": {
+   "analisis": {
+    "con_pdf": false,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/14dRuxjEiy5cWTMotl3OAKhb5RH6hLqWz",
+    "fecha_analisis": "2026-10-16",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Podría flexibilizar permisos de urbanismo o generar licitaciones de obra pública para construcción de viviendas de interés social.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto se enfoca en planes de vivienda y reconstrucción tras desastres, lo que podría generar contratos u obras públicas pero sin alterar sustancialmente las reglas comerciales generales del sector construcción.",
+    "resumen": "Análisis basado solo en el título. La iniciativa propone agilizar o facilitar los procesos de edificación y asignación de soluciones habitacionales permanentes para personas afectadas por catástrofes naturales. Podría incidir en trámites de urbanismo, normativas de construcción o proyectos de obra pública de vivienda.",
+    "sectores": [
+     "CEMENTERAS"
+    ],
+    "titulo": "Que facilita la construcción de viviendas permanentes para comunidades damnificadas por desastres naturales",
+    "titulo_corto": "Viviendas para comunidades damnificadas por desastres"
+   },
    "anteproyecto": "208",
    "comision": "COMISION DE INFRAESTRUCTURA PUBLICA Y ASUNTOS DEL CANAL",
    "etapa": "Preliminar",
@@ -40552,10 +40578,6 @@
  },
  "matriz_id": "1xh7TLIrTJk3DI1snoLyXTN-HAFAGouiL08XvXa1xsEs",
  "pendientes": {
-  "nueva:8638": {
-   "ficha": "8638",
-   "tipo": "nueva"
-  },
   "nueva:8639": {
    "ficha": "8639",
    "tipo": "nueva"
@@ -40896,5 +40918,5 @@
   ],
   "revisada": "2026-10-16T10:53:54"
  },
- "ultima_corrida": "2026-10-16T17:49:55"
+ "ultima_corrida": "2026-10-16T18:56:27"
 }
