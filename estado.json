@@ -85,6 +85,10 @@
    "carpeta": "Fomento del turismo deportivo (ficha 7976)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "8050": {
+   "carpeta": "Regulación de contratos de colegios y transporte colegial (ficha 8050)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
   "8055": {
    "carpeta": "Remediación y manejo sostenible del río La Villa (ficha 8055)",
    "comision": "Comisión de Población, Ambiente y Desarrollo"
@@ -92,6 +96,10 @@
   "8056": {
    "carpeta": "Ética y buen gobierno en universidades oficiales (ficha 8056)",
    "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "8058": {
+   "carpeta": "Compensaciones por fallas en electricidad y telecomunicaciones (ficha 8058)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
   },
   "8060": {
    "carpeta": "Creación del Patronato del Hospital Anita Moreno (ficha 8060)",
@@ -19309,6 +19317,40 @@
    "titulo": "QUE ESTABLECE EL MARCO NORMATIVO QUE REGULA EL USO, LA APLICACIÓN Y LA COMERCIALIZACION DE SUSTANCIAS MODELANTES Y/O DE RELLENO PERMITIDAS Y NO PERMITIDAS EN TRATAMIENTOS MEDICO-ESTETICOS"
   },
   "8050": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1 (Art. 77-A de la Ley 45 de 2007): Define el contrato de educación particular y otorga competencia a ACODECO y a los tribunales especializados para dirimir controversias.",
+     "Artículo 2 (Art. 77-B de la Ley 45 de 2007): Detalla el contenido mínimo del contrato escolar (desglose de costos por etapas académicas, modalidades de pago y ajustes proporcionales en tarifas si se altera la modalidad de enseñanza).",
+     "Artículo 3 (Art. 77-C de la Ley 45 de 2007): Obliga a formalizar en contrato y recibo cualquier cobro previo o reserva de admisión a favor exclusivo del centro educativo.",
+     "Artículo 4 (Art. 77-D de la Ley 45 de 2007): Fija las cláusulas mínimas para contratos de transporte colegial, incluyendo pólizas de seguro, prorrateo por suspensión y pago de hasta el 50% de la mensualidad si una huelga dura más de un mes.",
+     "Artículo 5 (numeral 16 del Art. 36 de la Ley 45 de 2007): Prohíbe expresamente como venta atada la exigencia de adquirir textos, útiles escolares y uniformes de forma exclusiva en el colegio particular, salvo excepción de logo registrado."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1XcS5G2309_cdQfYjTvMR_HlUda9VqYcO",
+    "fecha_analisis": "2026-10-16",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Establece cláusulas y formalidades contractuales obligatorias para los prestadores de transporte colegial, fijando reglas de reembolso y pago del 50% de la tarifa en paralizaciones que superen un mes.",
+      "sector": "TRANSPORTE"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Regula los contratos y cobros de colegios privados y prohíbe la venta atada de uniformes, libros y útiles escolares, protegiendo la libre concurrencia del comercio minorista.",
+      "sector": "OTROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Impacto medio para el sector de transporte escolar y los centros educativos privados al imponer contenidos contractuales obligatorios, regular pagos de admisión y limitar la comercialización cautiva de insumos escolares.",
+    "resumen": "La iniciativa incorpora a la Ley de Protección al Consumidor reglas y requisitos obligatorios para los contratos de servicios educativos particulares y de transporte colegial. Además, regula los cobros previos de admisión y prohíbe a los colegios privados condicionar la matrícula a la compra exclusiva de uniformes, libros y útiles en sus instalaciones.",
+    "sectores": [
+     "TRANSPORTE",
+     "OTROS"
+    ],
+    "titulo": "Que adiciona artículos a la Ley 45 de 2007, que dicta normas sobre protección al consumidor y defensa de la competencia y otra disposición",
+    "titulo_corto": "Regulación de contratos de colegios y transporte colegial"
+   },
    "anteproyecto": "157",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Segundo Debate",
@@ -19781,6 +19823,40 @@
    "titulo": "QUE MODIFICA EL CODIGO CIVIL, PARA ELIMINAR LOS TERMINOS PEYORATIVOS"
   },
   "8058": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Garantiza refacturación proporcional en internet y compensación automática en la factura eléctrica ante superación de umbrales de continuidad, previa verificación sumaria.",
+     "Artículo 2: Extiende el ámbito de aplicación a empresas prestadoras de energía eléctrica y telecomunicaciones frente a usuarios residenciales, comerciales, industriales y gubernamentales.",
+     "Artículo 4: Obliga al prestador de telecomunicaciones a descontar proporcionalmente del cargo fijo cuando las fallas o intermitencias acumuladas superen 3 horas al mes.",
+     "Artículo 5: Contabiliza interrupciones en fracciones de hasta 15 minutos, exige una bonificación adicional del 10% por 3 o más cortes de 4 horas o más, y ordena extender vigencia a planes prepago.",
+     "Artículo 6: Dispone compensación económica automática en la factura eléctrica al exceder umbrales SAIDI/SAIFI o límites individuales fijados por la ASEP.",
+     "Artículo 7 (Nuevo): Exceptúa de la compensación automática los casos fortuitos, fuerza mayor debidamente acreditada, emergencias nacionales y cortes programados notificados con antelación.",
+     "Artículo 9: Exige reflejar el ajuste de calidad con una glosa detallada y separada en la factura.",
+     "Artículo 10: Fija en 15 días hábiles el plazo máximo de respuesta a reclamos bajo efecto de silencio administrativo positivo a favor del usuario, y prohíbe cobros de reconexión o intereses por mora sobre montos disputados.",
+     "Artículo 12 y 16 (Nuevo): Obliga a publicar y remitir trimestralmente a la ASEP informes sobre interrupciones, intermitencias y montos bonificados.",
+     "Artículo 13: Faculta a la ASEP a sancionar infracciones conforme al régimen sectorial y aplicar multas agravadas por reincidencia en un plazo de 12 meses.",
+     "Artículo 17 y 18 (Nuevos): Modifica la Ley 6 de 1997 (marco eléctrico) y la Ley 31 de 1996 (marco de telecomunicaciones) para consagrar el derecho a compensación o refacturación automática sin necesidad de reclamo previo."
+    ],
+    "drive": "https://drive.google.com/drive/folders/17R2ItBqb3AnevQpue8WighZyiqs-NOeU",
+    "fecha_analisis": "2026-10-16",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Impone a las empresas prestadoras de electricidad y telecomunicaciones la obligación de aplicar descuentos automáticos y bonificaciones por interrupciones, plazos perentorios de reclamo y reportes trimestrales obligatorios.",
+      "sector": "OTROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Afecta directamente la facturación y los costos operativos de las empresas de servicios públicos de energía y telecomunicaciones al exigir compensaciones automáticas y limitar cobros en controversia bajo regulación de la ASEP.",
+    "resumen": "Establece la obligación para las empresas de distribución eléctrica y de telecomunicaciones de aplicar compensaciones y refacturaciones automáticas o de oficio ante fallas, interrupciones o intermitencias en sus servicios. Aplica a clientes residenciales, comerciales e industriales, fijando plazos máximos de respuesta de 15 días con silencio administrativo positivo. Otorga facultades de supervisión y sanción a la ASEP, con función auxiliar de recepción de quejas para ACODECO.",
+    "sectores": [
+     "OTROS"
+    ],
+    "titulo": "Que establece medidas de protección a los consumidores ante interrupciones en los servicios de electricidad y telecomunicaciones y dicta otra disposición",
+    "titulo_corto": "Compensaciones por fallas en electricidad y telecomunicaciones"
+   },
    "anteproyecto": "166",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Segundo Debate",
@@ -41022,5 +41098,5 @@
   ],
   "revisada": "2026-10-16T10:53:54"
  },
- "ultima_corrida": "2026-10-16T22:49:00"
+ "ultima_corrida": "2026-10-16T23:44:28"
 }
