@@ -85,6 +85,14 @@
    "carpeta": "Fomento del turismo deportivo (ficha 7976)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "8055": {
+   "carpeta": "Remediación y manejo sostenible del río La Villa (ficha 8055)",
+   "comision": "Comisión de Población, Ambiente y Desarrollo"
+  },
+  "8056": {
+   "carpeta": "Ética y buen gobierno en universidades oficiales (ficha 8056)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "8060": {
    "carpeta": "Creación del Patronato del Hospital Anita Moreno (ficha 8060)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
@@ -19538,6 +19546,38 @@
    "titulo": "QUE MODIFICA UN ARTICULO DEL CODIGO PENAL, RELACIONADO CON EL DELITO DE HURTO"
   },
   "8055": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 7: Condiciona la instalación o ampliación de explotaciones pecuarias en la cuenca al cumplimiento estricto de Estudios de Impacto Ambiental (EIA) o guías de buenas prácticas ambientales.",
+     "Artículo 16: Obliga a empresas industriales, comerciales, turísticas y agropecuarias en la cuenca a establecer franjas de protección ribereña y tratar adecuadamente excretas, aguas residuales y efluentes.",
+     "Artículo 18: Prohíbe la descarga de efluentes industriales o residuales sin tratamiento previo, nuevas granjas porcinas intensivas de ceba y el desarrollo de obras industriales o residenciales de alto impacto.",
+     "Artículo 19: Faculta al Ministerio de Ambiente a aplicar sanciones mediante un procedimiento administrativo sumario ante infracciones ambientales en la cuenca."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1_UHPGSXahKR-RQ8VqnXGszAztySp3Drw",
+    "fecha_analisis": "2026-10-16",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Impone estándares obligatorios de manejo de efluentes a fincas agropecuarias de la zona y prohíbe nuevas explotaciones porcinas intensivas de engorde.",
+      "sector": "ALIMENTOS"
+     },
+     {
+      "nivel": "bajo",
+      "razon": "Exige tratamiento previo riguroso a vertidos industriales y limita la instalación de proyectos de alto impacto ambiental dentro de la cuenca.",
+      "sector": "INDUSTRIAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es de alcance geográfico localizado en Azuero, pero impone obligaciones operativas directas, restricciones a nuevas inversiones pecuarias e industriales y sanciones sumarias en la cuenca.",
+    "resumen": "Establece un régimen especial de remediación y protección ambiental para la cuenca hidrográfica del río La Villa en las provincias de Herrera y Los Santos. Obliga a las actividades agropecuarias, industriales y comerciales del área a tratar sus efluentes, conservar franjas ribereñas y cumplir con exigencias ambientales estrictas. Asimismo, restringe nuevos proyectos industriales o residenciales de alto impacto y prohíbe nuevas instalaciones de porcicultura intensiva de ceba.",
+    "sectores": [
+     "ALIMENTOS"
+    ],
+    "titulo": "Que establece medidas especiales para la remediación, restauración ecológica y manejo sostenible de la cuenca hidrográfica del Río La Villa y dicta otras disposiciones",
+    "titulo_corto": "Remediación y manejo sostenible del río La Villa"
+   },
    "anteproyecto": "164",
    "comision": "COMISION DE POBLACION, AMBIENTE Y DESARROLLO",
    "etapa": "Segundo Debate",
@@ -19586,6 +19626,20 @@
    "titulo": "QUE ESTABLECE MEDIDAS ESPECIALES PARA LA REMEDIACION, RESTAURACION ECOLOGICA Y MANEJO SOSTENIBLE DE LA CUENCA HIDROGRAFICA DEL RIO LA VILLA Y DICTA OTRAS DISPOSICIONES"
   },
   "8056": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1gj8yA9yIzYyLzeD84NulM45eNGfpKiAU",
+    "fecha_analisis": "2026-10-16",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No genera impacto sobre la actividad empresarial privada, dado que su ámbito de aplicación se restringe estrictamente a la gestión administrativa, autoridades y comunidad académica de las universidades estatales.",
+    "resumen": "La propuesta establece normas de conducta, transparencia y rendición de cuentas aplicables exclusivamente a las universidades públicas del país. Regula la prevención del nepotismo, el manejo de conflictos de interés y la fiscalización del uso de recursos públicos en el ámbito universitario oficial, creando procedimientos internos de denuncia e investigación.",
+    "sectores": [],
+    "titulo": "Que establece el marco de ética, transparencia y buen gobierno en las universidades oficiales de la República de Panamá",
+    "titulo_corto": "Ética y buen gobierno en universidades oficiales"
+   },
    "anteproyecto": "165",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -40968,5 +41022,5 @@
   ],
   "revisada": "2026-10-16T10:53:54"
  },
- "ultima_corrida": "2026-10-16T21:49:52"
+ "ultima_corrida": "2026-10-16T22:49:00"
 }
