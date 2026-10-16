@@ -549,6 +549,10 @@
    "carpeta": "Viviendas para comunidades damnificadas por desastres (ficha 8638)",
    "comision": "Comisión de Infraestructura Pública y Asuntos del Canal"
   },
+  "8639": {
+   "carpeta": "Transparencia en estados de emergencia nacional (ficha 8639)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
   "8640": {
    "carpeta": "Modificación al Código Procesal Penal (ficha 8640)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
@@ -39459,6 +39463,20 @@
    "titulo": "QUE FACILITA LA CONSTRUCCION DE VIVIENDAS PERMANENTES PARA COMUNIDADES DAMNIFICADAS POR DESASTRES NATURALES"
   },
   "8639": {
+   "analisis": {
+    "con_pdf": false,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1TGUxcC-6-zl6k64sU0-C3YZeXRRPdbKt",
+    "fecha_analisis": "2026-10-16",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No impone obligaciones regulatorias, fiscales ni laborales directas a las empresas privadas, ya que se centra en el deber de transparencia y rendición de cuentas del sector público.",
+    "resumen": "Análisis basado solo en el título. La iniciativa busca regular la publicidad de actos y el control del gasto público durante declaraciones de emergencia nacional. Afecta principalmente a entidades gubernamentales responsables de adquisiciones y administración de fondos de emergencia, sin generar cargas operativas directas sobre el sector privado.",
+    "sectores": [],
+    "titulo": "Que establece la transparencia y rendición pública de cuentas durante los estados de emergencia nacional",
+    "titulo_corto": "Transparencia en estados de emergencia nacional"
+   },
    "anteproyecto": "209",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Preliminar",
@@ -40577,12 +40595,7 @@
   "version": 2
  },
  "matriz_id": "1xh7TLIrTJk3DI1snoLyXTN-HAFAGouiL08XvXa1xsEs",
- "pendientes": {
-  "nueva:8639": {
-   "ficha": "8639",
-   "tipo": "nueva"
-  }
- },
+ "pendientes": {},
  "prensa": {
   "agenda": [
    "1246",
@@ -40918,5 +40931,5 @@
   ],
   "revisada": "2026-10-16T10:53:54"
  },
- "ultima_corrida": "2026-10-16T18:56:27"
+ "ultima_corrida": "2026-10-16T19:46:29"
 }
