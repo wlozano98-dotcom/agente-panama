@@ -89,6 +89,10 @@
    "carpeta": "Creación del Patronato del Hospital Anita Moreno (ficha 8060)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
+  "8063": {
+   "carpeta": "Gestión integral de la cuenca del río Caimito (ficha 8063)",
+   "comision": "Comisión de Población, Ambiente y Desarrollo"
+  },
   "8077": {
    "carpeta": "Ley Marco de Relocalización Productiva y Logística (ficha 8077)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
@@ -19907,6 +19911,39 @@
    "titulo": "QUE MODIFICA LA LEY 27 DE 23 DE MAYO DE 2017 Y AMPLIA LA LICENCIA DE PATERNIDAD PARA LOS TRABAJADORES DE EMPRESAS PRIVADAS Y LOS SERVIDORES PUBLICOS"
   },
   "8063": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 3: Prohíbe la descarga de residuos o sustancias sin tratamiento adecuado en la cuenca y somete toda nueva actividad u obra al régimen de evaluación ambiental.",
+     "Artículo 4: Obliga a las obras e instalaciones existentes a implementar medidas de mitigación y tratamiento de efluentes, facultando al Ministerio de Ambiente a ordenar la suspensión temporal o definitiva de actividades infractoras.",
+     "Artículo 5: Exige que la evaluación ambiental de proyectos incorpore análisis de riesgo para la calidad del agua, estabilidad de riberas y apego al plan de manejo de la cuenca.",
+     "Artículo 7: Sanciona las infracciones u omisiones a la ley conforme al régimen sancionatorio de la legislación ambiental general."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1dTtZyR9YB-TI1kwfhrXFlAZVs_648ll1",
+    "fecha_analisis": "2026-10-16",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Sujeta los proyectos residenciales, obras viales y desarrollos inmobiliarios en la cuenca a evaluaciones ambientales más rigurosas y a la adecuación obligatoria del manejo de sus aguas.",
+      "sector": "CEMENTERAS"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Exige a plantas industriales y agroindustriales ubicadas en la cuenca adecuar sus infraestructuras e implementar sistemas de tratamiento de efluentes bajo riesgo de suspensión.",
+      "sector": "INDUSTRIAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Impone nuevas obligaciones operativas y ambientales de mitigación, tratamiento de aguas residuales y adecuación de infraestructuras para empresas con instalaciones o proyectos en Panamá Oeste.",
+    "resumen": "Establece un régimen especial de protección, conservación y restauración ambiental para la cuenca hidrográfica del río Caimito (Cuenca 140, Panamá Oeste). Prohíbe vertidos contaminantes sin tratamiento y obliga a industrias, comercios y desarrollos inmobiliarios en la zona a adecuar sus infraestructuras bajo apercibimiento de sanciones y suspensión de operaciones.",
+    "sectores": [
+     "CEMENTERAS",
+     "INDUSTRIAS"
+    ],
+    "titulo": "Que protege, conserva y restaura la cuenca hidrográfica del río Caimito y establece un régimen de gestión integral de sus recursos hídricos",
+    "titulo_corto": "Gestión integral de la cuenca del río Caimito"
+   },
    "anteproyecto": "168",
    "comision": "COMISION DE POBLACION, AMBIENTE Y DESARROLLO",
    "etapa": "Segundo Debate",
@@ -40931,5 +40968,5 @@
   ],
   "revisada": "2026-10-16T10:53:54"
  },
- "ultima_corrida": "2026-10-16T20:49:30"
+ "ultima_corrida": "2026-10-16T21:49:52"
 }
