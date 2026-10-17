@@ -61,9 +61,21 @@
    "carpeta": "Reforma al impuesto de degüello y traslado de ganado (ficha 7829)",
    "comision": "Comisión de Asuntos Municipales"
   },
+  "7889": {
+   "carpeta": "Aumento de penas por privación y sustracción de menores (ficha 7889)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "7891": {
+   "carpeta": "Sanciones penales a funcionarios que cobran sin trabajar (ficha 7891)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
   "7898": {
    "carpeta": "Penalización de disparos al aire (ficha 7898)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "7899": {
+   "carpeta": "Indemnización por daños en vías públicas (ficha 7899)",
+   "comision": "Comisión de Infraestructura Pública y Asuntos del Canal"
   },
   "7903": {
    "carpeta": "Programa Educativo Penitenciario (ficha 7903)",
@@ -76,6 +88,10 @@
   "7915": {
    "carpeta": "Prevención de estafas en páginas web y comercio digital (ficha 7915)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
+  "7918": {
+   "carpeta": "Nomenclatura de corregimientos en la comarca Ngäbe Buglé (ficha 7918)",
+   "comision": "Comisión de Asuntos Indígenas"
   },
   "7922": {
    "carpeta": "Regulación de la esterilización quirúrgica voluntaria (ficha 7922)",
@@ -14208,6 +14224,20 @@
    "titulo": "PARA LA DESPENALIZACION DE LA CALUMNIA E INJURIA Y OTRAS DISPOSICIONES"
   },
   "7889": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1AXNANSs04XQE0zGn76eb77ybMvjp1JsR",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No genera impacto sobre el sector empresarial, pues se trata de una reforma estrictamente penal orientada a proteger a menores de edad frente a la privación de libertad y sustracción.",
+    "resumen": "El proyecto propone modificar y agravar las penas establecidas en el Código Penal panameño para los delitos de privación ilegal de libertad y sustracción de menores de edad o personas incapaces. Asimismo, introduce agravantes cuando los hechos sean cometidos por dos o más personas o mediante el uso de sustancias ilícitas o drogas. La iniciativa está enfocada exclusivamente en el ámbito penal contra personas naturales para la protección de la niñez.",
+    "sectores": [],
+    "titulo": "Que modifica y adiciona artículos del Código Penal",
+    "titulo_corto": "Aumento de penas por privación y sustracción de menores"
+   },
    "anteproyecto": "6",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Segundo Debate",
@@ -14246,6 +14276,20 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS AL CODIGO PENAL"
   },
   "7891": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1vOzlt-zOqvG7hnMiabWjP5_UD1m6LAwO",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto pertenece al ámbito del derecho penal y de la administración pública, regulando exclusivamente la conducta de funcionarios del Estado sin imponer cargas, obligaciones ni cambios regulatorios al sector privado.",
+    "resumen": "La iniciativa modifica el artículo 349 del Código Penal para aumentar las penas de prisión a los funcionarios que cobren salarios del Estado sin prestar servicios (práctica conocida como 'botellas'). Asimismo, agrava las penas si la lesión patrimonial supera los cincuenta mil balboas y contempla reducciones de pena en caso de devolución de los fondos. La medida aplica exclusivamente a servidores y cargos dentro del sector público.",
+    "sectores": [],
+    "titulo": "Que incrementa la pena a los funcionarios públicos que cobran y no trabajan y sanciona con pena de prisión a los servidores públicos que realicen dichos nombramientos",
+    "titulo_corto": "Sanciones penales a funcionarios que cobran sin trabajar"
+   },
    "anteproyecto": "11",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Segundo Debate",
@@ -14485,6 +14529,35 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS AL TEXTO UNICO DE LA LEY 14 DE 2007 QUE CONSAGRA EL CODIGO PENAL DE LA REPUBLICA DE PANAMA EN MATERIA DE DISPAROS ALEATORIOS AL AIRE O EN CUALQUIER DIRECCION"
   },
   "7899": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Extiende la responsabilidad civil por omisión o negligencia en el mantenimiento vial a empresas con concesión, contrato estatal o prestadoras de servicios públicos.",
+     "Artículo 4: Tipifica causales de indemnización que vinculan a contratistas y concesionarias, tales como huecos, fallas de señalización de obras, tapas de servicios ausentes y aplicación incorrecta de asfalto o concreto.",
+     "Artículo 8: Asigna a los Juzgados de Tránsito competencia a prevención para resolver reclamos de indemnización vehicular entre B/. 1,000.00 y B/. 10,000.00 con carácter de título ejecutivo.",
+     "Artículo 13: Otorga a empresas concesionarias o de servicios un plazo máximo perentorio de dos meses para pagar las indemnizaciones dictadas.",
+     "Artículo 14: Obliga a reparar la vía, puente o acera causante del siniestro en un período improrrogable no mayor a 60 días calendario.",
+     "Artículo Nuevo 7: Fija una sanción de mil balboas (B/. 1,000.00) por desacato a la empresa que no comparezca en primera instancia a la audiencia del juzgado."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1OrklzU0CfCbGu-_H3kZONWrsxFlgwA-P",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Obliga a concesionarias de infraestructura vial y contratistas de obra pública a responder civilmente ante juzgados de tránsito en procesos expeditos, indemnizar en un plazo de dos meses y reparar vías en 60 días.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea una vía sumaria de reclamos que expone a contratistas de infraestructura y concesionarias del Estado a pagos ejecutivos de indemnización en un plazo perentorio de dos meses y reparaciones obligatorias en 60 días.",
+    "resumen": "Establece un procedimiento administrativo expedito ante los Juzgados de Tránsito de la ATTT o municipales y dependencias municipales para exigir indemnizaciones de hasta diez mil balboas por daños a vehículos o peatones causados por el mal estado de calles o falta de señalización. La normativa traslada responsabilidad civil directa no solo al Estado, sino también a empresas concesionarias viales, contratistas de obras públicas y empresas prestadoras de servicios públicos.",
+    "sectores": [
+     "CEMENTERAS"
+    ],
+    "titulo": "Que establece normativa por indemnización a daños vehiculares de particulares, empresas y transporte público ocasionadas por las instituciones gubernamentales y dicta otras disposiciones",
+    "titulo_corto": "Indemnización por daños en vías públicas"
+   },
    "anteproyecto": "21",
    "comision": "COMISION DE INFRAESTRUCTURA PUBLICA Y ASUNTOS DEL CANAL",
    "etapa": "Segundo Debate",
@@ -15152,6 +15225,20 @@
    "titulo": "QUE TIPIFICA EL DELITO DE EXHIBICIONISMO, LO INCORPORA AL CODIGO PENAL DE LA REPUBLICA DE PANAMA Y DICTA OTRA DISPOSICION"
   },
   "7918": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1x-1m7sOs6Oc98YspfyUG0JOCrDGyZb5e",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Se trata de un ajuste netamente político-administrativo y toponímico en un territorio comarcal, sin impacto regulatorio, fiscal ni operativo para el sector empresarial.",
+    "resumen": "Propone modificar la Ley 33 de 2012 para subsanar un error de asignación de nombres entre los corregimientos de Valle Bonito y Alto Bilingüe en el distrito de Bledechia (Santa Catalina), en la Comarca Ngäbe Buglé.\nEstablece con precisión las cabeceras oficiales de cada división administrativa y adecua la toponimia en lenguas bugle y ngäbe según las consultas comunitarias.\nAfecta a las comunidades locales, autoridades tradicionales e instituciones estatales como el Tribunal Electoral y el Instituto Geográfico Nacional Tommy Guardia.",
+    "sectores": [],
+    "titulo": "Que modifica dos artículos de la Ley N° 33 de 10 de mayo de 2012 que crea dos distritos y seis corregimientos en la comarca Ngäbe Buglé, por la cual se cambia el nombre de los corregimientos Valle Bonito y Alto Bilingüe",
+    "titulo_corto": "Nomenclatura de corregimientos en la comarca Ngäbe Buglé"
+   },
    "anteproyecto": "41",
    "comision": "COMISION DE ASUNTOS INDIGENAS",
    "etapa": "Segundo Debate",
@@ -40793,13 +40880,13 @@
   "7886": "0823f7e68912",
   "7887": "32f12c9b8e9b",
   "7888": "f46e87e7a05b",
-  "7889": "8afff99df1a9",
-  "7891": "3c3d2434288d",
+  "7889": "819d384f7d5c",
+  "7891": "78fe42f02615",
   "7893": "004b2347f3e1",
   "7895": "3cd128a30274",
   "7896": "eea3302fe669",
   "7898": "93ecff287237",
-  "7899": "d4e2316e5013",
+  "7899": "6459f5dfaec0",
   "7900": "e8b0ab7aa511",
   "7901": "8fb134a48993",
   "7902": "deeae93afbae",
@@ -40816,7 +40903,7 @@
   "7915": "8c969127465f",
   "7916": "c71758673c33",
   "7917": "dea26c1cdea6",
-  "7918": "dbae1971ddf1",
+  "7918": "6786184f1be0",
   "7919": "3759412d1924",
   "7920": "1eb4ece2b468",
   "7921": "6bb0001cc96c",
@@ -41516,6 +41603,7 @@
    "8032",
    "8077",
    "7998",
+   "7899",
    "7912",
    "7969",
    "7531",
@@ -41525,7 +41613,7 @@
    "7959",
    "7461"
   ],
-  "fecha": "2026-10-17T09:49:02",
+  "fecha": "2026-10-17T10:47:29",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -41536,6 +41624,7 @@
    "7779": "399fc6670871",
    "7808": "399fc6670871",
    "7829": "399fc6670871",
+   "7899": "399fc6670871",
    "7912": "399fc6670871",
    "7915": "399fc6670871",
    "7922": "399fc6670871",
@@ -41947,7 +42036,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-17T09:49:30"
+  "revisada": "2026-10-17T10:47:56"
  },
- "ultima_corrida": "2026-10-17T09:49:02"
+ "ultima_corrida": "2026-10-17T10:47:29"
 }
