@@ -53,6 +53,10 @@
    "carpeta": "Señalización vial en obras públicas (ficha 7779)",
    "comision": "Comisión de Comunicación y Transporte"
   },
+  "7785": {
+   "carpeta": "Reforma a la ley de turismo indígena sostenible (ficha 7785)",
+   "comision": "Comisión de Asuntos Indígenas"
+  },
   "7801": {
    "carpeta": "Establecimiento de Estándares Básicos de Aprendizaje (EBA) (ficha 7801)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -63,6 +67,10 @@
   },
   "7804": {
    "carpeta": "Sistema Nacional de Estadística Educativa (SINEE) (ficha 7804)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "7805": {
+   "carpeta": "Sistema de pruebas estandarizadas educativas (SECAPE) (ficha 7805)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
   "7808": {
@@ -11450,6 +11458,31 @@
    "titulo": "QUE ESTABLECE LA ENSEÑANZA DE LAS LENGUAS MATERNAS EN LOS CENTROS EDUCATIVOS OFICIALES Y PARTICULARES DEL PRIMER Y SEGUNDO NIVEL DE ENSEÑANZA, DE LOS DOCE TERRITORIOS Y SIETE COMARCAS DEL PAIS Y SE DICTAN OTRAS DISPOSICIONES"
   },
   "7785": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1 (modifica el artículo 7 de la Ley 290 de 2022): Establece que las autoridades tradicionales coordinarán y fomentarán la actividad turística indígena sostenible en sus regiones, en conjunto con el apoyo y promoción de las entidades públicas.",
+     "Artículo 2 (modifica el artículo 17 de la Ley 290 de 2022): Crea oficialmente el Registro de Turismo Indígena Sostenible para ordenar los emprendimientos y empresas que operen en dicho rubro."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1IfpkjdpDZlx1-lCf3UoOLqSGa0IuI_7z",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Crea formalmente el Registro de Turismo Indígena Sostenible y reconoce el rol de coordinación de las autoridades tradicionales, con un impacto operativo acotado a quienes operan en comarcas.",
+      "sector": "TURISMO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es bajo y puntual, pues se limita a corregir imprecisiones conceptuales en el registro sectorial y delimitar la coordinación local sin imponer tributos, restricciones severas ni cargas operativas gravosas para la industria turística general.",
+    "resumen": "La propuesta corrige y actualiza la Ley 290 de 2022 para facilitar su reglamentación. Sustituye la figura errónea del Registro de Turismo Rural Comunitario por el Registro de Turismo Indígena Sostenible y asigna a las autoridades tradicionales la coordinación y fomento de esta actividad en sus comarcas y territorios. Impacta principalmente a emprendimientos, guías y operadores turísticos que desarrollan actividades dentro de áreas indígenas.",
+    "sectores": [
+     "TURISMO"
+    ],
+    "titulo": "Que modifica la Ley 290 del 24 de marzo de 2022, que declara prioridad nacional el fomento y el desarrollo del turismo indígena sostenible y dicta otras disposiciones",
+    "titulo_corto": "Reforma a la ley de turismo indígena sostenible"
+   },
    "anteproyecto": "321",
    "comision": "COMISION DE ASUNTOS INDIGENAS",
    "etapa": "Segundo Debate",
@@ -12320,6 +12353,20 @@
    "titulo": "QUE ESTABLECE UN SISTEMA NACIONAL DE ESTADISTICA EDUCATIVA, CENTRALIZADA Y PUBLICA (SINEE)"
   },
   "7805": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1d-_8Xy3IuwBiqyMnFhWQwBkdgvycHulb",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La propuesta tiene un carácter estrictamente educativo y técnico enfocado en la medición del rendimiento académico de los estudiantes, sin generar obligaciones fiscales, laborales ni comerciales para los sectores empresariales contemplados.",
+    "resumen": "Crea el Sistema de Evaluación Continua mediante la Aplicación de Pruebas Estandarizadas Nacionales e Internacionales (SECAPE) bajo la gestión del Ministerio de Educación. Hace obligatoria la participación en pruebas nacionales bianuales y en al menos tres pruebas internacionales en los niveles de educación básica general y media para centros educativos oficiales y particulares, derogando la Ley 434 de 2024.",
+    "sectores": [],
+    "titulo": "Que establece un Sistema de Evaluación Continua mediante Pruebas Estandarizadas Nacionales e Internacionales (SECAPE) y deroga la Ley 434 de 13 de mayo de 2024",
+    "titulo_corto": "Sistema de pruebas estandarizadas educativas (SECAPE)"
+   },
    "anteproyecto": "331",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -40976,7 +41023,7 @@
   "7779": "7e79bda4b304",
   "7782": "47557f7e622c",
   "7783": "6416d50dd913",
-  "7785": "44c46c594077",
+  "7785": "b4edad9b9c83",
   "7786": "9e8f58be39c5",
   "7787": "896ebb4a1fa9",
   "7789": "181b9528758f",
@@ -40993,7 +41040,7 @@
   "7801": "7be01a3d4704",
   "7802": "32b459a07e8d",
   "7804": "939379dc6bb4",
-  "7805": "30aae3d49324",
+  "7805": "745b437fc2ba",
   "7808": "25c9c18758f7",
   "7810": "2b371395182a",
   "7811": "94e86c585e50",
@@ -41703,6 +41750,7 @@
    "7750",
    "8516",
    "7968",
+   "7785",
    "8082",
    "8491",
    "7779",
@@ -41773,7 +41821,7 @@
    "7811",
    "7461"
   ],
-  "fecha": "2026-10-17T14:47:53",
+  "fecha": "2026-10-17T15:45:33",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -41782,6 +41830,7 @@
    "7750": "399fc6670871",
    "7767": "399fc6670871",
    "7779": "399fc6670871",
+   "7785": "399fc6670871",
    "7808": "399fc6670871",
    "7811": "399fc6670871",
    "7829": "399fc6670871",
@@ -42198,7 +42247,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-17T14:48:19"
+  "revisada": "2026-10-17T15:46:02"
  },
- "ultima_corrida": "2026-10-17T14:47:53"
+ "ultima_corrida": "2026-10-17T15:45:33"
 }
