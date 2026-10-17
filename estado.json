@@ -37,6 +37,10 @@
    "carpeta": "Tipificación de delitos contra la seguridad alimentaria (ficha 7659)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
+  "7714": {
+   "carpeta": "Reforma a la Ley General de Pensión Alimenticia (ficha 7714)",
+   "comision": "Comisión de la Mujer, la Niñez y la Familia"
+  },
   "7717": {
    "carpeta": "Comiso de bienes en delitos de drogas y trata (ficha 7717)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
@@ -9611,6 +9615,37 @@
    "titulo": "QUE ESTABLECE LAS REGULACIONES TECNICAS PARA LA COMERCIALIZACION DE LA CARNE DE CERDO Y SUS DERIVADOS"
   },
   "7714": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 7 (modifica el artículo 20 de la Ley 42 de 2012): Establece que en caso de despidos o ceses acordados, el empleador deberá descontar obligatoriamente entre el 25% y el 40% del total de la liquidación laboral para cubrir la pensión y notificar el monto a la autoridad judicial.",
+     "Artículo 9 y Artículo 10 (adicionan los artículos 31-A y 31-B a la Ley 42 de 2012): Exigen a las agencias de historial de crédito habilitar un módulo exclusivo para registrar morosidades de pensiones alimenticias remitidas por oficio judicial y suministrar accesos directos al Centro de Comunicaciones Judiciales.",
+     "Artículo 12 (modifica el artículo 51 de la Ley 42 de 2012): Obliga a empleadores a entregar información laboral en un plazo no mayor a cinco días hábiles bajo multa de B/.1,000 a B/.5,000 o arresto de hasta diez días, prohibiendo el despido motivado por procesos alimentarios; asimismo, impone a bancos, financieras y empresas el deber de remitir información sobre cuentas, plazos fijos y sociedades vinculadas en máximo quince días hábiles bajo multa de $5,000 a $10,000."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1oa0ZYsSKGed0ygaRC45hFdbDg9ZqNDsx",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Obliga a bancos y financieras a suministrar información patrimonial y societaria en 15 días bajo multas de hasta $10,000, y a las agencias de crédito a habilitar accesos y módulos de morosidad.",
+      "sector": "FINANCIERO"
+     },
+     {
+      "nivel": "bajo",
+      "razon": "Crea la obligación laboral y de nómina de retener entre 25% y 40% de las liquidaciones de trabajadores obligados y entregar informes al tribunal en 5 días bajo sanción pecuniaria o arresto.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es medio para el sector bancario y financiero por plazos perentorios de reporte de información y adecuaciones a agencias crediticias, mientras que para el resto del empresariado introduce trámites operativos de retención en liquidaciones y reportes de personal.",
+    "resumen": "El proyecto reforma el régimen de pensiones alimenticias para fortalecer los mecanismos de cobro, fiscalización y sanción por morosidad. Impone a los empleadores porcentajes obligatorios de retención sobre las liquidaciones laborales por cese o despido, además de plazos perentorios con sanciones para entregar información laboral. Asimismo, obliga a bancos a entregar informes patrimoniales y a las agencias de historial de crédito a crear módulos especiales para registrar morosidades por orden judicial.",
+    "sectores": [
+     "FINANCIERO"
+    ],
+    "titulo": "Que modifica y adiciona artículos a la Ley 42 de 2012, General de Pensión Alimenticia y dicta otras disposiciones",
+    "titulo_corto": "Reforma a la Ley General de Pensión Alimenticia"
+   },
    "anteproyecto": "259",
    "comision": "COMISION DE LA MUJER, LA NIÑEZ Y LA FAMILIA",
    "etapa": "Segundo Debate",
@@ -41182,7 +41217,7 @@
   "7708": "08ce3cc7015c",
   "7711": "e0018c323f1b",
   "7712": "e3f2c19cd895",
-  "7714": "f2d97a376e6b",
+  "7714": "9bf920ac463f",
   "7717": "a79ae6862a9c",
   "7720": "f75332082d9a",
   "7724": "72e47d7e0245",
@@ -42015,18 +42050,20 @@
    "8050",
    "7733",
    "8022",
+   "7714",
    "7953",
    "7959",
    "7811",
    "7717",
    "7461"
   ],
-  "fecha": "2026-10-17T21:47:06",
+  "fecha": "2026-10-17T22:44:13",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
    "7532": "399fc6670871",
    "7659": "399fc6670871",
+   "7714": "399fc6670871",
    "7717": "399fc6670871",
    "7733": "399fc6670871",
    "7745": "399fc6670871",
@@ -42452,7 +42489,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-17T21:47:36"
+  "revisada": "2026-10-17T22:44:41"
  },
- "ultima_corrida": "2026-10-17T21:47:06"
+ "ultima_corrida": "2026-10-17T22:44:13"
 }
