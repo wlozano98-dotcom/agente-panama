@@ -1,5 +1,5 @@
 {
- "comisiones_revisadas": "2026-10-17T01:01:12",
+ "comisiones_revisadas": "2026-10-17T07:47:40",
  "drive": {
   "7423": {
    "carpeta": "Protección e inclusión de personas con autismo (TEA) (ficha 7423)",
@@ -73,8 +73,24 @@
    "carpeta": "Prevención de estafas en páginas web y comercio digital (ficha 7915)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
   },
+  "7939": {
+   "carpeta": "Regulación a la importación y venta de vehículos (ficha 7939)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
+  "7953": {
+   "carpeta": "Estacionamientos en oficinas públicas arrendadas (ficha 7953)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
+  "7959": {
+   "carpeta": "Restricción a compra de bienes del Estado por funcionarios (ficha 7959)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
   "7968": {
    "carpeta": "Regulación de actividades de cobranza extrajudicial (ficha 7968)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
+  "7969": {
+   "carpeta": "Sistema de reembolso de envases y reciclaje RVM (ficha 7969)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
   },
   "7971": {
@@ -15603,6 +15619,35 @@
    "titulo": "QUE MODIFICA ARTÍCULOS DE LA LEY 51 DE 2017, QUE REGULA EL TRANSPORTE DE CARGA POR CARRETERA"
   },
   "7939": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 4: Limita la importación de vehículos fuera del giro habitual a una sola unidad cada cuatro años.",
+     "Artículo 5: Exige a vendedores de autos mantener instalaciones y personal técnico idóneo para garantías, stock proporcional de piezas originales de fábrica y declarar en contrato el kilometraje y año/modelo veraz.",
+     "Artículo 6: Establece una compensación obligatoria del 10% del precio de venta a favor del comprador si el agente económico divulga incorrectamente el año o modelo del vehículo.",
+     "Artículo 7: Libera a los distribuidores autorizados por fabricantes de prestar repuestos, mantenimiento o garantías sobre autos nuevos importados por terceros independientes.",
+     "Artículo 8: Prohíbe la importación, liquidación y registro de vehículos usados con más de cinco años de fabricación, declarados pérdida total o recuperados de inundaciones.",
+     "Artículos 10 y 12: Faculta a la ACODECO, el MICI y la Autoridad Nacional de Aduanas a supervisar, fiscalizar e imponer sanciones mediante auditorías e inspecciones sin previo aviso."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1lOw9U4rVAbtRWEQSu2ijKcDJshuwVKHy",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Modifica de forma sustancial el negocio automotriz al prohibir la importación de autos usados de más de 5 años o siniestrados, e impone a importadores y concesionarios obligaciones operativas sobre repuestos, talleres y garantías.",
+      "sector": "TRANSPORTE"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea barreras de entrada y nuevas obligaciones comerciales severas en el mercado automotriz, limitando importaciones y exigiendo infraestructura de taller y repuestos proporcionales a las ventas.",
+    "resumen": "Regula la comercialización e importación de vehículos automotores nuevos y usados en Panamá. Obliga a los agentes comerciales a disponer de talleres idóneos, mantener inventarios de repuestos originales y transparentar el kilometraje y año real de fabricación, a la vez que prohíbe importar vehículos usados de más de cinco años o que hayan sufrido pérdidas totales o inundaciones. Afecta directamente a concesionarios de autos, importadores independientes y comercializadoras de vehículos.",
+    "sectores": [
+     "TRANSPORTE"
+    ],
+    "titulo": "Que regula la venta de vehículos por parte de concesionarios, establece el precio según el año de fabricación, obliga la pronta nacionalización desde aduana y dispone la regulación por kilometraje",
+    "titulo_corto": "Regulación a la importación y venta de vehículos"
+   },
    "anteproyecto": "63",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Segundo Debate",
@@ -15935,6 +15980,33 @@
    "titulo": "QUE DECLARA EL 26 DE OCTUBRE COMO DIA NACIONAL DE LA CUTARRA"
   },
   "7953": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 3 y 4: Obliga a que los inmuebles arrendados por el sector público cuenten con estacionamientos gratuitos para contribuyentes y fija esto como cláusula obligatoria en nuevos contratos y renovaciones.",
+     "Artículo 5: Permite excepciones solo cuando no existan inmuebles adecuados con estacionamiento en el área, requiriendo justificación técnica en Panamá Compra.",
+     "Artículo 11: Modifica el artículo 93 de la Ley 22 de 2006 para exigir que los contratos públicos de alquiler detallen expresamente los estacionamientos gratuitos, cantidad de espacios y horarios disponibles.",
+     "Artículo 13: Aplica la exigencia obligatoria a contratos nuevos o renovaciones tras seis meses de promulgación, permitiendo que los contratos vigentes concluyan su término sin alteraciones obligatorias inmediatas."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1MidnOTvGwVJA94OzGsbvjWEsii6pA4e2",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Incide únicamente sobre propietarios e inmobiliarias que arriendan o licitan alquileres de oficinas e inmuebles con entidades estatales.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es bajo y focalizado en los arrendadores de bienes raíces que contratan con el Estado, quienes deberán disponer de espacios de estacionamiento gratuitos como condición contractual.",
+    "resumen": "La iniciativa obliga a las entidades del sector público no financiero a garantizar estacionamientos gratuitos para los contribuyentes en las oficinas que arrienden para atención presencial. Modifica la Ley de Contrataciones Públicas para exigir esta cláusula en los contratos nuevos y renovaciones, salvo excepciones debidamente justificadas.",
+    "sectores": [
+     "CEMENTERAS"
+    ],
+    "titulo": "Que garantiza el acceso gratuito a estacionamientos para contribuyentes en oficinas públicas con atención presencial",
+    "titulo_corto": "Estacionamientos en oficinas públicas arrendadas"
+   },
    "anteproyecto": "76",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Segundo Debate",
@@ -16107,6 +16179,32 @@
    "titulo": "QUE ESTABLECE UN MARCO LEGAL PARA LA PREVENCION, DIAGNOSTICO Y CONTROL DE LAS ENFERMEDADES NO TRANSMISIBLES"
   },
   "7959": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 3 (numeral 3) y Artículo 7: Extienden las inhabilitaciones a personas jurídicas donde el funcionario o sus allegados tengan participación accionaria, representación legal o control efectivo.",
+     "Artículos 5, 6 y 8: Prohíben a funcionarios y empresas vinculadas participar en licitaciones, subastas, remates, permutas o adjudicaciones de bienes del Estado durante su gestión y hasta seis meses después de culminarla.",
+     "Artículo 10: Declara nulas de pleno derecho, previa declaración judicial, las compras y adjudicaciones pactadas contra la norma, obligando a devolver los bienes al Estado sin derecho a indemnización."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1hdnR2_T9PwPjj110raytvkOISFbUw7Tn",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Inhabilita a personas jurídicas con socios o directivos que ejerzan cargos públicos para adquirir o adjudicarse bienes estatales en subastas o licitaciones.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es marginal y acotado, afectando únicamente a las empresas que mantengan en su estructura societaria o directiva a servidores públicos con mando y jurisdicción interesados en comprar bienes patrimoniales del Estado.",
+    "resumen": "El proyecto prohíbe a los servidores públicos con mando y jurisdicción adquirir bienes muebles o inmuebles patrimoniales del Estado durante el ejercicio de sus cargos y hasta seis meses posteriores a su cese. La restricción se extiende a sociedades y personas jurídicas donde dichos funcionarios, sus parientes o socios comerciales tengan participación accionaria, control o representación legal. Adicionalmente, decreta la nulidad de pleno derecho de las transacciones infractoras sin derecho a indemnización y prevé multas equivalentes al doble del bien adquirido.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que limita la adquisición y venta de bienes del Estado por parte de servidores públicos durante el ejercicio de sus funciones y por un período de cinco años posteriores a la culminación de las mismas",
+    "titulo_corto": "Restricción a compra de bienes del Estado por funcionarios"
+   },
    "anteproyecto": "82",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Segundo Debate",
@@ -16365,6 +16463,55 @@
    "titulo": "QUE REGULA LAS ACTIVIDADES DE COBRANZA REALIZADAS POR LAS AGENCIAS DE COBRO Y ESTABLECE DISPOSICIONES PARA LA PROTECCION DEL DERECHO A LA INTIMIDAD DE LOS CONSUMIDORES"
   },
   "7969": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 6: Establece el etiquetado obligatorio con leyenda de reembolso, símbolo de la AAUD y código de barras o QR único de trazabilidad contra fraude.",
+     "Artículo 7: Fija un reembolso mínimo monetario obligatorio por peso de plástico (B/.0.05 a B/.0.10).",
+     "Artículo 12: Obliga a centros comerciales y lugares de alta afluencia a instalar al menos una máquina RVM en un plazo no mayor a 18 meses.",
+     "Artículo 13: Establece deducciones del impuesto sobre la renta de hasta 5% de la inversión realizada en máquinas RVM.",
+     "Artículo 19: Obliga a empresas productoras e importadoras a financiar el sistema de reembolso, participar en el fondo fiduciario regulado por la AAUD y garantizar el reciclaje final.",
+     "Artículo 25: Obliga a centros comerciales y plazas a colocar dispositivos de almacenamiento de residuos reciclables de 660L y 1100L.",
+     "Artículo 26: Exige a empresas de recolección que todos sus camiones cuenten con brazos hidráulicos compatibles con contenedores de 660L y 1100L en un plazo de 18 meses.",
+     "Artículo 32: Sanciona el incumplimiento de la ley con multas de B/.1,000 a B/.25,000 impuestas por AAUD y ACODECO."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1UVEaNLNpg0Vf3Uw6T1wbL_LYKz7knwBH",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Obliga a las empresas de alimentos y bebidas a modificar el etiquetado de todos sus productos envasados y financiar el fondo de reembolso y reciclaje.",
+      "sector": "ALIMENTOS"
+     },
+     {
+      "nivel": "alto",
+      "razon": "Crea costos obligatorios de financiamiento del sistema RVM bajo responsabilidad extendida del productor y exige trazabilidad por código de barras o QR.",
+      "sector": "INDUSTRIAS"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Obliga a los centros y plazas comerciales a costear la instalación y mantenimiento de máquinas RVM y contenedores de gran capacidad (660L y 1100L).",
+      "sector": "OTROS"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Exige a empresas privadas de recolección de residuos adecuar sus camiones con brazos hidráulicos compatibles en un plazo máximo de 18 meses.",
+      "sector": "TRANSPORTE"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Impacto alto para el sector empresarial porque impone cargas financieras directas de responsabilidad extendida a fabricantes e importadores, exige reetiquetado técnico obligatorio y fuerza inversiones en infraestructura para centros comerciales y empresas de transporte de residuos.",
+    "resumen": "Crea un sistema obligatorio de depósito y reembolso para envases plásticos y reciclables mediante máquinas de reciclaje inverso (RVM). Impone a fabricantes e importadores la responsabilidad extendida del productor para financiar el esquema y obliga a rediseñar etiquetas con códigos únicos. Además, exige a centros comerciales instalar máquinas RVM y a recolectores privados adaptar sus camiones con brazos hidráulicos.",
+    "sectores": [
+     "ALIMENTOS",
+     "INDUSTRIAS",
+     "OTROS",
+     "TRANSPORTE"
+    ],
+    "titulo": "Que establece un sistema de reembolso por botellas plásticas tipo PET, envases de aluminio y botellas de vidrio no retornables, e implementa máquinas recicladoras RVM en el Metro de Panamá y otros espacios públicos, en la República de Panamá",
+    "titulo_corto": "Sistema de reembolso de envases y reciclaje RVM"
+   },
    "anteproyecto": "90",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Segundo Debate",
@@ -40486,7 +40633,7 @@
   "7933": "730d98dcafe8",
   "7936": "07165676ac5b",
   "7937": "4719439db77e",
-  "7939": "c7662c28854f",
+  "7939": "2145c7d4d888",
   "7940": "33f0a1984068",
   "7942": "d0d9f09d1eb9",
   "7943": "62f85490c567",
@@ -40495,17 +40642,17 @@
   "7948": "0fd0320e7ab6",
   "7949": "6d2e7b97b0dc",
   "7952": "b99a6d41e800",
-  "7953": "97bbf8787eba",
+  "7953": "171536fc1702",
   "7955": "02e7f8175b9e",
   "7956": "34cdbe24c8a8",
   "7958": "25f4d5a167c9",
-  "7959": "c17dd4d523e8",
+  "7959": "a78e15bfd8f4",
   "7961": "7cf5880652ef",
   "7965": "47948cee55d0",
   "7966": "6fda8e2eb03a",
   "7967": "c91acaf521c6",
   "7968": "dea8fffd98e3",
-  "7969": "35849128b30c",
+  "7969": "39b54c8df1f1",
   "7970": "b55d8cbdbf34",
   "7971": "91a0de1f2fa0",
   "7972": "ff0e5bfae406",
@@ -41127,6 +41274,7 @@
    "7915",
    "8394",
    "8395",
+   "7939",
    "8266",
    "8227",
    "8273",
@@ -41167,12 +41315,15 @@
    "8032",
    "8077",
    "7998",
+   "7969",
    "7531",
    "8050",
    "8022",
+   "7953",
+   "7959",
    "7461"
   ],
-  "fecha": "2026-10-17T07:00:35",
+  "fecha": "2026-10-17T07:50:08",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -41184,7 +41335,11 @@
    "7808": "399fc6670871",
    "7829": "399fc6670871",
    "7915": "399fc6670871",
+   "7939": "399fc6670871",
+   "7953": "399fc6670871",
+   "7959": "399fc6670871",
    "7968": "399fc6670871",
+   "7969": "399fc6670871",
    "7976": "399fc6670871",
    "7978": "399fc6670871",
    "7991": "399fc6670871",
@@ -41586,7 +41741,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-17T07:01:08"
+  "revisada": "2026-10-17T07:50:37"
  },
- "ultima_corrida": "2026-10-17T07:00:35"
+ "ultima_corrida": "2026-10-17T07:50:08"
 }
