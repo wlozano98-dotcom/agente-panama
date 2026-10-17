@@ -81,8 +81,20 @@
    "carpeta": "Sanciones por cierre de caminos públicos y titulación indebida (ficha 7971)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
+  "7974": {
+   "carpeta": "Tutorías obligatorias en escuelas oficiales (ficha 7974)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "7976": {
    "carpeta": "Fomento del turismo deportivo (ficha 7976)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "7978": {
+   "carpeta": "Reforma a la Ley General de Artesanía Nacional (ficha 7978)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
+  "7986": {
+   "carpeta": "Primeros auxilios obligatorios en centros educativos (ficha 7986)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
   "7990": {
@@ -92,6 +104,10 @@
   "7991": {
    "carpeta": "Regulación del neteo remoto para autoconsumo solar (ficha 7991)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
+  "7992": {
+   "carpeta": "Marco de atención de la diabetes y reforma a leyes de salud (ficha 7992)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
   "7998": {
    "carpeta": "Reforma a la Ley de Contratación Pública y Código Penal (ficha 7998)",
@@ -16626,6 +16642,20 @@
    "titulo": "QUE DICTA EL PRESUPUESTO GENERAL DE ESTADO PARA LA VIGENCIA FISCAL 2026"
   },
   "7974": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1ttQHbf5X8CdKUktcXLjG1GRiR1mswMMB",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto se enfoca exclusivamente en la administración y funcionamiento del sistema educativo público oficial, sin imponer obligaciones, restricciones ni cargas operativas o tributarias sobre el sector privado.",
+    "resumen": "La iniciativa crea el Programa Nacional de Tutorías Educativas Obligatorias (PRONATUED) dentro de las escuelas oficiales de educación básica general y media bajo la rectoría del MEDUCA. Su objetivo es brindar nivelación y refuerzo académico a estudiantes con rezago o riesgo de reprobación mediante sesiones extracurriculares presenciales o virtuales. Además, autoriza convenios voluntarios de colaboración con universidades, ONG y empresas para apoyo pedagógico sin costo.",
+    "sectores": [],
+    "titulo": "Que establece el Programa Nacional de Tutorías Educativas Obligatorias en los centros educativos oficiales de la República de Panamá",
+    "titulo_corto": "Tutorías obligatorias en escuelas oficiales"
+   },
    "anteproyecto": "95",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -16850,6 +16880,33 @@
    "titulo": "QUE MODIFICA LA LEY 86 DE 18 DE NOVIEMBRE DE 2010, QUE CREA EL PROGRAMA ESPECIAL DE ASISTENCIA ECONÓMICA PARA LOS ADULTOS MAYORES DE SETENTA AÑOS O MÁS SIN JUBILACIÓN NI PENSIÓN, EN CONDICIONES DE RIESGO SOCIAL, VULNERABILIDAD, MARGINACIÓN O POBREZA, Y SUBROGA LA LEY 44 DE 2009"
   },
   "7978": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 4 (modifica art. 5, numeral 18 de la Ley 11 de 2011): Faculta a la Dirección Nacional de Artesanías para regular y fiscalizar la venta y exhibición de artesanías en espacios privados como centros comerciales, hoteles y ferias, sancionando productos que se presenten indebidamente como tales.",
+     "Artículo 10 (adiciona numeral 7 al art. 15 de la Ley 11 de 2011): Prohíbe a las empresas artesanales operar como intermediarias o comercializar mercancía industrial, buhonería o bienes de reventa masiva.",
+     "Artículo 31 (modifica art. 40 de la Ley 11 de 2011) y Artículo 32: Prohíben la importación de souvenirs de confección extranjera con el nombre de Panamá que no señalen visiblemente el país de procedencia, así como de mercancías que imiten vestidos autóctonos panameños y del sombrero pintado.",
+     "Artículo 35 (modifica art. 47 de la Ley 11 de 2011): Establece sanciones de B/. 500 a B/. 10,000 para comerciantes e importadores por venta de imitaciones folclóricas, souvenirs sin procedencia indicada o prendas con mola sin licencia del Congreso Kuna, y contempla la cancelación del Aviso de Operación ante reincidencia."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1O_TbpG28y_2h1U7jbEOQcM4U8HTCkOAq",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Impone prohibiciones expresas de importación y venta de imitaciones de prendas folclóricas y souvenirs sin etiquetado de origen visible, con multas de hasta B/. 10,000 y posible cancelación del Aviso de Operación para comerciantes e importadores.",
+      "sector": "OTROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto introduce restricciones comerciales y de importación concretas a agentes económicos que venden artículos promocionales, recuerdos o textiles folclóricos, respaldadas por multas administrativas y facultades de inspección en comercios privados.",
+    "resumen": "Actualiza el marco legal de la artesanía bajo la rectoría del Ministerio de Cultura, regulando a las empresas artesanales y su registro. Prohíbe la importación y comercialización de souvenirs extranjeros sin indicación clara de procedencia y de imitaciones de prendas y símbolos folclóricos panameños. Afecta directamente al comercio minorista, tiendas de recuerdos, importadores de mercancías y administradores de espacios comerciales.",
+    "sectores": [
+     "OTROS"
+    ],
+    "titulo": "Que modifica y adiciona artículos a la Ley 11 de 2011, General de la Artesanía Nacional, y dicta otras disposiciones",
+    "titulo_corto": "Reforma a la Ley General de Artesanía Nacional"
+   },
    "anteproyecto": "98",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Segundo Debate",
@@ -16987,6 +17044,24 @@
    "titulo": "QUE ESTABLECE LA OBLIGATORIEDAD DEL ETIQUETADO NUTRICIONAL EN TODOS LOS ALIMENTOS A NIVEL NACIONAL"
   },
   "7986": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2 (adiciona artículo 2-A a la Ley 38 de 2014): Establece la obligatoriedad de capacitar y certificar en primeros auxilios básicos al personal docente, administrativo y directivo de las entidades educativas particulares y oficiales.",
+     "Artículo 4 (adiciona artículo 5-A a la Ley 57 de 2016): Exige a los centros educativos garantizar que al menos el 80% de su personal reciba anualmente capacitación certificada en primeros auxilios.",
+     "Artículo 7: Otorga un plazo de doce meses, a partir de la entrada en vigencia de la ley, para que los centros educativos se adecuen y cumplan con las obligaciones."
+    ],
+    "drive": "https://drive.google.com/drive/folders/14IiZbxBrBteETqKQ7mhy_jMKr3walqu6",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto no afecta a ninguno de los sectores empresariales prioritarios ni modifica normas de aplicación general para las empresas comerciales, industriales o financieras, limitando sus obligaciones al ámbito escolar y colegios particulares.",
+    "resumen": "La iniciativa establece la obligatoriedad de capacitar y certificar en primeros auxilios básicos al personal docente, directivo y administrativo de los centros educativos oficiales y particulares. Exige que al menos el 80% del personal escolar reciba esta formación anualmente a través de entidades acreditadas por el Ministerio de Salud, otorgando un plazo de 12 meses a las escuelas para adecuarse a la norma.",
+    "sectores": [],
+    "titulo": "Que modifica y adiciona algunas disposiciones de la Ley 57 de 2016, de la Ley 380 de 2023 y dicta otras disposiciones",
+    "titulo_corto": "Primeros auxilios obligatorios en centros educativos"
+   },
    "anteproyecto": "104",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -17210,6 +17285,39 @@
    "titulo": "QUE DEMOCRATIZA EL ACCESO A LA ENERGIA RENOVABLE MEDIANTE EL NETEO REMOTO Y LAS COMUNIDADES SOLARES"
   },
   "7992": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2 (modifica el artículo 5 de la Ley 114 de 2019): Incorpora formalmente a representantes del Sindicato de Industriales de Panamá (SIP) y de la Cámara de Comercio, Industrias y Agricultura de Panamá (CCIAP) en la Comisión para el Mejoramiento de la Salud.",
+     "Artículo 4 (modifica el artículo 11 de la Ley 114 de 2019): Modifica la distribución del importe recaudado del impuesto selectivo al consumo de bebidas azucaradas entre MINSA (70%), ION (25%) y MEDUCA (5%).",
+     "Artículo 7 (modifica el artículo 4 de la Ley 136 de 2020): Ordena al Estado garantizar y adquirir tratamientos y tecnologías médicas, como infusores continuos de insulina, tiras reactivas, lancetas y sensores de monitoreo de glucosa.",
+     "Artículo 10 (adiciona el artículo 5-A a la Ley 136 de 2020): Obliga a todas las instituciones públicas y privadas a reportar al MINSA los diagnósticos de diabetes en un plazo máximo de 30 días calendario para alimentar el Registro Nacional.",
+     "Artículo 11 (adiciona el artículo 6-A a la Ley 136 de 2020): Exige que todos los centros educativos públicos y privados del país cuenten con protocolos de actuación y kits de glucosa de acción rápida para emergencias."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1z-pN89ktADaGEzzY0V1WA-hFuJzozmM_",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Impone a hospitales y clínicas privadas la obligación de reportar al MINSA los diagnósticos de diabetes en un plazo de 30 días e impulsa compras estatales de insumos y dispositivos médicos de monitoreo.",
+      "sector": "SALUD"
+     },
+     {
+      "nivel": "bajo",
+      "razon": "Aunque se eliminó la propuesta de elevar periódicamente el impuesto a bebidas azucaradas y prohibir su venta escolar, reestructura el destino de los fondos recaudados por la Ley 114 de 2019.",
+      "sector": "ALIMENTOS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto se concentra en el sector salud por la nueva carga regulatoria de reporte obligatorio para centros médicos privados y la ampliación de adquisiciones públicas de insumos médicos. Para la industria de alimentos y bebidas, el proyecto inicial representaba un riesgo impositivo directo que fue neutralizado durante el primer debate.",
+    "resumen": "El proyecto propone fortalecer la política pública de atención y monitoreo de la diabetes a través de reformas a las leyes 114 de 2019 y 136 de 2020. Establece la obligación para hospitales y clínicas privadas de reportar todos los casos diagnosticados a un registro único del Ministerio de Salud dentro de un plazo de 30 días. En el texto único aprobado en primer debate se descartaron el ajuste periódico al impuesto sobre bebidas azucaradas y la prohibición de su venta en centros educativos que contemplaba la propuesta original.",
+    "sectores": [
+     "SALUD"
+    ],
+    "titulo": "Que crea el Consejo Nacional de Diabetes, instituye el Registro Nacional de Personas con Diabetes, modifica la Ley 114 de 2019 y la Ley 136 de 2020, establece medidas para la educación nutricional y dicta otras disposiciones de protección a favor del paciente diabético",
+    "titulo_corto": "Marco de atención de la diabetes y reforma a leyes de salud"
+   },
    "anteproyecto": "109",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Segundo Debate",
@@ -40402,20 +40510,20 @@
   "7971": "91a0de1f2fa0",
   "7972": "ff0e5bfae406",
   "7973": "1d3c1c8c00a2",
-  "7974": "ce83200a2618",
+  "7974": "d103c9a19804",
   "7975": "c25d85ae0bf9",
   "7976": "43159f2b4157",
   "7977": "ac04206b7aa1",
-  "7978": "5fcf1a3e3428",
+  "7978": "a7273946cc1d",
   "7981": "ef677cf8d8cd",
   "7983": "85ad8a83bb74",
   "7984": "7e7e8d58f38e",
-  "7986": "0cd7021af3aa",
+  "7986": "60d0d73ea470",
   "7987": "686ab41428f3",
   "7989": "5286ebb4496c",
   "7990": "f1bfe76f9b14",
   "7991": "3d3d30121322",
-  "7992": "608e1f9aebb4",
+  "7992": "3c9a291a68db",
   "7993": "e7c806f6557f",
   "7994": "ae3fac0d27da",
   "7995": "3627d600ac4e",
@@ -41009,6 +41117,7 @@
    "8491",
    "7779",
    "8308",
+   "7992",
    "8288",
    "8333",
    "7829",
@@ -41039,6 +41148,7 @@
    "8355",
    "8222",
    "8353",
+   "7978",
    "8235",
    "8286",
    "8296",
@@ -41062,7 +41172,7 @@
    "8022",
    "7461"
   ],
-  "fecha": "2026-10-17T05:48:35",
+  "fecha": "2026-10-17T07:00:35",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -41076,7 +41186,9 @@
    "7915": "399fc6670871",
    "7968": "399fc6670871",
    "7976": "399fc6670871",
+   "7978": "399fc6670871",
    "7991": "399fc6670871",
+   "7992": "399fc6670871",
    "7998": "399fc6670871",
    "8000": "399fc6670871",
    "8022": "399fc6670871",
@@ -41474,7 +41586,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-17T05:49:06"
+  "revisada": "2026-10-17T07:01:08"
  },
- "ultima_corrida": "2026-10-17T05:48:35"
+ "ultima_corrida": "2026-10-17T07:00:35"
 }
