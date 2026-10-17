@@ -93,6 +93,10 @@
    "carpeta": "Marco legal de bandas independientes y creación de patronato (ficha 8029)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "8032": {
+   "carpeta": "Reforma a la Ley 242 de cannabis medicinal (ficha 8032)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
   "8034": {
    "carpeta": "Régimen de autogestión de estadios y coliseos de PANDEPORTES (ficha 8034)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -18706,6 +18710,39 @@
    "titulo": "QUE REFORMA LA LEY 37 DE 2009, QUE DESCENTRALIZA LA ADMINISTRACION PUBLICA, Y DICTA OTRAS DISPOSICIONES"
   },
   "8032": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Modifica el artículo 21 de la Ley 242 de 2021 para autorizar hasta siete licencias de fabricación de derivados de cannabis medicinal durante los primeros cinco años, impidiendo reducir licencias concedidas.",
+     "Artículo 2: Modifica el artículo 24 de la Ley 242 de 2021 para permitir por cinco años la importación temporal de derivados a los tenedores de licencias de fabricación con el fin de abastecer la demanda local.",
+     "Artículo 3: Modifica el artículo 26 de la Ley 242 de 2021 para facultar al MINSA a reconocer jurisdicciones de alto estándar internacional en la tramitación y registro sanitario de derivados y medicamentos de cannabis medicinal.",
+     "Artículo 4: Modifica el artículo 63 de la Ley 242 de 2021 obligando a cada licenciatario a donar en especie entre 50,000 y 100,000 balboas al año a instituciones u hospitales, considerándolos gastos deducibles del ISR.",
+     "Artículo 5: Modifica el artículo 76 de la Ley 242 de 2021 exigiendo a licenciatarios contratar seguros aprobados por la Superintendencia de Seguros y ordenando a hospitales privados atender a asegurados y aceptar recetas médicas autorizadas de cannabis medicinal."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1_26t7q37jgUyuBCnhOx3j9j_P_h_15UA",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Crea reglas específicas para fabricantes e importadores de cannabis medicinal, agiliza registros sanitarios del MINSA y obliga a clínicas y hospitales privados a aceptar estas recetas a pacientes asegurados.",
+      "sector": "SALUD"
+     },
+     {
+      "nivel": "bajo",
+      "razon": "Exige pólizas obligatorias para los licenciatarios bajo parámetros de la Superintendencia de Seguros y vincula la atención médica con seguros de salud privados.",
+      "sector": "SEGUROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es medio para las empresas del sector de salud y farmacéutico, al flexibilizar la importación e introducir mecanismos de homologación de registros para cannabis medicinal, al tiempo que impone compromisos de donación obligatoria a los licenciatarios.",
+    "resumen": "El proyecto modifica el marco regulatorio del cannabis medicinal para viabilizar el mercado y abastecer a los pacientes. Establece un límite temporal de hasta siete licencias de fabricación durante cinco años, autoriza la importación temporal de derivados y agiliza registros sanitarios de países con altos estándares. Además, impone a las empresas con licencia un programa obligatorio de donaciones anuales y exige a los hospitales privados atender a usuarios con seguro privado.",
+    "sectores": [
+     "SALUD"
+    ],
+    "titulo": "Que modifica artículos de la Ley 242 de 13 de octubre de 2021, que regula el uso medicinal y terapéutico del cannabis y sus derivados y dicta otras disposiciones",
+    "titulo_corto": "Reforma a la Ley 242 de cannabis medicinal"
+   },
    "anteproyecto": "146",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Segundo Debate",
@@ -40175,7 +40212,7 @@
   "8029": "050ed4e718db",
   "8030": "9fbbb848f65f",
   "8031": "06fe290ded84",
-  "8032": "8a251962f813",
+  "8032": "02affd9500c2",
   "8033": "c2d8b5361ca0",
   "8034": "cf0ac80fdfe6",
   "8035": "708a07e4b97b",
@@ -40774,12 +40811,13 @@
    "8179",
    "8188",
    "8108",
+   "8032",
    "8077",
    "7531",
    "8050",
    "7461"
   ],
-  "fecha": "2026-10-17T01:03:34",
+  "fecha": "2026-10-17T01:46:12",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -40793,6 +40831,7 @@
    "7915": "399fc6670871",
    "7968": "399fc6670871",
    "7976": "399fc6670871",
+   "8032": "399fc6670871",
    "8050": "399fc6670871",
    "8055": "399fc6670871",
    "8058": "399fc6670871",
@@ -41185,7 +41224,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-17T01:04:03"
+  "revisada": "2026-10-17T01:46:42"
  },
- "ultima_corrida": "2026-10-17T01:03:34"
+ "ultima_corrida": "2026-10-17T01:46:12"
 }
