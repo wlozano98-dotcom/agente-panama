@@ -85,6 +85,14 @@
    "carpeta": "Fomento del turismo deportivo (ficha 7976)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "7990": {
+   "carpeta": "Programas de educación nocturna para jóvenes y adultos (ficha 7990)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "7991": {
+   "carpeta": "Regulación del neteo remoto para autoconsumo solar (ficha 7991)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
   "7998": {
    "carpeta": "Reforma a la Ley de Contratación Pública y Código Penal (ficha 7998)",
    "comision": "Comisión de Economía y Finanzas"
@@ -17073,6 +17081,20 @@
    "titulo": "QUE ESTABLECE EL MARCO LEGAL INTEGRAL PARA LA SUPERVISION, REGISTRO Y CONTROL DE LOS PROVEEDORES DE SERVICIOS DE ACTIVOS VIRTUALES CONFORME A LOS ESTANDARES INTERNACIONALES DE PREVENCION DE LAVADO DE ACTIVOS Y FINANCIAMIENTO DEL TERRORISMO"
   },
   "7990": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1fbBc43OkgfhO1dzcOy47fm02dRQwLDUD",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa es de orden educativo y de gestión pública escolar, por lo que no impone cargas tributarias, trámites ni obligaciones regulatorias obligatorias sobre las empresas privadas.",
+    "resumen": "Reforma la Ley Orgánica de Educación para ampliar los programas públicos dirigidos a jóvenes y adultos que no han culminado primaria o secundaria, mediante modalidades nocturnas, sabatinas y virtuales. Incluye mecanismos de convalidación de saberes empíricos y coordinación estatal con el sector productivo para facilitar la inserción laboral.",
+    "sectores": [],
+    "titulo": "Que establece la apertura y promoción de escuelas nocturnas para adultos en cada corregimiento de la República de Panamá y dicta otras disposiciones",
+    "titulo_corto": "Programas de educación nocturna para jóvenes y adultos"
+   },
    "anteproyecto": "110",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -17121,6 +17143,35 @@
    "titulo": "QUE ESTABLECE LA APERTURA Y PROMOCION DE ESCUELAS NOCTURNAS PARA ADULTOS EN CADA CORREGIMIENTO DE LA REPUBLICA DE PANAMA Y DICTA OTRAS DISPOSICIONES"
   },
   "7991": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 4: Autoriza a los usuarios a generar energía solar en un punto distinto al de consumo siempre que ambos estén en la misma zona de concesión de distribución eléctrica.",
+     "Artículo 5: Exige registrar ante la ASEP la instalación y los puntos de consumo, además de acreditar un vínculo jurídico válido sobre el punto de generación.",
+     "Artículo 7: Establece que los excedentes inyectados a la red se compensarán al 80% del componente de generación de la tarifa regulada o al precio promedio del mercado ocasional.",
+     "Artículo 8: Fija la caducidad de los créditos energéticos acumulados en la factura mensual a un plazo máximo de 12 meses.",
+     "Artículos 9 y 11: Permite autorizar la transferencia de créditos energéticos entre múltiples cuentas o puntos de consumo pertenecientes al mismo usuario.",
+     "Artículo 15: Otorga potestades a la ASEP para regular procedimientos de interconexión, supervisar a las empresas distribuidoras y aplicar sanciones administrativas."
+    ],
+    "drive": "https://drive.google.com/drive/folders/17G_4gJp4G-1Qh5anWbFG7Lb8GBEVYb4p",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Ofrece un mecanismo voluntario para reducir la factura eléctrica instalando paneles solares en ubicaciones remotas y transfiriendo créditos a sus sucursales o locales.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Facilita la autogeneración eléctrica remota como opción de optimización de costos operativos para las empresas, regulando la compensación de excedentes sin establecer nuevas cargas tributarias ni laborales obligatorias.",
+    "resumen": "Establece el marco regulatorio para el neteo remoto en Panamá, permitiendo a personas y empresas generar energía solar en una ubicación e imputar los créditos energéticos a sus facturas en otros puntos de consumo dentro de la misma zona de distribución eléctrica. El texto aprobado en primer debate acotó el proyecto al autoconsumo individual con acreditación de vínculo jurídico (eliminando la figura asociativa de comunidades solares). Otorga a la ASEP facultades de fiscalización técnica y fijación de reglas de compensación para excedentes inyectados a la red.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que democratiza el acceso a la energía renovable mediante el neteo remoto y las comunidades solares",
+    "titulo_corto": "Regulación del neteo remoto para autoconsumo solar"
+   },
    "anteproyecto": "108",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Segundo Debate",
@@ -40362,8 +40413,8 @@
   "7986": "0cd7021af3aa",
   "7987": "686ab41428f3",
   "7989": "5286ebb4496c",
-  "7990": "4fe90da14182",
-  "7991": "3ea824ebe068",
+  "7990": "f1bfe76f9b14",
+  "7991": "3d3d30121322",
   "7992": "608e1f9aebb4",
   "7993": "e7c806f6557f",
   "7994": "ae3fac0d27da",
@@ -40992,6 +41043,7 @@
    "8286",
    "8296",
    "8257",
+   "7991",
    "8025",
    "8055",
    "8243",
@@ -41010,7 +41062,7 @@
    "8022",
    "7461"
   ],
-  "fecha": "2026-10-17T04:48:03",
+  "fecha": "2026-10-17T05:48:35",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -41024,6 +41076,7 @@
    "7915": "399fc6670871",
    "7968": "399fc6670871",
    "7976": "399fc6670871",
+   "7991": "399fc6670871",
    "7998": "399fc6670871",
    "8000": "399fc6670871",
    "8022": "399fc6670871",
@@ -41421,7 +41474,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-17T04:48:31"
+  "revisada": "2026-10-17T05:49:06"
  },
- "ultima_corrida": "2026-10-17T04:48:03"
+ "ultima_corrida": "2026-10-17T05:48:35"
 }
