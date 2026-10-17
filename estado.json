@@ -85,6 +85,22 @@
    "carpeta": "Fomento del turismo deportivo (ficha 7976)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "7998": {
+   "carpeta": "Reforma a la Ley de Contratación Pública y Código Penal (ficha 7998)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
+  "8000": {
+   "carpeta": "Regulación del ejercicio de la fisioterapia y kinesiología (ficha 8000)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
+  "8002": {
+   "carpeta": "Regulación de la huelga de docentes y personal educativo (ficha 8002)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "8008": {
+   "carpeta": "Requisitos para tesoreros de juntas comunales y municipios (ficha 8008)",
+   "comision": "Comisión de Asuntos Municipales"
+  },
   "8022": {
    "carpeta": "Reforma a la ley del IMA y control de importaciones (ficha 8022)",
    "comision": "Comisión de Asuntos Agropecuarios"
@@ -17416,6 +17432,39 @@
    "titulo": "QUE CREA LA JUNTA TECNICA DE ADMINISTRACION DE PROPIEDAD HORIZONTAL DEL MINISTERIO DE VIVIENDA Y ORDENAMIENTO TERRITORIAL, LA LICENCIA DE ADMINISTRADOR DE PROPIEDAD HORIZONTAL Y DICTA OTRAS DISPOSICIONES"
   },
   "7998": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1 (modifica art. 24 de Ley 22 de 2006): Amplía a 10 años la inhabilitación por condenas y a 7 años por acuerdos de pena en delitos patrimoniales o contra la administración pública; añade inhabilitación de hasta 5 años por abandono de obras públicas y extiende la sanción a sociedades donde participen directivos o accionistas de empresas inhabilitadas.",
+     "Artículo 2 (adiciona art. 24-A a Ley 22 de 2006): Obliga al Órgano Judicial a remitir información mensual a la DGCP para descalificar propuestas de forma inmediata y suspender usuarios en PanamaCompra a quienes mantengan antecedentes penales o acuerdos.",
+     "Artículo 4 (modifica art. 51 del Código Penal): Establece una inhabilitación de 10 a 20 años para contratar con el Estado a las personas jurídicas usadas o creadas para delinquir, junto con la pérdida de beneficios fiscales y multas.",
+     "Artículo 6 (modifica art. 364 del Código Penal): Castiga con 5 a 10 años de prisión a quienes se concierten con competidores para alterar precios, fijen precios o paguen/reciban dinero para influir en actos de contratación pública."
+    ],
+    "drive": "https://drive.google.com/drive/folders/13rl6SX3X1-M9RTi5pXsCENlehM8EWh0y",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Crea barreras e inhabilitaciones automáticas para licitar con el Estado y sanciona penalmente con cárcel y multas los acuerdos de precios o colusión en actos públicos.",
+      "sector": "TODAS LAS EMPRESAS"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Afecta a las empresas de obra pública al fijar inhabilitaciones de hasta cinco años por abandono imputable de obras y excluir a consorcios o empresas con directivos sancionados.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La propuesta impacta a cualquier proveedor del Estado endureciendo las causales de incapacidad legal para licitar y aumentando a nivel penal las sanciones por prácticas anticompetitivas o fraude en compras públicas.",
+    "resumen": "Endurece los impedimentos legales para contratar con el Estado panameño al ampliar la inhabilitación a empresas y directivos con condenas judiciales o acuerdos de pena por corrupción y delitos económicos. Asimismo, suspende automáticamente el acceso al portal PanamaCompra a los proponentes inhabilitados mediante intercambio de datos con el Órgano Judicial y eleva las penas de prisión hasta diez años por concertación de precios y fraude en licitaciones.",
+    "sectores": [
+     "TODAS LAS EMPRESAS",
+     "CEMENTERAS"
+    ],
+    "titulo": "Que modifica la Ley 22 de 2006, que regula la contratación pública y la Ley 14 de 2007, que adopta el Código Penal",
+    "titulo_corto": "Reforma a la Ley de Contratación Pública y Código Penal"
+   },
    "anteproyecto": "113",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Segundo Debate",
@@ -17492,6 +17541,35 @@
    "titulo": "QUE DEROGA LA LEY NO. 15 DE 17 DE FEBRERO DE 1998, QUE APRUEBA EL CONTRATO ENTRE EL ESTADO Y LA SOCIEDAD DE PANAMA CANAL RAILWAY COMPANY, PARA DESARROLLAR, CONSTRUIR, OPERAR, ADMINISTRAR RENOVAR, RECONSTRUIR, MODIFICAR Y DIRIGIR EL FERROCARRIL DE PANAMA Y SUS TERMINALES INTERMODALES"
   },
   "8000": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 5 (adiciona artículo 4-A a la Ley 47 de 1984): Reconoce la autonomía profesional del fisioterapeuta y permite el acceso directo de los usuarios a sus servicios, obligando a referir al médico tratante ante signos de patologías complejas o necesidad de fármacos.",
+     "Artículo 7 (modifica artículo 6 de la Ley 47 de 1984): Regula la contratación de fisioterapeutas idóneos en instituciones privadas tales como hospitales, clínicas, gimnasios y centros deportivos.",
+     "Artículo 9 y 11 (modifica artículo 7 y adiciona 7-B a la Ley 47 de 1984): Reserva la obtención de idoneidad general y de especialidades en fisioterapia de manera exclusiva a profesionales de nacionalidad panameña.",
+     "Artículo 13 (adiciona artículo 8-A a la Ley 47 de 1984): Crea el Comité Interinstitucional de Fisioterapia como órgano consultivo adscrito al MINSA, otorgando un asiento a los representantes de los hospitales privados.",
+     "Artículo 16 y 18 (modifica artículos 11 y 12 de la Ley 47 de 1984): Exige que en establecimientos privados los asistentes de fisioterapia presten servicios bajo la supervisión obligatoria de un fisioterapeuta idóneo y delimita sus funciones de apoyo.",
+     "Artículo 23 (modifica artículo 21 de la Ley 47 de 1984): Impone a entidades privadas empleadoras el cumplimiento de medidas y recomendaciones en materia de seguridad ocupacional y bioseguridad para el personal del área."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1pHSAgizObjObFXKQ3BSUXZJv_0oUhRoZ",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Establece el alcance del ejercicio profesional, requisitos de idoneidad y reglas de supervisión de asistentes técnicos aplicables a clínicas, hospitales y centros de rehabilitación privados.",
+      "sector": "SALUD"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es bajo y focalizado en los prestadores privados de servicios de salud, ya que define el alcance de práctica y contratación de fisioterapeutas y su personal de apoyo técnico sin alterar el modelo de negocio general.",
+    "resumen": "El proyecto actualiza el marco normativo del ejercicio de la fisioterapia y kinesiología en Panamá, reconociendo la autonomía técnica de estos profesionales y sus áreas de intervención clínica funcional. Define requisitos de idoneidad profesional reservados a panameños, regula las funciones y supervisión de los asistentes técnicos, e integra al sector hospitalario privado en un comité consultivo interinstitucional.",
+    "sectores": [
+     "SALUD"
+    ],
+    "titulo": "Que modifica la Ley 47 de 22 de noviembre de 1984, por la cual se reglamenta el ejercicio de la profesión de fisioterapia y/o kinesiología en el territorio nacional y se da estabilidad",
+    "titulo_corto": "Regulación del ejercicio de la fisioterapia y kinesiología"
+   },
    "anteproyecto": "116",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Segundo Debate",
@@ -17558,6 +17636,20 @@
    "titulo": "QUE MODIFICA UN ARTICULO DE LA LEY 467 DE 24 DE ABRIL DE 2025, “QUE SUBROGA LA LEY 16 DE 2016, QUE INSTITUYE LA JUSTICIA COMUNITARIA DE PAZ, Y DICTA OTRAS DISPOSICIONES"
   },
   "8002": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1PosiuXJgsED7ljKHzu6LCk73S6bLBUbT",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La normativa se enfoca exclusivamente en el régimen laboral docente y la continuidad del calendario escolar del sistema educativo (oficial y particular), sin generar obligaciones, cargas ni modificaciones para los sectores empresariales evaluados.",
+    "resumen": "El proyecto de ley busca regular el ejercicio del derecho a huelga de los docentes y personal educativo en los sectores oficial y particular. En el texto aprobado en primer debate, dispone que dicho derecho debe compatibilizarse con la educación continua de los estudiantes y exige recuperar las jornadas escolares perdidas mediante ajustes al calendario por parte del MEDUCA. La iniciativa no impone regulaciones directas sobre los sectores comerciales o productivos analizados.",
+    "sectores": [],
+    "titulo": "Por medio del cual se modifican y adicionan artículos de la Ley 47 de 1946, Orgánica de Educación, y dicta otras disposiciones",
+    "titulo_corto": "Regulación de la huelga de docentes y personal educativo"
+   },
    "anteproyecto": "114",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -17763,6 +17855,20 @@
    "titulo": "QUE ESTABLECE EL DERECHO AL OLVIDO ONCOLOGICO Y DICTA OTRAS DISPOSICIONES"
   },
   "8008": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1B4T5sQBuCg5dNldR7MyLYuUlo9siDDfm",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Es una iniciativa de organización interna y fiscalización del sector público local que no impone obligaciones, costos ni trámites sobre la actividad comercial o las empresas privadas.",
+    "resumen": "El proyecto establece requisitos académicos mínimos, experiencia previa y capacitaciones obligatorias en gestión financiera y contrataciones públicas para los tesoreros de juntas comunales, municipios y concejos comarcales. Además, fija prohibiciones por nepotismo o antecedentes penales, y sanciona con la suspensión de transferencias municipales a los gobiernos locales que incumplan estas designaciones. La iniciativa regula exclusivamente la idoneidad y el régimen del personal administrativo del sector público local.",
+    "sectores": [],
+    "titulo": "Que regula el nombramiento, funciones, responsabilidades y requisitos mínimos del tesorero(a) de las juntas comunales en la República de Panamá",
+    "titulo_corto": "Requisitos para tesoreros de juntas comunales y municipios"
+   },
    "anteproyecto": "124",
    "comision": "COMISION DE ASUNTOS MUNICIPALES",
    "etapa": "Segundo Debate",
@@ -40264,16 +40370,16 @@
   "7995": "3627d600ac4e",
   "7996": "f62aa82ae90e",
   "7997": "8eef966a3274",
-  "7998": "555fb0534285",
+  "7998": "f02b873e85ef",
   "7999": "ebbef1df7646",
-  "8000": "c243b8287641",
+  "8000": "5653144e0155",
   "8001": "c4b2e6d2630a",
-  "8002": "7725c699ed85",
+  "8002": "41ba7d4b48f0",
   "8004": "b37d192b7a6d",
   "8005": "09b977c2442d",
   "8006": "1bef18583e7d",
   "8007": "a3c9e111c38e",
-  "8008": "aba4be963194",
+  "8008": "b53a9c422c2e",
   "8009": "ec1c663e7087",
   "8010": "f3ae08f59c6c",
   "8011": "a0f2b4a16757",
@@ -40866,6 +40972,7 @@
    "8273",
    "8292",
    "8293",
+   "8000",
    "8238",
    "8132",
    "7767",
@@ -40897,12 +41004,13 @@
    "8108",
    "8032",
    "8077",
+   "7998",
    "7531",
    "8050",
    "8022",
    "7461"
   ],
-  "fecha": "2026-10-17T02:50:29",
+  "fecha": "2026-10-17T03:50:40",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -40916,6 +41024,8 @@
    "7915": "399fc6670871",
    "7968": "399fc6670871",
    "7976": "399fc6670871",
+   "7998": "399fc6670871",
+   "8000": "399fc6670871",
    "8022": "399fc6670871",
    "8025": "399fc6670871",
    "8032": "399fc6670871",
@@ -41311,7 +41421,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-17T02:51:07"
+  "revisada": "2026-10-17T03:51:07"
  },
- "ultima_corrida": "2026-10-17T02:50:29"
+ "ultima_corrida": "2026-10-17T03:50:40"
 }
