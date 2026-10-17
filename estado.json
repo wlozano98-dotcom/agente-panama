@@ -1,5 +1,5 @@
 {
- "comisiones_revisadas": "2026-10-17T07:47:40",
+ "comisiones_revisadas": "2026-10-17T14:46:31",
  "drive": {
   "7423": {
    "carpeta": "Protección e inclusión de personas con autismo (TEA) (ficha 7423)",
@@ -55,6 +55,14 @@
   },
   "7801": {
    "carpeta": "Establecimiento de Estándares Básicos de Aprendizaje (EBA) (ficha 7801)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "7802": {
+   "carpeta": "Creación de la Red de Retención y Reinserción Escolar (ficha 7802)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "7804": {
+   "carpeta": "Sistema Nacional de Estadística Educativa (SINEE) (ficha 7804)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
   "7808": {
@@ -12205,6 +12213,20 @@
    "titulo": "QUE ESTABLECE LOS ESTANDARES BASICOS DE APRENDIZAJE (EBA)"
   },
   "7802": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1_tBp2H-IHY20Jr-eNXxBThsfzJaSLnlt",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa se circunscribe al ámbito de la política educativa y la gestión interna de escuelas públicas y privadas, sin incidir en las obligaciones regulatorias, laborales, fiscales o comerciales de los sectores empresariales evaluados.",
+    "resumen": "Crea la Red de Retención y Reinserción Escolar (RERE) para prevenir la deserción escolar y facilitar el retorno al sistema educativo formal. Establece una Comisión Nacional, Comités Regionales y comités en cada centro educativo oficial o particular, fijando protocolos obligatorios de diagnóstico, intervención y seguimiento ante ausencias prolongadas. Involucra coordinación interinstitucional con entidades gubernamentales de protección social, niñez y erradicación del trabajo infantil.",
+    "sectores": [],
+    "titulo": "Que crea la Red de Retención y Reinserción Escolar.",
+    "titulo_corto": "Creación de la Red de Retención y Reinserción Escolar"
+   },
    "anteproyecto": "329",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -12243,6 +12265,23 @@
    "titulo": "QUE CREA LA RED DE RETENCION Y REINSERCION ESCOLAR"
   },
   "7804": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 4: Integra formalmente a las instituciones educativas privadas y universidades dentro de la red del SINEE bajo las directrices y estándares del MEDUCA.",
+     "Artículo 12: Obliga a los centros educativos a implementar sistemas digitales estandarizados, designar y capacitar personal responsable de datos, y reportar información periódicamente conforme al calendario oficial."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1K1uXx9syhhsWeHAWPEb3BTxQ2XdqFK7A",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No incide sobre los sectores económicos prioritarios ni sobre la generalidad de las empresas; sus obligaciones de reporte y adecuación técnica recaen exclusivamente sobre escuelas, institutos y universidades privadas.",
+    "resumen": "Crea el Sistema Nacional de Estadística Educativa (SINEE) bajo la rectoría del MEDUCA en coordinación con el INEC para centralizar, procesar y difundir estadísticas del sector educativo. El sistema integra a instituciones oficiales y privadas (escuelas, institutos técnicos y universidades), las cuales deberán implementar herramientas digitales y reportar periódicamente sus datos académicos y administrativos.",
+    "sectores": [],
+    "titulo": "Que establece un Sistema Nacional de Estadística Educativa, Centralizada y Pública (SINEE)",
+    "titulo_corto": "Sistema Nacional de Estadística Educativa (SINEE)"
+   },
    "anteproyecto": "330",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -40952,8 +40991,8 @@
   "7798": "715de1281fa4",
   "7800": "6dc1e0f02df3",
   "7801": "7be01a3d4704",
-  "7802": "50ffc815db77",
-  "7804": "db431e9ca307",
+  "7802": "32b459a07e8d",
+  "7804": "939379dc6bb4",
   "7805": "30aae3d49324",
   "7808": "25c9c18758f7",
   "7810": "2b371395182a",
@@ -41734,7 +41773,7 @@
    "7811",
    "7461"
   ],
-  "fecha": "2026-10-17T13:46:01",
+  "fecha": "2026-10-17T14:47:53",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -42159,7 +42198,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-17T13:46:28"
+  "revisada": "2026-10-17T14:48:19"
  },
- "ultima_corrida": "2026-10-17T13:46:01"
+ "ultima_corrida": "2026-10-17T14:47:53"
 }
