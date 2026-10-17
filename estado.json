@@ -53,8 +53,16 @@
    "carpeta": "Señalización vial en obras públicas (ficha 7779)",
    "comision": "Comisión de Comunicación y Transporte"
   },
+  "7801": {
+   "carpeta": "Establecimiento de Estándares Básicos de Aprendizaje (EBA) (ficha 7801)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "7808": {
    "carpeta": "Reducción de alquileres de oficinas públicas (ficha 7808)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
+  "7811": {
+   "carpeta": "Paz y salvo municipal para cierre de empresas ante la DGI (ficha 7811)",
    "comision": "Comisión de Economía y Finanzas"
   },
   "7824": {
@@ -12141,6 +12149,24 @@
    "titulo": "QUE ESTABLE EL REQUISITO DE CERTIFICADO DE SALUD MENTAL PARA PERSONAS MAYORES DE SETENTA (70) AÑOS, EN ACTOS JURIDICOS EN PANAMA"
   },
   "7801": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 3 y 6: Establecen que los Estándares Básicos de Aprendizaje (EBA) son de adopción y cumplimiento obligatorio para todos los centros educativos particulares del país.",
+     "Artículo 12: Obliga a las universidades privadas y centros de formación docente a adecuar los planes de estudio de las carreras pedagógicas para incorporar la aplicación de los EBA.",
+     "Artículo 13: Dispone que las entidades privadas que elaboren textos escolares contarán con un plazo máximo de ocho meses tras la notificación oficial para modificar sus contenidos y publicar nuevas versiones."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1F-2iB4-kAT87mHWWEV5PiKhn6qhsYfJ1",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No incide sobre los sectores empresariales prioritarios ni establece regulaciones tributarias o laborales generales. Su efecto se limita a requerimientos específicos para escuelas privadas y editoriales escolares.",
+    "resumen": "Propone establecer los Estándares Básicos de Aprendizaje (EBA) con carácter obligatorio para los niveles de educación básica general y media en todo el país. La normativa vincula tanto a los centros educativos oficiales como a los particulares, los cuales deberán alinear sus modelos pedagógicos y diseños curriculares. Además, impone a las empresas editoriales privadas la obligación de ajustar los textos escolares en un plazo máximo de ocho meses.",
+    "sectores": [],
+    "titulo": "Que establece los Estándares Básicos de Aprendizaje (EBA)",
+    "titulo_corto": "Establecimiento de Estándares Básicos de Aprendizaje (EBA)"
+   },
    "anteproyecto": "328",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -12427,6 +12453,30 @@
    "titulo": "QUE PROHIBE EL USO, IMPORTACION Y COMERCIALIZACION DE SISTEMAS ELECTRONICOS DE ADMINISTRACION DE NICOTINA, CIGARRILLOS ELECTRONICOS, VAPORIZADORES, CALENTADORES DE TABACO Y OTROS DISPOSITIVOS SIMILARES, CON O SIN NICOTINA, EN LA REPUBLICA DE PANAMA"
   },
   "7811": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1 (modifica el artículo 717 del Código Fiscal): Exige a las personas jurídicas presentar paz y salvo del o de los municipios donde estén inscritas para tramitar el cese definitivo de operaciones y declaración final de rentas ante la DGI. En su parágrafo, exonera de presentar paz y salvo municipal y de la Caja de Seguro Social a las empresas sin operaciones o sin renta gravable en Panamá, requiriendo únicamente memorial, certificación del Registro Público y declaración jurada notariada de un CPA para darse de baja en e-Tax 2.0."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1uDa29rOQo1OJoDHfrk8iU2-AiJ8LxZtv",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Añade un requisito administrativo municipal para el cierre fiscal de empresas operativas y simplifica el trámite de baja para sociedades sin operaciones locales.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Impone a toda persona jurídica que cese operaciones la obligación de cancelar sus deudas tributarias municipales para concluir su cierre en la DGI, a la vez que agiliza la baja de empresas inactivas sin exigirles paz y salvo municipal ni de la CSS.",
+    "resumen": "La iniciativa modifica los requisitos para formalizar el cese de negocios y disolución de personas jurídicas ante la Dirección General de Ingresos (DGI). Establece la obligación de presentar el paz y salvo de cada municipio donde la empresa esté inscrita para poder completar el trámite de cierre tributario. Asimismo, simplifica el proceso de baja en e-Tax 2.0 para personas jurídicas sin operaciones en Panamá mediante certificación notariada de un Contador Público Autorizado (CPA).",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que modifica el artículo 717 del Código Fiscal de la República de Panamá",
+    "titulo_corto": "Paz y salvo municipal para cierre de empresas ante la DGI"
+   },
    "anteproyecto": "343",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Segundo Debate",
@@ -40901,13 +40951,13 @@
   "7797": "3ff12af35b1e",
   "7798": "715de1281fa4",
   "7800": "6dc1e0f02df3",
-  "7801": "c5c5dbe2c128",
+  "7801": "7be01a3d4704",
   "7802": "50ffc815db77",
   "7804": "db431e9ca307",
   "7805": "30aae3d49324",
   "7808": "25c9c18758f7",
   "7810": "2b371395182a",
-  "7811": "4b93dfed9035",
+  "7811": "94e86c585e50",
   "7812": "6a55809f45ff",
   "7813": "e0632217a52f",
   "7820": "ec72b215b47b",
@@ -41681,9 +41731,10 @@
    "8022",
    "7953",
    "7959",
+   "7811",
    "7461"
   ],
-  "fecha": "2026-10-17T12:55:26",
+  "fecha": "2026-10-17T13:46:01",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -41693,6 +41744,7 @@
    "7767": "399fc6670871",
    "7779": "399fc6670871",
    "7808": "399fc6670871",
+   "7811": "399fc6670871",
    "7829": "399fc6670871",
    "7840": "399fc6670871",
    "7899": "399fc6670871",
@@ -42107,7 +42159,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-17T12:55:52"
+  "revisada": "2026-10-17T13:46:28"
  },
- "ultima_corrida": "2026-10-17T12:55:26"
+ "ultima_corrida": "2026-10-17T13:46:01"
 }
