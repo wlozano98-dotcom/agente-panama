@@ -73,9 +73,25 @@
    "carpeta": "Prevención de estafas en páginas web y comercio digital (ficha 7915)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
   },
+  "7922": {
+   "carpeta": "Regulación de la esterilización quirúrgica voluntaria (ficha 7922)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
+  "7933": {
+   "carpeta": "Creación del Comité Nacional de Investigación Animal (CNIAP) (ficha 7933)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
   "7939": {
    "carpeta": "Regulación a la importación y venta de vehículos (ficha 7939)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
+  "7940": {
+   "carpeta": "Reforma penal sobre identidad y tráfico de menores (ficha 7940)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "7942": {
+   "carpeta": "Transparencia del uso de dividendos del Canal (ficha 7942)",
+   "comision": "Comisión de Economía y Finanzas"
   },
   "7953": {
    "carpeta": "Estacionamientos en oficinas públicas arrendadas (ficha 7953)",
@@ -15221,6 +15237,33 @@
    "titulo": "QUE MODIFICA EL ARTICULO 61 Y ADICIONA UN ARTICULO AL DECRETO LEY 2 DE 10 DE FEBRERO DE 1998"
   },
   "7922": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1 y 2: Aplican la ley a establecimientos de salud privados y los sujetan a requisitos clínicos, registros, fiscalización y consentimiento informado obligatorio para realizar esterilizaciones.",
+     "Artículo 3: Prohíbe la objeción de conciencia institucional en clínicas y hospitales, obligándolos a reasignar o referir al solicitante a otro profesional disponible dentro de tres días hábiles.",
+     "Artículo 4 y 7: Exigen una evaluación médica individual, un período mínimo de reflexión de 15 días y la suscripción de un formulario específico e independiente de consentimiento informado.",
+     "Artículo 8: Prohíbe recabar el consentimiento para esterilización durante el trabajo de parto, posparto inmediato o bajo anestesia, exigiendo consentimiento previo y documentado por separado."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1Um-yRcbKtNLKWd1dCf7Ma0KDjM6eYiFY",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Impone a clínicas y hospitales privados nuevos requisitos de consentimiento informado, prohibición de objeción de conciencia institucional y cumplimiento de plazos obligatorios de reflexión.",
+      "sector": "SALUD"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto se limita a los proveedores privados de servicios de salud (clínicas y hospitales), que deberán adaptar sus procesos de admisión quirúrgica, protocolos de consentimiento y esquemas de asignación médica ante objeciones de conciencia individuales.",
+    "resumen": "Regula el acceso y las condiciones para la esterilización quirúrgica anticonceptiva voluntaria a partir de los 23 años en el sistema de salud. Elimina requisitos discriminatorios previos (como número de hijos exigido a mujeres) y extiende obligaciones clínicas y de consentimiento tanto a instalaciones públicas como a hospitales y clínicas privadas.",
+    "sectores": [
+     "SALUD"
+    ],
+    "titulo": "Que establece el marco regulatorio para la esterilización en el sistema público de salud, a petición de hombres y mujeres",
+    "titulo_corto": "Regulación de la esterilización quirúrgica voluntaria"
+   },
    "anteproyecto": "45",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Segundo Debate",
@@ -15475,6 +15518,28 @@
    "titulo": "QUE CREA EL FESTIVAL NACIONAL DEL SOMBRERO BLANCO OCUEÑO Y SU RESPECTIVO PATRONATO"
   },
   "7933": {
+   "analisis": {
+    "con_pdf": false,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1NU1KRHzswDro1Ab3EZFNfXxT5gi0wPy7",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Podría imponer protocolos de bioética, autorizaciones previas y supervisión a laboratorios farmacéuticos o biomédicos que utilicen modelos animales.",
+      "sector": "SALUD"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es bajo y focalizado, afectando principalmente a entidades y laboratorios que realizan experimentación animal, una actividad con alcance comercial acotado en el país.",
+    "resumen": "Análisis basado solo en el título. La iniciativa propone la creación del Comité Nacional de Investigación Animal de Panamá (CNIAP) para regular, supervisar y evaluar los aspectos éticos y técnicos del uso de animales en docencia e investigación científica. Afectaría potencialmente a laboratorios privados, centros de desarrollo farmacéutico y biotecnológico que utilicen animales en sus ensayos.",
+    "sectores": [
+     "SALUD"
+    ],
+    "titulo": "Que crea el Comité Nacional de Investigación Animal de Panamá (CNIAP) y dicta otras disposiciones",
+    "titulo_corto": "Creación del Comité Nacional de Investigación Animal (CNIAP)"
+   },
    "anteproyecto": "55",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Segundo Debate",
@@ -15696,6 +15761,20 @@
    "titulo": "QUE REGULA LA VENTA DE VEHICULOS POR PARTE DE CONCESIONARIOS, ESTABLECE EL PRECIO SEGUN EL AÑO DE FABRICACION, OBLIGA LA PRONTA NACIONALIZACION DESDE ADUANA Y DISPONE LA REGULACION POR KILOMETRAJE"
   },
   "7940": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1loTaMGG4-ufdfMMrEm4jlwubdyx6c7iL",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa se circunscribe al ámbito del derecho penal sancionatorio individual contra conductas delictivas hacia menores de edad, por lo que no genera regulaciones, costos operativos ni obligaciones directas para la actividad empresarial.",
+    "resumen": "La iniciativa reforma el Código Penal para endurecer las penas y crear nuevas figuras delictivas vinculadas a la supresión de identidad, falsa atribución de maternidad y sustracción o tráfico ilícito de menores de edad. Asimismo, incorpora agravantes cuando los hechos involucren a personal de salud o funcionarios, y tipifica el uso de medios digitales y redes sociales para contactar o captar menores con estos propósitos. Afecta el ámbito penal individual y procesal de personas naturales.",
+    "sectores": [],
+    "titulo": "Que modifica y adiciona artículos del Código Penal relacionados con los delitos contra la identidad y tráfico de personas menores de edad",
+    "titulo_corto": "Reforma penal sobre identidad y tráfico de menores"
+   },
    "anteproyecto": "64",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Segundo Debate",
@@ -15734,6 +15813,20 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS DEL CODIGO PENAL RELACIONADOS CON LOS DELITOS CONTRA LA IDENTIDAD Y TRAFICO DE PERSONAS MENORES DE EDAD"
   },
   "7942": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1fw1oiS4P3bGPRd-nZJPpkXfiKTSfTRYK",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No genera impacto sobre las empresas privadas, ya que sus disposiciones imponen deberes de transparencia, rendición de cuentas y divulgación presupuestaria exclusivamente a entidades estatales.",
+    "resumen": "Propone crear una plataforma digital pública ('El Canal Aporta') a cargo del Ministerio de Economía y Finanzas para dar seguimiento y detallar el uso de los excedentes económicos que transfiere el Canal de Panamá al Tesoro Nacional. También contempla auditorías anuales por parte de la Contraloría, rendición de cuentas ante la Asamblea, rotulación en obras públicas financiadas con estos recursos e inclusión de la historia del Canal en los programas escolares.",
+    "sectores": [],
+    "titulo": "Que transparenta y comunica el uso de los dividendos entregados por el Canal de Panamá",
+    "titulo_corto": "Transparencia del uso de dividendos del Canal"
+   },
    "anteproyecto": "65",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Segundo Debate",
@@ -40622,7 +40715,7 @@
   "7919": "3759412d1924",
   "7920": "1eb4ece2b468",
   "7921": "6bb0001cc96c",
-  "7922": "327a4721ff27",
+  "7922": "b54234d8f7c6",
   "7923": "e7c9b37b0c14",
   "7924": "2304ca3daf8c",
   "7925": "4a675653aeed",
@@ -40630,12 +40723,12 @@
   "7928": "96f5ed6b30c0",
   "7929": "f51b4610a7e7",
   "7932": "0335978886a4",
-  "7933": "730d98dcafe8",
+  "7933": "3b6ce23cc552",
   "7936": "07165676ac5b",
   "7937": "4719439db77e",
   "7939": "2145c7d4d888",
-  "7940": "33f0a1984068",
-  "7942": "d0d9f09d1eb9",
+  "7940": "780c11ef852a",
+  "7942": "69351d3fb47e",
   "7943": "62f85490c567",
   "7944": "94552343b892",
   "7945": "55f3c001fb4c",
@@ -41270,6 +41363,7 @@
    "7829",
    "8135",
    "8263",
+   "7922",
    "8298",
    "7915",
    "8394",
@@ -41280,6 +41374,7 @@
    "8273",
    "8292",
    "8293",
+   "7933",
    "8000",
    "8238",
    "8132",
@@ -41323,7 +41418,7 @@
    "7959",
    "7461"
   ],
-  "fecha": "2026-10-17T07:50:08",
+  "fecha": "2026-10-17T08:50:40",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -41335,6 +41430,8 @@
    "7808": "399fc6670871",
    "7829": "399fc6670871",
    "7915": "399fc6670871",
+   "7922": "399fc6670871",
+   "7933": "399fc6670871",
    "7939": "399fc6670871",
    "7953": "399fc6670871",
    "7959": "399fc6670871",
@@ -41741,7 +41838,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-17T07:50:37"
+  "revisada": "2026-10-17T08:51:12"
  },
- "ultima_corrida": "2026-10-17T07:50:08"
+ "ultima_corrida": "2026-10-17T08:50:40"
 }
