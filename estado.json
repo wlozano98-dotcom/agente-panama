@@ -85,6 +85,18 @@
    "carpeta": "Fomento del turismo deportivo (ficha 7976)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "8022": {
+   "carpeta": "Reforma a la ley del IMA y control de importaciones (ficha 8022)",
+   "comision": "Comisión de Asuntos Agropecuarios"
+  },
+  "8023": {
+   "carpeta": "Programa Nacional de Educación en Valores y Ética (ficha 8023)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "8025": {
+   "carpeta": "Regulación de la actividad de cabildeo (ficha 8025)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
   "8027": {
    "carpeta": "Declaratoria de monumento histórico a tres colegios públicos (ficha 8027)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -18297,6 +18309,33 @@
    "titulo": "QUE MODIFICA LA LEY 4 DE 2006, QUE REORGANIZA LA UNIVERIDAD AUTONOMA DE CHIRIQUI"
   },
   "8022": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2: Subordina las importaciones de productos e insumos agropecuarios al agotamiento certificado de la producción nacional y a requisitos de compra local para la agroindustria.",
+     "Artículo 3-A: Faculta al IMA a activar licitaciones públicas de compra internacional solo ante déficit comprobado y prohíbe expresamente la reexportación de alimentos importados bajo este esquema.",
+     "Artículo 14: Dispone la asignación de un porcentaje de los fondos del Fondo Especial de Compensación de Intereses (FECI) a favor del IMA.",
+     "Artículo 16-A: Establece como obligatorio que el 20% de las compras de alimentos que realicen las instituciones públicas se adquiera directamente a productores de la Agricultura Familiar registrados."
+    ],
+    "drive": "https://drive.google.com/drive/folders/14dUVKC0mhgL5n1L8_e3tsdujXO9KOvgu",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Restringe las importaciones de alimentos y materias primas agrícolas a certificados estrictos de desabastecimiento y reserva el 20% de las compras estatales de comida a la agricultura familiar.",
+      "sector": "ALIMENTOS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea barreras y condiciones estrictas para la importación de materias primas y alimentos al exigir el agotamiento previo de la producción nacional y el aval vinculante de cadenas agroalimentarias.",
+    "resumen": "Reforma el marco legal del Instituto de Mercadeo Agropecuario (IMA) para limitar y condicionar las importaciones de productos agropecuarios y materias primas a la comprobación previa de desabastecimiento local. Asimismo, obliga a que el 20% de las compras de alimentos del Estado provenga de la agricultura familiar y asigna al IMA un porcentaje del Fondo Especial de Compensación de Intereses (FECI).",
+    "sectores": [
+     "ALIMENTOS"
+    ],
+    "titulo": "Por la cual se subroga la Ley 70 de 1975, que crea el Instituto de Mercadeo Agropecuario y se determinan sus funciones",
+    "titulo_corto": "Reforma a la ley del IMA y control de importaciones"
+   },
    "anteproyecto": "135",
    "comision": "COMISION DE ASUNTOS AGROPECUARIOS",
    "etapa": "Segundo Debate",
@@ -18345,6 +18384,20 @@
    "titulo": "POR LA CUAL SE SUBROGA LA LEY 70 DE 1975, QUE CREA EL INSTITUTO DE MERCADEO AGROPECUARIO Y SE DETERMINAN SUS FUNCIONES"
   },
   "8023": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1Z169K5fXWVJH2C68uDpGSv99uplteNmf",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa se circunscribe al ámbito curricular escolar y docente; contempla la colaboración o patrocinio de empresas de forma meramente voluntaria sin imponer gravámenes, obligaciones laborales o regulatorias a la actividad empresarial.",
+    "resumen": "Crea e implementa un programa transversal en todos los niveles educativos de escuelas oficiales y particulares para la formación en valores, ética, transparencia, conciencia ambiental y civismo. El Ministerio de Educación, junto con ANTAI y MIAMBIENTE, estará a cargo de ajustar el currículo y capacitar al personal docente.",
+    "sectores": [],
+    "titulo": "Que establece el Programa Nacional de Educación en Valores, Prevención de la Corrupción, Ética, Conciencia Ambiental, No Discriminación y Patriotismo en la República de Panamá",
+    "titulo_corto": "Programa Nacional de Educación en Valores y Ética"
+   },
    "anteproyecto": "136",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -18416,6 +18469,36 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 113 DE 18 DE NOVIEMBRE DE 2019, SOBRE ROTULACION Y COMERCIALIZACION DE PRODUCTOS Y DICTA OTRAS DISPOSICIONES"
   },
   "8025": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2: Permite el cabildeo exclusivamente en horario laboral y a quienes cuenten con licencia emitida por la Autoridad Nacional de Transparencia y Acceso a la Información (ANTAI).",
+     "Artículo 4: Define el cabildeo como toda actividad remunerada orientada a promover intereses legítimos para influir en decisiones públicas ante los servidores obligados.",
+     "Artículo 9: Establece para los cabilderos la obligación de informar a quién representan, rendir informes semestrales, completar formularios sobre sus contratantes y abstenerse de hacer donaciones o dádivas a funcionarios.",
+     "Artículo 10: Exige requisitos estrictos para tramitar la licencia ante ANTAI, incluyendo certificados de antecedentes penales de directores y accionistas con más del 5%, además de la actualización anual de la lista de clientes.",
+     "Artículo 14: Prohíbe actuar como cabilderos a personas naturales o jurídicas extranjeras y a personas que mantengan contratos vigentes con el Estado.",
+     "Artículo 15 y 17: Disponen la obligatoriedad de inscribir en el Registro Público de Cabildeo los detalles de cada reunión, participantes, beneficiarios finales, documentación intercambiada y gastos de movilización o alimentación.",
+     "Artículo 19: Sanciona el incumplimiento de las obligaciones con la cancelación definitiva y permanente de la licencia de cabildeo."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1ef7rMj3s9F_HcxNKCE492JV4RWPaiFmu",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Crea requisitos de registro, licencias y obligaciones de transparencia para las empresas que gestionan intereses o contratan servicios de representación ante autoridades públicas.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es transversal y bajo, ya que formaliza y transparenta la interlocución entre el sector privado y el sector público sin alterar la operatividad interna ni los tributos de las empresas.",
+    "resumen": "Regula el ejercicio del cabildeo remunerado ante los tres Órganos del Estado, entidades autónomas y gobiernos locales. Obliga a tramitar una licencia y carné ante la ANTAI para gestionar intereses particulares o gremiales, e impone el registro público obligatorio de las reuniones, participantes, objetivos y gastos asociados. Afecta a empresas, gremios empresariales, firmas de consultoría y profesionales dedicados a relaciones gubernamentales y asuntos públicos.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que regula y limita la actividad de cabildeo en la República de Panamá",
+    "titulo_corto": "Regulación de la actividad de cabildeo"
+   },
    "anteproyecto": "133",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Segundo Debate",
@@ -40202,10 +40285,10 @@
   "8019": "c39641b6cecb",
   "8020": "48aa9dc48843",
   "8021": "a554db4cf763",
-  "8022": "d41dea81955b",
-  "8023": "c27205341e12",
+  "8022": "1d437bb855e7",
+  "8023": "33f161042f77",
   "8024": "cb5bb0e15393",
-  "8025": "08dfa0cd4538",
+  "8025": "4c9774ab9556",
   "8026": "83295c59432b",
   "8027": "51038339abd8",
   "8028": "84a5afffc101",
@@ -40802,6 +40885,7 @@
    "8286",
    "8296",
    "8257",
+   "8025",
    "8055",
    "8243",
    "7659",
@@ -40815,9 +40899,10 @@
    "8077",
    "7531",
    "8050",
+   "8022",
    "7461"
   ],
-  "fecha": "2026-10-17T01:46:12",
+  "fecha": "2026-10-17T02:50:29",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -40831,6 +40916,8 @@
    "7915": "399fc6670871",
    "7968": "399fc6670871",
    "7976": "399fc6670871",
+   "8022": "399fc6670871",
+   "8025": "399fc6670871",
    "8032": "399fc6670871",
    "8050": "399fc6670871",
    "8055": "399fc6670871",
@@ -41224,7 +41311,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-17T01:46:42"
+  "revisada": "2026-10-17T02:51:07"
  },
- "ultima_corrida": "2026-10-17T01:46:12"
+ "ultima_corrida": "2026-10-17T02:50:29"
 }
