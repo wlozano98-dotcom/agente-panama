@@ -57,9 +57,17 @@
    "carpeta": "Reducción de alquileres de oficinas públicas (ficha 7808)",
    "comision": "Comisión de Economía y Finanzas"
   },
+  "7824": {
+   "carpeta": "Sistema de Matrícula Escolar Digital (ficha 7824)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "7829": {
    "carpeta": "Reforma al impuesto de degüello y traslado de ganado (ficha 7829)",
    "comision": "Comisión de Asuntos Municipales"
+  },
+  "7840": {
+   "carpeta": "Respaldo económico a microempresarios del turismo (ficha 7840)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
   },
   "7889": {
    "carpeta": "Aumento de penas por privación y sustracción de menores (ficha 7889)",
@@ -68,6 +76,10 @@
   "7891": {
    "carpeta": "Sanciones penales a funcionarios que cobran sin trabajar (ficha 7891)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "7896": {
+   "carpeta": "Reforma al refrendo de la Contraloría General (ficha 7896)",
+   "comision": "Comisión de Economía y Finanzas"
   },
   "7898": {
    "carpeta": "Penalización de disparos al aire (ficha 7898)",
@@ -12706,6 +12718,20 @@
    "titulo": "QUE MODIFICA ARTÍCULOS DEL CÓDIGO PENAL, SOBRE EL DELITO DE ESTAFA"
   },
   "7824": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1ZlLMhCtxSEEDHQV7cX_mAP68a-oljmQz",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No genera impacto regulatorio, fiscal ni operativo sobre el sector empresarial privado, ya que su ámbito de aplicación se limita exclusivamente a la gestión interna y administrativa de las escuelas públicas oficiales.",
+    "resumen": "Propone la creación y uso obligatorio de una plataforma digital para el proceso de matrícula escolar en las escuelas oficiales del país, administrada por el Ministerio de Educación en colaboración con la AIG. La iniciativa busca eliminar las filas físicas, agilizar los trámites para padres de familia y acudientes, y garantizar la transparencia en la asignación de cupos.",
+    "sectores": [],
+    "titulo": "Que crea el Sistema de Matrícula Escolar Digital en la República de Panamá",
+    "titulo_corto": "Sistema de Matrícula Escolar Digital"
+   },
    "anteproyecto": "348",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -13139,6 +13165,33 @@
    "titulo": "QUE CREA INCENTIVOS ECONOMICOS PARA FACILITAR LA ADQUISICION DE VIVIENDAS USADAS O DE SEGUNDA MANO Y DICTA OTRAS DISPOSICIONES"
   },
   "7840": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 4: Crea el Fondo de Respaldo Turístico bajo la administración de AMPYME y en coordinación con la ATP para canalizar apoyo financiero al sector.",
+     "Artículo 5: Dispone modalidades de apoyo como créditos con tasas preferenciales, subsidios parciales para insumos y equipamiento, y acompañamiento técnico especializado.",
+     "Artículo 6: Exige presentar aviso de operación, certificación de actividad turística de la ATP, plan de uso de fondos y cumplimiento de normas ambientales y de seguridad.",
+     "Artículo 8: Obliga a la ATP a crear e implementar nuevas rutas turísticas anualmente para promover la actividad en el territorio nacional."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1lyJfa75ojJgQlnILch3kMxT7wEAU1xxP",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Crea un fondo de financiamiento blando, subsidios y asistencia técnica dirigidos exclusivamente a microempresarios de actividades turísticas.",
+      "sector": "TURISMO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Establece incentivos y facilidades crediticias para microempresas turísticas, además de fijar requisitos de certificación técnica y ambiental para acceder a los beneficios.",
+    "resumen": "La iniciativa crea el Fondo de Respaldo Turístico administrado por AMPYME en coordinación con la Autoridad de Turismo de Panamá (ATP). Busca otorgar financiamiento blando, subsidios parciales para insumos o equipos y programas de capacitación técnica a microempresas turísticas debidamente certificadas. Además, obliga a la ATP a desarrollar nuevas rutas turísticas anualmente a nivel nacional.",
+    "sectores": [
+     "TURISMO"
+    ],
+    "titulo": "Que establece un respaldo económico a los microempresarios del turismo en Panamá",
+    "titulo_corto": "Respaldo económico a microempresarios del turismo"
+   },
    "anteproyecto": "364",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Segundo Debate",
@@ -14429,6 +14482,22 @@
    "titulo": "QUE MODIFICA LA LEY 4 DE 16 DE ENERO DE 2006, QUE REORGANIZA LA UNIVERSIDAD AUTONOMA DE CHIRIQUI"
   },
   "7896": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Modifica el artículo 77 de la Ley 32 de 1984 para eliminar los límites de tiempo de la Contraloría al examinar o improbar órdenes de pago y actos que afecten patrimonio público, fijando el proceso de devolución o remisión a la Sala Tercera de la Corte Suprema en casos de insistencia institucional."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1gngnq-_pNIap3ceXhhXkg-2YrSPovcCk",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No impone regulaciones, cargas ni obligaciones directas a las empresas privadas, ya que se limita al trámite interno de control fiscal entre la Contraloría y las entidades del Estado, aunque de forma indirecta puede incidir en los plazos de tramitación de pagos a contratistas públicos.",
+    "resumen": "Modifica el régimen de control previo y refrendo de la Contraloría General de la República sobre órdenes de pago y actos que afecten fondos públicos. Establece que la institución no tendrá límite de tiempo para examinar y decidir la aprobación o rechazo del refrendo. Además, regula el procedimiento cuando la entidad emisora insista en el acto, permitiendo remitirlo a la Sala Tercera de la Corte Suprema de Justicia.",
+    "sectores": [],
+    "titulo": "Por la cual se reforma el artículo 77 de la Ley 32 de 8 de noviembre del 1984, debidamente modificada por la Ley 351 de 22 de diciembre del 2022, de la Contraloría General de la República",
+    "titulo_corto": "Reforma al refrendo de la Contraloría General"
+   },
    "anteproyecto": "15",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Segundo Debate",
@@ -40845,7 +40914,7 @@
   "7821": "f8f08ce8cc7a",
   "7822": "6652c1b95d07",
   "7823": "e06b0ecab45e",
-  "7824": "d4ca8a9ab184",
+  "7824": "35fdadc83366",
   "7825": "cc86248afa4f",
   "7826": "ea69985c983d",
   "7827": "832c758ef249",
@@ -40855,7 +40924,7 @@
   "7832": "2b2369a789cc",
   "7837": "c382dc1baaa0",
   "7838": "49a3f8b5f858",
-  "7840": "9e1f1f9d0e5a",
+  "7840": "8032d4140250",
   "7842": "23bcf764d750",
   "7843": "280bd2aa35d6",
   "7844": "fb9fac0ce23b",
@@ -40884,7 +40953,7 @@
   "7891": "78fe42f02615",
   "7893": "004b2347f3e1",
   "7895": "3cd128a30274",
-  "7896": "eea3302fe669",
+  "7896": "0f6b4ec42c9f",
   "7898": "93ecff287237",
   "7899": "6459f5dfaec0",
   "7900": "e8b0ab7aa511",
@@ -41600,6 +41669,7 @@
    "8179",
    "8188",
    "8108",
+   "7840",
    "8032",
    "8077",
    "7998",
@@ -41613,7 +41683,7 @@
    "7959",
    "7461"
   ],
-  "fecha": "2026-10-17T11:45:36",
+  "fecha": "2026-10-17T12:55:26",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -41624,6 +41694,7 @@
    "7779": "399fc6670871",
    "7808": "399fc6670871",
    "7829": "399fc6670871",
+   "7840": "399fc6670871",
    "7899": "399fc6670871",
    "7912": "399fc6670871",
    "7915": "399fc6670871",
@@ -42036,7 +42107,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-17T11:46:06"
+  "revisada": "2026-10-17T12:55:52"
  },
- "ultima_corrida": "2026-10-17T11:45:36"
+ "ultima_corrida": "2026-10-17T12:55:26"
 }
