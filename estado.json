@@ -37,6 +37,10 @@
    "carpeta": "Tipificación de delitos contra la seguridad alimentaria (ficha 7659)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
+  "7717": {
+   "carpeta": "Comiso de bienes en delitos de drogas y trata (ficha 7717)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
   "7733": {
    "carpeta": "Programa Hambre Cero en centros educativos (ficha 7733)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -9660,6 +9664,34 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS LA LEY 42 DE 2012, GENERAL DE PENSION ALIMENTICIA Y DICTA OTRAS DISPOSICIONES"
   },
   "7717": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2 (adiciona el artículo 121-A al Código Procesal Penal): Autoriza el comiso de bienes, ganancias o instrumentos relacionados con narcotráfico, trata y tráfico de migrantes, indistintamente de la responsabilidad penal o de su titular registral.",
+     "Artículo 5: Reconoce el derecho de terceros y personas jurídicas titulares o con derechos reales sobre los bienes a intervenir en el proceso para oponerse a la afectación.",
+     "Artículo 6: Consagra la presunción legal de buena fe y traslada al Ministerio Público la carga de probar la mala fe sobre los activos investigados.",
+     "Artículo 7: Dispone que se honrarán los derechos y garantías de entidades supervisadas que hayan acreditado el cumplimiento de las normas de debida diligencia de la Ley 23 de 2015 contra el blanqueo de capitales.",
+     "Artículo 10: Exige la devolución de los bienes comisados cuando sobrevenga una sentencia absolutoria en favor del procesado."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1x5WYbATSDyBAs1SRGIqVP9dVkbiS9BiJ",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Brinda certeza jurídica al proteger las garantías y acreencias de entidades supervisadas frente a comisos, siempre que hayan cumplido con la debida diligencia de la Ley 23 de 2015.",
+      "sector": "FINANCIERO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa se circunscribe a la persecución patrimonial del crimen organizado y salvaguarda los derechos de terceros de buena fe y del sector financiero diligente sin crear cargas operativas adicionales.",
+    "resumen": "Establece un procedimiento especial de comiso sobre bienes, ganancias e instrumentos derivados del tráfico ilícito de drogas, trata de personas y tráfico ilícito de migrantes, con independencia de la titularidad o transformaciones del activo. El texto ampara a terceros de buena fe y reconoce expresamente la validez de los derechos reales de entidades supervisadas que hayan aplicado debida diligencia. Afecta principalmente al sistema judicial y a entidades financieras o comerciales que ostenten garantías sobre bienes vinculados a estos procesos.",
+    "sectores": [
+     "FINANCIERO"
+    ],
+    "titulo": "Que modifica el Código Procesal Penal y toma medidas contra trata de personas, tráfico ilícito de drogas y tráfico ilícito de migrantes",
+    "titulo_corto": "Comiso de bienes en delitos de drogas y trata"
+   },
    "anteproyecto": "261",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Segundo Debate",
@@ -41151,7 +41183,7 @@
   "7711": "e0018c323f1b",
   "7712": "e3f2c19cd895",
   "7714": "f2d97a376e6b",
-  "7717": "22504a328f07",
+  "7717": "a79ae6862a9c",
   "7720": "f75332082d9a",
   "7724": "72e47d7e0245",
   "7728": "eca6bd337951",
@@ -41986,14 +42018,16 @@
    "7953",
    "7959",
    "7811",
+   "7717",
    "7461"
   ],
-  "fecha": "2026-10-17T18:50:06",
+  "fecha": "2026-10-17T20:47:15",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
    "7532": "399fc6670871",
    "7659": "399fc6670871",
+   "7717": "399fc6670871",
    "7733": "399fc6670871",
    "7745": "399fc6670871",
    "7750": "399fc6670871",
@@ -42418,7 +42452,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-17T18:50:34"
+  "revisada": "2026-10-17T20:47:44"
  },
- "ultima_corrida": "2026-10-17T18:50:06"
+ "ultima_corrida": "2026-10-17T20:47:15"
 }
