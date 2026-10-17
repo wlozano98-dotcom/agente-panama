@@ -37,8 +37,16 @@
    "carpeta": "Tipificación de delitos contra la seguridad alimentaria (ficha 7659)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
+  "7745": {
+   "carpeta": "Requisitos de agua y sanciones a promotores urbanísticos (ficha 7745)",
+   "comision": "Comisión de Asuntos Municipales"
+  },
   "7750": {
    "carpeta": "Modificaciones a la Ley 6 de 1987 sobre beneficios a jubilados (ficha 7750)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
+  "7756": {
+   "carpeta": "Régimen de nacimientos saludables (ficha 7756)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
   "7764": {
@@ -10311,6 +10319,32 @@
    "titulo": "QUE ADICIONA ARTICULOS A LEY NO. 59 DE 28 DE NOVIEMBRE DE 2005, MODIFICADA POR LA LEY 25 DE 19 DE ABRIL DE 2018, SOBRE PROTECCION LABORAL PARA PERSONAS CON ENFERMEDADES CRONICAS, INVOLUTIVAS Y/O DEGENERATIVAS QUE PRODUZCAN INCAPACIDAD LABORAL"
   },
   "7745": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2 (modifica el artículo 7 de la Ley 6 de 2006): Exige como requisito de aprobación urbanística estudios técnicos certificados sobre disponibilidad de agua potable y redes de saneamiento, e implementa fiscalizaciones conjuntas sobre infraestructuras de servicios básicos.",
+     "Artículo 4 (modifica el artículo 37 de la Ley 6 de 2006): Tipifica como infracción urbanística el construir sistemas de acueducto que no garanticen un suministro de agua eficiente.",
+     "Artículo 5 (adiciona el artículo 36-A a la Ley 6 de 2006): Establece sanciones por vender o entregar viviendas sin cumplir servicios o condiciones ofertadas, aplicando suspensión de permisos, indemnizaciones obligatorias e inhabilitación temporal o definitiva para desarrollar proyectos habitacionales."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1cDLoA7oZ6xRxNSUL4sz-IWvKwH7t9mgA",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Crea requisitos obligatorios previos para licencias urbanísticas y establece sanciones graves a promotores y constructoras de vivienda, incluyendo la inhabilitación para operar.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Impacta de forma directa y severa al sector de la construcción y desarrollo inmobiliario al condicionar aprobaciones a estudios hídricos y habilitar la suspensión o inhabilitación comercial de las empresas ante fallas de servicios básicos.",
+    "resumen": "El proyecto exige a los promotores de proyectos urbanísticos presentar estudios certificados sobre disponibilidad de agua potable y capacidad de saneamiento como requisito previo para la aprobación de obras. Además, faculta la fiscalización interinstitucional de estas infraestructuras y crea un régimen de sanciones que castiga el incumplimiento de servicios básicos prometidos al comprador con suspensión de trámites, indemnizaciones e inhabilitación para desarrollar proyectos.",
+    "sectores": [
+     "CEMENTERAS"
+    ],
+    "titulo": "Por la cual se modifica y adiciona artículos a la Ley No. 6 de primero de febrero 2006, que reglamenta el ordenamiento territorial para el desarrollo urbano y dicta otras disposiciones",
+    "titulo_corto": "Requisitos de agua y sanciones a promotores urbanísticos"
+   },
    "anteproyecto": "285",
    "comision": "COMISION DE ASUNTOS MUNICIPALES",
    "etapa": "Segundo Debate",
@@ -10687,6 +10721,32 @@
    "titulo": "QUE MODIFICA LA LEY 42 DE 1999 QUE ESTABLECE LA EQUIPARACION DE OPORTUNIDADES PARA LAS PERSONAS CON DISCAPACIDAD Y DICTA OTRAS DISPOSICIONES."
   },
   "7756": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 3: Extiende el ámbito de aplicación de la ley a todos los establecimientos de salud públicos y privados que ofrezcan atención preconcepcional, del parto, puerperio y del recién nacido.",
+     "Artículo 5: Reconoce derechos de la mujer en centros médicos, tales como la formulación de planes de parto orientadores, permanencia conjunta con el neonato y derecho al acompañamiento durante el parto sujeto a condiciones de bioseguridad e infraestructura.",
+     "Artículo 7: Establece lineamientos y requisitos que los centros de salud pueden exigir a los acompañantes, permitiendo restringir o revocar el acceso ante incumplimiento de normas institucionales y médicas."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1-_xnujhTIEVvH0HxgL664nlt8M0jZ1kQ",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Obliga a clínicas y hospitales privados que atienden maternidad a adecuar sus protocolos asistenciales, infraestructura y normas internas para garantizar el parto respetado y el acompañamiento.",
+      "sector": "SALUD"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Afecta directamente a los centros médicos privados que atienden partos, los cuales deberán actualizar sus procedimientos clínicos, capacitar a su personal y coordinar espacios y bioseguridad para acompañantes.",
+    "resumen": "La iniciativa busca regular la atención integral y humanizada durante el embarazo, parto, puerperio y cuidados del recién nacido en Panamá. Establece los derechos de la gestante (como el acompañamiento durante el parto y la elaboración de un plan de parto orientador) y del neonato. Aplica tanto al sector público como a hospitales y clínicas privadas que prestan servicios obstétricos y neonatales.",
+    "sectores": [
+     "SALUD"
+    ],
+    "titulo": "Que establece el Régimen de Nacimientos Saludables en la República de Panamá",
+    "titulo_corto": "Régimen de nacimientos saludables"
+   },
    "anteproyecto": "296",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Segundo Debate",
@@ -41055,7 +41115,7 @@
   "7740": "9685167f3a47",
   "7742": "126149380340",
   "7743": "0611fbe9d136",
-  "7745": "8ec92eb41786",
+  "7745": "de19843460c9",
   "7747": "c0256421e0ac",
   "7748": "f1884dcec194",
   "7750": "e77cc2d3906d",
@@ -41063,7 +41123,7 @@
   "7752": "eeb8bcdc8d1f",
   "7753": "86846c000566",
   "7754": "f288ccde3287",
-  "7756": "d75c000595c4",
+  "7756": "91a71eedf36a",
   "7757": "1c3b72a55929",
   "7759": "fdeb5a3835a2",
   "7760": "2dc0c5cb8b49",
@@ -41817,6 +41877,7 @@
    "7922",
    "8298",
    "7915",
+   "7745",
    "8394",
    "8395",
    "7939",
@@ -41847,6 +41908,7 @@
    "8235",
    "8286",
    "8296",
+   "7756",
    "8257",
    "7991",
    "8025",
@@ -41875,13 +41937,15 @@
    "7811",
    "7461"
   ],
-  "fecha": "2026-10-17T16:47:03",
+  "fecha": "2026-10-17T17:48:42",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
    "7532": "399fc6670871",
    "7659": "399fc6670871",
+   "7745": "399fc6670871",
    "7750": "399fc6670871",
+   "7756": "399fc6670871",
    "7764": "399fc6670871",
    "7767": "399fc6670871",
    "7779": "399fc6670871",
@@ -42302,7 +42366,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-17T16:47:29"
+  "revisada": "2026-10-17T17:49:17"
  },
- "ultima_corrida": "2026-10-17T16:47:03"
+ "ultima_corrida": "2026-10-17T17:48:42"
 }
