@@ -69,6 +69,10 @@
    "carpeta": "Programa Educativo Penitenciario (ficha 7903)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
+  "7912": {
+   "carpeta": "Regulación del hospedaje turístico de corta estancia (ficha 7912)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
   "7915": {
    "carpeta": "Prevención de estafas en páginas web y comercio digital (ficha 7915)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
@@ -76,6 +80,18 @@
   "7922": {
    "carpeta": "Regulación de la esterilización quirúrgica voluntaria (ficha 7922)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
+  "7923": {
+   "carpeta": "Requisitos para la dirección del INADEH (ficha 7923)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
+  "7924": {
+   "carpeta": "Requisitos para la Junta Directiva de Panamá-Pacífico (ficha 7924)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
+  "7925": {
+   "carpeta": "Requisitos para director y subdirector de la DGCP (ficha 7925)",
+   "comision": "Comisión de Economía y Finanzas"
   },
   "7933": {
    "carpeta": "Creación del Comité Nacional de Investigación Animal (CNIAP) (ficha 7933)",
@@ -14841,6 +14857,42 @@
    "titulo": "QUE CREA UN REGISTRO DE PERSONAS QUE TRABAJAN EN APLICACIONES DE REPARTOS A DOMICILIO"
   },
   "7912": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Declara el arrendamiento turístico de inmuebles como actividad turística bajo competencia de la ATP y ordena la creación de un registro digital obligatorio y gratuito.",
+     "Artículo 2: Adiciona la definición de arrendamiento turístico de inmuebles (períodos de 1 a 90 días con fines turísticos) al Decreto Ley 4 de 2008.",
+     "Artículo 3: Modifica el artículo 3 de la Ley 74 de 1976 estableciendo requisitos para el registro digital en la ATP, exigiendo dicho número de registro para anunciar inmuebles en plataformas y eximiendo del aviso de operación y del refrendo contractual ante el MIVIOT.",
+     "Artículo 4: Modifica el numeral 2 del artículo 49 de la Ley 284 de 2022 sobre Propiedad Horizontal para exigir que el reglamento de copropiedad regule el uso de arrendamiento turístico en el inmueble.",
+     "Artículo 5: Modifica el parágrafo 6 del artículo 1057-V del Código Fiscal para aplicar formalmente la tarifa del 10% de ITBMS al arrendamiento turístico de inmuebles.",
+     "Artículo 6: Faculta a la DGI a firmar convenios con plataformas digitales para que actúen como agentes de retención de ITBMS y las obliga a compartir datos fiscales anuales de los anfitriones y aplicar debida diligencia.",
+     "Artículo 7: Deroga el artículo 21 de la Ley 80 de 2012, eliminando la prohibición y sanciones para arrendamientos turísticos menores a 45 días en el distrito de Panamá."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1qRumwzu7BSPp26l0FzGpMToJmcgKR-In",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Legaliza una modalidad que compite directamente con el sector hotelero, elimina las prohibiciones y multas en el distrito de Panamá, e incorpora un registro obligatorio en la ATP y un impuesto del 10% de ITBMS.",
+      "sector": "TURISMO"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Modifica la Ley de Propiedad Horizontal (Ley 284 de 2022) exigiendo que los reglamentos de copropiedad definan el uso y reglas para alquileres turísticos, afectando la gestión inmobiliaria y residencial.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Cambia sustancialmente las reglas del mercado de alojamiento turístico al formalizar plataformas tipo Airbnb, imponer retenciones fiscales de ITBMS y regular la actividad dentro de propiedades horizontales.",
+    "resumen": "Propone legalizar y normar el arrendamiento turístico de corta estancia (entre 1 y 90 días) a través de plataformas digitales o comercialización directa. Establece un registro digital gratuito y obligatorio ante la Autoridad de Turismo de Panamá, grava el servicio con un 10% de ITBMS y faculta a la DGI a convenir con plataformas para retener impuestos y cruzar información. Además, deroga la prohibición de alquileres inferiores a 45 días en el distrito de Panamá y adecúa la normativa de propiedad horizontal.",
+    "sectores": [
+     "TURISMO",
+     "CEMENTERAS"
+    ],
+    "titulo": "Que regula el hospedaje turístico de corta estancia y posibilita su tributación",
+    "titulo_corto": "Regulación del hospedaje turístico de corta estancia"
+   },
    "anteproyecto": "35",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Segundo Debate",
@@ -15302,6 +15354,20 @@
    "titulo": "QUE ESTABLECE EL MARCO REGULATORIO PARA LA ESTERILIZACION EN EL SISTEMA PUBLICO DE SALUD, A PETICION DE HOMBRES Y MUJERES"
   },
   "7923": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1W_z4dMzGzp2weCAuBjLaY7NbqbkeZYmS",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No genera impacto sobre la actividad empresarial, ya que solo define requisitos de idoneidad e incompatibilidades para el nombramiento de funcionarios públicos en el INADEH.",
+    "resumen": "El proyecto establece requisitos de formación académica, experiencia previa y probidad ética para ocupar la Dirección General y Subdirección General del INADEH. Además, incorpora restricciones por conflicto de interés que inhabilitan a personas con vínculos económicos o familiares con empresas contratistas del Estado. La norma se circunscribe exclusivamente a regular el perfil de los altos cargos de dicha entidad pública.",
+    "sectores": [],
+    "titulo": "Que modifica y adiciona artículos del Decreto Ley No. 8 de 15 de febrero de 2006 que reestructura el sistema de formación profesional, capacitación laboral en gestión empresarial",
+    "titulo_corto": "Requisitos para la dirección del INADEH"
+   },
    "anteproyecto": "47",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Segundo Debate",
@@ -15340,6 +15406,31 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS DEL DECRETO LEY NO. 8 DE 15 DE FEBRERO DE 2006 QUE REESTRUCTURA EL SISTEMA DE FORMACION PROFESIONAL, CAPACITACION LABORAL EN GESTION EMPRESARIAL"
   },
   "7924": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1 (modifica el artículo 19 de la Ley 41 de 2004): Establece requisitos obligatorios para miembros principales y suplentes de la Junta Directiva de la Agencia, tales como carreras específicas avaladas por la Universidad de Panamá, cinco años de experiencia profesional, declaración patrimonial jurada e inhabilidad para personas vinculadas a empresas que contraten con el Estado.",
+     "Artículo 2 (adiciona el artículo 19-A a la Ley 41 de 2004): Prohíbe a los miembros de la Junta Directiva mantener intereses económicos en empresas o servicios con contratos relacionados con las funciones de la entidad."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1mscf33n97UOUZsn_9iFWqnIsSw0XLx6Z",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Modifica las reglas de gobernanza del regulador de la zona especial Panamá Pacífico e introduce inhabilidades que limitan la representación gremial y empresarial en su directiva.",
+      "sector": "OTROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Impacta a las empresas del área económica especial y a los gremios del sector privado al restringir quiénes pueden representarlos en el órgano de dirección de la agencia reguladora.",
+    "resumen": "El proyecto de ley reforma la Ley 41 de 2004 para fijar requisitos mínimos, incompatibilidades y normas de conflicto de intereses para los miembros de la Junta Directiva de la Agencia Panamá Pacífico. Exige títulos universitarios en carreras específicas, cinco años de experiencia administrativa y declaración patrimonial jurada. Afecta directamente la gobernanza del área especial y la designación de representantes del sector privado (ADEDAPP y CONEP).",
+    "sectores": [
+     "OTROS"
+    ],
+    "titulo": "Que modifica y adiciona artículos a la Ley 41 de 20 de julio de 2004, que crea un régimen especial para el establecimiento del Área Económica Especial Panamá-Pacífico, y una entidad autónoma del Estado, denominada Agencia del Área Económica Especial Panamá-Pacífico",
+    "titulo_corto": "Requisitos para la Junta Directiva de Panamá-Pacífico"
+   },
    "anteproyecto": "48",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Segundo Debate",
@@ -15378,6 +15469,20 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 41 DE 20 DE JULIO DE 2004, QUE CREA UN REGIMEN ESPECIAL PARA EL ESTABLECIMIENTO DEL AREA ECONOMICA ESPECIAL PANAMA-PACIFICO, Y UNA ENTIDAD AUTONOMA DEL ESTADO, DENOMINADA AGENCIA DEL AREA ECONOMICA ESPECIAL PANAMA-PACIFICO"
   },
   "7925": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1qnRyYR0xCb003_jTYLjXykcaD-SflLRj",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto se limita a regular los requisitos de nombramiento e incompatibilidades éticas de las autoridades de la DGCP, sin modificar las reglas de licitación ni crear nuevas obligaciones o costos para el sector empresarial.",
+    "resumen": "La iniciativa busca establecer requisitos académicos, profesionales y éticos mínimos para ocupar los cargos de Director General y Subdirector General de la Dirección General de Contrataciones Públicas (DGCP). Adicionalmente, prohíbe que dichos funcionarios mantengan intereses económicos directos o vínculos comerciales familiares con empresas proveedoras del Estado. No altera los pliegos de cargos, procedimientos ni requisitos vigentes para las empresas que participan en actos públicos.",
+    "sectores": [],
+    "titulo": "Que adiciona artículos a la Ley 22 de 27 de junio de 2006 que regula la contratación pública",
+    "titulo_corto": "Requisitos para director y subdirector de la DGCP"
+   },
    "anteproyecto": "49",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Segundo Debate",
@@ -40705,7 +40810,7 @@
   "7909": "f0dbcced4db4",
   "7910": "4e32acf667d9",
   "7911": "f002d3dcc641",
-  "7912": "1de1807cf609",
+  "7912": "6a405c9e2962",
   "7913": "10e2be43d39c",
   "7914": "003f2813250e",
   "7915": "8c969127465f",
@@ -40716,9 +40821,9 @@
   "7920": "1eb4ece2b468",
   "7921": "6bb0001cc96c",
   "7922": "b54234d8f7c6",
-  "7923": "e7c9b37b0c14",
-  "7924": "2304ca3daf8c",
-  "7925": "4a675653aeed",
+  "7923": "c21b292af10a",
+  "7924": "be8dd0c307c5",
+  "7925": "af4dc071491a",
   "7926": "dae8cb3eab8e",
   "7928": "96f5ed6b30c0",
   "7929": "f51b4610a7e7",
@@ -41382,6 +41487,7 @@
    "8079",
    "7976",
    "8325",
+   "7924",
    "8361",
    "8153",
    "7808",
@@ -41410,6 +41516,7 @@
    "8032",
    "8077",
    "7998",
+   "7912",
    "7969",
    "7531",
    "8050",
@@ -41418,7 +41525,7 @@
    "7959",
    "7461"
   ],
-  "fecha": "2026-10-17T08:50:40",
+  "fecha": "2026-10-17T09:49:02",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -41429,8 +41536,10 @@
    "7779": "399fc6670871",
    "7808": "399fc6670871",
    "7829": "399fc6670871",
+   "7912": "399fc6670871",
    "7915": "399fc6670871",
    "7922": "399fc6670871",
+   "7924": "399fc6670871",
    "7933": "399fc6670871",
    "7939": "399fc6670871",
    "7953": "399fc6670871",
@@ -41838,7 +41947,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-17T08:51:12"
+  "revisada": "2026-10-17T09:49:30"
  },
- "ultima_corrida": "2026-10-17T08:50:40"
+ "ultima_corrida": "2026-10-17T09:49:02"
 }
