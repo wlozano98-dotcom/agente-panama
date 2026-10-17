@@ -37,9 +37,17 @@
    "carpeta": "Tipificación de delitos contra la seguridad alimentaria (ficha 7659)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
+  "7733": {
+   "carpeta": "Programa Hambre Cero en centros educativos (ficha 7733)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "7745": {
    "carpeta": "Requisitos de agua y sanciones a promotores urbanísticos (ficha 7745)",
    "comision": "Comisión de Asuntos Municipales"
+  },
+  "7747": {
+   "carpeta": "Certificación anual de salud para madres cuidadoras (ficha 7747)",
+   "comision": "Comisión de la Mujer, la Niñez y la Familia"
   },
   "7750": {
    "carpeta": "Modificaciones a la Ley 6 de 1987 sobre beneficios a jubilados (ficha 7750)",
@@ -9945,6 +9953,34 @@
    "titulo": "QUE ESTABLECE EL MARCO REGULATORIO GENERAL PARA PATRONATOS, COMISIONES, PROGRAMAS Y OTRAS ENTIDADES SIMILARES CREADAS PARA EL SECTOR AGROPECUARIO DONDE PARTICIPA EL ESTADO Y ESTABLECE MEDIDAS PARA LA TRANSPARENCIA y LA RENDICION DE CUENTAS EN LOS PATRONATOS DE FERIAS Y DICTA OTRAS DISPOSICIONES."
   },
   "7733": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 10 (Texto Único): Exige queso y fruta fresca o procesada 100% nacional para el desayuno escolar y habilita licitaciones regionales bajo la Ley de Contrataciones Públicas.",
+     "Artículo 11 (Texto Único): Regula la merienda escolar exigiendo leche fortificada 100% nacional en envases de larga duración, galletas nutricionales de 34 g y cremas nutritivas bajo normas técnicas de DGNTI y COPANT.",
+     "Artículo 12 (Texto Único): Establece los componentes del almuerzo escolar (carnes, cereales, vegetales y jugos), priorizando materias primas de la agricultura y cadenas agroalimentarias locales.",
+     "Artículo 20 (Texto Único): Obliga a que los envases de los productos difieran de los de uso comercial e incluyan la leyenda de prohibición de venta.",
+     "Artículo 21 (Texto Único): Dispone que las compras se rijan por la Ley de Contrataciones Públicas y faculta ajustes de cuota nacional solo previa certificación del MIDA y del MICI."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1wTpELf4Ggu9XXfaCLNho8kZnMG2qRX9P",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Fija requisitos técnicos de contenido, prioridad a materia prima 100% nacional y empaque diferenciado para las compras estatales de alimentos escolares.",
+      "sector": "ALIMENTOS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Afecta a las empresas productoras y procesadoras de alimentos al regular requerimientos específicos de insumos nacionales, envasado y normas técnicas para la contratación pública escolar.",
+    "resumen": "Crea el Programa Hambre Cero para suministrar desayuno, merienda y almuerzo en todos los centros educativos oficiales del país, derogando las leyes anteriores de vaso de leche y galleta nutricional. Obliga a abastecer estos programas preferentemente con productos agropecuarios 100% nacionales mediante compras y licitaciones públicas. Afecta directamente a fabricantes, distribuidores y agroindustrias del sector de alimentos interesados en suministrar al Estado.",
+    "sectores": [
+     "ALIMENTOS"
+    ],
+    "titulo": "Que establece el Programa Hambre Cero en los centros educativos del país y deroga la Ley 115 de 5 de diciembre de 2019 y la Ley 35 de 1995 sobre el Programa de Distribución del Vaso de Leche y Galleta Nutricional o Cremas Nutritivas Enriquecidas",
+    "titulo_corto": "Programa Hambre Cero en centros educativos"
+   },
    "anteproyecto": "276",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -10393,6 +10429,20 @@
    "titulo": "POR LA CUAL SE MODIFICA Y ADICIONA ARTÍCULOS A LA LEY NO.6 DE PRIMERO DE FEBRERO 2006 QUE REGLAMENTA EL ORDENAMIENTO TERRITORIAL PARA EL DESARROLLO URBANO Y DICTA OTRAS DISPOSICIONES"
   },
   "7747": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1aNqxQRA6oTkIvWEv5gFuv88f7gIteovr",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No genera impacto sobre la actividad empresarial, ya que regula exclusivamente un requisito individual de salud física y psicológica para madres cuidadoras en hogares comunitarios de cuidado infantil.",
+    "resumen": "Propone exigir que el certificado de buena salud física y la evaluación psicológica requeridos para obtener la idoneidad de madre cuidadora sean expedidos de forma anual. La medida aplica a las personas que laboran o prestan servicios en hogares de cuidado diario supervisados por el Ministerio de Desarrollo Social (MIDES).",
+    "sectores": [],
+    "titulo": "Que modifica un artículo de la Ley 171 del 5 de octubre de 2020, que modifica el artículo 9 de la Ley 34 de 2018, de protección integral a la primera infancia y al desarrollo infantil temprano",
+    "titulo_corto": "Certificación anual de salud para madres cuidadoras"
+   },
    "anteproyecto": "288",
    "comision": "COMISION DE LA MUJER, LA NIÑEZ Y LA FAMILIA",
    "etapa": "Segundo Debate",
@@ -41107,7 +41157,7 @@
   "7728": "eca6bd337951",
   "7729": "a7b008ede4d3",
   "7731": "bea068ac8a88",
-  "7733": "51896442c040",
+  "7733": "b847446ebea8",
   "7734": "8a76047195ee",
   "7735": "360d0c3f2c95",
   "7736": "9698a6cd3f2a",
@@ -41116,7 +41166,7 @@
   "7742": "126149380340",
   "7743": "0611fbe9d136",
   "7745": "de19843460c9",
-  "7747": "c0256421e0ac",
+  "7747": "a5569c76dd1f",
   "7748": "f1884dcec194",
   "7750": "e77cc2d3906d",
   "7751": "3174adcdf0ea",
@@ -41931,18 +41981,20 @@
    "7969",
    "7531",
    "8050",
+   "7733",
    "8022",
    "7953",
    "7959",
    "7811",
    "7461"
   ],
-  "fecha": "2026-10-17T17:48:42",
+  "fecha": "2026-10-17T18:50:06",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
    "7532": "399fc6670871",
    "7659": "399fc6670871",
+   "7733": "399fc6670871",
    "7745": "399fc6670871",
    "7750": "399fc6670871",
    "7756": "399fc6670871",
@@ -42366,7 +42418,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-17T17:49:17"
+  "revisada": "2026-10-17T18:50:34"
  },
- "ultima_corrida": "2026-10-17T17:48:42"
+ "ultima_corrida": "2026-10-17T18:50:06"
 }
