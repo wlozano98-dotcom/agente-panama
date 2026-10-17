@@ -41,12 +41,20 @@
    "carpeta": "Modificaciones a la Ley 6 de 1987 sobre beneficios a jubilados (ficha 7750)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
+  "7764": {
+   "carpeta": "Reforma al registro vehicular y asignación municipal de placas (ficha 7764)",
+   "comision": "Comisión de Comunicación y Transporte"
+  },
   "7767": {
    "carpeta": "Regulación de la profesión de relaciones internacionales (ficha 7767)",
    "comision": "Comisión de Relaciones Exteriores"
   },
   "7775": {
    "carpeta": "Enseñanza obligatoria de nutrición escolar (ficha 7775)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "7777": {
+   "carpeta": "Nombramientos docentes en el MEDUCA (ficha 7777)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
   "7779": {
@@ -10831,6 +10839,37 @@
    "titulo": "QUE CREA LEY AREA ECONOMICA MULTIMODAL ALMIRANTE"
   },
   "7764": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Modifica el numeral 5 del artículo 11 de la Ley 15 de 1995 para exigir que el registro vehicular de personas jurídicas se efectúe en el distrito donde tengan su domicilio fiscal o sucursales validadas mediante aviso de operaciones de Panamá Emprende.",
+     "Artículo 3: Establece un régimen transitorio de un (1) año calendario para la actualización del registro de vehículos previamente inscritos conforme a las nuevas disposiciones."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1NRvXM5acp2kM_zZykuex1OtJ9BUfawgB",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Condiciona el trámite de registro y liquidación de placas de vehículos y flotas de transporte al municipio donde consten sus oficinas o sucursales operativas.",
+      "sector": "TRANSPORTE"
+     },
+     {
+      "nivel": "bajo",
+      "razon": "Crea una exigencia formal para que los vehículos corporativos se inscriban según el domicilio declarado en el aviso de operación, otorgando un año para adecuar los ya registrados.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es bajo y de índole administrativa, restringiendo la posibilidad de registrar flotas vehiculares en municipios distintos a los domicilios declarados en los avisos de operación de las empresas.",
+    "resumen": "El proyecto propone que el registro vehicular municipal se asigne estrictamente conforme al domicilio del propietario, buscando una recaudación más equitativa entre municipios. En el caso de personas jurídicas, los vehículos deberán inscribirse en el distrito donde la empresa tenga su domicilio o sucursales activas según su aviso de operaciones en Panamá Emprende. Afecta administrativamente a las empresas propietarias de flotas vehiculares y a los trámites de registro de vehículos nuevos y usados.",
+    "sectores": [
+     "TRANSPORTE",
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que modifica la Ley 15 del 28 de abril de 1995",
+    "titulo_corto": "Reforma al registro vehicular y asignación municipal de placas"
+   },
    "anteproyecto": "304",
    "comision": "COMISION DE COMUNICACION Y TRANSPORTE",
    "etapa": "Segundo Debate",
@@ -11241,6 +11280,20 @@
    "titulo": "QUE ADICIONA DISPOSICIONES A LAS LEYES ORGANICAS QUE REGULAN EMPRESAS ESTATALES PARA DETERMINAR LAS PRESTACIONES LABORALES DE SERVIDORES PUBLICOS CON CIERTOS CARGOS EN ESTAS EMPRESAS"
   },
   "7777": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1YhGCrgWL_SsXZueDhTbOix_qe2r94ul3",
+    "fecha_analisis": "2026-10-17",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto regula exclusivamente procedimientos internos de contratación, estabilidad y traslados de educadores en el sector público (MEDUCA), sin crear obligaciones, costos ni regulaciones para el sector privado.",
+    "resumen": "La iniciativa establece mecanismos para extender hasta por cinco años adicionales el nombramiento de educadores en condición temporal en el Ministerio de Educación (MEDUCA). Asimismo, permite el acceso a nombramientos permanentes por concurso y periodo probatorio a los docentes que hayan laborado cinco años o más en condición temporal o interina. Afecta exclusivamente al régimen laboral de los docentes del sector educativo oficial.",
+    "sectores": [],
+    "titulo": "Que adiciona artículos a la Ley 12 de 1956, que crea la Dirección Nacional de Recursos Humanos en el Ministerio de Educación y modifica artículos de la Ley 47 de 1946",
+    "titulo_corto": "Nombramientos docentes en el MEDUCA"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -41014,12 +41067,12 @@
   "7757": "1c3b72a55929",
   "7759": "fdeb5a3835a2",
   "7760": "2dc0c5cb8b49",
-  "7764": "6201c8998283",
+  "7764": "90cf36b88922",
   "7767": "2ec39718e593",
   "7768": "c12d0dd55804",
   "7775": "64e099851bcf",
   "7776": "6fb3687697d7",
-  "7777": "0c533031a23a",
+  "7777": "1af17b0ed823",
   "7779": "7e79bda4b304",
   "7782": "47557f7e622c",
   "7783": "6416d50dd913",
@@ -41805,6 +41858,7 @@
    "8058",
    "8179",
    "8188",
+   "7764",
    "8108",
    "7840",
    "8032",
@@ -41821,13 +41875,14 @@
    "7811",
    "7461"
   ],
-  "fecha": "2026-10-17T15:45:33",
+  "fecha": "2026-10-17T16:47:03",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
    "7532": "399fc6670871",
    "7659": "399fc6670871",
    "7750": "399fc6670871",
+   "7764": "399fc6670871",
    "7767": "399fc6670871",
    "7779": "399fc6670871",
    "7785": "399fc6670871",
@@ -42247,7 +42302,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-17T15:46:02"
+  "revisada": "2026-10-17T16:47:29"
  },
- "ultima_corrida": "2026-10-17T15:45:33"
+ "ultima_corrida": "2026-10-17T16:47:03"
 }
