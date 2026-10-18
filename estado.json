@@ -37,6 +37,10 @@
    "carpeta": "Tipificación de delitos contra la seguridad alimentaria (ficha 7659)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
+  "7701": {
+   "carpeta": "Política integral contra el acoso escolar y social (ficha 7701)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "7705": {
    "carpeta": "Protección y preservación de rompientes de olas (ficha 7705)",
    "comision": "Comisión de Población, Ambiente y Desarrollo"
@@ -9322,6 +9326,20 @@
    "titulo": "QUE CREAN NUEVOS CORREGIMIENTOS DE GARDI, SEGREGADO DEL CORREGIMIENTO DE NARGANA; Y DE UGGUBSENI, SEGREGADO DEL CORREGIMENTO DE AILIGANDI Y SE DICTAN OTRAS DISPOSICIONES"
   },
   "7701": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/15Tq1uIjWcie-c3EwDtm2zyecXuCnXGCu",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto se restringe al ámbito de los centros educativos escolares y a programas estatales de salud y educación (MEDUCA, MINSA y CSS), sin alterar normas comerciales, tributarias o regulatorias de los sectores empresariales evaluados.",
+    "resumen": "Establece un marco normativo para prevenir, detectar y atender el acoso escolar y social en Panamá, modificando la Ley 289 de 2022. Exige a las instituciones educativas (públicas y particulares) habilitar canales presenciales y digitales de denuncia, registrar expedientes de incidencias y capacitar anualmente a su personal docente y administrativo.",
+    "sectores": [],
+    "titulo": "Que establece la política pública de acción integral contra el acoso escolar y social",
+    "titulo_corto": "Política integral contra el acoso escolar y social"
+   },
    "anteproyecto": "244",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -41282,7 +41300,7 @@
   "7698": "9eeecf640f3e",
   "7699": "1fed98ce835a",
   "7700": "a844e5cf2bd7",
-  "7701": "0bc11dc2a022",
+  "7701": "2aae75a228e1",
   "7702": "b8be7b918690",
   "7704": "567e14ecabd5",
   "7705": "55a62f91b226",
@@ -42131,7 +42149,7 @@
    "7717",
    "7461"
   ],
-  "fecha": "2026-10-18T03:51:40",
+  "fecha": "2026-10-18T04:49:19",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -42565,7 +42583,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-18T03:52:10"
+  "revisada": "2026-10-18T04:49:47"
  },
- "ultima_corrida": "2026-10-18T03:51:40"
+ "ultima_corrida": "2026-10-18T04:49:19"
 }
