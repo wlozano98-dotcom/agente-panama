@@ -13,9 +13,21 @@
    "carpeta": "Uso obligatorio de sillas de retención infantil (ficha 7461)",
    "comision": "Comisión de Comunicación y Transporte"
   },
+  "7463": {
+   "carpeta": "Regulación de deportes electrónicos (Esports) (ficha 7463)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "7465": {
+   "carpeta": "Modificación de garantías de bienes y vehículos en Ley 45 (ficha 7465)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
   "7489": {
    "carpeta": "Reforma a la Ley del IFARHU sobre becas y auxilios (ficha 7489)",
    "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "7491": {
+   "carpeta": "Aumento de aranceles a la panela y derivados (ficha 7491)",
+   "comision": "Comisión de Economía y Finanzas"
   },
   "7496": {
    "carpeta": "Preservación de monumentos históricos por caso fortuito (ficha 7496)",
@@ -772,6 +784,10 @@
   "8395": {
    "carpeta": "Reforma al Código Tributario sobre evaluación de incentivos fiscales (ficha 8395)",
    "comision": "Comisión de Economía y Finanzas"
+  },
+  "8397": {
+   "carpeta": "Reforma a la ley de limpieza de espacios públicos (ficha 8397)",
+   "comision": "Comisión de Asuntos Municipales"
   },
   "8465": {
    "carpeta": "Traspaso de plantas de tratamiento de aguas residuales al IDAAN (ficha 8465)",
@@ -2697,6 +2713,23 @@
    "titulo": "DECLARACION DEL DIA NACIONAL DEL FUTBOLISTA EN PANAMA"
   },
   "7463": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 9: Prohíbe la participación de personas menores de 16 años en competencias profesionales de esports y exige autorización por escrito de tutores para mayores de esa edad.",
+     "Artículo 13: Exige a las empresas organizadoras de competiciones destinar recursos para la salud física y mental de competidores menores y adoptar medidas de prevención de acoso o abuso."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1qgJjie3tAQyLfgbfa5h0J32aBNy35aA6",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No afecta de forma directa a ninguno de los sectores empresariales clave. Las propuestas de incentivos tributarios y regulación laboral fueron eliminadas en primer debate, limitando la norma a lineamientos deportivos y organizativos.",
+    "resumen": "Establece el reconocimiento formal de los deportes electrónicos como actividad deportiva bajo la rectoría de Pandeportes. Define pautas de funcionamiento para competencias y fija reglas de protección a menores de edad que participan en torneos. Tras su primer debate, se suprimieron los incentivos fiscales y el régimen laboral especial contemplados en la propuesta inicial.",
+    "sectores": [],
+    "titulo": "Ley Integral de la Industria de los Deportes Electrónicos (Esports)",
+    "titulo_corto": "Regulación de deportes electrónicos (Esports)"
+   },
    "anteproyecto": "51",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -2745,6 +2778,36 @@
    "titulo": "LEY INTEGRAL DE LA INDUSTRIA DE LOS DEPORTES ELECTRONICOS (ESPORTS)"
   },
   "7465": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Modifica el artículo 46 de la Ley 45 de 2007 fijando un plazo de 15 días para que proveedores y fabricantes reparen, reemplacen o devuelvan dinero por bienes con desperfectos; establece un máximo de 105 días para reparar vehículos de motor o equipos complejos, obligando a dar un vehículo de reemplazo al consumidor si la reparación supera los 30 días y a entregar un auto nuevo si excede los 105 días, asumiendo gastos de traspaso; e impone un término perentorio de 45 días para la distribución de repuestos."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1BQlXia-_gRg3iweuNUUSF6LykQlzh6LG",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Crea contingencias y costos elevados para las distribuidoras de automóviles al obligarlas a prestar vehículos sustitutos tras 30 días de reparación, reponer unidades nuevas tras 105 días y suplir piezas en un límite estricto de 45 días.",
+      "sector": "TRANSPORTE"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Reduce severamente a 15 días el plazo para que comercios minoristas e importadores reparen, sustituyan o reembolsen productos electrónicos, mecánicos o mobiliarios con desperfectos.",
+      "sector": "OTROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Afecta fuertemente al comercio de automóviles y a la venta minorista de bienes duraderos al imponer plazos perentorios de reparación y obligaciones gravosas de provisión de vehículos sustitutos o reemplazo total de unidades.",
+    "resumen": "El proyecto modifica el régimen de garantías legales de la Ley 45 de 2007 para bienes duraderos, tecnología y automóviles. Para productos mecánicos, eléctricos o electrónicos, obliga al proveedor a reparar, reemplazar o devolver el dinero en 15 días ante reclamos por defectos. En vehículos a motor y tecnología compleja, exige entregar un vehículo de reemplazo si el taller tarda más de 30 días, reemplazarlo por uno nuevo si excede 105 días y suministrar repuestos en máximo 45 días.",
+    "sectores": [
+     "TRANSPORTE",
+     "OTROS"
+    ],
+    "titulo": "Que modifica artículo de la Ley 45 de 31 de octubre de 2007, sobre protección al consumidor y defensa de la competencia",
+    "titulo_corto": "Modificación de garantías de bienes y vehículos en Ley 45"
+   },
    "anteproyecto": "54",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Segundo Debate",
@@ -3361,6 +3424,33 @@
    "titulo": "QUE MODIFICA LA LEY 6 DE 2002, QUE DICTA NORMAS PARA LA TRANSPARENCIA EN LA GESTION PUBLICA, ESTABLECE LA ACCION DE HABEAS DATA Y DICTA OTRAS DISPOSICIONES"
   },
   "7491": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 3: Fija el arancel de importación en 75% (y 175% en panela refinada según el numeral 2) para fracciones de panela, miel de caña y melazas.",
+     "Artículo 4: Ordena la revisión periódica anual de dichos aranceles por parte de la Comisión Nacional de Aranceles.",
+     "Artículo 6: Ordena al gobierno implementar programas de subsidios, asistencia técnica y fomento de investigación para productores nacionales de panela.",
+     "Artículo 9: Concede un periodo de adaptación de seis meses a las empresas importadoras para ajustar sus operaciones a las nuevas tarifas."
+    ],
+    "drive": "https://drive.google.com/drive/folders/19FmfIlU8CV7vdy6UTGNNNkwh2auAlczu",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Eleva fuertemente los aranceles de importación de la panela y sus derivados, encareciendo insumos para importadores y fabricantes, y estableciendo incentivos para productores locales.",
+      "sector": "ALIMENTOS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Modifica gravámenes arancelarios de importación para derivados específicos de la caña de azúcar, alterando los costos comerciales de importadores y la industria procesadora de alimentos.",
+    "resumen": "Propone incrementar significativamente los aranceles de importación a la panela, miel de caña y melazas a un 75% (y hasta 175% en ciertas fracciones) para proteger la producción local. Afecta directamente a importadores de endulzantes, distribuidores e industrias que usan estos insumos, a la vez que crea subsidios y apoyos técnicos para los productores locales.",
+    "sectores": [
+     "ALIMENTOS"
+    ],
+    "titulo": "Que modifica fracciones arancelarias con el objetivo de incrementar el arancel de importación de la panela o la raspadura y dicta otras disposiciones",
+    "titulo_corto": "Aumento de aranceles a la panela y derivados"
+   },
    "anteproyecto": "79",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Segundo Debate",
@@ -35126,6 +35216,28 @@
    "titulo": "QUE MODIFICA EL CÓDIGO JUDICIAL Y DICTA OTRAS DISPOSICIONES"
   },
   "8397": {
+   "analisis": {
+    "con_pdf": false,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/12CI5WzdRezpvJ6b8VtvBQq_i4B1ky_n0",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Eventuales obligaciones o multas por mantenimiento de aceras y disposición adecuada de desechos frente a locales comerciales.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es marginal y de alcance general, limitándose a potenciales sanciones municipales o deberes de ornato en el entorno inmediato de los comercios.",
+    "resumen": "Análisis basado solo en el título. La propuesta busca actualizar la Ley 30 de 2000 con respecto al mantenimiento, aseo y ornato en vías y áreas públicas. Podría introducir nuevas multas, sanciones o deberes de disposición de residuos aplicables a transeúntes y establecimientos comerciales abiertos al público.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que modifica y adiciona artículos a la Ley 30 de 2000, que promueve la limpieza de los espacios públicos",
+    "titulo_corto": "Reforma a la ley de limpieza de espacios públicos"
+   },
    "anteproyecto": "73",
    "comision": "COMISION DE ASUNTOS MUNICIPALES",
    "etapa": "Segundo Debate(Objetado)",
@@ -41630,8 +41742,8 @@
   "7456": "a13916308fd6",
   "7461": "d77f3350acd5",
   "7462": "324f9ff4fa46",
-  "7463": "84b0a627670e",
-  "7465": "6a46ce53fbf9",
+  "7463": "8983e375927e",
+  "7465": "7ce2326fea13",
   "7467": "f66d9c1ba199",
   "7470": "7fd0a65de389",
   "7471": "19a58bcbd953",
@@ -41645,7 +41757,7 @@
   "7488": "f81c8548b662",
   "7489": "760621b85753",
   "7490": "9fef27240d01",
-  "7491": "3c500a4eeeb5",
+  "7491": "5848d2595141",
   "7493": "fc093d90a0bc",
   "7495": "d5c7b1b6e1a5",
   "7496": "1176b66a2900",
@@ -42288,7 +42400,7 @@
   "8394": "6662d0a2360b",
   "8395": "b14b03bf1c1d",
   "8396": "8259f9b24a79",
-  "8397": "fe716792d8f1",
+  "8397": "2f09b3e9df62",
   "8398": "03491c6d4774",
   "8399": "a1ec35a51e29",
   "8400": "70ade8b09d77",
@@ -42573,6 +42685,7 @@
    "7933",
    "8000",
    "8238",
+   "8397",
    "8132",
    "7767",
    "8079",
@@ -42626,15 +42739,19 @@
    "7953",
    "7959",
    "7811",
+   "7491",
    "7717",
    "7461",
    "7650",
+   "7465",
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-18T11:46:18",
+  "fecha": "2026-10-18T12:55:36",
   "notas": {
    "7461": "399fc6670871",
+   "7465": "399fc6670871",
+   "7491": "399fc6670871",
    "7531": "399fc6670871",
    "7532": "399fc6670871",
    "7536": "399fc6670871",
@@ -42726,6 +42843,7 @@
    "8361": "399fc6670871",
    "8394": "399fc6670871",
    "8395": "399fc6670871",
+   "8397": "399fc6670871",
    "8465": "399fc6670871",
    "8481": "399fc6670871",
    "8491": "399fc6670871",
@@ -43074,7 +43192,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-18T11:46:50"
+  "revisada": "2026-10-18T12:56:06"
  },
- "ultima_corrida": "2026-10-18T11:46:18"
+ "ultima_corrida": "2026-10-18T12:55:36"
 }
