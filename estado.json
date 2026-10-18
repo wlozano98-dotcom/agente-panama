@@ -37,6 +37,10 @@
    "carpeta": "Tipificación de delitos contra la seguridad alimentaria (ficha 7659)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
+  "7708": {
+   "carpeta": "Empoderamiento económico de mujeres indígenas (ficha 7708)",
+   "comision": "Comisión de Asuntos Indígenas"
+  },
   "7714": {
    "carpeta": "Reforma a la Ley General de Pensión Alimenticia (ficha 7714)",
    "comision": "Comisión de la Mujer, la Niñez y la Familia"
@@ -9491,6 +9495,31 @@
    "titulo": "QUE PRESERVA LAS ROMPIENTES APROPIADAS PARA LA PRACTICA DEPORTIVA"
   },
   "7708": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 6: Declara que el Estado y la empresa privada promoverán el emprendimiento femenino indígena mediante incubadoras y planes de negocios en turismo, gastronomía, agricultura, artesanías y tecnología.",
+     "Artículo 7: Establece que los empleadores deben garantizar la protección de los derechos laborales, condiciones dignas e igualdad de oportunidades para las mujeres indígenas."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1aCSjjHcCJRvXVnbnFQsefeWlsC-8yEGj",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Reitera el deber de los empleadores de tutelar condiciones de trabajo dignas y equitativas para las mujeres indígenas, sin imponer nuevas cargas o trámites obligatorios.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto tiene un enfoque de fomento estatal y declarativo, por lo que su impacto empresarial es bajo al no fijar sanciones, tributos ni exigencias regulatorias concretas a los comercios o industrias.",
+    "resumen": "Establece un marco legal de políticas públicas y programas estatales para fomentar la autonomía y el desarrollo económico de las mujeres indígenas en Panamá. Contempla iniciativas de capacitación a través de AMPYME, creación de incubadoras de negocios y mecanismos de financiamiento para proyectos productivos. Para las empresas, exhorta a la colaboración en emprendimientos y reitera la obligación de asegurar condiciones laborales dignas e igualdad de oportunidades.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Empoderamiento económico de las mujeres indígenas y dicta otras disposiciones",
+    "titulo_corto": "Empoderamiento económico de mujeres indígenas"
+   },
    "anteproyecto": "253",
    "comision": "COMISION DE ASUNTOS INDIGENAS",
    "etapa": "Segundo Debate",
@@ -41214,7 +41243,7 @@
   "7702": "b8be7b918690",
   "7704": "567e14ecabd5",
   "7705": "6946351abc0b",
-  "7708": "08ce3cc7015c",
+  "7708": "98ab16353439",
   "7711": "e0018c323f1b",
   "7712": "e3f2c19cd895",
   "7714": "9bf920ac463f",
@@ -42043,6 +42072,7 @@
    "8032",
    "8077",
    "7998",
+   "7708",
    "7899",
    "7912",
    "7969",
@@ -42057,12 +42087,13 @@
    "7717",
    "7461"
   ],
-  "fecha": "2026-10-18T01:00:26",
+  "fecha": "2026-10-18T01:46:54",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
    "7532": "399fc6670871",
    "7659": "399fc6670871",
+   "7708": "399fc6670871",
    "7714": "399fc6670871",
    "7717": "399fc6670871",
    "7733": "399fc6670871",
@@ -42489,7 +42520,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-18T01:00:53"
+  "revisada": "2026-10-18T01:47:25"
  },
- "ultima_corrida": "2026-10-18T01:00:26"
+ "ultima_corrida": "2026-10-18T01:46:54"
 }
