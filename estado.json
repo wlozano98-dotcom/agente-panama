@@ -5,6 +5,10 @@
    "carpeta": "Protección e inclusión de personas con autismo (TEA) (ficha 7423)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
+  "7428": {
+   "carpeta": "Regulación de la formación dual como modalidad educativa (ficha 7428)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "7456": {
    "carpeta": "Día de los Derechos Humanos (ficha 7456)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -1794,6 +1798,35 @@
    "titulo": "QUE FOMENTA LA ASOCIACION DE LOS PRODUCTORES AGROPECUARIOS EN PANAMA A POR MEDIO DEL COOPERATIVISMO"
   },
   "7428": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 11: Limita la admisión de aprendices en empresas del sector privado hasta el 10% de sus trabajadores permanentes (garantizando un mínimo de un aprendiz).",
+     "Artículos 27 y 28: Dispone que los acuerdos de aprendizaje no generan relación laboral pero obligan a la empresa a pagar una beca mensual y una bonificación final mínima del 10% del total percibido.",
+     "Artículos 29, 34 y 35: Establece que el contrato de aprendizaje con predominio empresarial obliga al pago de salario (70% del salario base el primer año y 90% los siguientes), afiliación a la Caja de Seguro Social, vacaciones y décimo tercer mes.",
+     "Artículo 36: Fija una indemnización por terminación unilateral por parte de la empresa de una semana de salario por cada cuatro meses de servicio, más 15 días de preaviso.",
+     "Artículo 38: Detalla responsabilidades empresariales como suministro de herramientas, aseguramiento contra accidentes o afiliación a la seguridad social y supervisión técnica.",
+     "Artículo 45: Otorga un incentivo fiscal para deducir del impuesto sobre la renta el 200% del monto pagado en salarios o becas en el primer año fiscal, 150% en el segundo y 100% en los siguientes."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1t5aMBjsYv22huVFsWWW6MOsjxwabRaic",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Crea un régimen voluntario de contratación y formación de aprendices con obligaciones laborales y deducciones fiscales aplicables a cualquier empresa que decida participar.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es de carácter general y voluntario para las empresas que participen como formadoras, combinando cargas salariales o de estipendio y seguridad social con un incentivo fiscal sobre la renta.",
+    "resumen": "Regula el marco de formación dual en Panamá combinando formación teórica con práctica técnica dentro de empresas públicas y privadas. Establece figuras jurídicas de vinculación (acuerdo formativo no laboral o contrato de aprendizaje con salario y seguro social) y otorga incentivos fiscales a las empresas participantes que cumplan con los lineamientos del nuevo Consejo Nacional de Formación Dual.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que establece y regula la formación dual como modalidad educativa en el territorio nacional",
+    "titulo_corto": "Regulación de la formación dual como modalidad educativa"
+   },
    "anteproyecto": "20",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -41720,7 +41753,7 @@
   "7423": "a6cce8d8dc5b",
   "7424": "7d1a102a4498",
   "7425": "b20752ed1a16",
-  "7428": "6b6668b5d4bc",
+  "7428": "10dda69d091e",
   "7430": "5e8f31d7287d",
   "7431": "f7eb3a59aa6c",
   "7432": "ffdc6c1f2bd4",
@@ -42740,6 +42773,7 @@
    "7959",
    "7811",
    "7491",
+   "7428",
    "7717",
    "7461",
    "7650",
@@ -42747,8 +42781,9 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-18T12:55:36",
+  "fecha": "2026-10-18T13:45:52",
   "notas": {
+   "7428": "399fc6670871",
    "7461": "399fc6670871",
    "7465": "399fc6670871",
    "7491": "399fc6670871",
@@ -43192,7 +43227,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-18T12:56:06"
+  "revisada": "2026-10-18T13:46:21"
  },
- "ultima_corrida": "2026-10-18T12:55:36"
+ "ultima_corrida": "2026-10-18T13:45:52"
 }
