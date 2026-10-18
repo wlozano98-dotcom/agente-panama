@@ -881,6 +881,10 @@
    "carpeta": "Prórroga del régimen fiscal de Ciudad del Saber (ficha 8613)",
    "comision": "Comisión de Economía y Finanzas"
   },
+  "8621": {
+   "carpeta": "Tratado de extradición entre Panamá y Argentina (ficha 8621)",
+   "comision": "Comisión de Relaciones Exteriores"
+  },
   "8635": {
    "carpeta": "Acceso a viviendas de interés social del Miviot (ficha 8635)",
    "comision": "Comisión de Infraestructura Pública y Asuntos del Canal"
@@ -41396,6 +41400,20 @@
    "titulo": "QUE ESTABLECE MEDIDAS PARA GARANTIZAR LA CONTINUIDAD EDUCATIVA DE LOS ESTUDIANTES QUE PARTICIPEN EN ACTIVIDADES ACADEMICAS, CIENTIFICAS, TECNOLOGICAS, CULTURALES Y ARTISTICAS"
   },
   "8621": {
+   "analisis": {
+    "con_pdf": false,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1bRrCtO5CXQSSB5s23ZxlaJTwNTk2Jhu1",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Se trata de un convenio de cooperación judicial y penal entre Estados que no genera obligaciones, costos ni regulaciones aplicables a las empresas.",
+    "resumen": "Análisis basado solo en el título. La propuesta busca ratificar el tratado bilateral de extradición suscrito entre los gobiernos de Panamá y Argentina. Su objetivo es establecer los mecanismos de cooperación jurídica internacional para la entrega recíproca de personas procesadas o condenadas penalmente. La medida atañe a las autoridades judiciales y no afecta la actividad empresarial ni productiva.",
+    "sectores": [],
+    "titulo": "Que aprueba el Tratado de Extradición entre la República de Panamá y la República Argentina hecho en Panamá el 22 de junio de 2026",
+    "titulo_corto": "Tratado de extradición entre Panamá y Argentina"
+   },
    "anteproyecto": "100",
    "comision": "COMISION DE RELACIONES EXTERIORES",
    "etapa": "Primer Debate",
@@ -42752,7 +42770,7 @@
   "8618": "ed3ef79704bd",
   "8619": "ac114c2c5b64",
   "8620": "1f3dd4623c7b",
-  "8621": "84b90769d6ae",
+  "8621": "35dab1bc040f",
   "8622": "e3716037c412",
   "8623": "84979f8a27a6",
   "8624": "88e552879e7a",
@@ -42883,7 +42901,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-18T15:47:45",
+  "fecha": "2026-10-18T16:47:38",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -43331,7 +43349,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-18T15:48:16"
+  "revisada": "2026-10-18T16:48:08"
  },
- "ultima_corrida": "2026-10-18T15:47:45"
+ "ultima_corrida": "2026-10-18T16:47:38"
 }
