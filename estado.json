@@ -501,6 +501,10 @@
    "carpeta": "Sanciones por disparos al aire (ficha 8248)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
+  "8253": {
+   "carpeta": "Programa de incentivos de empleo a resocializados (ficha 8253)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
   "8255": {
    "carpeta": "Declaratoria patrimonial del Archivo Nacional (ficha 8255)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -28658,6 +28662,28 @@
    "titulo": "QUE ESTABLECE EL MARCO JURIDICO PARA EL DERECHO DEL ACCESO AL AGUA POTABLE, DICTA MEDIDAS PARA SU CONVERSACION E INCENTIVA SU PROTECCION Y LA DEL AMBIENTE DE ACUERDO CON LOS ESTANDARES INTERNACIONALES"
   },
   "8253": {
+   "analisis": {
+    "con_pdf": false,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/13aXd28ed15EwdfksTDs-L4e9tqIWEgWw",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Plantea incentivos laborales o fiscales de carácter voluntario para empleadores que contraten a personas resocializadas.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es bajo y transversal, ya que se trataría de un esquema de estímulos e incentivos de contratación voluntaria que no impone cargas operativas ni tributarias obligatorias.",
+    "resumen": "Análisis basado solo en el título. La iniciativa busca establecer un programa enfocado en facilitar la inserción laboral de personas resocializadas a través de incentivos. Afecta potencialmente a las empresas del sector privado que decidan participar, ofreciéndoles posibles beneficios o estímulos por la contratación de este grupo de la población.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Por la cual se crea el programa de incentivos y oportunidades de empleo a resocializados",
+    "titulo_corto": "Programa de incentivos de empleo a resocializados"
+   },
    "anteproyecto": "227",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Segundo Debate(Objetado)",
@@ -41716,7 +41742,7 @@
   "8250": "6b43b6543153",
   "8251": "5e18be528e72",
   "8252": "3210a08a9ee4",
-  "8253": "2b6c8bbda84e",
+  "8253": "5e4e33e643cc",
   "8254": "22b994a4f45d",
   "8255": "9b7100713d0a",
   "8256": "244cfa669c53",
@@ -42150,6 +42176,7 @@
    "8108",
    "7840",
    "8032",
+   "8253",
    "8077",
    "7998",
    "7708",
@@ -42167,7 +42194,7 @@
    "7717",
    "7461"
   ],
-  "fecha": "2026-10-18T05:46:29",
+  "fecha": "2026-10-18T06:57:38",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -42229,6 +42256,7 @@
    "8235": "399fc6670871",
    "8238": "399fc6670871",
    "8243": "399fc6670871",
+   "8253": "399fc6670871",
    "8257": "399fc6670871",
    "8263": "399fc6670871",
    "8266": "399fc6670871",
@@ -42601,7 +42629,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-18T05:47:00"
+  "revisada": "2026-10-18T06:58:13"
  },
- "ultima_corrida": "2026-10-18T05:46:29"
+ "ultima_corrida": "2026-10-18T06:57:38"
 }
