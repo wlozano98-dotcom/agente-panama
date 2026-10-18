@@ -877,6 +877,10 @@
    "carpeta": "Creación del Documento de Identidad Sanitaria (DIS) (ficha 8609)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
+  "8612": {
+   "carpeta": "Calificación de Laboratorio de Interés Nacional a las AIP (ficha 8612)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "8613": {
    "carpeta": "Prórroga del régimen fiscal de Ciudad del Saber (ficha 8613)",
    "comision": "Comisión de Economía y Finanzas"
@@ -41199,6 +41203,20 @@
    "titulo": "QUE ESTABLECE INCENTIVOS PARA EL DESARROLLO TURISTICO"
   },
   "8612": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1gb3SMcM8LyWJH7qLUmlFgN3QaDiuPGCC",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa está dirigida de manera estricta a entidades sin fines de lucro bajo la figura de Asociaciones de Interés Público (AIP) y la SENACYT, por lo que no impone obligaciones, costos ni regulaciones a las empresas privadas.",
+    "resumen": "Crea el marco jurídico y los criterios de evaluación para certificar a Asociaciones de Interés Público (AIP) de investigación científica y tecnológica como Laboratorios de Interés Nacional. Establece requisitos de mérito, porcentaje mínimo de investigadores y evaluaciones por pares internacionales coordinadas por la SENACYT. Permite a los laboratorios calificados acceder a incentivos presupuestarios estatales y coordinar el uso de su infraestructura científica con investigadores externos.",
+    "sectores": [],
+    "titulo": "Que establece el marco jurídico para el otorgamiento de la calificación de Laboratorio de Interés Nacional, dirigido a las asociaciones de interés público que se dedican a la investigación científica, el desarrollo tecnológico y la innovación",
+    "titulo_corto": "Calificación de Laboratorio de Interés Nacional a las AIP"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Primer Debate",
@@ -42815,7 +42833,7 @@
   "8609": "3d927ce7f542",
   "8610": "dc5c11fa60f2",
   "8611": "cd7a699d5022",
-  "8612": "82a2eb88bf4a",
+  "8612": "15bee8237dc5",
   "8613": "05945d5c0bb1",
   "8614": "298c77bada24",
   "8615": "b2b971f511da",
@@ -42955,7 +42973,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-18T21:46:11",
+  "fecha": "2026-10-18T22:44:25",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -43403,7 +43421,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-18T21:46:44"
+  "revisada": "2026-10-18T22:45:01"
  },
- "ultima_corrida": "2026-10-18T21:46:11"
+ "ultima_corrida": "2026-10-18T22:44:25"
 }
