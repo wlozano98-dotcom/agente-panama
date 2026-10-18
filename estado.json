@@ -1,5 +1,5 @@
 {
- "comisiones_revisadas": "2026-10-18T03:50:40",
+ "comisiones_revisadas": "2026-10-18T10:47:47",
  "drive": {
   "7423": {
    "carpeta": "Protección e inclusión de personas con autismo (TEA) (ficha 7423)",
@@ -24,6 +24,14 @@
   "7532": {
    "carpeta": "Evaluación y transparencia de incentivos tributarios (ficha 7532)",
    "comision": "Comisión de Economía y Finanzas"
+  },
+  "7536": {
+   "carpeta": "Protección de la indemnidad sexual de menores (ficha 7536)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "7537": {
+   "carpeta": "Creación del Programa de Educación Fiscal (ficha 7537)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
   },
   "7538": {
    "carpeta": "Extensión del régimen de intereses preferenciales hipotecarios (ficha 7538)",
@@ -4748,6 +4756,32 @@
    "titulo": "POR LA CUAL SE MODIFICA LOS ARTICULOS 412, 413, 414, 417, 418, 419, 420 Y 50 DEL CODIGO PENAL"
   },
   "7536": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 4 (Texto Único - subroga Título III, adiciona Art. 192 al Código Penal): Sanciona la omisión de denunciar delitos contra la indemnidad sexual conocidos por razón de negocio, oficio o cargo.",
+     "Artículo 12 (Texto Único - modifica Art. 333 del Código Procesal Penal, numerales 4 y 5): Establece que es de obligatorio cumplimiento para el empleador acatar la orden judicial de reubicación laboral del presunto agresor o de la víctima.",
+     "Artículo 13 (Texto Único - modifica Art. 18 de la Ley 69 de 2007): Delimita a diez años la información de condenas que se incluirá en el certificado de antecedentes para fines laborales y prohíbe cederla sin autorización."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1LWbsHjStL2qTybd4gM1MwNDb_PgIFG9L",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Impone a los empleadores el cumplimiento obligatorio de órdenes judiciales de reubicación laboral y regula el uso de antecedentes penales para contratación.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Aunque se trata de una ley penal y procesal, genera repercusiones operativas menores en el ámbito laboral de cualquier empresa ante medidas cautelares judiciales de reubicación de empleados.",
+    "resumen": "Reforma el Código Penal y el Código Procesal Penal para endurecer las penas contra delitos sexuales y proteger la indemnidad sexual de los menores de edad. Asimismo, introduce medidas de protección que involucran a empleadores en reubicaciones de personal investigado o afectado, y actualiza los criterios para la expedición y manejo de certificados de antecedentes policiales con fines de contratación laboral.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que establece la protección de la integridad e indemnidad sexual de las personas menores de edad y modifica el Código Penal, el Código Procesal Penal y la Ley 69 de 2007",
+    "titulo_corto": "Protección de la indemnidad sexual de menores"
+   },
    "anteproyecto": "120",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Segundo Debate",
@@ -4786,6 +4820,23 @@
    "titulo": "QUE ESTABLECE LA PROTECCION DE LA INTEGRIDAD E INDEMNIDAD SEXUAL DE LAS PERSONAS MENORES DE EDAD Y MODIFICA EL CODIGO PENAL, EL CODIGO PROCESAL PENAL Y LA LEY 69 DE 2007"
   },
   "7537": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 13: Propone la creación de Núcleos de Apoyo Contable y Fiscal (NAF) en universidades para ofrecer asistencia técnica y asesoría tributaria a micro, pequeñas y medianas empresas (MYPES).",
+     "Artículo 14: Dispone que los estudiantes universitarios de los NAF, supervisados por la Dirección General de Ingresos, asesorarán a las MYPES en el cumplimiento de sus deberes fiscales."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1lgAP3V7GwaI6g6ZDNfQTwf5U-eS2l1aG",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto es estrictamente pedagógico e institucional; no modifica tarifas, no crea nuevas obligaciones ni impone cargas administrativas ni sanciones a las empresas.",
+    "resumen": "Propone implementar un programa formal e informal de educación fiscal coordinado entre el MEDUCA y la Dirección General de Ingresos (DGI) para fomentar la cultura tributaria ciudadana. Además, plantea habilitar Núcleos de Apoyo Contable y Fiscal (NAF) en universidades para brindar orientación y asesoría tributaria gratuita a micro, pequeñas y medianas empresas.",
+    "sectores": [],
+    "titulo": "Que establece el Programa de Educación Fiscal en la República de Panamá",
+    "titulo_corto": "Creación del Programa de Educación Fiscal"
+   },
    "anteproyecto": "121",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -41567,8 +41618,8 @@
   "7532": "b852a58ac39f",
   "7533": "ee38155d6190",
   "7535": "6623f1e994f7",
-  "7536": "0d7e1a5fd1b6",
-  "7537": "8ed0dfee3923",
+  "7536": "16e576b131b8",
+  "7537": "31f8f5e5ec51",
   "7538": "2462d990f06a",
   "7539": "3e86fcd3e24e",
   "7540": "5c1c7506f00a",
@@ -42521,13 +42572,15 @@
    "7717",
    "7461",
    "7650",
+   "7536",
    "7538"
   ],
-  "fecha": "2026-10-18T09:53:01",
+  "fecha": "2026-10-18T10:50:11",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
    "7532": "399fc6670871",
+   "7536": "399fc6670871",
    "7538": "399fc6670871",
    "7554": "399fc6670871",
    "7609": "399fc6670871",
@@ -42964,7 +43017,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-18T09:53:29"
+  "revisada": "2026-10-18T10:50:41"
  },
- "ultima_corrida": "2026-10-18T09:53:01"
+ "ultima_corrida": "2026-10-18T10:50:11"
 }
