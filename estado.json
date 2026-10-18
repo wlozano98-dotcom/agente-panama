@@ -1,6 +1,18 @@
 {
  "comisiones_revisadas": "2026-10-18T10:47:47",
  "drive": {
+  "7404": {
+   "carpeta": "Obligatoriedad de educación media y preescolar (ficha 7404)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "7405": {
+   "carpeta": "Transparencia patrimonial de altos servidores públicos (ficha 7405)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "7406": {
+   "carpeta": "Plan de resocialización para personas en situación de calle (ficha 7406)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
   "7419": {
    "carpeta": "Ruta ecoturística Cuatro Caras de la Naturaleza (ficha 7419)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
@@ -944,6 +956,22 @@
    "titulo": "QUE ESTABLECE NORMAS MINIMAS DE TRANSPARENCIA EN EL OTORGAMIENTO DE BECAS EN LA REPUBLICA DE PANAMA"
   },
   "7404": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 3 (Texto Único de primer debate): Recomienda a las empresas privadas establecer centros de educación inicial bajo orientación del Ministerio de Educación, sin fijar obligatoriedad ni sanciones."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1A0gR-euXf-zeNRctnylbWMFohfn9YJAe",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No genera impacto regulatorio ni económico sobre las empresas. El proyecto está enfocado en la estructura escolar del Estado y su única mención al sector privado es una recomendación no vinculante de habilitar centros de educación inicial, sin crear obligaciones, cargas patronales ni sanciones.",
+    "resumen": "La iniciativa modifica la Ley Orgánica de Educación para declarar obligatorio y universal el nivel preescolar (de 4 a 5 años) y garantizar la gratuidad de la educación media. Asimismo, en el texto aprobado en primer debate, impone al Estado la obligación de crear centros de educación inicial e incluye una recomendación voluntaria dirigida al sector privado.",
+    "sectores": [],
+    "titulo": "Que establece la obligatoriedad de la educación en el segundo nivel de enseñanza o educación media desde el nivel preescolar",
+    "titulo_corto": "Obligatoriedad de educación media y preescolar"
+   },
    "anteproyecto": "2",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -982,6 +1010,23 @@
    "titulo": "QUE ESTABLECE LA OBLIGATORIEDAD DE LA EDUCACION EN EL SEGUNDO NIVEL DE ENSEÑANZA O EDUCACION MEDIA DESDE EL NIVEL PREESCOLAR"
   },
   "7405": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 3, numeral 5: Dispone que los funcionarios con acciones o cuotas en personas jurídicas deben adjuntar una certificación emitida por el representante legal o secretario de la sociedad.",
+     "Artículo 7, numerales 3 y 4: Obliga a los servidores públicos a declarar concesiones, contratos estatales, condición de proveedores y vínculos comerciales o laborales con empresas contratistas o concesionarias del Estado."
+    ],
+    "drive": "https://drive.google.com/drive/folders/18H87uozp6w8ub1FPFmjZvbAGJi_O0eFa",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa se circunscribe al régimen de transparencia y deberes éticos de los servidores públicos, sin crear tributos, regulaciones sectoriales ni obligaciones operativas directas para las empresas.",
+    "resumen": "Propone ampliar la lista de funcionarios obligados a presentar declaraciones juradas de estado patrimonial y de intereses a cargos como diputados, alcaldes, directores y miembros de juntas directivas estatales. Asimismo, detalla el contenido financiero exigido y establece que dicha información sea de libre acceso público a través de las plataformas digitales de la Contraloría General y de la ANTAI.",
+    "sectores": [],
+    "titulo": "Que transparenta las gestiones de los servidores públicos de alta jerarquía",
+    "titulo_corto": "Transparencia patrimonial de altos servidores públicos"
+   },
    "anteproyecto": "3",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Segundo Debate",
@@ -1045,6 +1090,31 @@
    "titulo": "QUE TRANSPARENTA LAS GESTIONES DE LOS SERVIDORES PUBLICOS DE ALTA JERARQUIA"
   },
   "7406": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 42: Faculta a las entidades responsables a suscribir convenios de cooperación con el sector privado y gremios para abrir espacios de capacitación, pasantías y empleo.",
+     "Artículo 65: Dispone que el Órgano Ejecutivo establecerá mecanismos de reconocimiento e incentivos fiscales para las empresas que participen en los programas del plan."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1-IKFzzuu2FJ3O0C_txpG2KZhm5v-ku-2",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Habilita esquemas de cooperación voluntaria para capacitación e inserción laboral respaldados por eventuales incentivos fiscales reglamentarios.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa es de política social y asistencial del Estado; no impone cargas tributarias ni obligaciones laborales forzosas sobre el sector privado, contemplando únicamente participación voluntaria sujeta a incentivos.",
+    "resumen": "Establece un marco institucional y operativo integral para la atención, rehabilitación médica y psicológica, y resocialización de personas en situación de calle en Panamá. Crea una comisión interinstitucional y centros de acogida a nivel territorial, promoviendo su formación técnica y progresiva reinserción laboral. Afecta principalmente a entidades públicas de asistencia social y justicia comunitaria, e involucra al sector privado mediante esquemas voluntarios de empleo e incentivos fiscales.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que crea el Plan Nacional Integral de Rehabilitación y Resocialización para Personas en Situación de Calle en la República de Panamá, y modifica la Ley 467 de 2025, Que instituye la Justicia Comunitaria de Paz",
+    "titulo_corto": "Plan de resocialización para personas en situación de calle"
+   },
    "anteproyecto": "4",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Segundo Debate",
@@ -41764,9 +41834,9 @@
  },
  "huellas_base": {
   "7403": "a89f1040a194",
-  "7404": "d93135d21a47",
-  "7405": "ff3ae68265ca",
-  "7406": "76cefb692f64",
+  "7404": "f26ef4ed5d98",
+  "7405": "148385b4ce33",
+  "7406": "4b2669432bb4",
   "7408": "c0478fd9116d",
   "7410": "5c229442f490",
   "7411": "612a06cf4640",
@@ -42720,6 +42790,7 @@
    "8349",
    "7750",
    "8516",
+   "7406",
    "7968",
    "7785",
    "8082",
@@ -42812,8 +42883,9 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-18T14:45:54",
+  "fecha": "2026-10-18T15:47:45",
   "notas": {
+   "7406": "399fc6670871",
    "7419": "399fc6670871",
    "7428": "399fc6670871",
    "7461": "399fc6670871",
@@ -43259,7 +43331,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-18T14:46:21"
+  "revisada": "2026-10-18T15:48:16"
  },
- "ultima_corrida": "2026-10-18T14:45:54"
+ "ultima_corrida": "2026-10-18T15:47:45"
 }
