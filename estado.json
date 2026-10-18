@@ -37,6 +37,10 @@
    "carpeta": "Tipificación de delitos contra la seguridad alimentaria (ficha 7659)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
+  "7694": {
+   "carpeta": "Programa de cine educativo y teatro en comunidades rurales (ficha 7694)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "7701": {
    "carpeta": "Política integral contra el acoso escolar y social (ficha 7701)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -9078,6 +9082,20 @@
    "titulo": "QUE MODIFICA ARTICULOS DEL CODIGO PENAL Y CODIGO PROCESAL PENAL DE PANAMA, SOBRE LOS DELITOS CONTRA EL HONOR DE LA PERSONA NATURAL Y LA PRESUNCION DE INOCENCIA"
   },
   "7694": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1O3pxpH1RIBseWBKTjL1nrJG_2m6SpK0j",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No crea regulaciones, obligaciones, impuestos ni trámites para las empresas; es un programa de política pública cultural y educativa enfocado en comunidades rurales.",
+    "resumen": "La iniciativa crea un programa gubernamental coordinado por el Ministerio de Cultura y el Ministerio de Educación para realizar proyecciones audiovisuales educativas y talleres de teatro en escuelas y áreas rurales. Los costos serán cubiertos mediante partidas asignadas por el Estado. No impone cargas ni regulaciones a la actividad empresarial.",
+    "sectores": [],
+    "titulo": "Por la cual se establece el programa nacional de proyecciones audiovisuales educativas y el fomento del teatro y arte en comunidades rurales",
+    "titulo_corto": "Programa de cine educativo y teatro en comunidades rurales"
+   },
    "anteproyecto": "240",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -41294,7 +41312,7 @@
   "7691": "9ef5e01d107d",
   "7692": "1438659f4328",
   "7693": "a040c0f2b9e5",
-  "7694": "1ef7d1f6b3b5",
+  "7694": "32603c119040",
   "7695": "2c8c417441e6",
   "7696": "a382acdc92b5",
   "7698": "9eeecf640f3e",
@@ -42149,7 +42167,7 @@
    "7717",
    "7461"
   ],
-  "fecha": "2026-10-18T04:49:19",
+  "fecha": "2026-10-18T05:46:29",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -42583,7 +42601,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-18T04:49:47"
+  "revisada": "2026-10-18T05:47:00"
  },
- "ultima_corrida": "2026-10-18T04:49:19"
+ "ultima_corrida": "2026-10-18T05:46:29"
 }
