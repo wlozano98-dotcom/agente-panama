@@ -33,6 +33,22 @@
    "carpeta": "Política nacional de orientación vocacional (ficha 7622)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
+  "7650": {
+   "carpeta": "Tipificación del contrabando y trasiego ilícito de alimentos (ficha 7650)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "7654": {
+   "carpeta": "Ley General de Deporte (ficha 7654)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "7655": {
+   "carpeta": "Carteles de prevención contra la violencia infantil (ficha 7655)",
+   "comision": "Comisión de la Mujer, la Niñez y la Familia"
+  },
+  "7656": {
+   "carpeta": "Reforma a la ley de enfermedades raras y huérfanas (ficha 7656)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
   "7659": {
    "carpeta": "Tipificación de delitos contra la seguridad alimentaria (ficha 7659)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
@@ -7928,6 +7944,38 @@
    "titulo": "QUE MODIFICA LA LEY 86 DE 2010, MODIFICADA POR LA LEY 15 DE 2014 SOBRE EL PROGRAMA B/.120.00 A LOS 65"
   },
   "7650": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2 (adiciona art. 311-A al Código Penal): Sanciona con 2 a 4 años de prisión a quien introduzca o extraiga alimentos eludiendo permisos fitosanitarios, zoosanitarios y de inocuidad alimentaria.",
+     "Artículo 3 (adiciona art. 311-B al Código Penal): Castiga con prisión de 3 a 5 años a quien a sabiendas transporte alimentos que no cumplan con los permisos correspondientes dentro del país.",
+     "Artículo 4 (adiciona art. 311-C al Código Penal): Fija pena de 4 a 7 años de prisión para quien comercialice, almacene, reempaque, rompa la trazabilidad, reetiquete, combine o procese alimentos sin los permisos requeridos."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1CYyVWDGuKFGjGAkWE4YTDr3sAj2Vs3pw",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Establece penas de prisión por comercializar, almacenar, procesar, reetiquetar o alterar la trazabilidad de alimentos que carezcan de permisos sanitarios o fitosanitarios.",
+      "sector": "ALIMENTOS"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Sanciona con penas de 3 a 5 años de prisión a transportistas de carga que trasladen a sabiendas alimentos sin los permisos correspondientes.",
+      "sector": "TRANSPORTE"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Penaliza severamente la falta de permisos e irregularidades en la cadena de custodia alimentaria, obligando a los operadores del sector y transportistas a reforzar sus controles de trazabilidad y debida diligencia.",
+    "resumen": "El proyecto tipifica en el Código Penal los delitos contra el trasiego irregular y contrabando de alimentos de origen animal o vegetal destinados al consumo humano. Establece penas de prisión para quienes introduzcan, transporten, comercialicen, almacenen, reempaquen o procesen alimentos eludiendo permisos fito o zoosanitarios y de inocuidad. Afecta directamente a empresas importadoras, distribuidoras, procesadoras y de logística de alimentos.",
+    "sectores": [
+     "ALIMENTOS",
+     "TRANSPORTE"
+    ],
+    "titulo": "Que adiciona normas al Código Penal para sancionar el contrabando de alimentos en la República de Panamá",
+    "titulo_corto": "Tipificación del contrabando y trasiego ilícito de alimentos"
+   },
    "anteproyecto": "210",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Segundo Debate",
@@ -8087,6 +8135,20 @@
    "titulo": "QUE MODIFICA LA LEY 244 DE 2021, QUE CREA EL SISTEMA NACIONAL DE REGISTRO OFICIAL DE OFENSORES SEXUALES"
   },
   "7654": {
+   "analisis": {
+    "con_pdf": false,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/16Ohni0wZlZry2wV7Xpsetjse_nnAnsc4",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto se enfoca en la gobernanza deportiva y políticas públicas de recreación, por lo que no establece obligaciones, costos ni cargas regulatorias directas sobre el sector empresarial.",
+    "resumen": "Análisis basado solo en el título. El proyecto busca establecer un marco normativo general para el fomento, financiamiento y administración del deporte en el país. Su alcance se orienta principalmente al ámbito institucional de las entidades públicas deportivas, federaciones, clubes y deportistas, sin contemplar de manera evidente medidas que afecten la operativa empresarial ordinaria.",
+    "sectores": [],
+    "titulo": "Que dicta la Ley General de Deporte",
+    "titulo_corto": "Ley General de Deporte"
+   },
    "anteproyecto": "213",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -8140,6 +8202,38 @@
    "titulo": "QUE DICTA LA LEY GENERAL DE DEPORTE"
   },
   "7655": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Texto Único, Artículo 2: Establece la obligación para centros comerciales, aeropuertos, empresas prestadoras de servicios públicos, plataformas digitales y centros educativos privados de exhibir y difundir permanentemente carteles o anuncios preventivos físicos o digitales.",
+     "Texto Único, Artículo 4: Define el contenido mínimo obligatorio que deben incluir los carteles y materiales divulgativos (información, canales de denuncia y líneas de emergencia).",
+     "Texto Único, Artículo 5: Dispone la realización de campañas anuales de concienciación durante el mes de noviembre en medios de comunicación y plataformas digitales."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1ZKmlbPNW8xshRcnXWUO52AZp2y73EUKV",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Obliga a aeropuertos y operadores privados de servicios públicos de transporte a disponer de espacios físicos o digitales para carteles de prevención.",
+      "sector": "TRANSPORTE"
+     },
+     {
+      "nivel": "bajo",
+      "razon": "Exige a los centros comerciales exhibir material gráfico físico o digital con mensajes y líneas de denuncia contra la violencia infantil.",
+      "sector": "OTROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es bajo y exclusivamente operativo, ya que solo impone a ciertos comercios y operadores de transporte exhibir afiches o anuncios informativos de servicio público.",
+    "resumen": "Propone hacer obligatoria la exhibición y difusión permanente de carteles y campañas de concienciación contra el abuso y la violencia hacia niños y adolescentes. Afecta principalmente a administradores de centros comerciales, aeropuertos, concesionarios de transporte público, plataformas digitales y colegios privados. En el texto único aprobado en primer debate se suprimieron las sanciones económicas originalmente contempladas.",
+    "sectores": [
+     "TRANSPORTE",
+     "OTROS"
+    ],
+    "titulo": "Que establece la promoción visual de carteles informativos y campañas de concienciación para la prevención del abuso sexual en niños y adolescentes",
+    "titulo_corto": "Carteles de prevención contra la violencia infantil"
+   },
    "anteproyecto": "215",
    "comision": "COMISION DE LA MUJER, LA NIÑEZ Y LA FAMILIA",
    "etapa": "Segundo Debate",
@@ -8188,6 +8282,38 @@
    "titulo": "QUE ESTABLECE LA PROMOCION VISUAL DE CARTELES INFORMATIVOS Y CAMPAÑAS DE CONCIENCIACIÓN PARA LA PREVENCIÓN DEL ABUSO SEXUAL EN NIÑOS Y ADOLESCENTES"
   },
   "7656": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 3 (modifica el artículo 3 de la Ley 28 de 2014): Establece que los seguros privados tienen la responsabilidad de atender a los pacientes diagnosticados con enfermedades raras, poco frecuentes y huérfanas.",
+     "Artículo 5 (adiciona el artículo 4-A a la Ley 28 de 2014): Obliga a todos los establecimientos de salud privados a remitir un informe anual al Ministerio de Salud con datos epidemiológicos, diagnósticos y tratamientos de casos atendidos.",
+     "Artículo 13 (modifica el artículo 9 de la Ley 28 de 2014): Autoriza al MINSA y a la CSS mecanismos de negociación y compra con agentes de la industria farmacéutica y procedimientos abreviados o excepcionales de registro sanitario para medicamentos e insumos."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1-a1PYpg5DxJcSjquvjMEuWv0apKQJPYv",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Obliga a las clínicas y hospitales privados a reportar anualmente información epidemiológica al MINSA y crea vías excepcionales de compra y registro sanitario para la industria farmacéutica.",
+      "sector": "SALUD"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Asigna a las aseguradoras privadas la responsabilidad expresa de atender y dar cobertura a pacientes con enfermedades raras, lo que incide en sus pólizas de salud.",
+      "sector": "SEGUROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Genera obligaciones operativas y de reporte clínico para hospitales y clínicas privadas, impacta las coberturas contractuales de los seguros de salud privados y establece canales expeditos de registro sanitario y compras públicas para proveedores farmacéuticos.",
+    "resumen": "La iniciativa reforma el marco de atención y cobertura de las enfermedades raras, poco frecuentes y huérfanas en Panamá. Establece responsabilidades de atención integral compartidas entre el sistema público y las aseguradoras privadas, e impone obligaciones de reporte epidemiológico anual a los centros médicos privados. Asimismo, autoriza esquemas especiales de negociación, adquisición pública y registros sanitarios expeditos para medicamentos de la industria farmacéutica.",
+    "sectores": [
+     "SALUD",
+     "SEGUROS"
+    ],
+    "titulo": "Que modifica y adiciona artículos de la Ley 28 de 2014, que garantiza la protección social a la población que padece enfermedades raras, poco frecuentes y huérfanas",
+    "titulo_corto": "Reforma a la ley de enfermedades raras y huérfanas"
+   },
    "anteproyecto": "214",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Segundo Debate",
@@ -41314,12 +41440,12 @@
   "7645": "db8ab4a2386b",
   "7647": "4be166996ce0",
   "7649": "ecce556fbf93",
-  "7650": "e6101a2e9c32",
+  "7650": "f7d8d95ef0c9",
   "7652": "def1b68d9a89",
   "7653": "7ea118ab1048",
-  "7654": "5a9f4f2d3656",
-  "7655": "fb2675b5571b",
-  "7656": "006165c652d6",
+  "7654": "9cc6909c26ac",
+  "7655": "50ad4ded2f7e",
+  "7656": "d7a5ab90244a",
   "7657": "91fdfe058ad6",
   "7658": "2467da2ade4a",
   "7659": "8589c3999a18",
@@ -42107,6 +42233,7 @@
    "8609",
    "8546",
    "8613",
+   "7656",
    "8302",
    "8304",
    "8177",
@@ -42168,6 +42295,7 @@
    "8243",
    "7659",
    "8063",
+   "7655",
    "8094",
    "8058",
    "8179",
@@ -42192,13 +42320,17 @@
    "7959",
    "7811",
    "7717",
-   "7461"
+   "7461",
+   "7650"
   ],
-  "fecha": "2026-10-18T06:57:38",
+  "fecha": "2026-10-18T07:50:44",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
    "7532": "399fc6670871",
+   "7650": "399fc6670871",
+   "7655": "399fc6670871",
+   "7656": "399fc6670871",
    "7659": "399fc6670871",
    "7705": "399fc6670871",
    "7708": "399fc6670871",
@@ -42629,7 +42761,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-18T06:58:13"
+  "revisada": "2026-10-18T07:51:15"
  },
- "ultima_corrida": "2026-10-18T06:57:38"
+ "ultima_corrida": "2026-10-18T07:50:44"
 }
