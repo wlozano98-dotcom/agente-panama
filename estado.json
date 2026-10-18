@@ -885,6 +885,10 @@
    "carpeta": "Tratado de extradición entre Panamá y Argentina (ficha 8621)",
    "comision": "Comisión de Relaciones Exteriores"
   },
+  "8622": {
+   "carpeta": "Convenio de la Agencia Latinoamericana y Caribeña del Espacio (ficha 8622)",
+   "comision": "Comisión de Relaciones Exteriores"
+  },
   "8635": {
    "carpeta": "Acceso a viviendas de interés social del Miviot (ficha 8635)",
    "comision": "Comisión de Infraestructura Pública y Asuntos del Canal"
@@ -41437,6 +41441,20 @@
    "titulo": "QUE APRUEBA EL TRATADO DE EXTRADICION ENTRE LA REPUBLICA DE PANAMA Y LA REPUBLICA ARGENTINA HECHO EN PANAMA EL 22 DE JUNIO DE 2026."
   },
   "8622": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/17X4J5R0_RbutkV5XbTUE41uhILMKlcAp",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Se trata de un tratado intergubernamental de cooperación científica y espacial que no genera obligaciones, restricciones, regulaciones ni costos para el sector empresarial privado.",
+    "resumen": "Aprueba el convenio internacional que establece la Agencia Latinoamericana y Caribeña del Espacio (ALCE) como organismo intergubernamental de carácter técnico y científico. Su propósito es fomentar la cooperación regional en investigación espacial, desarrollo satelital, conectividad y observación terrestre para mitigación de desastres. Afecta a entidades estatales en materia de política exterior y cooperación científica sin regular actividades comerciales.",
+    "sectores": [],
+    "titulo": "Que aprueba el Convenio Constitutivo de la Agencia Latinoamericana y Caribeña del Espacio, hecho en la Ciudad de México, el 18 de septiembre de 2021",
+    "titulo_corto": "Convenio de la Agencia Latinoamericana y Caribeña del Espacio"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE RELACIONES EXTERIORES",
    "etapa": "Primer Debate",
@@ -42771,7 +42789,7 @@
   "8619": "ac114c2c5b64",
   "8620": "1f3dd4623c7b",
   "8621": "35dab1bc040f",
-  "8622": "e3716037c412",
+  "8622": "aefd7444e85c",
   "8623": "84979f8a27a6",
   "8624": "88e552879e7a",
   "8625": "b0026feb65af",
@@ -42901,7 +42919,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-18T18:48:22",
+  "fecha": "2026-10-18T19:41:54",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -43349,7 +43367,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-18T18:48:49"
+  "revisada": "2026-10-18T19:42:33"
  },
- "ultima_corrida": "2026-10-18T18:48:22"
+ "ultima_corrida": "2026-10-18T19:41:54"
 }
