@@ -13,9 +13,21 @@
    "carpeta": "Uso obligatorio de sillas de retención infantil (ficha 7461)",
    "comision": "Comisión de Comunicación y Transporte"
   },
+  "7489": {
+   "carpeta": "Reforma a la Ley del IFARHU sobre becas y auxilios (ficha 7489)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "7496": {
+   "carpeta": "Preservación de monumentos históricos por caso fortuito (ficha 7496)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "7511": {
    "carpeta": "Día del desfile del vestido ngäbe-buglé y campesino (ficha 7511)",
    "comision": "Comisión de Asuntos Indígenas"
+  },
+  "7527": {
+   "carpeta": "Estrategia de servicios psicoeducativos y de apoyo escolar (ficha 7527)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
   },
   "7531": {
    "carpeta": "Reforma al seguro obligatorio básico de accidentes de tránsito (ficha 7531)",
@@ -3239,6 +3251,20 @@
    "titulo": "QUE CREA UN PROGRAMA ESPECIAL DE ASISTENCIA INTEGRAL DOMICILIARIA DEL ADULTO MAYOR CON DISCAPACIDAD, EN CONDICION DE DEPENDENCIA Y DICTA OTRAS DISPOSICIONES"
   },
   "7489": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1WR8AvBxVLCQz2snSUNPVwWYUXYvaAdQY",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto se circunscribe a la administración interna, transparencia y gobernanza del IFARHU en la asignación de fondos públicos educativos, por lo que no impone obligaciones, costos ni modificaciones regulatorias a la actividad empresarial.",
+    "resumen": "Reforma la estructura interna y los procedimientos del IFARHU para regular el otorgamiento de becas, préstamos y auxilios económicos estatales. Establece una Comisión Técnica de Evaluación para adjudicar beneficios con base en méritos y necesidad socioeconómica comprobada, eliminando la discrecionalidad política. Además, exige la creación de un portal digital único de datos abiertos para transparentar los listados de beneficiarios y montos asignados.",
+    "sectores": [],
+    "titulo": "Que modifica y adiciona la Ley 1 de 11 de enero de 1965 (conforme ha sido reformada), por medio de la cual se crea el Instituto para la Formación y Aprovechamiento de Recursos Humanos, que modifica el Consejo Nacional un director general y un subdirector general y crea una Comisión Técnico de Evaluación, en el otorgamiento de becas, préstamos, auxilios y otras prestaciones económicas de la República de Panamá",
+    "titulo_corto": "Reforma a la Ley del IFARHU sobre becas y auxilios"
+   },
    "anteproyecto": "77",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -3459,6 +3485,23 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 106 DE 1973, SOBRE REGIMEN MUNICIPAL"
   },
   "7496": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 130: Precisa que la fiscalización sobre el cumplimiento de normativas de conservación se exceptúa cuando la intervención requerida sea consecuencia directa de un caso fortuito.",
+     "Artículo 130-A: Habilita a administradores de monumentos históricos que carezcan de recursos a solicitar apoyo técnico y financiero al Ministerio de Cultura para obras de restauración tras sucesos de fuerza mayor."
+    ],
+    "drive": "https://drive.google.com/drive/folders/17P3NHCxuk98yqwJgSB33xfaACDJJH1tf",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No impone costos, tributos ni exigencias operativas al sector empresarial; únicamente establece un mecanismo de asistencia estatal para el rescate patrimonial ante desastres naturales.",
+    "resumen": "La iniciativa faculta al Ministerio de Cultura para coordinar y financiar de forma parcial o total la rehabilitación de monumentos históricos afectados por desastres naturales o eventos fortuitos. Esta medida aplica en casos donde los propietarios, administradores particulares, patronatos o instituciones eclesiásticas justifiquen no contar con los recursos económicos para su reparación.",
+    "sectores": [],
+    "titulo": "Que modifica la Ley 175 de 2020, a fin de asegurar la preservación de monumentos históricos ante sucesos originados por caso fortuito",
+    "titulo_corto": "Preservación de monumentos históricos por caso fortuito"
+   },
    "anteproyecto": "84",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -4373,6 +4416,20 @@
    "titulo": "QUE REFORMA LA LEY 79 DE 2011, SOBRE TRATA DE PERSONAS Y ACTIVIDADES CONEXAS, Y EL CÓDIGO PENAL, Y DICTA OTRAS DISPOSICIONES"
   },
   "7527": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1tE1Cv1L-ZzA-8Jk2Zh4Gf5z0oRp9Gyc1",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto se circunscribe a la gestión técnica y pedagógica del Ministerio de Educación (MEDUCA) y la atención biopsicosocial de estudiantes, por lo que no impone obligaciones, costos ni trámites sobre el sector empresarial.",
+    "resumen": "La propuesta establece el marco regulatorio para la prestación de servicios psicoeducativos, psicopedagógicos y de apoyo educativo en centros escolares oficiales y particulares de Panamá. Reorganiza la Dirección Nacional y los gabinetes interdisciplinarios bajo el Ministerio de Educación (MEDUCA) para atender dificultades de aprendizaje, riesgo psicosocial y protocolos de convivencia. Su impacto recae en la administración pública educativa y la comunidad escolar.",
+    "sectores": [],
+    "titulo": "Que crea lineamientos para la atención primaria y secundaria a través de los servicios psicoeducativo a estudiantes en riesgo social",
+    "titulo_corto": "Estrategia de servicios psicoeducativos y de apoyo escolar"
+   },
    "anteproyecto": "111",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -41586,12 +41643,12 @@
   "7486": "aa626895a222",
   "7487": "d4b7c44a3d72",
   "7488": "f81c8548b662",
-  "7489": "8f09e4a6177b",
+  "7489": "760621b85753",
   "7490": "9fef27240d01",
   "7491": "3c500a4eeeb5",
   "7493": "fc093d90a0bc",
   "7495": "d5c7b1b6e1a5",
-  "7496": "6d6355dccdbe",
+  "7496": "1176b66a2900",
   "7497": "6a9c9ed9a047",
   "7498": "e6d4628703eb",
   "7499": "5ea330b544ae",
@@ -41611,7 +41668,7 @@
   "7519": "9768c84f5b54",
   "7521": "48a29f466416",
   "7525": "71f5dc305fe3",
-  "7527": "a771f6af8848",
+  "7527": "821eccc1cf0a",
   "7528": "547d88594444",
   "7529": "a95e81d75628",
   "7531": "d89b0c435cab",
@@ -42575,7 +42632,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-18T10:50:11",
+  "fecha": "2026-10-18T11:46:18",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
@@ -43017,7 +43074,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-18T10:50:41"
+  "revisada": "2026-10-18T11:46:50"
  },
- "ultima_corrida": "2026-10-18T10:50:11"
+ "ultima_corrida": "2026-10-18T11:46:18"
 }
