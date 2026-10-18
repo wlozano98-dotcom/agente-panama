@@ -29,9 +29,25 @@
    "carpeta": "Ley de deporte seguro (ficha 7543)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "7590": {
+   "carpeta": "Agravantes para hurto y robo en salud y educación (ficha 7590)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "7609": {
+   "carpeta": "Protección de arbolado y áreas verdes urbanas (ficha 7609)",
+   "comision": "Comisión de Población, Ambiente y Desarrollo"
+  },
   "7622": {
    "carpeta": "Política nacional de orientación vocacional (ficha 7622)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
+  "7638": {
+   "carpeta": "Programa de Apoyo Educativo (ficha 7638)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "7647": {
+   "carpeta": "Transparencia en federaciones deportivas (ficha 7647)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
   },
   "7650": {
    "carpeta": "Tipificación del contrabando y trasiego ilícito de alimentos (ficha 7650)",
@@ -6252,6 +6268,20 @@
    "titulo": "QUE REORGANIZA EL HOSPITAL REGIONAL NICOLAS A. SOLANO, CREA SU PATRONATO Y DICTA OTRAS DISPOSICIONES"
   },
   "7590": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1sjGPgcQNLRSyWc-vDoAxeWM08K6Gc7Kc",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto es de naturaleza estrictamente penal y punitiva para delincuentes comunes; no impone regulaciones, cargas tributarias, trámites ni obligaciones sobre la actividad económica de las empresas privadas.",
+    "resumen": "La iniciativa modifica el Código Penal para agravar las sanciones por delitos de hurto y robo cometidos en centros educativos, centros de salud y hospitales, tanto públicos como privados. Fija penas de 5 a 10 años de prisión para los casos de hurto agravado y aumenta la pena hasta la mitad en caso de robo en estas instalaciones o contra fondos de asociaciones de padres de familia. La medida se orienta a disuadir la criminalidad patrimonial sin crear obligaciones operativas para las empresas.",
+    "sectores": [],
+    "titulo": "Que modifica los artículos 214 y 219 del Código Penal y el artículo 220 del Código Procesal Penal",
+    "titulo_corto": "Agravantes para hurto y robo en salud y educación"
+   },
    "anteproyecto": "173",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Segundo Debate",
@@ -6861,6 +6891,41 @@
    "titulo": "POR LA CUAL SE APRUEBA EL ACUERDO DE SERVICIOS AEREOS ENTRE EL GOBIERNO DE LA REPUBLICA DE PANAMA Y EL GOBIERNO DE BARBADOS, SUSCRITO EN PANAMA EL 4 DE ABRIL DE 2024"
   },
   "7609": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 8: Obliga a plantar un árbol por cada dos espacios de estacionamiento a nivel de suelo bajo pena de denegación del permiso de construcción, y exige restituir superficie vegetal en caso de afectación a áreas verdes de planes parciales.",
+     "Artículo 10: Establece que todo diseño de plano de construcción debe contar obligatoriamente con la asesoría técnica de un profesional idóneo en el tema ambiental (urbanista, paisajista, ingeniero forestal, arquitecto bioclimático o afín).",
+     "Artículo 14: Condiciona a autorización previa de MiAmbiente las podas mayores a 10 cm de diámetro, trasplantes de más de 3 metros y cualquier derribo o extracción de árboles.",
+     "Artículo 21: Prohíbe expresamente el derribo o trasplante de árboles con la finalidad de otorgar visibilidad a comercios, letreros, anuncios o edificios.",
+     "Artículo 26: Prohíbe alterar las raíces de árboles mediante excavaciones o pavimentación sin previa autorización de MiAmbiente.",
+     "Artículo 28: Dispone que los proyectos residenciales deben incluir al menos 5 árboles nativos y que por cada hectárea de barriada se deben reubicar y proteger al menos 15 árboles existentes.",
+     "Artículo 29: Prohíbe el derribo o trasplante de árboles patrimoniales por motivos de visibilidad comercial o desarrollo inmobiliario."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1l6UzmvHYKaoupO56xTsOki1dOrD_wMYd",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Impone nuevos requisitos y sobrecostos directos a promotoras y constructoras, incluyendo la siembra forzosa de árboles en estacionamientos como condición de permiso, cuotas de árboles por hectárea y la contratación obligatoria de asesores ambientales en planos.",
+      "sector": "CEMENTERAS"
+     },
+     {
+      "nivel": "bajo",
+      "razon": "Asigna a los propietarios privados la responsabilidad por los árboles dentro de sus predios y les exige autorizaciones ante MiAmbiente para podas o derribos, prohibiendo talas para visibilidad comercial.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Tiene un impacto alto en el sector de la construcción y desarrollo inmobiliario debido a que condiciona la aprobación de planos y permisos de construcción al cumplimiento de exigencias forestales y paisajísticas estrictas.",
+    "resumen": "Establece normas para la protección, manejo y restitución del arbolado urbano y áreas verdes en todo el país. Condiciona permisos de construcción al cumplimiento de arborización obligatoria en estacionamientos y proyectos habitacionales, e impone la inclusión de profesionales ambientales en el diseño de planos. Además, somete podas mayores y derribos en predios privados a autorización técnica previa del Ministerio de Ambiente y prohíbe la remoción de árboles por motivos de visibilidad comercial.",
+    "sectores": [
+     "CEMENTERAS"
+    ],
+    "titulo": "Ley de protección, conservación y fomento de arbolado y áreas verdes en proyectos residenciales, zonas, urbanas, rurales y sus municipios",
+    "titulo_corto": "Protección de arbolado y áreas verdes urbanas"
+   },
    "anteproyecto": "181",
    "comision": "COMISION DE POBLACION, AMBIENTE Y DESARROLLO",
    "etapa": "Segundo Debate",
@@ -7648,6 +7713,22 @@
    "titulo": "QUE SE ADICIONA CAPITULOS Y ARTICULOS A LA LEY 46 DE 31 DE AGOSTO DE 1999, POR LA CUAL SE REGULA LA ACTIVIDAD APICOLA"
   },
   "7638": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 14: Modifica el artículo 169 de la Ley 8 de 2010, obligando a los centros educativos particulares a desglosar al acudiente los cobros de matrícula y mensualidades, y fijando en B/. 2,300.00 el tope anual para que sus alumnos puedan acceder al beneficio estatal."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1ae5Dxoj8S_sRq1SmTAQsYmKYP2PrU4IG",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto se enfoca en asistencia social y subsidios escolares a familias, sin imponer cargas ni regular las actividades económicas de los sectores empresariales evaluados.",
+    "resumen": "Crea el Programa de Apoyo Educativo bajo la ejecución del IFARHU y el MEDUCA para sustituir al PASE-U (derogando la Ley 148 de 2020). Otorga transferencias económicas a estudiantes de centros oficiales y particulares cuya matrícula y mensualidades no superen B/. 2,300.00 al año, condicionadas al rendimiento escolar, asistencia y la participación de los padres en talleres educativos.",
+    "sectores": [],
+    "titulo": "Que crea el Programa de Apoyo Educativo y dicta otra disposición",
+    "titulo_corto": "Programa de Apoyo Educativo"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -7868,6 +7949,20 @@
    "titulo": "QUE ESTABLECE EL PROGRAMA DE INTERCAMBIO VOLUNTARIO DE ARMAS DE FUEGO, MUNICIONES, EXPLOSIVOS Y MATERIALES RELACIONADOS POR COMIDA"
   },
   "7647": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1UAzbP_ju1cMlBuInf6Hh8q0GxiaLT3BB",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No genera impacto para el sector empresarial privado, ya que su ámbito de aplicación se limita exclusivamente a la administración interna, transparencia y rendición de cuentas de las federaciones deportivas sin fines de lucro.",
+    "resumen": "La iniciativa busca regular la gobernanza de las federaciones y organizaciones deportivas que reciben financiamiento estatal.\nImpone restricciones para que funcionarios públicos o dirigentes políticos ocupen cargos directivos en dichas entidades.\nAdemás, establece la obligación de presentar informes contables, de gestión y auditorías externas para continuar recibiendo fondos públicos.",
+    "sectores": [],
+    "titulo": "Que despolitiza las federaciones deportivas",
+    "titulo_corto": "Transparencia en federaciones deportivas"
+   },
    "anteproyecto": "207",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Segundo Debate",
@@ -41404,7 +41499,7 @@
   "7582": "9b98c0ef1460",
   "7583": "410a6cd8ea79",
   "7585": "3014561dc646",
-  "7590": "4cf8f0d173c5",
+  "7590": "a2a15284a994",
   "7595": "fe26d1f058ce",
   "7596": "cd606f8767a4",
   "7597": "500637727d90",
@@ -41417,7 +41512,7 @@
   "7606": "14f2fea472bc",
   "7607": "247540d5f244",
   "7608": "9a9b33dca03b",
-  "7609": "c0f85e4a130f",
+  "7609": "ca5216bd5882",
   "7611": "5a0821235b31",
   "7612": "bab75cbeff3d",
   "7613": "dd352cce8376",
@@ -41433,12 +41528,12 @@
   "7634": "f9af8d560034",
   "7635": "b4d6676fb5d6",
   "7636": "86b2514e6b2b",
-  "7638": "eafe5a1cb696",
+  "7638": "b79aad45f757",
   "7641": "e4b4fe54b6ee",
   "7642": "f9a3363a67ee",
   "7644": "cdffe5357991",
   "7645": "db8ab4a2386b",
-  "7647": "4be166996ce0",
+  "7647": "8200a1ebf3ed",
   "7649": "ecce556fbf93",
   "7650": "f7d8d95ef0c9",
   "7652": "def1b68d9a89",
@@ -42278,6 +42373,7 @@
    "8153",
    "7808",
    "8319",
+   "7609",
    "8282",
    "8313",
    "8355",
@@ -42323,11 +42419,12 @@
    "7461",
    "7650"
   ],
-  "fecha": "2026-10-18T07:50:44",
+  "fecha": "2026-10-18T08:50:52",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
    "7532": "399fc6670871",
+   "7609": "399fc6670871",
    "7650": "399fc6670871",
    "7655": "399fc6670871",
    "7656": "399fc6670871",
@@ -42761,7 +42858,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-18T07:51:15"
+  "revisada": "2026-10-18T08:51:30"
  },
- "ultima_corrida": "2026-10-18T07:50:44"
+ "ultima_corrida": "2026-10-18T08:50:52"
 }
