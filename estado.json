@@ -1,6 +1,10 @@
 {
  "comisiones_revisadas": "2026-10-18T10:47:47",
  "drive": {
+  "7419": {
+   "carpeta": "Ruta ecoturística Cuatro Caras de la Naturaleza (ficha 7419)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
   "7423": {
    "carpeta": "Protección e inclusión de personas con autismo (TEA) (ficha 7423)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
@@ -1446,6 +1450,32 @@
    "titulo": "QUE MODIFICA LA LEY 1 DE 11 DE ENERO DE 1965 Y PROHIBE EL ACCESO A AUXILIOS ECONOMICOS A FUNCIONARIOS DE ALTO MANDO Y JURISDICCION, Y A SUS FAMILIARES CON PARENTESCO HASTA EL CUARTO GRADO DE CONSANGUINIDAD Y SEGUNDO DE AFINIDAD"
   },
   "7419": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Establece la ruta turística integrando cinco áreas en Herrera (El Montuoso, Ciénaga de Las Macanas, Ciénaga El Mangle, Parque Nacional Sarigua y Parita).",
+     "Artículo 3: Mandata a la ATP a formular el Plan de Desarrollo Turístico junto con MiAmbiente, MiCultura y cámaras locales, e introduce la fijación obligatoria de límites de capacidad de carga para visitantes.",
+     "Artículo 5: Exige coordinación interinstitucional y convenios para supervisar y fiscalizar que las actividades comerciales turísticas cumplan las normas ambientales y patrimoniales."
+    ],
+    "drive": "https://drive.google.com/drive/folders/17nZEUTbqlDJ7qfW0NO-jomOtaOjNpLA1",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Promueve infraestructura y demanda turística en Herrera, sujetando las actividades de operadores a capacidades de carga y planes de manejo en áreas protegidas.",
+      "sector": "TURISMO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Tiene un impacto bajo y focalizado en operadores turísticos regionales mediante planes de promoción y límites técnicos de visita en áreas protegidas de Herrera.",
+    "resumen": "La iniciativa crea y delimita formalmente una ruta ecoturística y cultural en la provincia de Herrera que abarca áreas protegidas y poblados históricos como Sarigua, El Montuoso y Parita. Instruye a la Autoridad de Turismo de Panamá (ATP), en conjunto con MiAmbiente, MiCultura y cámaras de turismo locales, a elaborar e implementar un plan de desarrollo, promoción y regulación de capacidad de carga turística. Afecta de manera directa a operadores turísticos, guías y prestadores de servicios de hospitalidad que operen en dicha zona.",
+    "sectores": [
+     "TURISMO"
+    ],
+    "titulo": "Que establece la ruta turística \"Cuatro Caras de la Naturaleza\" como ruta turística nacional y establece medidas para su desarrollo y promoción",
+    "titulo_corto": "Ruta ecoturística Cuatro Caras de la Naturaleza"
+   },
    "anteproyecto": "13",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Segundo Debate",
@@ -41746,7 +41776,7 @@
   "7415": "735178f06a46",
   "7416": "5fc52a59476d",
   "7417": "024c96898f76",
-  "7419": "4cdcf4750090",
+  "7419": "e947c570dede",
   "7420": "f0d1fcf04e02",
   "7421": "a9c5d11c4c05",
   "7422": "670c75f82132",
@@ -42769,6 +42799,7 @@
    "7733",
    "8022",
    "7714",
+   "7419",
    "7953",
    "7959",
    "7811",
@@ -42781,8 +42812,9 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-18T13:45:52",
+  "fecha": "2026-10-18T14:45:54",
   "notas": {
+   "7419": "399fc6670871",
    "7428": "399fc6670871",
    "7461": "399fc6670871",
    "7465": "399fc6670871",
@@ -43227,7 +43259,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-18T13:46:21"
+  "revisada": "2026-10-18T14:46:21"
  },
- "ultima_corrida": "2026-10-18T13:45:52"
+ "ultima_corrida": "2026-10-18T14:45:54"
 }
