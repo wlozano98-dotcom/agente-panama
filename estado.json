@@ -893,6 +893,10 @@
    "carpeta": "Tratado de asistencia jurídica penal con Argentina (ficha 8623)",
    "comision": "Comisión de Relaciones Exteriores"
   },
+  "8624": {
+   "carpeta": "Aprobación de estatutos del ICCROM (ficha 8624)",
+   "comision": "Comisión de Relaciones Exteriores"
+  },
   "8635": {
    "carpeta": "Acceso a viviendas de interés social del Miviot (ficha 8635)",
    "comision": "Comisión de Infraestructura Pública y Asuntos del Canal"
@@ -41519,6 +41523,20 @@
    "titulo": "QUE APRUEBA EL TRATADO ENTRE LA REPUBLICA DE PANAMA Y LA REPUBLICA ARGENTINA SOBRE ASISTENCIA JURIDICA MUTUA EN MATERIA PENAL HECHO EN PANAMA EL22 DE JUNIO DE 2026."
   },
   "8624": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1EwB3n3nODlqxNpQOOTRHCKpHqp7GE7_H",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Se trata de un convenio intergubernamental de carácter cultural y técnico que solo compromete fondos públicos del Estado, sin crear obligaciones, cargas ni regulaciones sobre la actividad empresarial.",
+    "resumen": "El proyecto aprueba la adhesión de Panamá a los estatutos del Centro Internacional de Estudios para la Conservación y la Restauración de los Bienes Culturales (ICCROM). Esta membresía compromete al Estado a pagar una cuota bienal a cambio de cooperación técnica, capacitación e intercambio científico para proteger el patrimonio cultural. La medida atañe exclusivamente a la gestión pública e internacional y no establece deberes para las empresas.",
+    "sectores": [],
+    "titulo": "Que aprueba los Estatutos del Centro Internacional de Estudios para la Conservación y la Restauración de los Bienes Culturales, adoptados en Nueva Delhi por la Conferencia General de la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura en su 5.ª sesión del 5 de diciembre de 1956 y modificado por la Asamblea General del ICCROM en sus sesiones 2.ª, 5.ª, 7.ª, 18.ª, 21.ª, 22.ª, 23.ª, 24.ª, y 33.ª",
+    "titulo_corto": "Aprobación de estatutos del ICCROM"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE RELACIONES EXTERIORES",
    "etapa": "Primer Debate",
@@ -42809,7 +42827,7 @@
   "8621": "35dab1bc040f",
   "8622": "aefd7444e85c",
   "8623": "be29e40e6ea4",
-  "8624": "88e552879e7a",
+  "8624": "89ae9a90a352",
   "8625": "b0026feb65af",
   "8626": "8ba495ed0451",
   "8628": "c34515f7cb23",
@@ -42937,7 +42955,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-18T20:44:46",
+  "fecha": "2026-10-18T21:46:11",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -43385,7 +43403,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-18T20:45:15"
+  "revisada": "2026-10-18T21:46:44"
  },
- "ultima_corrida": "2026-10-18T20:44:46"
+ "ultima_corrida": "2026-10-18T21:46:11"
 }
