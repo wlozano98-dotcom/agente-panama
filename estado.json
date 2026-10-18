@@ -889,6 +889,10 @@
    "carpeta": "Convenio de la Agencia Latinoamericana y Caribeña del Espacio (ficha 8622)",
    "comision": "Comisión de Relaciones Exteriores"
   },
+  "8623": {
+   "carpeta": "Tratado de asistencia jurídica penal con Argentina (ficha 8623)",
+   "comision": "Comisión de Relaciones Exteriores"
+  },
   "8635": {
    "carpeta": "Acceso a viviendas de interés social del Miviot (ficha 8635)",
    "comision": "Comisión de Infraestructura Pública y Asuntos del Canal"
@@ -41478,6 +41482,20 @@
    "titulo": "QUE APRUEBA EL CONVENIO CONSTITUTIVO DE LA AGENCIA LATINOAMERICANA Y CARIBEÑA DEL ESPACIO, HECHO EN LA CIUDAD DE MÉXICO, EL 18 DE SEPTIEMBRE DE 2021"
   },
   "8623": {
+   "analisis": {
+    "con_pdf": false,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1eTsaIcNQsvjSA8RPdP2VTl66BonzGxBt",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Se trata de un convenio internacional de cooperación judicial en materia penal entre Estados, por lo que no impone obligaciones, costos ni regulaciones directas sobre la actividad empresarial.",
+    "resumen": "Análisis basado solo en el título. El proyecto propone ratificar el tratado bilateral entre Panamá y Argentina para facilitar la cooperación y asistencia judicial en investigaciones y procedimientos penales. Es un acuerdo de coordinación entre autoridades judiciales y del Estado, sin afectación comercial directa.",
+    "sectores": [],
+    "titulo": "Que aprueba el Tratado entre la República de Panamá y la República Argentina sobre asistencia jurídica mutua en materia penal, hecho en Panamá el 22 de junio de 2026.",
+    "titulo_corto": "Tratado de asistencia jurídica penal con Argentina"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE RELACIONES EXTERIORES",
    "etapa": "Primer Debate",
@@ -42790,7 +42808,7 @@
   "8620": "1f3dd4623c7b",
   "8621": "35dab1bc040f",
   "8622": "aefd7444e85c",
-  "8623": "84979f8a27a6",
+  "8623": "be29e40e6ea4",
   "8624": "88e552879e7a",
   "8625": "b0026feb65af",
   "8626": "8ba495ed0451",
@@ -42919,7 +42937,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-18T19:41:54",
+  "fecha": "2026-10-18T20:44:46",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -43367,7 +43385,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-18T19:42:33"
+  "revisada": "2026-10-18T20:45:15"
  },
- "ultima_corrida": "2026-10-18T19:41:54"
+ "ultima_corrida": "2026-10-18T20:44:46"
 }
