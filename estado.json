@@ -25,9 +25,25 @@
    "carpeta": "Evaluación y transparencia de incentivos tributarios (ficha 7532)",
    "comision": "Comisión de Economía y Finanzas"
   },
+  "7538": {
+   "carpeta": "Extensión del régimen de intereses preferenciales hipotecarios (ficha 7538)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
   "7543": {
    "carpeta": "Ley de deporte seguro (ficha 7543)",
    "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "7545": {
+   "carpeta": "Incentivos para parteras tradicionales indígenas (ficha 7545)",
+   "comision": "Comisión de Asuntos Indígenas"
+  },
+  "7554": {
+   "carpeta": "Reforma a la ley de protección a los animales domésticos (ficha 7554)",
+   "comision": "Comisión de Población, Ambiente y Desarrollo"
+  },
+  "7568": {
+   "carpeta": "Creación del Patronato del Hospital Nicolás A. Solano (ficha 7568)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
   "7590": {
    "carpeta": "Agravantes para hurto y robo en salud y educación (ficha 7590)",
@@ -4808,6 +4824,38 @@
    "titulo": "QUE ESTABLECE EL PROGRAMA DE EDUCACION FISCAL EN LA REPUBLICA DE PANAMA"
   },
   "7538": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Modifica el artículo 16 de la Ley 3 de 1985 para extender el otorgamiento de hipotecas preferenciales hasta el 31 de diciembre de 2027 en general, y hasta el 30 de junio de 2026 para viviendas plurifamiliares verticales entre B/. 120,000.00 y B/. 180,000.00.",
+     "Artículo 2: Modifica el artículo 5 transitorio de la Ley 94 de 2019, ampliando los rangos de vigencia de permisos de ocupación requeridos (hasta el 1 de agosto de 2027 para viviendas generales y hasta el 30 de junio de 2026 para plurifamiliares verticales).",
+     "Artículo 3: Dispone la aplicación retroactiva del beneficio para viviendas plurifamiliares verticales (B/. 120,000.00 a B/. 180,000.00) desde el 1 de julio de 2024 hasta la fecha de promulgación de la ley."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1BQCuIcFwOlqSn7McFDSJ8E_qmzPsKaTx",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Regula directamente las condiciones de colocación de cartera hipotecaria preferencial y los beneficios fiscales aplicables a los bancos acreedores.",
+      "sector": "FINANCIERO"
+     },
+     {
+      "nivel": "alto",
+      "razon": "Reactiva el incentivo de compra y la viabilidad comercial de proyectos habitacionales residenciales, especialmente edificios y apartamentos de rango medio.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Modifica de forma directa el régimen de financiamiento hipotecario preferencial, impactando el núcleo de negocio de la banca hipotecaria y la comercialización de viviendas por parte del sector construcción.",
+    "resumen": "Extiende la vigencia del régimen de intereses preferenciales para préstamos hipotecarios hasta el 31 de diciembre de 2027 de manera general, y hasta el 30 de junio de 2026 para viviendas plurifamiliares verticales valoradas entre B/. 120,000 y B/. 180,000. Además, otorga vigencia retroactiva desde el 1 de julio de 2024 a dicho tramo vencido y amplía las fechas admisibles de permisos de ocupación. Afecta directamente al sector bancario hipotecario y a los desarrolladores inmobiliarios y constructores.",
+    "sectores": [
+     "FINANCIERO",
+     "CEMENTERAS"
+    ],
+    "titulo": "Que modifica la Ley 3 de 1985, que establece un régimen de intereses preferenciales en ciertos préstamos hipotecarios, y dicta otras disposiciones",
+    "titulo_corto": "Extensión del régimen de intereses preferenciales hipotecarios"
+   },
    "anteproyecto": "128",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Segundo Debate",
@@ -5168,6 +5216,20 @@
    "titulo": "QUE MODIFICA ARTÍCULOS DE LA LEY 16 DE 1995, QUE REORGANIZA EL INSTITUTO NACIONAL DE DEPORTES"
   },
   "7545": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1xQ_MmFrR5s6Q63o5ZZVGURlNqQmh5QaS",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No genera impacto sobre el sector empresarial privado, ya que se circunscribe al ámbito presupuestario público y al reconocimiento estatal de la labor comunitaria de las parteras indígenas mediante el Ministerio de Salud.",
+    "resumen": "La propuesta modifica la Ley 17 de 2016 para incorporar un incentivo económico no salarial y otros beneficios a favor de las parteras tradicionales en comunidades y comarcas indígenas. El beneficio será regulado y otorgado por el Ministerio de Salud (MINSA) a aquellas que se encuentren capacitadas y registradas. El alcance de la medida está sujeto a la disponibilidad presupuestaria del Estado.",
+    "sectores": [],
+    "titulo": "Que modifica la Ley 17 de 2016 que establece la protección de los conocimientos de la medicina tradicional indígena",
+    "titulo_corto": "Incentivos para parteras tradicionales indígenas"
+   },
    "anteproyecto": "129",
    "comision": "COMISION DE ASUNTOS INDIGENAS",
    "etapa": "Segundo Debate",
@@ -5421,6 +5483,32 @@
    "titulo": "QUE TRANSPARENTA LAS ACTAS Y OTROS ARCHIVOS DEL CONSEJO DE GABINETE"
   },
   "7554": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 3 (adiciona art. 4B a la Ley 70 de 2012): Exige a organizadores de ferias y desfiles presentar una declaración técnica sobre condiciones y descansos de animales de tracción para obtener el permiso municipal.",
+     "Artículo 4 (modifica art. 9 de la Ley 70 de 2012): Obliga a personas naturales o jurídicas a contar con Licencia Sanitaria de funcionamiento para comerciar animales domésticos, fija un mínimo de dos meses de edad para la venta de perros y gatos, prohíbe venta en vías públicas y exige publicar la licencia sanitaria si se comercializan por redes sociales.",
+     "Artículo 9 (adiciona art. 15-A a la Ley 70 de 2012): Faculta la imposición de multas económicas y orden de cierre temporal o definitivo a establecimientos comerciales o criaderos vinculados a maltrato, negligencia o explotación animal."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1KewJSt7tNd59RRzhPCYKET_9a3kIzAnU",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Crea requisitos operativos de licencia sanitaria y posibles sanciones de cierre para criaderos y tiendas minoristas de mascotas.",
+      "sector": "OTROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es bajo y focalizado en el nicho comercial de cría y venta minorista de animales domésticos, al cual se le exigen permisos sanitarios, condiciones específicas de exhibición y se prevén sanciones de cierre ante casos de negligencia o maltrato.",
+    "resumen": "El proyecto actualiza la legislación de bienestar y protección animal doméstica, incrementando las penas de prisión por crueldad en el Código Penal. Además, regula las condiciones para el uso de animales de tracción en eventos públicos y fija nuevos requisitos y causales de clausura para criaderos y establecimientos comerciales que vendan mascotas.",
+    "sectores": [
+     "OTROS"
+    ],
+    "titulo": "Que modifica y adiciona artículos a la Ley 70 de 2012 y modifica un artículo al Código Penal y dicta otras disposiciones",
+    "titulo_corto": "Reforma a la ley de protección a los animales domésticos"
+   },
    "anteproyecto": "138",
    "comision": "COMISION DE POBLACION, AMBIENTE Y DESARROLLO",
    "etapa": "Segundo Debate",
@@ -5767,6 +5855,20 @@
    "titulo": "QUE DECLARA EL 1 DE NOVIEMBRE DE CADA AÑO DÍA DEL NIÑO Y LA NIÑA EN LA REPÚBLICA DE PANAMÁ"
   },
   "7568": {
+   "analisis": {
+    "con_pdf": false,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1-i6f_mAdVqyCUaMpUwV0LNFLBML1RlZy",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La creación de un patronato para un hospital público es una medida de gestión institucional interna del Estado que no genera obligaciones, costos ni modificaciones regulatorias para las empresas.",
+    "resumen": "Análisis basado solo en el título. La iniciativa propone crear un patronato para la administración y gestión del Hospital Nicolás A. Solano en la provincia de Panamá Oeste. Afecta exclusivamente la gobernanza interna y el modelo administrativo de este centro médico público, sin imponer regulaciones o cargas al sector privado.",
+    "sectores": [],
+    "titulo": "Que crea el Patronato del Hospital Nicolás A. Solano",
+    "titulo_corto": "Creación del Patronato del Hospital Nicolás A. Solano"
+   },
    "anteproyecto": "156",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Segundo Debate",
@@ -41467,27 +41569,27 @@
   "7535": "6623f1e994f7",
   "7536": "0d7e1a5fd1b6",
   "7537": "8ed0dfee3923",
-  "7538": "39a271e3c161",
+  "7538": "2462d990f06a",
   "7539": "3e86fcd3e24e",
   "7540": "5c1c7506f00a",
   "7541": "e82befe319d2",
   "7542": "dd7cc52e2abe",
   "7543": "cc36cc297062",
   "7544": "9dba2bc267b8",
-  "7545": "98308ed360ba",
+  "7545": "2c1044f81e45",
   "7546": "ca79f525cecf",
   "7547": "5142f03d04f2",
   "7548": "ed80715c9d87",
   "7550": "2efe0461a550",
   "7551": "f018ab9d21bc",
-  "7554": "3a0bd5e3028e",
+  "7554": "e2fab0ea5197",
   "7555": "72475ba0fa37",
   "7558": "68c245ce8c94",
   "7560": "fcc54efdf630",
   "7563": "6a0578d4167f",
   "7566": "75e2df447799",
   "7567": "d349c197e615",
-  "7568": "b005c115ae2e",
+  "7568": "0d8a7be64ffe",
   "7570": "540262bf5713",
   "7571": "a06fd73e8db2",
   "7573": "cc67472fd2d4",
@@ -42408,6 +42510,7 @@
    "7912",
    "7969",
    "7531",
+   "7554",
    "8050",
    "7733",
    "8022",
@@ -42417,13 +42520,16 @@
    "7811",
    "7717",
    "7461",
-   "7650"
+   "7650",
+   "7538"
   ],
-  "fecha": "2026-10-18T08:50:52",
+  "fecha": "2026-10-18T09:53:01",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
    "7532": "399fc6670871",
+   "7538": "399fc6670871",
+   "7554": "399fc6670871",
    "7609": "399fc6670871",
    "7650": "399fc6670871",
    "7655": "399fc6670871",
@@ -42858,7 +42964,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-18T08:51:30"
+  "revisada": "2026-10-18T09:53:29"
  },
- "ultima_corrida": "2026-10-18T08:50:52"
+ "ultima_corrida": "2026-10-18T09:53:01"
 }
