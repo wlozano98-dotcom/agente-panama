@@ -1,5 +1,5 @@
 {
- "comisiones_revisadas": "2026-10-17T21:46:55",
+ "comisiones_revisadas": "2026-10-18T03:50:40",
  "drive": {
   "7423": {
    "carpeta": "Protección e inclusión de personas con autismo (TEA) (ficha 7423)",
@@ -36,6 +36,10 @@
   "7659": {
    "carpeta": "Tipificación de delitos contra la seguridad alimentaria (ficha 7659)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "7705": {
+   "carpeta": "Protección y preservación de rompientes de olas (ficha 7705)",
+   "comision": "Comisión de Población, Ambiente y Desarrollo"
   },
   "7708": {
    "carpeta": "Empoderamiento económico de mujeres indígenas (ficha 7708)",
@@ -9437,6 +9441,45 @@
    "titulo": "QUE PROTEGE LAS ROMPIENTES DE LAS OLAS ADECUADAS PARA LA PRACTICA DEPORTIVA Y ESTABLECE EL REGIMEN PARA LA CREACION DE SANTUARIOS DE OLAS EN PANAMA"
   },
   "7705": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 7: Crea el Registro Nacional de Rompientes bajo el Ministerio de Ambiente, habilitando la inscripción de oficio o por solicitud privada de zonas protegidas.",
+     "Artículo 9: Crea la Mesa Técnica Interinstitucional integrada, entre otros, por la ATP y la Cámara Nacional de Turismo (CAMTUR) para evaluar y regular las zonas aptas.",
+     "Artículo 11: Faculta al Ministerio de Ambiente para declarar Áreas Recreativas y Santuarios de Olas con reglamentos especiales de protección.",
+     "Artículo 13: Prohíbe la extracción de arena costera y submarina, la minería marina metálica y no metálica, la remoción de rocas y la construcción de infraestructuras comerciales o industriales de alto impacto que alteren el relieve costero o el oleaje.",
+     "Artículo 14: Faculta a MIAMBIENTE para aplicar sanciones administrativas y ordenar medidas de mitigación o compensación ambiental ante infracciones."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1EhYQ8gRXoCF3xBdy6Qsgk1HRQ4Y7a8pv",
+    "fecha_analisis": "2026-10-18",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Prohíbe expresamente la exploración y extracción de minerales metálicos y no metálicos en el fondo marino dentro de las rompientes protegidas y santuarios de olas.",
+      "sector": "EXTRACTIVO"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Veda la extracción de arena en costas y fondos submarinos perimetrales a las rompientes, y restringe la construcción de infraestructuras comerciales o industriales que alteren la morfología costera.",
+      "sector": "CEMENTERAS"
+     },
+     {
+      "nivel": "bajo",
+      "razon": "Fomenta el turismo deportivo vinculado al surf, incorporando a CAMTUR y ATP en la mesa técnica y condicionando las actividades comerciales costeras al uso sostenible.",
+      "sector": "TURISMO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Impacta de forma directa a concesiones mineras y de extracción de áridos marinos al prohibir estas actividades en zonas de rompientes protegidas, además de condicionar el desarrollo de proyectos de infraestructura costera.",
+    "resumen": "Crea el marco de protección ambiental para las rompientes de olas aptas para el surf y actividades recreativas, estableciendo un Registro Nacional de Rompientes y la figura de Santuarios de Olas. Prohíbe la extracción de arena, la minería marina y el desarrollo de obras de infraestructura que alteren la costa en estas áreas delimitadas.",
+    "sectores": [
+     "EXTRACTIVO",
+     "CEMENTERAS"
+    ],
+    "titulo": "Que preserva las rompientes apropiadas para la práctica deportiva",
+    "titulo_corto": "Protección y preservación de rompientes de olas"
+   },
    "anteproyecto": "249",
    "comision": "COMISION DE POBLACION, AMBIENTE Y DESARROLLO",
    "etapa": "Segundo Debate",
@@ -41242,7 +41285,7 @@
   "7701": "0bc11dc2a022",
   "7702": "b8be7b918690",
   "7704": "567e14ecabd5",
-  "7705": "6946351abc0b",
+  "7705": "55a62f91b226",
   "7708": "98ab16353439",
   "7711": "e0018c323f1b",
   "7712": "e3f2c19cd895",
@@ -42028,6 +42071,7 @@
    "8395",
    "7939",
    "8266",
+   "7705",
    "8227",
    "8273",
    "8292",
@@ -42087,12 +42131,13 @@
    "7717",
    "7461"
   ],
-  "fecha": "2026-10-18T02:47:19",
+  "fecha": "2026-10-18T03:51:40",
   "notas": {
    "7461": "399fc6670871",
    "7531": "399fc6670871",
    "7532": "399fc6670871",
    "7659": "399fc6670871",
+   "7705": "399fc6670871",
    "7708": "399fc6670871",
    "7714": "399fc6670871",
    "7717": "399fc6670871",
@@ -42520,7 +42565,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-18T02:47:51"
+  "revisada": "2026-10-18T03:52:10"
  },
- "ultima_corrida": "2026-10-18T02:47:19"
+ "ultima_corrida": "2026-10-18T03:51:40"
 }
