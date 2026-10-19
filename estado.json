@@ -821,9 +821,17 @@
    "carpeta": "Regulación de ácidos grasos trans industriales (ficha 8491)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
+  "8507": {
+   "carpeta": "Creación del Consultorio y Defensoría de la MIPYME en AMPYME (ficha 8507)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
   "8516": {
    "carpeta": "Uso de CEPANIM en comercios y acreditación de ISR (ficha 8516)",
    "comision": "Comisión de Economía y Finanzas"
+  },
+  "8517": {
+   "carpeta": "Reforma a la Ley de Propiedad Horizontal (Ley 284 de 2022) (ficha 8517)",
+   "comision": "Comisión de Infraestructura Pública y Asuntos del Canal"
   },
   "8518": {
    "carpeta": "Responsabilidad penal excepcional para menores de doce años (ficha 8518)",
@@ -38277,6 +38285,33 @@
    "titulo": "POR LA CUAL SE ESTABLECEN LOS DERECHOS DE LOS USUARIOS DEL TRANSPORTE PUBLICO DE PASAJEROS Y SELECTIVO, Y SE DICTAN OTRAS DISPOSICIONES"
   },
   "8507": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Crea la Unidad Jurídica MIPYME adscrita a la AMPYME, compuesta por el Consultorio Jurídico y la Defensoría de Oficio Gratuita.",
+     "Artículo 10: Faculta al Consultorio Jurídico para recibir, registrar y tramitar quejas de MIPYMES contra empresas grandes o multinacionales por controversias contractuales o comerciales.",
+     "Artículo 12 y 13: Regula las audiencias de conciliación y dispone que los acuerdos válidamente suscritos y homologados por la Unidad Jurídica tendrán mérito ejecutivo.",
+     "Artículo 14 y 15: Establece la defensoría de oficio gratuita con alcance de representación administrativa y orientación judicial a favor de microempresas con ingresos de hasta B/.50,000.00 frente a grandes empresas o multinacionales."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1Hs6PzOfdYztARFkIh-rT4eqdf4aKt61D",
+    "fecha_analisis": "2026-10-19",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Establece asistencia legal gratuita y mediación administrativa para microempresas frente a grandes empresas, sin imponer nuevas cargas tributarias ni regulatorias directas a la operación general.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto no modifica tributos ni marcos regulatorios sectoriales, sino que provee asistencia técnica legal a microempresas y mecanismos alternos de conciliación frente a grandes corporaciones.",
+    "resumen": "Crea la Unidad Jurídica MIPYME dentro de la AMPYME, dividida en un consultorio jurídico de asesoría y conciliación para micro, pequeñas y medianas empresas, y una defensoría de oficio gratuita para microempresas que facturen hasta B/.50,000.00 anuales. Faculta a esta unidad para tramitar quejas, mediar en disputas comerciales contra grandes empresas y multinacionales, otorgando mérito ejecutivo a los acuerdos de conciliación. El impacto recae de manera transversal en empresas grandes y microempresas en el ámbito de sus controversias contractuales.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que crea el Consultorio Jurídico de la MIPYME y la Defensoría de Oficio Gratuita de la Microempresa, dentro de la Autoridad de la Micro, Pequeña y Mediana Empresa (AMPYME), y dicta otras disposiciones",
+    "titulo_corto": "Creación del Consultorio y Defensoría de la MIPYME en AMPYME"
+   },
    "anteproyecto": "102",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Primer Debate",
@@ -38576,6 +38611,36 @@
    "titulo": "QUE INCENTIVA LA RECEPCION DE LOS CERTIFICADOS DE PAGO NEGOCIABLES POR INTERES POR MORA (CEPANIM) POR PARTE DEL COMERCIO, LA INDUSTRIA E INSTITUCIONES PUBLICAS, MODIFICA EL CODIGO FISCAL Y DICTA OTRAS DISPOSICIONES"
   },
   "8517": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Modifica el numeral 19 del artículo 6 de la Ley 284 de 2022 para ordenar que en edificios de propiedad horizontal las cuotas se distribuyan en partes iguales entre todas las unidades inmobiliarias.",
+     "Artículo 2: Modifica el artículo 25 de la Ley 284 de 2022 estableciendo el reparto igualitario de gastos comunes ordinarios y prohibiendo expresamente calcular cuotas ordinarias según el área construida, el valor o la ubicación de la unidad.",
+     "Artículo 3: Adiciona el artículo 26-A exigiendo una contabilidad separada para recursos extraordinarios (multas, arrendamientos, concesiones) y presentación de informe anual a la asamblea.",
+     "Artículo 4: Adiciona el artículo 26-B obligando a compensar remanentes no ejecutados de fondos extraordinarios en las cuotas ordinarias del período siguiente, a menos que dos terceras partes (2/3) voten reservarlos.",
+     "Artículo 5: Adiciona el artículo 67-A regulando garantías de deliberación y votación para reuniones de asamblea realizadas por medios tecnológicos.",
+     "Artículo 6: Modifica el artículo 68 limitando a un máximo de dos (2) propietarios la representación mediante poder que puede ejercer una sola persona en una misma asamblea.",
+     "Artículo 7: Otorga un plazo transitorio de seis (6) meses a las propiedades horizontales existentes para adecuar sus Reglamentos de Copropiedad a las nuevas disposiciones."
+    ],
+    "drive": "https://drive.google.com/drive/folders/13yL3rwyfola-8qMBgLgFZsdEvmvwGc8r",
+    "fecha_analisis": "2026-10-19",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Modifica radicalmente la estructura financiera y operativa de los regímenes de propiedad horizontal al imponer cuotas iguales sin considerar metraje, obligando a promotores, inmobiliarias y administradoras a reformar sus reglamentos y modelos de gestión.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Afecta directamente el núcleo operativo y financiero del sector inmobiliario, promotores y empresas administradoras de PH, alterando los esquemas de cobro de cuotas de mantenimiento y el control en las asambleas de propietarios.",
+    "resumen": "La iniciativa reforma el régimen de propiedad horizontal en Panamá para establecer que las cuotas ordinarias de mantenimiento se distribuyan en partes iguales entre todas las unidades, prohibiendo el uso del metraje o valor como parámetro de cálculo. Asimismo, impone el manejo contable separado de ingresos extraordinarios y la acreditación de remanentes a los copropietarios. Además, limita a dos la cantidad de representaciones por poder en asambleas y fija un plazo de seis meses para adaptar los reglamentos existentes.",
+    "sectores": [
+     "CEMENTERAS"
+    ],
+    "titulo": "Que modifica y adiciona disposiciones de la Ley 284 de 14 de febrero de 2022, que subroga la Ley 31 de 18 de junio de 2010, sobre el Régimen de Propiedad Horizontal, y dicta otras disposiciones",
+    "titulo_corto": "Reforma a la Ley de Propiedad Horizontal (Ley 284 de 2022)"
+   },
    "anteproyecto": "112",
    "comision": "COMISION DE INFRAESTRUCTURA PUBLICA Y ASUNTOS DEL CANAL",
    "etapa": "Primer Debate",
@@ -43441,7 +43506,7 @@
   "8504": "3bc470cca57f",
   "8505": "450a8ae8f88b",
   "8506": "d0cc53a2decd",
-  "8507": "2d36a91bc17a",
+  "8507": "b74683ed82da",
   "8508": "f6aafdeefbec",
   "8509": "8700edac8f56",
   "8510": "cf4956e72496",
@@ -43451,7 +43516,7 @@
   "8514": "3458e2e557fb",
   "8515": "b405c6d6e989",
   "8516": "6fe8542f7202",
-  "8517": "04e6a148bb0a",
+  "8517": "73f801ef4ca6",
   "8518": "c376f54f46a9",
   "8519": "a6b223e31a3d",
   "8520": "6042e9aad35a",
@@ -43613,9 +43678,11 @@
    "8491",
    "7779",
    "8308",
+   "8517",
    "8530",
    "7992",
    "8288",
+   "8507",
    "8333",
    "7829",
    "8135",
@@ -43700,7 +43767,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-19T11:52:25",
+  "fecha": "2026-10-19T13:03:36",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -43803,7 +43870,9 @@
    "8465": "399fc6670871",
    "8481": "399fc6670871",
    "8491": "399fc6670871",
+   "8507": "399fc6670871",
    "8516": "399fc6670871",
+   "8517": "399fc6670871",
    "8522": "399fc6670871",
    "8523": "399fc6670871",
    "8526": "399fc6670871",
@@ -44165,7 +44234,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-19T11:52:57"
+  "revisada": "2026-10-19T13:04:04"
  },
- "ultima_corrida": "2026-10-19T11:52:25"
+ "ultima_corrida": "2026-10-19T13:03:36"
 }
