@@ -829,9 +829,21 @@
    "carpeta": "Responsabilidad penal excepcional para menores de doce años (ficha 8518)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
+  "8519": {
+   "carpeta": "Programa de lotes servidos de interés social (ficha 8519)",
+   "comision": "Comisión de Infraestructura Pública y Asuntos del Canal"
+  },
   "8521": {
    "carpeta": "Educación para menores hospitalizados o enfermos (ficha 8521)",
    "comision": "Comisión de Educacion, Cultura y Deportes"
+  },
+  "8522": {
+   "carpeta": "Creación del Seguro Estudiantil Nacional (ficha 8522)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "8523": {
+   "carpeta": "Creación de la Zona Económica Especial de Darién (ficha 8523)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
   },
   "8527": {
    "carpeta": "Régimen de Fondos Especiales Intermunicipales (ficha 8527)",
@@ -38630,6 +38642,20 @@
    "titulo": "QUE MODIFICA ARTÍCULOS DE LA LEY 40 DE 26 DE AGOSTO DE 1999, ADICIONA UN ARTÍCULO AL CÓDIGO PENAL Y DICTA DISPOSICIONES SOBRE LA RESPONSABILIDAD PENAL EXCEPCIONAL DE PERSONAS MENORES DE DOCE AÑOS POR DELITOS CONTRA LA VIDA"
   },
   "8519": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1E32J-VRNdgEAvlBnit3T_sb5DEaxyMOt",
+    "fecha_analisis": "2026-10-19",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Se trata de un programa gubernamental de desarrollo social y tenencia de tierras a cargo del MIVIOT que no impone obligaciones, costos ni regulaciones directas sobre la actividad empresarial privada.",
+    "resumen": "Crea un programa a cargo del Ministerio de Vivienda y Ordenamiento Territorial (MIVIOT) para habilitar y adjudicar terrenos públicos dotados de infraestructura básica (agua potable, electricidad, calles y saneamiento) a familias de bajos recursos. Su propósito es prevenir asentamientos informales e invasiones de tierras mediante la venta a precios accesibles de lotes para vivienda principal.",
+    "sectores": [],
+    "titulo": "Que crea el Programa Nacional de Lotes Servidos de Interés Social y dicta otras disposiciones.",
+    "titulo_corto": "Programa de lotes servidos de interés social"
+   },
    "anteproyecto": "114",
    "comision": "COMISION DE INFRAESTRUCTURA PUBLICA Y ASUNTOS DEL CANAL",
    "etapa": "Primer Debate",
@@ -38803,6 +38829,35 @@
    "titulo": "QUE PROMUEVE EL DERECHO A LA EDUCACION DE NIÑOS, NIÑAS Y ADOLECENTES HOSPITALIZADOS O EN SITUACION DE ENFERMEDAD"
   },
   "8522": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 23: Establece la contratación exclusiva y centralizada de las pólizas por parte del Ministerio de Educación mediante las normas de contratación pública.",
+     "Artículo 25: Fija las coberturas mínimas obligatorias de las pólizas por accidentes dentro de los planteles, en traslados y actividades oficiales.",
+     "Artículos 29 y 30: Exige a las aseguradoras licitantes autorización legal de operación, capacidad financiera, solvencia, experiencia y estructura operativa suficiente.",
+     "Artículo 31: Obliga a las aseguradoras a disponer de una red suficiente de hospitales, clínicas y centros de salud con cobertura en todo el territorio nacional.",
+     "Artículos 33 y 35: Impone obligaciones contractuales a las aseguradoras respecto a calidad de atención, canales de comunicación y entrega periódica de informes de siniestralidad y desempeño al MEDUCA.",
+     "Artículo 42: Dispone la evaluación periódica del desempeño de las aseguradoras contratadas, cuyos resultados incidirán en futuras contrataciones públicas."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1RhB0sY9LZkv3iyp5CJePwvvPmT_QP7NZ",
+    "fecha_analisis": "2026-10-19",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Centraliza la contratación del seguro escolar bajo licitaciones del Estado e impone requisitos operativos, solvencia, redes mínimas de salud y reportes periódicos a las aseguradoras participantes.",
+      "sector": "SEGUROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Afecta directamente el mercado de pólizas estudiantiles al unificar su compra a través del MEDUCA e imponer estándares contractuales y de cobertura a las aseguradoras que presten el servicio.",
+    "resumen": "Centraliza en el Ministerio de Educación la contratación, financiamiento y administración del seguro contra accidentes para todos los estudiantes de escuelas oficiales del país, eliminando la gestión individual que hacían las asociaciones de padres de familia. Establece los parámetros técnicos, financieros y operativos que deberán cumplir las compañías aseguradoras privadas para adjudicarse y gestionar las pólizas estatales.",
+    "sectores": [
+     "SEGUROS"
+    ],
+    "titulo": "Que crea el Seguro Estudiantil Nacional para los estudiantes de los centros educativos oficiales de la República de Panamá, establece su régimen jurídico y dicta otras disposiciones",
+    "titulo_corto": "Creación del Seguro Estudiantil Nacional"
+   },
    "anteproyecto": "117",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Primer Debate",
@@ -38831,6 +38886,53 @@
    "titulo": "QUE CREA EL SEGURO ESTUDIANTIL NACIONAL PARA LOS ESTUDIANTES DE LOS CENTROS EDUCATIVOS OFICIALES DE LA REPUBLICA DE PANAMA, ESTABLECE SU REGIMEN JURIDICO Y DICTA OTRAS DISPOSICIONES"
   },
   "8523": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Crea el régimen legal, fiscal, aduanero, laboral y migratorio de la Zona Económica Especial de Darién y la Agencia estatal autónoma encargada de su regulación y promoción.",
+     "Artículo 12: Faculta a la Agencia a otorgar en arrendamiento o concesión bienes hasta por 40 años prorrogables por 40 años más, y a vender hasta el 25% de los bienes bajo su custodia.",
+     "Artículos 32 y 34: Establece la exoneración del 100% de aranceles de importación, ITBMS, impuesto de inmuebles, timbres, Impuesto sobre la Renta, dividendos y remesas al exterior para empresas y operadores de la Zona.",
+     "Artículos 39 al 42: Instituye un régimen laboral especial con recargos reducidos de horas extras (25%), movilidad funcional, causal expedita de despido por fluctuaciones del mercado y cuota de hasta 15% de mano de obra extranjera.",
+     "Artículos 44 y 45: Otorga visas con opción de residencia permanente para inversionistas (inversión mínima de B/.250,000.00) y trabajadores, además de exoneración de impuestos para menaje de casa.",
+     "Artículo 48: Habilita el otorgamiento en concesión de los aeropuertos de Jaqué y Bahía Piña, muelles, y servicios públicos de agua, telecomunicaciones y energía."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1LfXNzGMw_tg2cExpZFOWFGAHl3eDfhdi",
+    "fecha_analisis": "2026-10-19",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Crea un régimen integral de zona económica especial con exoneración total de tributos directos e indirectos, normas laborales especiales y facilidades migratorias para inversionistas.",
+      "sector": "OTROS"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Establece incentivos fiscales plenos y concesiones de pistas e instalaciones aéreas para operadores de turismo ecológico, deportivo y hotelero en Darién.",
+      "sector": "TURISMO"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Otorga exoneraciones tributarias y aduaneras a las inversiones en acuicultura y procesamiento de productos del mar con destino a la exportación.",
+      "sector": "CAMARONERO Y PESQUERO"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Permite concesionar a operadores privados la administración de los aeropuertos de Jaqué y Bahía Piña, muelles de cabotaje e infraestructuras de transporte.",
+      "sector": "TRANSPORTE"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Impacto alto para el ámbito de zonas francas y regímenes especiales al instaurar un nuevo marco de incentivos fiscales del 100%, flexibilización laboral y concesiones de infraestructura pública en Jaqué.",
+    "resumen": "Propone la creación de un régimen especial económico, fiscal, aduanero, laboral y migratorio en la región de Jaqué, provincia de Darién, administrado por una nueva agencia autónoma.\nEstá dirigido a atraer inversiones en turismo, agroindustria, acuicultura, pesca y logística mediante exoneraciones tributarias completas.\nAfecta a inversionistas, operadores logísticos, aeroportuarios, turísticos y empresas que decidan instalarse bajo este régimen.",
+    "sectores": [
+     "OTROS",
+     "TURISMO",
+     "CAMARONERO Y PESQUERO",
+     "TRANSPORTE"
+    ],
+    "titulo": "Que crea la Zona Económica Especial de Darién",
+    "titulo_corto": "Creación de la Zona Económica Especial de Darién"
+   },
    "anteproyecto": "119",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Primer Debate",
@@ -43323,11 +43425,11 @@
   "8516": "6fe8542f7202",
   "8517": "04e6a148bb0a",
   "8518": "c376f54f46a9",
-  "8519": "93c263d16edb",
+  "8519": "a6b223e31a3d",
   "8520": "6042e9aad35a",
   "8521": "df9a7341a288",
-  "8522": "e5f7cb2fb43a",
-  "8523": "8d1e46dc7d1e",
+  "8522": "b942ce400e18",
+  "8523": "be303c8819d3",
   "8524": "05fbe413c05c",
   "8525": "ba946dd69d35",
   "8526": "0a99bc616486",
@@ -43471,10 +43573,12 @@
    "8560",
    "8564",
    "7406",
+   "8523",
    "8554",
    "7968",
    "7785",
    "8567",
+   "8522",
    "8531",
    "8082",
    "8491",
@@ -43567,7 +43671,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-19T10:02:21",
+  "fecha": "2026-10-19T10:52:42",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -43671,6 +43775,8 @@
    "8481": "399fc6670871",
    "8491": "399fc6670871",
    "8516": "399fc6670871",
+   "8522": "399fc6670871",
+   "8523": "399fc6670871",
    "8530": "399fc6670871",
    "8531": "399fc6670871",
    "8538": "399fc6670871",
@@ -44029,7 +44135,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-19T10:02:55"
+  "revisada": "2026-10-19T10:53:08"
  },
- "ultima_corrida": "2026-10-19T10:02:21"
+ "ultima_corrida": "2026-10-19T10:52:42"
 }
