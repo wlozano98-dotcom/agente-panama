@@ -1,5 +1,5 @@
 {
- "comisiones_revisadas": "2026-10-19T01:03:35",
+ "comisiones_revisadas": "2026-10-19T07:09:41",
  "drive": {
   "7404": {
    "carpeta": "Obligatoriedad de educación media y preescolar (ficha 7404)",
@@ -849,6 +849,10 @@
    "carpeta": "Ampliación de acuerdos en el proceso penal (ficha 8563)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
+  "8566": {
+   "carpeta": "Regulación de accesos a autopistas y corredores (ficha 8566)",
+   "comision": "Comisión de Infraestructura Pública y Asuntos del Canal"
+  },
   "8569": {
    "carpeta": "Proceso sucesorio simplificado ante notario (ficha 8569)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
@@ -864,6 +868,10 @@
   "8573": {
    "carpeta": "Configuración de circuitos electorales para diputados (ficha 8573)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "8575": {
+   "carpeta": "Ley de duelo gestacional y permiso remunerado (ficha 8575)",
+   "comision": "Comisión de la Mujer, la Niñez y la Familia"
   },
   "8586": {
    "carpeta": "Reforma al marco regulatorio del sector eléctrico (Ley 6 de 1997) (ficha 8586)",
@@ -885,6 +893,10 @@
    "carpeta": "Gestión cultural y ambiental de la Ruta Colonial Transístmica (ficha 8606)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "8607": {
+   "carpeta": "Reforma al marco regulatorio del servicio de electricidad (ficha 8607)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
   "8608": {
    "carpeta": "Reforma al régimen de asociaciones público-privadas (APP) (ficha 8608)",
    "comision": "Comisión de Economía y Finanzas"
@@ -892,6 +904,10 @@
   "8609": {
    "carpeta": "Creación del Documento de Identidad Sanitaria (DIS) (ficha 8609)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
+  "8611": {
+   "carpeta": "Incentivos para el desarrollo turístico (ficha 8611)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
   },
   "8612": {
    "carpeta": "Calificación de Laboratorio de Interés Nacional a las AIP (ficha 8612)",
@@ -39852,6 +39868,31 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 47 DE 1946, ORGANICA DE EDUCACION, SOBRE LA OBLIGATORIEDAD DE COMEDORES ESCOLARES Y ENTREGA DE UNIFORMES PARA ESTUDIANTES DE ESCUELAS OFICIALES"
   },
   "8566": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Prohíbe a las concesionarias de autopistas, corredores o vías rápidas habilitar accesos sin conexión directa previa con arterias o vías principales.",
+     "Artículo 2: Obliga al Ministerio de Obras Públicas a mantener presencia en las juntas directivas de las concesionarias y a priorizar proyectos de conexión vial directa."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1ITyHK8l665pP5xYrJeQpF3beuqyH4jMn",
+    "fecha_analisis": "2026-10-19",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Impone restricciones técnicas y de diseño a las concesionarias de infraestructura vial para la apertura de accesos e incorporaciones a vías rápidas.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Afecta a las concesionarias de autopistas y contratistas de obra vial al prohibir aperturas de rampas o accesos sin enlace directo a arterias principales, lo que condiciona el diseño y viabilidad de proyectos viales.",
+    "resumen": "Prohíbe a las empresas concesionarias de autopistas, corredores y vías rápidas habilitar accesos sin conexión directa a vías principales, con el fin de evitar tráfico pesado por calles residenciales. Asigna al Ministerio de Obras Públicas la responsabilidad de priorizar las obras de interconexión directa y participar en las juntas directivas de dichas concesionarias.",
+    "sectores": [
+     "CEMENTERAS"
+    ],
+    "titulo": "Que establece medidas para la habilitación de accesos a autopistas, corredores y vías rápidas",
+    "titulo_corto": "Regulación de accesos a autopistas y corredores"
+   },
    "anteproyecto": "156",
    "comision": "COMISION DE INFRAESTRUCTURA PUBLICA Y ASUNTOS DEL CANAL",
    "etapa": "Primer Debate",
@@ -40296,6 +40337,30 @@
    "titulo": "QUE ESTABLECE LA POLITICA NACIONAL PARA EL RELEVO GENERACIONAL Y RETIRO VOLUNTARIO EN EL SERVICIO PUBLICO"
   },
   "8575": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 13: Adiciona el artículo 112-A al Código de Trabajo para conceder un permiso remunerado de cinco (5) días hábiles por duelo gestacional a la trabajadora y a su cónyuge o conviviente, sin que pueda descontarse del descanso por recuperación física ni compensarse con vacaciones o salario."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1g74U2jWCEPDFrsiGbBlDIrKul8OJLPWC",
+    "fecha_analisis": "2026-10-19",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Obliga a los empleadores a conceder y pagar una licencia remunerada de 5 días hábiles a trabajadores ante una pérdida gestacional.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es transversal y bajo, ya que adiciona una nueva licencia remunerada específica de cinco días hábiles al Código de Trabajo sin alterar sustancialmente los costos operativos ni el régimen de contratación general.",
+    "resumen": "La iniciativa busca establecer protocolos de atención médica y psicosocial ante la pérdida gestacional en el sistema de salud público. Asimismo, incorpora en el ámbito laboral un permiso remunerado de cinco días hábiles por duelo gestacional para la trabajadora y su cónyuge o conviviente, tanto en el sector público como en el sector privado a través del Código de Trabajo.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que visibiliza el duelo gestacional de la mujer, se establecen directrices generales para su atención y tratamiento especializado por parte del Estado, y se dictan otras disposiciones",
+    "titulo_corto": "Ley de duelo gestacional y permiso remunerado"
+   },
    "anteproyecto": "169",
    "comision": "COMISION DE LA MUJER, LA NIÑEZ Y LA FAMILIA",
    "etapa": "Primer Debate",
@@ -41119,6 +41184,37 @@
    "titulo": "POR LA CUAL SE MODIFICA LA LEY 456 DE 15 DE NOVIEMBRE DE 2024, QUE DECLARA PATRIMONIO CULTURAL PANAMEÑO LA RUTA COLONIAL TRANSÍSTMICA DE PANAMÁ, Y SE DICTAN OTRAS DISPOSICIONES PARA ARMONIZAR LA GESTIÓN CULTURAL Y AMBIENTAL DE LA RUTA COLONIAL TRANSÍSTMICA Y LAS RUINAS DE LA CAPILLA DE LA PALANGANA O CAPILLA DE CÁRDENAS"
   },
   "8607": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 4 (adiciona art. 8-A): Obliga a las empresas de transmisión y distribución a presentar planes vinculantes de inversión, expansión y mantenimiento a 5 años sujetos a aprobación expresa de la ASEP.",
+     "Artículo 8 (modifica art. 9): Faculta a la ASEP a realizar auditorías operativas directas y ordenar compensaciones automáticas a clientes por fallas objetivas en los estándares de calidad.",
+     "Artículos 12 al 15 (modifica art. 48 y adiciona arts. 48-A a 48-C): Fija reglas para la licitación del 51% de las concesiones de distribución que vencen en 2028, prohibiendo trasladar sobrecostos de compra a tarifas e inhabilitando a operadores con sanciones graves reiteradas.",
+     "Artículos 25 y 27 (adiciona arts. 85-A y 85-C): Introduce la licencia para comercializadores independientes y abre la libre elección de suministrador para clientes con demanda >=100 kW el primer año y >=50 kW a partir del segundo año.",
+     "Artículo 41 (adiciona art. 113-B): Establece plazo de 30 días para resolver reclamos de usuarios en la ASEP, aplicando silencio administrativo positivo a favor del cliente en disputas de facturación y créditos si no se emite fallo a tiempo.",
+     "Artículo 43 (modifica art. 151): Eleva el régimen sancionatorio de la ASEP con multas de hasta el 10% de los ingresos regulados anuales del prestador para infracciones muy graves, cuyos fondos se destinarán prioritariamente a compensar a los afectados.",
+     "Artículos 44 a 49 (adiciona arts. 163-A a 163-F): Reconoce el derecho a la generación distribuida mediante fuentes limpias, medición neta con acumulación de créditos de hasta 35%, venta de excedentes y esquemas comunitarios/remotos para propiedades horizontales y centros comerciales.",
+     "Artículos 52 y 53 (adiciona arts. 165-A y 165-B): Obliga a distribuidores y comercializadores a invertir el 0.5% de sus ingresos en programas de eficiencia energética y diagnósticos gratuitos para pequeñas empresas y PHs."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1RwXGI99s-TrygqFfaXqg-KfjTi1DvHsL",
+    "fecha_analisis": "2026-10-19",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Habilita a empresas con demanda desde 100 kW (y luego 50 kW) a contratar libremente su suministro eléctrico con comercializadores independientes, facilita la instalación de sistemas solares para autoconsumo con compensación neta y acelera reclamos por apagones o daños.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Toca directamente el régimen del servicio público de electricidad y las facultades de la ASEP (tema de prioridad media), reconfigurando el mercado eléctrico, otorgando opciones de contratación y generación propia a usuarios empresariales e imponiendo estrictas obligaciones de inversión y calidad a las distribuidoras.",
+    "resumen": "Reforma integralmente la regulación del mercado eléctrico ante el vencimiento de las concesiones de distribución en 2028. Abre la comercialización de energía a la competencia permitiendo a usuarios comerciales e industriales elegir proveedor, establece un marco formal para la generación distribuida y autoconsumo solar, independiza técnicamente al Centro Nacional de Despacho y endurece la fiscalización de la ASEP con multas de hasta el 10% de ingresos regulados y compensaciones automáticas a los clientes.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que modifica y adiciona artículos al Texto Único de la Ley 6 de 3 de febrero de 1997, que dicta el marco regulatorio e institucional para la prestación del servicio público de electricidad",
+    "titulo_corto": "Reforma al marco regulatorio del servicio de electricidad"
+   },
    "anteproyecto": "181",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Primer Debate",
@@ -41285,6 +41381,39 @@
    "titulo": "QUE RECONOCE EL FESTIVAL INTERNACIONAL DE DEGUSTACION A BENEFICIO DE LA ASOCIACION NACIONAL CONTRA EL CANCER CAPITULO DE SANTIAGO EN LA PROVINCIA DE VERAGUAS, CREA SU PATRONATO Y DICTA OTRAS DISPOSICIONES"
   },
   "8611": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 4: Concede exoneraciones de aranceles de importación, impuesto de inmueble, tasas por uso de muelles/aeropuertos e ISR hasta por 15 años para nuevos proyectos de hospedaje en el Caribe panameño con inversión mínima de B/.500,000.",
+     "Artículo 5: Otorga beneficios fiscales similares a los del Caribe (exoneración de aranceles, inmueble e ISR hasta por 10 años) para nuevos proyectos de alojamiento fuera del distrito de Panamá con inversión mínima de B/.500,000.",
+     "Artículo 8: Crea exoneraciones arancelarias por 3 años y de impuesto de inmuebles por 10 años para la construcción y operación de marinas turísticas.",
+     "Artículo 10: Establece una exoneración de hasta el 50% del ISR sobre las utilidades derivadas de congresos, eventos y convenciones internacionales a empresas operadoras que cumplan con requisitos de asistencia extranjera.",
+     "Artículo 18: Exige a los beneficiarios consignar una fianza de cumplimiento equivalente al 2% de la inversión declarada (1% si es menor o igual a B/.1,000,000), con un tope de B/.2,000,000.",
+     "Artículo 20: Fija la obligación de iniciar la ejecución en un máximo de 6 meses, operar en un plazo no mayor a 3 años y cumplir con indicadores de sostenibilidad y reportes periódicos.",
+     "Artículo 23: Establece sanciones administrativas por incumplimiento o simulación, incluyendo multas de hasta tres veces el beneficio obtenido y responsabilidad solidaria de directivos.",
+     "Artículo 25: Prohíbe la compensación, diferimiento o arrastre futuro de las pérdidas fiscales causadas durante el periodo de goce del incentivo de ISR.",
+     "Artículo 30: Modifica el artículo 1057-V del Código Fiscal fijando una tarifa de ITBMS del 10% para hospedajes públicos y elevándola al 15% para alquileres temporales o vacacionales de corta duración y reservas por plataformas digitales.",
+     "Artículo 37: Deroga la Ley 80 de 2012, el artículo 1 de la Ley 91 de 2017 y la Ley 82 de 2019 sobre incentivos turísticos."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1YG-WUNE2qhJ9OP9LlksVfpwHjBqXmYxm",
+    "fecha_analisis": "2026-10-19",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Reemplaza el régimen integral de incentivos fiscales para hoteles, operadores, marinas y eventos, sujeta los beneficios a fianzas e indicadores y fija un ITBMS del 15% a hospedajes temporales y plataformas.",
+      "sector": "TURISMO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Establece un nuevo marco tributario y operativo para la inversión turística en el país, ofreciendo exoneraciones fiscales para nuevos desarrollos pero imponiendo requisitos de desempeño, fianzas obligatorias y un gravamen del 15% de ITBMS a los alojamientos vacacionales.",
+    "resumen": "El proyecto propone un nuevo marco unificado de incentivos fiscales para inversiones turísticas en Panamá (alojamiento, turismo náutico y convenciones), derogando la Ley 80 de 2012 y la Ley 82 de 2019. Introduce beneficios condicionados como exoneraciones de aranceles, impuesto de inmueble e ISR, a la vez que exige fianzas de cumplimiento e informes de desempeño. Asimismo, modifica el Código Fiscal elevando al 15% el ITBMS para alquileres vacacionales de corta duración y plataformas de hospedaje.",
+    "sectores": [
+     "TURISMO"
+    ],
+    "titulo": "Que establece incentivos para el desarrollo turístico",
+    "titulo_corto": "Incentivos para el desarrollo turístico"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Primer Debate",
@@ -42907,7 +43036,7 @@
   "8563": "50a07b93f9e1",
   "8564": "338912c9d02a",
   "8565": "c2d3ee4aee0d",
-  "8566": "7166c6ae86d7",
+  "8566": "fc9a881801da",
   "8567": "e25737f8bd31",
   "8568": "fcfa8b31ea3a",
   "8569": "9e72a764cf2a",
@@ -42916,7 +43045,7 @@
   "8572": "e34918c4539d",
   "8573": "40c9d5d0349f",
   "8574": "57d7336add2a",
-  "8575": "2ece769a775d",
+  "8575": "8bcfb4da4797",
   "8576": "5a21a94c8ef7",
   "8577": "5b66f4fff70e",
   "8578": "9a6a86851d36",
@@ -42947,11 +43076,11 @@
   "8604": "9d44c58e435b",
   "8605": "14fa682c2ca8",
   "8606": "254498e09898",
-  "8607": "452caa938063",
+  "8607": "f76e4644fe14",
   "8608": "6a1385dfd7be",
   "8609": "3d927ce7f542",
   "8610": "dc5c11fa60f2",
-  "8611": "cd7a699d5022",
+  "8611": "92628e3584e0",
   "8612": "15bee8237dc5",
   "8613": "05945d5c0bb1",
   "8614": "fed31db4de75",
@@ -42991,6 +43120,7 @@
    "8465",
    "8609",
    "8546",
+   "8575",
    "8613",
    "7656",
    "8302",
@@ -42998,8 +43128,11 @@
    "8177",
    "8349",
    "8602",
+   "8607",
+   "8611",
    "8608",
    "7750",
+   "8566",
    "8516",
    "7406",
    "7968",
@@ -43094,7 +43227,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-19T05:50:36",
+  "fecha": "2026-10-19T07:15:15",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -43199,11 +43332,15 @@
    "8491": "399fc6670871",
    "8516": "399fc6670871",
    "8546": "399fc6670871",
+   "8566": "399fc6670871",
+   "8575": "399fc6670871",
    "8586": "399fc6670871",
    "8596": "399fc6670871",
    "8602": "399fc6670871",
+   "8607": "399fc6670871",
    "8608": "399fc6670871",
    "8609": "399fc6670871",
+   "8611": "399fc6670871",
    "8613": "399fc6670871",
    "8638": "399fc6670871"
   },
@@ -43544,7 +43681,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-19T05:51:01"
+  "revisada": "2026-10-19T07:15:42"
  },
- "ultima_corrida": "2026-10-19T05:50:36"
+ "ultima_corrida": "2026-10-19T07:15:15"
 }
