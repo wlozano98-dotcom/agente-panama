@@ -885,6 +885,10 @@
    "carpeta": "Prórroga del régimen fiscal de Ciudad del Saber (ficha 8613)",
    "comision": "Comisión de Economía y Finanzas"
   },
+  "8614": {
+   "carpeta": "Reorganización del Sistema Nacional de Investigación (ficha 8614)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "8621": {
    "carpeta": "Tratado de extradición entre Panamá y Argentina (ficha 8621)",
    "comision": "Comisión de Relaciones Exteriores"
@@ -41299,6 +41303,20 @@
    "titulo": "QUE EMITE CONCEPTO FAVORABLE PARA LA SUSCRIPCIÓN DE LA ADENDA NO. AL CONTRATO APROBADO MEDIANTE EL DECRETO LEY NO. 6 DE 10 DE FEBRERO DE 1998, SUSCRITO ENTRE EL ESTADO Y LA FUNDACIÓN CIUDAD DEL SABER, PARA EL ESTABLECIMIENTO Y DESARROLLO DE LA CIUDAD DEL SABER"
   },
   "8614": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/11Iu_ctYJDwzjVrejc_5Z0pAeYMzvrxVa",
+    "fecha_analisis": "2026-10-19",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Se enfoca en la gobernanza y fomento de la investigación científica y académica mediante una figura de AIP, sin imponer costos, regulaciones ni obligaciones al sector empresarial.",
+    "resumen": "Propone transformar la estructura del Sistema Nacional de Investigación (SNI) para que opere como una Asociación de Interés Público (AIP) vinculada a la SENACYT. Regula las categorías de investigadores, grupos y centros de investigación, estableciendo criterios de evaluación por pares y la asignación de estímulos económicos por mérito. Afecta a la comunidad científica, universidades e instituciones de investigación.",
+    "sectores": [],
+    "titulo": "Que reorganiza el Sistema Nacional de Investigación (SNI)",
+    "titulo_corto": "Reorganización del Sistema Nacional de Investigación"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Primer Debate",
@@ -42835,7 +42853,7 @@
   "8611": "cd7a699d5022",
   "8612": "15bee8237dc5",
   "8613": "05945d5c0bb1",
-  "8614": "298c77bada24",
+  "8614": "fed31db4de75",
   "8615": "b2b971f511da",
   "8616": "2c4d4f2ac382",
   "8617": "2737ac2876fd",
@@ -42973,7 +42991,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-19T01:04:27",
+  "fecha": "2026-10-19T01:50:21",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -43421,7 +43439,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-19T01:05:05"
+  "revisada": "2026-10-19T01:50:50"
  },
- "ultima_corrida": "2026-10-19T01:04:27"
+ "ultima_corrida": "2026-10-19T01:50:21"
 }
