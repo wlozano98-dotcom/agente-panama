@@ -873,6 +873,10 @@
    "carpeta": "Área protegida en zona boscosa de Ancón y Betania (ficha 8596)",
    "comision": "Comisión de Población, Ambiente y Desarrollo"
   },
+  "8606": {
+   "carpeta": "Gestión cultural y ambiental de la Ruta Colonial Transístmica (ficha 8606)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "8608": {
    "carpeta": "Reforma al régimen de asociaciones público-privadas (APP) (ficha 8608)",
    "comision": "Comisión de Economía y Finanzas"
@@ -41027,6 +41031,22 @@
    "titulo": "QUE EXONERA A LAS ORGANIZACIONES DE BASE COMUNITARIA (OBC) RECONOCIDAS POR EL MINISTERIO DE AMBIENTE DEL PAGO DE DERECHOS DE REGISTRO, DERECHOS NOTARIALES E IMPUESTO DE TIMBRE."
   },
   "8606": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 4 (modifica el artículo 6 de la Ley 456 de 2024): Dispone que la zona de amortiguamiento debe mantenerse libre de construcciones y condiciona cualquier intervención a la doble aprobación (viabilidad ambiental de MiAmbiente y viabilidad cultural de MiCultura)."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1T5SnjuA6qekQMmZAQxhxxf9MLCQQ3m6y",
+    "fecha_analisis": "2026-10-19",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No genera impacto directo sobre sectores empresariales, pues se trata de una reforma de coordinación administrativa interna entre MiCultura y MiAmbiente para la gestión de áreas protegidas y patrimonio histórico.",
+    "resumen": "Modifica la Ley 456 de 2024 para articular las competencias entre el Ministerio de Cultura y el Ministerio de Ambiente sobre la Ruta Colonial Transístmica y sus áreas protegidas.\nEstablece que los Planes de Manejo ambiental prevalecerán sobre los límites fijos de amortiguamiento y exige viabilidad tanto ambiental como cultural para cualquier intervención en la zona.\nAfecta principalmente la coordinación institucional del Estado y proyectos que pretendan desarrollarse en áreas colindantes a estos monumentos históricos.",
+    "sectores": [],
+    "titulo": "Por la cual se modifica la Ley 456 de 15 de noviembre de 2024, que declara patrimonio cultural panameño la Ruta Colonial Transístmica de Panamá, y se dictan otras disposiciones para armonizar la gestión cultural y ambiental de la Ruta Colonial Transístmica y las ruinas de la Capilla de la Palangana o Capilla de Cárdenas",
+    "titulo_corto": "Gestión cultural y ambiental de la Ruta Colonial Transístmica"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Primer Debate",
@@ -42877,7 +42897,7 @@
   "8603": "1ca9bded7805",
   "8604": "9d44c58e435b",
   "8605": "14fa682c2ca8",
-  "8606": "d5b11fb59162",
+  "8606": "254498e09898",
   "8607": "452caa938063",
   "8608": "6a1385dfd7be",
   "8609": "3d927ce7f542",
@@ -43024,7 +43044,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-19T02:51:35",
+  "fecha": "2026-10-19T03:54:33",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -43473,7 +43493,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-19T02:52:02"
+  "revisada": "2026-10-19T03:55:01"
  },
- "ultima_corrida": "2026-10-19T02:51:35"
+ "ultima_corrida": "2026-10-19T03:54:33"
 }
