@@ -1,5 +1,5 @@
 {
- "comisiones_revisadas": "2026-10-19T07:09:41",
+ "comisiones_revisadas": "2026-10-19T14:04:07",
  "drive": {
   "7404": {
    "carpeta": "Obligatoriedad de educación media y preescolar (ficha 7404)",
@@ -703,7 +703,7 @@
   },
   "8324": {
    "carpeta": "Creación de la Orden Futbolística Luis Matador Tejada (ficha 8324)",
-   "comision": "Comisión de Educacion, Cultura y Deportes"
+   "comision": "Comisión de Educación, Cultura y Deportes"
   },
   "8325": {
    "carpeta": "Transparencia y topes a penalidades en créditos bancarios (ficha 8325)",
@@ -843,7 +843,7 @@
   },
   "8521": {
    "carpeta": "Educación para menores hospitalizados o enfermos (ficha 8521)",
-   "comision": "Comisión de Educacion, Cultura y Deportes"
+   "comision": "Comisión de Educación, Cultura y Deportes"
   },
   "8522": {
    "carpeta": "Creación del Seguro Estudiantil Nacional (ficha 8522)",
@@ -931,7 +931,7 @@
   },
   "8570": {
    "carpeta": "Reforma a la Ley 304 sobre arrecifes y pastos marinos (ficha 8570)",
-   "comision": "Comisión de Poblacion, Ambiente y Desarrollo"
+   "comision": "Comisión de Población, Ambiente y Desarrollo"
   },
   "8572": {
    "carpeta": "Reforma al Código Electoral (ficha 8572)",
@@ -32042,8 +32042,13 @@
    },
    "anteproyecto": "383",
    "comision": "COMISION DE ASUNTOS AGROPECUARIOS",
-   "etapa": "Enviado al Ejecutivo",
+   "etapa": "Ley",
    "etapas": [
+    {
+     "comentario": "SANCIONADO POR EL ORGANO EJECUTIVO",
+     "etapa": "Ley",
+     "fecha": "2026-10-14"
+    },
     {
      "comentario": "ENVIADO AL ORGANO EJECUTIVO",
      "etapa": "Enviado al Ejecutivo",
@@ -32548,8 +32553,13 @@
    },
    "anteproyecto": "395",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
-   "etapa": "Enviado al Ejecutivo",
+   "etapa": "Ley",
    "etapas": [
+    {
+     "comentario": "SANCIONADO POR EL ORGANO EJECUTIVO",
+     "etapa": "Ley",
+     "fecha": "2026-10-14"
+    },
     {
      "comentario": "ENVIADO AL ORGANO EJECUTIVO",
      "etapa": "Enviado al Ejecutivo",
@@ -32837,8 +32847,13 @@
    },
    "anteproyecto": "0",
    "comision": "COMISION DE RELACIONES EXTERIORES",
-   "etapa": "Enviado al Ejecutivo",
+   "etapa": "Ley",
    "etapas": [
+    {
+     "comentario": "SANCIONADO POR EL ORGANO EJECUTIVO",
+     "etapa": "Ley",
+     "fecha": "2026-10-14"
+    },
     {
      "comentario": "ENVIADO AL ORGANO EJECUTIVO",
      "etapa": "Enviado al Ejecutivo",
@@ -32885,7 +32900,7 @@
    "proponente": "MINISTERIO DE RELACIONES EXTERIORES",
    "proyecto": "549",
    "tiene_documento": true,
-   "titulo": "QUE APRUEBA EL ACUERDO ENTRE EL GOBIERNO DE LA REPUBLICA DE PANAMÁ Y LA UNION INTERNACIONAL DE TELECOMUNICACIONES RELATIVO AL ESTABLECIMIENTO DE UNA OFICINA DE AREA DE LA UNION INTERNACIONAL DE TELECOMUNICACIONES EN LA REPUBLICA DE PANAMA"
+   "titulo": "POR LA CUAL SE APRUEBA EL ACUERDO ENTRE EL GOBIERNO DE LA REPÚBLICA DE PANAMÁ Y LA UNIÓN INTERNACIONAL DE TELECOMUNICACIONES RELATIVO AL ESTABLECIMIENTO DE UNA OFICINA DE ÁREA DE LA UNIÓN INTERNACIONAL DE TELECOMUNICACIONES EN LA REPÚBLICA DE PANAMÁ, FIRMADO EN GINEBRA EL 9 DE DICIEMBRE DE 2025 Y EN PANAMÁ EL 22 DE DICIEMBRE 2025"
   },
   "8331": {
    "anteproyecto": "402",
@@ -38787,8 +38802,13 @@
    },
    "anteproyecto": "163",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
-   "etapa": "Enviado al Ejecutivo",
+   "etapa": "Ley",
    "etapas": [
+    {
+     "comentario": "SANCIONADO POR EL ORGANO EJECUTIVO",
+     "etapa": "Ley",
+     "fecha": "2026-10-14"
+    },
     {
      "comentario": "ENVIADO AL ORGANO EJECUTIVO",
      "etapa": "Enviado al Ejecutivo",
@@ -40613,8 +40633,13 @@
    },
    "anteproyecto": "406",
    "comision": "COMISION DE POBLACION, AMBIENTE Y DESARROLLO",
-   "etapa": "Enviado al Ejecutivo",
+   "etapa": "Ley",
    "etapas": [
+    {
+     "comentario": "SANCIONADO POR EL ORGANO EJECUTIVO",
+     "etapa": "Ley",
+     "fecha": "2026-10-14"
+    },
     {
      "comentario": "ENVIADO AL ORGANO EJECUTIVO",
      "etapa": "Enviado al Ejecutivo",
@@ -43329,7 +43354,7 @@
   "8303": "934cbd49c6ea",
   "8304": "3814c7c41293",
   "8307": "46aab999a4b7",
-  "8308": "d699f6809cd3",
+  "8308": "62b9985a4a97",
   "8309": "92caf29a5cdf",
   "8310": "437e597794e7",
   "8311": "87c0205ad8a3",
@@ -43341,13 +43366,13 @@
   "8320": "7aa31c705406",
   "8321": "4b52f17d9411",
   "8323": "1159c88b6100",
-  "8324": "1c205a03a869",
+  "8324": "16f3c076c3fa",
   "8325": "1c38b68212f3",
   "8326": "94b53753a0e2",
   "8327": "e4402c95e2ac",
   "8328": "bb22b4c5dc99",
   "8329": "f1d376dae731",
-  "8330": "a268e67ddaab",
+  "8330": "9fe42ca1e7b1",
   "8331": "b80231a7080a",
   "8333": "ac7f1a1e0010",
   "8334": "e81b1c75fc7d",
@@ -43520,7 +43545,7 @@
   "8518": "c376f54f46a9",
   "8519": "a6b223e31a3d",
   "8520": "6042e9aad35a",
-  "8521": "df9a7341a288",
+  "8521": "db4826550989",
   "8522": "b942ce400e18",
   "8523": "be303c8819d3",
   "8524": "05fbe413c05c",
@@ -43567,7 +43592,7 @@
   "8567": "2659d935e6c8",
   "8568": "fcfa8b31ea3a",
   "8569": "9e72a764cf2a",
-  "8570": "ce48760c4ee8",
+  "8570": "0611fe197d48",
   "8571": "1e2fdeb93bdc",
   "8572": "e34918c4539d",
   "8573": "40c9d5d0349f",
@@ -43639,6 +43664,7 @@
  "inicio": "2026-10-08",
  "matriz_generada": {
   "claves": [
+   "8308",
    "8638",
    "8596",
    "7532",
@@ -43677,7 +43703,6 @@
    "8082",
    "8491",
    "7779",
-   "8308",
    "8517",
    "8530",
    "7992",
@@ -43767,7 +43792,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-19T13:03:36",
+  "fecha": "2026-10-19T14:05:57",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -44234,7 +44259,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-19T13:04:04"
+  "revisada": "2026-10-19T14:06:35"
  },
- "ultima_corrida": "2026-10-19T13:03:36"
+ "ultima_corrida": "2026-10-19T14:05:57"
 }
