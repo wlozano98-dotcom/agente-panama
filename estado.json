@@ -845,13 +845,29 @@
    "carpeta": "Reforma al Código Procesal Penal (ficha 8558)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
+  "8560": {
+   "carpeta": "Escalafón e idoneidad en Ciencia y Tecnología de Alimentos (ficha 8560)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
+  "8562": {
+   "carpeta": "Ampliación de plásticos de un solo uso regulados (ficha 8562)",
+   "comision": "Comisión de Población, Ambiente y Desarrollo"
+  },
   "8563": {
    "carpeta": "Ampliación de acuerdos en el proceso penal (ficha 8563)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
+  "8564": {
+   "carpeta": "Creación de la licencia remunerada por duelo laboral (ficha 8564)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
   "8566": {
    "carpeta": "Regulación de accesos a autopistas y corredores (ficha 8566)",
    "comision": "Comisión de Infraestructura Pública y Asuntos del Canal"
+  },
+  "8567": {
+   "carpeta": "Incentivos fiscales para transporte público y escolar (ficha 8567)",
+   "comision": "Comisión de Comunicación y Transporte"
   },
   "8569": {
    "carpeta": "Proceso sucesorio simplificado ante notario (ficha 8569)",
@@ -39691,6 +39707,33 @@
    "titulo": "QUE CREA LA CONDECORACION JOSE AGUSTIN DONDERIS MIRANDA"
   },
   "8560": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículos 1 y 2: Circunscriben el escalafón salarial a los profesionales al servicio del Estado, entidades autónomas y municipales.",
+     "Artículos 23 a 25: Modifican los artículos 2, 7 y 8 de la Ley 46 de 2015, reconociendo la idoneidad profesional a licenciados de carreras afines que posean posgrado o maestría en Ciencia y Tecnología de Alimentos o Inocuidad Alimentaria.",
+     "Artículo 26: Establece un plazo de doce meses para que profesionales con títulos de posgrado vigentes soliciten su idoneidad ante el Consejo Técnico de Salud o la Junta Técnica de Ingeniería y Arquitectura.",
+     "Artículos 29 y 30: Promueven que empresas privadas realicen actividades vinculadas a la inocuidad y seguridad alimentaria el 7 de junio."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1Ozm-lkor3WlsH-6RL7Qo2mwF-k4XtYtL",
+    "fecha_analisis": "2026-10-19",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Amplía las vías de idoneidad para profesionales en inocuidad alimentaria, lo que flexibiliza la oferta de personal técnico disponible para la industria.",
+      "sector": "ALIMENTOS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto directo es laboral para el sector público (Ministerio de Salud), afectando al sector privado únicamente de manera indirecta por la ampliación del perfil de profesionales idóneos y llamados declarativos a celebrar el día nacional.",
+    "resumen": "La iniciativa crea un escalafón salarial y perfiles de cargo para los profesionales de Ciencia y Tecnología de Alimentos que laboran en el sector público. Asimismo, modifica la Ley 46 de 2015 para ampliar las vías de obtención de idoneidad a profesionales de carreras afines que cuenten con formación de posgrado en el área, e institucionaliza el 7 de junio como día nacional de esta profesión.",
+    "sectores": [
+     "ALIMENTOS"
+    ],
+    "titulo": "Que establece el escalafón de acuerdo a los niveles y jefaturas para los profesionales de la Ciencia y Tecnología de Alimentos, modifica la Ley 46 de 24 de junio de 2015 y dicta otras disposiciones",
+    "titulo_corto": "Escalafón e idoneidad en Ciencia y Tecnología de Alimentos"
+   },
    "anteproyecto": "150",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Primer Debate",
@@ -39737,6 +39780,38 @@
    "titulo": "QUE FORTALECE LOS DERECHOS DE LOS USUARIOS DE LOS SERVICIOS PUBLICOS DE TELECOMUNICACIONES, MODIFICA LA LEY 31 DE 8 DE FEBRERO DE 1996 Y DICTA OTRAS DISPOSICIONES."
   },
   "8562": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Adiciona los numerales 12, 13 y 14 al artículo 9 de la Ley 187 de 2020 para someter a reducción vasos plásticos desechables, tapas planas con ranura para carrizo y envases plásticos de comida de un solo uso.",
+     "Artículo 2: Adiciona el numeral 4 al artículo 10 de la Ley 187 de 2020 estableciendo plazos de prohibición escalonada de 18 meses para tapas, 24 meses para vasos desechables y 36 meses para envases de comida.",
+     "Artículo 3: Ordena al Ministerio de Ambiente actualizar el Decreto Ejecutivo 9 de 2022 en un plazo máximo de 180 días para regular la certificación de alternativas sostenibles para los nuevos productos."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1I52m9l8Xgbhl4eshaxJM2jVo28qTntZ8",
+    "fecha_analisis": "2026-10-19",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Prohíbe progresivamente la fabricación e importación de tres líneas clave de empaques y recipientes plásticos desechables.",
+      "sector": "INDUSTRIAS"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Obliga a sustituir vasos, tapas y envases plásticos de un solo uso por alternativas sostenibles certificadas para el despacho y entrega de comida.",
+      "sector": "ALIMENTOS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Establece nuevas prohibiciones comerciales y plazos estrictos de adaptación para el uso, venta e importación de envases y recipientes plásticos de consumo masivo.",
+    "resumen": "Propone incorporar los vasos plásticos desechables, las tapas con ranura para carrizo y los envases de comida de un solo uso a la lista de productos prohibidos de la Ley 187 de 2020. Establece plazos escalonados de 18, 24 y 36 meses para su reemplazo definitivo por alternativas certificadas. Afecta directamente a fabricantes, importadores, distribuidores y comercios o restaurantes que despachan alimentos y bebidas.",
+    "sectores": [
+     "INDUSTRIAS",
+     "ALIMENTOS"
+    ],
+    "titulo": "Que adiciona numerales al artículo 9 y al artículo 10 de la Ley 187 de 2 de diciembre de 2020, que regula la reducción y el reemplazo progresivo de los plásticos de un solo uso",
+    "titulo_corto": "Ampliación de plásticos de un solo uso regulados"
+   },
    "anteproyecto": "152",
    "comision": "COMISION DE POBLACION, AMBIENTE Y DESARROLLO",
    "etapa": "Primer Debate",
@@ -39807,6 +39882,34 @@
    "titulo": "QUE MODIFICA DISPOSICIONES DEL CODIGO PROCESAL PENAL PARA FORTALECER EL PRINCIPIO DE SOLUCION DEL CONFLICTO Y AMPLIAR LA UTILIZACION DE LOS MECANISMOS CONSENSUADOS DE TERMINACION DEL PROCESO PENAL"
   },
   "8564": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2: Otorga formalmente el derecho a licencia remunerada por duelo para todos los trabajadores de empresas privadas ante el deceso de un familiar.",
+     "Artículo 3: Fija la duración del permiso remunerado en 5 días hábiles para familiares inmediatos (cónyuge, conviviente, padres, hijos, hermanos) y 3 días hábiles para segundo grado de consanguinidad y primer grado de afinidad.",
+     "Artículo 4: Dispone que los días de duelo serán computados como tiempo efectivo de servicio y prohíbe descontarlos de vacaciones u otras licencias.",
+     "Artículo 6: Obliga al trabajador a notificar al empleador a la brevedad y acreditar el deceso con certificado del Tribunal Electoral en un plazo de diez días.",
+     "Artículo 7: Establece que se mantendrán vigentes los convenios colectivos o reglamentos internos que otorguen condiciones superiores o más favorables."
+    ],
+    "drive": "https://drive.google.com/drive/folders/19YvQJCmKN1vBe6BkSpdUnbkFcHU0c4Qz",
+    "fecha_analisis": "2026-10-19",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Establece una obligación laboral general de conceder y remunerar entre 3 y 5 días de licencia por fallecimiento de familiares sin deducción de vacaciones.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Introduce una prestación laboral remunerada aplicable a todos los empleadores del país, lo que genera costos de ausentismo justificado y cobertura operativa de alcance transversal.",
+    "resumen": "El proyecto establece con carácter obligatorio una licencia remunerada por duelo para todos los trabajadores del sector privado y servidores públicos. Concede cinco días hábiles remunerados por el fallecimiento de cónyuge, pareja en unión de hecho, padres, hijos o hermanos, y tres días hábiles para familiares de segundo grado de consanguinidad o primero de afinidad. Dicho tiempo se considerará laborado y no podrá descontarse del período de vacaciones ni de otros permisos.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que crea la licencia por duelo para los trabajadores de empresas privadas y los servidores públicos",
+    "titulo_corto": "Creación de la licencia remunerada por duelo laboral"
+   },
    "anteproyecto": "153",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Primer Debate",
@@ -39921,6 +40024,35 @@
    "titulo": "QUE ESTABLECE MEDIDAS PARA LA HABILITACION DE ACCESOS A AUTOPISTAS CORREDORES Y VIAS RAPIDAS"
   },
   "8567": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 4: Exonera de ITBMS, impuestos de importación e ISC la adquisición o importación de vehículos nuevos, repuestos, componentes, llantas, aceites y lubricantes para transporte público y escolar; extiende el beneficio a contratos de arrendamiento financiero (leasing).",
+     "Artículo 6: Especifica que el beneficio aplica a microbuses (8 a 25 pasajeros), buses medianos (26 a 45 pasajeros) y autobuses de más de 45 pasajeros.",
+     "Artículo 11: Prohíbe vender, ceder, arrendar o cambiar el uso de los vehículos y repuestos exonerados por un período mínimo de cinco años desde su inscripción.",
+     "Artículo 14: Dispone que el incumplimiento del plazo de cinco años o el desvío de uso obliga al pago proporcional de los tributos exonerados a la DGI y a la Autoridad Nacional de Aduanas, además de sanciones.",
+     "Artículo 18: Fija la vigencia del régimen de incentivos fiscales en un término de diez años.",
+     "Artículo 23: Otorga exoneración total (100%) de aranceles, ITBMS e ISC, trámite aduanero expedito y prioridad en cupos de operación para vehículos 100% eléctricos, híbridos o de cero emisiones."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1aQfzrscusaVRiC7Zb_ZUSHT_ho1TviuF",
+    "fecha_analisis": "2026-10-19",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Exonera de impuestos clave (arancel, ITBMS e ISC) la importación y adquisición de flota, repuestos e insumos a operadores de transporte de pasajeros y colegiales, imponiendo a la vez restricciones de enajenación por 5 años.",
+      "sector": "TRANSPORTE"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Representa un beneficio tributario y operativo directo de alto impacto para las empresas y cooperativas concesionarias de transporte terrestre y transporte colegial, reduciendo costos de modernización de flota vehicular.",
+    "resumen": "La iniciativa crea un régimen de incentivos fiscales con vigencia de diez años para exonerar aranceles, ITBMS e ISC en la importación y compra local de vehículos nuevos, repuestos y lubricantes destinados al transporte público colectivo y escolar. Beneficia directamente a los concesionarios y transportistas autorizados por la ATTT, abarcando también compras mediante leasing financiero y concediendo trámites expeditos a flotas eléctricas o híbridas. A su vez, establece una prohibición de venta o cambio de uso de las unidades por al menos cinco años, bajo pena de reintegro tributario y sanciones.",
+    "sectores": [
+     "TRANSPORTE"
+    ],
+    "titulo": "Que establece incentivos fiscales para la adquisición e importación de vehículos destinados al transporte público de pasajeros y al transporte escolar, y dicta otras disposiciones.",
+    "titulo_corto": "Incentivos fiscales para transporte público y escolar"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE COMUNICACION Y TRANSPORTE",
    "etapa": "Primer Debate",
@@ -43030,14 +43162,14 @@
   "8557": "68085b3d7b99",
   "8558": "6e4ba150502e",
   "8559": "4a9ee860223c",
-  "8560": "9bb68406a364",
+  "8560": "ae58e06e7993",
   "8561": "d560f5d305c9",
-  "8562": "f47b2f824f53",
+  "8562": "eed38cfea777",
   "8563": "50a07b93f9e1",
-  "8564": "338912c9d02a",
+  "8564": "0e92e3428d70",
   "8565": "c2d3ee4aee0d",
   "8566": "fc9a881801da",
-  "8567": "e25737f8bd31",
+  "8567": "2659d935e6c8",
   "8568": "fcfa8b31ea3a",
   "8569": "9e72a764cf2a",
   "8570": "ce48760c4ee8",
@@ -43128,15 +43260,19 @@
    "8177",
    "8349",
    "8602",
+   "8562",
    "8607",
    "8611",
    "8608",
    "7750",
    "8566",
    "8516",
+   "8560",
+   "8564",
    "7406",
    "7968",
    "7785",
+   "8567",
    "8082",
    "8491",
    "7779",
@@ -43227,7 +43363,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-19T07:15:15",
+  "fecha": "2026-10-19T08:06:15",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -43332,7 +43468,11 @@
    "8491": "399fc6670871",
    "8516": "399fc6670871",
    "8546": "399fc6670871",
+   "8560": "399fc6670871",
+   "8562": "399fc6670871",
+   "8564": "399fc6670871",
    "8566": "399fc6670871",
+   "8567": "399fc6670871",
    "8575": "399fc6670871",
    "8586": "399fc6670871",
    "8596": "399fc6670871",
@@ -43681,7 +43821,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-19T07:15:42"
+  "revisada": "2026-10-19T08:06:54"
  },
- "ultima_corrida": "2026-10-19T07:15:15"
+ "ultima_corrida": "2026-10-19T08:06:15"
 }
