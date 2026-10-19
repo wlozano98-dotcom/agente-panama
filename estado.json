@@ -845,6 +845,10 @@
    "carpeta": "Creación de la Zona Económica Especial de Darién (ficha 8523)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
   },
+  "8526": {
+   "carpeta": "Anticipos a concesionarias de energía y agua en contratación pública (ficha 8526)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
   "8527": {
    "carpeta": "Régimen de Fondos Especiales Intermunicipales (ficha 8527)",
    "comision": "Comisión de Asuntos Municipales"
@@ -38997,6 +39001,30 @@
    "titulo": "QUE MODIFICA EL ARTICULO 212-B DEL CODIGO PENAL, ADICIONADO POR LA LEY 149 DE 24 DE ABRIL DE 2020, LA CUAL MODIFICO LA LEY 36 DE 2 DE AGOSTO DE 2016, A FIN DE INCORPORAR EL ABANDONO COMO UNA FORMA DE MALTRATO CONTRA LAS PERSONAS ADULTAS MAYORES, Y DICTA OTRAS DISPOSICIONES"
   },
   "8526": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Adiciona el artículo 124-A a la Ley 22 de 2006, exceptuando del límite del 20% de anticipo y de la obligación de presentar fianza de anticipo a las empresas concesionarias de energía eléctrica y agua potable en proyectos sociales de extensión de infraestructura, autorizando pagos anticipados de hasta el 100% previa justificación técnica, fiscalización de la ASEP y refrendo de la Contraloría General de la República."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1iy-q7LF_LZo9yZ1JPU5jtHmc6SZNjxpI",
+    "fecha_analisis": "2026-10-19",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Exime a las concesionarias de constituir fianzas de anticipo en contratos estatales de extensión de redes, reduciendo de manera muy acotada la emisión de este tipo de cauciones.",
+      "sector": "SEGUROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Facilita liquidez y elimina el requisito de fianza de anticipo a las empresas concesionarias de distribución eléctrica y agua en proyectos sociales, con un efecto marginal en la venta de fianzas por aseguradoras.",
+    "resumen": "Propone exonerar a las empresas concesionarias de energía eléctrica y agua potable del límite del 20% de pago anticipado y de la fianza de anticipo en obras estatales para extensión de redes de interés social. Permite desembolsos anticipados de hasta el 100% con justificación técnica, respaldo del contrato de concesión y refrendo de la Contraloría General de la República.",
+    "sectores": [
+     "SEGUROS"
+    ],
+    "titulo": "Ley que adiciona el artículo 124-A al Texto Único de la Ley 22 de 27 de junio de 2006, que regula la Contratación Pública, ordenado por la Ley 153 de 2020",
+    "titulo_corto": "Anticipos a concesionarias de energía y agua en contratación pública"
+   },
    "anteproyecto": "118",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Primer Debate",
@@ -43432,7 +43460,7 @@
   "8523": "be303c8819d3",
   "8524": "05fbe413c05c",
   "8525": "ba946dd69d35",
-  "8526": "0a99bc616486",
+  "8526": "e89d71186492",
   "8527": "9e24290ed370",
   "8528": "82dc276fcea5",
   "8529": "ef42f64bd686",
@@ -43566,6 +43594,7 @@
    "8607",
    "8611",
    "8608",
+   "8526",
    "7750",
    "8538",
    "8566",
@@ -43671,7 +43700,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-19T10:52:42",
+  "fecha": "2026-10-19T11:52:25",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -43777,6 +43806,7 @@
    "8516": "399fc6670871",
    "8522": "399fc6670871",
    "8523": "399fc6670871",
+   "8526": "399fc6670871",
    "8530": "399fc6670871",
    "8531": "399fc6670871",
    "8538": "399fc6670871",
@@ -44135,7 +44165,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-19T10:53:08"
+  "revisada": "2026-10-19T11:52:57"
  },
- "ultima_corrida": "2026-10-19T10:52:42"
+ "ultima_corrida": "2026-10-19T11:52:25"
 }
