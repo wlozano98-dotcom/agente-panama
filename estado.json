@@ -873,6 +873,10 @@
    "carpeta": "Área protegida en zona boscosa de Ancón y Betania (ficha 8596)",
    "comision": "Comisión de Población, Ambiente y Desarrollo"
   },
+  "8608": {
+   "carpeta": "Reforma al régimen de asociaciones público-privadas (APP) (ficha 8608)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
   "8609": {
    "carpeta": "Creación del Documento de Identidad Sanitaria (DIS) (ficha 8609)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
@@ -41074,6 +41078,34 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS AL TEXTO UNICO DE LA LEY 6 DE 3 DE FEBRERO DE 1997, QUE DICTA EL MARCO REGULATORIO E INSTITUCIONAL PARA LA PRESTACION DEL SERVICIO PUBLICO DEELECTRICIDAD"
   },
   "8608": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1 (modifica Art. 2 de la Ley 93 de 2019): Incorpora al IDAAN y a la CSS para desarrollar proyectos de infraestructura pública bajo modalidad APP (excluyendo la distribución domiciliaria de agua potable y servicios médicos).",
+     "Artículo 10 (adiciona Art. 27-A a la Ley 93 de 2019): Crea el Régimen Específico de Iniciativa Privada, otorgando al originador privado el derecho a recuperar costos de estudios, derecho a igualar la mejor oferta en la licitación y adjudicación directa si no hay otros proponentes.",
+     "Artículo 12 (modifica Art. 37 de la Ley 93 de 2019): Agiliza la licitación fijando la fianza de propuesta en monto fijo, limitando las impugnaciones al Tribunal Administrativo de Contrataciones Públicas bajo fianza de hasta 1% sin efectos suspensivos y eliminando el período de observaciones al informe evaluador.",
+     "Artículo 14 (modifica Art. 65 de la Ley 93 de 2019): Amplía el plazo máximo del contrato APP a 40 años, prorrogable durante la ejecución hasta por 10 años adicionales (50 años en total).",
+     "Artículo 15 (adiciona Arts. 86 a 88 a la Ley 93 de 2019): Crea el Fondo APP, estableciendo que podrá nutrirse con aportes o contribuciones de los originadores de iniciativas privadas, adjudicatarios y contratistas de APP autofinanciadas."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1dW4qwqhhY-vCisMvYaxHgsireXtU2oyU",
+    "fecha_analisis": "2026-10-19",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Abre la posibilidad de originar obras públicas por iniciativa privada, amplía los plazos de concesión hasta por 50 años y agiliza los procesos licitatorios para el sector construcción e infraestructura.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Reforma de manera sustancial las reglas para el diseño, licitación, adjudicación y financiamiento de obras públicas bajo esquemas APP, otorgando incentivos directos a proponentes privados y ampliando la duración de las concesiones.",
+    "resumen": "El proyecto moderniza el marco normativo de las Asociaciones Público-Privadas (APP) introduciendo un régimen de iniciativa privada que permite a empresas proponer proyectos no solicitados y otorga derechos de tanteo o reembolso de estudios. Además, extiende la vigencia máxima contractual hasta 50 años, agiliza los procesos de licitación e integra a entidades como el IDAAN y la CSS para proyectos exclusivos de infraestructura pública.",
+    "sectores": [
+     "CEMENTERAS"
+    ],
+    "titulo": "Que modifica la Ley 93 de 19 de septiembre de 2019, que crea el régimen de Asociación Público-Privada para el desarrollo como incentivo a la inversión privada, al desarrollo social y a la creación de empleos",
+    "titulo_corto": "Reforma al régimen de asociaciones público-privadas (APP)"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Primer Debate",
@@ -42847,7 +42879,7 @@
   "8605": "14fa682c2ca8",
   "8606": "d5b11fb59162",
   "8607": "452caa938063",
-  "8608": "a233bf56f955",
+  "8608": "6a1385dfd7be",
   "8609": "3d927ce7f542",
   "8610": "dc5c11fa60f2",
   "8611": "cd7a699d5022",
@@ -42896,6 +42928,7 @@
    "8304",
    "8177",
    "8349",
+   "8608",
    "7750",
    "8516",
    "7406",
@@ -42991,7 +43024,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-19T01:50:21",
+  "fecha": "2026-10-19T02:51:35",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -43098,6 +43131,7 @@
    "8546": "399fc6670871",
    "8586": "399fc6670871",
    "8596": "399fc6670871",
+   "8608": "399fc6670871",
    "8609": "399fc6670871",
    "8613": "399fc6670871",
    "8638": "399fc6670871"
@@ -43439,7 +43473,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-19T01:50:50"
+  "revisada": "2026-10-19T02:52:02"
  },
- "ultima_corrida": "2026-10-19T01:50:21"
+ "ultima_corrida": "2026-10-19T02:51:35"
 }
