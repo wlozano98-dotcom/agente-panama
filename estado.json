@@ -42654,7 +42654,7 @@
    "ficha": "8638",
    "proponente": "H.D GRACIELA MERCEDES HERNÁNDEZ LACAYO",
    "proyecto": "",
-   "tiene_documento": false,
+   "tiene_documento": true,
    "titulo": "QUE FACILITA LA CONSTRUCCION DE VIVIENDAS PERMANENTES PARA COMUNIDADES DAMNIFICADAS POR DESASTRES NATURALES"
   },
   "8639": {
@@ -42686,7 +42686,7 @@
    "ficha": "8639",
    "proponente": "H.D GRACIELA MERCEDES HERNÁNDEZ LACAYO",
    "proyecto": "",
-   "tiene_documento": false,
+   "tiene_documento": true,
    "titulo": "QUE ESTABLECE LA TRANSPARENCIA Y RENDICION PUBLICA DE CUENTAS DURANTE LOS ESTADOS DE EMERGENCIA NACIONAL"
   },
   "8640": {
@@ -42718,7 +42718,7 @@
    "ficha": "8640",
    "proponente": "H.D SHIRLEY DE LA ROSA CASTAÑEDAS VALENTÍN",
    "proyecto": "",
-   "tiene_documento": false,
+   "tiene_documento": true,
    "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS AL CODIGO PROCESAL PENAL"
   }
  },
@@ -43657,9 +43657,9 @@
   "8635": "a311ddce8705",
   "8636": "d7fa4e2fe610",
   "8637": "e4e414814a58",
-  "8638": "746cdd99d326",
-  "8639": "21d1c08925ea",
-  "8640": "4bca9974ab51"
+  "8638": "bd5b425566c8",
+  "8639": "c9780f9853a7",
+  "8640": "aa1496feba12"
  },
  "inicio": "2026-10-08",
  "matriz_generada": {
@@ -43792,7 +43792,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-19T14:05:57",
+  "fecha": "2026-10-19T14:55:09",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -44029,7 +44029,8 @@
    "1352",
    "1353",
    "1354",
-   "1355"
+   "1355",
+   "1356"
   ],
   "en_pleno": {
    "7405": "2.º debate",
@@ -44259,7 +44260,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-19T14:06:35"
+  "revisada": "2026-10-19T14:56:10"
  },
- "ultima_corrida": "2026-10-19T14:05:57"
+ "ultima_corrida": "2026-10-19T14:55:09"
 }
