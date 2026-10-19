@@ -873,6 +873,14 @@
    "carpeta": "Área protegida en zona boscosa de Ancón y Betania (ficha 8596)",
    "comision": "Comisión de Población, Ambiente y Desarrollo"
   },
+  "8600": {
+   "carpeta": "Protección de la casa de quincha como patrimonio nacional (ficha 8600)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "8602": {
+   "carpeta": "Reforma a compras públicas del Vaso de Leche escolar (ficha 8602)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "8606": {
    "carpeta": "Gestión cultural y ambiental de la Ruta Colonial Transístmica (ficha 8606)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -40921,6 +40929,20 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTICULO A LA LEY 68 DE 20 DE NOVIEMBRE DE 2003, CON EL FIN DE GARANTIZAR LA CONTINUIDAD DE LA ATENCION MEDICA DE LOS PACIENTES TRASLADADOS ENTRE ESTABLECIMIENTOS DE SALUD"
   },
   "8600": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/12JO_vehcgNlqaoEuyl9zCmh3UazXPghO",
+    "fecha_analisis": "2026-10-19",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No genera un impacto regulatorio, operativo ni fiscal directo sobre las empresas formales, ya que se circunscribe a la salvaguardia cultural y conservación de viviendas tradicionales vernáculas.",
+    "resumen": "Declara las casas de quincha y sus técnicas de construcción como Patrimonio Cultural Material e Inmaterial de la Nación bajo la tutela del Ministerio de Cultura. Establece la prohibición de demoler o alterar estos inmuebles sin autorización estatal previa y fija multas de hasta B/. 50,000 por infracciones. A su vez, plantea la creación de un inventario nacional, incentivos para su conservación y su promoción como alojamiento de turismo cultural.",
+    "sectores": [],
+    "titulo": "Por la cual se reconoce, protege y declara la Casa de Quincha como Patrimonio Cultural Material de la Nación y se dictan otras disposiciones",
+    "titulo_corto": "Protección de la casa de quincha como patrimonio nacional"
+   },
    "anteproyecto": "183",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Primer Debate",
@@ -40949,6 +40971,33 @@
    "titulo": "POR LA CUAL SE RECONOCE, PROTEGE Y DECLARA LA CASA DE QUINCHA COMO PATRIMONIO CULTURAL MATERIAL DE LA NACIÓN Y SE DICTAN OTRAS DISPOSICIONES"
   },
   "8602": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1 (modifica art. 1 de Ley 35/1995): Exige leche fresca nacional como insumo primario obligatorio (100% nacional) para las leches pasteurizadas, ultrapasteurizadas o saborizadas del programa.",
+     "Artículo 3 (adiciona art. 3-A a Ley 35/1995): Obliga al MEDUCA a convocar los actos públicos de suministro con al menos 6 meses de anticipación al inicio de clases.",
+     "Artículo 4 (adiciona art. 5-B a Ley 35/1995): Establece que la adjudicación en licitaciones públicas será proporcional al volumen de compra de leche nacional certificado por el MIDA, mediante asignaciones bianuales.",
+     "Artículo 5 (adiciona art. 5-C a Ley 35/1995): Fija un precio único obligatorio determinado por MEDUCA y ACODECO, haciendo del volumen de leche nacional comprado el único factor determinante de adjudicación."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1SVCKASCDSKVMXhqeohWTlWuLVYhYuh4e",
+    "fecha_analisis": "2026-10-19",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Cambia radicalmente el esquema de compras públicas de lácteos escolares al imponer un precio único obligatorio y condicionar el volumen licitado a compras previas certificadas de leche nacional.",
+      "sector": "ALIMENTOS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Afecta de forma directa a la industria láctea procesadora y a los proveedores del Estado, al eliminar la competencia por precio e imponer cuotas de adjudicación atadas a la compra de producción lechera local.",
+    "resumen": "Modifica las reglas de contratación pública del programa escolar de nutrición (Vaso de Leche y Estudiar sin Hambre).\nObliga a que la leche provenga exclusivamente de leche fresca 100% nacional y fija un precio único de compra basado en costos y referencias de ACODECO.\nAdjudica las cuotas de suministro a las empresas procesadoras en estricta proporción a los volúmenes de leche comprados directamente a ganaderos panameños.",
+    "sectores": [
+     "ALIMENTOS"
+    ],
+    "titulo": "Que modifica y adiciona artículos a la Ley No. 35 de 6 de julio de 1995, por la cual se establece el Programa de Distribución del Vaso de Leche y la Galleta Nutricional o Cremas Nutritivas Enriquecidas, en todos los Centros Oficiales de Educación Preescolar Primaria del país; y a la Ley No. 115 de 5 de diciembre de 2019, que crea el Programa Estudiar sin Hambre y modifica la Ley 35 de 1995, sobre el Programa de Distribución del Vaso de Leche y la Galleta Nutricional o Cremas Nutritivas Enriquecidas",
+    "titulo_corto": "Reforma a compras públicas del Vaso de Leche escolar"
+   },
    "anteproyecto": "184",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Primer Debate",
@@ -42892,8 +42941,8 @@
   "8597": "3514b424da1c",
   "8598": "719673ba95ed",
   "8599": "af191537bda6",
-  "8600": "15570b579488",
-  "8602": "2fecc0c34f24",
+  "8600": "e486f26bf977",
+  "8602": "5ab1a676508d",
   "8603": "1ca9bded7805",
   "8604": "9d44c58e435b",
   "8605": "14fa682c2ca8",
@@ -42948,6 +42997,7 @@
    "8304",
    "8177",
    "8349",
+   "8602",
    "8608",
    "7750",
    "8516",
@@ -43044,7 +43094,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-19T04:52:03",
+  "fecha": "2026-10-19T05:50:36",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -43151,6 +43201,7 @@
    "8546": "399fc6670871",
    "8586": "399fc6670871",
    "8596": "399fc6670871",
+   "8602": "399fc6670871",
    "8608": "399fc6670871",
    "8609": "399fc6670871",
    "8613": "399fc6670871",
@@ -43493,7 +43544,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-19T04:52:38"
+  "revisada": "2026-10-19T05:51:01"
  },
- "ultima_corrida": "2026-10-19T04:52:03"
+ "ultima_corrida": "2026-10-19T05:50:36"
 }
