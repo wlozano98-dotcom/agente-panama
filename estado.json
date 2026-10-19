@@ -833,6 +833,22 @@
    "carpeta": "Educación para menores hospitalizados o enfermos (ficha 8521)",
    "comision": "Comisión de Educacion, Cultura y Deportes"
   },
+  "8527": {
+   "carpeta": "Régimen de Fondos Especiales Intermunicipales (ficha 8527)",
+   "comision": "Comisión de Asuntos Municipales"
+  },
+  "8530": {
+   "carpeta": "Promoción de la industria nacional de medicamentos (ficha 8530)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
+  "8531": {
+   "carpeta": "Descuento del 20% en medicamentos para menores de doce años (ficha 8531)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
+  "8538": {
+   "carpeta": "Modernización de FONDHABI y Programa Mi Primera Vivienda (ficha 8538)",
+   "comision": "Comisión de Infraestructura Pública y Asuntos del Canal"
+  },
   "8539": {
    "carpeta": "Patronato del Festival de Degustación de ANCEC en Santiago (ficha 8539)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
@@ -38907,6 +38923,20 @@
    "titulo": "LEY QUE ADICIONA EL ARTICULO 124-A AL TEXTO UNICO DE LA LEY 22 DE 27 DE JUNIO DE 2006, QUE REGULA LA CONTRATACION PUBLICA, ORDENADO POR LA LEY 153 DE 2020."
   },
   "8527": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1HynOSIXfnlIQQUXpzcpe2BIQnPBOittZ",
+    "fecha_analisis": "2026-10-19",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La propuesta es de naturaleza organizativa y presupuestaria del sector público municipal. No impone nuevas cargas tributarias, laborales ni regulatorias obligatorias sobre las empresas privadas.",
+    "resumen": "Crea y regula los Fondos Especiales Intermunicipales para que dos o más municipios asociados financien proyectos conjuntos de desarrollo territorial, obras y servicios públicos. Define sus fuentes de financiamiento (aportes locales, transferencias del Estado, cooperación internacional y donaciones privadas voluntarias) y somete sus contrataciones al régimen general de contrataciones públicas.",
+    "sectores": [],
+    "titulo": "Que establece el régimen de los Fondos Especiales Intermunicipales para el Desarrollo Territorial, adiciona un artículo a la Ley 106 de 8 de octubre de 1973 y dicta otras disposiciones",
+    "titulo_corto": "Régimen de Fondos Especiales Intermunicipales"
+   },
    "anteproyecto": "121",
    "comision": "COMISION DE ASUNTOS MUNICIPALES",
    "etapa": "Primer Debate",
@@ -38986,6 +39016,35 @@
    "titulo": "QUE MODIFICA UN ARTICULO DEL CODIGO PENAL EN MATERIA DE QUEBRANTAMIENTO DE MEDIDAS DE PROTECCION Y DE SANCIONES"
   },
   "8530": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2 (modifica el artículo 8 de la Ley 24 de 1963): Reclasifica y define a los laboratorios farmacéuticos de medicamentos distinguiéndolos formalmente de los laboratorios químicos no medicinales (cosméticos y desinfectantes).",
+     "Artículo 3 (modifica el artículo 194 de la Ley 419 de 2024): Establece nuevos plazos mínimos obligatorios de publicación de convocatorias para compras de medicamentos e insumos médicos según el rango de cuantía (de 4 a 20 días hábiles).",
+     "Artículo 4 (modifica el artículo 203 de la Ley 419 de 2024): Regula la presentación electrónica de propuestas en PanamaCompra, la posibilidad de solicitar muestras de calidad y la subsanación de documentos no ponderables.",
+     "Artículo 5 (modifica el artículo 207 de la Ley 419 de 2024): Reordena los procedimientos de selección de contratistas en salud, fijando compra menor ágil hasta B/. 50,000, contratación menor hasta B/. 70,000, licitaciones públicas y por mejor valor.",
+     "Artículo 6 (modifica el artículo 230 de la Ley 419 de 2024): Faculta la inhabilitación para contratar con el Estado no solo a la empresa contratista, sino también a su grupo empresarial y empresas relacionadas en casos de faltas graves, dolosas o que afecten la vida y la salud.",
+     "Artículo 7 (adiciona el artículo 256-A a la Ley 419 de 2024): Reserva los incentivos y beneficios para la industria nacional de medicamentos exclusivamente a laboratorios locales que posean al menos un 80% de beneficiarios finales panameños y paz y salvo con la CSS."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1dBJhIcnBDB4Gf9ga5XRj4HVLt8R_SCsd",
+    "fecha_analisis": "2026-10-19",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Cambia los requisitos para acceder a incentivos de producción farmacéutica, reorganiza los procesos de licitación pública sanitaria y endurece las sanciones extendiéndolas a grupos empresariales.",
+      "sector": "SALUD"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Tiene impacto directo y alto sobre los laboratorios, droguerías y proveedores de salud pública al restringir beneficios por nacionalidad accionaria y elevar el riesgo corporativo ante incumplimientos en compras estatales.",
+    "resumen": "Propone reformar la Ley 419 de 2024 y la Ley 24 de 1963 para regular e incentivar la producción farmacéutica local y ajustar los procedimientos de compras públicas en salud. Limita los incentivos de la industria de medicamentos exclusivamente a laboratorios con un mínimo de 80% de beneficiarios finales panameños. Asimismo, reestructura los plazos y modalidades de contratación en PanamaCompra y permite extender sanciones de inhabilitación a todo el grupo empresarial vinculado al contratista sancionado.",
+    "sectores": [
+     "SALUD"
+    ],
+    "titulo": "Que promueve la industria nacional de medicamentos y dicta otras disposiciones",
+    "titulo_corto": "Promoción de la industria nacional de medicamentos"
+   },
    "anteproyecto": "123",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Primer Debate",
@@ -39014,6 +39073,33 @@
    "titulo": "QUE PROMUEVE LA INDUSTRIA NACIONAL DE MEDICAMENTOS Y DICTA OTRAS DISPOSICIONES"
   },
   "8531": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Crea la obligación de aplicar un descuento del 20% en el valor de medicamentos bajo prescripción médica a favor de menores de hasta doce años en farmacias estatales y privadas.",
+     "Artículo 2: Otorga a las farmacias privadas un crédito fiscal del 100% sobre los descuentos otorgados deducible del Impuesto sobre la Renta (con posibilidad de arrastre hasta por tres años), condicionado a emitir factura electrónica con el desglose del descuento y llevar registro de recetas y cédulas de los menores.",
+     "Artículo 3: Designa a la ACODECO para vigilar el cumplimiento, tramitar denuncias y exigir señalización visible obligatoria en los locales comerciales.",
+     "Artículo 4: Establece multas de cincuenta balboas (B/. 50.00) a cinco mil balboas (B/. 5,000.00) aplicadas por la ACODECO a los establecimientos que se nieguen a otorgar el descuento."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1TZ2Y42ZrkwVc_ZGKwQvRTTOodEQAxbGT",
+    "fecha_analisis": "2026-10-19",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Obliga a las farmacias privadas a aplicar un descuento del 20% en fármacos pediátricos, afectando su liquidez diaria y demandando adecuaciones operativas y de facturación.",
+      "sector": "SALUD"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Impone a las farmacias privadas la obligación de financiar de forma inmediata un descuento del 20% a clientes pediátricos, supeditando su recuperación a un crédito fiscal contra el ISR anual y fijando multas por incumplimiento.",
+    "resumen": "Propone un descuento obligatorio del 20% en la compra de medicamentos recetados para menores de hasta doce años en todas las farmacias privadas y estatales del país. A fin de mitigar el impacto financiero en el sector privado, establece un crédito fiscal deducible al 100% contra el Impuesto sobre la Renta (ISR) para los establecimientos farmacéuticos, sujeto a controles en facturación electrónica y registros de recetas.",
+    "sectores": [
+     "SALUD"
+    ],
+    "titulo": "Por la cual se establece descuento obligatorio del veinte por ciento (20%) en medicamentos a los menores de hasta doce años de edad en farmacias estatales y privadas en todo el territorio nacional",
+    "titulo_corto": "Descuento del 20% en medicamentos para menores de doce años"
+   },
    "anteproyecto": "125",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Primer Debate",
@@ -39150,6 +39236,35 @@
    "titulo": "QUE MODIFICA LA LEY 350 DE 2022, PARA GARANTIZAR EL ACCESO EQUITATIVO A LA IDONEIDAD PARA EL EJERCICIO DE LA ABOGACIA"
   },
   "8538": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 4 (modifica art. 23 de Ley 22 de 1991): Define que la participación bancaria en FONDHABI es voluntaria, mantiene la autonomía técnica de riesgo según normas de la SBP y establece que las garantías estatales no sustituyen la debida diligencia crediticia.",
+     "Artículo 22 a 26: Crea el Fondo de Garantía Hipotecaria para respaldar parcialmente pérdidas netas elegibles en créditos hipotecarios de primera vivienda (con límite máximo fijado por reglamento).",
+     "Artículo 27 y 28: Fija requisitos mínimos a las entidades financieras para hacer efectiva la garantía estatal (cobro oportuno, ejecución de hipoteca) y regula la subrogación crediticia a favor de FONDHABI.",
+     "Artículo 31: Obliga a las entidades financieras participantes a reportar periódicamente información estadística y financiera sobre las operaciones garantizadas.",
+     "Artículo 33 y 34: Establece convenios con intermediarios financieros para cuentas de ahorro habitacional, manteniendo la autonomía bancaria para aprobar créditos.",
+     "Artículo 43 y 44: Faculta a FONDHABI a realizar auditorías e inspecciones a entidades participantes sobre carteras garantizadas y les impone el deber de custodia y entrega documental."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1Q-rC_07lZcCg7kvhORBsuAtRHypcSCNC",
+    "fecha_analisis": "2026-10-19",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Crea un mecanismo voluntario de garantías estatales parciales sobre créditos hipotecarios, estableciendo requisitos operativos, de reporte de datos y sujeción a auditorías para las entidades financieras participantes.",
+      "sector": "FINANCIERO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es medio para el sector financiero porque, aunque la adhesión es voluntaria y preserva la autonomía crediticia bajo normas de la Superintendencia de Bancos, instaura nuevas obligaciones de reporte, custodia de expedientes y fiscalización estatal para los bancos que otorguen créditos respaldados por el fondo.",
+    "resumen": "La iniciativa reforma el marco legal del Fondo de Ahorro Habitacional (FONDHABI) para instituir el Programa Mi Primera Vivienda. Introduce un Fondo de Garantía Hipotecaria para respaldar parcialmente créditos de primera vivienda (nuevas o usadas), un esquema de ahorro programado y una ventanilla única interinstitucional. Afecta directamente a bancos y entidades financieras que decidan otorgar créditos hipotecarios bajo este mecanismo estatal.",
+    "sectores": [
+     "FINANCIERO"
+    ],
+    "titulo": "Que modifica la Ley 22 de 29 de julio de 1991, moderniza el Fondo de Ahorro Habitacional (FONDHABI), crea el Programa Mi Primera Vivienda y dicta otras disposiciones",
+    "titulo_corto": "Modernización de FONDHABI y Programa Mi Primera Vivienda"
+   },
    "anteproyecto": "132",
    "comision": "COMISION DE INFRAESTRUCTURA PUBLICA Y ASUNTOS DEL CANAL",
    "etapa": "Primer Debate",
@@ -43216,18 +43331,18 @@
   "8524": "05fbe413c05c",
   "8525": "ba946dd69d35",
   "8526": "0a99bc616486",
-  "8527": "89e99ad94dc8",
+  "8527": "9e24290ed370",
   "8528": "82dc276fcea5",
   "8529": "ef42f64bd686",
-  "8530": "6732e1894c02",
-  "8531": "93c1715b79e9",
+  "8530": "7431ad482675",
+  "8531": "8a0f477e721b",
   "8532": "99351cc5baae",
   "8533": "ef6e16e8bb16",
   "8534": "ab8414a871e2",
   "8535": "8a2f925a701e",
   "8536": "0e6485bfceaf",
   "8537": "47c6911b08f3",
-  "8538": "c127175f6202",
+  "8538": "d965446ca422",
   "8539": "9a04aa989c6e",
   "8540": "1b1b0284dfe2",
   "8541": "46b33eb6c397",
@@ -43350,6 +43465,7 @@
    "8611",
    "8608",
    "7750",
+   "8538",
    "8566",
    "8516",
    "8560",
@@ -43359,10 +43475,12 @@
    "7968",
    "7785",
    "8567",
+   "8531",
    "8082",
    "8491",
    "7779",
    "8308",
+   "8530",
    "7992",
    "8288",
    "8333",
@@ -43449,7 +43567,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-19T08:59:06",
+  "fecha": "2026-10-19T10:02:21",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -43553,6 +43671,9 @@
    "8481": "399fc6670871",
    "8491": "399fc6670871",
    "8516": "399fc6670871",
+   "8530": "399fc6670871",
+   "8531": "399fc6670871",
+   "8538": "399fc6670871",
    "8546": "399fc6670871",
    "8554": "399fc6670871",
    "8560": "399fc6670871",
@@ -43908,7 +44029,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-19T08:59:39"
+  "revisada": "2026-10-19T10:02:55"
  },
- "ultima_corrida": "2026-10-19T08:59:06"
+ "ultima_corrida": "2026-10-19T10:02:21"
 }
