@@ -833,6 +833,10 @@
    "carpeta": "Educación para menores hospitalizados o enfermos (ficha 8521)",
    "comision": "Comisión de Educacion, Cultura y Deportes"
   },
+  "8539": {
+   "carpeta": "Patronato del Festival de Degustación de ANCEC en Santiago (ficha 8539)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
   "8545": {
    "carpeta": "Día conmemorativo de la etnia india (ficha 8545)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -840,6 +844,18 @@
   "8546": {
    "carpeta": "Cierre de operaciones del Banco Hipotecario Nacional (ficha 8546)",
    "comision": "Comisión de Infraestructura Pública y Asuntos del Canal"
+  },
+  "8548": {
+   "carpeta": "Monumento Histórico Ruinas de Bique y creación de patronato (ficha 8548)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "8554": {
+   "carpeta": "Régimen especial ecoturístico de Santa Fe (ficha 8554)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
+  "8556": {
+   "carpeta": "Transparencia de fondos en centros educativos oficiales (ficha 8556)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
   },
   "8558": {
    "carpeta": "Reforma al Código Procesal Penal (ficha 8558)",
@@ -39162,6 +39178,20 @@
    "titulo": "QUE MODIFICA LA LEY 22 DE 29 DE JULIO DE 1991 MODERNIZA EL FONDO DE AHORRO HABITACIONAL FONDHABI CREA EL PROGRAMA MI PRIMERA VIVIENDA Y DICTA OTRAS DISPOSICIONES"
   },
   "8539": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1EgecPbIiA3Gtt92m8faAL7IRxYbVeFN-",
+    "fecha_analisis": "2026-10-19",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La creación de patronatos para festivales benéficos y culturales no modifica regulaciones de mercado ni genera cargas tributarias o laborales para las empresas.",
+    "resumen": "La propuesta reconoce legalmente el Festival Internacional de Degustación celebrado en el distrito de Santiago a beneficio de ANCEC y formaliza la creación de su Patronato como entidad sin fines de lucro.\nEstablece la estructura administrativa, financiera y de transparencia para la gestión de dicho evento anual y el manejo de los fondos recaudados.\nNo impone obligaciones, costos ni cargas regulatorias obligatorias para el sector productivo ni comercial.",
+    "sectores": [],
+    "titulo": "Que reconoce el Festival Internacional de Degustación a beneficio de la Asociación Nacional Contra el Cáncer capítulo de Santiago en la provincia de Veraguas, crea su Patronato y dicta otras disposiciones",
+    "titulo_corto": "Patronato del Festival de Degustación de ANCEC en Santiago"
+   },
    "anteproyecto": "133",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Primer Debate",
@@ -39440,6 +39470,20 @@
    "titulo": "QUE ADICIONA UN PARAGRAFO TRANSITORIO AL ARTICULO 2 DE LA LEY 350 DE 2022 (REFORMADO POR LA LEY 500 DE 2025) CON EL FIN DE ESTABLECER UN REGIMEN DE TRANSICION QUE GARANTICE LA SEGURIDAD JURIDICA Y EL DERECHO AL TRABAJO"
   },
   "8548": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1umMHekNIL8p9bR42CaTT-LOIGD6YW3lN",
+    "fecha_analisis": "2026-10-19",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa se circunscribe a la protección de un sitio arqueológico puntual y a la creación de su patronato cultural, por lo que no genera obligaciones, cargas regulatorias ni costos para el sector empresarial.",
+    "resumen": "Declara Monumento Histórico Nacional el sitio arqueológico Ruinas de Bique, ubicado en el corregimiento de Cerro Silvestre, distrito de Arraiján. Dispone la creación de un patronato sin fines de lucro para su administración, restauración y custodia en coordinación con el Ministerio de Cultura. Establece un polígono de protección y amortiguamiento, y permite deducir del impuesto sobre la renta las donaciones que se hagan a la entidad.",
+    "sectores": [],
+    "titulo": "Que declara Monumento Histórico Nacional el sitio arqueológico, Ruinas de Bique, en el distrito de Arraiján, provincia de Panamá Oeste y crea su patronato",
+    "titulo_corto": "Monumento Histórico Ruinas de Bique y creación de patronato"
+   },
    "anteproyecto": "138",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Primer Debate",
@@ -39573,6 +39617,33 @@
    "titulo": "QUE ESTABLECE EL DERECHO A LA ALTERNANCIA POSTURAL DE LOS TRABAJADORES"
   },
   "8554": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 6: Establece una capacidad de carga turística de obligatorio cumplimiento para operadores turísticos, guías y prestadores de servicios en los espacios turísticos del distrito.",
+     "Artículo 8: Faculta a la Autoridad de Turismo de Panamá para otorgar, renovar, suspender o cancelar licencias de operación turística conforme al Plan Estratégico y fiscalizar la inscripción en el Registro Nacional de Turismo.",
+     "Artículo 10: Asigna al Ministerio de Ambiente la facultad de fijar límites técnicos y emitir autorizaciones ambientales obligatorias para proyectos ecoturísticos en áreas protegidas y zonas de amortiguamiento.",
+     "Artículo 12: Encomienda a la AMPYME planes de asistencia técnica, financiamiento, formalización y fomento comercial para micro y pequeñas empresas turísticas locales."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1SvAE0ePHeZEU6fCVUtPrMLNMATTrVy-2",
+    "fecha_analisis": "2026-10-19",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Establece límites obligatorios de capacidad de carga, trámites de permisos o licencias operativas y mecanismos de fomento para prestadores turísticos en Santa Fe.",
+      "sector": "TURISMO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto crea regulaciones operativas y de cumplimiento ambiental acotadas territorialmente al distrito de Santa Fe, impactando a las empresas y emprendimientos dedicados a la actividad turística en la zona.",
+    "resumen": "Declara al distrito de Santa Fe como Zona Especial de Desarrollo Ecoturístico Sostenible y establece un marco de fomento para el ecoturismo, turismo de aventura, rural y cafetalero. Define competencias institucionales para la ATP, MiAmbiente, el Municipio y AMPYME a fin de regular permisos, promover inversiones y apoyar a micro y pequeños empresarios locales. La iniciativa incide directamente en los operadores turísticos, guías y prestadores de servicios que operan en dicha región.",
+    "sectores": [
+     "TURISMO"
+    ],
+    "titulo": "Que crea el régimen especial para el desarrollo ecoturístico sostenible del distrito de Santa Fe, provincia de Veraguas y dicta otras disposiciones",
+    "titulo_corto": "Régimen especial ecoturístico de Santa Fe"
+   },
    "anteproyecto": "144",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Primer Debate",
@@ -39601,6 +39672,20 @@
    "titulo": "QUE CREA EL REGIMEN ESPECIAL PARA EL DESARROLLO ECOTURISTICO SOSTENIBLE DEL DISTRITO DE SANTA FE, PROVINCIA DE VERAGUAS Y DICTA OTRAS DISPOSICIONES"
   },
   "8556": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1VcsD8g-Yz0xOYFijptcy15uS1krMHX1W",
+    "fecha_analisis": "2026-10-19",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa se limita a la gestión administrativa, disciplinaria y pedagógica interna de los centros educativos oficiales, sin imponer obligaciones, costos ni regulaciones al sector empresarial.",
+    "resumen": "Regula las actividades de autogestión y recaudación de fondos (colectas, ventas, reciclaje) en las escuelas oficiales del país. Prohíbe expresamente condicionar calificaciones o evaluaciones a la entrega de dinero o materiales reciclables. Establece mecanismos de trazabilidad, rendición de cuentas y prohibiciones de uso para el personal docente y directivo.",
+    "sectores": [],
+    "titulo": "Que establece normas para la transparencia, control y utilización de los recursos solicitados, recaudados, recibidos o generados en los centros educativos oficiales, y dicta otras disposiciones",
+    "titulo_corto": "Transparencia de fondos en centros educativos oficiales"
+   },
    "anteproyecto": "146",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Primer Debate",
@@ -43143,7 +43228,7 @@
   "8536": "0e6485bfceaf",
   "8537": "47c6911b08f3",
   "8538": "c127175f6202",
-  "8539": "8b4d5c1fc1c8",
+  "8539": "9a04aa989c6e",
   "8540": "1b1b0284dfe2",
   "8541": "46b33eb6c397",
   "8542": "0f4281ab8d09",
@@ -43151,14 +43236,14 @@
   "8545": "e1cdb35667a7",
   "8546": "4622bc850982",
   "8547": "b77bf8f034b8",
-  "8548": "a745627737d1",
+  "8548": "052c7a0bb1be",
   "8549": "af0c384ec755",
   "8550": "fb99d9ee0323",
   "8551": "05a2ec78a1d3",
   "8552": "4aea7973394b",
   "8553": "e116e2a677ce",
-  "8554": "a8d57cf079cd",
-  "8556": "6b36c22c3f6b",
+  "8554": "750b1ed56fe7",
+  "8556": "0b0c7edf7499",
   "8557": "68085b3d7b99",
   "8558": "6e4ba150502e",
   "8559": "4a9ee860223c",
@@ -43270,6 +43355,7 @@
    "8560",
    "8564",
    "7406",
+   "8554",
    "7968",
    "7785",
    "8567",
@@ -43363,7 +43449,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-19T08:06:15",
+  "fecha": "2026-10-19T08:59:06",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -43468,6 +43554,7 @@
    "8491": "399fc6670871",
    "8516": "399fc6670871",
    "8546": "399fc6670871",
+   "8554": "399fc6670871",
    "8560": "399fc6670871",
    "8562": "399fc6670871",
    "8564": "399fc6670871",
@@ -43821,7 +43908,7 @@
    "515",
    "516"
   ],
-  "revisada": "2026-10-19T08:06:54"
+  "revisada": "2026-10-19T08:59:39"
  },
- "ultima_corrida": "2026-10-19T08:06:15"
+ "ultima_corrida": "2026-10-19T08:59:06"
 }
