@@ -813,13 +813,25 @@
    "carpeta": "Traspaso de plantas de tratamiento de aguas residuales al IDAAN (ficha 8465)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
+  "8471": {
+   "carpeta": "Regulación de la hipoteca inversa (ficha 8471)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
   "8481": {
    "carpeta": "Aprobación del Convenio Internacional del Cacao, 2026 (ficha 8481)",
+   "comision": "Comisión de Relaciones Exteriores"
+  },
+  "8482": {
+   "carpeta": "Condecoración Orden Belisario Porras Barahona (ficha 8482)",
    "comision": "Comisión de Relaciones Exteriores"
   },
   "8484": {
    "carpeta": "Compensación automática por fallas en servicios públicos (ficha 8484)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
+  "8485": {
+   "carpeta": "Identificación obligatoria con códigos QR en obras públicas (ficha 8485)",
+   "comision": "Comisión de Infraestructura Pública y Asuntos del Canal"
   },
   "8486": {
    "carpeta": "Presupuesto General del Estado 2027 (ficha 8486)",
@@ -37361,6 +37373,44 @@
    "titulo": "QUE MODIFICA LA LEY 93 DE 2019 E INTRODUCE LA INICIATIVA PRIVADA A LAS ASOCIACIONES PUBLICO-PRIVADAS"
   },
   "8471": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1 y 2: Definen la hipoteca inversa como modalidad de crédito concedida por bancos de licencia general garantizada con inmuebles.",
+     "Artículo 3: Fija requisitos para los beneficiarios (mínimo 60 años de edad, propiedad inscrita y obligación de mantener asegurado el inmueble).",
+     "Artículo 11: Prohíbe cobrar comisiones, penalidades o compensaciones por prepago total o parcial.",
+     "Artículo 13 y 14: Otorga 12 meses a los herederos tras el deceso del beneficiario antes de iniciar ejecución hipotecaria y limita expresamente la deuda al inmueble, sin cobro contra la masa hereditaria ni los herederos.",
+     "Artículo 16 y 22: Exonera las escrituras públicas del crédito de los derechos de inscripción en el Registro Público y del Impuesto de Timbres (adiciona numeral 28 al artículo 973 del Código Fiscal).",
+     "Artículo 17: Prohíbe supeditar la aprobación del crédito a seguros de vida, sobrevivencia o desgravamen; solo permite exigir seguros para proteger el inmueble.",
+     "Artículo 18: Prohíbe a las entidades exigir codeudores, fiadores, avalistas u otras garantías o colaterales adicionales al inmueble.",
+     "Artículo 19: Habilita la cesión, venta, titularización o estructuración en fideicomiso de la cartera de créditos.",
+     "Artículo 20 y 21: Establece competencias de supervisión conjunta para la Superintendencia de Bancos y la Superintendencia de Seguros y Reaseguros, y adiciona el artículo 72-A al Decreto Ley 9 de 1998 (Ley Bancaria) sobre tratamiento prudencial de esta cartera."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1gPx8XrbmAFJuOpUgZuvWLPPqSMVUYU86",
+    "fecha_analisis": "2026-10-20",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Crea un nuevo producto crediticio hipotecario regulado, limita el cobro exclusivamente al valor del inmueble gravado, prohíbe penalizaciones por prepago y modifica la Ley Bancaria.",
+      "sector": "FINANCIERO"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Prohíbe supeditar el crédito a la contratación de pólizas de vida o de desgravamen, permitiendo únicamente exigir seguros sobre el bien inmueble.",
+      "sector": "SEGUROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Establece el marco legal y regulatorio para un producto crediticio especializado a ser ofertado por la banca de licencia general, con restricciones contractuales directas en colaterales, seguros y cobro judicial.",
+    "resumen": "Crea y regula la figura de la hipoteca inversa en Panamá para personas mayores de 60 años, permitiéndoles obtener liquidez garantizada con su vivienda habitual sin perder el uso ni la propiedad. Establece que la deuda solo puede cobrarse con el inmueble gravado (sin responsabilidad para los herederos), prohíbe exigir codeudores o seguros de vida obligatorios, otorga incentivos fiscales y asigna la supervisión a las superintendencias de Bancos y de Seguros.",
+    "sectores": [
+     "FINANCIERO",
+     "SEGUROS"
+    ],
+    "titulo": "Que regula la hipoteca inversa",
+    "titulo_corto": "Regulación de la hipoteca inversa"
+   },
    "anteproyecto": "74",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Primer Debate",
@@ -37670,6 +37720,20 @@
    "titulo": "QUE APRUEBA EL CONVENIO INTERNACIONAL DE CACAO, 2026, HECHO EN GINEBRA EL 13 DE FEBRERO 2026"
   },
   "8482": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1-S5Bi7OAt3Z3UJhcjANVKIvvguw7ewkS",
+    "fecha_analisis": "2026-10-20",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Se trata de una iniciativa netamente protocolaria y honorífica del Estado panameño, sin efectos comerciales, laborales, fiscales o regulatorios sobre las empresas.",
+    "resumen": "El proyecto instituye la Condecoración Nacional 'Orden Belisario Porras Barahona' como máximo reconocimiento estatal para distinguir a ciudadanos panameños o extranjeros por méritos cívicos, científicos o aportes a la nación. Además, define sus grados, consejo evaluador y deroga el Decreto de Gabinete 132 de 1970. No afecta la actividad económica ni impone normas al sector privado.",
+    "sectores": [],
+    "titulo": "Que instituye la Condecoración Nacional \"Orden Belisario Porras Barahona\" y se establecen las normas para su otorgamiento y se deroga el Decreto de Gabinete No.132 de 28 de mayo de 1970",
+    "titulo_corto": "Condecoración Orden Belisario Porras Barahona"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE RELACIONES EXTERIORES",
    "etapa": "Primer Debate",
@@ -37773,6 +37837,33 @@
    "titulo": "QUE ESTABLECE LA COMPENSACION AUTOMATICA POR FALLAS PROLONGADAS EN LA PRESTACION DE LOS SERVICIOS PUBLICOS DOMICILIARIOS Y DICTA OTRAS DISPOSICIONES."
   },
   "8485": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Establece la identificación obligatoria mediante códigos QR en la señalización de obras públicas en ejecución y concluidas.",
+     "Artículo 5: Define las características técnicas obligatorias del letrero (dimensiones mínimas de 30 cm por 20 cm, leyenda específica, formato legible y ubicación visible).",
+     "Artículo 7, numeral 1: Atribuye responsabilidad a la empresa contratista por falta de señalización cuando conste dicha obligación en el contrato de obra.",
+     "Artículo 8: Ordena remitir a las empresas contratistas infractoras a la Dirección General de Contrataciones Públicas (DGCP) para la aplicación del régimen de inhabilitación de proponentes de la Ley 22 de 2006."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1KPQF12GSc8O4DmIdZ-viZjmlrUZ2b2lb",
+    "fecha_analisis": "2026-10-20",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Impone a las constructoras de obras públicas la obligación técnica de colocar letreros con códigos QR de avance, bajo riesgo de inhabilitación ante la DGCP por incumplimiento contractual.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea una nueva obligación operativa de señalización para empresas contratistas del Estado en proyectos de infraestructura, vinculando su omisión al régimen sancionatorio de inhabilitación en contrataciones públicas.",
+    "resumen": "El proyecto impone la obligatoriedad de colocar señalización física con códigos QR en obras públicas en ejecución e infraestructura del Estado para transparentar costos, contratistas y avances. Afecta directamente a las empresas contratistas de obras públicas, quienes deberán incorporar estos letreros bajo especificaciones técnicas estrictas y afrontar posibles procesos de inhabilitación ante la DGCP en caso de incumplimiento.",
+    "sectores": [
+     "CEMENTERAS"
+    ],
+    "titulo": "Que establece medidas para la identificación obligatoria, mediante códigos QR, de las obras públicas en ejecución y la infraestructura pública ya existente en la República de Panamá",
+    "titulo_corto": "Identificación obligatoria con códigos QR en obras públicas"
+   },
    "anteproyecto": "83",
    "comision": "COMISION DE INFRAESTRUCTURA PUBLICA Y ASUNTOS DEL CANAL",
    "etapa": "Primer Debate",
@@ -43836,7 +43927,7 @@
   "8468": "4fe7b52a8e51",
   "8469": "10c72cf54946",
   "8470": "f9555c3353ee",
-  "8471": "17b5b29ac688",
+  "8471": "caa913a73bfd",
   "8472": "6bf50e145f79",
   "8473": "2e76dcaf7fc6",
   "8474": "fb99b70a955c",
@@ -43847,10 +43938,10 @@
   "8479": "40d9cfd561f2",
   "8480": "945b9a2ef837",
   "8481": "d42694c900f7",
-  "8482": "eb41acb05d77",
+  "8482": "8edc0738e83d",
   "8483": "6886b9e7468d",
   "8484": "ed093abf6ead",
-  "8485": "bf12d244d747",
+  "8485": "669ab606f8f4",
   "8486": "d4cf1a1bf160",
   "8487": "7deae9f82045",
   "8488": "ae99f9c4945e",
@@ -44037,6 +44128,7 @@
    "8554",
    "7968",
    "7785",
+   "8471",
    "8567",
    "8522",
    "8531",
@@ -44048,6 +44140,7 @@
    "8512",
    "8517",
    "8530",
+   "8485",
    "8509",
    "8488",
    "7992",
@@ -44141,7 +44234,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-20T04:49:16",
+  "fecha": "2026-10-20T05:53:01",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -44242,8 +44335,10 @@
    "8395": "399fc6670871",
    "8397": "399fc6670871",
    "8465": "399fc6670871",
+   "8471": "399fc6670871",
    "8481": "399fc6670871",
    "8484": "399fc6670871",
+   "8485": "399fc6670871",
    "8486": "399fc6670871",
    "8488": "399fc6670871",
    "8491": "399fc6670871",
@@ -44622,7 +44717,7 @@
    "516",
    "517"
   ],
-  "revisada": "2026-10-20T04:49:48"
+  "revisada": "2026-10-20T05:53:31"
  },
- "ultima_corrida": "2026-10-20T04:49:16"
+ "ultima_corrida": "2026-10-20T05:53:01"
 }
