@@ -789,6 +789,10 @@
    "carpeta": "Patronato del Corpus Christi de Parita (ficha 8389)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "8390": {
+   "carpeta": "Reforma a la Ley Orgánica de Educación (ficha 8390)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "8391": {
    "carpeta": "Aprobación de la Convención del Metro (ficha 8391)",
    "comision": "Comisión de Relaciones Exteriores"
@@ -35273,6 +35277,20 @@
    "titulo": "QUE INSTITUYE LA FESTIVIDAD DE CORPUS CHRISTI, LA OCTAVA Y CORAZON DE JESUS, DEL DISTRITO DE PARITA Y CREA SU PATRONATO"
   },
   "8390": {
+   "analisis": {
+    "con_pdf": false,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/10zty_S17qMpgQZKMF78HNhJN3S17_wxf",
+    "fecha_analisis": "2026-10-20",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No se identifica un impacto directo sobre sectores comerciales o productivos a partir del título general de reforma a la ley orgánica educativa.",
+    "resumen": "Análisis basado solo en el título. La iniciativa plantea modificaciones a la Ley 47 de 1946, que regula la estructura y funcionamiento del sistema educativo panameño bajo la tutela del Ministerio de Educación. Al no disponerse del documento oficial, se asume que trata sobre aspectos curriculares, administrativos o docentes del sector educativo público.",
+    "sectores": [],
+    "titulo": "Que reforma la Ley 47 de 1946, Orgánica de Educación y dicta otras disposiciones",
+    "titulo_corto": "Reforma a la Ley Orgánica de Educación"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Primer Debate",
@@ -45448,5 +45466,5 @@
   ],
   "revisada": "2026-10-20T09:53:43"
  },
- "ultima_corrida": "2026-10-20T21:50:50"
+ "ultima_corrida": "2026-10-20T22:49:43"
 }
