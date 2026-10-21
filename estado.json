@@ -693,6 +693,10 @@
    "carpeta": "Regulación de drones en la actividad agropecuaria (ficha 8308)",
    "comision": "Comisión de Asuntos Agropecuarios"
   },
+  "8311": {
+   "carpeta": "Régimen de responsabilidad por daños eléctricos (Ley MED) (ficha 8311)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
   "8312": {
    "carpeta": "Acompañamiento psicológico para personal de emergencias (ficha 8312)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
@@ -32423,6 +32427,37 @@
    "titulo": "LEY MJP (DE PAGO GARANTIZADO AL PRODUCTOR), “QUE REGULA LAS RELACIONES COMERCIALES EN MERCA PANAMA Y GARANTIZA EL PAGO OPORTUNO A LOS PRODUCTORES AGROPECUARIOS”"
   },
   "8311": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 4: Declara la responsabilidad objetiva de las empresas distribuidoras por daños en equipos derivados de fluctuaciones o fallas del servicio, sin requerir culpa o negligencia.",
+     "Artículo 5: Aplica la inversión de la carga de la prueba, exigiendo a la distribuidora probar que la causa del daño no es atribuible al suministro eléctrico.",
+     "Artículo 6: Obliga a reparar el equipo, reemplazarlo por uno equivalente o superior, o indemnizar su valor comercial a elección del cliente.",
+     "Artículo 8: Fija plazos de 5 días hábiles para inspección, 10 para dictamen técnico y 15 para ejecutar la reparación o pago, con sanciones automáticas por mora.",
+     "Artículo 9: Obliga a la empresa a pagar el costo del peritaje independiente si este resulta favorable al usuario.",
+     "Artículo 12: Exige compensación automática en factura e indemnización adicional por cortes continuos que superen 3 horas, además de reportar las fluctuaciones investigadas en 5 días hábiles.",
+     "Artículo 13: Establece multas de B/. 5,000.00 a B/. 500,000.00 a favor de la ASEP e incremento automático de indemnizaciones por incumplimiento.",
+     "Artículos 17 y 18: Obliga a ejecutar planes de mantenimiento preventivo y a mantener un registro digital auditable de fluctuaciones y fallas técnicas."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1WnAkY7FkjUFMkxClwATIHpJGwp9gP0x7",
+    "fecha_analisis": "2026-10-21",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Impone a las empresas distribuidoras de electricidad responsabilidad objetiva, inversión de la carga probatoria, compensaciones forzosas y multas de hasta B/. 500,000.00.",
+      "sector": "OTROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea costos operativos y de indemnización directos y significativos para las concesionarias de distribución eléctrica bajo supervisión de la ASEP.",
+    "resumen": "Establece un régimen de responsabilidad objetiva e inversión de la carga de la prueba para las empresas distribuidoras de energía eléctrica por averías causadas por fluctuaciones o cortes en la red. Fija plazos perentorios para la inspección y resolución de reclamos, obliga a indemnizaciones o compensaciones en factura ante cortes superiores a tres horas, y faculta a la ASEP a sancionar con multas de hasta B/. 500,000.00.",
+    "sectores": [
+     "OTROS"
+    ],
+    "titulo": "Ley MED (Ley de Manejo y Evaluación de Daños Eléctricos), que establece el régimen de responsabilidad y compensación por daños a equipos eléctricos causados por fallas en el servicio público de energía eléctrica y dicta otras disposiciones",
+    "titulo_corto": "Régimen de responsabilidad por daños eléctricos (Ley MED)"
+   },
    "anteproyecto": "385",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Primer Debate",
@@ -46012,7 +46047,7 @@
    "517",
    "518"
   ],
-  "revisada": "2026-10-21T10:52:19"
+  "revisada": "2026-10-21T11:52:33"
  },
- "ultima_corrida": "2026-10-21T10:51:47"
+ "ultima_corrida": "2026-10-21T11:52:03"
 }
