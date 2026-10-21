@@ -701,6 +701,10 @@
    "carpeta": "Regulación y venta de textos, uniformes y útiles escolares (ficha 8319)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "8323": {
+   "carpeta": "Información calórica obligatoria en restaurantes de cadena (ficha 8323)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
   "8324": {
    "carpeta": "Creación de la Orden Futbolística Luis Matador Tejada (ficha 8324)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -708,6 +712,18 @@
   "8325": {
    "carpeta": "Transparencia y topes a penalidades en créditos bancarios (ficha 8325)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
+  "8326": {
+   "carpeta": "Ley general contra la estafa digital (ficha 8326)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
+  "8327": {
+   "carpeta": "Envío de datos de condenados por fraude a bancos y telcos (ficha 8327)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "8329": {
+   "carpeta": "Ciberseguridad en el sector público (ficha 8329)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
   "8330": {
    "carpeta": "Sede de la Oficina de Área de la UIT en Panamá (ficha 8330)",
@@ -32705,6 +32721,36 @@
    "titulo": "LEY QUE REFORMA LA LEY 6 DE 2006 DE ORDENAMIENTO TERRITORIAL, LA LEY 37 DE 2009 DE DESCENTRALIZACIÓN, LA LEY 106 DE 1973 DE RÉGIMEN MUNICIPAL Y LA LEY 105 DE 1973 DE JUNTAS COMUNALES Y DICTA OTRAS DISPOSICIONES"
   },
   "8323": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2: Establece que la ley aplica a restaurantes bajo una misma marca o franquicia con tres o más establecimientos que vendan en sitio, para llevar o por plataformas de entrega, excluyendo locales únicos independientes.",
+     "Artículo 5: Obliga a mostrar en menús físicos o digitales el contenido calórico referencial expresado en kilocalorías (kcal) por porción junto al nombre o precio del producto.",
+     "Artículo 6: Define los métodos permitidos para calcular calorías, admitiendo análisis profesionales, bases de datos nutricionales o software de estimación por recetas.",
+     "Artículo 9: Detalla los formatos de exhibición permitidos (impresos, códigos QR, pantallas, webs o apps) y exige visibilidad obligatoria antes de confirmar pedidos en plataformas a domicilio.",
+     "Artículo 10: Designa al Ministerio de Salud (MINSA) y a la ACODECO como entidades supervisoras del cumplimiento de la ley.",
+     "Artículo 11: Fija sanciones escalonadas que van desde B/. 2,500 en la primera infracción hasta B/. 20,000 y cierre del establecimiento en la tercera reincidencia.",
+     "Artículo 12: Concede un plazo de adecuación de un año para el cumplimiento de las cadenas tras la reglamentación de la ley."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1_w-QYm-VLiGR3Wi3M_XUfwYJOkvligGj",
+    "fecha_analisis": "2026-10-21",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Impone a las cadenas de comida la obligación de calcular y publicar información nutricional en todos sus puntos de venta y canales digitales, bajo riesgo de multas y cierre.",
+      "sector": "ALIMENTOS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea una nueva obligación regulatoria de etiquetado calórico para restaurantes de tres o más sucursales, exigiendo ajustes en cartas, aplicaciones y plataformas de venta, respaldada por multas de hasta B/. 20,000.",
+    "resumen": "El proyecto obliga a las cadenas y franquicias de restaurantes con tres o más sucursales a publicar el contenido calórico por porción en sus menús físicos, digitales y plataformas de entrega a domicilio. Permite estimaciones nutricionales mediante bases de datos o software sin exigir análisis de laboratorio en cada plato. Además, faculta al MINSA y a la ACODECO para fiscalizar su cumplimiento y aplicar sanciones económicas o clausuras por reincidencia.",
+    "sectores": [
+     "ALIMENTOS"
+    ],
+    "titulo": "Que establece la información calórica en los menús de restaurantes de cadena",
+    "titulo_corto": "Información calórica obligatoria en restaurantes de cadena"
+   },
    "anteproyecto": "398",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Primer Debate",
@@ -32885,6 +32931,38 @@
    "titulo": "QUE ESTABLECE NORMAS DE TRANSPARENCIA Y EQUILIBRIO EN LOS CONTRATOS DE CRÉDITO DEL SISTEMA BANCARIO"
   },
   "8326": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 10: Obliga a los operadores de telecomunicaciones e internet a identificar, bloquear, interceptar y rastrear comunicaciones fraudulentas o con números suplantados.",
+     "Artículo 11: Prohíbe el uso y comercialización de SIM boxes, pasarelas GOIP y sistemas análogos sin autorización de la ASEP.",
+     "Artículo 12: Exige a los proveedores de telecomunicaciones e internet implementar medidas técnicas para detectar e impedir la conexión de equipos o programas ilícitos de comunicación masiva.",
+     "Artículo 13: Faculta y obliga a reverificar, suspender o cancelar servicios y cuentas de telecomunicaciones e internet vinculadas a sospechas de fraude.",
+     "Artículo 14: Establece infracciones específicas para empresas de telecomunicaciones por fallas de control o monitoreo, sancionables según la Ley 31 de 1996.",
+     "Artículo 15: Exige a los bancos aplicar debida diligencia continua y verificar o denegar transacciones anómalas en cuentas y servicios de pago.",
+     "Artículo 16: Obliga a los bancos a implementar monitoreo transaccional en tiempo real mediante algoritmos de comportamiento y ejecutar retención inmediata de pagos y congelación rápida de fondos.",
+     "Artículo 17: Ordena a las entidades bancarias recopilar y reportar a las autoridades direcciones IP, direcciones MAC y datos de terminales de pago de clientes sospechosos.",
+     "Artículo 18: Define conductas que constituyen infracciones administrativas bancarias sancionables bajo la Ley Bancaria por incumplimiento de estos controles."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1HNDxNSrfKJvVKHNHF8f3YJaRMBnOgQZg",
+    "fecha_analisis": "2026-10-21",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Obliga a los bancos a implementar costosos sistemas de monitoreo transaccional en tiempo real con algoritmos, gestionar la retención y congelación inmediata de fondos y enfrentar sanciones bajo la Ley Bancaria.",
+      "sector": "FINANCIERO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea obligaciones operativas y tecnológicas de gran escala para el sector bancario, incluyendo el despliegue de sistemas de monitoreo en tiempo real, deberes de retención de fondos y un régimen sancionatorio propio bajo la Ley Bancaria.",
+    "resumen": "Establece un marco regulatorio obligatorio para prevenir, detectar y combatir las estafas digitales en Panamá. Impone deberes técnicos operativos a los proveedores de telecomunicaciones e internet y exige a las entidades bancarias implementar sistemas de monitoreo transaccional en tiempo real mediante algoritmos, retención o congelamiento preventivo de fondos y reporte de datos técnicos a las autoridades, bajo apercibimiento de sanciones sectoriales.",
+    "sectores": [
+     "FINANCIERO"
+    ],
+    "titulo": "General contra la estafa digital",
+    "titulo_corto": "Ley general contra la estafa digital"
+   },
    "anteproyecto": "399",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Primer Debate",
@@ -32913,6 +32991,30 @@
    "titulo": "GENERAL CONTRA LA ESTAFA DIGITAL"
   },
   "8327": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1 (adiciona el artículo 15-A a la Ley 69 de 2007): dispone que la DIJ remita a bancos y operadores de telecomunicaciones datos de condenados por estafa o fraude, impone a estas entidades la obligación de intercambiar alertas sobre posibles fraudes de sus clientes, y las faculta y orienta a suspender o restringir servicios con base en dicha información."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1dH_GJoVwTGTI7tSfhsjzZ8MDKGvodikM",
+    "fecha_analisis": "2026-10-21",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Obliga a los bancos a incorporar los registros de condenas por estafa en sus análisis de riesgo y a intercambiar alertas de fraude con otros agentes del mercado.",
+      "sector": "FINANCIERO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Establece nuevas exigencias de gestión de riesgos y de intercambio interbancario de información sobre fraudes para el sector bancario.",
+    "resumen": "La iniciativa obliga a la Dirección de Investigación Judicial (DIJ) a suministrar a los bancos y empresas de telecomunicaciones el registro de personas condenadas por estafa y fraude. Asimismo, impone a estas entidades privadas el deber de intercambiar entre sí alertas sobre posibles operaciones fraudulentas y considerar estos antecedentes penales para restringir, suspender o negar servicios a sus clientes.",
+    "sectores": [
+     "FINANCIERO"
+    ],
+    "titulo": "Que adiciona un artículo a la Ley 69 de 2007",
+    "titulo_corto": "Envío de datos de condenados por fraude a bancos y telcos"
+   },
    "anteproyecto": "400",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Primer Debate",
@@ -32999,6 +33101,20 @@
    "titulo": "POR LA CUAL SE APRUEBA EL ACUERDO DE SERVICIOS AÉREOS ENTRE EL GOBIERNO DE LA REPÚBLICA DE PANAMÁ Y EL GOBIERNO DEL REINO DE ARABIA SAUDITA, HECHO EN PARÍS EL 16 DE JUNIO DE 2025"
   },
   "8329": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1wvFCDq9sW48eQFuoZU7GE6RgXBuUNDdA",
+    "fecha_analisis": "2026-10-21",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No genera impacto directo sobre las empresas privadas, ya que sus disposiciones regulan únicamente la capacitación interna, gobernanza digital y régimen disciplinario de los servidores públicos.",
+    "resumen": "Propone establecer un programa obligatorio y anual de acreditación y formación continua en ciberseguridad para todos los servidores públicos panameños. La Autoridad Nacional para la Innovación Gubernamental (AIG) regulará los contenidos y estándares según la criticidad de los cargos y la infraestructura digital que operan. La iniciativa está dirigida estrictamente a las entidades estatales, municipios y empresas con participación accionaria estatal mayoritaria.",
+    "sectores": [],
+    "titulo": "Que establece un programa general de buenas prácticas de ciberseguridad en el sector público",
+    "titulo_corto": "Ciberseguridad en el sector público"
+   },
    "anteproyecto": "401",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Primer Debate",
@@ -45788,7 +45904,7 @@
    "517",
    "518"
   ],
-  "revisada": "2026-10-21T08:06:55"
+  "revisada": "2026-10-21T09:07:41"
  },
- "ultima_corrida": "2026-10-21T08:06:27"
+ "ultima_corrida": "2026-10-21T09:07:16"
 }
