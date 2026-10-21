@@ -701,6 +701,10 @@
    "carpeta": "Competencia y concentración en telecomunicaciones (ficha 8313)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
   },
+  "8314": {
+   "carpeta": "Penalización por retención de cuotas de la CSS (ficha 8314)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
   "8317": {
    "carpeta": "Ley Marco de Ciberseguridad (ficha 8317)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
@@ -32559,6 +32563,31 @@
    "titulo": "QUE PROMUEVE LA LIBRE COMPETENCIA, REGULA LA CONCENTRACION ECONOMICA EN EL LIBRE MERCADO DE TELECOMUNICACIONES Y FORTALECE LA PROTECCION DE LOS USUARIOS"
   },
   "8314": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Modifica el artículo 241 del Código Penal para sancionar con prisión de 3 a 5 años a quien retenga y no remita cuotas de la CSS por más de B/. 1,000 tras 3 meses de vencida la obligación, o impida la afiliación al seguro social; eleva la pena de 4 a 6 años de prisión si la retención supera B/. 100,000 o afecta a empleadas con fuero maternal; y agrava la sanción de un sexto a un tercio al empleador o representante legal que ordene la retención.",
+     "Artículo 3: Establece que la ley entrará a regir seis meses después de su promulgación en Gaceta Oficial."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1urjrpnXt0tX58CcYiLR0PlfHqLBW7JW_",
+    "fecha_analisis": "2026-10-21",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Incrementa significativamente la exposición penal y las penas de cárcel para representantes legales y directivos que incumplan o retrasen el pago de cuotas obrero-patronales retenidas.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Aumenta el rigor punitivo y las penas privativas de libertad para empleadores y administradores por atrasos en el traslado de cuotas a la CSS o por evasión en la afiliación laboral.",
+    "resumen": "El proyecto reforma el artículo 241 del Código Penal para endurecer las sanciones por no remitir a la Caja de Seguro Social las cuotas empleado-empleador retenidas tras un plazo de tres meses. Establece penas de 3 a 5 años de prisión si la suma supera B/. 1,000 o si se evade la afiliación mediante engaño, y eleva la pena de 4 a 6 años si la deuda supera los B/. 100,000 o involucra a trabajadoras con fuero maternal. Afecta directamente la responsabilidad penal de los empleadores, representantes legales, administradores y contadores de todas las empresas.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que modifica un artículo del Código Penal",
+    "titulo_corto": "Penalización por retención de cuotas de la CSS"
+   },
    "anteproyecto": "389",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Primer Debate",
@@ -45983,7 +46012,7 @@
    "517",
    "518"
   ],
-  "revisada": "2026-10-21T09:57:02"
+  "revisada": "2026-10-21T10:52:19"
  },
- "ultima_corrida": "2026-10-21T09:56:30"
+ "ultima_corrida": "2026-10-21T10:51:47"
 }
