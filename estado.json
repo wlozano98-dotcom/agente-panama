@@ -1,5 +1,5 @@
 {
- "comisiones_revisadas": "2026-10-21T03:51:05",
+ "comisiones_revisadas": "2026-10-21T09:53:24",
  "drive": {
   "7404": {
    "carpeta": "Obligatoriedad de educación media y preescolar (ficha 7404)",
@@ -693,9 +693,17 @@
    "carpeta": "Regulación de drones en la actividad agropecuaria (ficha 8308)",
    "comision": "Comisión de Asuntos Agropecuarios"
   },
+  "8312": {
+   "carpeta": "Acompañamiento psicológico para personal de emergencias (ficha 8312)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
   "8313": {
    "carpeta": "Competencia y concentración en telecomunicaciones (ficha 8313)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
+  "8317": {
+   "carpeta": "Ley Marco de Ciberseguridad (ficha 8317)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
   "8319": {
    "carpeta": "Regulación y venta de textos, uniformes y útiles escolares (ficha 8319)",
@@ -32439,6 +32447,22 @@
    "titulo": "LEY MED (LEY DE MANEJO Y EVALUACION DE DAÑOS ELECTRICOS), “QUE ESTABLECE EL REGIMEN DE RESPONSABILIDAD Y COMPENSACION POR DAÑOS A EQUIPOS ELECTRICOS CAUSADOS POR FALLAS EN EL SERVICIO PUBLICO DE ENERGIA ELECTRICA Y DICTA OTRAS DISPOSICIONES\""
   },
   "8312": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2: Establece que las disposiciones de la ley podrán ser acogidas de forma voluntaria por instituciones privadas que participen en la atención de emergencias mediante convenio con el Estado."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1uCzGFnT7hqXHmf5n8A2HkxauZ1V95nR6",
+    "fecha_analisis": "2026-10-21",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No impone obligaciones, costos ni restricciones al sector empresarial, ya que su ámbito obligatorio está circunscrito a instituciones públicas y de seguridad del Estado.",
+    "resumen": "La iniciativa busca hacer obligatorios los programas institucionales de acompañamiento psicológico y apoyo psicosocial para el personal de respuesta ante emergencias, desastres y violencia extrema. Aplica de manera directa a estamentos de seguridad, bomberos, SUME 911, SINAPROC, Cruz Roja, Ministerio Público, MINSA y CSS. Para entidades privadas que participen mediante convenio con el Estado, su adopción es de carácter facultativo.",
+    "sectores": [],
+    "titulo": "Que establece la obligatoriedad de programas de acompañamiento psicológico para el personal que atiende siniestros, emergencias y escenas de violencia extrema y dicta otras disposiciones",
+    "titulo_corto": "Acompañamiento psicológico para personal de emergencias"
+   },
    "anteproyecto": "387",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Primer Debate",
@@ -32563,6 +32587,61 @@
    "titulo": "QUE MODIFICA UN ARTICULO DEL CODIGO PENAL"
   },
   "8317": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 5: Define el ámbito de aplicación sobre empresas privadas que presten servicios esenciales, operadores estratégicos y concesionarias de servicios públicos.",
+     "Artículos 8 y 9: Identifican como actividades e infraestructuras críticas la banca y pagos, transporte (marítimo, aéreo, terrestre, puertos y aeropuertos), telecomunicaciones, electricidad, hidrocarburos, salud y desarrollo farmacéutico.",
+     "Artículos 10, 11 y 12: Facultan a la nueva autoridad a calificar mediante catálogo a entidades privadas como Operadores de Importancia Vital (OIV) cada tres años.",
+     "Artículo 13: Exige a los operadores de importancia vital la obtención obligatoria de certificaciones emitidas por entidades autorizadas u homologadas.",
+     "Artículo 15: Obliga a los operadores vitales a mantener un sistema de gestión de seguridad, certificar y revisar sus planes de continuidad cada dos años, realizar simulacros continuos y designar un delegado de ciberseguridad.",
+     "Artículo 16: Establece la obligación de reportar incidentes cibernéticos con efecto significativo al CSIRT Nacional dentro de 3 horas (alerta temprana), 24 a 72 horas (actualización) y 15 días (informe detallado).",
+     "Artículo 20 (numerales 19 y 20): Autoriza a exigir estándares de ciberseguridad a proveedores del Estado y fijar normativas de seguridad e información al público para dispositivos digitales de consumo.",
+     "Artículo 32: Regula la prevalencia y equivalencia de las normativas de ciberseguridad dictadas por entes supervisores sectoriales como la Superintendencia de Bancos o la ASEP."
+    ],
+    "drive": "https://drive.google.com/drive/folders/18vLaFGzFcb4zEwvjYal_9vpDKy4A24d6",
+    "fecha_analisis": "2026-10-21",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Clasifica al sector bancario, financiero y medios de pago como servicio esencial e infraestructura crítica, imponiéndoles certificaciones obligatorias, auditorías, planes de continuidad cada dos años y reporte estricto de ciberataques.",
+      "sector": "FINANCIERO"
+     },
+     {
+      "nivel": "alto",
+      "razon": "Declara infraestructura crítica a los puertos, aeropuertos y operadores de transporte de carga y pasajeros, sujetándolos a regulaciones técnicas de ciberseguridad, planes obligatorios de contingencia y supervisión directa.",
+      "sector": "TRANSPORTE"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Somete a clínicas, hospitales privados y laboratorios farmacéuticos a los deberes de servicios esenciales, requiriendo sistemas certificados de gestión de seguridad informática y protocolos de contingencia.",
+      "sector": "SALUD"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Incluye las actividades de transporte, almacenamiento y distribución de combustibles dentro de los servicios esenciales sujetos a requerimientos de ciberseguridad e inspección técnica.",
+      "sector": "PETRÓLEO"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Obliga a cualquier empresa privada a reportar ciberataques graves en un plazo máximo de tres horas y crea exigencias específicas para contratistas y proveedores de tecnología del Estado.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Impacta fuertemente a sectores estratégicos (banca, logística, puertos, salud y energía) al declararlos servicios esenciales o infraestructuras críticas con deberes de certificación, delegados de seguridad y planes obligatorios, además de imponer a todo el sector privado plazos perentorios de reporte de ciberincidentes.",
+    "resumen": "Crea la Autoridad Reguladora Nacional de Ciberseguridad y un marco normativo integral de protección digital aplicable a entidades públicas y privadas. Califica como servicios esenciales e infraestructuras críticas a sectores estratégicos (banca, energía, telecomunicaciones, logística, puertos, salud y combustibles), a los que impone planes de continuidad certificados, auditorías y designación de delegados de ciberseguridad. Además, establece una obligación general para todas las empresas de reportar incidentes cibernéticos significativos en plazos de hasta tres horas.",
+    "sectores": [
+     "FINANCIERO",
+     "TRANSPORTE",
+     "SALUD",
+     "PETRÓLEO",
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Ley Marco de Ciberseguridad de la República de Panamá",
+    "titulo_corto": "Ley Marco de Ciberseguridad"
+   },
    "anteproyecto": "392",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Primer Debate",
@@ -45904,7 +45983,7 @@
    "517",
    "518"
   ],
-  "revisada": "2026-10-21T09:07:41"
+  "revisada": "2026-10-21T09:57:02"
  },
- "ultima_corrida": "2026-10-21T09:07:16"
+ "ultima_corrida": "2026-10-21T09:56:30"
 }
