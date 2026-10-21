@@ -725,6 +725,10 @@
    "carpeta": "Creación del Sistema de Gestión del Riesgo de Desastres (ficha 8337)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
+  "8338": {
+   "carpeta": "Transparencia en mantenimiento de infraestructura pública (ficha 8338)",
+   "comision": "Comisión de Infraestructura Pública y Asuntos del Canal"
+  },
   "8344": {
    "carpeta": "Día del Congreso Anfictiónico de Panamá (ficha 8344)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -33310,6 +33314,31 @@
    "titulo": "QUE CREA EL SISTEMA NACIONAL DE GESTION DEL RIESGO DE DESASTRES Y EMERGENCIAS EN LA REPUBLICA DE PANAMA."
   },
   "8338": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Adiciona el numeral 7 al artículo 9 de la Ley 6 de 2002 para obligar a las entidades estatales a publicar semestralmente los informes de inspección, evaluación técnica y mantenimiento de infraestructura pública, detallando contratistas, costos, cronogramas y medidas correctivas.",
+     "Artículo 2: Adiciona el artículo 18-A a la Ley 6 de 2002 para ordenar a las entidades públicas habilitar un espacio digital donde los ciudadanos puedan consultar, descargar y emitir observaciones sobre los informes de mantenimiento de infraestructura."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1i7OcsF_b7zoFuz16wHcrY_9frEO9YHb6",
+    "fecha_analisis": "2026-10-21",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Aumenta la exposición y fiscalización pública sobre los contratistas de obra pública al divulgarse sus informes técnicos, costos, cronogramas y medidas correctivas.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es bajo e indirecto para el sector privado, ya que las obligaciones de reporte recaen sobre las entidades públicas, aunque incrementa el escrutinio sobre las empresas contratistas del Estado.",
+    "resumen": "Propone reformar la Ley de Transparencia (Ley 6 de 2002) para exigir a las entidades estatales la publicación periódica y digital de informes técnicos, auditorías e inspecciones de infraestructuras públicas. La iniciativa afecta a las instituciones administradoras de obras estatales y, de forma indirecta, a las empresas contratistas encargadas del mantenimiento y construcción, cuyos datos de ejecución y costos quedarán abiertos al escrutinio y observaciones de la ciudadanía.",
+    "sectores": [
+     "CEMENTERAS"
+    ],
+    "titulo": "Que modifica la Ley 6 de 22 de enero de 2002, que dicta normas para la transparencia en la gestión pública para incorporar la obligación de publicar las inspecciones y mantenimientos de las infraestructuras públicas",
+    "titulo_corto": "Transparencia en mantenimiento de infraestructura pública"
+   },
    "anteproyecto": "405",
    "comision": "COMISION DE INFRAESTRUCTURA PUBLICA Y ASUNTOS DEL CANAL",
    "etapa": "Primer Debate",
@@ -45759,7 +45788,7 @@
    "517",
    "518"
   ],
-  "revisada": "2026-10-21T07:19:21"
+  "revisada": "2026-10-21T08:06:55"
  },
- "ultima_corrida": "2026-10-21T07:18:30"
+ "ultima_corrida": "2026-10-21T08:06:27"
 }
