@@ -717,6 +717,14 @@
    "carpeta": "Modificaciones a la Ley General de Adopciones (ficha 8333)",
    "comision": "Comisión de la Mujer, la Niñez y la Familia"
   },
+  "8334": {
+   "carpeta": "Eliminación de partidas presupuestarias discrecionales (ficha 8334)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
+  "8337": {
+   "carpeta": "Creación del Sistema de Gestión del Riesgo de Desastres (ficha 8337)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
   "8344": {
    "carpeta": "Día del Congreso Anfictiónico de Panamá (ficha 8344)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -728,6 +736,10 @@
   "8349": {
    "carpeta": "Gobernanza de la inteligencia artificial (ficha 8349)",
    "comision": "Comisión de Educacion, Cultura y Deportes"
+  },
+  "8350": {
+   "carpeta": "Regulación de contrataciones públicas excepcionales (ficha 8350)",
+   "comision": "Comisión de Economía y Finanzas"
   },
   "8351": {
    "carpeta": "Reforma a la Junta Directiva de la SENNIAF (ficha 8351)",
@@ -744,6 +756,10 @@
   "8355": {
    "carpeta": "Restricciones y distancias mínimas para canteras (ficha 8355)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
+  "8356": {
+   "carpeta": "Reforma al régimen de cuencas hidrográficas (ficha 8356)",
+   "comision": "Comisión de Población, Ambiente y Desarrollo"
   },
   "8357": {
    "carpeta": "Verificación de permiso de ocupación en avisos de operación (ficha 8357)",
@@ -33175,6 +33191,20 @@
    "titulo": "QUE MODIFICA LA LEY 46 DE 2013, GENERAL DE ADOPCIONES DE LA REPUBLICA DE PANAMA Y DICTA OTRAS DISPOSICIONES."
   },
   "8334": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1HHQI4kQdQvIm6usl0uX-h-k2fNNKnX4y",
+    "fecha_analisis": "2026-10-21",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto se circunscribe a la administración del gasto público y al control interno de las asignaciones presupuestarias estatales, sin alterar obligaciones comerciales, laborales ni tributarias del sector privado.",
+    "resumen": "La propuesta prohíbe la inclusión y ejecución de partidas presupuestarias discrecionales asignadas al Presidente y demás altos cargos del Estado en el Presupuesto General. Establece que toda ayuda o subsidio debe estar fundamentado en programas institucionales formales y obliga a las entidades públicas a divulgar de forma detallada la ejecución de su gasto en la web. No impone requisitos directos ni cargas operativas sobre las empresas privadas.",
+    "sectores": [],
+    "titulo": "Que elimina las partidas presupuestarias discrecionales y garantiza la transparencia en el uso de fondos públicos",
+    "titulo_corto": "Eliminación de partidas presupuestarias discrecionales"
+   },
    "anteproyecto": "408",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Primer Debate",
@@ -33236,6 +33266,22 @@
    "titulo": "QUE ESTABLECE EL REGIMEN DE APOYO A LA MUJER AGROEMPRENDEDORA"
   },
   "8337": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 17 (numeral 13): Incluye a las empresas de electricidad como integrantes del Comité Técnico y Operativo del Sistema para labores de articulación ante contingencias."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1wvRrgZjo75OcarZ6djz2hmngYrOZpm2x",
+    "fecha_analisis": "2026-10-21",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La propuesta se limita a articular la respuesta técnica y operativa de las instituciones públicas y de socorro frente a desastres, sin imponer costos, trámites ni restricciones a la actividad empresarial privada.",
+    "resumen": "La iniciativa establece un marco institucional y técnico para coordinar las acciones de prevención, preparación, búsqueda, rescate y recuperación ante emergencias y desastres en Panamá. Crea un Comité Técnico y Operativo interinstitucional compuesto por ministerios, estamentos de seguridad y entidades de auxilio. El proyecto se enfoca en el ámbito de la protección civil y el sector público sin crear obligaciones regulatorias ni tributarias para el comercio o la industria.",
+    "sectores": [],
+    "titulo": "Que crea el Sistema Nacional de Gestión del Riesgo de Desastres y Emergencias en la República de Panamá",
+    "titulo_corto": "Creación del Sistema de Gestión del Riesgo de Desastres"
+   },
    "anteproyecto": "407",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Primer Debate",
@@ -33695,6 +33741,34 @@
    "titulo": "QUE ESTABLECE LA GOBERNANZA ADAPTATIVA DE LA INTELIGENCIA ARTIFICIAL DE PANAMA"
   },
   "8350": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1 (modifica art. 79): Define el carácter restrictivo del procedimiento excepcional, prohíbe simular estudios de mercado, exige gestionar al menos tres propuestas y delimita las causales de urgencia e interés estratégico.",
+     "Artículo 2 (adiciona a art. 80): Exige informe técnico fundado con carácter de declaración jurada, sustentando la imposibilidad de licitar y declarando la ausencia de conflicto de intereses.",
+     "Artículo 3 (modifica art. 81): Obliga a publicar la intención de compra excepcional en PanamaCompra por al menos 5 días hábiles, debiendo suspender el proceso y convocar acto público si se presentan dos o más empresas interesadas idóneas.",
+     "Artículo 5 (adiciona art. 83-A): Determina la nulidad del procedimiento ante omisión de los análisis de mercado, de la publicación previa o de la justificación de la causal.",
+     "Artículo 6 (adiciona art. 83-B): Califica el uso indebido del procedimiento excepcional como falta grave sujeta a responsabilidades administrativas, patrimoniales y penales."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1ZOLEDB_RV1eAkvEUByPkhoac_diGMIm4",
+    "fecha_analisis": "2026-10-21",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Impacta a los proveedores del Estado al abrir a competencia actos que antes se adjudicaban directamente y exigir mayor rigor en los estudios de mercado.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa reduce la discrecionalidad estatal en compras directas y brinda a los competidores la oportunidad de frenar contrataciones a dedo si demuestran capacidad técnica y económica.",
+    "resumen": "El proyecto restringe el uso de contrataciones directas o excepcionales por parte de las entidades públicas, exigiendo análisis de mercado con al menos tres cotizaciones y publicación previa obligatoria en PanamaCompra por cinco días hábiles. Si dos o más empresas idóneas manifiestan interés durante esa publicación, la entidad queda obligada a convocar una licitación pública formal. Afecta a todas las empresas proveedoras del Estado al fomentar la competencia e imponer causales de nulidad ante omisiones técnicas.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que modifica y adiciona artículos sobre Procedimiento Excepcional de Contratación del Texto Único de la Ley 22 de 27 de junio de 2006, ordenado por la Ley 153 de 2020 y dicta otras disposiciones",
+    "titulo_corto": "Regulación de contrataciones públicas excepcionales"
+   },
    "anteproyecto": "421",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Primer Debate",
@@ -33967,6 +34041,45 @@
    "titulo": "QUE MODIFICA UNA DISPOSICION DEL CODIGO DE RECURSOS MINERALES Y DICTA OTRAS DISPOSICIONES"
   },
   "8356": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 3 (modifica art. 4 de la Ley 44 de 2002): Otorga carácter vinculante a los diagnósticos anuales de cuencas y exige la actualización trienal de los planes de ordenamiento y de manejo.",
+     "Artículo 5 (modifica art. 6 de la Ley 44 de 2002): Exige que concesiones, permisos y actividades en fincas privadas (incluso fuera de la lista taxativa de EIA) se adecúen a los planes de cuenca en el plazo que dicte MiAmbiente.",
+     "Artículo 6 (modifica art. 7 de la Ley 44 de 2002): Asigna al financiamiento de cuencas un porcentaje de tributos, tasas y aforos por uso de recursos naturales de la respectiva cuenca.",
+     "Artículo 8 (modifica art. 9 de la Ley 44 de 2002): Atribuye a los Comités de Cuencas Hidrográficas competencia para resolver controversias entre usuarios y emitir decisiones vinculantes en materias técnicas y económicas."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1pMifQPDuGg4NT7VKP_Uxkj8PNKENZXrH",
+    "fecha_analisis": "2026-10-21",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Sujeta las concesiones y permisos de aprovechamiento de recursos naturales a la adecuación obligatoria a planes de cuenca vinculantes formulados por MiAmbiente.",
+      "sector": "EXTRACTIVO"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Obliga a las canteras y extracciones de materiales en áreas de cuencas a ajustar sus operaciones a los planes de ordenamiento y manejo vigentes.",
+      "sector": "CEMENTERAS"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Impone a instalaciones fabriles y actividades en predios privados la obligación de ajustarse a los planes de manejo ambiental de cuencas, incluso fuera del listado taxativo de EIA.",
+      "sector": "INDUSTRIAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Transforma los planes de manejo y diagnósticos de cuencas en instrumentos de obligatorio cumplimiento para empresas con concesiones o actividades productivas en cuencas hidrográficas, imponiéndoles plazos de adecuación y fiscalización reforzada.",
+    "resumen": "La iniciativa reforma la Ley 44 de 2002 para dar carácter obligatorio y vinculante a los planes de ordenamiento ambiental territorial y de manejo de cuencas hidrográficas formulados por el Ministerio de Ambiente. Exige que toda concesión, permiso de aprovechamiento de recursos o actividad productiva en fincas particulares se adecúe a dichos planes. Afecta principalmente a empresas con actividades extractivas, canteras, industrias y operaciones agroproductivas ubicadas en cuencas hidrográficas.",
+    "sectores": [
+     "EXTRACTIVO",
+     "CEMENTERAS",
+     "INDUSTRIAS"
+    ],
+    "titulo": "Que modifica la Ley 44 de 2002 y dicta otras disposiciones",
+    "titulo_corto": "Reforma al régimen de cuencas hidrográficas"
+   },
    "anteproyecto": "428",
    "comision": "COMISION DE POBLACION, AMBIENTE Y DESARROLLO",
    "etapa": "Primer Debate",
@@ -45646,7 +45759,7 @@
    "517",
    "518"
   ],
-  "revisada": "2026-10-21T05:53:07"
+  "revisada": "2026-10-21T07:19:21"
  },
- "ultima_corrida": "2026-10-21T05:52:39"
+ "ultima_corrida": "2026-10-21T07:18:30"
 }
