@@ -629,6 +629,10 @@
    "carpeta": "Estacionamientos soterrados en parques públicos (ficha 8261)",
    "comision": "Comisión de Asuntos Municipales"
   },
+  "8262": {
+   "carpeta": "Regulación del salvamento acuático (ficha 8262)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
   "8263": {
    "carpeta": "Fortalecimiento de medidas fito y zoosanitarias (ficha 8263)",
    "comision": "Comisión de Asuntos Agropecuarios"
@@ -30187,6 +30191,39 @@
    "titulo": "QUE MODIFICA LA LEY 63 DE 2015"
   },
   "8262": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2: Aplica la regulación a todos los ambientes acuáticos de uso público o colectivo, sean de propiedad pública o privada (playas, piscinas, parques acuáticos, hoteles, resorts, clubes sociales y propiedades horizontales).",
+     "Artículo 6: Establece la jornada laboral de ocho horas para guardavidas en el sector privado y dispone el pago de horas extraordinarias por exceso de jornada.",
+     "Artículo 10: Fija la cantidad mínima obligatoria de guardavidas (1 por cada 50 bañistas o 250 m2 de agua en piscinas; 2 por cada 200m en playas) y exige equipamiento como desfibriladores externos automáticos (DEA) y aros de rescate.",
+     "Artículo 16: Faculta la imposición de multas desde B/.500 hasta B/.25,000 y la clausura temporal o definitiva de la instalación en caso de incumplimiento."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1eIkru4dyLZZp00-jMbLBTQQKZb6aLVVf",
+    "fecha_analisis": "2026-10-22",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Exige a hoteles, resorts y parques acuáticos contar obligatoriamente con guardavidas idóneos en sus instalaciones acuáticas, además de equipamiento de rescate y desfibriladores, bajo penas de multas o clausura.",
+      "sector": "TURISMO"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Obliga a las administraciones de propiedades horizontales con piscinas colectivas a contar con guardavidas certificados y equipamiento de seguridad durante su horario de uso.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.5-flash",
+    "razon": "Genera nuevas obligaciones operativas y de contratación de personal certificado para hoteles, proyectos inmobiliarios y parques con áreas acuáticas colectivas, sancionando el incumplimiento con multas y posible cierre de instalaciones.",
+    "resumen": "Propone crear la Dirección Nacional de Salvamento Acuático y regular la profesión de guardavidas, estableciendo obligaciones de seguridad para ambientes acuáticos de uso colectivo en hoteles, resorts, parques acuáticos, clubes y propiedades horizontales. Exige un número mínimo de guardavidas certificados, equipamiento de rescate y desfibriladores (DEA), con un régimen de sanciones que incluye multas y clausuras.",
+    "sectores": [
+     "TURISMO",
+     "CEMENTERAS"
+    ],
+    "titulo": "Que regula el salvamento acuático y dicta otras disposiciones",
+    "titulo_corto": "Regulación del salvamento acuático"
+   },
    "anteproyecto": "338",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Primer Debate",
@@ -46554,5 +46591,5 @@
   ],
   "revisada": "2026-10-21T18:59:15"
  },
- "ultima_corrida": "2026-10-22T08:02:32"
+ "ultima_corrida": "2026-10-22T08:56:57"
 }
