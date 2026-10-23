@@ -625,6 +625,14 @@
    "carpeta": "Agravante por reclutamiento de menores en pandillas (ficha 8244)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
+  "8245": {
+   "carpeta": "Examen de la Cuenta General del Tesoro en la Asamblea (ficha 8245)",
+   "comision": "Comisión de Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
+  },
+  "8246": {
+   "carpeta": "Regulación de la moción de censura a ministros (ficha 8246)",
+   "comision": "Comisión de Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
+  },
   "8248": {
    "carpeta": "Sanciones por disparos al aire (ficha 8248)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
@@ -29596,6 +29604,20 @@
    "titulo": "QUE MODIFICA EL ARTICULO 331 DEL CODIGO PENAL"
   },
   "8245": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1KBtwBj53zyLNxBm6I2FOzJQlZaMX5If2",
+    "fecha_analisis": "2026-10-23",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Es una propuesta de funcionamiento interno parlamentario sobre la fiscalización de las finanzas del Estado que no crea obligaciones, trámites, impuestos ni restricciones para el sector empresarial.",
+    "resumen": "Modifica el Reglamento Interno de la Asamblea Nacional para redefinir el procedimiento de examen y fiscalización de la Cuenta General del Tesoro que presentan el MEF y la Contraloría. Introduce plazos de publicación previa de documentos en formatos abiertos, comparecencias técnicas obligatorias, matrices de preguntas con respuestas formales y votación nominal obligatoria.",
+    "sectores": [],
+    "titulo": "Que modifica los artículos 213 y 214 del Reglamento Orgánico del Régimen Interno de la Asamblea Nacional, relativos al examen de la Cuenta General del Tesoro, y dicta otras disposiciones",
+    "titulo_corto": "Examen de la Cuenta General del Tesoro en la Asamblea"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE CREDENCIALES, REGLAMENTO, ETICA PARLAMENTARIA Y ASUNTOS JUDICIALES",
    "etapa": "Primer Debate",
@@ -29619,6 +29641,20 @@
    "titulo": "QUE MODIFICA LOS ARTICULOS 213 Y 214 DEL REGLAMENTO ORGANICO DEL REGIMEN INTERNO DE LA ASAMBLEA NACIONAL, RELATIVOS AL EXAMEN DE LA CUENTA GENERAL DEL TESORO, Y DICTA OTRAS DISPOSICIONES"
   },
   "8246": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1aJXLUMS0xKTUVXABsNRIIUWnl4diNcMF",
+    "fecha_analisis": "2026-10-23",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Es una reforma de orden estrictamente político y procesal interno de la Asamblea Nacional que no crea obligaciones, costos ni regulaciones para las empresas.",
+    "resumen": "El proyecto establece el procedimiento parlamentario para proponer, debatir y votar una moción de censura contra ministros de Estado en la Asamblea Nacional. Exige el respaldo de al menos la mitad de los diputados para presentarla y dos terceras partes para su aprobación. Afecta el ámbito político institucional del Órgano Legislativo y del Órgano Ejecutivo sin incidir en el sector privado.",
+    "sectores": [],
+    "titulo": "Que adiciona un Capítulo nuevo al Título VII de la Ley 49 de 1984, que adopta el Reglamento Orgánico del Régimen Interno de la Asamblea Nacional, para regular el procedimiento de la moción de censura",
+    "titulo_corto": "Regulación de la moción de censura a ministros"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE CREDENCIALES, REGLAMENTO, ETICA PARLAMENTARIA Y ASUNTOS JUDICIALES",
    "etapa": "Primer Debate",
@@ -47459,5 +47495,5 @@
   ],
   "revisada": "2026-10-21T18:59:15"
  },
- "ultima_corrida": "2026-10-23T08:57:13"
+ "ultima_corrida": "2026-10-23T10:55:15"
 }
