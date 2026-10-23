@@ -621,6 +621,10 @@
    "carpeta": "Plazos máximos de pago a mipymes en compras públicas (ficha 8243)",
    "comision": "Comisión de Economía y Finanzas"
   },
+  "8244": {
+   "carpeta": "Agravante por reclutamiento de menores en pandillas (ficha 8244)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
   "8248": {
    "carpeta": "Sanciones por disparos al aire (ficha 8248)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
@@ -29550,6 +29554,20 @@
    "titulo": "QUE MODIFICA LA LEY 22 DE 2006, ORDENADA POR LA LEY 153 DE 2020, PARA ESTABLECER PLAZOS MAXIMOS DE PAGO A MICRO, PEQUEÑAS Y MEDIANAS EMPRESAS EN LA CONTRATACION PUBLICA"
   },
   "8244": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1iqxjN_bKNluKa03sPK-tSF8EEdKAJbTf",
+    "fecha_analisis": "2026-10-23",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa es estrictamente de derecho penal sobre seguridad ciudadana y pandillerismo; no impone cargas, regulaciones ni afecta las operaciones del sector empresarial.",
+    "resumen": "Propone modificar el Código Penal para agravar hasta en la mitad la sanción aplicable a jefes o cabecillas de pandillas y asociaciones ilícitas que capten, recluten o utilicen a menores de edad para delinquir. Busca frenar la instrumentalización de la niñez por parte del crimen organizado.",
+    "sectores": [],
+    "titulo": "Que modifica el artículo 331 del Código Penal",
+    "titulo_corto": "Agravante por reclutamiento de menores en pandillas"
+   },
    "anteproyecto": "324",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Primer Debate",
@@ -47441,5 +47459,5 @@
   ],
   "revisada": "2026-10-21T18:59:15"
  },
- "ultima_corrida": "2026-10-23T08:05:41"
+ "ultima_corrida": "2026-10-23T08:57:13"
 }
