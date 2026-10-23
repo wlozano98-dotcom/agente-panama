@@ -1313,6 +1313,10 @@
    "carpeta": "Protección de alertantes en el ámbito educativo (ficha 8618)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "8619": {
+   "carpeta": "Continuidad educativa por salud del núcleo familiar (ficha 8619)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "8621": {
    "carpeta": "Tratado de extradición entre Panamá y Argentina (ficha 8621)",
    "comision": "Comisión de Relaciones Exteriores"
@@ -44582,6 +44586,20 @@
    "titulo": "QUE ESTABLECE EL SISTEMA DE ALERTA TEMPRANA PARA LA PROTECCION DE LA INTEGRIDAD DE LA PERSONA ALERTANTE EN EL AMBITO EDUCATIVO"
   },
   "8619": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1KjynIBtN50KW-Ig-D-3M6AvJ2hDjLiyo",
+    "fecha_analisis": "2026-10-23",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No incide en ninguno de los sectores económicos monitoreados ni impone obligaciones tributarias o laborales a las empresas; su alcance se limita al ámbito pedagógico y escolar.",
+    "resumen": "Propone incorporar a la Ley Orgánica de Educación medidas para que centros escolares oficiales y particulares garanticen la continuidad escolar de alumnos con padres o cuidadores en estado de gravedad o incapacidad. Obliga a los planteles a crear planes temporales con módulos, clases virtuales o reprogramación de exámenes para evitar la deserción o pérdida de matrícula. Afecta primordialmente al sistema educativo nacional y a las familias.",
+    "sectores": [],
+    "titulo": "Que adiciona disposiciones a la Ley 47 de 1946, Orgánica de Educación, para garantizar la continuidad educativa de estudiantes afectados por situaciones extraordinarias de salud de su núcleo familiar",
+    "titulo_corto": "Continuidad educativa por salud del núcleo familiar"
+   },
    "anteproyecto": "194",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Prohijado",
@@ -46678,18 +46696,6 @@
  },
  "matriz_id": "1xh7TLIrTJk3DI1snoLyXTN-HAFAGouiL08XvXa1xsEs",
  "pendientes": {
-  "cambio:8619": {
-   "antes": "Preliminar",
-   "ficha": "8619",
-   "nuevas": [
-    {
-     "comentario": "PROHIJADO",
-     "etapa": "Prohijado",
-     "fecha": "2026-10-07"
-    }
-   ],
-   "tipo": "cambio"
-  },
   "cambio:8620": {
    "antes": "Preliminar",
    "ficha": "8620",
@@ -47113,5 +47119,5 @@
   ],
   "revisada": "2026-10-21T18:59:15"
  },
- "ultima_corrida": "2026-10-23T04:52:21"
+ "ultima_corrida": "2026-10-23T05:51:45"
 }
