@@ -1301,6 +1301,14 @@
    "carpeta": "Reorganización del Sistema Nacional de Investigación (ficha 8614)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "8616": {
+   "carpeta": "Protección a educadores que denuncien violencia escolar (ficha 8616)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "8617": {
+   "carpeta": "Festival 10 de Noviembre de La Chorrera (ficha 8617)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "8621": {
    "carpeta": "Tratado de extradición entre Panamá y Argentina (ficha 8621)",
    "comision": "Comisión de Relaciones Exteriores"
@@ -44459,6 +44467,20 @@
    "titulo": "QUE GARANTIZA LA COBERTURA VITALICIA DE LAS POLIZAS DE SEGURO PRIVADO DE SALUD Y EL ACCESO DE LAS PERSONAS DE SESENTA (60) AÑOS O MAS, CON O SIN CONDICIONES PREEXISTENTES, A DICHOS SEGUROS"
   },
   "8616": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/14uZ3bTUlqHPjvCa6hPYVwrZF85XpTZP_",
+    "fecha_analisis": "2026-10-23",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa se circunscribe a la protección de educadores y estudiantes en el ámbito escolar, sin generar obligaciones, cargas fiscales ni regulaciones aplicables a las empresas.",
+    "resumen": "Análisis basado principalmente en el título oficial, debido a que el documento PDF adjunto en el trámite legislativo corresponde por error al Proyecto 749 (Festival 10 de Noviembre de La Chorrera). La propuesta busca otorgar garantías y mecanismos de protección a los docentes que reporten casos de abuso, acoso o violencia contra menores en centros educativos. Su alcance es estrictamente de índole educativa, penal e institucional, sin repercusiones operativas para el sector empresarial.",
+    "sectores": [],
+    "titulo": "Que establece las medidas de protección para los educadores que por ley denuncien hechos de acoso, violencia o abuso contra niños, niñas y adolescentes en el entorno escolar",
+    "titulo_corto": "Protección a educadores que denuncien violencia escolar"
+   },
    "anteproyecto": "191",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Prohijado",
@@ -44482,6 +44504,20 @@
    "titulo": "QUE ESTABLECE LAS MEDIDAS DE PROTECCION PARA LOS EDUCADORES QUE POR LEY DENUNCIEN HECHOS DE ACOSO, VIOLENCIA O ABUSO CONTRA NIÑOS, NIÑAS Y ADOLESCENTES EN EL ENTORNO ESCOLAR"
   },
   "8617": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1SMEatuqwG_oJhUtjT6dalUA-2Lqavz9V",
+    "fecha_analisis": "2026-10-23",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No genera impacto sobre el sector empresarial. Es una iniciativa de carácter estrictamente cultural y conmemorativo que reconoce un festival local y asigna presupuesto estatal para su organización.",
+    "resumen": "Propone declarar el Festival Cultural y Folclórico 10 de noviembre de La Chorrera como Fiesta de Tradición Nacional. Reconoce a su comité cívico organizador como ente encargado y asigna una partida anual mínima de B/. 20,000.00 del Ministerio de Cultura para su realización.",
+    "sectores": [],
+    "titulo": "Que reconoce el Festival Cultural y Folclórico 10 de noviembre del Distrito de La Chorrera y dicta otras disposiciones",
+    "titulo_corto": "Festival 10 de Noviembre de La Chorrera"
+   },
    "anteproyecto": "192",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Prohijado",
@@ -46624,30 +46660,6 @@
  },
  "matriz_id": "1xh7TLIrTJk3DI1snoLyXTN-HAFAGouiL08XvXa1xsEs",
  "pendientes": {
-  "cambio:8616": {
-   "antes": "Preliminar",
-   "ficha": "8616",
-   "nuevas": [
-    {
-     "comentario": "PROHIJADO",
-     "etapa": "Prohijado",
-     "fecha": "2026-10-07"
-    }
-   ],
-   "tipo": "cambio"
-  },
-  "cambio:8617": {
-   "antes": "Preliminar",
-   "ficha": "8617",
-   "nuevas": [
-    {
-     "comentario": "PROHIJADO",
-     "etapa": "Prohijado",
-     "fecha": "2026-10-07"
-    }
-   ],
-   "tipo": "cambio"
-  },
   "cambio:8618": {
    "antes": "Preliminar",
    "ficha": "8618",
@@ -47095,5 +47107,5 @@
   ],
   "revisada": "2026-10-21T18:59:15"
  },
- "ultima_corrida": "2026-10-23T01:55:07"
+ "ultima_corrida": "2026-10-23T02:56:18"
 }
