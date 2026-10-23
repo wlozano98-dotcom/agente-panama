@@ -1309,6 +1309,10 @@
    "carpeta": "Festival 10 de Noviembre de La Chorrera (ficha 8617)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "8618": {
+   "carpeta": "Protección de alertantes en el ámbito educativo (ficha 8618)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "8621": {
    "carpeta": "Tratado de extradición entre Panamá y Argentina (ficha 8621)",
    "comision": "Comisión de Relaciones Exteriores"
@@ -44541,6 +44545,20 @@
    "titulo": "QUE RECONOCE EL FESTIVAL CULTURAL Y FOLCLORICO 10 DE NOVIEMBRE DEL DISTRITO DE LA CHORRERA Y DICTA OTRAS DISPOSICIONES"
   },
   "8618": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1VZtxSBhU-KkrIcIOPWjswvqswMnzQeIG",
+    "fecha_analisis": "2026-10-23",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No tiene relación con la actividad empresarial ni crea obligaciones, costos o regulaciones para los sectores económicos del país.",
+    "resumen": "Análisis basado en el título oficial (el documento adjunto corresponde por error material al Proyecto de Ley 751). La propuesta busca crear un mecanismo de alerta temprana para salvaguardar la integridad de quienes denuncien o alerten sobre situaciones de riesgo o irregularidades en el entorno escolar. La iniciativa está dirigida a la comunidad educativa, personal docente y directivos de los centros de enseñanza.",
+    "sectores": [],
+    "titulo": "Que establece el sistema de alerta temprana para la protección de la integridad de la persona alertante en el ámbito educativo",
+    "titulo_corto": "Protección de alertantes en el ámbito educativo"
+   },
    "anteproyecto": "193",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Prohijado",
@@ -46660,18 +46678,6 @@
  },
  "matriz_id": "1xh7TLIrTJk3DI1snoLyXTN-HAFAGouiL08XvXa1xsEs",
  "pendientes": {
-  "cambio:8618": {
-   "antes": "Preliminar",
-   "ficha": "8618",
-   "nuevas": [
-    {
-     "comentario": "PROHIJADO",
-     "etapa": "Prohijado",
-     "fecha": "2026-10-07"
-    }
-   ],
-   "tipo": "cambio"
-  },
   "cambio:8619": {
    "antes": "Preliminar",
    "ficha": "8619",
@@ -47107,5 +47113,5 @@
   ],
   "revisada": "2026-10-21T18:59:15"
  },
- "ultima_corrida": "2026-10-23T03:51:17"
+ "ultima_corrida": "2026-10-23T04:52:21"
 }
