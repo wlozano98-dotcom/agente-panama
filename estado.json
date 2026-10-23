@@ -541,6 +541,10 @@
    "carpeta": "Programa de educación segura en áreas de difícil acceso (ficha 8199)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "8200": {
+   "carpeta": "Modificación de la legítima defensa en el Código Penal (ficha 8200)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
   "8201": {
    "carpeta": "Calendario escolar diferenciado en la Ley de Educación (ficha 8201)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -27987,6 +27991,20 @@
    "titulo": "QUE ESTABLECE UN PROGRAMA DE EDUCACION SEGURA PARA COMUNIDADES RURALES DE DIFICIL ACCESO"
   },
   "8200": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1i3npCE5bUSIbS7pmz99if55c4I3wNHuA",
+    "fecha_analisis": "2026-10-23",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Es una reforma de naturaleza penal que regula causas de justificación para individuos; no crea obligaciones, trámites, sanciones ni cargas operativas para las empresas.",
+    "resumen": "Propone modificar el Código Penal para ampliar la presunción de legítima defensa privilegiada, incorporando el vehículo y el lugar de trabajo a los espacios protegidos frente a un ingreso no autorizado o agresión ilegítima. La medida beneficia a personas naturales y trabajadores ante situaciones de peligro inminente en dichos recintos.",
+    "sectores": [],
+    "titulo": "Por la cual se modifica el artículo 32 del Código Penal",
+    "titulo_corto": "Modificación de la legítima defensa en el Código Penal"
+   },
    "anteproyecto": "290",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Primer Debate",
@@ -47547,5 +47565,5 @@
   ],
   "revisada": "2026-10-21T18:59:15"
  },
- "ultima_corrida": "2026-10-23T18:57:53"
+ "ultima_corrida": "2026-10-23T19:52:02"
 }
