@@ -1281,6 +1281,10 @@
    "carpeta": "Creación del Documento de Identidad Sanitaria (DIS) (ficha 8609)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
+  "8610": {
+   "carpeta": "Patronato del Festival de Degustación de ANCEC Veraguas (ficha 8610)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "8611": {
    "carpeta": "Incentivos para el desarrollo turístico (ficha 8611)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
@@ -44201,6 +44205,20 @@
    "titulo": "QUE MODIFICA Y ADICIONA DISPOSICIONES A LA LEY 66 DE 10 DE NOVIEMBRE DE 1947 DEL CODIGO SANITARIO, UNIFICA EL REGIMEN DE HABILITACION MEDICA Y DE CAPACITACION PARA MANIPULADORES DE ALIMENTOS Y PERSONAL DE ESTABLECIMIENTOS DE INTERES SANITARIO A TRAVES DEL DOCUMENTO DE IDENTIDAD SANITARIA (DIS), FORTALECE LA AUTOGESTION DE LA RED LOCAL DE SALUD Y LOS COMITES DE SALUD, Y DICTA OTRAS DISPOSICIONES"
   },
   "8610": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1FHYneFXghFVNCOHfo2JW1SO2m3a1LBja",
+    "fecha_analisis": "2026-10-23",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No genera impacto regulatorio, fiscal ni operativo sobre el sector empresarial, ya que se limita a crear un patronato para organizar un festival benéfico local.",
+    "resumen": "La iniciativa reconoce formalmente el Festival Internacional de Degustación celebrado anualmente a beneficio del capítulo de Santiago de ANCEC. Asimismo, crea un patronato sin fines de lucro dotado de personería jurídica y autonomía para su organización, administración y captación de fondos. No establece obligaciones ni cargas regulatorias para las empresas, contemplando únicamente la participación voluntaria y patrocinios.",
+    "sectores": [],
+    "titulo": "Que reconoce el Festival Internacional de Degustación a beneficio de la Asociación Nacional Contra el Cáncer capítulo de Santiago en la provincia de Veraguas, crea su Patronato y dicta otras disposiciones",
+    "titulo_corto": "Patronato del Festival de Degustación de ANCEC Veraguas"
+   },
    "anteproyecto": "189",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Prohijado",
@@ -46606,35 +46624,6 @@
  },
  "matriz_id": "1xh7TLIrTJk3DI1snoLyXTN-HAFAGouiL08XvXa1xsEs",
  "pendientes": {
-  "cambio:8610": {
-   "antes": "Preliminar",
-   "ficha": "8610",
-   "nuevas": [
-    {
-     "comentario": "PROHIJADO",
-     "etapa": "Prohijado",
-     "fecha": "2026-10-21"
-    }
-   ],
-   "tipo": "cambio"
-  },
-  "cambio:8613": {
-   "antes": "Segundo Debate",
-   "ficha": "8613",
-   "nuevas": [
-    {
-     "comentario": "PENDIENTE DE III DEBATE",
-     "etapa": "Tercer Debate",
-     "fecha": "2026-10-21"
-    },
-    {
-     "comentario": "APROBADO EN II DEBATE",
-     "etapa": "Segundo Debate",
-     "fecha": "2026-10-21"
-    }
-   ],
-   "tipo": "cambio"
-  },
   "cambio:8616": {
    "antes": "Preliminar",
    "ficha": "8616",
@@ -47106,5 +47095,5 @@
   ],
   "revisada": "2026-10-21T18:59:15"
  },
- "ultima_corrida": "2026-10-23T01:07:24"
+ "ultima_corrida": "2026-10-23T01:55:07"
 }
