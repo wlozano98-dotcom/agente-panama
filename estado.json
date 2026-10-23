@@ -589,9 +589,21 @@
    "carpeta": "Igualdad del voto en elecciones de universidades públicas (ficha 8229)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "8231": {
+   "carpeta": "Creación del registro de cuentas y activos financieros (ficha 8231)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
+  "8234": {
+   "carpeta": "Ventanilla Única de Recaudación para MIPYMES (ficha 8234)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
   "8235": {
    "carpeta": "Trazabilidad de pagos electrónicos y fiscalización del ITBMS (ficha 8235)",
    "comision": "Comisión de Economía y Finanzas"
+  },
+  "8236": {
+   "carpeta": "Manejo responsable y atención de emergencias por abejas (ficha 8236)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
   "8238": {
    "carpeta": "Ley marco del Presupuesto General del Estado y reglas fiscales (ficha 8238)",
@@ -1317,6 +1329,10 @@
    "carpeta": "Continuidad educativa por salud del núcleo familiar (ficha 8619)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "8620": {
+   "carpeta": "Continuidad educativa en actividades académicas y culturales (ficha 8620)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "8621": {
    "carpeta": "Tratado de extradición entre Panamá y Argentina (ficha 8621)",
    "comision": "Comisión de Relaciones Exteriores"
@@ -1333,8 +1349,16 @@
    "carpeta": "Aprobación de estatutos del ICCROM (ficha 8624)",
    "comision": "Comisión de Relaciones Exteriores"
   },
+  "8630": {
+   "carpeta": "Reforma a la Ley de Beneficios para Jubilados (Ley 6 de 1987) (ficha 8630)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
   "8632": {
    "carpeta": "Infraestructura alimentaria en escuelas oficiales (ficha 8632)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "8634": {
+   "carpeta": "Festival Artesanal y Folclórico de La Arena y su Patronato (ficha 8634)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
   "8635": {
@@ -1376,6 +1400,26 @@
   "8644": {
    "carpeta": "Alivio económico y moratoria crediticia por terremoto de 2026 (ficha 8644)",
    "comision": "Comisión de Economía y Finanzas"
+  },
+  "8646": {
+   "carpeta": "Manejo de residuos en eventos masivos (ficha 8646)",
+   "comision": "Comisión de Población, Ambiente y Desarrollo"
+  },
+  "8647": {
+   "carpeta": "Contratación excepcional de aulas escolares (ficha 8647)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "8649": {
+   "carpeta": "Prohibición y gestión del asbesto o amianto (ficha 8649)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
+  "8650": {
+   "carpeta": "Creación del corregimiento de Villa del Carmen (ficha 8650)",
+   "comision": "Comisión de Asuntos Municipales"
+  },
+  "8651": {
+   "carpeta": "Creación de la Zona Franca Farmacéutica y Científica (ficha 8651)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   }
  },
  "fichas": {
@@ -28986,6 +29030,41 @@
    "titulo": "POR LA CUAL MODIFICAN Y ADICIONAN ARTICULOS A LA LEY NO.63 DE 28 DE AGOSTO DE 2008"
   },
   "8231": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Crea el Registro Privado y Único de Cuentas y Tenencias de Activos Financieros (RPUC-Activos), administrado por la Superintendencia de Bancos de Panamá.",
+     "Artículo 4: Establece la obligación de registro para entidades supervisadas por la SBP, SMV, SSR, IPACOOP y custodios de activos virtuales.",
+     "Artículo 6: Otorga un plazo de 120 días para reportar la base histórica y fija 10 días hábiles para actualizar aperturas, modificaciones o cierres.",
+     "Artículos 8 al 11: Fijan la información mínima obligatoria que debe cargarse sobre cuentas bancarias, billeteras digitales, cuentas bursátiles y monederos virtuales, incluyendo al beneficiario final.",
+     "Artículo 22: Fija multas de B/. 10,000 a B/. 250,000 por omitir o retrasar el registro, y de B/. 5,000 a B/. 100,000 por calidad deficiente de datos.",
+     "Artículo 27: Diseña un cronograma de implementación obligatoria por fases escalonadas en un plazo máximo de 24 meses."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1Kd9q1ZLPIGB1OuB0NXWAgXL2GjmF-DPl",
+    "fecha_analisis": "2026-10-23",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Crea obligaciones técnicas y operativas de reporte continuo de clientes, productos y beneficiarios finales, respaldadas por multas de hasta B/. 250,000.",
+      "sector": "FINANCIERO"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Exige a aseguradoras afiliarse al sistema y reportar sus instrumentos financieros y pólizas de ahorro o inversión ante el regulador.",
+      "sector": "SEGUROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Impone a las entidades financieras y aseguradoras la carga regulatoria de integrar sus sistemas tecnológicos al nuevo registro nacional y reportar la titularidad de activos bajo apercibimiento de multas significativas.",
+    "resumen": "Crea una base de datos centralizada y confidencial bajo la administración de la Superintendencia de Bancos de Panamá para consultar la existencia de cuentas y activos financieros en investigaciones penales.\nObliga a bancos, cooperativas, financieras, casas de valores, proveedores de dinero electrónico y aseguradoras a afiliarse y reportar información de clientes e instrumentos.\nEstablece plazos perentorios de carga y severas multas financieras por omisión o retraso en la actualización de datos.",
+    "sectores": [
+     "FINANCIERO",
+     "SEGUROS"
+    ],
+    "titulo": "Que crea el Registro Privado y Único de Registro de Cuentas y Tenencias de Activos Financieros (RPUR-Activos), y Tenencias de Activos Financieros de la República de Panamá, fortalece el sistema ALA/CFT y dicta otras disposiciones",
+    "titulo_corto": "Creación del registro de cuentas y activos financieros"
+   },
    "anteproyecto": "320",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Primer Debate",
@@ -29014,6 +29093,34 @@
    "titulo": "QUE CREA EL REGISTRO PRIVADO Y UNICO DE REGISTRO DE CUENTAS Y TENENCIAS DE ACTIVOS FINANCIEROS (RPUR-ACTIVOS), Y TENENCIAS DE ACTIVOS FINANCIEROS DE LA REPUBLICA DE PANAMA, FORTALECE EL SISTEMA ALA/CFT Y DICTA OTRAS DISPOSICIONES"
   },
   "8234": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Crea la Ventanilla Única de Recaudación Pública de carácter voluntario para MIPYMES y Sociedades de Emprendimiento.",
+     "Artículo 2: Delimita el uso del sistema a personas naturales o jurídicas catalogadas como MIPYME (Ley 33 de 2000) y a sociedades de emprendimiento (Ley 186 de 2020).",
+     "Artículo 9: Permite incorporar al pago unificado tributos nacionales como el Impuesto sobre la Renta (ISR), el ITBMS y tasas administrativas.",
+     "Artículo 10: Habilita la inclusión de tributos municipales, como impuestos por actividad económica y tasas de avisos de operación, mediante convenio.",
+     "Artículo 11: Autoriza la adhesión voluntaria del pago de cuotas obrero-patronales y aportes de la Caja de Seguro Social a la plataforma."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1wwOaJ4ovTfMd0jQCwBb4amI-h77_DSuU",
+    "fecha_analisis": "2026-10-23",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Ofrece un canal voluntario para unificar pagos tributarios y de seguridad social a MIPYMES, reduciendo costos operativos sin imponer nuevas cargas fiscales o laborales.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No impone costos, trámites obligatorios ni sanciones a las empresas; funciona como una herramienta opcional de simplificación de pagos tributarios y de seguridad social para MIPYMES.",
+    "resumen": "Propone la creación de una plataforma tecnológica administrada por AMPYME para centralizar la declaración y el pago voluntario de tributos nacionales (DGI), tasas municipales y cuotas de la CSS. Está dirigida exclusivamente a micro, pequeñas y medianas empresas, así como a sociedades de emprendimiento. Su uso es optativo y no crea nuevos tributos ni modifica las competencias fiscalizadoras de cada entidad recaudadora.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que crea la Ventanilla Única de Recaudación Pública para las Micro, Pequeñas y Medianas Empresas (MIPYMES) y Sociedades de Emprendimiento, como mecanismo tecnológico de pago interinstitucional de carácter voluntario y dicta otras disposiciones",
+    "titulo_corto": "Ventanilla Única de Recaudación para MIPYMES"
+   },
    "anteproyecto": "327",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Primer Debate",
@@ -29112,6 +29219,20 @@
    "titulo": "QUE FORTALECE LA RECAUDACION DEL IMPUESTO A LA TRANSFERENCIA DE BIENES CORPORALES MUEBLES Y LA PRESTACION DE SERVICIOS (ITBMS) MEDIANTE LA TRAZABILIDAD DE PAGOS ELECTRONICOS, INCENTIVOS A LOS CONSUMIDORES Y LA PARTICIPACION CIUDADANA"
   },
   "8236": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1MRbMZIlx1h3lE4cG0MtkavsAp0G8nC9v",
+    "fecha_analisis": "2026-10-23",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La propuesta regula protocolos de gestión de emergencias, protección civil y conservación ambiental a cargo de los bomberos y entidades públicas, sin imponer obligaciones comerciales, tributarias ni operativas al sector empresarial.",
+    "resumen": "La iniciativa crea un marco normativo e interinstitucional liderado por el Benemérito Cuerpo de Bomberos para atender emergencias causadas por enjambres o ataques de abejas africanizadas y melíferas. Establece protocolos nacionales que priorizan la reubicación de colmenas sobre el exterminio indiscriminado, en coordinación con autoridades ambientales, agropecuarias y gremios apícolas. Además, dispone la creación de un registro estadístico nacional de incidentes y programas de prevención comunitaria.",
+    "sectores": [],
+    "titulo": "Por la cual se establece el marco para la atención de emergencias y manejo responsable de abejas en la República de Panamá y se dictan otras disposiciones",
+    "titulo_corto": "Manejo responsable y atención de emergencias por abejas"
+   },
    "anteproyecto": "317",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Primer Debate",
@@ -44623,6 +44744,22 @@
    "titulo": "QUE ADICIONA DISPOSICIONES A LA LEY 47 DE 1946, ORGANICA DE EDUCACION, PARA GARANTIZAR LA CONTINUIDAD EDUCATIVA DE ESTUDIANTES AFECTADOS POR SITUACIONES EXTRAORDINARIAS DE SALUD DE SU NUCLEO FAMILIAR"
   },
   "8620": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 7: Obliga a los centros educativos oficiales y particulares a reprogramar pruebas, extender plazos de entrega, proveer materiales anticipados y brindar actividades de nivelación a los alumnos que participen en eventos acreditados."
+    ],
+    "drive": "https://drive.google.com/drive/folders/11Zf6kQasWnzrPvPk_PUWov2-bsF-24Fh",
+    "fecha_analisis": "2026-10-23",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No impacta a los sectores empresariales estratégicos ni impone cargas regulatorias, laborales o fiscales transversales sobre el sector productivo; únicamente establece adecuaciones académicas internas en centros escolares, incluyendo colegios particulares.",
+    "resumen": "La iniciativa busca garantizar la continuidad escolar a los estudiantes de educación básica y media que representen a sus colegios, regiones o al país en eventos científicos, culturales, artísticos o académicos. Obliga a los centros educativos a justificar las ausencias y flexibilizar fechas de exámenes y entregas. Afecta al sistema educativo en general, incluyendo a las escuelas oficiales y colegios particulares.",
+    "sectores": [],
+    "titulo": "Que establece medidas para garantizar la continuidad educativa de los estudiantes que participen en actividades académicas, científicas, tecnológicas, culturales y artísticas",
+    "titulo_corto": "Continuidad educativa en actividades académicas y culturales"
+   },
    "anteproyecto": "195",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Prohijado",
@@ -44866,6 +45003,52 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 8 DE 2000, QUE CREA LA AUTORIDAD DE LA MICRO, PEQUEÑA Y MEDIANA EMPRESA"
   },
   "8630": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Modifica el esquema de descuentos para jubilados y tercera edad en consumo de restaurantes (25%), medicamentos (25%), consultas (25%), exámenes de laboratorio (20%), radiología (30%), tratamientos oncológicos (30%), equipos de asistencia técnica y movilidad (25%), energía eléctrica (30%), telefonía, internet y cable (30%), funerales (25%), insumos de higiene (25-30%) y cargos/comisiones/seguros de tarjetas de crédito y débito (mínimo 30%).",
+     "Artículo 2 (Art. 1-A adicionado): Exige exhibir precios regulares y de oferta; cuando haya precios de oferta o promoción, se aplicará un 15% de descuento sobre el precio promocional.",
+     "Artículo 5: Faculta a ACODECO a fiscalizar y sancionar el incumplimiento con multas graduales que van de B/.500.00 hasta B/.10,000.00 segun volumen de facturación y reincidencia.",
+     "Artículo 6: Establece que el 100% de los descuentos y concesiones otorgados serán deducibles como crédito fiscal del Impuesto sobre la Renta y transferibles por cesión.",
+     "Artículo 8: Crea el Fondo del Programa de Apoyo a la Microempresa mediante un fideicomiso para reembolsar hasta el 100% de los descuentos otorgados por microempresas acreditadas ante AMPYME."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1C07mIvPvlqi5LF-IplKSZMSLOAyrx7bM",
+    "fecha_analisis": "2026-10-23",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Fija un descuento obligatorio mínimo del 30% en todas las tasas, cargos, tarifas, comisiones y seguros aplicados a tarjetas de crédito y débito.",
+      "sector": "FINANCIERO"
+     },
+     {
+      "nivel": "alto",
+      "razon": "Establece descuentos obligatorios del 25% en medicamentos y consultas, 20% en laboratorios, 30% en radiología y tratamientos oncológicos, y del 20% al 25% en equipos médicos y de movilidad.",
+      "sector": "SALUD"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Obliga a otorgar un descuento del 25% en el valor del consumo individual en restaurantes, locales de comida y franquicias.",
+      "sector": "ALIMENTOS"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Introduce reglas sobre la exhibición de precios regulares y promocionales, otorga crédito fiscal del 100% del ISR por descuentos otorgados y establece sanciones de la ACODECO de hasta B/.10,000 por incumplimiento.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.5-flash",
+    "razon": "El proyecto altera directamente el margen comercial de múltiples sectores (salud, banca, restaurantes, servicios públicos y telecomunicaciones) al fijar descuentos obligatorios, aunque contempla alivios fiscales y un fondo de compensación para microempresas.",
+    "resumen": "Amplía y actualiza la lista de descuentos obligatorios que comercios y proveedores deben otorgar a jubilados y personas de la tercera edad en servicios médicos, medicamentos, restaurantes, telefonía, internet, energía y cargos bancarios. Para mitigar el impacto, permite compensar el 100% de los descuentos otorgados como crédito fiscal del ISR y crea un fondo fiduciario para reembolsar los descuentos aplicados por microempresas.",
+    "sectores": [
+     "FINANCIERO",
+     "SALUD",
+     "ALIMENTOS",
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que modifica y adiciona artículos a la Ley 6 de 1987, sobre beneficios a los jubilados, pensionados y tercera edad, y dicta otras disposiciones",
+    "titulo_corto": "Reforma a la Ley de Beneficios para Jubilados (Ley 6 de 1987)"
+   },
    "anteproyecto": "200",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Primer Debate",
@@ -44967,6 +45150,20 @@
    "titulo": "POR EL CUAL SE ESTABLECE EL MARCO REGULATORIO, PARA LA PRESTACION DE LOS SERVICIOS PUBLICOS DE AGUA, ENERGIA ELECTRICA E INTERNET EN AREAS EXCEPCIONALES, DE FORMA TEMPORAL EN LA REPUBLICA DE PANAMA Y DICTA OTRAS DISPOSICIONES"
   },
   "8634": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1GveY1vTpGxUVOQcpwQ43xUygXYgmht7-",
+    "fecha_analisis": "2026-10-23",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No establece obligaciones, regulaciones ni tributos para el sector empresarial. Conforme a los criterios de evaluación, las iniciativas que crean patronatos o instituyen festivales culturales carecen de impacto empresarial.",
+    "resumen": "La iniciativa instituye oficialmente el Festival Nacional Artesanal y Folclórico de La Arena de Chitré, a celebrarse el tercer fin de semana de marzo de cada año. Además, crea su Patronato como una entidad sin fines de lucro encargada de planificar, organizar y administrar los recursos del evento. La norma se enfoca en la preservación de tradiciones culturales y el fomento comunitario local.",
+    "sectores": [],
+    "titulo": "Que instituye el Festival Nacional Artesanal y Folclórico de La Arena de Chitré y crea su Patronato",
+    "titulo_corto": "Festival Artesanal y Folclórico de La Arena y su Patronato"
+   },
    "anteproyecto": "204",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Prohijado",
@@ -45362,6 +45559,35 @@
    "titulo": "QUE ESTABLECE MEDIDAS TEMPORALES DE ALIVIO ECONOMICO, PROTECCION DEL EMPLEO Y RECUPERACION DE LAS FAMILIAS Y ACTIVIDADES PRODUCTIVAS AFECTADAS POR EL TERREMOTO DEL 9 DE OCTUBRE DE 2026 Y SUS REPLICAS"
   },
   "8646": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Define evento como toda actividad temporal con asistencia igual o superior a 500 personas y responsabiliza directamente al organizador por la gestión de residuos.",
+     "Artículo 2 (adiciona art. 10-A a Ley 33 de 2018): Obliga a instalar estaciones de reciclaje, separar orgánicos si hay venta de comida, contratar gestores autorizados y garantizar la limpieza total del sitio.",
+     "Artículo 3 (modifica art. 17 de Ley 33 de 2018): Exige presentar el Plan de Gestión de Residuos del Evento (PGRE) como requisito para obtener permisos municipales, sanitarios, turísticos, de aseo y de seguridad.",
+     "Artículo 4 (adiciona art. 20-A a Ley 33 de 2018): Obliga a entregar un Informe de Cierre dentro de los 15 días posteriores al evento con certificados de valorización y manifiestos de transporte.",
+     "Artículo 5 (modifica art. 35 de Ley 33 de 2018): Establece multas de B/.250 a B/.1,000 (leves), B/.1,001 a B/.10,000 (graves) y de B/.10,001 a B/.50,000 (muy graves), además de posible suspensión o inhabilitación de hasta 2 años.",
+     "Artículo 6: Faculta a los municipios a otorgar incentivos económicos o reducciones de tasas a eventos que acrediten desviar al menos el 60% de sus residuos generados."
+    ],
+    "drive": "https://drive.google.com/drive/folders/19HmF9rjmDV3R1vD8ADe_QbkkoS9p-0KO",
+    "fecha_analisis": "2026-10-23",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Impone a operadores de eventos, espectáculos y convenciones nuevos requisitos de permisología ambiental, contratación obligatoria de gestores y posibles multas elevadas.",
+      "sector": "TURISMO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea nuevas obligaciones administrativas y operativas para organizadores de actividades masivas, condicionando la obtención de permisos a la presentación de un plan de gestión de residuos y fijando severas sanciones económicas.",
+    "resumen": "Regula el manejo integral de residuos en actividades públicas o privadas con asistencia igual o superior a 500 personas. Obliga a los organizadores a diseñar un plan de gestión de residuos como requisito previo para obtener permisos de operación, separar desechos en origen y contratar gestores autorizados. Además, establece informes de cierre obligatorios y multas de hasta B/.50,000.00 por incumplimiento.",
+    "sectores": [
+     "TURISMO"
+    ],
+    "titulo": "Que modifica y adiciona artículos a la Ley 33 de 30 de mayo de 2018, que establece el régimen de gestión integral de residuos, para establecer el régimen de manejo de residuos en eventos de asistencia masiva",
+    "titulo_corto": "Manejo de residuos en eventos masivos"
+   },
    "anteproyecto": "219",
    "comision": "COMISION DE POBLACION, AMBIENTE Y DESARROLLO",
    "etapa": "Preliminar",
@@ -45380,6 +45606,34 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 33 DE 30 DE MAYO DE 2018, QUE ESTABLECE EL REGIMEN DE GESTION INTEGRAL DE RESIDUOS, PARA ESTABLECER EL REGIMEN DE MANEJO DE RESIDUOS EN EVENTOS DE ASISTENCIA MASIVA"
   },
   "8647": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 5: Adiciona los numerales 12, 13 y 14 al artículo 79 de la Ley 22 de 2006 para permitir la contratación excepcional en obras de infraestructura escolar en comarcas y zonas rurales con pobreza multidimensional, permitiendo divisiones por lotes plurianuales.",
+     "Artículo 6: Regula el procedimiento aplicable con invitaciones a al menos tres proponentes inscritos, plazos de 5 a 15 días hábiles para presentar propuestas, y exige un precio estándar por aula que obligatoriamente incluye estudio, diseño y construcción a cargo del contratista.",
+     "Artículo 7: Modifica el artículo 85 de la Ley 22 de 2006 para exonerar a estas contrataciones de la declaratoria previa de emergencia por parte del Consejo de Gabinete.",
+     "Artículo 10: Establece especificaciones técnicas y de ingeniería obligatorias para las construcciones, tales como cumplimiento del Reglamento Estructural Panameño (REP), iluminación natural y drenaje pluvial.",
+     "Artículo 15: Adiciona los artículos 79-A, 85-A y 95-A a la Ley 22 de 2006 consagrando el régimen simplificado y la prevalencia de esta ley especial en materia de infraestructura educativa."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1lylb6gZ6qyAUcoWNXSWFDZwYKSODPMtn",
+    "fecha_analisis": "2026-10-23",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Modifica las reglas de contratación pública y ejecución de obra escolar para contratistas de construcción e infraestructura pública en áreas rurales y comarcales.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Modifica la Ley de Contrataciones Públicas al habilitar procesos excepcionales y abreviados para proyectos de infraestructura educativa, afectando los plazos, requisitos y fijación de precios para los contratistas de obra pública.",
+    "resumen": "Crea un procedimiento de contratación pública abreviado y excepcional para que el Ministerio de Educación construya aulas escolares en áreas comarcales y de difícil acceso sin requerir aval previo del Consejo de Gabinete. Establece esquemas de precio fijo por aula bajo modalidad de estudio, diseño y construcción, invitando a un mínimo de tres contratistas registrados. Afecta directamente a empresas constructoras, consultores de diseño y contratistas de obras públicas.",
+    "sectores": [
+     "CEMENTERAS"
+    ],
+    "titulo": "Por la cual se establece el procedimiento de contratación excepcional para la construcción inmediata de aulas escolares en áreas de difícil acceso, áreas comarcales y regiones rurales del país con pobreza multidimensional, se adicionan causales al artículo 79 de la Ley 22 de 27 de junio de 2006, se modifica el artículo 85, y se dictan otras disposiciones.",
+    "titulo_corto": "Contratación excepcional de aulas escolares"
+   },
    "anteproyecto": "218",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Preliminar",
@@ -45398,6 +45652,47 @@
    "titulo": "POR LA CUAL SE ESTABLECE EL PROCEDIMIENTO DE CONTRATACIÓN EXCEPCIONAL PARA LA CONSTRUCCIÓN INMEDIATA DE AULAS ESCOLARES EN ÁREAS DE DIFÍCIL ACCESO, ÁREAS COMARCALES Y REGIONES RURALES DEL PAÍS CON POBREZA MULTIDIMENSIONAL, SE ADICIONAN CAUSALES AL ARTÍCULO 79 DE LA LEY 22 DE 27 DE JUNIO DE 2006, SE MODIFICA EL ARTÍCULO 85, Y SE DICTAN OTRAS DISPOSICIONES."
   },
   "8649": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 3: Prohíbe a nivel nacional explotar, fabricar, importar, comercializar, exportar y usar asbesto o productos que lo contengan; prohíbe además cortar, perforar, lijar o manipular asbesto instalado sin autorización técnica.",
+     "Artículo 6: Instruye a la Autoridad Nacional de Aduanas a establecer controles y clasificaciones arancelarias para impedir la importación y exportación de mercancías con asbesto.",
+     "Artículo 7: Ordena el retiro del mercado de todos los productos con asbesto actualmente en comercialización dentro de un periodo de transición reglamentario.",
+     "Artículo 8: Regula el manejo y transporte de materiales removidos bajo el régimen de residuos peligrosos y prohíbe métodos de desecho que liberen fibras.",
+     "Artículo 9: Faculta a la autoridad sanitaria a imponer sanciones, decomiso o retiro de productos a costo de la empresa infractora, así como la suspensión o cancelación de permisos comerciales o licencias.",
+     "Artículo 10: Mandata la reglamentación de procesos de certificación obligatoria para empresas especializadas en remoción, transporte y disposición de este material."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1XW8WH6kYj6_92ZXOwEQ9_wqlghjJOWe7",
+    "fecha_analisis": "2026-10-23",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Prohíbe insumos tradicionales de construcción como tejas, tuberías y paneles con asbesto, y sujeta las obras de mantenimiento o demolición a estrictos protocolos y certificaciones.",
+      "sector": "CEMENTERAS"
+     },
+     {
+      "nivel": "alto",
+      "razon": "Veta la fabricación, importación o utilización de asbesto en componentes industriales como juntas, selladores, aislantes térmicos y piezas de fricción.",
+      "sector": "INDUSTRIAS"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Obliga a importadores, distribuidores y comercios minoristas (ferreterías) a retirar del mercado todos los productos existentes que contengan este material.",
+      "sector": "OTROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Impone un veto total sobre la comercialización e industrialización del asbesto y exige costosos procedimientos de sustitución, manejo de residuos peligrosos y certificación para empresas en obras de remoción.",
+    "resumen": "Prohíbe a nivel nacional la explotación, producción, importación, distribución, comercialización y uso de cualquier variedad de asbesto o productos elaborados con él. Obliga a retirar del mercado los inventarios comerciales existentes y regula la permanencia, manipulación y remoción técnica del asbesto instalado en edificaciones e infraestructura. Afecta directamente a fabricantes, importadores, distribuidores de materiales de construcción y empresas contratistas.",
+    "sectores": [
+     "CEMENTERAS",
+     "INDUSTRIAS",
+     "OTROS"
+    ],
+    "titulo": "Que prohíbe la explotación, producción, comercialización, importación, distribución, exportación y nueva utilización del asbesto o amianto y de los productos que lo contengan, establece medidas para la gestión segura del asbesto instalado y dicta otras disposiciones",
+    "titulo_corto": "Prohibición y gestión del asbesto o amianto"
+   },
    "anteproyecto": "217",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Preliminar",
@@ -45416,6 +45711,20 @@
    "titulo": "QUE PROHIBE LA EXPLOTACION, PRODUCCION, COMERCIALIZACION, IMPORTACION, DISTRIBUCION, EXPORTACION Y NUEVA UTILIZACION DEL ASBESTO O AMIANTO Y DE LOS PRODUCTOS QUE LO CONTENGAN, ESTABLECE MEDIDAS PARA LA GESTION SEGURA DEL ASBESTO INSTALADO Y DICTA OTRAS DISPOSICIONES"
   },
   "8650": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1PL44ehKifmesU20qu5seXYBdlZXIt2Fp",
+    "fecha_analisis": "2026-10-23",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No genera impacto sobre la actividad empresarial, ya que se limita estrictamente a una redistribución territorial y administrativa del régimen municipal.",
+    "resumen": "La iniciativa propone segregar territorialmente el corregimiento de El Guásimo para crear la nueva división político-administrativa de Villa del Carmen en el distrito de Donoso, provincia de Colón.\nEstablece sus límites geográficos, comunidades que lo integran y la asignación de recursos municipales para su operatividad hasta la elección de autoridades locales en 2029.\nAfecta únicamente la organización administrativa municipal y territorial del Estado panameño.",
+    "sectores": [],
+    "titulo": "Que crea el corregimiento de Villa del Carmen, segregados del corregimiento El Guásimo, distrito de Donoso, provincia de Colón",
+    "titulo_corto": "Creación del corregimiento de Villa del Carmen"
+   },
    "anteproyecto": "220",
    "comision": "COMISION DE ASUNTOS MUNICIPALES",
    "etapa": "Preliminar",
@@ -45434,6 +45743,43 @@
    "titulo": "QUE CREA EL CORREGIMIENTO DE VILLA DEL CARMEN, SEGREGADOS DEL CORREGIMIENTO EL GUASIMO, DISTRITO DE DONOSO, PROVINCIA DE COLON"
   },
   "8651": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 14: Concede a las empresas establecidas en la Zona los beneficios fiscales y aduaneros de la Ley 32 de 2011 para la importación de insumos, maquinaria, materias primas y principios activos.",
+     "Artículo 15: Aplica el tratamiento del impuesto sobre la renta de zonas francas a operaciones internacionales y de exportación, dejando las ventas al mercado local sujetas al régimen tributario común.",
+     "Artículos 16 y 17: Otorga las facilidades migratorias mediante ventanilla única y las normas laborales especiales contempladas en la Ley 32 de 2011 para personal técnico y directivo.",
+     "Artículo 21: Exceptúa del requisito de registro sanitario nacional a medicamentos y dispositivos médicos fabricados o almacenados exclusivamente para exportación o reexportación.",
+     "Artículos 22, 23 y 24: Establece procedimientos abreviados de registro sanitario, admisión de estudios y bioequivalencias realizados en el extranjero, y concesión de bioexenciones (biowaivers).",
+     "Artículo 28: Crea la Ventanilla Regulatoria Especial dentro de la autoridad sanitaria para centralizar permisos, inspecciones y registros de las empresas de la Zona.",
+     "Artículo 34: Establece obligaciones empresariales como inicio de inversión en plazo fijado, presentación de estados financieros anuales auditados y programas anuales de responsabilidad social empresarial.",
+     "Artículos 38 a 40: Regula los requisitos y causales de cancelación de la Licencia de Promotor y Operador de la Zona Franca."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1nTD5zpt_rFbmEN80pSV5aRybm-5sVsBe",
+    "fecha_analisis": "2026-10-23",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Modifica de forma sustancial las reglas sanitarias y de fabricación para laboratorios, farmacéuticas y fabricantes de dispositivos médicos, facilitando registros, bioequivalencias y eximiendo de registro a la producción para exportación.",
+      "sector": "SALUD"
+     },
+     {
+      "nivel": "alto",
+      "razon": "Crea un régimen nuevo de zona franca con beneficios tributarios, laborales y migratorios específicos para promotores, operadores e inversionistas.",
+      "sector": "OTROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea una zona franca especializada que otorga exoneraciones fiscales y aduaneras a los fabricantes de insumos sanitarios, a la vez que flexibiliza y agiliza los trámites regulatorios y de bioequivalencia ante el Ministerio de Salud.",
+    "resumen": "Propone la creación de un régimen especial de zona franca destinado a la investigación, desarrollo y fabricación de medicamentos, biotecnología y dispositivos médicos en Panamá. Otorga los incentivos fiscales, aduaneros, laborales y migratorios de la Ley 32 de 2011 a las empresas operadoras y desarrolladoras. Además, introduce facilidades sanitarias como ventanilla única regulatoria, trámites acelerados, bioexenciones y exención de registro sanitario para productos exclusivamente de exportación.",
+    "sectores": [
+     "SALUD",
+     "OTROS"
+    ],
+    "titulo": "Que crea la Zona Franca de Desarrollo Farmacéutico, Científico y de Tecnología Sanitaria de la República de Panamá y dicta otras disposiciones",
+    "titulo_corto": "Creación de la Zona Franca Farmacéutica y Científica"
+   },
    "anteproyecto": "221",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Preliminar",
@@ -46696,21 +47042,10 @@
  },
  "matriz_id": "1xh7TLIrTJk3DI1snoLyXTN-HAFAGouiL08XvXa1xsEs",
  "pendientes": {
-  "cambio:8620": {
-   "antes": "Preliminar",
-   "ficha": "8620",
-   "nuevas": [
-    {
-     "comentario": "PROHIJADO",
-     "etapa": "Prohijado",
-     "fecha": "2026-10-07"
-    }
-   ],
-   "tipo": "cambio"
-  },
   "cambio:8630": {
    "antes": "Preliminar",
    "ficha": "8630",
+   "intentos": 1,
    "nuevas": [
     {
      "comentario": "PENDIENTE DE I DEBATE",
@@ -46724,50 +47059,6 @@
     }
    ],
    "tipo": "cambio"
-  },
-  "cambio:8632": {
-   "antes": "Preliminar",
-   "ficha": "8632",
-   "nuevas": [
-    {
-     "comentario": "PROHIJADO",
-     "etapa": "Prohijado",
-     "fecha": "2026-10-21"
-    }
-   ],
-   "tipo": "cambio"
-  },
-  "cambio:8634": {
-   "antes": "Preliminar",
-   "ficha": "8634",
-   "nuevas": [
-    {
-     "comentario": "PROHIJADO",
-     "etapa": "Prohijado",
-     "fecha": "2026-10-21"
-    }
-   ],
-   "tipo": "cambio"
-  },
-  "nueva:8646": {
-   "ficha": "8646",
-   "tipo": "nueva"
-  },
-  "nueva:8647": {
-   "ficha": "8647",
-   "tipo": "nueva"
-  },
-  "nueva:8649": {
-   "ficha": "8649",
-   "tipo": "nueva"
-  },
-  "nueva:8650": {
-   "ficha": "8650",
-   "tipo": "nueva"
-  },
-  "nueva:8651": {
-   "ficha": "8651",
-   "tipo": "nueva"
   }
  },
  "prensa": {
@@ -47119,5 +47410,5 @@
   ],
   "revisada": "2026-10-21T18:59:15"
  },
- "ultima_corrida": "2026-10-23T05:51:45"
+ "ultima_corrida": "2026-10-23T07:36:59"
 }
