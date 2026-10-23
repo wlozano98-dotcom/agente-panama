@@ -509,6 +509,14 @@
    "carpeta": "Apoyo económico estatal a juntas de carnaval (ficha 8169)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
   },
+  "8175": {
+   "carpeta": "Nombre de Federico Bosco Jiménez al puente de Coquira (ficha 8175)",
+   "comision": "Comisión de Infraestructura Pública y Asuntos del Canal"
+  },
+  "8176": {
+   "carpeta": "Unidades de salud mental para niñez y adolescencia (ficha 8176)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
   "8177": {
    "carpeta": "Contratación de mano de obra local en obras públicas (ficha 8177)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
@@ -516,6 +524,10 @@
   "8179": {
    "carpeta": "Ley de promoción del autoconsumo de energía eléctrica (ficha 8179)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
+  "8180": {
+   "carpeta": "Patronato del Hospital Multimodal de Colón (ficha 8180)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
   "8182": {
    "carpeta": "Tatuajes en servidores públicos (ficha 8182)",
@@ -26956,6 +26968,20 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 52 DE 2017, LA CUAL ESTABLECE EL MARCO REGULATORIO PARA LA NOMENCLATURA Y NUMERACION URBANA Y RURAL EN LA REPÚBLICA DE PANAMA"
   },
   "8175": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1pcu2pKmD8_JXPo4O5cc7kVy51Ub0rVIn",
+    "fecha_analisis": "2026-10-23",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No tiene ningún impacto empresarial. Es una designación honorífica que renombra una infraestructura vial existente, sin crear tributos, regulaciones ni obligaciones para el sector privado.",
+    "resumen": "Propone designar formalmente con el nombre de «Federico 'Bosco' Jiménez» al puente ubicado sobre el puerto de Coquira, en Chepo Cabecera.\nInstruye al Ministerio de Obras Públicas a colocar la señalización correspondiente y actualizar la nomenclatura oficial y mapas.\nSe trata de una iniciativa puramente honorífica y conmemorativa que no altera regulaciones ni impone cargas.",
+    "sectores": [],
+    "titulo": "Que designa con el nombre de Federico \"Bosco\" Jiménez al puente ubicado en el puerto de Coquira en el distrito de Chepo como reconocimiento a su legado histórico y contribución al pueblo chepano",
+    "titulo_corto": "Nombre de Federico Bosco Jiménez al puente de Coquira"
+   },
    "anteproyecto": "276",
    "comision": "COMISION DE INFRAESTRUCTURA PUBLICA Y ASUNTOS DEL CANAL",
    "etapa": "Primer Debate",
@@ -26984,6 +27010,20 @@
    "titulo": "QUE DESIGNA CON EL NOMBRE DE FEDERICO \"BOSCO\" JIMENEZ AL PUENTE UBICADO EN EL PUERTO DE COQUIRA EN EL DISTRITO DE CHEPO COMO RECONOCIMIENTO A SU LEGADO HISTORICO Y CONTRIBUCION AL PUEBLO CHEPANO"
   },
   "8176": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1RKcqQwVzdX8iVs0Ug0v-fAd7XyDBZQlo",
+    "fecha_analisis": "2026-10-23",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No genera impacto sobre el sector empresarial, ya que regula exclusivamente la organización y provisión de servicios dentro de la red pública de salud a cargo del Estado, sin crear obligaciones para clínicas, aseguradoras ni empresas privadas.",
+    "resumen": "Propone adicionar artículos a la Ley 364 de 2023 para ordenar al Ministerio de Salud la creación progresiva de Unidades Especializadas en Salud Mental para niños, niñas y adolescentes dentro de la red pública de salud. Estas unidades se enfocarán en detección temprana, diagnóstico, tratamiento ambulatorio y programas preventivos financiados con presupuesto estatal.",
+    "sectores": [],
+    "titulo": "Que adiciona artículos a la Ley 364 de 6 de febrero de 2023, \"Que desarrolla el derecho humano a la salud mental y garantiza su cobertura nacional\", y dicta otras disposiciones",
+    "titulo_corto": "Unidades de salud mental para niñez y adolescencia"
+   },
    "anteproyecto": "273",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Primer Debate",
@@ -27199,6 +27239,20 @@
    "titulo": "QUE REDUCE EL COSTO DE ENERGIA ELECTRICA PROMOVIENDO EL AUTOCONSUMO DE ENERGIA ELECTRICA EN LA REPUBLICA DE PANAMA, Y DICTA OTRAS DISPOSICIONES"
   },
   "8180": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1i3pbb9ooOHpfc4t9pGBy8LinnKk-D7p4",
+    "fecha_analisis": "2026-10-23",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Se trata de la creación de un patronato de gestión hospitalaria pública que no impone costos, regulaciones ni obligaciones para la actividad empresarial privada.",
+    "resumen": "Propone la creación del Patronato del Hospital Multimodal Integrado de la Provincia de Colón como entidad sin fines de lucro para administrar y desconcentrar la atención médica de día, urgencias y tratamientos crónicos en las antiguas instalaciones del hospital Amador Guerrero. Su junta directiva integra autoridades de salud, gremios empresariales locales y sociedad civil.",
+    "sectores": [],
+    "titulo": "Que establece el Patronato del Hospital Multimodal Integrado de la Provincia de Colón",
+    "titulo_corto": "Patronato del Hospital Multimodal de Colón"
+   },
    "anteproyecto": "275",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Primer Debate",
@@ -47601,5 +47655,5 @@
   ],
   "revisada": "2026-10-21T18:59:15"
  },
- "ultima_corrida": "2026-10-23T21:56:19"
+ "ultima_corrida": "2026-10-23T22:53:14"
 }
