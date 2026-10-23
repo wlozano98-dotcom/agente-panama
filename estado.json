@@ -1,5 +1,5 @@
 {
- "comisiones_revisadas": "2026-10-23T14:57:48",
+ "comisiones_revisadas": "2026-10-23T21:51:21",
  "drive": {
   "7404": {
    "carpeta": "Obligatoriedad de educación media y preescolar (ficha 7404)",
@@ -520,6 +520,14 @@
   "8182": {
    "carpeta": "Tatuajes en servidores públicos (ficha 8182)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
+  "8183": {
+   "carpeta": "Aumento de penas por delitos sexuales y femicidio (ficha 8183)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "8186": {
+   "carpeta": "Monitoreo electrónico para protección de víctimas de violencia (ficha 8186)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
   "8188": {
    "carpeta": "Reforma a la regulación de la actividad panelera (ficha 8188)",
@@ -27271,6 +27279,20 @@
    "titulo": "QUE PERMITE LOS TATUAJES CORPORALES TEMPORALES O PERMANENTES EN LOS SERVIDORES PUBLICOS"
   },
   "8183": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1oUHKaE7C8vXS943YePZ1E7Xi1qVe7zSY",
+    "fecha_analisis": "2026-10-23",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Se trata de una reforma estrictamente penal sobre delitos graves contra la integridad física y sexual de las personas, por lo que no impone obligaciones, costos ni regulaciones a las empresas.",
+    "resumen": "El proyecto propone modificar el Código Penal para incrementar las penas de prisión en casos de femicidio, violación y delitos sexuales que resulten en la muerte de la víctima (alcanzando hasta 50 años). Asimismo, prohíbe la concesión de subrogados penales y medidas alternas de cumplimiento de pena, como días multa o trabajo comunitario, a los condenados por estos delitos.",
+    "sectores": [],
+    "titulo": "Que modifica y adiciona artículos al Código Penal, en materia relacionada con violación y otros delitos sexuales y contra la vida",
+    "titulo_corto": "Aumento de penas por delitos sexuales y femicidio"
+   },
    "anteproyecto": "278",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Primer Debate",
@@ -27337,6 +27359,20 @@
    "titulo": "QUE MODIFICA LA LEY 42 DE 20 DE ABRIL DE 2011, QUE ESTABLECE LINEAMIENTOS PARA LA POLITICA NACIONAL SOBRE BIOCOMBUSTIBLES Y ENERGIA ELECTRICA A PARTIR DE BIOMASA EN EL TERRITORIO NACIONAL, MODIFICA UN ARTICULO DEL CODIGO FISCAL Y DICTA OTRA DISPOSICION"
   },
   "8186": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1nEbm_xCY0XMzd9t0mCIYhf0RqDEwieHy",
+    "fecha_analisis": "2026-10-23",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto es de naturaleza estrictamente penal, procesal y de protección social a víctimas de violencia, por lo que no impone obligaciones, costos ni regulaciones al sector empresarial.",
+    "resumen": "La iniciativa propone regular el uso de brazaletes y dispositivos de monitoreo electrónico y geolocalización como medida de protección a víctimas de violencia doméstica, abuso sexual y otros delitos contra la integridad física.\nEstablece los criterios judiciales para ordenar su uso, el monitoreo a cargo del Ministerio de Gobierno y la Policía Nacional, y dispone que el agresor asuma los costos del equipo salvo insolvencia comprobada.\nAsimismo, exige que las adquisiciones estatales de estos dispositivos se realicen exclusivamente mediante licitación pública, prohibiendo compras excepcionales.",
+    "sectores": [],
+    "titulo": "Que establece el uso de dispositivos de monitoreo electrónico como medida de protección a las víctimas de delitos de violencia doméstica, delitos contra la libertad sexual, maltrato a personas menores de edad, lesiones personales y trata de personas, así como en los delitos donde se pueda ver afectada la seguridad personal de la víctima",
+    "titulo_corto": "Monitoreo electrónico para protección de víctimas de violencia"
+   },
    "anteproyecto": "279",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Primer Debate",
@@ -47565,5 +47601,5 @@
   ],
   "revisada": "2026-10-21T18:59:15"
  },
- "ultima_corrida": "2026-10-23T20:51:38"
+ "ultima_corrida": "2026-10-23T21:56:19"
 }
