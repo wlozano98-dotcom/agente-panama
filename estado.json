@@ -12841,8 +12841,13 @@
    },
    "anteproyecto": "316",
    "comision": "COMISION DE COMUNICACION Y TRANSPORTE",
-   "etapa": "Enviado al Ejecutivo",
+   "etapa": "Ley",
    "etapas": [
+    {
+     "comentario": "SANCIONADO POR EL ORGANO EJECUTIVO",
+     "etapa": "Ley",
+     "fecha": "2026-10-22"
+    },
     {
      "comentario": "ENVIADO AL ORGANO EJECUTIVO",
      "etapa": "Enviado al Ejecutivo",
@@ -47542,5 +47547,5 @@
   ],
   "revisada": "2026-10-21T18:59:15"
  },
- "ultima_corrida": "2026-10-23T17:49:00"
+ "ultima_corrida": "2026-10-23T18:57:53"
 }
