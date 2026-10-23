@@ -1,5 +1,5 @@
 {
- "comisiones_revisadas": "2026-10-23T07:59:15",
+ "comisiones_revisadas": "2026-10-23T14:57:48",
  "drive": {
   "7404": {
    "carpeta": "Obligatoriedad de educación media y preescolar (ficha 7404)",
@@ -557,6 +557,10 @@
    "carpeta": "Reforma al régimen penal de la adolescencia (ficha 8214)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
+  "8215": {
+   "carpeta": "Sanción penal por llamadas falsas al 911 (ficha 8215)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
   "8216": {
    "carpeta": "Residencia para profesionales del deporte (ficha 8216)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
@@ -564,6 +568,10 @@
   "8217": {
    "carpeta": "Patronato del Estadio Kenny Serracín (ficha 8217)",
    "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "8218": {
+   "carpeta": "Transparencia en recursos de financiamiento internacional (ficha 8218)",
+   "comision": "Comisión de Economía y Finanzas"
   },
   "8219": {
    "carpeta": "Financiamiento de premios y fiscalización de la actividad hípica (ficha 8219)",
@@ -28392,6 +28400,20 @@
    "titulo": "QUE MODIFICA ARTÍCULOS DE LA LEY 40 DE 1999, DEL RÉGIMEN ESPECIAL DE RESPONSABILIDAD PENAL PARA LA ADOLESCENCIA"
   },
   "8215": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1IO-w__IV0cirr8OMH3bWVBMLACl1xTSz",
+    "fecha_analisis": "2026-10-23",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Se trata de una reforma de índole penal individual dirigida a castigar el mal uso de líneas de emergencia y la obstrucción de rescatistas, sin imponer cargas, obligaciones ni regulaciones a la actividad empresarial.",
+    "resumen": "La iniciativa tipifica delitos contra los servicios públicos de emergencia dentro del Código Penal panameño. Establece penas de prisión o días multa para quienes impidan la labor de bomberos, SUME 911 o SINAPROC, y sanciona con multas a quienes emitan falsas alarmas o reportes engañosos a las líneas de auxilio.",
+    "sectores": [],
+    "titulo": "Que adiciona el Capítulo de delitos contra los Servicios Públicos de Emergencia al Código Penal sancionando las llamadas falsas en la República de Panamá.",
+    "titulo_corto": "Sanción penal por llamadas falsas al 911"
+   },
    "anteproyecto": "303",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Primer Debate",
@@ -28524,6 +28546,31 @@
    "titulo": "QUE CREA EL PATRONATO DEL ESTADIO KENNY SERRACIN DE DAVID Y DICTA OTRAS DISPOSICIONES"
   },
   "8218": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 10: Dispone la obligación de identificar expresamente en compras públicas las contrataciones financiadas total o parcialmente con fondos internacionales y publicarlas en formatos abiertos.",
+     "Artículo 11: Exige incluir de forma obligatoria en los pliegos y contratos cláusulas de prevención de fraude y corrupción, derechos de auditoría para el Estado y el financiador, y causales de resolución contractual."
+    ],
+    "drive": "https://drive.google.com/drive/folders/102cTu9116PGc36KwPwVBcbvG20do3TWy",
+    "fecha_analisis": "2026-10-23",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Impone condiciones en pliegos y contratos de compras públicas financiados con recursos internacionales, incluyendo cláusulas de integridad y sujeción a auditorías.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa se dirige principalmente a la administración pública y gestión de deuda, teniendo un efecto limitado y acotado sobre las empresas que participen en contrataciones públicas financiadas con fondos internacionales.",
+    "resumen": "Crea mecanismos de seguimiento, rendición de cuentas y un registro público para el control de la deuda y financiamiento internacional contratado por el Estado. Obliga a las entidades públicas a publicar contratos de préstamo, informes técnicos y tableros de avance físico y financiero. Afecta a proveedores y contratistas del Estado al incorporar cláusulas contractuales anticorrupción y facultades de auditoría en proyectos financiados con estos fondos.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que establece la obligación de transparencia y trazabilidad del uso de los recursos públicos provenientes de financiamiento internacional",
+    "titulo_corto": "Transparencia en recursos de financiamiento internacional"
+   },
    "anteproyecto": "305",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Primer Debate",
@@ -47495,5 +47542,5 @@
   ],
   "revisada": "2026-10-21T18:59:15"
  },
- "ultima_corrida": "2026-10-23T13:56:22"
+ "ultima_corrida": "2026-10-23T15:01:05"
 }
