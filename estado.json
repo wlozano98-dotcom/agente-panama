@@ -1,5 +1,5 @@
 {
- "comisiones_revisadas": "2026-10-23T01:07:18",
+ "comisiones_revisadas": "2026-10-23T07:59:15",
  "drive": {
   "7404": {
    "carpeta": "Obligatoriedad de educación media y preescolar (ficha 7404)",
@@ -605,8 +605,16 @@
    "carpeta": "Manejo responsable y atención de emergencias por abejas (ficha 8236)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
+  "8237": {
+   "carpeta": "Reforma al Código Procesal Penal sobre resarcimiento a la víctima (ficha 8237)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
   "8238": {
    "carpeta": "Ley marco del Presupuesto General del Estado y reglas fiscales (ficha 8238)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
+  "8241": {
+   "carpeta": "Ley de integridad y transparencia en la hacienda pública (ficha 8241)",
    "comision": "Comisión de Economía y Finanzas"
   },
   "8243": {
@@ -29261,6 +29269,20 @@
    "titulo": "POR LA CUAL SE ESTABLECE EL MARCO PARA LA ATENCION DE EMERGENCIAS Y MANEJO RESPONSABLE DE ABEJAS EN LA REPUBLICA DE PANAMA Y SE DICTAN OTRAS DISPOSICIONES"
   },
   "8237": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1wVF5O1YeTZje0OVuIQqEXYVqgW60bHpZ",
+    "fecha_analisis": "2026-10-23",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Se trata de una reforma procesal penal enfocada en los derechos de las víctimas en sede judicial, por lo que no establece obligaciones, regulaciones ni costos para la actividad empresarial.",
+    "resumen": "La iniciativa busca que la indemnización por daños y la restitución de bienes a favor de las víctimas de delitos puedan resolverse directamente dentro del proceso penal, en particular cuando este concluye mediante acuerdos de pena. De esta forma, se evita remitir a la víctima a la vía civil ordinaria para reclamar la reparación del daño patrimonial o material sufrido.",
+    "sectores": [],
+    "titulo": "Que modifica y adiciona disposiciones del Código Procesal Penal, relativas al resarcimiento de la víctima y la acción restaurativa",
+    "titulo_corto": "Reforma al Código Procesal Penal sobre resarcimiento a la víctima"
+   },
    "anteproyecto": "322",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Primer Debate",
@@ -29386,6 +29408,34 @@
    "titulo": "QUE INSTITUYE LA CARRERA CONSULAR DE MARINA MERCANTE DE LA REPUBLICA DE PANAMA"
   },
   "8241": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2 (numeral 4): Sujeta expresamente a las personas naturales y jurídicas privadas que contraten con el Estado, reciban subsidios, transferencias, exoneraciones o garantías al cumplimiento de la ley.",
+     "Artículo 18: Dispone que los contratos de financiamiento, concesiones y asociaciones público-privadas incluyan cláusulas de integridad obligatorias, la potestad estatal de resolver contratos ante corrupción y el deber de los contratistas de mantener controles contables bajo estándares internacionales.",
+     "Artículos 19 y 20: Regulan el Registro Único de Subsidios, Transferencias y Ayudas del Estado, sometiendo a auditoría y publicidad a las empresas beneficiarias de fondos o exoneraciones fiscales.",
+     "Artículo 22 (numeral 2): Obliga a publicar en un portal web abierto todas las concesiones otorgadas, su valor, adquirente y condiciones pactadas.",
+     "Artículo 27 (adiciona el artículo 39-A a la Ley 22 de 2006): Obliga a incluir en estudios previos de contrataciones de alto riesgo un análisis específico sobre riesgos de colusión, sobreprecios y concentración indebida de proveedores."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1xFbZo0gyUuerPgQlc401_S-BrUt0pBua",
+    "fecha_analisis": "2026-10-23",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Impone a contratistas, concesionarios y beneficiarios de subsidios u órdenes de compra estatales la adopción de controles de integridad contable y cláusulas de rescisión contractual por causas de corrupción.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Afecta a proveedores y concesionarios del Estado al elevar los estándares de cumplimiento y transparencia en compras públicas y contratos de financiamiento o APP.",
+    "resumen": "Establece un marco regulatorio anticorrupción aplicable a la gestión presupuestaria, contrataciones públicas, deuda y subsidios estatales. Obliga a empresas que contraten con el Estado, participen en asociaciones público-privadas (APP), tengan concesiones o reciban subsidios/exoneraciones a incorporar cláusulas de integridad y controles internos contables. Además, introduce reformas a la Ley 22 de 2006 de Contratación Pública en materia de riesgos de colusión y sobreprecios.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que adopta la Ley de Integridad y Prevención de la Corrupción en la Hacienda Pública y dicta disposiciones sobre contrataciones, presupuesto, deuda pública, subsidios, fondos especiales y otras medidas de transparencia fiscal",
+    "titulo_corto": "Ley de integridad y transparencia en la hacienda pública"
+   },
    "anteproyecto": "328",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Primer Debate",
@@ -47041,26 +47091,7 @@
   "version": 2
  },
  "matriz_id": "1xh7TLIrTJk3DI1snoLyXTN-HAFAGouiL08XvXa1xsEs",
- "pendientes": {
-  "cambio:8630": {
-   "antes": "Preliminar",
-   "ficha": "8630",
-   "intentos": 1,
-   "nuevas": [
-    {
-     "comentario": "PENDIENTE DE I DEBATE",
-     "etapa": "Primer Debate",
-     "fecha": "2026-10-22"
-    },
-    {
-     "comentario": "PROHIJADO",
-     "etapa": "Prohijado",
-     "fecha": "2026-10-21"
-    }
-   ],
-   "tipo": "cambio"
-  }
- },
+ "pendientes": {},
  "prensa": {
   "agenda": [
    "1246",
@@ -47410,5 +47441,5 @@
   ],
   "revisada": "2026-10-21T18:59:15"
  },
- "ultima_corrida": "2026-10-23T07:36:59"
+ "ultima_corrida": "2026-10-23T08:05:41"
 }
