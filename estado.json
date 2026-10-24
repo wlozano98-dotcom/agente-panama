@@ -409,8 +409,16 @@
    "carpeta": "Día Nacional del Sobreviviente de Cáncer (ficha 8038)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
+  "8043": {
+   "carpeta": "Regulación de bebidas con jarabe de maíz con alta fructosa (ficha 8043)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
   "8050": {
    "carpeta": "Regulación de contratos de colegios y transporte colegial (ficha 8050)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
+  "8052": {
+   "carpeta": "Reforma a la política sobre biocombustibles (ficha 8052)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
   },
   "8055": {
@@ -21877,6 +21885,37 @@
    "titulo": "QUE MODIFICA ARTÍCULOS DE LA LEY 468 DE 2025, QUE SUBROGA LA LEY 3 DE 1985, QUE ESTABLECE UN RÉGIMEN DE INTERESES PREFERENCIALES EN CIERTOS PRÉSTAMOS HIPOTECARIOS"
   },
   "8043": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 5: Prohíbe la importación, exportación, reexportación, tránsito y operaciones aduaneras en puertos y zonas francas de productos que contengan e identifiquen jarabe de maíz con alta fructosa en su etiqueta.",
+     "Artículo 6: Exige a los comercializadores mantener un inventario fidedigno y al día de estas bebidas, otorgando un plazo máximo de un año para distribuir las existencias en bodega.",
+     "Artículo 7: Faculta a las autoridades a retener toda bebida azucarada con jarabe de maíz con alta fructosa que se encuentre en tránsito por el territorio nacional.",
+     "Artículo 8: Fija un plazo no mayor de un año tras la promulgación para retirar del mercado nacional todas las bebidas azucaradas fabricadas con jarabe de maíz con alta fructosa.",
+     "Artículo 9: Establece sanciones sanitarias a través del Ministerio de Salud conforme al Código Sanitario.",
+     "Artículo 10: Obliga a sustituir el jarabe de maíz con alta fructosa por endulzantes naturales (miel, néctar de agave, jarabe o miel de caña, melaza, entre otros).",
+     "Artículo 11: Faculta al Ministerio de Comercio e Industrias a suspender y eventualmente cancelar de forma definitiva la licencia de operaciones a las empresas que incumplan los plazos y sanciones.",
+     "Artículo 12: Obliga a declarar en la etiqueta de toda bebida azucarada comercializada en Panamá el tipo exacto de azúcar o endulzante utilizado en su elaboración."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1HasYc_98RTvNUQgG1U73PjVX8YuaYS5x",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Prohíbe un ingrediente clave en la elaboración e importación de bebidas, impone el retiro obligatorio de inventarios en un año y sanciona el incumplimiento con la cancelación de la licencia comercial.",
+      "sector": "ALIMENTOS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Tiene un impacto alto en la industria y comercio de bebidas al prohibir el uso de jarabe de maíz de alta fructosa, exigir la reformulación o retiro total de productos en un plazo de un año y fijar sanciones severas que incluyen la revocación del aviso o licencia de operaciones.",
+    "resumen": "Propone prohibir la producción, importación, exportación y tránsito de bebidas azucaradas que utilicen jarabe de maíz con alta fructosa (JMAF/HFCS), ordenando su sustitución por endulzantes naturales en un plazo máximo de un año. Afecta directamente a empresas fabricantes, embotelladoras, importadoras, distribuidoras y comercializadoras de bebidas en el país, obligándolas a reformular productos, ajustar etiquetados y liquidar inventarios.",
+    "sectores": [
+     "ALIMENTOS"
+    ],
+    "titulo": "Por medio del cual se regula la producción e importación de bebidas azucaradas que contengan en su elaboración jarabe de maíz con alta fructosa",
+    "titulo_corto": "Regulación de bebidas con jarabe de maíz con alta fructosa"
+   },
    "anteproyecto": "158",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Primer Debate",
@@ -22252,6 +22291,40 @@
    "titulo": "QUE ADOPTA MEDIDAS PARA LA PREVENCION Y CONTROL DE LA LUDOPATIA EN PANAMA"
   },
   "8052": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 5: Modifica el artículo 9 de la Ley 42 de 2011 para crear cuatro tipos de licencias obligatorias (Tipo A para producción industrial, Tipo B para importación de alcohol semielaborado, Tipo C transitoria y Tipo D para mezcla, comercialización, transporte y almacenamiento).",
+     "Artículo 7: Modifica el artículo 12 de la Ley 42 de 2011 para obligar a ingenios y plantas a abastecerse en al menos un 70% con materia prima nacional (incluyendo un mínimo de 20% proveniente de cooperativas y pequeños productores) y fija precios mínimos de sustentación para la caña y otros insumos.",
+     "Artículo 8: Modifica el artículo 13 de la Ley 42 de 2011 para otorgar un incentivo fiscal del 20% del valor de la materia prima local vía Certificado de Fomento Industrial (CFI) y amplía a 15 años el plazo del régimen de estabilidad jurídica de inversiones (Ley 54 de 1998).",
+     "Artículo 9: Modifica el artículo 14 de la Ley 42 de 2011 fijando el cronograma de uso obligatorio de bioetanol anhidro en gasolinas: 5% a partir de abril/septiembre de 2026, 7% en abril de 2027 y 10% en abril de 2028 en todo el país.",
+     "Artículo 13: Adiciona el artículo 22-B a la Ley 42 de 2011 exigiendo evaluaciones ambientales y planes de balance hídrico a proyectos de más de 150 hectáreas, facultando a las autoridades a recortar o suspender extracciones de agua."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1ahLfmXPktHFGI7_IWwOuM3oMrsGd_X_j",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Obliga a mezclar bioetanol en las gasolinas a nivel nacional y crea una licencia obligatoria para las actividades de mezcla, almacenamiento, transporte y comercialización de combustibles.",
+      "sector": "PETRÓLEO"
+     },
+     {
+      "nivel": "alto",
+      "razon": "Condiciona la operación de ingenios y plantas industriales a cuotas obligatorias de compra nacional (70%), precios mínimos de sustentación y licencias específicas de producción e importación.",
+      "sector": "INDUSTRIAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Modifica directamente el mercado de distribución de combustibles mediante la obligatoriedad de mezclas y licencias, e impone cuotas forzosas de abastecimiento interno y precios regulados a las industrias productoras de etanol.",
+    "resumen": "Establece un calendario para el uso obligatorio de bioetanol anhidro en mezclas con gasolinas (iniciando en 5% en 2026 hasta alcanzar 10% en 2028) y crea un nuevo esquema de licencias para su producción, importación, almacenamiento y distribución. Asimismo, impone a ingenios y plantas procesadoras reservas de mercado y precios mínimos para la compra de materia prima a productores locales y cooperativas, concediendo a cambio incentivos fiscales y estabilidad de inversiones.",
+    "sectores": [
+     "PETRÓLEO",
+     "INDUSTRIAS"
+    ],
+    "titulo": "Que modifica y adiciona artículos a la Ley 42 del 20 de junio de 2011, modificada por la Ley 355 de 31 de enero de 2023, que establece lineamientos para la política nacional sobre biocombustibles y energía eléctrica a partir de biomasa en el territorio nacional",
+    "titulo_corto": "Reforma a la política sobre biocombustibles"
+   },
    "anteproyecto": "162",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Primer Debate",
@@ -47170,14 +47243,14 @@
   "8040": "5fc8bfeeb0cd",
   "8041": "1f081dd61670",
   "8042": "ebe85def8298",
-  "8043": "388e2087dc49",
+  "8043": "d59ac07ebc95",
   "8044": "ea11b934dc1e",
   "8046": "4ad6f7c21e0c",
   "8047": "a4793de9acc8",
   "8048": "43e968de2783",
   "8050": "4f0449cfc61e",
   "8051": "1e12577cf4ed",
-  "8052": "b0641d91926e",
+  "8052": "59d83c254239",
   "8053": "4bf4b021c257",
   "8055": "229bcbf9bdde",
   "8056": "17713f6c95d6",
@@ -47902,6 +47975,8 @@
    "7959",
    "8130",
    "8062",
+   "8043",
+   "8052",
    "8073",
    "7811",
    "7491",
@@ -47913,7 +47988,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-24T11:52:34",
+  "fecha": "2026-10-24T12:59:47",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -47968,7 +48043,9 @@
    "8022": "399fc6670871",
    "8025": "399fc6670871",
    "8032": "399fc6670871",
+   "8043": "399fc6670871",
    "8050": "399fc6670871",
+   "8052": "399fc6670871",
    "8055": "399fc6670871",
    "8058": "399fc6670871",
    "8062": "399fc6670871",
@@ -48492,7 +48569,7 @@
    "519",
    "520"
   ],
-  "revisada": "2026-10-24T11:53:14"
+  "revisada": "2026-10-24T13:00:15"
  },
- "ultima_corrida": "2026-10-24T11:52:34"
+ "ultima_corrida": "2026-10-24T12:59:47"
 }
