@@ -501,6 +501,14 @@
    "carpeta": "Regulación del sistema nacional de hidrantes contra incendios (ficha 8153)",
    "comision": "Comisión de Infraestructura Pública y Asuntos del Canal"
   },
+  "8155": {
+   "carpeta": "Incentivos a la producción nacional de plátano (ficha 8155)",
+   "comision": "Comisión de Asuntos Agropecuarios"
+  },
+  "8156": {
+   "carpeta": "Protección a denunciantes y testigos de faltas al patrimonio estatal (ficha 8156)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
   "8160": {
    "carpeta": "Prisión perpetua en el Código Penal (ficha 8160)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
@@ -26052,6 +26060,33 @@
    "titulo": "QUE REGULA LA INSTALACION, PROTECCION, MANTENIMIENTO Y GESTION DEL SISTEMA DE HIDRANTES EN LA REPUBLICA DE PANAMA"
   },
   "8155": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Modifica el artículo 1 de la Ley 107 de 2013 para incluir al plátano dentro de los objetivos de seguridad alimentaria y fortalecimiento productivo del programa de incentivos.",
+     "Artículo 2: Modifica el artículo 2 de la Ley 107 de 2013 para incorporar formalmente al plátano en el listado de rubros cubiertos por el programa.",
+     "Artículo 3: Modifica el artículo 3 de la Ley 107 de 2013 para definir los términos de hectárea cultivada adicional, seguro obligatorio y plátano.",
+     "Artículo 4: Modifica el artículo 4 de la Ley 107 de 2013 adicionando el numeral 10, que fija un bono de productividad de B/.500.00 por quintal vendido a partir de la sexta hectárea para rendimientos iguales o superiores a 300 qq/ha, exigiendo registro de área ante el MIDA y póliza de seguro agropecuario obligatorio."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1JjTX5mVepmI88oyG-nXnXtKX6wCSRyOG",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Crea un bono estatal de productividad y requisitos de registro y aseguramiento obligatorio para productores comerciales de plátano (musáceas) a partir de seis hectáreas.",
+      "sector": "BANANERO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea un incentivo económico directo y fija requisitos operativos (registro técnico ante el MIDA y contratación de póliza de seguro) para empresas y productores dedicados al cultivo comercial de plátano.",
+    "resumen": "Propone incorporar el cultivo de plátano dentro del Programa de Incentivos a la Producción Nacional de Granos y otros Rubros Agrícolas regulado por la Ley 107 de 2013. Establece un bono de productividad de B/.500.00 por quintal producido y comercializado a partir de la sexta hectárea, condicionado a rendimientos mínimos de 300 quintales por hectárea. Afecta directamente a los productores comerciales de plátano, quienes deberán registrar sus fincas ante el MIDA y contar con póliza de seguro agropecuario para acceder al beneficio.",
+    "sectores": [
+     "BANANERO"
+    ],
+    "titulo": "Por lo cual se reforma la Ley 107 del 21 de noviembre de 2013, que crea el Programa de Incentivos a la Producción Nacional de Granos y otros Rubros Agrícolas",
+    "titulo_corto": "Incentivos a la producción nacional de plátano"
+   },
    "anteproyecto": "254",
    "comision": "COMISION DE ASUNTOS AGROPECUARIOS",
    "etapa": "Primer Debate",
@@ -26080,6 +26115,32 @@
    "titulo": "POR LO CUAL SE REFORMA LA LEY 107 DEL 21 DE NOVIEMBRE DE 2013, QUE CREA EL PROGRAMA DE INCENTIVOS A LA PRODUCCION NACIONAL DE GRANOS Y OTROS RUBROS AGRICOLAS"
   },
   "8156": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 10 numeral 2: Otorga fuero laboral frente a despidos, suspensiones, traslados o desmejoras y dispone que la protección laboral es exigible tanto en el sector público como en el sector privado.",
+     "Artículo 14: Garantiza a los proveedores y contratistas del Estado protegidos por la ley la preservación de sus relaciones comerciales preexistentes y la cesación de actos arbitrarios en actos públicos.",
+     "Artículo 15: Dispone el envío al Ministerio Público para acciones penales en caso de denuncias falsas o maliciosas presentadas por particulares."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1Vdov2-TWygmrUNuHO0pl0B2ik62319K0",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Introduce un fuero laboral que protege a empleados que denuncien irregularidades administrativas que afecten al Estado y resguarda contratos comerciales de proveedores estatales.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es bajo y de carácter transversal, ya que extiende protecciones laborales frente a represalias en el sector privado para colaboradores que denuncien afectaciones al patrimonio estatal y garantiza la continuidad contractual de proveedores del sector público.",
+    "resumen": "Establece un régimen de garantías y medidas de protección personal y laboral para ciudadanos y funcionarios que denuncien faltas administrativas que afecten los fondos o bienes públicos. Incluye fuero y salvaguardas frente a represalias laborales en el sector público y privado, además de mecanismos para proteger a proveedores del Estado.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que regula la protección de denunciantes y testigos de faltas administrativas que afectan el patrimonio del Estado en la República de Panamá y dicta otras disposiciones.",
+    "titulo_corto": "Protección a denunciantes y testigos de faltas al patrimonio estatal"
+   },
    "anteproyecto": "255",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Primer Debate",
@@ -46691,8 +46752,8 @@
   "8151": "4d91118d25f2",
   "8152": "bc7395899389",
   "8153": "3c3580d98411",
-  "8155": "8ef9289a5532",
-  "8156": "9fe2f50ffbc7",
+  "8155": "e98a436d94b1",
+  "8156": "eb65e0d50902",
   "8158": "b86e6814929d",
   "8159": "003f79f499ae",
   "8160": "2f76acd82340",
@@ -47282,6 +47343,7 @@
    "7756",
    "8257",
    "7991",
+   "8156",
    "8261",
    "8311",
    "8281",
@@ -47311,6 +47373,7 @@
    "7899",
    "7912",
    "8170",
+   "8155",
    "7969",
    "7531",
    "7554",
@@ -47331,7 +47394,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-24T03:57:19",
+  "fecha": "2026-10-24T04:54:15",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -47398,6 +47461,8 @@
    "8132": "399fc6670871",
    "8135": "399fc6670871",
    "8153": "399fc6670871",
+   "8155": "399fc6670871",
+   "8156": "399fc6670871",
    "8168": "399fc6670871",
    "8170": "399fc6670871",
    "8177": "399fc6670871",
@@ -47788,7 +47853,7 @@
    "8572": "2.º debate",
    "8573": "3.er debate",
    "8578": "2.º debate",
-   "8613": "2.º debate"
+   "8613": "3.er debate"
   },
   "noticias": [
    "3320",
@@ -47891,9 +47956,11 @@
    "515",
    "516",
    "517",
-   "518"
+   "518",
+   "519",
+   "520"
   ],
-  "revisada": "2026-10-24T03:58:03"
+  "revisada": "2026-10-24T04:54:56"
  },
- "ultima_corrida": "2026-10-24T03:57:19"
+ "ultima_corrida": "2026-10-24T04:54:15"
 }
