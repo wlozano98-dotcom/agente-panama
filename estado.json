@@ -337,6 +337,10 @@
    "carpeta": "Tutorías obligatorias en escuelas oficiales (ficha 7974)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "7975": {
+   "carpeta": "Control previo y auditorías a juntas comunales (ficha 7975)",
+   "comision": "Comisión de Asuntos Municipales"
+  },
   "7976": {
    "carpeta": "Fomento del turismo deportivo (ficha 7976)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -19073,6 +19077,20 @@
    "titulo": "QUE ESTABLECE EL PROGRAMA NACIONAL DE TUTORIAS EDUCATIVAS OBLIGATORIAS EN LOS CENTROS EDUCATIVOS OFICIALES DE LA REPUBLICA DE PANAMA"
   },
   "7975": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1ByysrDQJqAj5xvEJ1CdYJm28hDdJWMZo",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No impone obligaciones, trámites ni costos regulatorios directos sobre las empresas privadas; su alcance es estrictamente de control administrativo y fiscal sobre los fondos públicos manejados por los gobiernos locales.",
+    "resumen": "La propuesta modifica el régimen de fiscalización de las juntas comunales establecido en la Ley de Descentralización. Introduce la obligación de someter todas sus contrataciones, pagos y compras al control previo y refrendo de la Contraloría General de la República. Asimismo, exige la realización de auditorías anuales obligatorias cuyos resultados deberán ser de acceso público.",
+    "sectores": [],
+    "titulo": "Que modifica un artículo de la Ley 37 de 2009, que descentraliza la administración pública",
+    "titulo_corto": "Control previo y auditorías a juntas comunales"
+   },
    "anteproyecto": "94",
    "comision": "COMISION DE ASUNTOS MUNICIPALES",
    "etapa": "Primer Debate",
@@ -47390,7 +47408,7 @@
   "7972": "ff0e5bfae406",
   "7973": "1d3c1c8c00a2",
   "7974": "d103c9a19804",
-  "7975": "c25d85ae0bf9",
+  "7975": "6eec1e030b29",
   "7976": "43159f2b4157",
   "7977": "e60397340914",
   "7978": "a7273946cc1d",
@@ -48197,7 +48215,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-24T21:50:59",
+  "fecha": "2026-10-24T22:46:57",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -48781,7 +48799,7 @@
    "519",
    "520"
   ],
-  "revisada": "2026-10-24T21:51:29"
+  "revisada": "2026-10-24T22:47:42"
  },
- "ultima_corrida": "2026-10-24T21:50:59"
+ "ultima_corrida": "2026-10-24T22:46:57"
 }
