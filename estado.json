@@ -373,9 +373,17 @@
    "carpeta": "Regulación del ejercicio de la fisioterapia y kinesiología (ficha 8000)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
+  "8001": {
+   "carpeta": "Sanciones en la justicia comunitaria de paz (ficha 8001)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
   "8002": {
    "carpeta": "Regulación de la huelga de docentes y personal educativo (ficha 8002)",
    "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "8005": {
+   "carpeta": "Eliminación de jubilaciones especiales en el sector público (ficha 8005)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
   "8008": {
    "carpeta": "Requisitos para tesoreros de juntas comunales y municipios (ficha 8008)",
@@ -20147,6 +20155,20 @@
    "titulo": "QUE MODIFICA LA LEY 47 DE 22 DE NOVIEMBRE DE 1984, POR LA CUAL SE REGLAMENTA EL EJERCICIO DE LA PROFESION DE FISIOTERAPIA Y/O KINESIOLOGIA EN EL TERRITORIO NACIONAL Y SE DA ESTABILIDAD"
   },
   "8001": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1pp_GEkv-T7oYrkTWuPDdVcikxt2JdRd_",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa se circunscribe al ámbito de la convivencia vecinal y la resolución de conflictos comunitarios menores, sin regular actividades comerciales ni crear obligaciones operativas o tributarias para las empresas.",
+    "resumen": "Propone modificar el artículo 51 de la ley de justicia comunitaria de paz para endurecer las sanciones que pueden imponer los jueces de paz. Introduce la pena de arresto por faltas de menor cuantía (daños, hurtos y robos menores) proporcional al perjuicio ocasionado. Además, autoriza a los jueces de paz a ordenar el secuestro de bienes o salarios de los infractores hasta por mil balboas para resarcir a las víctimas.",
+    "sectores": [],
+    "titulo": "Que modifica un artículo de la Ley 467 de 24 de abril 2025, \"Que subroga la Ley 16 de 2016, Que instituye la justicia comunitaria de paz, y dicta otras disposiciones\"",
+    "titulo_corto": "Sanciones en la justicia comunitaria de paz"
+   },
    "anteproyecto": "117",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Primer Debate",
@@ -20260,6 +20282,20 @@
    "titulo": "LEY DE COORDINACION Y TRANSPARENCIA EN LOS COSTOS DE LA EDUCACION PARTICULAR"
   },
   "8005": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/16mhhn7P0E5iwgYlNt_fgSZ8fYedHCNwn",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa se limita exclusivamente al régimen de pensiones de los servidores públicos y miembros de los estamentos de seguridad del Estado, por lo que no impone obligaciones, costos ni cambios normativos al sector empresarial.",
+    "resumen": "Propone eliminar todos los regímenes de jubilaciones especiales vigentes en el sector público (incluyendo a la Fuerza Pública y Bomberos) para someter a todos los servidores públicos a las reglas generales de retiro de la Caja de Seguro Social y del SIACAP, estableciendo además que el Estado no sufragará costos de regímenes especiales.",
+    "sectores": [],
+    "titulo": "Que elimina las jubilaciones especiales",
+    "titulo_corto": "Eliminación de jubilaciones especiales en el sector público"
+   },
    "anteproyecto": "115",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Primer Debate",
@@ -47339,10 +47375,10 @@
   "7998": "f02b873e85ef",
   "7999": "bbbbdb85be27",
   "8000": "5653144e0155",
-  "8001": "c4b2e6d2630a",
+  "8001": "24a2332fda7b",
   "8002": "41ba7d4b48f0",
   "8004": "b37d192b7a6d",
-  "8005": "09b977c2442d",
+  "8005": "e9ff7aa669ef",
   "8006": "1bef18583e7d",
   "8007": "a3c9e111c38e",
   "8008": "b53a9c422c2e",
@@ -48125,7 +48161,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-24T17:47:21",
+  "fecha": "2026-10-24T18:53:03",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -48709,7 +48745,7 @@
    "519",
    "520"
   ],
-  "revisada": "2026-10-24T17:47:50"
+  "revisada": "2026-10-24T18:53:35"
  },
- "ultima_corrida": "2026-10-24T17:47:21"
+ "ultima_corrida": "2026-10-24T18:53:03"
 }
