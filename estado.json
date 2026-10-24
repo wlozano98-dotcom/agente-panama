@@ -493,6 +493,22 @@
    "carpeta": "Contratación de desarrollistas comunitarios en municipios (ficha 8136)",
    "comision": "Comisión de Asuntos Municipales"
   },
+  "8144": {
+   "carpeta": "Registro y prorrateo de cuotas de seguridad social (ficha 8144)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
+  "8145": {
+   "carpeta": "Jurisdicción coactiva del Tribunal de Cuentas (ficha 8145)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
+  "8148": {
+   "carpeta": "Divulgación de seguridad vehicular en publicidad (ficha 8148)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
+  "8149": {
+   "carpeta": "Regulación de llamados a retiro de vehículos y bienes (ficha 8149)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
   "8150": {
    "carpeta": "Imprescriptibilidad de delitos sexuales contra menores (ficha 8150)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
@@ -25596,6 +25612,33 @@
    "titulo": "QUE ESTABLECE EL MARCO NORMATIVO PARA LA FORMALIZACIÓN DEL SECTOR DE LOS BUHONEROS"
   },
   "8144": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 9: Obliga a los empleadores privados a remitir a la CSS, dentro de 30 días calendario tras el pago, la información detallada de pagos acumulados o retroactivos para que las cuotas se registren mediante prorrateo.",
+     "Artículo 11: Califica el incumplimiento como falta administrativa grave y establece sanciones que incluyen amonestaciones y multas de 500 a 5,000 balboas.",
+     "Artículo 12: Dispone la aplicación de la norma hacia el futuro y con efecto retroactivo de hasta 20 años anteriores en beneficio del trabajador.",
+     "Artículo 13: Exige a los empleadores remitir a la CSS la información desglosada sobre pagos acumulados correspondientes al período retroactivo de hasta 20 años."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1S7ZwAVOEF17Z5pJvE-Mu_2t_oXhyI0jm",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Crea un trámite administrativo específico para reportar en 30 días los pagos retroactivos ante la CSS, sujeto a multas por omisión.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Impone a todos los empleadores un procedimiento formal de reporte y desglose de pagos retroactivos ante la CSS para prorrateo de cotizaciones, respaldado por multas de hasta cinco mil balboas.",
+    "resumen": "El proyecto obliga a las entidades estatales y empleadores privados a remitir a la Caja de Seguro Social un desglose detallado de los pagos acumulados o retroactivos de salarios (por reintegros, vacaciones vencidas o salarios caídos). El objetivo es que la CSS prorratee y registre individualmente las cuotas en los meses efectivamente laborados, evitando vacíos en el historial del trabajador. Además, contempla un alcance retroactivo de hasta 20 años para la corrección de registros.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que garantiza el reconocimiento y registro correcto de las cuotas de seguridad social de los funcionarios públicos y los trabajadores privados",
+    "titulo_corto": "Registro y prorrateo de cuotas de seguridad social"
+   },
    "anteproyecto": "247",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Primer Debate",
@@ -25624,6 +25667,20 @@
    "titulo": "QUE GARANTIZA EL RECONOCIMIENTO Y REGISTRO CORRECTO DE LAS CUOTAS DE SEGURIDAD SOCIAL DE LOS FUNCIONARIOS PUBLICOS Y TRABAJADORES PRIVADOS"
   },
   "8145": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1yXr2TIsnQX5yEJMeiLSMxKtMN6_6i2MN",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No establece obligaciones, trámites ni costos regulatorios directos para el sector empresarial; se trata de una redistribución de competencias institucionales para la ejecución forzosa de condenas patrimoniales del Tribunal de Cuentas.",
+    "resumen": "Propone facultar a la Contraloría General de la República mediante una jurisdicción coactiva especial para ejecutar directamente las resoluciones patrimoniales en firme del Tribunal de Cuentas por montos iguales o mayores a 25,000 balboas. La Dirección General de Ingresos mantendría el cobro de cuantías inferiores. Afecta el trámite de cobro de fondos públicos atribuido a servidores públicos o particulares condenados por daño patrimonial al Estado.",
+    "sectores": [],
+    "titulo": "Que crea la Jurisdicción Coactiva Especial para la ejecución de las Resoluciones de Cargos del Tribunal de Cuentas y se modifican otras disposiciones",
+    "titulo_corto": "Jurisdicción coactiva del Tribunal de Cuentas"
+   },
    "anteproyecto": "248",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Primer Debate",
@@ -25793,6 +25850,34 @@
    "titulo": "QUE ADOPTA MEDIDAS PARA LA PROMOCION, RESALTO Y DESARROLLO INTEGRAL DE LA CULTURA INDIGENA GUNA Y LA ADOPCIÓN DEL DESFILE DE LAS MIL MOLAS, AL TERCER DOMINGO DE FEBRERO EN EL DISTRITO DE ARRAIJAN"
   },
   "8148": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2: Aplica a cualquier persona natural o jurídica que comercialice vehículos automotores nuevos o usados en el país.",
+     "Artículo 3: Define agencias reconocidas (Latin NCAP, Euro NCAP, NHTSA, IIHS u otras) y fija un plazo de 90 días para que el MICI o ACODECO emitan la lista oficial.",
+     "Artículo 4: Establece como contenido obligatorio en la publicidad el nombre de la agencia evaluadora, puntaje y año de evaluación, o la leyenda 'no evaluado'.",
+     "Artículo 5: Exige el cumplimiento en medios digitales, impresos, audiovisuales, ferias, vitrinas, plataformas en línea y redes sociales.",
+     "Artículo 7: Sanciona el incumplimiento como publicidad engañosa bajo la Ley 45 de 2007, con multas de B/.500.00 a B/.10,000.00."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1fCkFh94XULe8ukKRyknTTMIe223nNimJ",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Crea la obligación para distribuidores y comercializadores de autos de incorporar datos técnicos de seguridad vial en toda su publicidad comercial o afrontar sanciones.",
+      "sector": "TRANSPORTE"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Impone requerimientos obligatorios de contenido en la publicidad comercial de vehículos nuevos y usados, respaldados con multas administrativas de ACODECO por publicidad engañosa.",
+    "resumen": "Propone obligar a los comercializadores y agencias distribuidoras de vehículos nuevos y usados a incluir la calificación de seguridad vehicular en toda pauta publicitaria. Si el vehículo carece de calificación por agencias reconocidas, deberá consignarse expresamente la leyenda 'no evaluado'. Afecta a los concesionarios y vendedores de autos, asignando la fiscalización y aplicación de multas a la ACODECO.",
+    "sectores": [
+     "TRANSPORTE"
+    ],
+    "titulo": "Que establece la obligación de divulgar el puntaje de seguridad vehicular en la publicidad de autos nuevos y usados comercializados en el territorio nacional",
+    "titulo_corto": "Divulgación de seguridad vehicular en publicidad"
+   },
    "anteproyecto": "250",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Primer Debate",
@@ -25821,6 +25906,38 @@
    "titulo": "QUE ESTABLECE LA OBLIGACION DE DIVULGAR EL PUNTAJE DE SEGURIDAD VEHICULAR EN LA PUBLICIDAD DE AUTOS NUEVOS Y USADOS COMERCIALIZADOS EN EL TERRITORIO NACIONAL"
   },
   "8149": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Modifica el artículo 81 de la Ley 45 de 2007 exigiendo a fabricantes, distribuidores o proveedores difundir avisos de llamado a retiro en medios nacionales por al menos 30 días y reparar o reemplazar el bien a los consumidores que acudan dentro de los 120 días siguientes.",
+     "Artículo 2: Adiciona el artículo 81-A a la Ley 45 de 2007 para obligar a importadores y concesionarios de vehículos a publicar durante al menos 12 meses el listado de unidades con fallas (con VIN, modelo y riesgos) y efectuar las reparaciones sin costo en un plazo máximo de 30 días calendario, aun con garantía vencida.",
+     "Artículo 3: Adiciona el artículo 81-B a la Ley 45 de 2007 estableciendo responsabilidad civil por daños y perjuicios al distribuidor o importador que omita llamados a retiro, y responsabilidad penal corporativa y del representante legal en caso de lesiones o muerte.",
+     "Artículo 4: Adiciona el artículo 81-C a la Ley 45 de 2007 facultando a la ACODECO a cotejar alertas con organismos internacionales para sancionar el ocultamiento de información técnica automotriz."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1z9HAnsvO26VqD53pQDbzdfgWi-8-2vuE",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Impone a importadores y distribuidores de autos la obligación de reparar o reemplazar piezas defectuosas gratuitamente aun fuera de garantía, en plazos perentorios y bajo riesgo de responsabilidad penal.",
+      "sector": "TRANSPORTE"
+     },
+     {
+      "nivel": "bajo",
+      "razon": "Actualiza la norma general de retiro de bienes defectuosos, obligando a proveedores en general a pagar pautas de difusión por 30 días y responder ante reclamos en 120 días.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Genera una contingencia financiera y operativa directa de gran impacto para importadores y distribuidores de automóviles al volver obligatoria e indefinida la cobertura de llamados a revisión técnica de fábrica sin costo.",
+    "resumen": "Regula el procedimiento obligatorio para el llamado a retiro (recall) de bienes defectuosos y crea un régimen especial estricto para empresas del sector automotriz. Obliga a importadores y concesionarios de vehículos a divulgar alertas por VIN y reparar fallas de seguridad sin costo para el cliente, incluso con la garantía de fábrica vencida, bajo pena de sanciones de ACODECO, demandas civiles y acciones penales.",
+    "sectores": [
+     "TRANSPORTE"
+    ],
+    "titulo": "Por medio del cual se modifica y se adicionan artículos a la Ley 45 de 2007, que dicta normas sobre protección al consumidor y defensa de la competencia",
+    "titulo_corto": "Regulación de llamados a retiro de vehículos y bienes"
+   },
    "anteproyecto": "249",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Primer Debate",
@@ -46742,12 +46859,12 @@
   "8141": "9915c825b5f8",
   "8142": "682b33cec149",
   "8143": "9464ac2d8ee4",
-  "8144": "df6f9bd5b30a",
-  "8145": "06b5b6471d8b",
+  "8144": "22a52eb2b8aa",
+  "8145": "95f2a8a7eef3",
   "8146": "bcc82e0e10ac",
   "8147": "6d789969e977",
-  "8148": "34bf814b8ede",
-  "8149": "37cbb6191187",
+  "8148": "c82ad9a1c27a",
+  "8149": "9fe2183246b8",
   "8150": "bbe5cdb6729a",
   "8151": "4d91118d25f2",
   "8152": "bc7395899389",
@@ -47338,6 +47455,7 @@
    "7978",
    "8235",
    "8326",
+   "8144",
    "8286",
    "8296",
    "7756",
@@ -47375,9 +47493,11 @@
    "8170",
    "8155",
    "7969",
+   "8148",
    "7531",
    "7554",
    "8050",
+   "8149",
    "7733",
    "8022",
    "7714",
@@ -47394,7 +47514,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-24T05:48:38",
+  "fecha": "2026-10-24T07:06:59",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -47460,6 +47580,9 @@
    "8108": "399fc6670871",
    "8132": "399fc6670871",
    "8135": "399fc6670871",
+   "8144": "399fc6670871",
+   "8148": "399fc6670871",
+   "8149": "399fc6670871",
    "8153": "399fc6670871",
    "8155": "399fc6670871",
    "8156": "399fc6670871",
@@ -47960,7 +48083,7 @@
    "519",
    "520"
   ],
-  "revisada": "2026-10-24T05:49:09"
+  "revisada": "2026-10-24T07:07:27"
  },
- "ultima_corrida": "2026-10-24T05:48:38"
+ "ultima_corrida": "2026-10-24T07:06:59"
 }
