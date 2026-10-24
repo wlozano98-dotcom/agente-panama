@@ -64,8 +64,21 @@ def literal(v):
     return "'" + str(v).replace("'", "''") + "'"
 
 
+def lotes(filas, por_lote=200, maximo=90_000):
+    """Agrupa filas como listas de VALUES, sin pasar por_lote filas ni ~maximo bytes (D1 corta a los 100 KB)."""
+    lote, tam = [], 0
+    for f in filas:
+        tupla = "(" + ",".join(literal(v) for v in f) + ")"
+        if lote and (len(lote) >= por_lote or tam + len(tupla.encode()) > maximo):
+            yield ",\n".join(lote)
+            lote, tam = [], 0
+        lote.append(tupla)
+        tam += len(tupla.encode()) + 2
+    if lote:
+        yield ",\n".join(lote)
+
+
 def insertar_muchas(tabla, columnas, filas, por_lote=200, modo="INSERT OR REPLACE"):
     """Inserta muchas filas en lotes, con literales escapados."""
-    for i in range(0, len(filas), por_lote):
-        valores = ",\n".join("(" + ",".join(literal(v) for v in f) + ")" for f in filas[i:i + por_lote])
+    for valores in lotes(filas, por_lote):
         ejecutar_varias(f"{modo} INTO {tabla} ({','.join(columnas)}) VALUES\n{valores}")

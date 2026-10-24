@@ -95,8 +95,7 @@ def sincronizar(estado, ag):
                 "razon", "disposiciones", "carpeta_url", "en_seguimiento", "actualizado"]
     # UPSERT: no toca notas ni descartada (son del equipo); una ficha descartada no vuelve a la matriz
     actualizar = ", ".join(f"{c} = excluded.{c}" for c in columnas[1:] if c != "en_seguimiento")
-    for i in range(0, len(filas), 100):
-        valores = ",\n".join("(" + ",".join(d1.literal(v) for v in fila) + ")" for fila in filas[i:i + 100])
+    for valores in d1.lotes(filas, 100):
         d1.ejecutar_varias(
             f"INSERT INTO proyectos ({','.join(columnas)}) VALUES\n{valores}\n"
             f"ON CONFLICT(ficha) DO UPDATE SET {actualizar}, "

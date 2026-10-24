@@ -341,6 +341,10 @@ def gemini_generar(cuerpo):
                 else:
                     solo_saturacion = False
                 break
+            except (TimeoutError, urllib.error.URLError) as e:  # se cortó la conexión: se prueba el siguiente modelo
+                errores.append(f"{modelo}: sin respuesta ({e})")
+                print(f"  {errores[-1]}")
+                break
             except (KeyError, ValueError) as e:
                 errores.append(f"{modelo}: respuesta inválida ({e})")
                 solo_saturacion = False
@@ -359,7 +363,11 @@ def gemini_analizar(f, pdf):
              f"Comisión: {nombre_comision(f.get('comision'))}\nHistorial de etapas:\n{historial or '(sin historial)'}")
     partes = []
     if pdf and len(pdf) <= LIMITE_PDF_GEMINI:
-        partes.append({"file_data": {"mime_type": "application/pdf", "file_uri": gemini_subir(f"ficha {f['ficha']}", pdf)}})
+        try:
+            uri = gemini_subir(f"ficha {f['ficha']}", pdf)
+        except (TimeoutError, urllib.error.URLError) as e:  # HTTPError incluido: se reintenta en la próxima hora
+            raise GeminiSaturado(f"no se pudo subir el PDF: {e}")
+        partes.append({"file_data": {"mime_type": "application/pdf", "file_uri": uri}})
     else:
         datos += "\n\n(No hay texto en PDF: analiza solo con el título.)"
     partes.append({"text": datos})
