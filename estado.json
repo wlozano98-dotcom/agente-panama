@@ -425,13 +425,25 @@
    "carpeta": "Compensaciones por fallas en electricidad y telecomunicaciones (ficha 8058)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
   },
+  "8059": {
+   "carpeta": "Pruebas antidoping obligatorias para diputados (ficha 8059)",
+   "comision": "Comisión de Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
+  },
   "8060": {
    "carpeta": "Creación del Patronato del Hospital Anita Moreno (ficha 8060)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
+  "8062": {
+   "carpeta": "Ampliación de la licencia de paternidad (ficha 8062)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
   "8063": {
    "carpeta": "Gestión integral de la cuenca del río Caimito (ficha 8063)",
    "comision": "Comisión de Población, Ambiente y Desarrollo"
+  },
+  "8073": {
+   "carpeta": "Reforma a la Ley de Estabilidad Jurídica de las Inversiones (ficha 8073)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
   },
   "8077": {
    "carpeta": "Ley Marco de Relocalización Productiva y Logística (ficha 8077)",
@@ -22683,6 +22695,20 @@
    "titulo": "QUE ESTABLECE MEDIDAS DE PROTECCION A LOS CONSUMIDORES ANTE INTERRUPCIONES EN LOS SERVICIOS DE ELECTRICIDAD Y TELECOMUNICACIONES Y DICTA OTRA DISPOSICION"
   },
   "8059": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1vjME_dIRmjxYGGJfJ7iHp4BbeH2i60kR",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No genera impacto sobre el sector empresarial ni modifica reglas comerciales, laborales o tributarias, ya que regula estrictamente el régimen disciplinario y de control interno de los diputados.",
+    "resumen": "La iniciativa propone modificar el Reglamento Interno de la Asamblea Nacional para establecer la obligatoriedad de pruebas de antidoping periódicas o aleatorias, al menos una vez al año, a diputados principales y suplentes. Asimismo, faculta a la Comisión de Credenciales para atender los resultados positivos o la negativa a realizarlas como faltas graves a la ética parlamentaria. El proyecto afecta exclusivamente a los miembros del Órgano Legislativo.",
+    "sectores": [],
+    "titulo": "Que modifica la Ley 49 del 4 de diciembre de 1984, que dicta el Reglamento Orgánico del Régimen Interno de la Asamblea Nacional",
+    "titulo_corto": "Pruebas antidoping obligatorias para diputados"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE CREDENCIALES, REGLAMENTO, ETICA PARLAMENTARIA Y ASUNTOS JUDICIALES",
    "etapa": "Primer Debate",
@@ -22791,6 +22817,31 @@
    "titulo": "QUE ESTABLECE EL PORCENTAJE MINIMO DE ASIGNACION PRESUPUESTARIA PARA EL MINISTERIO DE SALUD"
   },
   "8062": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2: Modifica el artículo 3 de la Ley 27 de 2017 para aumentar la licencia de paternidad de tres a diez días hábiles, computados como tiempo efectivo de servicio y remunerados por el empleador.",
+     "Artículo 3: Adiciona el artículo 3-A a la Ley 27 de 2017 para conceder hasta cinco días hábiles adicionales de licencia remunerada por cada día de hospitalización neonatal del menor durante sus primeros veintiocho días de vida."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1m-yZuDKeDVjMhsZ9ma2Txc_5zllRrssn",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Incrementa los días de licencia remunerada obligatoria por paternidad que debe conceder y costear el empleador a sus colaboradores.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Representa una obligación laboral transversal que amplía los días remunerados de ausencia por paternidad (de 3 a 10 días, y hasta 5 días adicionales por hospitalización neonatal), impactando los costos operativos y de cobertura de personal para cualquier empleador.",
+    "resumen": "El proyecto propone incrementar la licencia de paternidad remunerada de tres a diez días hábiles tanto en el sector público como en el privado. Adicionalmente, crea una licencia especial de hasta cinco días hábiles remunerados si el recién nacido requiere hospitalización neonatal. Afecta a todos los empleadores del país, quienes deberán asumir más días de ausencia remunerada de sus trabajadores.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que modifica la Ley 27 de 23 de mayo de 2017 y amplía la licencia de paternidad para los trabajadores de empresas privadas y los servidores públicos",
+    "titulo_corto": "Ampliación de la licencia de paternidad"
+   },
    "anteproyecto": "167",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Primer Debate",
@@ -23115,6 +23166,36 @@
    "titulo": "POR EL CUAL SE ADICIONA UN ARTICULO A LA LEY 47 DE 1946, ORGANICA DE EDUCACION Y DICTAN MEDIDAS PARA EL NUEVO PERIODO DE VIGENCIA FISCAL"
   },
   "8073": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Define con criterios estrictos los conceptos de 'utilidad pública' e 'interés social', prohibiendo al Estado modificarlos unilateralmente y facultando al inversionista a recurrir a arbitraje internacional ante su vulneración.",
+     "Artículo 2 (adiciona Art. 10-A a la Ley 54/1998): Crea el contrato de estabilidad jurídica y tributaria indefinido para inversiones mínimas de B/.100 millones, pactando invariabilidad normativa, indemnizaciones por cambios legales adversos, escalas reducidas o nulas de ISR (0%, 7.5% o 15% según reinversión/inversión social), exención de aranceles de importación de maquinaria y depreciación acelerada en 5 años.",
+     "Artículo 2 (adiciona Art. 10-B a la Ley 54/1998): Otorga a los contratos de estabilidad fuerza de ley y prevalencia sobre normas generales posteriores, disponiendo su publicación obligatoria.",
+     "Artículo 3 (modifica Art. 9 de la Ley 54/1998): Inhabilita del régimen a personas naturales o jurídicas con deudas fiscales/seguridad social o condenas por fraude, blanqueo de capitales y delitos contra la administración pública, extendiéndose a beneficiarios finales y directores.",
+     "Artículo 4 (modifica Art. 20 de la Ley 54/1998): Regula la resolución de controversias entre el Estado y los inversionistas, habilitando expresamente el arbitraje internacional bajo reglas CIADI, CCI o CNUDMI tras 30 días de conciliación fallida.",
+     "Artículos 5, 6, 7 y 8: Derogan los artículos 18, 19, 21 y 22 de la Ley 54 de 1998.",
+     "Artículo 9: Establece un régimen transitorio de 12 meses para que inversionistas inscritos en DINADE con inversiones de al menos B/.100 millones puedan acogerse a los nuevos contratos de estabilidad."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1175NVgcXhQt-9l3Ip_mJJztACFSwUH8y",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Establece un nuevo marco contractual de estabilidad jurídica e incentivos fiscales aplicable a grandes inversionistas nacionales y extranjeros que inviertan más de B/.100 millones.",
+      "sector": "OTROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Ofrece certidumbre regulatoria y beneficios fiscales importantes mediante contratos indefinidos, pero está restringido exclusivamente a megaproyectos con inversiones superiores a cien millones de balboas.",
+    "resumen": "Modifica el régimen de estabilidad jurídica de las inversiones (Ley 54 de 1998) incorporando contratos de estabilidad jurídica y tributaria por tiempo indefinido para inversiones que superen los 100 millones de balboas. Introduce incentivos fiscales como tasas reducidas o exoneración del Impuesto sobre la Renta ligadas a la reinversión social, exención de aranceles y depreciación acelerada. Asimismo, restringe el acceso al régimen a personas con antecedentes o condenas por delitos financieros, tributarios o de corrupción, y amplía el acceso a arbitraje internacional (CIADI, CCI, UNCITRAL).",
+    "sectores": [
+     "OTROS"
+    ],
+    "titulo": "Que adicionan los artículos 10-A, 10-B, se modifica los artículos 9 y 20 y se derogan los artículos 18, 19, 21 y 22 de la Ley N.° 54 de 1998 y se dictan otras disposiciones",
+    "titulo_corto": "Reforma a la Ley de Estabilidad Jurídica de las Inversiones"
+   },
    "anteproyecto": "180",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Primer Debate",
@@ -47102,17 +47183,17 @@
   "8056": "17713f6c95d6",
   "8057": "8b86ff7c86b5",
   "8058": "ff1865037c91",
-  "8059": "a21c11cbe04a",
+  "8059": "45ffd3b076aa",
   "8060": "c03eedd6681e",
   "8061": "d392168a3ffd",
-  "8062": "aa86081f87b9",
+  "8062": "af14d926660a",
   "8063": "67a5b584527e",
   "8064": "6af3b8beaa5a",
   "8068": "b00b150556b4",
   "8069": "bccb33d41b58",
   "8070": "8294d5555913",
   "8071": "a7bd66ec0356",
-  "8073": "cc8a249be140",
+  "8073": "067857166073",
   "8074": "2331df35ce0a",
   "8075": "6ead8c43b4c9",
   "8076": "7f51c09b3ee9",
@@ -47820,6 +47901,8 @@
    "7953",
    "7959",
    "8130",
+   "8062",
+   "8073",
    "7811",
    "7491",
    "7428",
@@ -47830,7 +47913,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-24T10:52:43",
+  "fecha": "2026-10-24T11:52:34",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -47888,7 +47971,9 @@
    "8050": "399fc6670871",
    "8055": "399fc6670871",
    "8058": "399fc6670871",
+   "8062": "399fc6670871",
    "8063": "399fc6670871",
+   "8073": "399fc6670871",
    "8077": "399fc6670871",
    "8079": "399fc6670871",
    "8082": "399fc6670871",
@@ -48407,7 +48492,7 @@
    "519",
    "520"
   ],
-  "revisada": "2026-10-24T10:53:16"
+  "revisada": "2026-10-24T11:53:14"
  },
- "ultima_corrida": "2026-10-24T10:52:43"
+ "ultima_corrida": "2026-10-24T11:52:34"
 }
