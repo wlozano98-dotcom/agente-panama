@@ -461,6 +461,10 @@
    "carpeta": "Creación de juzgados administrativos de tránsito (ficha 8101)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
+  "8107": {
+   "carpeta": "Topes máximos a peajes en los Corredores Norte, Este y Sur (ficha 8107)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
   "8108": {
    "carpeta": "Transparencia y gobernanza en peajes de ENA (ficha 8108)",
    "comision": "Comisión de Economía y Finanzas"
@@ -476,6 +480,18 @@
   "8123": {
    "carpeta": "Regulación del uso de celulares en centros educativos (ficha 8123)",
    "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "8126": {
+   "carpeta": "Sanciones a funcionarios por divulgar antecedentes penales (ficha 8126)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "8130": {
+   "carpeta": "Control de calidad y octanaje de combustibles (ficha 8130)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
+  "8131": {
+   "carpeta": "Prohibición de colorantes sintéticos en alimentos (ficha 8131)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
   "8132": {
    "carpeta": "Reformas a la Ley 45 sobre garantías al consumidor (ficha 8132)",
@@ -24482,6 +24498,34 @@
    "titulo": "QUE DECLARA EL 28 DE OCTUBRE DE CADA AÑO DIA DEL DESFILE DEL VESTIDO TRADICIONAL DEL PUEBLO NGÄBE-BUGLÉ Y CAMPESINO"
   },
   "8107": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2: Aplica las reglas del régimen a los Corredores Norte, Este y Sur, así como a cualquier otra vía de peaje existente en el país.",
+     "Artículo 3: Establece topes tarifarios por tramo: B/. 0.75 para autos particulares, B/. 2.50 para autobuses de transporte público y la tarifa actual de entrada en vigencia para el resto de vehículos.",
+     "Artículo 4: Limita los ajustes tarifarios a un máximo de 3.5 % sobre la tarifa base con una periodicidad mínima de dos años.",
+     "Artículo 6: Decreta la gratuidad temporal y exoneración del pago de peaje durante emergencias, desastres naturales o bloqueos de vías.",
+     "Artículo 10: Exige que todas las tarifas que superen los techos establecidos se ajusten a la baja al entrar en vigencia la ley."
+    ],
+    "drive": "https://drive.google.com/drive/folders/125CvjGb00vtgybXgAkHNM0cnUBcf2Y10",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Interviene directamente el modelo de ingresos de concesiones viales fijando techos a los peajes y congelando incrementos, a la vez que altera los costos operativos de flotas de transporte y logística.",
+      "sector": "TRANSPORTE"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La norma introduce un control directo de precios sobre las tarifas de peaje de autopistas y restringe los incrementos periódicos a un máximo de 3.5 % cada dos años, afectando directamente la rentabilidad e ingresos de operadores viales y la estructura de costos del transporte.",
+    "resumen": "La iniciativa busca imponer techos tarifarios a las autopistas de peaje (Corredores Norte, Este y Sur, y otras vías concesionadas). Fija tarifas máximas por tramo según el tipo de vehículo, topa los futuros ajustes a un 3.5 % cada dos años y decreta la gratuidad temporal en situaciones de emergencias o cierres de vías.",
+    "sectores": [
+     "TRANSPORTE"
+    ],
+    "titulo": "Que establece un régimen económico para regular los topes máximos de cobro en los Corredores Norte, Este y Sur, y dicta otras disposiciones",
+    "titulo_corto": "Topes máximos a peajes en los Corredores Norte, Este y Sur"
+   },
    "anteproyecto": "215",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Primer Debate",
@@ -24988,6 +25032,20 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 136 DE 23 DE MARZO DE 2020"
   },
   "8126": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1AF7BT0knGXvIYnQNqCgZcdqq7yrSErPq",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.5-flash",
+    "razon": "La propuesta regula exclusivamente el actuar y régimen disciplinario de los servidores públicos, por lo que no genera obligaciones, costos ni restricciones para el sector empresarial.",
+    "resumen": "El proyecto busca proteger el principio de presunción de inocencia prohibiendo a los servidores públicos divulgar o transmitir información sobre personas que fueron investigadas pero absueltas o eximidas de responsabilidad mediante sentencia en firme. Establece sanciones escalonadas para los funcionarios infractores, que incluyen multas salariales, suspensión y destitución.",
+    "sectores": [],
+    "titulo": "Que adiciona un artículo a la Ley 69 de 2007 y dicta medidas de protección de garantías constitucionales referente a información de antecedentes penales",
+    "titulo_corto": "Sanciones a funcionarios por divulgar antecedentes penales"
+   },
    "anteproyecto": "230",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Primer Debate",
@@ -25067,6 +25125,35 @@
    "titulo": "QUE MODIFICA UN ARTICULO DE LA LEY 51, DEL 28 DE JUNIO DE 2017, QUE REGULA EL TRANSPORTE DE CARGA POR CARRETERA, TRANSITO Y TRANSPORTE"
   },
   "8130": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Exige que el octanaje y especificaciones técnicas coincidan exactamente con lo anunciado en surtidores y facturas, disponiendo inspecciones periódicas.",
+     "Artículos 4 a 8: Faculta a las autoridades a realizar inspecciones aleatorias sin previo aviso y fija el procedimiento técnico obligatorio de toma de muestras y contramuestras.",
+     "Artículo 13: Traslada el costo de los análisis de laboratorio al establecimiento cuando la denuncia resulte fundada.",
+     "Artículo 16: Establece multas de B/. 5,000.00 a B/. 50,000.00, suspensión de operaciones o revocatoria de la licencia de expendio ante alteraciones de octanaje o exceso de azufre.",
+     "Artículo 18: Obliga al distribuidor o estación a retirar de inmediato el combustible no conforme, asumiendo los costos de disposición segura y reposición.",
+     "Artículo 19: Ordena la publicación en internet durante un año del listado de gasolineras y distribuidores sancionados."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1cA2laHIlsA9PVjgGeNjNW6S7wqXAh9n8",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Impone un régimen obligatorio de fiscalización técnica, procedimientos de muestreo en sitio, asunción de costos de análisis ante denuncias fundadas y severas sanciones por discrepancias en octanaje o calidad.",
+      "sector": "PETRÓLEO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Regula directamente las condiciones de comercialización de derivados del petróleo, introduciendo inspecciones imprevistas, responsabilidades por retiro de producto y multas de hasta B/. 50,000 a estaciones de servicio.",
+    "resumen": "Establece un sistema de inspecciones periódicas, aleatorias y extraordinarias a estaciones de servicio y puntos de venta de combustible para verificar el octanaje y parámetros de calidad. Obliga a certificar muestras en laboratorios acreditados y crea un régimen de sanciones que incluye multas de hasta 50 mil balboas, retiro forzoso de producto y suspensión o revocatoria de licencias. Afecta directamente a distribuidores y operadores de estaciones de expendio de combustible.",
+    "sectores": [
+     "PETRÓLEO"
+    ],
+    "titulo": "Que garantiza que el octanaje y la calidad de combustible vendido en estaciones de servicio y puntos de venta autorizados, corresponda al publicitado",
+    "titulo_corto": "Control de calidad y octanaje de combustibles"
+   },
    "anteproyecto": "234",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Primer Debate",
@@ -25095,6 +25182,44 @@
    "titulo": "QUE GARANTIZA QUE EL OCTANAJE Y LA CALIDAD DE COMBUSTIBLE VENDIDO EN ESTACIONES DE SERVICIO Y PUNTOS DE VENTA AUTORIZADOS, CORRESPONDA AL PUBLICITADO"
   },
   "8131": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Define la prohibición nacional de fabricar, importar o comercializar alimentos con colorantes sintéticos listados en el Anexo A.",
+     "Artículo 2: Delimita el ámbito de aplicación a todos los alimentos y bebidas comercializados o procesados en el país (confitería, bebidas no alcohólicas, cereales, productos congelados, alimentos infantiles).",
+     "Artículo 4: Establece la prohibición general de fabricar, importar, comercializar, envasar, distribuir y ofertar alimentos con los colorantes sintéticos prohibidos.",
+     "Artículo 5: Permite excepciones temporales otorgadas por el MINSA para productos farmacéuticos ingeribles que requieran mayor tiempo de reformulación y casos de fuerza mayor.",
+     "Artículo 6: Impone a fabricantes, importadores y distribuidores el deber de informar recetas, registrar proveedores de colorantes, retirar productos no conformes y garantizar veracidad del etiquetado.",
+     "Artículo 7: Regula las condiciones y verificación técnica para el uso de leyendas sobre ausencia de colorantes artificiales y la declaración de colorantes naturales.",
+     "Artículo 8: Fija un plazo máximo de dos años desde la promulgación para eliminar los colorantes sintéticos de los productos alimenticios.",
+     "Artículo 9: Faculta al MINSA, en coordinación con Aduanas y el MICI, a realizar inspecciones, muestreos y análisis de laboratorio en plantas y puntos de importación.",
+     "Artículo 11: Establece el régimen sancionador que incluye multas administrativas, retención o decomiso de lotes, suspensión de licencias y clausura temporal o definitiva.",
+     "Artículo 15: Enumera en el Anexo A los colorantes artificiales sintéticos prohibidos (FD&C Red No. 3, Red No. 40, Yellow No. 5, Yellow No. 6, Blue No. 1, Blue No. 2, Orange B y Citrus Red No. 2)."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1ii46sqNhivzOn9CFNhaNj8MHkeOuO1QS",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Prohíbe aditivos ampliamente utilizados, obligando a reformular productos, cambiar inventarios y modificar empaques en un plazo de dos años bajo riesgo de multas y decomisos.",
+      "sector": "ALIMENTOS"
+     },
+     {
+      "nivel": "bajo",
+      "razon": "Afecta de forma marginal a fabricantes de medicamentos ingeribles que emplean estos colorantes, sujetándolos a autorizaciones y excepciones temporales de reformulación ante el MINSA.",
+      "sector": "SALUD"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Impacta de manera directa y profunda a la industria de alimentos y bebidas al vetar insumos comunes en la formulación de productos y condicionar fuertemente las importaciones y el etiquetado.",
+    "resumen": "Prohíbe la fabricación, importación, envasado y comercialización en Panamá de alimentos y bebidas que contengan colorantes artificiales sintéticos comunes (como Rojo 40, Amarillo 5 y 6, Azul 1 y 2, entre otros). Establece un plazo de transición de dos años para la reformulación de productos, fija nuevas exigencias de etiquetado y contempla sanciones que van desde multas y decomisos hasta la clausura de operaciones.",
+    "sectores": [
+     "ALIMENTOS"
+    ],
+    "titulo": "Que prohíbe el uso de colorantes artificiales sintéticos en alimentos comercializados en la República de Panamá y dicta medidas de transición, control, sanciones e incentivo para su sustitución por alternativas seguras",
+    "titulo_corto": "Prohibición de colorantes sintéticos en alimentos"
+   },
    "anteproyecto": "232",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Primer Debate",
@@ -46865,7 +46990,7 @@
   "8103": "755626707c26",
   "8104": "604a4f458ec4",
   "8105": "9556c95a885e",
-  "8107": "b28614bc689a",
+  "8107": "5b317cd2a8f8",
   "8108": "4bba24d648f0",
   "8109": "eee0fc80a3df",
   "8110": "6cd1305ab9ae",
@@ -46878,11 +47003,11 @@
   "8123": "a7a1b0839c16",
   "8124": "9cbefd4a7d4a",
   "8125": "81d0fb85bd3f",
-  "8126": "40367284af58",
+  "8126": "7664a8b70bc0",
   "8127": "39bfc1a31d52",
   "8129": "29a117b51f88",
-  "8130": "bf6f82797fb7",
-  "8131": "d19b6feaa229",
+  "8130": "220507d641a3",
+  "8131": "9d270e31df23",
   "8132": "b04668505bc5",
   "8134": "87388c08369c",
   "8135": "900708b0a745",
@@ -47471,6 +47596,7 @@
    "8325",
    "7924",
    "8361",
+   "8107",
    "8153",
    "7808",
    "8319",
@@ -47499,6 +47625,7 @@
    "8311",
    "8281",
    "8025",
+   "8131",
    "8055",
    "8243",
    "8271",
@@ -47537,6 +47664,7 @@
    "7419",
    "7953",
    "7959",
+   "8130",
    "7811",
    "7491",
    "7428",
@@ -47547,7 +47675,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-24T07:53:57",
+  "fecha": "2026-10-24T08:59:39",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -47610,7 +47738,10 @@
    "8079": "399fc6670871",
    "8082": "399fc6670871",
    "8094": "399fc6670871",
+   "8107": "399fc6670871",
    "8108": "399fc6670871",
+   "8130": "399fc6670871",
+   "8131": "399fc6670871",
    "8132": "399fc6670871",
    "8135": "399fc6670871",
    "8141": "399fc6670871",
@@ -48117,7 +48248,7 @@
    "519",
    "520"
   ],
-  "revisada": "2026-10-24T07:54:28"
+  "revisada": "2026-10-24T09:00:11"
  },
- "ultima_corrida": "2026-10-24T07:53:57"
+ "ultima_corrida": "2026-10-24T08:59:39"
 }
