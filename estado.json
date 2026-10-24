@@ -493,9 +493,17 @@
    "carpeta": "Contratación de desarrollistas comunitarios en municipios (ficha 8136)",
    "comision": "Comisión de Asuntos Municipales"
   },
+  "8150": {
+   "carpeta": "Imprescriptibilidad de delitos sexuales contra menores (ficha 8150)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
   "8153": {
    "carpeta": "Regulación del sistema nacional de hidrantes contra incendios (ficha 8153)",
    "comision": "Comisión de Infraestructura Pública y Asuntos del Canal"
+  },
+  "8160": {
+   "carpeta": "Prisión perpetua en el Código Penal (ficha 8160)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
   "8161": {
    "carpeta": "Semáforos sonoros inclusivos para personas con discapacidad (ficha 8161)",
@@ -25833,6 +25841,20 @@
    "titulo": "POR MEDIO DEL CUAL SE MODIFICA Y ADICIONAN ARTICULOS A LA LEY 45 DE 2007, QUE DICTA NORMAS SOBRE PROTECCION AL CONSUMIDOR Y DEFENSA DE LA COMPETENCIA"
   },
   "8150": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1j4ehVIz9uEtYortcEcdPx671JDu84Wjb",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto se circunscribe al ámbito del derecho penal y procesal penal sobre delitos sexuales contra menores de edad, sin crear obligaciones, costos ni regulaciones para la actividad empresarial.",
+    "resumen": "Propone declarar la imprescriptibilidad de la acción penal y de las penas aplicables a los delitos contra la libertad e integridad sexual cuando las víctimas sean menores de 18 años. Modifica disposiciones del Código Penal y del Código Procesal Penal para asegurar que los agresores no eludan la justicia por el paso del tiempo.",
+    "sectores": [],
+    "titulo": "Que modifica artículos del Código Penal y el Código Procesal Penal, sobre la prescripción de los delitos contra la libertad e integridad sexual cuando la víctima sea menor de edad",
+    "titulo_corto": "Imprescriptibilidad de delitos sexuales contra menores"
+   },
    "anteproyecto": "252",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Primer Debate",
@@ -26287,6 +26309,20 @@
    "titulo": "QUE SUBROGA LA LEY 7 DE 1997, QUE CREA LA DEFENSORÍA DEL PUEBLO, Y MODIFICA LA LEY 6 DE 2017, QUE CREA EL MECANISMO NACIONAL PARA LA PREVENCIÓN DE LA TORTURA Y OTROS TRATOS O PENAS CRUELES, INHUMANAS O DEGRADANTES"
   },
   "8160": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/11gzKrC-h8zcZynxlyzcspbUZNZt5xJzr",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa es de naturaleza estrictamente penal y de seguridad pública; no impone cargas, trámites ni obligaciones sobre la actividad económica o comercial de las empresas.",
+    "resumen": "Propone modificar el Código Penal panameño para incorporar la pena de prisión perpetua frente a delitos de homicidio cometidos bajo circunstancias atroces, crueles o de ensañamiento. También contempla su aplicación a homicidios múltiples, asesinos en serie y crímenes contra la seguridad colectiva. Afecta exclusivamente el régimen de sanciones penales a personas naturales sentenciadas por delitos de sangre.",
+    "sectores": [],
+    "titulo": "Que modifica el Código Penal para establecer la pena de prisión perpetua",
+    "titulo_corto": "Prisión perpetua en el Código Penal"
+   },
    "anteproyecto": "258",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Primer Debate",
@@ -47745,5 +47781,5 @@
   ],
   "revisada": "2026-10-21T18:59:15"
  },
- "ultima_corrida": "2026-10-24T01:56:39"
+ "ultima_corrida": "2026-10-24T02:53:59"
 }
