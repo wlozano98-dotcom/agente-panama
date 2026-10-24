@@ -1,5 +1,5 @@
 {
- "comisiones_revisadas": "2026-10-24T03:57:00",
+ "comisiones_revisadas": "2026-10-24T10:50:07",
  "drive": {
   "7404": {
    "carpeta": "Obligatoriedad de educación media y preescolar (ficha 7404)",
@@ -448,6 +448,10 @@
   "8083": {
    "carpeta": "Fondo para jubilados con tasa a contenedores y telecomunicaciones (ficha 8083)",
    "comision": "Comisión de Economía y Finanzas"
+  },
+  "8084": {
+   "carpeta": "Atención integral de la insuficiencia ovárica primaria (ficha 8084)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
   "8091": {
    "carpeta": "Uso de medios electrónicos en trámites gubernamentales (ficha 8091)",
@@ -23687,6 +23691,20 @@
    "titulo": "QUE PROMUEVE QUE EL 10% DEL PRODUCTO DE LAS CONCESIONES EN MATERIA TELECOMUNICACIONES SEA DESTINADO PARA EL FINANCIAMIENTO DEL PROGRAMA DE INVALIDEZ, VEJEZ Y MUERTE (IVM) DE LA CAJA DE SEGURO SOCIAL"
   },
   "8084": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1_W5aPTqN-qSwMFcSCn5FbVDG0mj0CV_p",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La propuesta corresponde estrictamente a políticas de salud pública del MINSA y la CSS, por lo que no establece regulaciones, costos ni obligaciones directas para las empresas privadas.",
+    "resumen": "Propone un marco legal de salud pública para la detección temprana, diagnóstico, atención y estudio de la insuficiencia ovárica primaria (IOP). Asigna al Ministerio de Salud y a la Caja de Seguro Social la responsabilidad de brindar atención especializada y gratuita, además de crear protocolos de prevención de comorbilidades y un registro voluntario de pacientes. La medida se enfoca en el sistema sanitario estatal sin imponer obligaciones al sector privado.",
+    "sectores": [],
+    "titulo": "Que establece medidas para la detección temprana, atención integral, educación e investigación sobre la insuficiencia ovárica primaria (IOP) en la República de Panamá",
+    "titulo_corto": "Atención integral de la insuficiencia ovárica primaria"
+   },
    "anteproyecto": "190",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Primer Debate",
@@ -47105,7 +47123,7 @@
   "8081": "e08d09f91443",
   "8082": "707fe743c0b9",
   "8083": "be6ea533d7f1",
-  "8084": "264c891e0477",
+  "8084": "552e2547d1c2",
   "8085": "628f1a40901b",
   "8088": "9f78b5d9782a",
   "8091": "cff76dc0a4b5",
@@ -47812,7 +47830,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-24T09:57:27",
+  "fecha": "2026-10-24T10:52:43",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -48389,7 +48407,7 @@
    "519",
    "520"
   ],
-  "revisada": "2026-10-24T09:57:59"
+  "revisada": "2026-10-24T10:53:16"
  },
- "ultima_corrida": "2026-10-24T09:57:27"
+ "ultima_corrida": "2026-10-24T10:52:43"
 }
