@@ -509,6 +509,10 @@
    "carpeta": "Apoyo económico estatal a juntas de carnaval (ficha 8169)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
   },
+  "8170": {
+   "carpeta": "Regulación de proveedores de servicios de activos virtuales (ficha 8170)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
   "8175": {
    "carpeta": "Nombre de Federico Bosco Jiménez al puente de Coquira (ficha 8175)",
    "comision": "Comisión de Infraestructura Pública y Asuntos del Canal"
@@ -26723,6 +26727,40 @@
    "titulo": "QUE ESTABLECE UN APOYO ECONOMICO POR PARTE DEL ESTADO A LAS ASOCIACIONES Y/O JUNTAS DE CARNAVAL LEGALMENTE RECONOCIDAS"
   },
   "8170": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 5: Permite el uso voluntario de activos virtuales como medio de pago en cualquier acto civil o comercial, condicionado al cumplimiento de normas de prevención de blanqueo de capitales.",
+     "Artículo 6: Designa a la Dirección General de Empresas Financieras del MICI como autoridad supervisora, con facultades de inspección, sanción y creación de sandboxes regulatorios.",
+     "Artículo 7: Faculta a la autoridad a limitar o prohibir temporalmente transacciones con tipos específicos de activos virtuales por motivos de riesgo financiero o de blanqueo de capitales.",
+     "Artículo 8: Impone a los proveedores la obligación de implementar un programa de prevención de blanqueo de capitales (AML/CFT), designar un oficial de cumplimiento, reportar transacciones sospechosas a la UAF y conservar registros por 5 años.",
+     "Artículo 10: Establece la Regla de Viaje obligatoria para transferencias de activos virtuales iguales o superiores a 5,000 balboas.",
+     "Artículo 11: Exige a las plataformas de intercambio demostrar la segregación de fondos de clientes (pruebas de reserva) y someterse a auditorías periódicas de ciberseguridad.",
+     "Artículo 12: Crea la Licencia de Proveedor de Servicios de Activos Virtuales (PSAV) de carácter obligatorio para operar habitualmente como negocio en el país.",
+     "Artículo 13: Fija los requisitos para optar por la licencia, incluyendo debida diligencia de directivos y beneficiarios finales, solvencia y sistemas adecuados de ciberseguridad.",
+     "Artículo 14: Define el catálogo de actividades comerciales reguladas bajo la licencia: intercambio, custodia, transferencia y ofertas públicas de activos virtuales.",
+     "Artículo 15: Establece el costo de expedición de la licencia en 1,500 balboas y delega en el Órgano Ejecutivo el cálculo proporcional para su renovación.",
+     "Artículo 18: Concede un periodo de gracia de 8 meses a las empresas que ya operan en el país tras la reglamentación para tramitar y obtener la licencia requerida."
+    ],
+    "drive": "https://drive.google.com/drive/folders/189gszIMLybwekOF-mst9az_iHBrrDTda",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Crea una licencia obligatoria y supervisión formal para plataformas de intercambio, custodia y servicios de activos virtuales, imponiendo auditorías, reglas de viaje y reportes ante la UAF.",
+      "sector": "FINANCIERO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Impacta de forma directa y profunda a las empresas del ecosistema fintech y de activos virtuales al exigirles licencia comercial obligatoria, solvencia y un estricto régimen de cumplimiento antilavado coordinado por el MICI.",
+    "resumen": "La iniciativa crea el marco legal y de supervisión para los Proveedores de Servicios de Activos Virtuales (PSAV o VASP) en Panamá, bajo la tutela de la Dirección General de Empresas Financieras del MICI. Establece una licencia obligatoria para actividades de intercambio, custodia, transferencia y oferta de criptoactivos, además de fijar estrictos controles de prevención de blanqueo de capitales conforme a los estándares de GAFI. Asimismo, reconoce la validez del uso voluntario de criptoactivos como medio de pago en transacciones comerciales.",
+    "sectores": [
+     "FINANCIERO"
+    ],
+    "titulo": "Que establece el marco regulatorio para los Proveedores de Servicios de Activos Virtuales en la República de Panamá y dicta otras disposiciones",
+    "titulo_corto": "Regulación de proveedores de servicios de activos virtuales"
+   },
    "anteproyecto": "268",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Primer Debate",
@@ -47655,5 +47693,5 @@
   ],
   "revisada": "2026-10-21T18:59:15"
  },
- "ultima_corrida": "2026-10-23T23:46:36"
+ "ultima_corrida": "2026-10-24T01:11:13"
 }
