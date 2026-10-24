@@ -405,12 +405,20 @@
    "carpeta": "Régimen de autogestión de estadios y coliseos de PANDEPORTES (ficha 8034)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "8036": {
+   "carpeta": "Reforma a la ley sobre historial de crédito (ficha 8036)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
   "8038": {
    "carpeta": "Día Nacional del Sobreviviente de Cáncer (ficha 8038)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
   "8043": {
    "carpeta": "Regulación de bebidas con jarabe de maíz con alta fructosa (ficha 8043)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
+  "8044": {
+   "carpeta": "Etiquetado accesible y transparencia en contratos (ficha 8044)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
   },
   "8050": {
@@ -21643,6 +21651,41 @@
    "titulo": "QUE DECLARA DE INTERÉS NACIONAL Y ESTRATÉGICO LA PRODUCCIÓN DE LECHE EN LA REPÚBLICA DE PANAMÁ Y ESTABLECE MEDIDAS PARA SU PROTECCIÓN Y FOMENTO"
   },
   "8036": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2 (modifica el artículo 4): Obliga a ajustar y considerar en cumplimiento el historial numérico del cliente tras suscribir un arreglo de pago (tras el primer pago y transcurridos hasta seis meses).",
+     "Artículo 3 (modifica numerales 9 y 10 del artículo 23): Ordena crear referencias de cumplimiento tras 6 meses en arreglos de pago y eliminar la relación de crédito original tras 3 meses de cumplimiento en créditos reestructurados.",
+     "Artículo 4 (modifica el artículo 26): Reduce a 3 años el plazo de prescripción y depuración definitiva de los datos de crédito desde que debió realizarse el primer pago, y fija en 3 años la caducidad del registro de consultas no perfeccionadas.",
+     "Artículo 5 (modifica el artículo 29-B): Exige actualizar cancelaciones de deuda en máximo 3 días hábiles bajo sanción por falta grave por la ACODECO, e impone condiciones al nuevo acreedor en ventas de carteras vencidas.",
+     "Artículo 6 (modifica el numeral 3 del artículo 30): Prohíbe expresamente incluir en las bases de datos sobre historial crediticio a las personas que tengan condición de fiadores.",
+     "Artículo 7 (adiciona el numeral 16 al artículo 40): Tipifica como infracción grave no mantener el historial numérico actualizado y acorde al estado de crédito actual del cliente."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1VTamZlmNy2sSIOkDuLi_ER3NzHfPk3SX",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Altera las condiciones de evaluación del riesgo crediticio al reducir la prescripción a 3 años, excluir a fiadores de las bases de datos y sancionar severamente los retrasos en la actualización de calificaciones.",
+      "sector": "FINANCIERO"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Afecta a comercios minoristas que operan ventas a crédito al obligarlos a adaptar sus reportes, prescindir del historial de fiadores y actualizar cancelaciones en 3 días hábiles.",
+      "sector": "OTROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Modifica el núcleo operativo del crédito y el análisis de riesgo para bancos, financieras y comercios crediticios, restringiendo el uso de garantías (fiadores), acortando la prescripción a solo 3 años y tipificando nuevas faltas graves.",
+    "resumen": "Modifica de forma sustancial el régimen de información crediticia (APC), fijando la prescripción de datos en 3 años, prohibiendo el reporte negativo de fiadores y obligando a actualizar historiales y eliminar referencias de incumplimiento ante arreglos o reestructuraciones de pago. Afecta directamente al sector bancario, financiero y a las agencias de datos de crédito.",
+    "sectores": [
+     "FINANCIERO",
+     "OTROS"
+    ],
+    "titulo": "Que modifica y adiciona artículos a la Ley 24 de 2002, que regula el servicio de información sobre historial de crédito de los consumidores o clientes",
+    "titulo_corto": "Reforma a la ley sobre historial de crédito"
+   },
    "anteproyecto": "149",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Primer Debate",
@@ -21944,6 +21987,48 @@
    "titulo": "POR MEDIO DEL CUAL SE REGULA LA PRODUCCION E IMPORTACION DE BEBIDAS AZUCARADAS QUE CONTENGAN EN SU ELEBORACION JARABE DE MAIZ CON ALTA FRUCTOSA"
   },
   "8044": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 5: Establece un tamaño mínimo de letra no inferior a 12 puntos tipográficos y suficiente contraste en contratos, documentos bancarios y plataformas electrónicas.",
+     "Artículo 8: Obliga a destacar en negritas las cláusulas relativas a intereses, comisiones, penalidades y advertencias sanitarias.",
+     "Artículo 9: Prohíbe a bancos, financieras, aseguradoras y cooperativas exigir la firma de pagarés, letras o documentos con espacios en blanco como condición para otorgar financiamiento, sancionándolos con nulidad absoluta.",
+     "Artículos 14 y 15: Exigen declaración nutricional detallada y sellos frontales de advertencia ('ALTO EN AZÚCARES', 'EXCESO DE SODIO', 'ALTO EN GRASAS SATURADAS') en alimentos y bebidas.",
+     "Artículos 16 a 18: Disponen reglas específicas de rotulado y advertencias para cosméticos, productos químicos/limpieza y textiles.",
+     "Artículo 23: Fija multas administrativas desde B/. 1,000.00 hasta B/. 100,000.00, suspensión de comercialización y nulidad de cláusulas.",
+     "Artículos 39 y 40: Otorga un plazo de adecuación de 3 meses a entidades financieras y aseguradoras para sus contratos, y de 18 a 24 meses a productores e importadores para sus etiquetas."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1H9Pid8yAFZL8WNSAF-BU1-e2HtfMmORw",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Prohíbe el uso de pagarés y títulos de crédito en blanco para otorgar préstamos, e impone la reforma de todos los contratos y formularios bancarios en un plazo de tres meses.",
+      "sector": "FINANCIERO"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Obliga a implementar etiquetado frontal de advertencia por excesos de azúcares, sodio o grasas saturadas, forzando el rediseño de empaques para productores e importadores.",
+      "sector": "ALIMENTOS"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Establece un plazo estricto de tres meses para readecuar pólizas y contratos a formato de letra de 12 puntos y redacción en lenguaje sencillo.",
+      "sector": "SEGUROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Modifica de forma sustancial las operaciones crediticias al prohibir garantías en blanco y exigir rediseño integral de contratos masivos, a la vez que impone sellos de advertencia obligatorios en empaques de alimentos.",
+    "resumen": "Propone regular el contenido y formato de los contratos de adhesión, documentos financieros y etiquetas comerciales en Panamá. Exige un tamaño mínimo de letra de 12 puntos en contratos, prohíbe pagarés en blanco en el sector financiero e introduce el etiquetado frontal de advertencia (sellos nutricionales) en alimentos y bebidas. Afecta directamente a entidades financieras, aseguradoras, comercios electrónicos e industrias de consumo masivo.",
+    "sectores": [
+     "FINANCIERO",
+     "ALIMENTOS",
+     "SEGUROS"
+    ],
+    "titulo": "Que garantiza el derecho del consumidor a la información accesible, clara y veraz en etiquetado de productos, contratos y documentos",
+    "titulo_corto": "Etiquetado accesible y transparencia en contratos"
+   },
    "anteproyecto": "160",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Primer Debate",
@@ -47237,14 +47322,14 @@
   "8033": "c2d8b5361ca0",
   "8034": "cf0ac80fdfe6",
   "8035": "708a07e4b97b",
-  "8036": "3ca004fabc88",
+  "8036": "64102ab13d2d",
   "8037": "dc6b75e932f3",
   "8038": "e0236c8d9e70",
   "8040": "5fc8bfeeb0cd",
   "8041": "1f081dd61670",
   "8042": "ebe85def8298",
   "8043": "d59ac07ebc95",
-  "8044": "ea11b934dc1e",
+  "8044": "001ff624faa7",
   "8046": "4ad6f7c21e0c",
   "8047": "a4793de9acc8",
   "8048": "43e968de2783",
@@ -47975,7 +48060,9 @@
    "7959",
    "8130",
    "8062",
+   "8036",
    "8043",
+   "8044",
    "8052",
    "8073",
    "7811",
@@ -47988,7 +48075,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-24T12:59:47",
+  "fecha": "2026-10-24T13:49:18",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -48043,7 +48130,9 @@
    "8022": "399fc6670871",
    "8025": "399fc6670871",
    "8032": "399fc6670871",
+   "8036": "399fc6670871",
    "8043": "399fc6670871",
+   "8044": "399fc6670871",
    "8050": "399fc6670871",
    "8052": "399fc6670871",
    "8055": "399fc6670871",
@@ -48569,7 +48658,7 @@
    "519",
    "520"
   ],
-  "revisada": "2026-10-24T13:00:15"
+  "revisada": "2026-10-24T13:49:46"
  },
- "ultima_corrida": "2026-10-24T12:59:47"
+ "ultima_corrida": "2026-10-24T13:49:18"
 }
