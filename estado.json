@@ -501,9 +501,17 @@
    "carpeta": "Semáforos sonoros inclusivos para personas con discapacidad (ficha 8161)",
    "comision": "Comisión de Comunicación y Transporte"
   },
+  "8164": {
+   "carpeta": "Figura del Educador Protector ante abusos a menores (ficha 8164)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
   "8167": {
    "carpeta": "Reforma a la titulación masiva de tierras estatales (ficha 8167)",
    "comision": "Comisión de Economía y Finanzas"
+  },
+  "8168": {
+   "carpeta": "Régimen legal de sitios de disposición final de residuos (ficha 8168)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
   "8169": {
    "carpeta": "Apoyo económico estatal a juntas de carnaval (ficha 8169)",
@@ -26497,6 +26505,20 @@
    "titulo": "QUE SUBROGA LA LEY 198 DE 2021, QUE ESTABLECE EL PROCEDIMIENTO PARA EL TRASPASO A LA NACION DE LA SERVIDUMBRE PUBLICA DE LAS URBANIZACIONES, LOTIFICACIONES Y PARCELACIONES Y DICTA OTRA DISPOCISION"
   },
   "8164": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1GsEXxv59yV9-P7prgr5ruy0Vg8oGqBCs",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No tiene incidencia en la actividad empresarial ni en los sectores económicos regulados, tratándose de una normativa orientada al bienestar estudiantil y la protección judicial y de seguridad para docentes.",
+    "resumen": "Crea la figura del Educador Protector para brindar medidas de acompañamiento y resguardo policial o legal a los docentes que denuncien abusos contra menores. Asimismo, dispone la realización anual de campañas de sensibilización y la colocación obligatoria de afiches informativos con canales de denuncia en todos los planteles educativos.",
+    "sectores": [],
+    "titulo": "Que establece la figura del Educador Protector en caso de denuncias de abusos de niños, niñas y adolescentes, en el entorno escolar",
+    "titulo_corto": "Figura del Educador Protector ante abusos a menores"
+   },
    "anteproyecto": "265",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Primer Debate",
@@ -26647,6 +26669,36 @@
    "titulo": "QUE MODIFICA LA LEY 24 DE 2006, QUE DECLARA DE ORDEN PÚBLICO Y DE INTERÉS SOCIAL LAS ACTIVIDADES DE REGULACIÓN Y TITULACIÓN MASIVA DE TIERRAS QUE EJECUTA EL ESTADO Y ADOPTA OTRAS DISPOSICIONES"
   },
   "8168": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 5: Declara de obligatorio cumplimiento la ley para personas naturales o jurídicas privadas que seleccionen sitios, diseñen, construyan, operen o clausuren rellenos sanitarios mecanizados.",
+     "Artículo 7 y 10: Establecen criterios restrictivos de localización, prohibiendo suelos arenosos y fijando distancias mínimas a cuerpos de agua, poblados, industrias de alimentos y aeropuertos.",
+     "Artículo 8 y 11: Exigen estudios previos obligatorios (impacto ambiental, topográfico, hidrogeológico, hidráulico y geotécnico) y sistemas de impermeabilización, monitoreo permanente y tratamiento de lixiviados.",
+     "Artículo 14 y 16: Obligan a que los proyectos privados cuenten con firma y sello de profesionales idóneos de la Junta Técnica de Ingenieros y Arquitectos y presenten un expediente técnico detallado.",
+     "Artículo 27: Regula la facultad municipal de concesionar a operadores privados la gestión y disposición final de residuos bajo supervisión estatal.",
+     "Artículo 29: Impone al operador la obligación y el costo del monitoreo y mantenimiento ambiental del sitio durante al menos 20 años tras su clausura.",
+     "Artículo 32: Contempla sanciones administrativas para operadores que incluyen la suspensión temporal de la operación y la revocatoria de permisos."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1wSNhhOuZfwN5rRikmPByZeFAZ8zpQikl",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Impone normas técnicas estrictas de diseño, ingeniería, construcción y parámetros de impermeabilización para obras de infraestructura de disposición final.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea un régimen legal obligatorio con requisitos técnicos rigurosos, aprobaciones previas y una responsabilidad extendida de mantenimiento y monitoreo posclausura por 20 años para las empresas operadoras y constructoras de rellenos sanitarios.",
+    "resumen": "El proyecto busca regular por ley el diseño, construcción, operación, clausura y posclausura de los sitios de disposición final de residuos no peligrosos (rellenos sanitarios) en Panamá. Establece parámetros técnicos de ingeniería, impermeabilización y manejo de lixiviados y biogás, además de facultar a los municipios para concesionar estas operaciones. Afecta directamente a empresas constructoras, desarrolladoras de infraestructura y operadoras de concesiones de aseo y rellenos sanitarios.",
+    "sectores": [
+     "CEMENTERAS"
+    ],
+    "titulo": "Que establece el régimen legal de los sitios de disposición final de residuos en la República de Panamá, regula su diseño, operación, clausura y posclausura, y dicta otras disposiciones",
+    "titulo_corto": "Régimen legal de sitios de disposición final de residuos"
+   },
    "anteproyecto": "261",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Primer Debate",
@@ -47693,5 +47745,5 @@
   ],
   "revisada": "2026-10-21T18:59:15"
  },
- "ultima_corrida": "2026-10-24T01:11:13"
+ "ultima_corrida": "2026-10-24T01:56:39"
 }
