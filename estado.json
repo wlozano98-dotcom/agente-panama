@@ -341,9 +341,17 @@
    "carpeta": "Fomento del turismo deportivo (ficha 7976)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "7977": {
+   "carpeta": "Control y supervisión del programa 120 a los 65 (ficha 7977)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
   "7978": {
    "carpeta": "Reforma a la Ley General de Artesanía Nacional (ficha 7978)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
+  "7981": {
+   "carpeta": "Requisitos para reformas al Reglamento Interno legislativo (ficha 7981)",
+   "comision": "Comisión de Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
   },
   "7986": {
    "carpeta": "Primeros auxilios obligatorios en centros educativos (ficha 7986)",
@@ -19203,6 +19211,20 @@
    "titulo": "QUE DESARROLLA Y FOMENTA EL TURISMO DEPORTIVO EN LA REPÚBLICA DE PANAMÁ"
   },
   "7977": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1Ux34GzoGPgbaQknUdVmL6a1gDAYNIjd9",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa se limita a la gestión pública de subsidios de asistencia social y a la tipificación penal de abusos cometidos por representantes legales, sin crear obligaciones, costos ni regulaciones para la actividad empresarial.",
+    "resumen": "El proyecto refuerza la supervisión y fiscalización del programa de asistencia social '120 a los 65'. Establece un Registro Nacional de Representantes Legales con rendición de cuentas semestral y exige al Tribunal Electoral remitir reportes mensuales de fallecidos para evitar cobros fraudulentos. Además, modifica el Código Penal para sancionar con prisión el desvío o apropiación indebida de estos subsidios.",
+    "sectores": [],
+    "titulo": "Que modifica la Ley 86 de 18 de noviembre de 2010, que crea el Programa Especial de Asistencia Económica para los Adultos Mayores de Setenta Años o más sin Jubilación ni Pensión, en condiciones de riesgo social, vulnerabilidad, marginación o pobreza, y subroga la Ley 44 de 2009",
+    "titulo_corto": "Control y supervisión del programa 120 a los 65"
+   },
    "anteproyecto": "97",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Primer Debate",
@@ -19316,6 +19338,20 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 11 DE 2011, GENERAL DE LA ARTESANIA NACIONAL, Y DICTA OTRAS DISPOSICIONES"
   },
   "7981": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1y_gNluSMePeMW2lXNw4miXihmS4NQb2W",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Se trata de una norma de funcionamiento puramente interno del Órgano Legislativo que no genera obligaciones, costos ni regulaciones para las empresas.",
+    "resumen": "Propone exigir a los diputados la aprobación obligatoria de un curso de técnica legislativa y formulación de leyes como requisito previo para poder presentar iniciativas que modifiquen el Reglamento Orgánico del Régimen Interno de la Asamblea Nacional. La medida aplica exclusivamente a los miembros del parlamento.",
+    "sectores": [],
+    "titulo": "Que adiciona parágrafo al numeral 5 del artículo 50 del Reglamento Orgánico del Régimen Interno de la Asamblea Nacional",
+    "titulo_corto": "Requisitos para reformas al Reglamento Interno legislativo"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE CREDENCIALES, REGLAMENTO, ETICA PARLAMENTARIA Y ASUNTOS JUDICIALES",
    "etapa": "Primer Debate",
@@ -47356,9 +47392,9 @@
   "7974": "d103c9a19804",
   "7975": "c25d85ae0bf9",
   "7976": "43159f2b4157",
-  "7977": "ac04206b7aa1",
+  "7977": "e60397340914",
   "7978": "a7273946cc1d",
-  "7981": "ef677cf8d8cd",
+  "7981": "d8b73945cd8b",
   "7983": "85ad8a83bb74",
   "7984": "7e7e8d58f38e",
   "7986": "60d0d73ea470",
@@ -48161,7 +48197,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-24T20:44:32",
+  "fecha": "2026-10-24T21:50:59",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -48745,7 +48781,7 @@
    "519",
    "520"
   ],
-  "revisada": "2026-10-24T20:45:04"
+  "revisada": "2026-10-24T21:51:29"
  },
- "ultima_corrida": "2026-10-24T20:44:32"
+ "ultima_corrida": "2026-10-24T21:50:59"
 }
