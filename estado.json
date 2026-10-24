@@ -365,6 +365,10 @@
    "carpeta": "Reforma a la Ley de Contratación Pública y Código Penal (ficha 7998)",
    "comision": "Comisión de Economía y Finanzas"
   },
+  "7999": {
+   "carpeta": "Derogación del contrato de Panama Canal Railway Company (ficha 7999)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
   "8000": {
    "carpeta": "Regulación del ejercicio de la fisioterapia y kinesiología (ficha 8000)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
@@ -376,6 +380,10 @@
   "8008": {
    "carpeta": "Requisitos para tesoreros de juntas comunales y municipios (ficha 8008)",
    "comision": "Comisión de Asuntos Municipales"
+  },
+  "8014": {
+   "carpeta": "Reforma a justicia comunitaria y Código Penal sobre reincidencia (ficha 8014)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
   "8022": {
    "carpeta": "Reforma a la ley del IMA y control de importaciones (ficha 8022)",
@@ -20017,6 +20025,33 @@
    "titulo": "QUE MODIFICA LA LEY 22 DE 2006, QUE REGULA LA CONTRATACION PUBLICA Y LA LEY 14 DE 2007, QUE ADOPTA EL CODIGO PENAL"
   },
   "7999": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Deroga la Ley 15 de 1998 y deja sin efecto el Contrato de Concesión N° 70 otorgado a Panama Canal Railway Company, incluyendo su prórroga hasta el año 2049.",
+     "Artículo 2: Ordena al Órgano Ejecutivo convocar a una licitación pública internacional para adjudicar una nueva concesión sobre el Ferrocarril del Canal de Panamá.",
+     "Artículo 3: Dispone la realización inmediata de una auditoría en materias de transporte, economía y derecho constitucional sobre las operaciones de Panama Canal Railway Company, cuyo informe en seis meses servirá de base para el nuevo pliego de licitación.",
+     "Artículo 4: Exige que el nuevo contrato de concesión que resulte del proceso de licitación sea sometido a la aprobación formal de la Asamblea Nacional."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1CV8I1gM8StnHnYRO4cVoayk0DDaK0bB2",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Cancela de forma directa la concesión vigente del ferrocarril interoceánico de carga y pasajeros y reabre la licitación de un activo logístico estratégico.",
+      "sector": "TRANSPORTE"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Afecta de raíz la operación y el marco legal del principal concesionario de transporte ferroviario e intermodal del país, sentando además un precedente crítico en materia de seguridad jurídica contractual para concesiones de infraestructura.",
+    "resumen": "Propone rescindir de forma legislativa la concesión otorgada a Panama Canal Railway Company para la operación y administración del ferrocarril interoceánico de Panamá y sus terminales intermodales, desconociendo su prórroga pactada hasta 2049.\nOrdena realizar una auditoría técnica, económica y constitucional a las operaciones actuales en un plazo de seis meses.\nInstruye al Órgano Ejecutivo a abrir una nueva licitación pública internacional para seleccionar a un nuevo operador del sistema ferroviario.",
+    "sectores": [
+     "TRANSPORTE"
+    ],
+    "titulo": "Que deroga la Ley No. 15 de 17 de febrero de 1998, que aprueba el Contrato entre el Estado y la sociedad de Panama Canal Railway Company, para desarrollar, construir, operar, administrar renovar, reconstruir, modificar y dirigir el Ferrocarril de Panamá y sus terminales intermodales",
+    "titulo_corto": "Derogación del contrato de Panama Canal Railway Company"
+   },
    "anteproyecto": "119",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Primer Debate",
@@ -20696,6 +20731,20 @@
    "titulo": "QUE MODIFICA LA LEY 32 DE 2013, QUE CREA LA AUTORIDAD DE PASAPORTES DE PANAMA"
   },
   "8014": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1OBae_R2fm-YKfOOWds0VxPAvHt7p7dgB",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No establece obligaciones, trámites, tributos ni sanciones aplicables a la gestión empresarial; se limita a reformar competencias procesales penales y comunitarias para sancionar la reincidencia delictiva común.",
+    "resumen": "La iniciativa propone remitir a la jurisdicción penal ordinaria los casos de hurto, estafa, apropiación indebida y daños menores de B/. 1,000.00 cuando exista reincidencia, excluyéndolos de la justicia de paz. Asimismo, reduce de B/. 100,000.00 a B/. 10,000.00 el umbral patrimonial para la estafa agravada y dispone la creación de un sistema digital interconectado para registrar antecedentes correccionales.",
+    "sectores": [],
+    "titulo": "Que modifica artículos de la Ley 467 de 2025 que subroga la Ley 16 de 2016, que instituye la Justicia Comunitaria de Paz; de la Ley 29 de 1984, que adopta el Código Judicial; de la Ley 63 de 2008, que adopta el Código Procesal Penal; y de la Ley 14 de 2007, que adopta el Código Penal",
+    "titulo_corto": "Reforma a justicia comunitaria y Código Penal sobre reincidencia"
+   },
    "anteproyecto": "129",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Primer Debate",
@@ -47288,7 +47337,7 @@
   "7996": "f62aa82ae90e",
   "7997": "8eef966a3274",
   "7998": "f02b873e85ef",
-  "7999": "ebbef1df7646",
+  "7999": "bbbbdb85be27",
   "8000": "5653144e0155",
   "8001": "c4b2e6d2630a",
   "8002": "41ba7d4b48f0",
@@ -47302,7 +47351,7 @@
   "8011": "a0f2b4a16757",
   "8012": "c21ad3f535df",
   "8013": "81f8fadfabcc",
-  "8014": "2b9939b70e82",
+  "8014": "b406b485a02a",
   "8016": "c66704cd15c0",
   "8017": "0aacd4ccb1f2",
   "8019": "c39641b6cecb",
@@ -48067,6 +48116,7 @@
    "8073",
    "7811",
    "7491",
+   "7999",
    "7428",
    "7717",
    "7461",
@@ -48075,7 +48125,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-24T15:47:10",
+  "fecha": "2026-10-24T16:51:21",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -48126,6 +48176,7 @@
    "7991": "399fc6670871",
    "7992": "399fc6670871",
    "7998": "399fc6670871",
+   "7999": "399fc6670871",
    "8000": "399fc6670871",
    "8022": "399fc6670871",
    "8025": "399fc6670871",
@@ -48658,7 +48709,7 @@
    "519",
    "520"
   ],
-  "revisada": "2026-10-24T15:47:39"
+  "revisada": "2026-10-24T16:51:51"
  },
- "ultima_corrida": "2026-10-24T15:47:10"
+ "ultima_corrida": "2026-10-24T16:51:21"
 }
