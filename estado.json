@@ -493,6 +493,10 @@
    "carpeta": "Contratación de desarrollistas comunitarios en municipios (ficha 8136)",
    "comision": "Comisión de Asuntos Municipales"
   },
+  "8141": {
+   "carpeta": "Mercado de descuento de facturas certificadas y fideicomisos (ficha 8141)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
   "8144": {
    "carpeta": "Registro y prorrateo de cuotas de seguridad social (ficha 8144)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
@@ -25433,6 +25437,34 @@
    "titulo": "QUE ADICIONA UN ARTICULO AL CAPITULO III, DENOMINADO PRESUPUESTO DE GASTOS, DEL TITULO II SOBRE EL PRESUPUESTO DE RENTAS Y GASTOS DEL CODIGO FISCAL"
   },
   "8141": {
+   "analisis": {
+    "con_pdf": false,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1LpBxG_KOXiXUdfgsNYa6GVV21tBkKeMh",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Crea y regula un mercado formal de descuento de facturas y operaciones de factoring a través de fideicomisos autorizados.",
+      "sector": "FINANCIERO"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Brinda un mecanismo formal de financiamiento y liquidez inmediata mediante la cesión y descuento de cuentas por cobrar públicas y privadas.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Afecta de forma directa la estructuración de operaciones de crédito y fideicomiso en el sector financiero, además de habilitar una vía de liquidez para empresas proveedoras.",
+    "resumen": "Análisis basado solo en el título. La propuesta busca crear un mercado competitivo para el descuento de facturas certificadas, tanto públicas como privadas, utilizando fideicomisos autorizados para la cesión de cuentas por cobrar. La iniciativa pretende ofrecer herramientas de liquidez para contratistas y proveedores comerciales mediante esquemas estructurados de financiamiento.",
+    "sectores": [
+     "FINANCIERO",
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que crea el mercado competitivo de descuento de facturas certificadas públicas y privadas, mediante cesión de cuentas por cobrar a fideicomisos autorizados para la reactivación económica",
+    "titulo_corto": "Mercado de descuento de facturas certificadas y fideicomisos"
+   },
    "anteproyecto": "243",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Primer Debate",
@@ -46856,7 +46888,7 @@
   "8135": "900708b0a745",
   "8136": "ffd5d1a9d3a7",
   "8139": "3af15d03d0f8",
-  "8141": "9915c825b5f8",
+  "8141": "5d8e5472eeca",
   "8142": "682b33cec149",
   "8143": "9464ac2d8ee4",
   "8144": "22a52eb2b8aa",
@@ -47336,6 +47368,7 @@
    "8308",
    "8638",
    "8596",
+   "8141",
    "8277",
    "7532",
    "8586",
@@ -47514,7 +47547,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-24T07:06:59",
+  "fecha": "2026-10-24T07:53:57",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -47580,6 +47613,7 @@
    "8108": "399fc6670871",
    "8132": "399fc6670871",
    "8135": "399fc6670871",
+   "8141": "399fc6670871",
    "8144": "399fc6670871",
    "8148": "399fc6670871",
    "8149": "399fc6670871",
@@ -48083,7 +48117,7 @@
    "519",
    "520"
   ],
-  "revisada": "2026-10-24T07:07:27"
+  "revisada": "2026-10-24T07:54:28"
  },
- "ultima_corrida": "2026-10-24T07:06:59"
+ "ultima_corrida": "2026-10-24T07:53:57"
 }
