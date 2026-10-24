@@ -445,6 +445,14 @@
    "carpeta": "Marco legal para el fomento del biocomercio sostenible (ficha 8082)",
    "comision": "Comisión de Población, Ambiente y Desarrollo"
   },
+  "8083": {
+   "carpeta": "Fondo para jubilados con tasa a contenedores y telecomunicaciones (ficha 8083)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
+  "8091": {
+   "carpeta": "Uso de medios electrónicos en trámites gubernamentales (ficha 8091)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
   "8094": {
    "carpeta": "Electrificación total en distritos con hidroeléctricas (ficha 8094)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
@@ -453,6 +461,10 @@
    "carpeta": "Protección digital de menores en redes sociales (ficha 8095)",
    "comision": "Comisión de la Mujer, la Niñez y la Familia"
   },
+  "8099": {
+   "carpeta": "Etiquetado nutricional frontal y calorías en menús (ficha 8099)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
   "8100": {
    "carpeta": "Sistema Digital Universal de Créditos Académicos (ficha 8100)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -460,6 +472,10 @@
   "8101": {
    "carpeta": "Creación de juzgados administrativos de tránsito (ficha 8101)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "8102": {
+   "carpeta": "Regulación del reciclaje de aceite de cocina doméstico (ficha 8102)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
   "8107": {
    "carpeta": "Topes máximos a peajes en los Corredores Norte, Este y Sur (ficha 8107)",
@@ -23592,6 +23608,32 @@
    "titulo": "QUE ESTABLECE EL MARCO LEGAL PARA FOMENTO DEL BIOCOMERCIO SOSTENIBLE EN LA REPÚBLICA DE PANAMÁ Y SE DICTA OTRAS DISPOSICIONES"
   },
   "8083": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 5 (Texto Único): Establece un aporte de B/.1.50 por cada TEU que ingrese al país por puertos nacionales y autoriza al MEF y a la Autoridad Marítima de Panamá a reglamentar tasas o contribuciones especiales sobre la actividad portuaria y logística.",
+     "Artículos 7 y 8 (Texto Único): Dispone que el beneficio complementario es inembargable y no puede considerarse para el cálculo ni descuento de préstamos bancarios o comerciales.",
+     "Artículo 2 (Texto Original): Destinaba el 10% de los ingresos estatales derivados de contratos y concesiones de servicios de telecomunicaciones al fondo de IVM de la CSS."
+    ],
+    "drive": "https://drive.google.com/drive/folders/15Sb2hHf2mZakbU0MaJFifYKiOdkWerT0",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Crea un cobro obligatorio de B/.1.50 por TEU y autoriza nuevas tasas portuarias y logísticas que encarecen directamente las operaciones del sector marítimo y de carga.",
+      "sector": "TRANSPORTE"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El texto modificado en primer debate impone un nuevo costo tributario directo de B/.1.50 por TEU sobre la actividad portuaria y de comercio internacional, afectando a concesionarios portuarios, navieras y operadores logísticos.",
+    "resumen": "La propuesta original planteaba destinar el 10% de los ingresos de concesiones de telecomunicaciones al programa de IVM de la Caja de Seguro Social. Durante su trámite en primer debate, la comisión modificó integralmente el texto para crear un fondo que complemente pensiones menores a B/.600.00, financiándolo con una nueva tasa de B/.1.50 por contenedor (TEU) que ingrese a puertos panameños. Por incorporar esta carga portuaria sin suficiente consulta previa, el pleno devolvió el proyecto a primer debate en septiembre de 2026.",
+    "sectores": [
+     "TRANSPORTE"
+    ],
+    "titulo": "Que promueve que el 10% del producto de las concesiones en materia telecomunicaciones sea destinado para el financiamiento del Programa de Invalidez, Vejez y Muerte (IVM) de la Caja de Seguro Social",
+    "titulo_corto": "Fondo para jubilados con tasa a contenedores y telecomunicaciones"
+   },
    "anteproyecto": "189",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Primer Debate",
@@ -23749,6 +23791,32 @@
    "titulo": "QUE LIBERA LAS CONCESIONES DE TRANSPORTE PUBLICO TERRESTRE DE PASAJEROS."
   },
   "8091": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Adiciona numerales al artículo 4 de la Ley 83 de 2012 para obligar a las entidades públicas a simplificar, reducir requisitos y eliminar trámites administrativos redundantes mediante el uso de medios electrónicos.",
+     "Artículo 2: Modifica el artículo 20 de la Ley 83 de 2012 para implementar la pasarela de pago electrónico estatal (administrada por la AIG) para el cobro de obligaciones, tasas e impuestos, fijando paridad de costo entre trámites físicos y digitales (excepto comisiones financieras a cargo del usuario) y uso obligatorio de factura electrónica o recibos autorizados.",
+     "Artículo 3: Modifica el artículo 22-A de la Ley 83 de 2012 para prohibir que las entidades exijan trámites presenciales cuando exista alternativa electrónica, sancionando a funcionarios infractores con multas de hasta el 50% de su salario o despido."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1jsBMu_NNWJ6mHauSv1fSMfMjms8k0-Zm",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Facilita la gestión administrativa y el pago de obligaciones de las empresas ante el Estado mediante canales digitales, sin imponer nuevas cargas regulatorias ni tributos al sector privado.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Tiene un impacto general bajo de simplificación operativa, ya que agiliza gestiones y pagos gubernamentales para cualquier empresa e impide que las instituciones exijan trámites presenciales cuando existan opciones digitales.",
+    "resumen": "El proyecto busca acelerar la digitalización y simplificación de trámites ante entidades públicas panameñas. Dispone la creación de una pasarela de pago electrónico estatal a cargo de la AIG para impuestos y tasas, prohibiendo exigir comparecencia física o trabas presenciales cuando existan vías digitales. Asimismo, establece sanciones de hasta el 50% de salario y causales de despido para los funcionarios que entorpezcan la tramitación electrónica.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que modifica y adiciona a la Ley 83 de 9 de noviembre de 2012, que regula el uso de medios electrónicos para los trámites gubernamentales",
+    "titulo_corto": "Uso de medios electrónicos en trámites gubernamentales"
+   },
    "anteproyecto": "196",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Primer Debate",
@@ -24140,6 +24208,36 @@
    "titulo": "QUE MODIFICA UN ARTICULO DE LA LEY 99 DE 1998, PARA DENOMINAR GUNAYALA A LA COMARCA KUNA YALA Y DICTA OTRA DISPOSICION"
   },
   "8099": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2: Establece el ámbito de aplicación para alimentos nacionales e importados comercializados en Panamá y cadenas con más de cinco restaurantes con el mismo nombre y menú.",
+     "Artículo 5: Obliga a cadenas de restaurantes, cafeterías, locales de comida para llevar y plataformas de delivery a indicar el contenido calórico en menús, páginas web y aplicaciones.",
+     "Artículos 6 y 7: Definen los requisitos para mostrar la información calórica por porción y la obligación de incluir la declaración de requerimiento de 2,000 calorías diarias.",
+     "Artículos 9, 10 y 11: Mandan la incorporación de sellos octogonales negros de advertencia por exceso de sodio, azúcar, grasas totales, grasas saturadas y grasas trans según perfiles de la OPS.",
+     "Artículo 12: Obliga a incorporar leyendas precautorias específicas sobre exceso de cafeína o edulcorantes para consumo en menores de edad.",
+     "Artículo 14: Prohíbe incluir personajes infantiles, dibujos animados, celebridades, deportistas o mascotas en etiquetas de alimentos que lleven sellos de advertencia o edulcorantes.",
+     "Artículo 16: Faculta la imposición de sanciones por incumplimiento, que comprenden notificaciones de mejoras, multas económicas y la cancelación del Aviso de Operación."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1CKk3R0bGwo5Y-6qbZAoKAF9W0OT9EnOo",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Impone sellos octogonales de advertencia nutricional en empaques, prohíbe el uso de figuras infantiles en productos regulados y obliga a publicar calorías en menús y aplicaciones de cadenas de comida.",
+      "sector": "ALIMENTOS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea costos y obligaciones significativas de reformulación, rediseño de empaques y restricciones de mercadeo para la industria alimentaria, además de imponer el cálculo y rotulado calórico obligatorio a cadenas de restaurantes bajo sanción de pérdida del aviso de operación.",
+    "resumen": "Propone implementar un sistema obligatorio de sellos frontales de advertencia en alimentos procesados preenvasados que excedan límites de nutrientes críticos, restringiendo además el uso de personajes infantiles en sus empaques. Asimismo, exige a las cadenas de restaurantes con cinco o más sucursales y plataformas de entrega a domicilio mostrar el contenido calórico en sus menús y plataformas digitales. Afecta directamente a fabricantes, importadores y distribuidores de alimentos, así como a franquicias y comercios gastronómicos.",
+    "sectores": [
+     "ALIMENTOS"
+    ],
+    "titulo": "Que establece medidas que promuevan la alimentación saludable para la prevención de enfermedades no transmisibles y dicta otras normas",
+    "titulo_corto": "Etiquetado nutricional frontal y calorías en menús"
+   },
    "anteproyecto": "205",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Primer Debate",
@@ -24301,6 +24399,41 @@
    "titulo": "POR EL CUAL SE CREAN TRIBUNALES ADMINISTRATIVOS DE TRANSITO Y NUEVOS JUZGADOS DE TRANSITO A NIVEL NACIONAL"
   },
   "8102": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2, numeral 3: Incluye dentro del ámbito de aplicación a productores, importadores y distribuidores de aceite comestible para acciones de apoyo, educación y logística inversa.",
+     "Artículo 13: Exige a las empresas recolectoras y recicladoras de aceite doméstico inscribirse en un Registro Nacional de Gestores ante el MINSA y cumplir requisitos técnicos y ambientales.",
+     "Artículo 14: Establece la obligatoriedad de emitir manifiestos de recolección y mantener una cadena de custodia auditable del residuo.",
+     "Artículo 15: Limita el destino del aceite recuperado exclusivamente a usos no alimentarios, tales como biodiésel, jabones, velas y lubricantes.",
+     "Artículo 16: Regula condiciones de seguridad, rotulación de vehículos/tanques y protocolos de derrames para el transporte y almacenamiento intermedio.",
+     "Artículo 17: Obliga a productores, importadores y distribuidores a implementar al menos dos medidas entre ecoetiquetado QR, puntos de devolución, campañas educativas o esquemas de logística inversa."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1FQ7VashiN1QmB7FE4KETHZ0GucNEp2Vw",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Obliga a importadores, fabricantes y distribuidores de aceite vegetal comestible a costear e implementar medidas de corresponsabilidad, como ecoetiquetado QR, campañas o puntos de recolección.",
+      "sector": "ALIMENTOS"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Crea requisitos operativos, registros sanitarios obligatorios ante el MINSA y control de cadena de custodia para empresas de recolección, reciclaje y valorización de aceites usados.",
+      "sector": "INDUSTRIAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Genera nuevas obligaciones de cumplimiento y logística inversa para la cadena de comercialización de aceites comestibles, e impone requerimientos regulatorios y de trazabilidad a las empresas gestoras de residuos y reciclaje.",
+    "resumen": "Crea un régimen nacional para la separación, acopio, recolección y valorización industrial del aceite de cocina usado de origen domiciliario. Establece responsabilidades para los importadores, productores y distribuidores de aceite comestible en materia de logística inversa y ecoetiquetado, además de exigir permisos y trazabilidad a las empresas recicladoras y gestoras.",
+    "sectores": [
+     "ALIMENTOS",
+     "INDUSTRIAS"
+    ],
+    "titulo": "Que regula la disposición, reciclaje y valorización del aceite de cocina de uso doméstico en la República de Panamá",
+    "titulo_corto": "Regulación del reciclaje de aceite de cocina doméstico"
+   },
    "anteproyecto": "206",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Primer Debate",
@@ -46971,11 +47104,11 @@
   "8080": "844618eec7be",
   "8081": "e08d09f91443",
   "8082": "707fe743c0b9",
-  "8083": "49419714adc1",
+  "8083": "be6ea533d7f1",
   "8084": "264c891e0477",
   "8085": "628f1a40901b",
   "8088": "9f78b5d9782a",
-  "8091": "b45598126cc8",
+  "8091": "cff76dc0a4b5",
   "8092": "2787d2ce708d",
   "8093": "db57ec33704b",
   "8094": "0d43891e6452",
@@ -46983,10 +47116,10 @@
   "8096": "7f2a42572fb4",
   "8097": "e94f82790271",
   "8098": "759e0ce9e2f8",
-  "8099": "97ac0666be38",
+  "8099": "742f08133615",
   "8100": "38ccac56cd5d",
   "8101": "08a6b17a632c",
-  "8102": "faf899aebf3e",
+  "8102": "33120c593604",
   "8103": "755626707c26",
   "8104": "604a4f458ec4",
   "8105": "9556c95a885e",
@@ -47525,6 +47658,7 @@
    "8554",
    "7968",
    "7785",
+   "8083",
    "8471",
    "8567",
    "8522",
@@ -47587,6 +47721,7 @@
    "8000",
    "8238",
    "8397",
+   "8099",
    "8132",
    "8323",
    "7767",
@@ -47616,6 +47751,7 @@
    "8326",
    "8144",
    "8286",
+   "8102",
    "8296",
    "7756",
    "8257",
@@ -47662,6 +47798,7 @@
    "8022",
    "7714",
    "7419",
+   "8091",
    "7953",
    "7959",
    "8130",
@@ -47675,7 +47812,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-24T08:59:39",
+  "fecha": "2026-10-24T09:57:27",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -47737,7 +47874,11 @@
    "8077": "399fc6670871",
    "8079": "399fc6670871",
    "8082": "399fc6670871",
+   "8083": "399fc6670871",
+   "8091": "399fc6670871",
    "8094": "399fc6670871",
+   "8099": "399fc6670871",
+   "8102": "399fc6670871",
    "8107": "399fc6670871",
    "8108": "399fc6670871",
    "8130": "399fc6670871",
@@ -48248,7 +48389,7 @@
    "519",
    "520"
   ],
-  "revisada": "2026-10-24T09:00:11"
+  "revisada": "2026-10-24T09:57:59"
  },
- "ultima_corrida": "2026-10-24T08:59:39"
+ "ultima_corrida": "2026-10-24T09:57:27"
 }
