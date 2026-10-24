@@ -317,6 +317,10 @@
    "carpeta": "Estacionamientos en oficinas públicas arrendadas (ficha 7953)",
    "comision": "Comisión de Economía y Finanzas"
   },
+  "7956": {
+   "carpeta": "Reducción de sodio y etiquetado en alimentos procesados (ficha 7956)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
   "7959": {
    "carpeta": "Restricción a compra de bienes del Estado por funcionarios (ficha 7959)",
    "comision": "Comisión de Economía y Finanzas"
@@ -332,6 +336,10 @@
   "7971": {
    "carpeta": "Sanciones por cierre de caminos públicos y titulación indebida (ficha 7971)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "7972": {
+   "carpeta": "Permisos simplificados para estructuras temporales comerciales (ficha 7972)",
+   "comision": "Comisión de Asuntos Municipales"
   },
   "7974": {
    "carpeta": "Tutorías obligatorias en escuelas oficiales (ficha 7974)",
@@ -18314,6 +18322,33 @@
    "titulo": "POR LA CUAL SE ESTABLECE EL MARCO LEGAL PARA LA PROTECCION, ATENCION INTEGRAL Y REINSERCION SOCIAL DE LAS PERSONAS EN SITUACION DE CALLE, Y SE DICTAN OTRAS DISPOSICIONES"
   },
   "7956": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 3: Fija límites máximos específicos de sodio por cada 100 g o ml para pan común (400 mg), embutidos y fiambres (1,000 mg), sopas instantáneas (350 mg), snacks salados (800 mg) y quesos procesados (700 mg).",
+     "Artículo 4: Faculta al MINSA para revisar y reducir progresivamente los límites de sodio cada dos años mediante resolución.",
+     "Artículo 5: Exige la incorporación obligatoria de un sello visible en el empaque con la leyenda 'ALTO EN SODIO' a los productos que superen los límites fijados.",
+     "Artículo 6: Otorga potestad al MINSA para supervisar y sancionar los incumplimientos a la normativa."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1wEIU_yZPmMiEGbAZ3IMaJhp5DRpPghuJ",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Impone topes obligatorios al contenido de sodio por porción y exige sellos frontales de advertencia en empaques, forzando la reformulación técnica de productos y cambios de etiquetado.",
+      "sector": "ALIMENTOS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea obligaciones directas y costos significativos de reformulación y rotulado para las empresas que producen o comercializan alimentos procesados.",
+    "resumen": "Establece límites máximos obligatorios de sodio para alimentos procesados (pan, embutidos, sopas, snacks y quesos) producidos o elaborados en Panamá. Exige la inclusión de un sello frontal de advertencia ('ALTO EN SODIO') en los empaques de los productos que excedan dichos topes. Afecta directamente a fabricantes, procesadores e importadores de la industria alimentaria, obligándolos a reformular productos o modificar su etiquetado.",
+    "sectores": [
+     "ALIMENTOS"
+    ],
+    "titulo": "Que regula la reducción de sodio en alimentos procesados y promueve la salud cardiovascular en la República de Panamá",
+    "titulo_corto": "Reducción de sodio y etiquetado en alimentos procesados"
+   },
    "anteproyecto": "79",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Primer Debate",
@@ -18929,6 +18964,40 @@
    "titulo": "QUE ADICIONA ARTÍCULOS AL CÓDIGO PENAL"
   },
   "7972": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 3: Fija los límites del régimen simplificado a instalaciones de hasta 10 años, áreas de hasta 200 m², en terrenos privados o arrendados y con plan de desmontaje.",
+     "Artículo 4: Exige para el permiso municipal el aviso de operación, autorización previa de la Junta Comunal, planos por profesionales idóneos y certificación técnica de seguridad estructural.",
+     "Artículo 5: Ordena el desmontaje de la estructura en un plazo de 30 días calendario al vencer el permiso o solicitar prórroga única de 5 años.",
+     "Artículo 6: Obliga a presentar memoria técnica de cálculo y mantener certificaciones técnicas actualizadas cada 6 meses si se utilizan grúas o montacargas.",
+     "Artículos 8 y 9: Establece sanciones de B/. 500 a B/. 5,000 por operar sin permiso o con falsedad documental, y multas diarias de B/. 50 por retraso en el desmontaje con opción de retiro forzoso a costa del infractor."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1enr9akrWKMCeZpYFwN5tJ5i4WxdA0OzO",
+    "fecha_analisis": "2026-10-24",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Crea un procedimiento especial y requisitos técnicos de permisos de construcción municipal para estructuras modulares temporales de hasta 200 m².",
+      "sector": "CEMENTERAS"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Regula la habilitación de puntos de venta física para el comercio minorista en módulos temporales, exigiendo aval comunitario y fijando multas de hasta B/. 5,000.",
+      "sector": "OTROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea un marco regulatorio municipal específico para la instalación y retiro de módulos comerciales temporales, reduciendo trabas para operar pero imponiendo nuevos requisitos técnicos y sanciones.",
+    "resumen": "Establece un régimen simplificado ante las Direcciones de Ingeniería Municipal para la instalación de estructuras comerciales temporales o modulares de hasta 200 m² y por un plazo máximo de 10 años. Exige planos firmados por idóneos, aval de la Junta Comunal, plan de desmontaje y certificaciones técnicas de seguridad. Afecta a comerciantes minoristas, emprendedores y al sector de diseño y construcción de infraestructuras comerciales modulares.",
+    "sectores": [
+     "CEMENTERAS",
+     "OTROS"
+    ],
+    "titulo": "Por el cual se establece un régimen simplificado para los permisos de estructura temporales comerciales en la República de Panamá.",
+    "titulo_corto": "Permisos simplificados para estructuras temporales comerciales"
+   },
    "anteproyecto": "93",
    "comision": "COMISION DE ASUNTOS MUNICIPALES",
    "etapa": "Primer Debate",
@@ -47394,7 +47463,7 @@
   "7952": "b99a6d41e800",
   "7953": "171536fc1702",
   "7955": "02e7f8175b9e",
-  "7956": "34cdbe24c8a8",
+  "7956": "1ac189e7dd06",
   "7958": "25f4d5a167c9",
   "7959": "a78e15bfd8f4",
   "7961": "7cf5880652ef",
@@ -47405,7 +47474,7 @@
   "7969": "39b54c8df1f1",
   "7970": "b55d8cbdbf34",
   "7971": "91a0de1f2fa0",
-  "7972": "ff0e5bfae406",
+  "7972": "33fe0d69472f",
   "7973": "1d3c1c8c00a2",
   "7974": "d103c9a19804",
   "7975": "6eec1e030b29",
@@ -48199,6 +48268,7 @@
    "7959",
    "8130",
    "8062",
+   "7956",
    "8036",
    "8043",
    "8044",
@@ -48208,6 +48278,7 @@
    "7491",
    "7999",
    "7428",
+   "7972",
    "7717",
    "7461",
    "7650",
@@ -48215,7 +48286,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-24T22:46:57",
+  "fecha": "2026-10-24T23:43:09",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -48258,9 +48329,11 @@
    "7936": "399fc6670871",
    "7939": "399fc6670871",
    "7953": "399fc6670871",
+   "7956": "399fc6670871",
    "7959": "399fc6670871",
    "7968": "399fc6670871",
    "7969": "399fc6670871",
+   "7972": "399fc6670871",
    "7976": "399fc6670871",
    "7978": "399fc6670871",
    "7991": "399fc6670871",
@@ -48799,7 +48872,7 @@
    "519",
    "520"
   ],
-  "revisada": "2026-10-24T22:47:42"
+  "revisada": "2026-10-24T23:43:42"
  },
- "ultima_corrida": "2026-10-24T22:46:57"
+ "ultima_corrida": "2026-10-24T23:43:09"
 }
