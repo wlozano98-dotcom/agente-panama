@@ -106,9 +106,21 @@ def sincronizar(estado, ag):
     for i in range(0, len(con_impacto), 90):  # el análisis nuevo reemplaza al anterior
         d1.ejecutar_varias(f"DELETE FROM impactos WHERE ficha IN ({','.join(con_impacto[i:i + 90])})")
     d1.insertar_muchas("impactos", ["ficha", "sector", "nivel", "razon", "actualizado"], impactos)
+    # Proponentes: solo se borra y escribe lo que de verdad cambió (antes se reescribía cada ficha tocada y un cambio
+    # de etapa en cientos de fichas agotó el límite diario gratis de escrituras de D1, 2026-10-25). Leer es gratis.
     fichas_tocadas = [str(int(f)) for f, _ in tocadas]
+    actuales = set()
     for i in range(0, len(fichas_tocadas), 90):
-        d1.ejecutar_varias(f"DELETE FROM proponentes WHERE ficha IN ({','.join(fichas_tocadas[i:i + 90])})")
+        for x in d1.consulta(f"SELECT ficha, nombre, tipo, principal, orden FROM proponentes WHERE ficha IN "
+                             f"({','.join(fichas_tocadas[i:i + 90])})"):
+            actuales.add((int(x["ficha"]), x["nombre"], x["tipo"], int(x["principal"] or 0), int(x["orden"] or 0)))
+    nuevos = {tuple(p) for p in proponentes}
+    sobran = sorted(actuales - nuevos)
+    for i in range(0, len(sobran), 45):  # la clave es (ficha, nombre); máximo 100 parámetros por sentencia
+        grupo = sobran[i:i + 45]
+        d1.consulta("DELETE FROM proponentes WHERE " + " OR ".join(["(ficha = ? AND nombre = ?)"] * len(grupo)),
+                    [v for f, n, *_ in grupo for v in (f, n)])
+    proponentes = [list(p) for p in sorted(nuevos - actuales)]
     d1.insertar_muchas("proponentes", ["ficha", "nombre", "tipo", "principal", "orden"], proponentes)
     for ficha, h in tocadas:
         huellas[ficha] = h
