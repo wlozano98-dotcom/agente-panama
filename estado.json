@@ -137,6 +137,10 @@
    "carpeta": "Tipificación de delitos contra la seguridad alimentaria (ficha 7659)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
+  "7683": {
+   "carpeta": "Sanción penal por paralización y deterioro de obras públicas (ficha 7683)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
   "7694": {
    "carpeta": "Programa de cine educativo y teatro en comunidades rurales (ficha 7694)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -10229,6 +10233,32 @@
    "titulo": "QUE ESTABLECE EL MARCO REGULATORIO PARA LA GESTION INTEGRADA DE LOS RECURSOS HIDRICOS DE LA REPUBLICA DE PANAMA"
   },
   "7683": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1 (adiciona Art. 350-A al Código Penal): sanciona con 3 a 8 años de prisión al servidor público que teniendo partidas disponibles permita el retiro significativo, abandono o destrucción de una obra licitada.",
+     "Artículo 2 (adiciona Art. 350-B al Código Penal): establece pena de 12 a 15 años de prisión al servidor público cuya falta de supervisión cause la paralización, encarecimiento o abandono de obras públicas.",
+     "Artículo 3 (adiciona Art. 350-C al Código Penal): exime de responsabilidad penal si la paralización o deterioro se debe a fuerza mayor o caso fortuito."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1tZCAUk2PpLXsOt-JXIV1sSSl5FFr4MZ9",
+    "fecha_analisis": "2026-10-25",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Incide indirectamente en contratistas de obra pública por una supervisión más rígida y posibles controversias en suspensiones o prórrogas de contratos estatales.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Las sanciones penales van dirigidas a servidores públicos y no a empresas privadas, aunque genera un efecto indirecto en las empresas contratistas del Estado por el manejo operativo de proyectos de infraestructura pública.",
+    "resumen": "Propone tipificar como delito en el Código Penal la paralización, abandono, destrucción o deterioro de obras públicas con fondos estatales. Establece penas de prisión para servidores públicos que tengan asignados los fondos o el deber de supervisión y permitan el abandono o encarecimiento de proyectos licitados, con eximentes por caso fortuito o fuerza mayor.",
+    "sectores": [
+     "CEMENTERAS"
+    ],
+    "titulo": "Que adiciona disposiciones al Código Penal, relativas a la paralización y deterioro de obras públicas",
+    "titulo_corto": "Sanción penal por paralización y deterioro de obras públicas"
+   },
    "anteproyecto": "233",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Primer Debate",
@@ -49417,5 +49447,5 @@
   ],
   "revisada": "2026-10-25T08:05:01"
  },
- "ultima_corrida": "2026-10-25T20:51:00"
+ "ultima_corrida": "2026-10-25T21:48:32"
 }
