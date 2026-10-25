@@ -1,5 +1,5 @@
 {
- "comisiones_revisadas": "2026-10-25T13:48:58",
+ "comisiones_revisadas": "2026-10-25T20:47:20",
  "drive": {
   "7404": {
    "carpeta": "Obligatoriedad de educación media y preescolar (ficha 7404)",
@@ -140,6 +140,10 @@
   "7694": {
    "carpeta": "Programa de cine educativo y teatro en comunidades rurales (ficha 7694)",
    "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "7699": {
+   "carpeta": "Incentivos para el uso de biobardas en ríos (ficha 7699)",
+   "comision": "Comisión de Población, Ambiente y Desarrollo"
   },
   "7701": {
    "carpeta": "Política integral contra el acoso escolar y social (ficha 7701)",
@@ -10722,6 +10726,32 @@
    "titulo": "QUE MODERNIZA LA CARRERA DIPLOMATICA Y CONSULAR, Y FOMENTA LA PROFESIONALIZACION DE LOS FUNCIONARIOS QUE LA INTEGRAN Y DICTA OTRAS DISPOSICIONES"
   },
   "7699": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 10: Permite deducir hasta el 100% del gasto en biobardas del impuesto sobre la renta (con un límite de hasta el 10% de la renta neta gravable) y exonera del ITBMS las compras de materiales, equipos y servicios destinados exclusivamente a estos proyectos.",
+     "Artículo 12: Exige a las empresas interesadas en los incentivos inscribirse en un registro especial coordinado entre el Ministerio de Ambiente y la Dirección General de Ingresos (DGI).",
+     "Artículo 13: Establece la fiscalización de los fondos por MiAmbiente y la DGI, obligando a restituir las deducciones fiscales y enfrentar sanciones si se detectan irregularidades."
+    ],
+    "drive": "https://drive.google.com/drive/folders/120O7J3q1P0KPMd2gF6VMYW97uSsHzLv_",
+    "fecha_analisis": "2026-10-25",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Establece incentivos tributarios voluntarios y condicionados para empresas de cualquier sector que financien biobardas mediante programas de responsabilidad social.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es bajo y voluntario, pues no crea cargas obligatorias ni modifica regulaciones sectoriales sustantivas, limitándose a conceder beneficios tributarios (ISR e ITBMS) a empresas que inviertan en proyectos de biobardas.",
+    "resumen": "El proyecto propone promover la instalación de biobardas en ríos para frenar la llegada de desechos a los mares. A las empresas que destinen fondos a estos proyectos en el marco de su responsabilidad social empresarial, les otorga deducciones en el impuesto sobre la renta y exoneración de ITBMS en la compra de insumos, sujeto a registro y supervisión estatal.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que promueve e incentiva el uso de biobardas en los ríos con desembocadura en el mar dentro del territorio de la República de Panamá",
+    "titulo_corto": "Incentivos para el uso de biobardas en ríos"
+   },
    "anteproyecto": "242",
    "comision": "COMISION DE POBLACION, AMBIENTE Y DESARROLLO",
    "etapa": "Primer Debate",
@@ -49387,5 +49417,5 @@
   ],
   "revisada": "2026-10-25T08:05:01"
  },
- "ultima_corrida": "2026-10-25T19:43:28"
+ "ultima_corrida": "2026-10-25T20:51:00"
 }
