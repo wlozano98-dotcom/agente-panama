@@ -1,5 +1,5 @@
 {
- "comisiones_revisadas": "2026-10-25T07:00:36",
+ "comisiones_revisadas": "2026-10-25T13:48:58",
  "drive": {
   "7404": {
    "carpeta": "Obligatoriedad de educación media y preescolar (ficha 7404)",
@@ -232,6 +232,10 @@
   "7824": {
    "carpeta": "Sistema de Matrícula Escolar Digital (ficha 7824)",
    "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "7825": {
+   "carpeta": "Reforma a la ley del IPACOOP (ficha 7825)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
   },
   "7829": {
    "carpeta": "Reforma al impuesto de degüello y traslado de ganado (ficha 7829)",
@@ -14691,6 +14695,32 @@
    "titulo": "QUE CREA EL SISTEMA DE MATRICULA ESCOLAR DIGITAL EN LA REPUBLICA DE PANAMA"
   },
   "7825": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Modifica el artículo 4 de la Ley 24 de 1980, reestructurando la Junta Directiva del IPACOOP con presencia del MEF, MIDA, MICI y representantes de federaciones cooperativas.",
+     "Artículo 4 y 5: Modifica el artículo 8 y añade el artículo 8-A a la Ley 24 de 1980, estableciendo requisitos técnicos, de idoneidad y causales formales de remoción para el Director Ejecutivo.",
+     "Artículo 8: Añade los artículos 13-A y 13-B a la Ley 24 de 1980, obligando a las cooperativas a remitir información financiera, patrimonial y de prevención de blanqueo en máximo 15 días, y ordenando su publicación anual por parte del IPACOOP."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1vSO185jA_nw8K0MEkr58YD77K5MM7Mp1",
+    "fecha_analisis": "2026-10-25",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Crea deberes de reporte en plazos breves y somete a mayor fiscalización y publicidad de datos a las cooperativas de ahorro y crédito.",
+      "sector": "FINANCIERO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Impacta al sector de cooperativas de intermediación financiera mediante nuevas facultades de supervisión, requerimientos de información en 15 días y divulgación anual de sus estados financieros y operativos.",
+    "resumen": "Reorganiza la gobernanza del Instituto Panameño Autónomo Cooperativo (IPACOOP), redefiniendo su Junta Directiva y fijando requisitos estrictos para el Director Ejecutivo. Además, faculta a la institución a requerir información financiera y operativa a las cooperativas en un plazo perentorio de 15 días y ordena la publicación anual de estos datos.",
+    "sectores": [
+     "FINANCIERO"
+    ],
+    "titulo": "Que modifica y adiciona artículos a la Ley 24 de 1980, que crea el Instituto Panameño Autónomo Cooperativo, y dicta otras disposiciones",
+    "titulo_corto": "Reforma a la ley del IPACOOP"
+   },
    "anteproyecto": "351",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Primer Debate",
@@ -49295,5 +49325,5 @@
   ],
   "revisada": "2026-10-25T08:05:01"
  },
- "ultima_corrida": "2026-10-25T11:53:23"
+ "ultima_corrida": "2026-10-25T13:53:13"
 }
