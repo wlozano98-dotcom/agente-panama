@@ -141,6 +141,10 @@
    "carpeta": "Sanción penal por paralización y deterioro de obras públicas (ficha 7683)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
+  "7684": {
+   "carpeta": "Regulación de los Comités de Salud comunitarios (ficha 7684)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
   "7694": {
    "carpeta": "Programa de cine educativo y teatro en comunidades rurales (ficha 7694)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -10297,6 +10301,23 @@
    "titulo": "QUE ADICIONA DISPOSICIONES AL CODIGO PENAL, RELATIVAS A LA PARALIZACION Y DETERIORO DE OBRAS PUBLICAS"
   },
   "7684": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 72: Exonera a los Comités de Salud y sus bienes del pago del Impuesto de Transferencia de Bienes Corporales Muebles y la Prestación de Servicios (ITBMS).",
+     "Artículo 73: Dispone que las donaciones que efectúen personas naturales o jurídicas a los Comités de Salud serán deducibles del Impuesto sobre la Renta (ISR)."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1C-m9zYWv3yF1LRbgMQDxsAqcrN8YieOW",
+    "fecha_analisis": "2026-10-25",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No impone regulaciones, cargas ni obligaciones sobre las empresas privadas, ya que su alcance es estrictamente de gestión comunitaria y administrativa para centros de salud públicos.",
+    "resumen": "El proyecto establece el régimen legal para la organización, gobernanza, funcionamiento y fiscalización de los Comités de Salud vinculados a los centros de salud del Ministerio de Salud (MINSA). Regula la participación comunitaria, la elección de juntas directivas y la administración de sus fondos, derogando el Decreto de Gabinete 401 de 1970. Afecta a las comunidades locales y a la estructura sanitaria pública.",
+    "sectores": [],
+    "titulo": "Que establece y regula los Comités de Salud de las comunidades y deroga el Decreto de Gabinete 401 de 1970",
+    "titulo_corto": "Regulación de los Comités de Salud comunitarios"
+   },
    "anteproyecto": "234",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Primer Debate",
@@ -49447,5 +49468,5 @@
   ],
   "revisada": "2026-10-25T08:05:01"
  },
- "ultima_corrida": "2026-10-25T22:47:48"
+ "ultima_corrida": "2026-10-25T23:43:29"
 }
