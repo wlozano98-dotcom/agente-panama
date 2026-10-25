@@ -237,6 +237,10 @@
    "carpeta": "Reforma al impuesto de degüello y traslado de ganado (ficha 7829)",
    "comision": "Comisión de Asuntos Municipales"
   },
+  "7838": {
+   "carpeta": "Incentivos para compra de viviendas usadas (ficha 7838)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
   "7840": {
    "carpeta": "Respaldo económico a microempresarios del turismo (ficha 7840)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
@@ -15040,6 +15044,39 @@
    "titulo": "QUE MODIFICA, ADICIONA Y DEROGA DISPOSICIONES DE LA LEY 9 DE 1 DE MARZO DE 2006, CON EL OBJETIVO DE RESTAURAR Y CONSERVAR LAS POBLACIONES DE TIBURONES Y RAYAS EN LA REPUBLICA DE PANAMA"
   },
   "7838": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 3: Fija condiciones para acceder al subsidio (primer inmueble del prestatario, gravamen inscrito en Registro Público, una sola vez por beneficiario y aplicable a nacionales o residentes permanentes).",
+     "Artículo 4: Establece una tasa de interés preferencial con un diferencial del 2% para créditos hipotecarios de viviendas usadas de hasta B/.300,000.00 a un plazo máximo de 10 años.",
+     "Artículo 5: Modifica el artículo 766 del Código Fiscal fijando tarifa de 0.00% de IBI para patrimonio familiar o vivienda principal entre B/.0.00 y B/.300,000.00, y 0.50% de B/.300,000.00 a B/.700,000.00.",
+     "Artículo 6: Adiciona el artículo 4-A a la Ley 106 de 1974 estableciendo un impuesto de transferencia de bienes inmuebles del 3% sobre compraventas de viviendas usadas que no superen B/.300,000.00."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1nCsf5jy-hVmnjpdDm5zn8D3BOh0p7LnU",
+    "fecha_analisis": "2026-10-25",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Crea una nueva categoría de préstamos hipotecarios preferenciales para viviendas usadas de hasta B/.300,000.00, afectando la estructuración de créditos y márgenes bancarios.",
+      "sector": "FINANCIERO"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Modifica la tributación de compraventa residencial (IBI y transferencia) e impulsa la demanda de vivienda usada en competencia con el desarrollo de vivienda nueva.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Afecta de forma directa las operaciones de crédito hipotecario de la banca e introduce cambios tributarios significativos en las transacciones de compraventa de bienes inmuebles residenciales.",
+    "resumen": "Propone crear un régimen de interés preferencial con un diferencial del 2% a diez años para la compra de primera vivienda usada de hasta B/.300,000.00. Asimismo, eleva a B/.300,000.00 la exención total del impuesto de inmuebles para patrimonio familiar o vivienda principal y fija un impuesto del 3% a las transferencias de estas propiedades. Afecta directamente a las entidades bancarias hipotecarias y a los actores del mercado inmobiliario residencial.",
+    "sectores": [
+     "FINANCIERO",
+     "CEMENTERAS"
+    ],
+    "titulo": "Que crea incentivos económicos para facilitar la adquisición de viviendas usadas o de segunda mano y dicta otras disposiciones",
+    "titulo_corto": "Incentivos para compra de viviendas usadas"
+   },
    "anteproyecto": "362",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Primer Debate",
@@ -49227,5 +49264,5 @@
   ],
   "revisada": "2026-10-25T08:05:01"
  },
- "ultima_corrida": "2026-10-25T09:08:02"
+ "ultima_corrida": "2026-10-25T09:49:33"
 }
