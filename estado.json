@@ -241,6 +241,22 @@
    "carpeta": "Respaldo económico a microempresarios del turismo (ficha 7840)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
   },
+  "7843": {
+   "carpeta": "Ley de amnistía por delitos políticos (ficha 7843)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "7853": {
+   "carpeta": "Reforma al Reglamento Interno de la Asamblea Nacional (ficha 7853)",
+   "comision": "Comisión de Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
+  },
+  "7854": {
+   "carpeta": "Protección laboral para diputados suplentes en el Estado (ficha 7854)",
+   "comision": "Comisión de Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
+  },
+  "7855": {
+   "carpeta": "Regulación del voto de censura a ministros de Estado (ficha 7855)",
+   "comision": "Comisión de Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
+  },
   "7879": {
    "carpeta": "Garantía de servicio eléctrico a pacientes electrodependientes (ficha 7879)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
@@ -15200,6 +15216,25 @@
    "titulo": "QUE CREA LA RUTA DEL TRAPICHE"
   },
   "7843": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Concede amnistía general a personas condenadas o procesadas en los casos New Business, Odebrecht y Blue Apple por blanqueo de capitales y enriquecimiento injustificado.",
+     "Artículo 2: Ordena la inmediata liberación, extinción de penas y levantamiento de medidas cautelares para las causas abarcadas.",
+     "Artículo 3: Define legalmente el delito político en el contexto de investigaciones penal-gubernamentales realizadas entre julio de 2010 y junio de 2015.",
+     "Artículo 4: Adiciona el artículo 207-A a la Ley 49 de 1984 sobre el procedimiento de sanción y promulgación de leyes por la Asamblea Nacional ante el silencio del Ejecutivo."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1ANlDggHW51jwwRaLb84cAGMyxSjgHL7u",
+    "fecha_analisis": "2026-10-25",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.5-flash",
+    "razon": "El proyecto norma sobre materia penal y procesal relativa a expedientes judiciales específicos, por lo que no establece regulaciones, tributos ni cargas operativas aplicables directamente al sector empresarial.",
+    "resumen": "El proyecto propone conceder amnistía general a personas procesadas o condenadas en los casos conocidos como New Business, Odebrecht y Blue Apple por delitos de blanqueo de capitales y enriquecimiento injustificado. Asimismo, establece una definición de delito político enfocada en procesos contra exfuncionarios y contratistas del periodo 2010-2015, y modifica el trámite de promulgación de leyes por la Asamblea Nacional.",
+    "sectores": [],
+    "titulo": "Que decreta amnistía por delitos políticos y dicta otras disposiciones relacionadas con la amnistía",
+    "titulo_corto": "Ley de amnistía por delitos políticos"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Primer Debate",
@@ -15553,6 +15588,20 @@
    "titulo": "QUE CREA EL PATRONATO DEL CENTRO DE ARTE Y CULTURA DE COLON"
   },
   "7853": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1alQGjbs6M8NyzWIo7orQtWxcCqM13amh",
+    "fecha_analisis": "2026-10-25",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No genera impacto sobre las empresas ni el sector privado, ya que su alcance es estrictamente interno y administrativo para el funcionamiento del personal de la Asamblea Nacional.",
+    "resumen": "La iniciativa propone modificar los artículos 36, 37 y 38 del Reglamento Interno de la Asamblea Nacional en materia de gestión de recursos humanos.\nEstablece evaluaciones de desempeño semestrales para el personal legislativo, cuya reprobación causará destitución.\nAsimismo, aclara que el personal de despacho de los diputados es transitorio, no ingresa a la carrera legislativa y su asistencia es responsabilidad directa de cada diputado.",
+    "sectores": [],
+    "titulo": "Que reforma artículos del Texto Único de la Ley 49 de 1984 que adopta el Reglamento Orgánico del Régimen Interno de la Asamblea Nacional",
+    "titulo_corto": "Reforma al Reglamento Interno de la Asamblea Nacional"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE CREDENCIALES, REGLAMENTO, ETICA PARLAMENTARIA Y ASUNTOS JUDICIALES",
    "etapa": "Primer Debate",
@@ -15576,6 +15625,20 @@
    "titulo": "QUE REFORMA ARTICULOS DEL TEXTO UNICO DE LA LEY 49 DE 1984 \"QUE ADOPTA EL REGLAMENTO ORGANICO DEL REGIMEN INTERNO DE LA ASAMBLEA NACIONAL"
   },
   "7854": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1VkDxGZ-XzlMx1fzgoA2brAT7YIVc8up3",
+    "fecha_analisis": "2026-10-25",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No tiene impacto para el sector empresarial. Regula estrictamente temas de administración pública interna y condiciones laborales de los diputados suplentes en el Estado.",
+    "resumen": "Propone otorgar estabilidad laboral en el sector público a los diputados suplentes durante el periodo para el cual fueron electos, impidiendo su despido o traslado injustificado. Además, autoriza su nombramiento administrativo dentro de la Asamblea Nacional y el uso de licencias sin sueldo cuando deban sustituir al diputado principal.",
+    "sectores": [],
+    "titulo": "Que modifica el Texto Único de la Ley 49 de 1984, que adopta el Reglamento Orgánico del Régimen Interno de la Asamblea Nacional",
+    "titulo_corto": "Protección laboral para diputados suplentes en el Estado"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE CREDENCIALES, REGLAMENTO, ETICA PARLAMENTARIA Y ASUNTOS JUDICIALES",
    "etapa": "Primer Debate",
@@ -15599,6 +15662,20 @@
    "titulo": "QUE MODIFICA EL TEXTO UNICO DE LA LEY 49 DE 1984, QUE ADOPTA EL REGLAMENTO ORGANICO DEL REGIMEN INTERNO DE LA ASAMBLEA NACIONAL"
   },
   "7855": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/11-luHHmVW_Rz1tXmj4jAW-hegSc5uDCa",
+    "fecha_analisis": "2026-10-25",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Es una iniciativa de orden estrictamente político e institucional que regula el funcionamiento interno de la Asamblea Nacional y el control parlamentario sobre ministros, sin impacto normativo ni operativo sobre las empresas.",
+    "resumen": "El proyecto propone regular el procedimiento y los efectos jurídicos del voto de censura contra ministros de Estado dentro del Reglamento Interno de la Asamblea Nacional. Establece los requisitos de presentación, debate y citación del ministro censurable, y dispone que, de ser aprobado por dos terceras partes del pleno, se comunicará al Órgano Ejecutivo para proceder con un nuevo nombramiento. Regula exclusivamente las relaciones de control político entre el Legislativo y el Ejecutivo.",
+    "sectores": [],
+    "titulo": "Que adiciona un Capítulo Nuevo al Título X de la Ley 49 de 1984 que adopta el Reglamento Orgánico del Régimen Interno de la Asamblea Nacional, para desarrollar la función administrativa del voto de censura en la República de Panamá",
+    "titulo_corto": "Regulación del voto de censura a ministros de Estado"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE CREDENCIALES, REGLAMENTO, ETICA PARLAMENTARIA Y ASUNTOS JUDICIALES",
    "etapa": "Primer Debate",
@@ -49150,5 +49227,5 @@
   ],
   "revisada": "2026-10-25T08:05:01"
  },
- "ultima_corrida": "2026-10-25T08:04:24"
+ "ultima_corrida": "2026-10-25T09:08:02"
 }
