@@ -237,6 +237,10 @@
    "carpeta": "Reforma al impuesto de degüello y traslado de ganado (ficha 7829)",
    "comision": "Comisión de Asuntos Municipales"
   },
+  "7831": {
+   "carpeta": "Sanciones a la captación ilícita de dinero y usura (ficha 7831)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
   "7838": {
    "carpeta": "Incentivos para compra de viviendas usadas (ficha 7838)",
    "comision": "Comisión de Economía y Finanzas"
@@ -14950,6 +14954,33 @@
    "titulo": "QUE MODIFICA UN ARTÍCULO DEL CÓDIGO PENAL"
   },
   "7831": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2: Modifica el artículo 248 del Código Penal para sancionar con 8 a 15 años de prisión la captación masiva de dinero o concesión habitual de préstamos sin autorización oficial.",
+     "Artículo 3: Adiciona el artículo 248-A al Código Penal para eximir a entidades reguladas y préstamos ocasionales sin lucro, e imponer penas de 3 a 6 años de prisión e inhabilitación financiera a infractores.",
+     "Artículo 4: Adiciona el artículo 248-B al Código Penal para sancionar con 5 a 10 años de prisión y multas la usura y el cobro de deudas prescritas mediante acoso, responsabilizando también a directivos y administradores.",
+     "Artículo 5: Adiciona el artículo 248-C al Código Penal para penalizar los préstamos masivos informales con 3 a 12 años de prisión según agravantes como usura o coacción."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1S8UEefxgIjIqCZ0_zzg-wdS1LGFsM6rl",
+    "fecha_analisis": "2026-10-25",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Establece responsabilidad penal directa a ejecutivos por tasas usurarias o cobro intimidatorio de deudas prescritas, y sanciona severamente la operación de prestamistas no regulados.",
+      "sector": "FINANCIERO"
+     }
+    ],
+    "modelo": "gemini-3.5-flash",
+    "razon": "Impacta al sector financiero y de cobranzas al introducir penas de prisión y multas para ejecutivos por cobros abusivos o usura, fortaleciendo además las sanciones a la intermediación no autorizada.",
+    "resumen": "El proyecto propone modificar el Código Penal para tipificar y endurecer las sanciones contra la captación ilícita de fondos, el otorgamiento de préstamos informales sin autorización, el cobro de intereses usurarios y la exigencia de deudas prescritas mediante intimidación o acoso. Exime a las entidades financieras reguladas y a los préstamos ocasionales sin lucro, pero atribuye responsabilidad penal directa a los administradores y directivos de empresas que faciliten o promuevan el cobro abusivo o usurario.",
+    "sectores": [
+     "FINANCIERO"
+    ],
+    "titulo": "Que modifica y adiciona artículos al Texto Único del Código Penal y se establecen medidas contra el delito de captación ilícita de recursos financieros del público y dicta otras disposiciones",
+    "titulo_corto": "Sanciones a la captación ilícita de dinero y usura"
+   },
    "anteproyecto": "355",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Primer Debate",
@@ -49264,5 +49295,5 @@
   ],
   "revisada": "2026-10-25T08:05:01"
  },
- "ultima_corrida": "2026-10-25T10:48:11"
+ "ultima_corrida": "2026-10-25T11:53:23"
 }
