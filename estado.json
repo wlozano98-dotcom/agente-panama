@@ -109,6 +109,14 @@
    "carpeta": "Política nacional de orientación vocacional (ficha 7622)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
+  "7634": {
+   "carpeta": "Escalafón salarial de abogados en el sector público (ficha 7634)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
+  "7635": {
+   "carpeta": "Regulación de la profesión de Tecnólogo Médico (ficha 7635)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
   "7638": {
    "carpeta": "Programa de Apoyo Educativo (ficha 7638)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -117,9 +125,17 @@
    "carpeta": "Transparencia en federaciones deportivas (ficha 7647)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "7649": {
+   "carpeta": "Modificaciones al programa B .120.00 a los 65 (ficha 7649)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
   "7650": {
    "carpeta": "Tipificación del contrabando y trasiego ilícito de alimentos (ficha 7650)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "7652": {
+   "carpeta": "Reforma a la Ley General de Adopciones (ficha 7652)",
+   "comision": "Comisión de la Mujer, la Niñez y la Familia"
   },
   "7654": {
    "carpeta": "Ley General de Deporte (ficha 7654)",
@@ -8874,6 +8890,20 @@
    "titulo": "POR LA CUAL SE ADSCRIBE EL INSTITUTO DE DEFENSA PUBLICA A LA DEFENSORIA DEL PUEBLO Y SE DICTAN OTRAS DISPOSICIONES PARA GARANTIZAR LA INDEPENDENCIA Y AUTONOMIA DE LOS DEFENSORES PUBLICOS"
   },
   "7634": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1Ciyxs5TTZhsAzDMGUMWpMkWXd1kLy31e",
+    "fecha_analisis": "2026-10-26",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa regula de forma exclusiva las condiciones laborales y remuneraciones de los abogados dentro de la administración pública, por lo que no impone obligaciones, costos ni cambios regulatorios para las empresas privadas.",
+    "resumen": "Propone regular el escalafón profesional y fijar una escala salarial para los abogados que laboran en el sector público panameño, estableciendo un salario base de B/. 2,500.00 mensuales y cinco categorías de clasificación según títulos académicos y años de servicio en el Estado. Afecta únicamente a la administración pública y a sus funcionarios legales.",
+    "sectores": [],
+    "titulo": "Que establece y regula el escalafón y la escala salarial de los abogados, al servicio de la Administración Pública",
+    "titulo_corto": "Escalafón salarial de abogados en el sector público"
+   },
    "anteproyecto": "196",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Primer Debate",
@@ -8902,6 +8932,33 @@
    "titulo": "QUE ESTABLECE Y REGULA EL ESCALAFON Y LA ESCALA SALARIAL DE LOS ABOGADOS, AL SERVICIO DE LA ADMINISTRACION PUBLICA"
   },
   "7635": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 4: Establece los requisitos obligatorios de nacionalidad, título universitario, certificación profesional e idoneidad para ejercer la profesión.",
+     "Artículo 8: Otorga al Comité Nacional de Tecnólogos Médicos la facultad de cooperar en la formulación de normas técnicas y administrativas para laboratorios clínicos públicos y privados.",
+     "Artículo 10: Establece que todo laboratorio de análisis clínico debe contar con un jefe técnico administrativo que sea tecnólogo médico idóneo.",
+     "Artículo 21: Obliga a las entidades de salud públicas y privadas a adoptar medidas de seguridad ocupacional y bioseguridad para los tecnólogos médicos."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1LLGYRB0cFGTg-MWd5pLGehx7bNrR2G_b",
+    "fecha_analisis": "2026-10-26",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Impone obligaciones directas a establecimientos y laboratorios clínicos privados, exigiendo un jefe técnico idóneo y el cumplimiento de normas de bioseguridad.",
+      "sector": "SALUD"
+     }
+    ],
+    "modelo": "gemini-3.5-flash",
+    "razon": "La propuesta impacta al sector de la salud privada al exigir requisitos de personal idóneo para la dirección técnica de laboratorios clínicos y el cumplimiento de estándares de bioseguridad ocupacional.",
+    "resumen": "Esta iniciativa actualiza la legislación de la profesión de tecnólogo médico en Panamá, subrogando la Ley 74 de 1978. Establece los requisitos de idoneidad, crea el Comité Nacional de Tecnólogos Médicos, regula el escalafón salarial para el sector público y establece la obligación para laboratorios clínicos públicos y privados de contar con jefaturas idóneas y cumplir con medidas de bioseguridad.",
+    "sectores": [
+     "SALUD"
+    ],
+    "titulo": "Que regula el ejercicio de la profesión del Tecnólogo Médico en la República de Panamá y dicta otras disposiciones",
+    "titulo_corto": "Regulación de la profesión de Tecnólogo Médico"
+   },
    "anteproyecto": "197",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Primer Debate",
@@ -9246,6 +9303,22 @@
    "titulo": "QUE DESPOLITIZA LAS FEDERACIONES DEPORTIVAS"
   },
   "7649": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Modifica el artículo 8 de la Ley 86 de 2010 para establecer que los aspirantes con terrenos o bienes inmuebles donde residan deberán ser evaluados socioeconómicamente antes de ser excluidos, e incluye la consulta de bases de datos públicas y privadas para verificar cuentas bancarias superiores a B/.250.00 y titularidad de bienes."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1fLWx4dupqeA_eJ_32KqQ1N56HsI2Iy9m",
+    "fecha_analisis": "2026-10-26",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.5-flash",
+    "razon": "La propuesta norma exclusivamente un programa asistencial del Estado para adultos mayores en pobreza extrema, sin imponer obligaciones regulatorias, fiscales ni operativas directas sobre las empresas.",
+    "resumen": "El proyecto modifica las fuentes de información y reglas de verificación para acceder al programa de subsidio estatal B/.120.00 a los 65. Establece que la posesión de vivienda o inmueble requerirá un estudio socioeconómico y médico previo antes de excluir al aspirante, y autoriza la consulta de bases de datos públicas y privadas. Afecta principalmente la administración del subsidio social del MIDES.",
+    "sectores": [],
+    "titulo": "Que modifica la Ley 86 de 2010, modificada por la Ley 15 de 2014 sobre el Programa B/.120.00 a los 65",
+    "titulo_corto": "Modificaciones al programa B/.120.00 a los 65"
+   },
    "anteproyecto": "209",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Primer Debate",
@@ -9364,6 +9437,20 @@
    "titulo": "QUE ADICIONA NORMAS AL CODIGO PENAL PARA SANCIONAR EL CONTRABANDO DE ALIMENTOS EN LA REPUBLICA DE PANAMA"
   },
   "7652": {
+   "analisis": {
+    "con_pdf": false,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1dFo0VXjA3hQ1YD4N9lqCsDr1Q01na3Jf",
+    "fecha_analisis": "2026-10-26",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.5-flash",
+    "razon": "La norma regula procesos de adopción y derecho familiar, sin generar tributos, trámites u obligaciones operativas ni laborales para las empresas.",
+    "resumen": "Análisis basado solo en el título. El proyecto propone modificaciones a la legislación vigente sobre adopciones en Panamá (Ley 46 de 2013). La iniciativa se circunscribe al ámbito del derecho de familia, la protección de la niñez y los trámites judiciales o administrativos correspondientes, sin impactar las regulaciones del sector empresarial.",
+    "sectores": [],
+    "titulo": "Que subroga disposiciones de la Ley 46 de 2013, General de Adopciones de la República de Panamá",
+    "titulo_corto": "Reforma a la Ley General de Adopciones"
+   },
    "anteproyecto": "211",
    "comision": "COMISION DE LA MUJER, LA NIÑEZ Y LA FAMILIA",
    "etapa": "Primer Debate",
@@ -47886,8 +47973,8 @@
   "7624": "8a389b8e51d2",
   "7625": "601d7115b864",
   "7627": "39c133fab280",
-  "7634": "f9af8d560034",
-  "7635": "b4d6676fb5d6",
+  "7634": "28ffdbbdec15",
+  "7635": "472ae5581bcd",
   "7636": "86b2514e6b2b",
   "7638": "b79aad45f757",
   "7641": "e4b4fe54b6ee",
@@ -47895,9 +47982,9 @@
   "7644": "cdffe5357991",
   "7645": "db8ab4a2386b",
   "7647": "8200a1ebf3ed",
-  "7649": "ecce556fbf93",
+  "7649": "d3b6dc19226a",
   "7650": "f7d8d95ef0c9",
-  "7652": "def1b68d9a89",
+  "7652": "6ce4972c056f",
   "7653": "7ea118ab1048",
   "7654": "9cc6909c26ac",
   "7655": "50ad4ded2f7e",
@@ -48911,12 +48998,13 @@
    "7743",
    "7825",
    "7831",
+   "7635",
    "7760",
    "7465",
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-26T05:52:22",
+  "fecha": "2026-10-26T07:18:59",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -48930,6 +49018,7 @@
    "7538": "399fc6670871",
    "7554": "399fc6670871",
    "7609": "399fc6670871",
+   "7635": "399fc6670871",
    "7650": "399fc6670871",
    "7655": "399fc6670871",
    "7656": "399fc6670871",
@@ -49515,7 +49604,7 @@
    "519",
    "520"
   ],
-  "revisada": "2026-10-26T05:52:51"
+  "revisada": "2026-10-26T07:19:26"
  },
- "ultima_corrida": "2026-10-26T05:52:22"
+ "ultima_corrida": "2026-10-26T07:18:59"
 }
