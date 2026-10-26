@@ -117,6 +117,10 @@
    "carpeta": "Regulación de la profesión de Tecnólogo Médico (ficha 7635)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
+  "7636": {
+   "carpeta": "Regulación y fomento de la actividad apícola (ficha 7636)",
+   "comision": "Comisión de Asuntos Agropecuarios"
+  },
   "7638": {
    "carpeta": "Programa de Apoyo Educativo (ficha 7638)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -8987,6 +8991,33 @@
    "titulo": "QUE REGULA EL EJERCICIO DE LA PROFESION DEL TECNOLOGO MEDICO EN LA REPUBLICA DE PANAMA"
   },
   "7636": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2 (adiciona Art. 22A a Ley 46 de 1999): Establece que la APA implementará un sistema de certificación de calidad y pruebas de laboratorio, exigiendo inspección anual para comercializar miel certificada.",
+     "Artículo 6 (adiciona Art. 22E a Ley 46 de 1999): Dispone la creación de ventanillas únicas y trámites digitales para simplificar la exportación de miel.",
+     "Artículo 12 (adiciona Art. 22I a Ley 46 de 1999): Prohíbe el uso de pesticidas y agroquímicos nocivos para las abejas dentro de las Zonas de Conservación Apícola que delimite el MIDA.",
+     "Artículo 16 (adiciona Art. 22H a Ley 46 de 1999): Faculta inspecciones sin previo aviso y obliga a los productores a mantener registros detallados de producción, procesamiento y ventas."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1W8E7GOd1E9iTUO4s0pX3heqqACAf5fzH",
+    "fecha_analisis": "2026-10-26",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Introduce un régimen de certificación anual, pruebas de laboratorio para etiquetado, controles de pureza y registros de producción para comercializadores de miel.",
+      "sector": "ALIMENTOS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Genera requisitos de certificación técnica, auditorías sin previo aviso y registros comerciales para las empresas del sector apícola, además de restringir agroquímicos en áreas designadas.",
+    "resumen": "La iniciativa reforma el marco normativo de la actividad apícola para regular la producción, calidad y comercialización de miel y derivados. Establece un sistema de certificación e inspección anual ante la Autoridad Panameña de Alimentos (APA), fija controles contra la adulteración y crea zonas de conservación apícola con restricciones al uso de agroquímicos. Afecta principalmente a apicultores, procesadores, comercializadores de miel y explotaciones agrícolas colindantes.",
+    "sectores": [
+     "ALIMENTOS"
+    ],
+    "titulo": "Que se adiciona capítulos y artículos a la Ley 46 de 31 de agosto de 1999, por la cual se regula la actividad apícola",
+    "titulo_corto": "Regulación y fomento de la actividad apícola"
+   },
    "anteproyecto": "198",
    "comision": "COMISION DE ASUNTOS AGROPECUARIOS",
    "etapa": "Primer Debate",
@@ -47975,7 +48006,7 @@
   "7627": "39c133fab280",
   "7634": "28ffdbbdec15",
   "7635": "472ae5581bcd",
-  "7636": "86b2514e6b2b",
+  "7636": "f107b406f060",
   "7638": "b79aad45f757",
   "7641": "e4b4fe54b6ee",
   "7642": "f9a3363a67ee",
@@ -49002,9 +49033,10 @@
    "7760",
    "7465",
    "7536",
-   "7538"
+   "7538",
+   "7636"
   ],
-  "fecha": "2026-10-26T07:18:59",
+  "fecha": "2026-10-26T08:12:46",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -49019,6 +49051,7 @@
    "7554": "399fc6670871",
    "7609": "399fc6670871",
    "7635": "399fc6670871",
+   "7636": "399fc6670871",
    "7650": "399fc6670871",
    "7655": "399fc6670871",
    "7656": "399fc6670871",
@@ -49604,7 +49637,7 @@
    "519",
    "520"
   ],
-  "revisada": "2026-10-26T07:19:26"
+  "revisada": "2026-10-26T08:13:14"
  },
- "ultima_corrida": "2026-10-26T07:18:59"
+ "ultima_corrida": "2026-10-26T08:12:46"
 }
