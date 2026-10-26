@@ -1,5 +1,5 @@
 {
- "comisiones_revisadas": "2026-10-25T20:47:20",
+ "comisiones_revisadas": "2026-10-26T02:54:42",
  "drive": {
   "7404": {
    "carpeta": "Obligatoriedad de educación media y preescolar (ficha 7404)",
@@ -136,6 +136,10 @@
   "7659": {
    "carpeta": "Tipificación de delitos contra la seguridad alimentaria (ficha 7659)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "7662": {
+   "carpeta": "Reforma a la custodia de registros contables y agentes residentes (ficha 7662)",
+   "comision": "Comisión de Economía y Finanzas"
   },
   "7683": {
    "carpeta": "Sanción penal por paralización y deterioro de obras públicas (ficha 7683)",
@@ -9858,6 +9862,35 @@
    "titulo": "QUE ADICIONA UN CAPITULO AL TITULO IX DEL CODIGO PENAL, SOBRE SEGURIDAD ALIMENTARIA"
   },
   "7662": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1 (Texto Único): Modifica el artículo 1 de la Ley 52 de 2016 para obligar a las personas jurídicas a mantener su información financiera por un mínimo de 5 años bajo su custodia directa y entregar una declaración jurada con estados financieros a su agente residente a más tardar el 31 de julio de cada año.",
+     "Artículo 3 (Texto Único): Modifica el artículo 2 de la Ley 52 de 2016 para requerir que en cambios de agente residente o procesos de disolución se declare la ubicación y entrega de la información financiera y las declaraciones de renta respectivas.",
+     "Artículo 4 (Texto Único): Modifica el artículo 3 de la Ley 52 de 2016, obligando al agente residente a remitir anualmente a la DGI, a más tardar el 30 de septiembre, la lista y ubicación de la información financiera de sus representadas.",
+     "Artículo 5 (Texto Único): Adiciona el artículo 3-A a la Ley 52 de 2016, estipulando que la responsabilidad exclusiva de la información financiera recae sobre la persona jurídica y eliminando la responsabilidad solidaria del agente residente por veracidad o falta de registros.",
+     "Artículo 9 (Texto Único): Modifica el artículo 7 de la Ley 52 de 2016, estableciendo multas de B/. 1,000 a B/. 500,000 por incumplimiento de entrega de información financiera y ordenando la suspensión de derechos corporativos ante el Registro Público.",
+     "Artículo 10 (Texto Único): Modifica el artículo 318-A del Código Fiscal sobre pago de tasa única, causales de suspensión corporativa y exige certificación de consentimiento y paz y salvo de honorarios del agente residente para inscribir cambios de directiva o modificaciones de pacto social."
+    ],
+    "drive": "https://drive.google.com/drive/folders/14OoxhovxTv8lmsg7KcoJHGh4z_QeG4UQ",
+    "fecha_analisis": "2026-10-26",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Reorganiza las obligaciones de reporte anual de información financiera para personas jurídicas y reforma normas del Código Fiscal sobre suspensión corporativa y trámites registrales.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Afecta de forma transversal a toda persona jurídica constituida en Panamá (especialmente sociedades tenedoras de activos y no operativas en el país) al ajustar sus obligaciones contables anuales, plazos de entrega ante el agente residente y requisitos para reformas corporativas.",
+    "resumen": "Propone modificar la normativa sobre mantenimiento y custodia de registros contables e información financiera de personas jurídicas (Ley 52 de 2016 y Ley 254 de 2021). Traslada la responsabilidad directa y exclusiva de confeccionar y custodiar los registros contables a las personas jurídicas, limitando las obligaciones de los agentes residentes a recibir y conservar declaraciones juradas o estados financieros sin responsabilidad solidaria. Además, modifica causales de suspensión de derechos corporativos y el cobro de la tasa única en el Código Fiscal.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que modifica la Ley 254 de 11 de noviembre de 2021, que introduce adecuaciones a la legislación en materia de transparencia fiscal, internacional y de prevención de blanqueo de capitales, el financiamiento del terrorismo y la proliferación de armas de destrucción masiva y adiciona otras disposiciones",
+    "titulo_corto": "Reforma a la custodia de registros contables y agentes residentes"
+   },
    "anteproyecto": "222",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Primer Debate",
@@ -47872,7 +47905,7 @@
   "7657": "91fdfe058ad6",
   "7658": "2467da2ade4a",
   "7659": "8589c3999a18",
-  "7662": "305fce1850da",
+  "7662": "30249070e594",
   "7669": "99610dd7e650",
   "7674": "523463591edb",
   "7675": "51e3ec97dcf2",
@@ -48698,6 +48731,7 @@
    "8445",
    "8526",
    "7750",
+   "7662",
    "8538",
    "8566",
    "8516",
@@ -48882,7 +48916,7 @@
    "7536",
    "7538"
   ],
-  "fecha": "2026-10-26T01:59:40",
+  "fecha": "2026-10-26T03:03:17",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -48900,6 +48934,7 @@
    "7655": "399fc6670871",
    "7656": "399fc6670871",
    "7659": "399fc6670871",
+   "7662": "399fc6670871",
    "7683": "399fc6670871",
    "7699": "399fc6670871",
    "7705": "399fc6670871",
@@ -49480,7 +49515,7 @@
    "519",
    "520"
   ],
-  "revisada": "2026-10-26T02:00:09"
+  "revisada": "2026-10-26T03:03:47"
  },
- "ultima_corrida": "2026-10-26T01:59:40"
+ "ultima_corrida": "2026-10-26T03:03:17"
 }
