@@ -1,5 +1,5 @@
 {
- "comisiones_revisadas": "2026-10-26T09:02:36",
+ "comisiones_revisadas": "2026-10-26T15:48:22",
  "drive": {
   "7404": {
    "carpeta": "Obligatoriedad de educación media y preescolar (ficha 7404)",
@@ -100,6 +100,10 @@
   "7590": {
    "carpeta": "Agravantes para hurto y robo en salud y educación (ficha 7590)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "7595": {
+   "carpeta": "Modificación al Código de la Familia sobre tutela (ficha 7595)",
+   "comision": "Comisión de la Mujer, la Niñez y la Familia"
   },
   "7604": {
    "carpeta": "Margen máximo a insumos agropecuarios (ficha 7604)",
@@ -7634,6 +7638,20 @@
    "titulo": "QUE MODIFICA, ADICIONA Y DEROGA ARTICULOS DE LA LEY 51 DE 27 DE DICIEMBRE DE 2005, QUE REFORMA LA LEY ORGANICA DE LA CAJA DE SEGURO SOCIAL Y DICTA OTRAS DISPOSICIONES"
   },
   "7595": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1ciXomgJCmp0aZzmEmnXZrjDL2Bvm9uAI",
+    "fecha_analisis": "2026-10-26",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.5-flash",
+    "razon": "El proyecto norma exclusivamente trámites judiciales de derecho de familia referentes a la tutela y declaración de discapacidad, por lo que no impone cargas, tributos ni regulaciones a las empresas.",
+    "resumen": "Modifica los artículos 396, 406 y 407 del Código de la Familia para permitir que padres adultos mayores en condición de pobreza puedan legar la tutela de hijos con discapacidad a terceros designados. Además, elimina la exigencia de un abogado privado para los trámites judiciales de tutela y declaración de discapacidad.",
+    "sectores": [],
+    "titulo": "Que modifica artículos del Código de la Familia sobre tutela de personas menores de edad y adultas con capacidades especiales",
+    "titulo_corto": "Modificación al Código de la Familia sobre tutela"
+   },
    "anteproyecto": "172",
    "comision": "COMISION DE LA MUJER, LA NIÑEZ Y LA FAMILIA",
    "etapa": "Primer Debate",
@@ -48016,7 +48034,7 @@
   "7583": "410a6cd8ea79",
   "7585": "3014561dc646",
   "7590": "a2a15284a994",
-  "7595": "fe26d1f058ce",
+  "7595": "1e7fcb348b19",
   "7596": "cd606f8767a4",
   "7597": "500637727d90",
   "7598": "d0be7bf79426",
@@ -49074,7 +49092,7 @@
    "7538",
    "7636"
   ],
-  "fecha": "2026-10-26T13:43:07",
+  "fecha": "2026-10-26T15:51:22",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -49676,7 +49694,7 @@
    "519",
    "520"
   ],
-  "revisada": "2026-10-26T13:43:36"
+  "revisada": "2026-10-26T15:52:06"
  },
- "ultima_corrida": "2026-10-26T13:43:07"
+ "ultima_corrida": "2026-10-26T15:51:22"
 }
