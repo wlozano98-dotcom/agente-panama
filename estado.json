@@ -97,6 +97,10 @@
    "carpeta": "Creación del Patronato del Hospital Nicolás A. Solano (ficha 7568)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
+  "7570": {
+   "carpeta": "Aumento de penas por hurto pecuario (ficha 7570)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
   "7590": {
    "carpeta": "Agravantes para hurto y robo en salud y educación (ficha 7590)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
@@ -7102,6 +7106,23 @@
    "titulo": "QUE CREA EL PATRONATO DEL HOSPITAL NICOLAS A. SOLANO"
   },
   "7570": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Modifica el artículo 217 del Código Penal para sancionar el hurto pecuario con penas de diez a quince años de prisión y establece agravantes por alterar guías de transporte o trasladar el ganado a mataderos o subastas.",
+     "Artículo 2: Adiciona el artículo 217-B al Código Penal para castigar con cuatro a ocho años de prisión al productor ganadero que acepte acuerdos o compensaciones directamente con los cuatreros."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1fVIZ-bxk3CheKde6UUHflT4a04jHjD8A",
+    "fecha_analisis": "2026-10-26",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No modifica regulaciones comerciales, tributarias ni operativas de los sectores empresariales catalogados; se trata de una reforma penal enfocada en el delito de abigeato y en sancionar acuerdos extrajudiciales de productores pecuarios.",
+    "resumen": "Propone endurecer las penas por hurto de ganado a entre diez y quince años de prisión, estableciendo nuevas circunstancias agravantes. Además, penaliza con cuatro a ocho años de cárcel a los propietarios de ganado que negocien o acuerden compensaciones económicas directamente con los cuatreros sin conocimiento de las autoridades judiciales.",
+    "sectores": [],
+    "titulo": "Que modifica y adiciona artículo al Código Penal",
+    "titulo_corto": "Aumento de penas por hurto pecuario"
+   },
    "anteproyecto": "158",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Primer Debate",
@@ -48095,7 +48116,7 @@
   "7566": "75e2df447799",
   "7567": "d349c197e615",
   "7568": "0d8a7be64ffe",
-  "7570": "540262bf5713",
+  "7570": "9b127efe94ce",
   "7571": "a06fd73e8db2",
   "7573": "cc67472fd2d4",
   "7574": "68836be05ea1",
@@ -49165,7 +49186,7 @@
    "7538",
    "7636"
   ],
-  "fecha": "2026-10-26T22:55:39",
+  "fecha": "2026-10-26T23:50:20",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -49772,9 +49793,10 @@
    "517",
    "518",
    "519",
-   "520"
+   "520",
+   "521"
   ],
-  "revisada": "2026-10-26T22:56:09"
+  "revisada": "2026-10-26T23:50:49"
  },
- "ultima_corrida": "2026-10-26T22:55:39"
+ "ultima_corrida": "2026-10-26T23:50:20"
 }
