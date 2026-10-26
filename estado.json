@@ -101,6 +101,10 @@
    "carpeta": "Agravantes para hurto y robo en salud y educación (ficha 7590)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
+  "7604": {
+   "carpeta": "Margen máximo a insumos agropecuarios (ficha 7604)",
+   "comision": "Comisión de Asuntos Agropecuarios"
+  },
   "7609": {
    "carpeta": "Protección de arbolado y áreas verdes urbanas (ficha 7609)",
    "comision": "Comisión de Población, Ambiente y Desarrollo"
@@ -7911,6 +7915,39 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 47 DE 1946, ORGANICA DE EDUCACION, Y DICTA OTRAS DISPOSICIONES"
   },
   "7604": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Sujeta a regulación de margen de ganancias a fabricantes, importadores, distribuidores e intermediarios de insumos agropecuarios para producción de alimentos.",
+     "Artículo 2: Fija un margen bruto máximo de ganancia obligatorio de 10% por unidad durante un periodo de 18 meses.",
+     "Artículo 3: Faculta al Ministerio de Desarrollo Agropecuario y al Ministerio de Comercio e Industrias a revisar y extender la vigencia de la medida.",
+     "Artículo 4: Define como insumos sujetos a la ley a todo producto utilizado para la producción de alimentos de origen animal, vegetal, frutas y granos."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1Y1UTwI8cJHkGLRYbUjHETcETG1pvGQnX",
+    "fecha_analisis": "2026-10-26",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Fija un tope forzoso de ganancia del 10% a los fabricantes e importadores de insumos y materias primas agropecuarias, interviniendo directamente en la rentabilidad de su negocio.",
+      "sector": "INDUSTRIAS"
+     },
+     {
+      "nivel": "alto",
+      "razon": "Afecta al comercio mayorista y minorista de agroservicios al limitar legalmente su margen de comercialización al 10% por unidad vendida.",
+      "sector": "OTROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Establece un régimen de control de márgenes de comercialización muy restrictivo (10%) sobre toda la cadena de suministro de insumos agropecuarios en el país.",
+    "resumen": "La iniciativa busca imponer un control de precios a toda la cadena de insumos agrícolas y pecuarios, estableciendo un margen máximo de ganancia del 10% por unidad durante 18 meses prorrogables. Afecta directamente a los fabricantes, importadores, distribuidores y comercios minoristas de agroquímicos, fertilizantes, semillas y otros insumos para la producción de alimentos.",
+    "sectores": [
+     "INDUSTRIAS",
+     "OTROS"
+    ],
+    "titulo": "Por el cual se establece el margen bruto máximo venta de insumos agropecuarios en la República de Panamá y dicta otras disposiciones",
+    "titulo_corto": "Margen máximo a insumos agropecuarios"
+   },
    "anteproyecto": "179",
    "comision": "COMISION DE ASUNTOS AGROPECUARIOS",
    "etapa": "Primer Debate",
@@ -47986,7 +48023,7 @@
   "7601": "b84b06acf0da",
   "7602": "db348dbf9d76",
   "7603": "7949d8d3273b",
-  "7604": "b5f83f954d2a",
+  "7604": "bf6056c1eaad",
   "7605": "14d8fdf6df98",
   "7606": "14f2fea472bc",
   "7607": "247540d5f244",
@@ -49033,10 +49070,11 @@
    "7760",
    "7465",
    "7536",
+   "7604",
    "7538",
    "7636"
   ],
-  "fecha": "2026-10-26T09:03:09",
+  "fecha": "2026-10-26T10:05:48",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -49049,6 +49087,7 @@
    "7536": "399fc6670871",
    "7538": "399fc6670871",
    "7554": "399fc6670871",
+   "7604": "399fc6670871",
    "7609": "399fc6670871",
    "7635": "399fc6670871",
    "7636": "399fc6670871",
@@ -49637,7 +49676,7 @@
    "519",
    "520"
   ],
-  "revisada": "2026-10-26T09:03:37"
+  "revisada": "2026-10-26T10:06:30"
  },
- "ultima_corrida": "2026-10-26T09:03:09"
+ "ultima_corrida": "2026-10-26T10:05:48"
 }
