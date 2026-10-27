@@ -349,6 +349,10 @@
    "carpeta": "Reforma a la ley del IPACOOP (ficha 7825)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
   },
+  "7826": {
+   "carpeta": "Profesionalización y protección del personal de aseo y recolección (ficha 7826)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
   "7829": {
    "carpeta": "Reforma al impuesto de degüello y traslado de ganado (ficha 7829)",
    "comision": "Comisión de Asuntos Municipales"
@@ -356,6 +360,14 @@
   "7831": {
    "carpeta": "Sanciones a la captación ilícita de dinero y usura (ficha 7831)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "7832": {
+   "carpeta": "Reforma al ISR de personas naturales y régimen fiscal político (ficha 7832)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "7837": {
+   "carpeta": "Protección de tiburones y rayas y prohibición de comercialización (ficha 7837)",
+   "comision": "Comisión de Población, Ambiente y Desarrollo"
   },
   "7838": {
    "carpeta": "Incentivos para compra de viviendas usadas (ficha 7838)",
@@ -439,6 +451,10 @@
   },
   "7909": {
    "carpeta": "Regulación de profesionales en perfusión cardiovascular (ficha 7909)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
+  "7910": {
+   "carpeta": "Reforma al Programa Ángel Guardián (ficha 7910)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
   "7912": {
@@ -15694,6 +15710,35 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 24 DE 1980, QUE CREA EL INSTITUTO PANAMEÑO AUTONOMO COOPERATIVO, Y DICTA OTRAS DISPOSICIONES"
   },
   "7826": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2: Extiende el ámbito de aplicación a empresas privadas contratadas por municipios para la recolección de residuos.",
+     "Artículo 4: Obliga a las empresas recolectoras a acatar un manual de procedimientos de la AAUD con protocolos de seguridad, EPP y manejo de lixiviados y residuos peligrosos.",
+     "Artículo 6: Compromete a las empresas a implementar programas de formación laboral vinculados a un nuevo escalafón salarial.",
+     "Artículo 7: Exige a las empresas empleadoras dotar de uniformes y EPP, aplicar protocolos de bioseguridad y financiar una evaluación médica obligatoria al menos una vez al mes.",
+     "Artículo 9: Obliga a todas las entidades privadas a permitir a los recolectores y damas de barrido el acceso a sus baños e instalaciones de resguardo climático temporal.",
+     "Artículo 12: Establece sanciones laborales, sanitarias y ambientales por el incumplimiento de las obligaciones señaladas."
+    ],
+    "drive": "https://drive.google.com/drive/folders/18DFQVTcfVKcms7rTrHH-SJmnFPRsIhu-",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Obliga a los establecimientos privados a permitir el uso gratuito de sus servicios sanitarios y facilitar áreas de resguardo al personal de recolección de desechos.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto general para las empresas es bajo, limitándose a una obligación transversal de facilitar el acceso a sanitarios e instalaciones, aunque impone costos operativos y de bioseguridad directos a las empresas privadas contratistas de aseo municipal.",
+    "resumen": "Establece un marco de protección laboral y de bioseguridad para el personal recolector de residuos y damas de barrido, tanto en el sector público como en empresas privadas contratadas. Exige a los empleadores del sector dotación de equipo, evaluaciones médicas mensuales obligatorias y programas de formación. Adicionalmente, ordena a todas las entidades y establecimientos privados brindar acceso a sus sanitarios e instalaciones de resguardo temporal a estos trabajadores.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Por medio de la cual se fomenta la profesionalización de las damas de barrido, recolectores, personal operativo y todos los servidores públicos involucrados en el proceso de recolección de residuos, garantizando el reconocimiento de su labor y seguridad",
+    "titulo_corto": "Profesionalización y protección del personal de aseo y recolección"
+   },
    "anteproyecto": "352",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Enviado a subcomisión para analisis",
@@ -15984,6 +16029,31 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS AL TEXTO UNICO DEL CODIGO PENAL Y SE ESTABLECEN MEDIDAS CONTRA EL DELITO DE CAPTACION ILICITA DE RECURSOS FINANCIEROS DEL PUBLICO Y DICTA OTRAS DISPOSICIONES"
   },
   "7832": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Modifica el artículo 700 del Código Fiscal fijando nuevos tramos y tasas de ISR a personas naturales (0% hasta B/. 13,000; 15% de B/. 13,000 a B/. 60,000; 25% de B/. 60,000 a B/. 100,000; y 30% sobre el excedente de B/. 100,000) e impone la revisión quinquenal obligatoria de la base exenta.",
+     "Artículos 2 al 7: Derogan los artículos 108, 200, 201, 228, 255 y 263 del Código Electoral, eliminando exenciones impositivas y aduaneras para partidos políticos y candidatos de libre postulación."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1IvgXF9_Htng92ldwGawjKIC_f4vrwzLH",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Exige a los empleadores adecuar los sistemas de nómina y tablas de retención de impuesto sobre la renta aplicables a sus colaboradores.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa se circunscribe a la tributación de personas naturales y al régimen fiscal electoral, incidiendo en las empresas únicamente por el ajuste operativo en las retenciones de planilla.",
+    "resumen": "Propone elevar el tramo exento del impuesto sobre la renta de personas naturales a B/. 13,000 anuales e incorporar una tarifa del 30% para ingresos mayores a B/. 100,000, con revisiones obligatorias cada cinco años por inflación. Asimismo, deroga diversos artículos del Código Electoral para suprimir las exoneraciones y privilegios tributarios de partidos políticos y candidatos.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que disminuye el impuesto sobre la renta a las personas naturales y elimina los beneficios fiscales en la política",
+    "titulo_corto": "Reforma al ISR de personas naturales y régimen fiscal político"
+   },
    "anteproyecto": "356",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Enviado a subcomisión para analisis",
@@ -16017,6 +16087,42 @@
    "titulo": "QUE DISMINUYE EL IMPUESTO SOBRE LA RENTA A LAS PERSONAS NATURALES Y ELIMINA LOS BENEFICIOS FISCALES EN LA POLITICA"
   },
   "7837": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 3: Obliga a liberar inmediatamente los ejemplares de tiburón o raya capturados incidentalmente si están vivos; de morir, deben retenerse íntegros en el barco para control.",
+     "Artículo 4: Prohíbe la pesca dirigida de tiburones y rayas; limita la captura incidental a un máximo de 10% del peso bruto solo para consumo a bordo de la tripulación; y veda la tenencia o transporte de aletas desprendidas del cuerpo.",
+     "Artículo 6: Prohíbe la importación al territorio panameño de carne de tiburón, carne de raya, aletas y sus subproductos derivados.",
+     "Artículo 7: Exige a buques comerciales y no comerciales de pabellón panameño adoptar medidas técnicas y dispositivos selectivos para reducir capturas incidentales.",
+     "Artículo 8: Otorga potestades a la ARAP, SENAN y Ministerio de Ambiente para abordar naves pesqueras e inspeccionar sitios de descarga en muelles y áreas protegidas.",
+     "Artículo 12: Crea la obligación de registro de capturas, esfuerzo pesquero y desembarques, publicando a sancionados en el Registro Nacional de Infractores de Pesca Ilegal.",
+     "Artículo 14: Prohíbe el procesamiento, comercialización, transporte y exportación de carne o derivados de tiburón y raya, fijando sanciones agravadas en pesca industrial."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1FVM0fJV7ZkwRQLsFHuu6qLMDafRfo-nG",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Prohíbe la pesca dirigida de tiburones y rayas, restringe la captura accesoria solo a consumo a bordo y fija obligaciones técnicas de mitigación e inspección.",
+      "sector": "CAMARONERO Y PESQUERO"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Prohíbe la importación, procesamiento industrial y comercialización en el mercado local de carne de tiburón (cazón), rayas y sus subproductos.",
+      "sector": "ALIMENTOS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Tiene un impacto alto sobre la flota pesquera y procesadores de productos marinos al eliminar la viabilidad comercial de la captura, venta y exportación de tiburones y rayas.",
+    "resumen": "Prohíbe de manera absoluta la pesca dirigida de tiburones y rayas en aguas jurisdiccionales panameñas y en buques de bandera nacional. Establece que la captura incidental no podrá exceder el 10% de la descarga y estará restringida exclusivamente al consumo de la tripulación a bordo. Además, prohíbe a nivel nacional la importación, procesamiento, comercialización local, transporte y exportación de carne, aletas o derivados de estas especies, sancionando con mayor severidad a la pesca industrial.",
+    "sectores": [
+     "CAMARONERO Y PESQUERO",
+     "ALIMENTOS"
+    ],
+    "titulo": "Que modifica, adiciona y deroga disposiciones de la Ley 9 de 1 de marzo de 2006, con el objetivo de restaurar y conservar las poblaciones de tiburones y rayas en la República de Panamá",
+    "titulo_corto": "Protección de tiburones y rayas y prohibición de comercialización"
+   },
    "anteproyecto": "361",
    "comision": "COMISION DE POBLACION, AMBIENTE Y DESARROLLO",
    "etapa": "Enviado a subcomisión para analisis",
@@ -18154,6 +18260,20 @@
    "titulo": "QUE REGULA EJERCICIO DE LOS PROFESIONALES EN PERFUSION CARDIOVASCULAR Y ASISTENCIA CIRCULATORIA EN EL TERRITORIO NACIONAL"
   },
   "7910": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1b79TNYRzYQU-lrEohTpzHAW--DdhmVXI",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No genera impacto sobre el sector empresarial privado, ya que se trata de un programa estatal de subsidio y asistencia social financiado con fondos públicos y administrado por el MIDES, sin crear cargas tributarias, laborales ni regulatorias para las empresas.",
+    "resumen": "La iniciativa propone modificar el Programa Especial Ángel Guardián para ampliar su cobertura, sustituyendo el requisito de pobreza extrema por el de pobreza. Asimismo, establece un subsidio económico mensual de B/. 120.00 pagadero a través del MIDES y digitaliza el proceso de trámite y registro de beneficiarios junto con la AIG. La medida afecta exclusivamente a los beneficiarios del subsidio y a las instituciones públicas administradoras.",
+    "sectores": [],
+    "titulo": "Que modifica la Ley N° 39 de 14 de junio de 2012, crea un programa especial de asistencia económica para las personas con discapacidad severa en condición de dependencia y pobreza extrema",
+    "titulo_corto": "Reforma al Programa Ángel Guardián"
+   },
    "anteproyecto": "31",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Enviado a subcomisión para analisis",
@@ -51850,5 +51970,5 @@
   ],
   "revisada": "2026-10-27T16:03:06"
  },
- "ultima_corrida": "2026-10-27T20:54:42"
+ "ultima_corrida": "2026-10-27T21:54:07"
 }
