@@ -789,6 +789,10 @@
    "carpeta": "Jurisdicción coactiva del Tribunal de Cuentas (ficha 8145)",
    "comision": "Comisión de Economía y Finanzas"
   },
+  "8147": {
+   "carpeta": "Desfile de las Mil Molas en el distrito de Arraiján (ficha 8147)",
+   "comision": "Comisión de Asuntos Indígenas"
+  },
   "8148": {
    "carpeta": "Divulgación de seguridad vehicular en publicidad (ficha 8148)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
@@ -800,6 +804,10 @@
   "8150": {
    "carpeta": "Imprescriptibilidad de delitos sexuales contra menores (ficha 8150)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "8152": {
+   "carpeta": "Marco de evaluación de subsidios e incentivos fiscales (ficha 8152)",
+   "comision": "Comisión de Economía y Finanzas"
   },
   "8153": {
    "carpeta": "Regulación del sistema nacional de hidrantes contra incendios (ficha 8153)",
@@ -825,6 +833,10 @@
    "carpeta": "Figura del Educador Protector ante abusos a menores (ficha 8164)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
+  "8165": {
+   "carpeta": "Isla Escudo de Veraguas a jurisdicción de Kusapín (ficha 8165)",
+   "comision": "Comisión de Asuntos Indígenas"
+  },
   "8167": {
    "carpeta": "Reforma a la titulación masiva de tierras estatales (ficha 8167)",
    "comision": "Comisión de Economía y Finanzas"
@@ -840,6 +852,10 @@
   "8170": {
    "carpeta": "Regulación de proveedores de servicios de activos virtuales (ficha 8170)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
+  "8174": {
+   "carpeta": "Reforma a la Ley de Nomenclatura Urbana y Rural (ficha 8174)",
+   "comision": "Comisión de Asuntos Municipales"
   },
   "8175": {
    "carpeta": "Nombre de Federico Bosco Jiménez al puente de Coquira (ficha 8175)",
@@ -27838,6 +27854,20 @@
    "titulo": "QUE DICTA NORMAS PARA LA IMPLEMENTACION DE LA ECONOMIA CIRCULAR COMO ESTRATEGIA AMBIENTAL"
   },
   "8147": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1PkZ1BZGdaagsRitWk5ojXXx7ZQH4fsGq",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa es estrictamente cultural y conmemorativa a nivel local, por lo que no crea regulaciones, cargas impositivas ni obligaciones para las empresas.",
+    "resumen": "Propone institucionalizar la celebración anual del \"Desfile de las Mil Molas\" cada tercer domingo de febrero en el distrito de Arraiján para resaltar la cultura y tradiciones de la etnia Guna. Encarga su organización y promoción al Ministerio de Cultura en coordinación con la Alcaldía de Arraiján y organizaciones representativas comunitarias, incluyendo actividades folclóricas, artesanales y gastronómicas.",
+    "sectores": [],
+    "titulo": "Que adopta medidas para la promoción, resalto y desarrollo integral de la cultura indígena Guna y la adopción del Desfile de las Mil Molas, al tercer domingo de febrero en el distrito de Arraiján",
+    "titulo_corto": "Desfile de las Mil Molas en el distrito de Arraiján"
+   },
    "anteproyecto": "251",
    "comision": "COMISION DE ASUNTOS INDIGENAS",
    "etapa": "Enviado a subcomisión para analisis",
@@ -28087,6 +28117,35 @@
    "titulo": "QUE CREA LA OFICINA PARA LA PROMOCION DE LA ATRACCION DE INVERSIONES Y PROMOCION DE EXPORTACIONES Y DICTA OTRAS DISPOSICIONES"
   },
   "8152": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 4: Hace aplicable la ley a todos los incentivos, subsidios, transferencias y exoneraciones fiscales vigentes o futuros otorgados por el Estado.",
+     "Artículo 5: Exige estudio de impacto fiscal, evaluación costo-beneficio y definición de metas y plazos para todo nuevo incentivo o subsidio.",
+     "Artículo 6 y 7: Crea el Registro Nacional de Incentivos y Subsidios (RENIS) dentro del MEF, con un comité integrado por autoridades, universidad, sociedad civil, trabajadores y un representante del sector privado.",
+     "Artículo 9: Establece la obligación de evaluar las exoneraciones e incentivos cada tres años y publicar un informe anual de gastos tributarios.",
+     "Artículo 10 y 13: Autoriza al RENIS a emitir recomendaciones vinculadas a la modificación o derogación legal de incentivos que no cumplan objetivos o generen distorsiones de mercado.",
+     "Artículo 11: Dispone la creación de un portal digital de acceso público que detallará los montos asignados y los principales beneficiarios de los incentivos estatales."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1W9ypFWsCLSlVzeH3AMEzvmlrOdegMTU-",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Sujeta a revisión periódica todas las exoneraciones e incentivos fiscales vigentes y expone públicamente los montos y beneficiarios de cada régimen.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea un mecanismo institucional de revisión trienal que puede desencadenar la eliminación o ajuste de beneficios fiscales para empresas beneficiarias de regímenes de incentivo, además de exigir la divulgación pública de sus datos en un portal del MEF.",
+    "resumen": "El proyecto crea un marco legal y el Registro Nacional de Incentivos y Subsidios (RENIS) dentro del Ministerio de Economía y Finanzas para fiscalizar periódicamente los beneficios fiscales y subsidios otorgados por el Estado. Establece que los incentivos vigentes y futuros serán evaluados cada tres años bajo criterios de costo-beneficio e impacto fiscal. Afecta de forma transversal a cualquier empresa u organización que reciba o aspire a recibir exoneraciones o apoyos estatales, habilitando la publicación de listas de beneficiarios y recomendaciones para modificar o eliminar regímenes especiales.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que establece el marco normativo para la evaluación de subsidios, exoneraciones y todo tipo de incentivos que otorga el Estado panameño a organizaciones, y personas naturales o jurídicas",
+    "titulo_corto": "Marco de evaluación de subsidios e incentivos fiscales"
+   },
    "anteproyecto": "253",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Enviado a subcomisión para analisis",
@@ -28782,6 +28841,20 @@
    "titulo": "QUE ESTABLECE LA FIGURA DEL EDUCADOR PROTECTOR EN CASO DE DENUNCIAS DE ABUSOS DE ABUSOS DE NIÑOS, NIÑAS Y ADOLESCENTES, EN EL ENTORNO ESCOLAR."
   },
   "8165": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1Y0slsq_Y6b0mGz2EISmu8j6KsqT0ZjxK",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto es de naturaleza exclusivamente territorial y político-administrativa, por lo que no impone obligaciones, costos, regulaciones ni tributos directos al sector empresarial.",
+    "resumen": "La iniciativa transfiere la Isla Escudo de Veraguas (Degó) y sus aguas circundantes de la provincia de Bocas del Toro a la jurisdicción administrativa del Municipio de Kusapín, dentro de la Comarca Ngäbe-Buglé. Asimismo, fija un plazo de seis meses a la Comisión de Límites Políticos y Administrativos para delimitar formalmente la nueva demarcación territorial.",
+    "sectores": [],
+    "titulo": "Por el cual se declara la Isla Escudo de Veraguas como parte de la jurisdicción administrativa del Municipio de Kusapín",
+    "titulo_corto": "Isla Escudo de Veraguas a jurisdicción de Kusapín"
+   },
    "anteproyecto": "262",
    "comision": "COMISION DE ASUNTOS INDIGENAS",
    "etapa": "Enviado a subcomisión para analisis",
@@ -29260,6 +29333,20 @@
    "titulo": "POR LA CUAL SE APRUEBA EL CONVENIO CONSTITUTIVO DEL FONDO MULTILATERAL DE INVERSIONES IV, ADOPTADO POR LA ASAMBLEA DE GOBERNADORES DEL BANCO INTERAMERICANO DE DESARROLLO (BID) Y DE LA CORPORACIÓN INTERAMERICANA DE INVERSIONES (CII), EL10 DE MARZO DE 2024"
   },
   "8174": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1t2XE_QVsafTAmx6GE0yeN0FHIIhXtae6",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No impone obligaciones, costos ni regulaciones directas sobre las empresas; sus disposiciones se dirigen al sector público municipal y su impacto en actividades comerciales o de logística es meramente indirecto.",
+    "resumen": "La propuesta busca reactivar e implementar la Ley 52 de 2017 mediante la creación de un sistema digital y georreferenciado de direcciones a cargo del Instituto Geográfico Tommy Guardia y la AIG. Establece un plazo de tres años y sanciones a los alcaldes que no completen la señalización física y numeración en sus distritos. Afecta principalmente a los gobiernos locales e instituciones públicas vinculadas al ordenamiento territorial y catastro.",
+    "sectores": [],
+    "titulo": "Que modifica y adiciona artículos a la Ley 52 de 2017, la cual establece el marco regulatorio para la nomenclatura y numeración urbana y rural en la República de Panamá",
+    "titulo_corto": "Reforma a la Ley de Nomenclatura Urbana y Rural"
+   },
    "anteproyecto": "269",
    "comision": "COMISION DE ASUNTOS MUNICIPALES",
    "etapa": "Enviado a subcomisión para analisis",
@@ -49549,12 +49636,12 @@
   "8144": "22a52eb2b8aa",
   "8145": "95f2a8a7eef3",
   "8146": "bcc82e0e10ac",
-  "8147": "6d789969e977",
+  "8147": "f21a953e1225",
   "8148": "c82ad9a1c27a",
   "8149": "9fe2183246b8",
   "8150": "bbe5cdb6729a",
   "8151": "4d91118d25f2",
-  "8152": "bc7395899389",
+  "8152": "955e67e391a2",
   "8153": "3c3580d98411",
   "8155": "e98a436d94b1",
   "8156": "eb65e0d50902",
@@ -49564,7 +49651,7 @@
   "8161": "9e85b82abdd4",
   "8163": "6f3d7901ed19",
   "8164": "015f62592fc0",
-  "8165": "ba4cf488554c",
+  "8165": "0435835198b7",
   "8166": "cf005955db18",
   "8167": "286ec23c877f",
   "8168": "32f67dd53f1c",
@@ -49573,7 +49660,7 @@
   "8171": "81ffd305c1b5",
   "8172": "1fa05cc923af",
   "8173": "a1f0c74dfd0a",
-  "8174": "54e1f4fbfb0d",
+  "8174": "6c9b713bba89",
   "8175": "26c64876ab5b",
   "8176": "eaf794293931",
   "8177": "26f81fe3c287",
@@ -50069,6 +50156,7 @@
    "8443",
    "8083",
    "8471",
+   "8152",
    "8345",
    "8432",
    "8567",
@@ -50256,7 +50344,7 @@
    "7636",
    "7490"
   ],
-  "fecha": "2026-10-27T15:09:31",
+  "fecha": "2026-10-27T16:02:36",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -50365,6 +50453,7 @@
    "8144": "399fc6670871",
    "8148": "399fc6670871",
    "8149": "399fc6670871",
+   "8152": "399fc6670871",
    "8153": "399fc6670871",
    "8155": "399fc6670871",
    "8156": "399fc6670871",
@@ -50889,7 +50978,7 @@
    "520",
    "521"
   ],
-  "revisada": "2026-10-27T14:14:25"
+  "revisada": "2026-10-27T16:03:06"
  },
- "ultima_corrida": "2026-10-27T15:09:31"
+ "ultima_corrida": "2026-10-27T16:02:36"
 }
