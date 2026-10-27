@@ -473,6 +473,10 @@
    "carpeta": "Requisitos para director y subdirector de la DGCP (ficha 7925)",
    "comision": "Comisión de Economía y Finanzas"
   },
+  "7929": {
+   "carpeta": "Prohibición de vapeadores en espacios cerrados y laborales (ficha 7929)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
   "7933": {
    "carpeta": "Creación del Comité Nacional de Investigación Animal (CNIAP) (ficha 7933)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
@@ -492,6 +496,10 @@
   "7942": {
    "carpeta": "Transparencia del uso de dividendos del Canal (ficha 7942)",
    "comision": "Comisión de Economía y Finanzas"
+  },
+  "7943": {
+   "carpeta": "Responsabilidad filial y pensión a padres vulnerables (ficha 7943)",
+   "comision": "Comisión de la Mujer, la Niñez y la Familia"
   },
   "7944": {
    "carpeta": "Plazos y silencio administrativo en Programa 120 a los 65 (ficha 7944)",
@@ -548,6 +556,14 @@
   "7981": {
    "carpeta": "Requisitos para reformas al Reglamento Interno legislativo (ficha 7981)",
    "comision": "Comisión de Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
+  },
+  "7983": {
+   "carpeta": "Área protegida reserva hidrológica subcuenca río Zaratí (ficha 7983)",
+   "comision": "Comisión de Población, Ambiente y Desarrollo"
+  },
+  "7984": {
+   "carpeta": "Obligatoriedad de etiquetado nutricional en alimentos (ficha 7984)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
   "7986": {
    "carpeta": "Primeros auxilios obligatorios en centros educativos (ficha 7986)",
@@ -18932,6 +18948,37 @@
    "titulo": "QUE DESARROLLA EL ARTICULO 51 DE LA LEY 23 DE 1997, POR EL CUAL SE APRUEBA EL ACUERDO DE MARRAKECH EN LO REFERENTE A LAS FUNCIONES DE LA DIRECCION EJECUTIVA DE CUARENTENA"
   },
   "7929": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Modifica el artículo 5 de la Ley 13 de 2008 para prohibir el consumo de dispositivos electrónicos de administración de nicotina (vaporizadores, cigarrillos electrónicos, calentadores de tabaco, con o sin nicotina) en oficinas privadas, medios y terminales de transporte, comercios cerrados, áreas comunes comerciales y ambientes laborales cerrados.",
+     "Artículo 2: Adiciona el artículo 5-A a la Ley 13 de 2008 para responsabilizar directamente a propietarios, gerentes o administradores por hacer cumplir la prohibición en sus establecimientos, facultándolos a solicitar apoyo de la Policía Nacional."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1MjR4MLL2rqsyQ4Bx5VPwluJ-Di2hF9rm",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Impone a propietarios, administradores y gerentes la obligación de vigilar e impedir el uso de vapeadores y cigarrillos electrónicos dentro de oficinas y centros de trabajo cerrados.",
+      "sector": "TODAS LAS EMPRESAS"
+     },
+     {
+      "nivel": "bajo",
+      "razon": "Obliga a operadores de transporte de pasajeros y administradores de terminales terrestres, marítimas y aéreas a hacer cumplir la prohibición en vehículos e instalaciones.",
+      "sector": "TRANSPORTE"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es bajo y principalmente de orden operativo interno, requiriendo adaptar políticas internas de espacios libres de humo y señalización para incluir dispositivos de vapeo.",
+    "resumen": "El proyecto extiende las restricciones de la Ley Antitabaco (Ley 13 de 2008) a los cigarrillos electrónicos, vaporizadores y calentadores de tabaco (con o sin nicotina). Prohíbe su uso en oficinas privadas, ambientes laborales cerrados, áreas comunes de inmuebles comerciales, terminales y medios de transporte, y responsabiliza a gerentes y administradores por el cumplimiento de la norma en sus locales.",
+    "sectores": [
+     "TODAS LAS EMPRESAS",
+     "TRANSPORTE"
+    ],
+    "titulo": "Que modifica la Ley 13 de 24 de enero de 2008 para incluir la prohibición del uso de dispositivos electrónicos de administración de nicotina en espacios públicos y privados",
+    "titulo_corto": "Prohibición de vapeadores en espacios cerrados y laborales"
+   },
    "anteproyecto": "52",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Enviado a subcomisión para analisis",
@@ -19372,6 +19419,20 @@
    "titulo": "QUE TRANSPARENTA Y COMUNICA EL USO DE LOS DIVIDENDOS ENTREGADOS POR EL CANAL DE PANAMÁ"
   },
   "7943": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1NUCUdpjG8PGIkW4SySJYGBvKEcLs46si",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto corresponde estrictamente al derecho de familia y regula obligaciones personales entre particulares, por lo que no crea regulaciones, cargas tributarias ni obligaciones directas para las empresas.",
+    "resumen": "La iniciativa establece la obligación legal, afectiva y económica de los hijos hacia sus padres mayores de sesenta años o con discapacidad que se encuentren en estado de vulnerabilidad. Regula un proceso judicial sumario de alimentos, medidas cautelares de retención y embargo, y crea el Registro Nacional de Abandono Parental. Las medidas sancionatorias están dirigidas exclusivamente a personas naturales en el ámbito del derecho de familia.",
+    "sectores": [],
+    "titulo": "Ley que refuerza la responsabilidad de los hijos en el cuidado, protección, asistencia alimentaria de sus padres vulnerables",
+    "titulo_corto": "Responsabilidad filial y pensión a padres vulnerables"
+   },
    "anteproyecto": "66",
    "comision": "COMISION DE LA MUJER, LA NIÑEZ Y LA FAMILIA",
    "etapa": "Enviado a subcomisión para analisis",
@@ -20832,6 +20893,39 @@
    "titulo": "QUE ADICIONA PARAGRAFO AL NUMERAL 5 DEL ARTICULO 50 DEL REGLAMENTO ORGANICO DEL REGIMEN INTERNO DE LA ASAMBLEA NACIONAL"
   },
   "7983": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 14: Prohíbe expresamente dentro de la reserva la extracción de minerales y materiales para uso de la construcción, así como la edificación de infraestructuras que afecten el ecosistema.",
+     "Artículo 16 (literal c): Asigna para financiamiento de la reserva un porcentaje de los ingresos por impuestos y tasas provenientes de concesiones hídricas y mineras otorgadas a privados en la cuenca 134 del Río Grande.",
+     "Artículo 17: Suspende la aprobación de proyectos, obras o actividades con impactos negativos significativos y permanentes hasta que se apruebe el Plan de Ordenamiento Ambiental Territorial.",
+     "Artículo 18: Prohíbe el otorgamiento de nuevas concesiones mineras en la subcuenca del río Zaratí y suspende las prórrogas de concesiones existentes hasta la aprobación de los planes de ordenamiento territorial."
+    ],
+    "drive": "https://drive.google.com/drive/folders/15o-CnSuXv1VVHWyuK2zoIRQ83rdy1Xwr",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Prohíbe otorgar nuevas concesiones mineras, suspende sus prórrogas y veta la extracción mineral en la subcuenca del río Zaratí.",
+      "sector": "EXTRACTIVO"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Prohíbe la extracción de materiales para la construcción y frena permisos de obras de infraestructura hasta la adopción del plan territorial.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Afecta a las industrias extractiva y de materiales de construcción al prohibir la extracción de minerales y agregados, suspender nuevas concesiones mineras y paralizar la aprobación de proyectos con impacto significativo en la subcuenca.",
+    "resumen": "Propone declarar la parte alta de la subcuenca del río Zaratí, en la provincia de Coclé, como área protegida de reserva hidrológica e incorporarla al Sistema Nacional de Áreas Protegidas (SINAP). Prohíbe actividades de extracción mineral y de materiales para la construcción, y veta el otorgamiento de nuevas concesiones mineras y la prórroga de las existentes hasta que se apruebe el ordenamiento territorial. Afecta directamente a concesionarias mineras, canteras y desarrolladores de obras de infraestructura en la cuenca.",
+    "sectores": [
+     "EXTRACTIVO",
+     "CEMENTERAS"
+    ],
+    "titulo": "Que declara la parte alta de la subcuenca hidrográfica del río Zaratí como área protegida de reserva hidrológica, y se dictan otras disposiciones",
+    "titulo_corto": "Área protegida reserva hidrológica subcuenca río Zaratí"
+   },
    "anteproyecto": "101",
    "comision": "COMISION DE POBLACION, AMBIENTE Y DESARROLLO",
    "etapa": "Enviado a subcomisión para analisis",
@@ -20865,6 +20959,37 @@
    "titulo": "QUE DECLARA LA PARTE ALTA DE LA SUBCUENCA HIDROGRAFICA DEL RIO ZARATI COMO AREA PROTEGIDA DE RESERVA HIDROLOGICA, Y SE DICTAN OTRAS DISPOSICIONES"
   },
   "7984": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 3: Extiende la obligatoriedad a todas las personas naturales o jurídicas que fabriquen, elaboren, distribuyan o comercialicen alimentos o bebidas para consumo humano.",
+     "Artículo 4: Impone a fabricantes, importadores y distribuidores la responsabilidad legal sobre la veracidad del rotulado y el cumplimiento de buenas prácticas de manufactura.",
+     "Artículo 5: Exige detallar ingredientes, aditivos en orden decreciente y valores de energía, azúcares, sodio y grasas saturadas.",
+     "Artículo 6: Hace obligatorio declarar ingredientes alergénicos como soya, leche, maní, huevo, mariscos, pescado, gluten o frutos secos.",
+     "Artículo 10: Obliga a que toda publicidad de alimentos en medios masivos incluya mensajes de promoción de hábitos saludables determinados por el MINSA.",
+     "Artículo 11: Faculta al MINSA y a la ACODECO a reglamentar la verificación del rotulado y aplicar sanciones por incumplimiento.",
+     "Artículos 13 y 14: Ordena la incorporación de 'Etiquetas de Advertencia Nutricional' (sellos frontales) en productos que superen los límites críticos de calorías, grasas, azúcares, sodio, edulcorantes o estimulantes.",
+     "Artículo 15: Otorga un plazo de hasta un año a los sujetos obligados para adaptar sus empaques y etiquetas tras la entrada en vigor de la ley."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1_505WRHGoHS7ujfgJiQhmeEz0-tMLtmO",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Obliga a fabricantes e importadores a reformular empaques para incluir sellos de advertencia, desglosar alérgenos e incorporar mensajes de salud en pautas publicitarias.",
+      "sector": "ALIMENTOS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea costos operativos y de diseño de empaque para toda la industria y comercializadores de alimentos y bebidas, además de sujetarlos a fiscalización y sanciones de MINSA y ACODECO.",
+    "resumen": "El proyecto impone la obligatoriedad de incluir información nutricional detallada, advertencias sobre ingredientes críticos (sellos) y declaración de alérgenos en todos los alimentos y bebidas, sean nacionales o importados. Además, restringe la publicidad en medios masivos exigiendo mensajes de vida saludable y otorga facultades sancionatorias al MINSA y a la ACODECO, otorgando un plazo de adecuación de un año.",
+    "sectores": [
+     "ALIMENTOS"
+    ],
+    "titulo": "Que establece la obligatoriedad del etiquetado nutricional en todos los alimentos a nivel nacional",
+    "titulo_corto": "Obligatoriedad de etiquetado nutricional en alimentos"
+   },
    "anteproyecto": "102",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Enviado a subcomisión para analisis",
@@ -51725,5 +51850,5 @@
   ],
   "revisada": "2026-10-27T16:03:06"
  },
- "ultima_corrida": "2026-10-27T19:56:30"
+ "ultima_corrida": "2026-10-27T20:54:42"
 }
