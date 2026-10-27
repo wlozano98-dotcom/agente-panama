@@ -1,5 +1,5 @@
 {
- "comisiones_revisadas": "2026-10-27T17:03:21",
+ "comisiones_revisadas": "2026-10-27T23:48:34",
  "drive": {
   "7404": {
    "carpeta": "Obligatoriedad de educación media y preescolar (ficha 7404)",
@@ -285,6 +285,10 @@
    "carpeta": "Modificaciones a la Ley 6 de 1987 sobre beneficios a jubilados (ficha 7750)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
+  "7754": {
+   "carpeta": "Fiscalización de cuota laboral para personas con discapacidad (ficha 7754)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
   "7756": {
    "carpeta": "Régimen de nacimientos saludables (ficha 7756)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
@@ -313,9 +317,21 @@
    "carpeta": "Señalización vial en obras públicas (ficha 7779)",
    "comision": "Comisión de Comunicación y Transporte"
   },
+  "7783": {
+   "carpeta": "Enseñanza de lenguas maternas en comarcas y territorios (ficha 7783)",
+   "comision": "Comisión de Asuntos Indígenas"
+  },
   "7785": {
    "carpeta": "Reforma a la ley de turismo indígena sostenible (ficha 7785)",
    "comision": "Comisión de Asuntos Indígenas"
+  },
+  "7786": {
+   "carpeta": "Reforma a la ley de ordenamiento territorial urbano (ficha 7786)",
+   "comision": "Comisión de Asuntos Municipales"
+  },
+  "7787": {
+   "carpeta": "Responsabilidad de promotoras y constructoras (ficha 7787)",
+   "comision": "Comisión de Infraestructura Pública y Asuntos del Canal"
   },
   "7800": {
    "carpeta": "Certificado de salud mental para mayores de 70 años (ficha 7800)",
@@ -13308,6 +13324,31 @@
    "titulo": "QUE ESTABLECE LAS CAPSULAS DE COMUNICACION EDUCATIVA"
   },
   "7754": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1 (modifica el artículo 42 de la Ley 42 de 1999): Asigna al MITRADEL y a la SENADIS la realización de campañas permanentes y talleres dirigidos a empleadores y personal de recursos humanos sobre ajustes razonables, accesibilidad e inclusión laboral.",
+     "Artículo 2 (modifica el artículo 45 de la Ley 42 de 1999): Faculta al MITRADEL a fiscalizar la cuota laboral del 2% mediante inspecciones periódicas, solicitudes de informes de cumplimiento, publicación de listas de empresas infractoras, aplicación de multas progresivas y suspensión de beneficios fiscales."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1BVVxrY1ZSvMtc2uE9hUZ0f0LTrZvoba_",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Refuerza la fiscalización y los reportes de cumplimiento de la cuota laboral de discapacidad ya existente, estableciendo multas, suspensión de beneficios fiscales y listas de empresas infractoras.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No crea una obligación contractual nueva, pero intensifica la fiscalización laboral sobre el 2% de inclusión de personas con discapacidad, exponiendo a las empresas a inspecciones, entrega de informes y nuevas sanciones administrativas y fiscales.",
+    "resumen": "El proyecto propone reforzar el cumplimiento de la cuota laboral del 2% para personas con discapacidad en empresas privadas. Para ello, faculta al Ministerio de Trabajo y Desarrollo Laboral (MITRADEL) a realizar inspecciones periódicas, exigir informes de cumplimiento y sancionar a las empresas infractoras mediante multas progresivas, suspensión de beneficios fiscales y su inclusión en listas públicas. Asimismo, establece programas de sensibilización y capacitación para empleadores sobre ajustes razonables en los puestos de trabajo.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que modifica la Ley 42 de 1999 que establece la equiparación de oportunidades para las personas con discapacidad y dicta otras disposiciones.",
+    "titulo_corto": "Fiscalización de cuota laboral para personas con discapacidad"
+   },
    "anteproyecto": "294",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Enviado a subcomisión para analisis",
@@ -14191,6 +14232,24 @@
    "titulo": "QUE AUTORIZA LA TRANSFERENCIA DE FONDOS EXTRAORDINARIOS A LA CAJA DE SEGURO SOCIAL PARA REFORZAR PARCIALMENTE LOS COSTOS DEL PROGRAMA DE INVALIDEZ, VEJEZ Y MUERTE CORRESPONDIENTE AL MES DE FEBRERO DE 2025 Y DICTA OTRAS DISPOSICIONES"
   },
   "7783": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Establece la enseñanza obligatoria de las lenguas maternas en planteles educativos oficiales y particulares en comarcas y territorios indígenas.",
+     "Artículo 5: Obliga a universidades e institutos pedagógicos particulares de dichas áreas a implementar programas de formación para la enseñanza de lenguas maternas.",
+     "Artículo 9: Concede un periodo de transición de hasta dos años para que los centros particulares y oficiales cuenten con personal docente capacitado."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1qFyuTQgR-gUcbtyQBBmB8Ix4ky0Ot87Q",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto se circunscribe a la política educativa y curricular en zonas comarcales, por lo que no incide sobre los sectores empresariales comerciales, financieros o industriales monitoreados.",
+    "resumen": "La iniciativa establece la obligatoriedad de impartir la enseñanza de las lenguas maternas en las escuelas oficiales y particulares de primer y segundo nivel de enseñanza dentro de los 12 territorios y 7 comarcas indígenas de Panamá. Asimismo, exige a institutos y universidades privadas de dichas áreas incorporar planes de formación docente en estas lenguas en un plazo de hasta dos años.",
+    "sectores": [],
+    "titulo": "Que establece la enseñanza de las lenguas maternas en los centros educativos oficiales y particulares del primer y segundo nivel de enseñanza, de los doce territorios y siete comarcas del país y se dictan otras disposiciones",
+    "titulo_corto": "Enseñanza de lenguas maternas en comarcas y territorios"
+   },
    "anteproyecto": "319",
    "comision": "COMISION DE ASUNTOS INDIGENAS",
    "etapa": "Enviado a subcomisión para analisis",
@@ -14302,6 +14361,33 @@
    "titulo": "QUE MODIFICA LA LEY 290 DEL 24 DE MARZO DE 2022, QUE DECLARA PRIORIDAD NACIONAL EL FOMENTO Y EL DESARROLLO DEL TURISMO INDÍGENA SOSTENIBLE Y DICTA OTRAS DISPOSICIONES."
   },
   "7786": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 4 (adiciona arts. 16-A a 16-D): Regula y restringe los Esquemas de Ordenamiento Territorial, supeditándolos a planes locales y capacidad de carga, e impone medidas de adaptación climática a los desarrolladores.",
+     "Artículo 11 (modifica art. 26 numeral 4): Exige que, ante cambios de uso de suelo sin capacidad instalada de servicios públicos ni presupuesto estatal asignado, los costos de infraestructura sean asumidos por el promotor.",
+     "Artículo 12 (modifica art. 30): Obliga a traspasar áreas verdes, parques y servidumbres antes de concluir cada fase de la urbanización, y prohíbe otorgar permisos de movimiento de tierras o construcción sobre áreas no traspasadas.",
+     "Artículo 15 (modifica art. 37 numeral 7): Establece como infracción urbanística no traspasar a los municipios o dilatar la entrega de áreas de cesión obligatoria, incluso por fases del proyecto."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1icalX4HsnK6BsIclLqPg0hlM9CokaGUm",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Crea fuertes cargas financieras para promotores y desarrolladores al obligarlos a costear servicios públicos faltantes, frena permisos constructivos y endurece sanciones por entrega de áreas públicas.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Afecta de forma directa a promotores urbanísticos y empresas de la construcción al trasladarles costos de infraestructura de servicios públicos, supeditar permisos al traspaso obligatorio de áreas públicas y condicionar cambios de zonificación a consultas vecinales vinculantes.",
+    "resumen": "La iniciativa reforma la legislación urbanística para regular estrictamente los esquemas de ordenamiento territorial y condicionarlos a planes locales preexistentes. Introduce la exigencia a los promotores de financiar las infraestructuras de servicios públicos no cubiertas por el Estado ante solicitudes de cambio de zonificación. Asimismo, prohíbe la emisión de permisos de construcción si no se han traspasado previamente al municipio las áreas verdes, parques y servidumbres por cada fase del proyecto.",
+    "sectores": [
+     "CEMENTERAS"
+    ],
+    "titulo": "Que modifica la Ley 6 de 1 de febrero de 2006, que reglamenta el ordenamiento territorial para el desarrollo urbano y dicta otras disposiciones",
+    "titulo_corto": "Reforma a la ley de ordenamiento territorial urbano"
+   },
    "anteproyecto": "322",
    "comision": "COMISION DE ASUNTOS MUNICIPALES",
    "etapa": "Enviado a subcomisión para analisis",
@@ -14335,6 +14421,40 @@
    "titulo": "QUE MODIFICA LA LEY 6 DE 1 DE FEBRERO DE 2006, QUE REGLAMENTA EL ORDENAMIENTO TERRITORIAL PARA EL DESARROLLO URBANO Y DICTA OTRAS DISPOSICIONES"
   },
   "7787": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 4: Prohíbe otorgar permisos de construcción si no existen condiciones garantizadas para agua y luz las 24 horas, vías de acceso, transporte, alcantarillado, educación y salud.",
+     "Artículo 6: Obliga a promotoras y constructoras a administrar y costear el mantenimiento de servidumbres, parques, tanques de agua y plantas de tratamiento residual hasta que culmine el traspaso al Estado.",
+     "Artículo 7: Prohíbe la disolución de las sociedades mercantiles y empresas que integran el grupo promotor o constructor durante diez años contados a partir de la entrega de la última vivienda.",
+     "Artículo 8: Modifica el artículo 1343 del Código Civil para extender a diez años la responsabilidad solidaria de la promotora y constructora por ruina o vicios, y a quince años la acción por incumplimiento de contrato.",
+     "Artículo 9: Adiciona el artículo 79-A a la Ley 45 de 2007 para formalizar la garantía decenal y exigir una póliza de seguro contra todo riesgo que respalde la garantía como condición indispensable para recibir el permiso de construcción."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1drMJ8TP-kYotFkwSpG3QugQBzhiHY5TP",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Modifica radicalmente el régimen de responsabilidad de promotoras y constructoras, prohibiendo la disolución de sus empresas por diez años, extendiendo plazos de garantías e imponiendo trabas a los permisos de construcción.",
+      "sector": "CEMENTERAS"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Crea una póliza de seguros obligatoria contra todo riesgo en la construcción que cubra garantías por diez años como requisito previo para la emisión de permisos de construcción.",
+      "sector": "SEGUROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Impacta directamente al sector de la construcción y bienes raíces al aumentar sustancialmente los plazos de contingencia legal, restringir la obtención de permisos y hacer mandatoria la contratación de pólizas de cobertura decenal.",
+    "resumen": "Establece un régimen estricto de obligaciones y responsabilidad civil para constructoras y promotoras de desarrollos residenciales. Prohíbe otorgar permisos de construcción si el área carece de servicios públicos garantizados las 24 horas, veta la disolución de sociedades del proyecto por diez años tras la entrega, extiende las garantías por vicios a diez años y exige una póliza de seguro obligatoria para construir.",
+    "sectores": [
+     "CEMENTERAS",
+     "SEGUROS"
+    ],
+    "titulo": "Que adopta medidas para subsanar y responsabilizar los procesos de construcción de las promotoras y constructoras, y dicta otras disposiciones",
+    "titulo_corto": "Responsabilidad de promotoras y constructoras"
+   },
    "anteproyecto": "323",
    "comision": "COMISION DE INFRAESTRUCTURA PUBLICA Y ASUNTOS DEL CANAL",
    "etapa": "Enviado a subcomisión para analisis",
@@ -52094,5 +52214,5 @@
   ],
   "revisada": "2026-10-27T16:03:06"
  },
- "ultima_corrida": "2026-10-27T22:53:45"
+ "ultima_corrida": "2026-10-27T23:50:40"
 }
