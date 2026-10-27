@@ -1385,6 +1385,10 @@
    "carpeta": "Permiso laboral para atención médica de hijos menores (ficha 8441)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
+  "8443": {
+   "carpeta": "Regulación de publicidad comercial en creadores de contenido digital (ficha 8443)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
   "8445": {
    "carpeta": "Regulación de estacionamientos públicos pagados (ficha 8445)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
@@ -1392,6 +1396,10 @@
   "8447": {
    "carpeta": "Ley de segunda oportunidad y derecho al olvido penal (ficha 8447)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "8448": {
+   "carpeta": "Régimen de operación y mantenimiento de PTAR (ficha 8448)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
   "8449": {
    "carpeta": "Protección del consumidor financiero (ficha 8449)",
@@ -1413,6 +1421,10 @@
    "carpeta": "Marco jurídico del derecho humano al agua potable (ficha 8463)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
+  "8464": {
+   "carpeta": "Acompañamiento a egresados del sistema de protección (ficha 8464)",
+   "comision": "Comisión de la Mujer, la Niñez y la Familia"
+  },
   "8465": {
    "carpeta": "Traspaso de plantas de tratamiento de aguas residuales al IDAAN (ficha 8465)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
@@ -1428,6 +1440,10 @@
   "8471": {
    "carpeta": "Regulación de la hipoteca inversa (ficha 8471)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
+  "8474": {
+   "carpeta": "Regulación de aguas residuales en proyectos habitacionales (ficha 8474)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
   "8475": {
    "carpeta": "Prohibición de sugerir propinas en comercios (ficha 8475)",
@@ -40693,6 +40709,35 @@
    "titulo": "QUE TIPIFICA EL DELITO DE CORRUPCION O FRAUDE EN EL DEPORTE Y REFORMA EL CODIGO PENAL DE LA REPUBLICA DE PANAMA"
   },
   "8443": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2: Aplica a toda comunicación comercial dirigida al público en Panamá, sin importar el domicilio del creador o anunciante.",
+     "Artículos 5, 6 y 7: Obligan a identificar la publicidad de forma previa y clara mediante etiquetas específicas (#Publicidad, #Patrocinado, #Colaboración) o herramientas de la plataforma.",
+     "Artículo 8: Considera comunicación comercial la entrega gratuita de productos para reseñas, viajes patrocinados, códigos de afiliados y figuras de embajadores de marca.",
+     "Artículo 9: Establece que omitir la identificación de publicidad constituye automáticamente publicidad engañosa bajo la Ley 45 de 2007.",
+     "Artículo 12: Declara al anunciante y al creador de contenido solidariamente responsables ante la ACODECO, incluso si se contrató a través de agencias intermediarias.",
+     "Artículos 14 y 15: Modifican el artículo 58 de la Ley 45 de 2007 para extender explícitamente el régimen de veracidad publicitaria a plataformas digitales y redes sociales."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1yZZt4FJo_lDGrC1IdnfClcphpkULjZJK",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Crea reglas de transparencia comercial e impone responsabilidad solidaria a toda empresa anunciante que contrate creadores de contenido digital.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Afecta de forma transversal las estrategias de mercadeo de las empresas, exigiéndoles supervisar y asegurar el etiquetado correcto de la publicidad en redes sociales bajo pena de sanciones por publicidad engañosa.",
+    "resumen": "Regula la actividad publicitaria y el marketing de influencia en redes sociales y plataformas digitales en Panamá.\nObliga a identificar de manera clara, visible y previa cualquier contenido patrocinado o remunerado con etiquetas o herramientas específicas.\nEstablece responsabilidad solidaria entre las empresas anunciantes y los creadores de contenido ante la ACODECO por publicidad engañosa o encubierta.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que regula la publicidad comercial difundida por creadores de contenido digital y modifica un artículo de la Ley 45 de 31 de octubre de 2007",
+    "titulo_corto": "Regulación de publicidad comercial en creadores de contenido digital"
+   },
    "anteproyecto": "46",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Enviado a subcomisión para analisis",
@@ -40743,7 +40788,7 @@
    ],
    "fecha": "2026-07-13",
    "ficha": "8444",
-   "proponente": "H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D JORGE ISAAC BLOISE IGLESIAS,H.D ALEXANDRA MARÍA BRENES SAMANIEGO,H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D LUIS HENRIQUE DUKE WALKER,H.D MIGUEL ÁNGEL CAMPOS LIMA,H.D JANINE PRADO CASTAÑO,H.D YAMIRELIZ DAYMIRELKIS CHONG SMITH,H.D LUIS EDUARDO CAMACHO CASTRO,H.D JOSE PEREZ BARBONI",
+   "proponente": "H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D JORGE ISAAC BLOISE IGLESIAS,H.D ALEXANDRA MARÍA BRENES SAMANIEGO,H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D MIGUEL ÁNGEL CAMPOS LIMA,H.D LUIS HENRIQUE DUKE WALKER,H.D YAMIRELIZ DAYMIRELKIS CHONG SMITH,H.D JANINE PRADO CASTAÑO,H.D LUIS EDUARDO CAMACHO CASTRO,H.D JOSE PEREZ BARBONI",
    "proyecto": "",
    "tiene_documento": true,
    "titulo": "QUE ELEVA A DELITO LA VENTA CLANDESTINA DE LOTERIA EN EL TERRITORIO NACIONAL Y DICTA OTRAS DISPOSICIONES"
@@ -40897,12 +40942,48 @@
    ],
    "fecha": "2026-07-14",
    "ficha": "8447",
-   "proponente": "H.D ISAAC MOSQUERA RIVAS,H.D FLOR ISABEL BRENES MEDINA,H.D.S MERCEDES A. GALVEZ USEDA,H.D TOMAS GABRIEL BENAVIDES AGUILAR,H.D ROBERTO ARCHIBOLD CHUITO,H.D GERTRUDIS RODRÍGUEZ DE GRACIA,H.D JULIO DE LA GUARDIA ARROCHA,H.D RICARDO AGUSTÍN VIGIL LÓPEZ,H.D MANUEL CHENG PEÑALBA,H.D NESTOR ANTONIO GUARDIA JAEN",
+   "proponente": "H.D ISAAC MOSQUERA RIVAS,H.D FLOR ISABEL BRENES MEDINA,H.D.S MERCEDES A. GALVEZ USEDA,H.D TOMAS GABRIEL BENAVIDES AGUILAR,H.D ROBERTO ARCHIBOLD CHUITO,H.D GERTRUDIS RODRÍGUEZ DE GRACIA,H.D MANUEL CHENG PEÑALBA,H.D JULIO DE LA GUARDIA ARROCHA,H.D RICARDO AGUSTÍN VIGIL LÓPEZ,H.D NESTOR ANTONIO GUARDIA JAEN",
    "proyecto": "697",
    "tiene_documento": true,
    "titulo": "QUE CREA LA LEY DE SEGUNDA OPORTUNIDAD Y DERECHO AL OLVIDO PENAL, ESTABLECE MECANISMOS DE REINSERCION SOCIAL Y REGULA LA CANCELACION DE ANTECEDENTES Y REGISTROS POLICIALES."
   },
   "8448": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2: Establece el ámbito de aplicación obligatorio para todas las PTAR públicas y privadas, existentes o nuevas, que traten aguas residuales domésticas, industriales o especiales.",
+     "Artículo 6: Exige que toda PTAR cuente con un Plan de Operación y Mantenimiento (POM) actualizado y disponible en sitio, detallando protocolos operativos, de seguridad y de contingencia.",
+     "Artículo 8: Obliga a que los operadores y responsables técnicos cuenten con registro vigente, competencias acreditadas y participen en programas de formación continua.",
+     "Artículo 10: Asigna responsabilidad directa a titulares, promotores, desarrolladores y administradores para garantizar condiciones técnicas y fondos de reserva para la operación y mantenimiento continuo de la infraestructura.",
+     "Artículo 13: Exige el registro y trazabilidad de los volúmenes descargados, consumo de insumos, manejo de lodos y reporte de fallas operacionales.",
+     "Artículo 16: Dispone la validación y verificación periódica independiente de los informes técnicos por parte de Organismos de Validación y Verificación (OVV) acreditados por el Consejo Nacional de Acreditación (CNA).",
+     "Artículo 12: Establece sanciones administrativas que incluyen multas, suspensión temporal o definitiva de la operación de la PTAR y la revocación de la certificación del operador."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1EoLPT0YfitIZA-WEqy2lyaaRIWYg2aPp",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Impone nuevas responsabilidades operativas, técnicas y financieras a desarrolladores inmobiliarios y administradores de proyectos urbanísticos sobre las PTAR residenciales y comerciales.",
+      "sector": "CEMENTERAS"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Establece exigencias técnicas estrictas de monitoreo, certificación de operadores y verificación externa para las instalaciones industriales con tratamiento de aguas residuales.",
+      "sector": "INDUSTRIAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea costos operativos y regulatorios adicionales para empresas que gestionan o transfieren sistemas de saneamiento (industrias y desarrollos inmobiliarios), al exigir planes formales de mantenimiento, personal acreditado, gestión de lodos y verificaciones técnicas externas.",
+    "resumen": "Establece un marco legal obligatorio para regular la operación, mantenimiento, control y trazabilidad de todas las Plantas de Tratamiento de Aguas Residuales (PTAR) públicas y privadas del país. Obliga a los titulares, promotores y operadores a implementar un Plan de Operación y Mantenimiento (POM), contar con personal técnico certificado, mantener registros de trazabilidad y someterse a auditorías de verificación independiente. Afecta directamente a empresas operadoras de saneamiento, desarrolladores inmobiliarios y plantas industriales que tratan sus propios efluentes.",
+    "sectores": [
+     "CEMENTERAS",
+     "INDUSTRIAS"
+    ],
+    "titulo": "Que establece el régimen jurídico para la operación y el mantenimiento de las Plantas de Tratamiento de Aguas Residuales (PTAR) en la República de Panamá",
+    "titulo_corto": "Régimen de operación y mantenimiento de PTAR"
+   },
    "anteproyecto": "49",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Enviado a subcomisión para analisis",
@@ -40930,7 +41011,7 @@
    ],
    "fecha": "2026-07-14",
    "ficha": "8448",
-   "proponente": "H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D PATSY CRISTINA LEE RENTERÍA DE HUANG,H.D LUIS HENRIQUE DUKE WALKER,H.D MIGUEL ÁNGEL CAMPOS LIMA,H.D EDUARDO ALEJANDRO GAITÁN BEITÍA,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ",
+   "proponente": "H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D MIGUEL ÁNGEL CAMPOS LIMA,H.D LUIS HENRIQUE DUKE WALKER,H.D PATSY CRISTINA LEE RENTERÍA DE HUANG,H.D EDUARDO ALEJANDRO GAITÁN BEITÍA,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ",
    "proyecto": "655",
    "tiene_documento": true,
    "titulo": "QUE ESTABLECE EL REGIMEN JURIDICO PARA LA OPERACION Y EL MANTENIMIENTO DE LAS PLANTAS DE TRATAMIENTO DE AGUAS RESIDUALES (PTAR) EN LA REPUBLICA DE PANAMA"
@@ -41028,7 +41109,7 @@
    ],
    "fecha": "2026-07-15",
    "ficha": "8450",
-   "proponente": "H.D DANA D. CASTAÑEDA GUARDIA,H.D FRANCISCO JAVIER BREA TRISTÁN,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D RAUL GILBERTO PINEDA VERGARA,H.D OLGA PAULETTE THOMAS HORLY,H.D ARIANA MARISÍN COBA MARTÍNEZ,H.D YUZAIDA ANDREA MARÍN NATERON DE AGUILAR,H.D MARCOS ENRIQUE CASTILLERO BARAHONA,H.D.S MERCEDES A. GALVEZ USEDA",
+   "proponente": "H.D DANA D. CASTAÑEDA GUARDIA,H.D FRANCISCO JAVIER BREA TRISTÁN,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D OLGA PAULETTE THOMAS HORLY,H.D RAUL GILBERTO PINEDA VERGARA,H.D YUZAIDA ANDREA MARÍN NATERON DE AGUILAR,H.D ARIANA MARISÍN COBA MARTÍNEZ,H.D MARCOS ENRIQUE CASTILLERO BARAHONA,H.D.S MERCEDES A. GALVEZ USEDA",
    "proyecto": "698",
    "tiene_documento": true,
    "titulo": "QUE MODIFICA EL CODIGO PENAL EN MATERIA DE DELITOS CONTRA EL HONOR DE LA PERSONA NATURAL"
@@ -41046,7 +41127,7 @@
    ],
    "fecha": "2026-07-15",
    "ficha": "8451",
-   "proponente": "H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D JOSE PEREZ BARBONI,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D LUIS HENRIQUE DUKE WALKER,H.D MIGUEL ÁNGEL CAMPOS LIMA",
+   "proponente": "H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D JOSE PEREZ BARBONI,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D MIGUEL ÁNGEL CAMPOS LIMA,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D LUIS HENRIQUE DUKE WALKER",
    "proyecto": "",
    "tiene_documento": true,
    "titulo": "QUE ADICIONA DISPOSICIONES A LA LEY 81 DE 26 DE MARZO DE 2019, SOBRE EL TRATAMIENTO DE DATOS DE DISPOSITIVOS MÓVILES EN INVESTIGACIONES PENALES"
@@ -41064,7 +41145,7 @@
    ],
    "fecha": "2026-07-15",
    "ficha": "8452",
-   "proponente": "H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D JOSE PEREZ BARBONI,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D LUIS HENRIQUE DUKE WALKER,H.D MIGUEL ÁNGEL CAMPOS LIMA",
+   "proponente": "H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D JOSE PEREZ BARBONI,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D MIGUEL ÁNGEL CAMPOS LIMA,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D LUIS HENRIQUE DUKE WALKER",
    "proyecto": "",
    "tiene_documento": true,
    "titulo": "QUE MODIFICA Y ADICIONA DISPOSICIONES AL CODIGO PENAL PARA SANCIONAR LA ALTERACION DE IDENTIFICADORES DE DISPOSITIVOS MOVILES Y FORTALECER EL DELITO DE RECEPTACION"
@@ -41082,7 +41163,7 @@
    ],
    "fecha": "2026-07-15",
    "ficha": "8453",
-   "proponente": "H.D JOSE PEREZ BARBONI,H.D OLGA PAULETTE THOMAS HORLY,H.D WALKIRIA A. CHANDLER D´ORCY,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D BETSERAI AYIZE RICHARDS,H.D JORGE ISAAC BLOISE IGLESIAS,H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D ERNESTO CEDEÑO,H.D GRACIELA HERNANDEZ",
+   "proponente": "H.D JOSE PEREZ BARBONI,H.D OLGA PAULETTE THOMAS HORLY,H.D WALKIRIA A. CHANDLER D´ORCY,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D BETSERAI AYIZE RICHARDS,H.D JORGE ISAAC BLOISE IGLESIAS,H.D GRACIELA HERNANDEZ,H.D ERNESTO CEDEÑO,H.D LENÍN ALBERTO ULATE RODRÍGUEZ",
    "proyecto": "",
    "tiene_documento": true,
    "titulo": "SOBRE MEDIDAS DE PREVENCIÓN Y CONTROL EN TORNO A LA PRODUCCIÓN, PREPARACIÓN Y TRÁFICO DE DROGAS SINTÉTICAS Y SUS PRECURSORES"
@@ -41100,7 +41181,7 @@
    ],
    "fecha": "2026-07-15",
    "ficha": "8454",
-   "proponente": "H.D LUIS HENRIQUE DUKE WALKER,H.D ALEXANDRA MARÍA BRENES SAMANIEGO,H.D MANUEL ALBERTO SAMANIEGO RODRÍGUEZ,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D EDUARDO ALEJANDRO GAITÁN BEITÍA,H.D JHONATHAN EDIR VEGA,H.D JANINE PRADO CASTAÑO,H.D JORGE ISAAC BLOISE IGLESIAS,H.D MIGUEL ÁNGEL CAMPOS LIMA,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D OLGA PAULETTE THOMAS HORLY,H.D JOSE PEREZ BARBONI,H.D PATSY CRISTINA LEE RENTERÍA DE HUANG",
+   "proponente": "H.D LUIS HENRIQUE DUKE WALKER,H.D ALEXANDRA MARÍA BRENES SAMANIEGO,H.D MANUEL ALBERTO SAMANIEGO RODRÍGUEZ,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D JHONATHAN EDIR VEGA,H.D EDUARDO ALEJANDRO GAITÁN BEITÍA,H.D JORGE ISAAC BLOISE IGLESIAS,H.D JANINE PRADO CASTAÑO,H.D MIGUEL ÁNGEL CAMPOS LIMA,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D OLGA PAULETTE THOMAS HORLY,H.D JOSE PEREZ BARBONI,H.D PATSY CRISTINA LEE RENTERÍA DE HUANG",
    "proyecto": "",
    "tiene_documento": true,
    "titulo": "QUE MODIFICA Y ADICIONA ARTÍCULOS AL TEXTO ÚNICO DEL CÓDIGO PENAL, PARA SANCIONAR CON CÁRCEL LA DEVOLUCIÓN ILÍCITA DE EMOLUMENTOS PÚBLICOS"
@@ -41263,7 +41344,7 @@
    ],
    "fecha": "2026-07-16",
    "ficha": "8458",
-   "proponente": "H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D.S NAYELIS NOEMÍ GONZÁLEZ GONZÁLEZ,H.D.S EDILBERTO ANTONIO GUERRERO LÓPEZ,H.D MIGUEL ÁNGEL CAMPOS LIMA,H.D NEFTALÍ OMAR ZAMORA IBARRA,H.D JOSE PEREZ BARBONI,H.D MANUEL CHENG PEÑALBA,H.D.S ARIEL AUGUSTO ORTEGA DE LEON,H.D JHONATHAN EDIR VEGA",
+   "proponente": "H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D.S EDILBERTO ANTONIO GUERRERO LÓPEZ,H.D.S NAYELIS NOEMÍ GONZÁLEZ GONZÁLEZ,H.D MIGUEL ÁNGEL CAMPOS LIMA,H.D NEFTALÍ OMAR ZAMORA IBARRA,H.D JOSE PEREZ BARBONI,H.D MANUEL CHENG PEÑALBA,H.D.S ARIEL AUGUSTO ORTEGA DE LEON,H.D JHONATHAN EDIR VEGA",
    "proyecto": "",
    "tiene_documento": true,
    "titulo": "QUE FORTALECE LOS PROGRAMAS DE PREVENCION DE LA VIOLENCIA, LA DELINCUENCIA Y LAS CONDUCTAS ANTISOCIALES DESARROLLADOS POR EL MINISTERIO DE SEGURIDAD PUBLICA Y DICTA OTRAS DISPOSICIONES"
@@ -41369,6 +41450,20 @@
    "titulo": "QUE ESTABLECE EL MARCO JURIDICO PARA EL RECONOCIMIENTO Y GARANTIA DEL DERECHO HUMANO AL AGUA POTABLE Y PROMUEVE LA PROTECCION SOSTENIBLE DE LOS RECURSOS HIDRICOS"
   },
   "8464": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1b8qOoCfgtRtVjfMmPpI3xguAur_gblO_",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No genera obligaciones, costos regulatorios ni cargas operativas para las empresas privadas; las intervenciones recaen en entidades públicas y cualquier articulación empresarial es estrictamente voluntaria.",
+    "resumen": "Propone reformar la Ley 285 de 2022 para crear un programa estatal de acompañamiento y un registro nacional para jóvenes que egresan de albergues o del sistema de acogimiento estatal al cumplir la mayoría de edad. La iniciativa busca facilitar su transición a la vida independiente mediante planes individuales, acceso prioritario a programas sociales, educativos y laborales del Estado. La interacción con el sector privado se plantea exclusivamente bajo esquemas de colaboración y participación voluntaria.",
+    "sectores": [],
+    "titulo": "Que modifica y adiciona artículos a la Ley 285 de 15 de febrero de 2022, que crea el Programa Nacional de Acompañamiento Integral para Jóvenes Egresados del Sistema de Protección y Acogimiento y el Registro Nacional de Jóvenes Egresados del Sistema de Protección y Acogimiento, y dicta otras disposiciones",
+    "titulo_corto": "Acompañamiento a egresados del sistema de protección"
+   },
    "anteproyecto": "69",
    "comision": "COMISION DE LA MUJER, LA NIÑEZ Y LA FAMILIA",
    "etapa": "Enviado a subcomisión para analisis",
@@ -41739,6 +41834,37 @@
    "titulo": "QUE GARANTIZA LA TRANSPARENCIA EN LA LECTURA DE LOS MEDIDORES DE ENERGIA ELECTRICA, ESTABLECE REGLAS PARA LA DETERMINACION DEL SUBSIDIO POR CONSUMO DE HASTA 300 KWH MENSUALES Y DICTA OTRAS DISPOSICIONES"
   },
   "8474": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 5: Establece una responsabilidad mínima obligatoria de cinco años para los promotores inmobiliarios en el funcionamiento de la planta de tratamiento tras la recepción definitiva.",
+     "Artículo 6: Obliga al promotor a contratar operadores certificados, asumir costos de mantenimiento preventivo y costear análisis de laboratorio periódicos.",
+     "Artículo 7: Exige constituir una fianza bancaria, póliza de cumplimiento o fideicomiso como garantía ambiental previa indispensable para recibir el permiso de ocupación.",
+     "Artículo 8: Obliga a constituir un fondo económico exclusivo destinado a la operación futura del sistema de tratamiento.",
+     "Artículos 11 y 12: Ordena constituir una Asociación de Usuarios como requisito previo a la aprobación definitiva en proyectos no sujetos a propiedad horizontal.",
+     "Artículos 14, 15 y 16: Restringe y prohíbe el uso de tanques sépticos individuales según la densidad habitacional y condiciones del terreno.",
+     "Artículo 22: Fija sanciones por incumplimiento que abarcan multas, paralización del proyecto, ejecución de garantías y revocatoria de permisos.",
+     "Artículo 25: Otorga un plazo de dos años para que los proyectos existentes se adecúen a las disposiciones de la ley."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1VA19jBysRbypmIJWH7cTB7Z38YSr2Z0r",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Impone a los desarrolladores y constructores inmobiliarios costos operativos prolongados por cinco años y garantías financieras obligatorias para la obtención del permiso de ocupación.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea gravosas obligaciones económicas, operativas y de responsabilidad legal extendida para las empresas promotoras y constructoras de proyectos residenciales.",
+    "resumen": "El proyecto impone a los promotores y desarrolladores inmobiliarios la obligación de operar y costear el mantenimiento de las plantas de tratamiento de aguas residuales por un período mínimo de cinco años posteriores a la recepción de la obra. Asimismo, exige la constitución de garantías financieras y fondos de reserva como condición previa para obtener el permiso de ocupación, y restringe el uso de tanques sépticos en nuevos desarrollos urbanísticos.",
+    "sectores": [
+     "CEMENTERAS"
+    ],
+    "titulo": "Que regula la instalación, operación, mantenimiento y supervisión de los sistemas de tratamiento de aguas residuales en proyectos habitacionales, establece la responsabilidad de los promotores inmobiliarios y dicta normas sobre el uso de tanques sépticos en urbanizaciones no sometidas al régimen de propiedad horizontal",
+    "titulo_corto": "Regulación de aguas residuales en proyectos habitacionales"
+   },
    "anteproyecto": "79",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Enviado a subcomisión para analisis",
@@ -41982,7 +42108,7 @@
    ],
    "fecha": "2026-07-22",
    "ficha": "8479",
-   "proponente": "H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D ALEXANDRA MARÍA BRENES SAMANIEGO,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D MIGUEL ÁNGEL CAMPOS LIMA,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D JHONATHAN EDIR VEGA,H.D LUIS HENRIQUE DUKE WALKER,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO",
+   "proponente": "H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D ALEXANDRA MARÍA BRENES SAMANIEGO,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D MIGUEL ÁNGEL CAMPOS LIMA,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D LUIS HENRIQUE DUKE WALKER,H.D JHONATHAN EDIR VEGA,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO",
    "proyecto": "664",
    "tiene_documento": true,
    "titulo": "QUE ESTABLECE EL REGIMEN JURIDICO PARA LA PROTECCION AMBIENTAL FRENTE A LOS PLAGUICIDAS ALTAMENTE PELIGROSOS, REGULA SU ELIMINACION PROGRESIVA Y LA GESTION AMBIENTALMENTE SEGURA DE SUS RESIDUOS Y DICTA OTRAS DISPOSICIONES"
@@ -42872,7 +42998,7 @@
    ],
    "fecha": "2026-07-29",
    "ficha": "8500",
-   "proponente": "H.D ROBERTO ARCHIBOLD CHUITO,H.D NIXSON ANDRADE RODRÍGUEZ,H.D ISAAC MOSQUERA RIVAS,H.D GERTRUDIS RODRÍGUEZ DE GRACIA",
+   "proponente": "H.D ROBERTO ARCHIBOLD CHUITO,H.D GERTRUDIS RODRÍGUEZ DE GRACIA,H.D ISAAC MOSQUERA RIVAS,H.D NIXSON ANDRADE RODRÍGUEZ",
    "proyecto": "677",
    "tiene_documento": true,
    "titulo": "QUE DECLARA EL DIA 22 DE SEPTIEMBRE DE CADA AÑO COMO DIA DE REFLEXION, DENOMINADO, DIA DE LA ESPIRITUALIDAD DE LA RELIGION MAMA TATA EN LA COMARCA NGABE-BUGLE Y SE RECONOCE SUS SIMBOLOS TERRITORIALES COMO SIMBOLO DE UNIDAD, COSMOVISION Y SABERES ANCESTRALES DEL PUEBLO NGABE- BUGLE Y SE DICTA OTRAS DISPOSICIONES"
@@ -43914,7 +44040,7 @@
    ],
    "fecha": "2026-08-05",
    "ficha": "8523",
-   "proponente": "H.D ISAAC MOSQUERA RIVAS,H.D JAIME EDGARDO VARGAS CENTELLA,H.D.S LUIS MIGUEL CHARRIS ÁBREGO,H.D RONALD AMETH DE GRACIA MORENO,H.D LUIS OMAR ORTEGA RIVERA,H.D JULIO DE LA GUARDIA ARROCHA,H.D ALAIN ALBENIS CEDEÑO HERRERA,H.D FLOR ISABEL BRENES MEDINA,H.D JAVIER FRANCISCO SUCRE MEJIA,H.D MARCOS ENRIQUE CASTILLERO BARAHONA,H.D JAMIS GASPAR ACOSTA GUERRA,H.D.S MERCEDES A. GALVEZ USEDA,H.D.S BOLIVAR ENRIQUE ESCALA VERGARA,H.D ROGELIO RICARDO REVELLO TEM,H.D ROBERTO ARCHIBOLD CHUITO",
+   "proponente": "H.D ISAAC MOSQUERA RIVAS,H.D JAIME EDGARDO VARGAS CENTELLA,H.D.S LUIS MIGUEL CHARRIS ÁBREGO,H.D JULIO DE LA GUARDIA ARROCHA,H.D RONALD AMETH DE GRACIA MORENO,H.D LUIS OMAR ORTEGA RIVERA,H.D ALAIN ALBENIS CEDEÑO HERRERA,H.D FLOR ISABEL BRENES MEDINA,H.D JAVIER FRANCISCO SUCRE MEJIA,H.D MARCOS ENRIQUE CASTILLERO BARAHONA,H.D JAMIS GASPAR ACOSTA GUERRA,H.D.S MERCEDES A. GALVEZ USEDA,H.D ROGELIO RICARDO REVELLO TEM,H.D.S BOLIVAR ENRIQUE ESCALA VERGARA,H.D ROBERTO ARCHIBOLD CHUITO",
    "proyecto": "706",
    "tiene_documento": true,
    "titulo": "QUE CREA LA ZONA ECONOMICA ESPECIAL DE DARIEN"
@@ -44439,7 +44565,7 @@
    ],
    "fecha": "2026-08-12",
    "ficha": "8539",
-   "proponente": "H.D JANINE PRADO CASTAÑO,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D MIGUEL ÁNGEL CAMPOS LIMA,H.D LILIA EMERITA BATISTA RODRIGUEZ,H.D BETSERAI AYIZE RICHARDS,H.D OLGA PAULETTE THOMAS HORLY,H.D PATSY CRISTINA LEE RENTERÍA DE HUANG,H.D.S MAIQUELY DEL CARMEN AÑINO MEDINA DE BARRIOS,H.D.S GUMERCINDA EDITH PÉREZ CEDEÑO DE POLO,H.D.S ARIEL ANÍBAL RÍOS ZAPATA,H.D YAMIRELIZ DAYMIRELKIS CHONG SMITH,H.D.S ANA MARÍA POVEDA HERRERA,H.D LENÍN ALBERTO ULATE RODRÍGUEZ",
+   "proponente": "H.D JANINE PRADO CASTAÑO,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D MIGUEL ÁNGEL CAMPOS LIMA,H.D LILIA EMERITA BATISTA RODRIGUEZ,H.D BETSERAI AYIZE RICHARDS,H.D OLGA PAULETTE THOMAS HORLY,H.D.S GUMERCINDA EDITH PÉREZ CEDEÑO DE POLO,H.D PATSY CRISTINA LEE RENTERÍA DE HUANG,H.D.S MAIQUELY DEL CARMEN AÑINO MEDINA DE BARRIOS,H.D YAMIRELIZ DAYMIRELKIS CHONG SMITH,H.D.S ARIEL ANÍBAL RÍOS ZAPATA,H.D.S ANA MARÍA POVEDA HERRERA,H.D LENÍN ALBERTO ULATE RODRÍGUEZ",
    "proyecto": "690",
    "tiene_documento": true,
    "titulo": "QUE RECONOCE EL FESTIVAL INTERNACIONAL DE DEGUSTACION A BENEFICIO DE LA ASOCIACION NACIONAL CONTRA EL CANCER CAPITULO DE SANTIAGO EN LA PROVINCIA DE VERAGUAS, CREA SU PATRONATO Y DICTA OTRAS DISPOSICIONES"
@@ -44814,7 +44940,7 @@
    ],
    "fecha": "2026-08-17",
    "ficha": "8551",
-   "proponente": "H.D JANINE PRADO CASTAÑO,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D AUGUSTO EFRAÍN PALACIOS MUÑOZ,H.D PATSY CRISTINA LEE RENTERÍA DE HUANG,H.D ALEXANDRA MARÍA BRENES SAMANIEGO,H.D MIGUEL ÁNGEL CAMPOS LIMA,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D JHONATHAN EDIR VEGA,H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D WALKIRIA A. CHANDLER D´ORCY,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D EDUARDO ALEJANDRO GAITÁN BEITÍA,H.D YAMIRELIZ DAYMIRELKIS CHONG SMITH,H.D JORGE ISAAC BLOISE IGLESIAS,H.D LUIS HENRIQUE DUKE WALKER",
+   "proponente": "H.D JANINE PRADO CASTAÑO,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D AUGUSTO EFRAÍN PALACIOS MUÑOZ,H.D PATSY CRISTINA LEE RENTERÍA DE HUANG,H.D ALEXANDRA MARÍA BRENES SAMANIEGO,H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D MIGUEL ÁNGEL CAMPOS LIMA,H.D JHONATHAN EDIR VEGA,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D WALKIRIA A. CHANDLER D´ORCY,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D EDUARDO ALEJANDRO GAITÁN BEITÍA,H.D JORGE ISAAC BLOISE IGLESIAS,H.D YAMIRELIZ DAYMIRELKIS CHONG SMITH,H.D LUIS HENRIQUE DUKE WALKER",
    "proyecto": "",
    "tiene_documento": true,
    "titulo": "QUE FORTALECE LA RECUPERACION DE ACTIVOS PROVENIENTES DE DELITOS CONTRA LA ADMINISTRACION PUBLICA, ESTABLECE TECNICAS ESPECIALES DE INVESTIGACION PATRIMONIAL Y COOPERACION INTERNACIONAL PARA SU RECUPERACION, MODIFICA EL CODIGO PENAL, EL CODIGO PROCESAL PENAL Y LA LEY 23 DE 2015, Y DICTA OTRAS DISPOSICIONES"
@@ -45940,7 +46066,7 @@
    ],
    "fecha": "2026-09-02",
    "ficha": "8577",
-   "proponente": "H.D MEDIN JIMÉNEZ PITTI,H.D JULIO DE LA GUARDIA ARROCHA,H.D MANUEL CHENG PEÑALBA,H.D.S MELVIN HAMET PÉREZ FERNÁNDEZ,H.D JANINE PRADO CASTAÑO,H.D NEFTALÍ OMAR ZAMORA IBARRA",
+   "proponente": "H.D MEDIN JIMÉNEZ PITTI,H.D MANUEL CHENG PEÑALBA,H.D JULIO DE LA GUARDIA ARROCHA,H.D.S MELVIN HAMET PÉREZ FERNÁNDEZ,H.D NEFTALÍ OMAR ZAMORA IBARRA,H.D JANINE PRADO CASTAÑO",
    "proyecto": "",
    "tiene_documento": true,
    "titulo": "QUE REGULA LAS JUNTAS ADMINISTRADORAS DE ACUEDUCTOS RURALES, ESTABLECE SU REGIMEN JURIDICO, ADMINISTRATIVO Y FINANCIERO, Y DISPONE SU FISCALIZACION POR LA CONTRALORIA GENERAL DE LA REPUBLICA"
@@ -46359,7 +46485,7 @@
    ],
    "fecha": "2026-09-08",
    "ficha": "8590",
-   "proponente": "H.D TOMAS GABRIEL BENAVIDES AGUILAR,H.D FRANCISCO JAVIER BREA TRISTÁN,H.D JANINE PRADO CASTAÑO,H.D MIGUEL ÁNGEL CAMPOS LIMA",
+   "proponente": "H.D TOMAS GABRIEL BENAVIDES AGUILAR,H.D JANINE PRADO CASTAÑO,H.D FRANCISCO JAVIER BREA TRISTÁN,H.D MIGUEL ÁNGEL CAMPOS LIMA",
    "proyecto": "",
    "tiene_documento": true,
    "titulo": "QUE CREA NOTARIA PUBLICA SEGUNDA DEL CIRCUITO DE VERAGUAS y DICTA OTRAS DISPOSICIONES"
@@ -47726,7 +47852,7 @@
    ],
    "fecha": "2026-10-06",
    "ficha": "8630",
-   "proponente": "H.D JAVIER FRANCISCO SUCRE MEJIA,H.D.S DOMINGA BEJERANO MITRE,H.D SHIRLEY DE LA ROSA CASTAÑEDAS VALENTÍN,H.D JAIRO ARIEL SALAZAR RAMIREZ,H.D LUIS EDUARDO CAMACHO CASTRO,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D JAIME EDGARDO VARGAS CENTELLA,H.D.S NICOLÁS ADAMES ARIAS,H.D MANUEL COHEN SALERNO,H.D.S MARTA ESTELA SANDOYA BARSALLO",
+   "proponente": "H.D JAVIER FRANCISCO SUCRE MEJIA,H.D.S DOMINGA BEJERANO MITRE,H.D JAIRO ARIEL SALAZAR RAMIREZ,H.D SHIRLEY DE LA ROSA CASTAÑEDAS VALENTÍN,H.D LUIS EDUARDO CAMACHO CASTRO,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D JAIME EDGARDO VARGAS CENTELLA,H.D.S NICOLÁS ADAMES ARIAS,H.D.S MARTA ESTELA SANDOYA BARSALLO,H.D MANUEL COHEN SALERNO",
    "proyecto": "746",
    "tiene_documento": true,
    "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 6 DE 1987, SOBRE BENEFICIOS A LOS JUBILADOS, PENSIONADOS Y TERCERA EDAD, Y DICTA OTRAS DISPOSICIONES"
@@ -48124,7 +48250,7 @@
    ],
    "fecha": "2026-10-20",
    "ficha": "8642",
-   "proponente": "H.D PATSY CRISTINA LEE RENTERÍA DE HUANG,H.D ALEXANDRA MARÍA BRENES SAMANIEGO,H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D JORGE ISAAC BLOISE IGLESIAS,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D LUIS HENRIQUE DUKE WALKER,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D JANINE PRADO CASTAÑO,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D EDUARDO ALEJANDRO GAITÁN BEITÍA",
+   "proponente": "H.D PATSY CRISTINA LEE RENTERÍA DE HUANG,H.D ALEXANDRA MARÍA BRENES SAMANIEGO,H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D JORGE ISAAC BLOISE IGLESIAS,H.D LUIS HENRIQUE DUKE WALKER,H.D JANINE PRADO CASTAÑO,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D EDUARDO ALEJANDRO GAITÁN BEITÍA,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA",
    "proyecto": "",
    "tiene_documento": true,
    "titulo": "QUE ADICIONA DISPOSICIONES A LA LEY 37 DE 2009, QUE DESCENTRALIZA LA ADMINISTRACION PUBLICA, PARA LA ATENCION EXTRAORDINARIA DE LAS CONSECUENCIAS DEL TERREMOTO DE 9 DE OCTUBRE DE 2026"
@@ -48168,7 +48294,7 @@
    ],
    "fecha": "2026-10-20",
    "ficha": "8643",
-   "proponente": "H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D JORGE ISAAC BLOISE IGLESIAS,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D LUIS HENRIQUE DUKE WALKER,H.D PATSY CRISTINA LEE RENTERÍA DE HUANG,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO",
+   "proponente": "H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D JORGE ISAAC BLOISE IGLESIAS,H.D LUIS HENRIQUE DUKE WALKER,H.D PATSY CRISTINA LEE RENTERÍA DE HUANG,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO",
    "proyecto": "",
    "tiene_documento": true,
    "titulo": "QUE ESTABLECE EL RÉGIMEN DEL SIMULACRO NACIONAL PARA LA PREPARACIÓN Y RESPUESTA ANTE EMERGENCIAS Y DESASTRES."
@@ -48218,7 +48344,7 @@
    ],
    "fecha": "2026-10-20",
    "ficha": "8644",
-   "proponente": "H.D LUIS HENRIQUE DUKE WALKER,H.D YAMIRELIZ DAYMIRELKIS CHONG SMITH,H.D PATSY CRISTINA LEE RENTERÍA DE HUANG,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D JHONATHAN EDIR VEGA,H.D WALKIRIA A. CHANDLER D´ORCY,H.D JANINE PRADO CASTAÑO,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D AUGUSTO EFRAÍN PALACIOS MUÑOZ,H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D EDUARDO ALEJANDRO GAITÁN BEITÍA,H.D ALEXANDRA MARÍA BRENES SAMANIEGO,H.D JORGE ISAAC BLOISE IGLESIAS,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D MIGUEL ÁNGEL CAMPOS LIMA",
+   "proponente": "H.D LUIS HENRIQUE DUKE WALKER,H.D YAMIRELIZ DAYMIRELKIS CHONG SMITH,H.D PATSY CRISTINA LEE RENTERÍA DE HUANG,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D JHONATHAN EDIR VEGA,H.D WALKIRIA A. CHANDLER D´ORCY,H.D JANINE PRADO CASTAÑO,H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D EDUARDO ALEJANDRO GAITÁN BEITÍA,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D AUGUSTO EFRAÍN PALACIOS MUÑOZ,H.D ALEXANDRA MARÍA BRENES SAMANIEGO,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D JORGE ISAAC BLOISE IGLESIAS,H.D MIGUEL ÁNGEL CAMPOS LIMA",
    "proyecto": "",
    "tiene_documento": true,
    "titulo": "QUE ESTABLECE MEDIDAS TEMPORALES DE ALIVIO ECONOMICO, PROTECCION DEL EMPLEO Y RECUPERACION DE LAS FAMILIAS Y ACTIVIDADES PRODUCTIVAS AFECTADAS POR EL TERREMOTO DEL 9 DE OCTUBRE DE 2026 Y SUS REPLICAS"
@@ -49242,27 +49368,27 @@
   "8440": "25ab4c5ba1fa",
   "8441": "6b073808af19",
   "8442": "e5c2a9ba95a2",
-  "8443": "4725e70a1c5d",
-  "8444": "2e6a88e36b4d",
+  "8443": "9b557a690cb0",
+  "8444": "c9b3bc402dea",
   "8445": "973371e5b479",
   "8446": "3355835968cd",
-  "8447": "ee3eed6c2466",
-  "8448": "a6076f313a8c",
+  "8447": "34f3b4c4c923",
+  "8448": "5ce71feceec9",
   "8449": "b1a830e7408f",
-  "8450": "51c699ec43a6",
-  "8451": "43962a6362ee",
-  "8452": "ddebfcf03c0a",
-  "8453": "7df1b70f4d13",
-  "8454": "d3e564f43f78",
+  "8450": "ccc083fb131f",
+  "8451": "a950cb80e590",
+  "8452": "47c9e232b973",
+  "8453": "3d70394fc407",
+  "8454": "13c030b91314",
   "8455": "11c7fb781280",
   "8456": "885d0db47941",
   "8457": "fa48b952f7ab",
-  "8458": "63a071be2334",
+  "8458": "e0027461a360",
   "8460": "1dfd07d0b558",
   "8461": "c9bb525c577c",
   "8462": "cc2055485f05",
   "8463": "c9692966e7ef",
-  "8464": "0651cd4efacb",
+  "8464": "c8f98756690e",
   "8465": "9e7b5eef6491",
   "8466": "3b18c4715832",
   "8467": "4091e701998b",
@@ -49272,12 +49398,12 @@
   "8471": "caa913a73bfd",
   "8472": "6bf50e145f79",
   "8473": "2e76dcaf7fc6",
-  "8474": "fb99b70a955c",
+  "8474": "de20a572360b",
   "8475": "a5dfcad317c4",
   "8476": "076681bbeccf",
   "8477": "537d5735a3d3",
   "8478": "3d9148f3d868",
-  "8479": "d0b778aad80d",
+  "8479": "c834d5aa593d",
   "8480": "945b9a2ef837",
   "8481": "2443c1aabb61",
   "8482": "8edc0738e83d",
@@ -49297,7 +49423,7 @@
   "8497": "f58625879862",
   "8498": "22d93f3d4112",
   "8499": "63c85ca064de",
-  "8500": "5ab6f378062c",
+  "8500": "3ccfbd946bf0",
   "8501": "73521e1ef89b",
   "8502": "86287e5dad74",
   "8503": "5363e709ac0f",
@@ -49320,7 +49446,7 @@
   "8520": "6042e9aad35a",
   "8521": "db4826550989",
   "8522": "b942ce400e18",
-  "8523": "d73d10542f30",
+  "8523": "fb50e0b83c5f",
   "8524": "05fbe413c05c",
   "8525": "ba946dd69d35",
   "8526": "e89d71186492",
@@ -49336,7 +49462,7 @@
   "8536": "0e6485bfceaf",
   "8537": "47c6911b08f3",
   "8538": "d965446ca422",
-  "8539": "dd3ca75b4fe2",
+  "8539": "6d93f5f68aaf",
   "8540": "3e74ec36852f",
   "8541": "46b33eb6c397",
   "8542": "74b7d73aa9bb",
@@ -49347,7 +49473,7 @@
   "8548": "052c7a0bb1be",
   "8549": "af0c384ec755",
   "8550": "06ff6d4a5ab5",
-  "8551": "918d37e6a897",
+  "8551": "97c69b757c92",
   "8552": "4aea7973394b",
   "8553": "e116e2a677ce",
   "8554": "6eec066300f0",
@@ -49372,7 +49498,7 @@
   "8574": "85215d7dab75",
   "8575": "fe687272c242",
   "8576": "5a21a94c8ef7",
-  "8577": "24d377b083ec",
+  "8577": "0b168bffe2f6",
   "8578": "9a6a86851d36",
   "8579": "0bfe40e2ffe8",
   "8580": "9c20d3d45dd4",
@@ -49385,7 +49511,7 @@
   "8587": "2b59c3a45e8d",
   "8588": "71ea2c460478",
   "8589": "d49f87d231cd",
-  "8590": "3cc9effac657",
+  "8590": "8d02013b6277",
   "8591": "a323225297a9",
   "8592": "53362e5b7df0",
   "8593": "714f188e54f4",
@@ -49423,7 +49549,7 @@
   "8626": "8ba495ed0451",
   "8628": "c34515f7cb23",
   "8629": "5a8ad5ea0d39",
-  "8630": "00d4dc83dd96",
+  "8630": "71009a37755e",
   "8631": "f14586b39eab",
   "8632": "1d80a9b223a5",
   "8633": "7f7aa2420094",
@@ -49435,9 +49561,9 @@
   "8639": "c9780f9853a7",
   "8640": "aa1496feba12",
   "8641": "4cc3fa2f8fc9",
-  "8642": "4ab3f6ae3e5c",
-  "8643": "2da394451b1c",
-  "8644": "63789295dab8",
+  "8642": "ba855806414a",
+  "8643": "9b4f04638755",
+  "8644": "bc0b20a465fe",
   "8646": "142757ba699d",
   "8647": "4ba833384702",
   "8649": "df96cac3332c",
@@ -49480,6 +49606,8 @@
    "8546",
    "8400",
    "7656",
+   "8474",
+   "8448",
    "8302",
    "8304",
    "8177",
@@ -49502,6 +49630,7 @@
    "8554",
    "7968",
    "7785",
+   "8443",
    "8083",
    "8471",
    "8567",
@@ -49686,7 +49815,7 @@
    "7636",
    "7490"
   ],
-  "fecha": "2026-10-27T09:57:14",
+  "fecha": "2026-10-27T10:55:28",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -49864,8 +49993,10 @@
    "8415": "399fc6670871",
    "8416": "399fc6670871",
    "8441": "399fc6670871",
+   "8443": "399fc6670871",
    "8445": "399fc6670871",
    "8447": "399fc6670871",
+   "8448": "399fc6670871",
    "8449": "399fc6670871",
    "8455": "399fc6670871",
    "8456": "399fc6670871",
@@ -49873,6 +50004,7 @@
    "8467": "399fc6670871",
    "8468": "399fc6670871",
    "8471": "399fc6670871",
+   "8474": "399fc6670871",
    "8475": "399fc6670871",
    "8477": "399fc6670871",
    "8479": "399fc6670871",
@@ -50307,7 +50439,7 @@
    "520",
    "521"
   ],
-  "revisada": "2026-10-27T10:07:15"
+  "revisada": "2026-10-27T10:55:57"
  },
- "ultima_corrida": "2026-10-27T09:57:14"
+ "ultima_corrida": "2026-10-27T10:55:28"
 }
