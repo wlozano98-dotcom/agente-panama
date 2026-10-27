@@ -681,6 +681,14 @@
    "carpeta": "Reforma a la Ley de Estabilidad Jurídica de las Inversiones (ficha 8073)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
   },
+  "8074": {
+   "carpeta": "Prohibición de seguros privados a servidores públicos (ficha 8074)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
+  "8075": {
+   "carpeta": "Prohibición de seguros privados para funcionarios (ficha 8075)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
   "8077": {
    "carpeta": "Ley Marco de Relocalización Productiva y Logística (ficha 8077)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
@@ -705,6 +713,10 @@
    "carpeta": "Uso de medios electrónicos en trámites gubernamentales (ficha 8091)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
+  "8093": {
+   "carpeta": "Regulación de siembra de árboles bajo tendidos eléctricos (ficha 8093)",
+   "comision": "Comisión de Población, Ambiente y Desarrollo"
+  },
   "8094": {
    "carpeta": "Electrificación total en distritos con hidroeléctricas (ficha 8094)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
@@ -728,6 +740,10 @@
   "8102": {
    "carpeta": "Regulación del reciclaje de aceite de cocina doméstico (ficha 8102)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
+  "8105": {
+   "carpeta": "Día del Desfile del Vestido Tradicional Ngäbe-Buglé (ficha 8105)",
+   "comision": "Comisión de Asuntos Indígenas"
   },
   "8107": {
    "carpeta": "Topes máximos a peajes en los Corredores Norte, Este y Sur (ficha 8107)",
@@ -1677,6 +1693,10 @@
    "carpeta": "Descuento del 20% en medicamentos para menores de doce años (ficha 8531)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
+  "8537": {
+   "carpeta": "Requisitos de idoneidad para la abogacía (ficha 8537)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
   "8538": {
    "carpeta": "Modernización de FONDHABI y Programa Mi Primera Vivienda (ficha 8538)",
    "comision": "Comisión de Infraestructura Pública y Asuntos del Canal"
@@ -1685,6 +1705,10 @@
    "carpeta": "Patronato del Festival de Degustación de ANCEC en Santiago (ficha 8539)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
+  "8541": {
+   "carpeta": "Régimen especial de emergencias sísmicas (ficha 8541)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
   "8545": {
    "carpeta": "Día conmemorativo de la etnia india (ficha 8545)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -1692,6 +1716,10 @@
   "8546": {
    "carpeta": "Cierre de operaciones del Banco Hipotecario Nacional (ficha 8546)",
    "comision": "Comisión de Infraestructura Pública y Asuntos del Canal"
+  },
+  "8547": {
+   "carpeta": "Régimen de transición para idoneidad de abogados (ficha 8547)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
   "8548": {
    "carpeta": "Monumento Histórico Ruinas de Bique y creación de patronato (ficha 8548)",
@@ -24900,6 +24928,34 @@
    "titulo": "QUE ADICIONAN LOS ARTICULOS 10-A, 10-B, SE MODIFICA LOS ARTICULOS 9 Y 20 Y SE DEROGAN LOS ARTICULOS 18, 19,21 Y 22 DE LA LEY No. 54 DE 1998 Y SE DICTAN OTRAS DISPOSICIONES"
   },
   "8074": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Prohíbe el uso de recursos públicos para la contratación o pago de seguros médicos, de vida u otros seguros privados para funcionarios públicos de todas las entidades y empresas del Estado.",
+     "Artículo 2: Aplica la prohibición a servidores del Ejecutivo, Legislativo, Judicial, ministerios, entidades autónomas y semiautónomas, empresas estatales y municipios.",
+     "Artículo 4: Fija la prohibición expresa de contratar seguros privados a favor de funcionarios públicos en las instituciones públicas centralizadas, descentralizadas y gobiernos locales.",
+     "Artículo 5: Sanciona al funcionario que autorice, gestione o ejecute estas contrataciones con 300 días multa y prisión de hasta 3 años.",
+     "Artículo 6: Dispone la reasignación de los fondos presupuestarios destinados a seguros privados hacia infraestructura e insumos de salud y al sistema educativo."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1j6HbtsrSjz4sqt525XwhBBfO55yMTv54",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Elimina el mercado de contrataciones públicas y licitaciones de pólizas colectivas de salud, vida y accidentes personales para todo el sector estatal.",
+      "sector": "SEGUROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto se concentra en las compañías aseguradoras, las cuales perderían la cartera de pólizas colectivas contratadas y financiadas por las diversas instituciones del Estado.",
+    "resumen": "La iniciativa propone prohibir a todas las entidades, órganos, empresas estatales y municipios el uso de fondos públicos para contratar pólizas privadas de salud, vida y accidentes para servidores públicos. Los recursos presupuestarios actualmente asignados a estos contratos serían redirigidos a inversiones en salud y educación nacional. Asimismo, establece sanciones de multa y pena de prisión para los funcionarios que autoricen o gestionen dichas contrataciones.",
+    "sectores": [
+     "SEGUROS"
+    ],
+    "titulo": "Que prohíbe a entidades del Estado la contratación de seguros privados a los servidores públicos",
+    "titulo_corto": "Prohibición de seguros privados a servidores públicos"
+   },
    "anteproyecto": "181",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Enviado a subcomisión para analisis",
@@ -24933,6 +24989,34 @@
    "titulo": "QUE PROHIBE A ENTIDADES DEL ESTADO LA CONTRATACION DE SEGUROS PRIVADOS A LOS SERVIDORES PUBLICOS"
   },
   "8075": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Prohíbe destinar fondos públicos de cualquier forma para financiar pólizas privadas de salud a favor de funcionarios públicos.",
+     "Artículo 2: Extiende la prohibición a todos los órganos del Estado (Ejecutivo, Legislativo, Judicial), entidades descentralizadas, empresas estatales y entes que manejen fondos públicos.",
+     "Artículo 4: Impide que cualquier servidor público reciba beneficios de coberturas privadas de salud sufragadas directa o indirectamente por el Estado.",
+     "Artículo 5: Prohíbe la celebración de nuevos contratos y convenios de seguros privados de salud, y veta la prórroga, renovación o ampliación de las pólizas vigentes una vez alcancen su fecha de vencimiento.",
+     "Artículo 6: Ordena transferir los recursos presupuestarios antes asignados a estas pólizas al MINSA y a la CSS para infraestructura, atención médica y compra de medicamentos."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1IeM9Eh3NcbR1zkBNJyazFd4TJiHJIH4V",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Suprime el mercado de contratación pública de pólizas colectivas de salud para entidades estatales, impidiendo renovar o licitar estos contratos.",
+      "sector": "SEGUROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Afecta de forma directa al sector asegurador al eliminar la contratación estatal de pólizas de salud colectivas, cerrando un nicho recurrente de licitaciones públicas.",
+    "resumen": "El proyecto prohíbe el uso de fondos públicos para pagar o financiar pólizas de salud privadas a funcionarios de los tres órganos del Estado, entidades autónomas y empresas públicas. Establece que los contratos vigentes concluirán a su término sin prórrogas ni renovaciones posibles. Además, traslada esos recursos presupuestarios al Ministerio de Salud y a la Caja de Seguro Social para inversión y medicamentos.",
+    "sectores": [
+     "SEGUROS"
+    ],
+    "titulo": "Que prohíbe el uso de fondos públicos para el pago de seguros privados de salud de los funcionarios públicos",
+    "titulo_corto": "Prohibición de seguros privados para funcionarios"
+   },
    "anteproyecto": "182",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Enviado a subcomisión para analisis",
@@ -25323,8 +25407,18 @@
    },
    "anteproyecto": "185",
    "comision": "COMISION DE POBLACION, AMBIENTE Y DESARROLLO",
-   "etapa": "Segundo Debate",
+   "etapa": "Tercer Debate",
    "etapas": [
+    {
+     "comentario": "PENDIENTE DE III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2026-10-26"
+    },
+    {
+     "comentario": "APROBADO EN II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-10-26"
+    },
     {
      "comentario": "PENDIENTE DE II DEBATE",
      "etapa": "Segundo Debate",
@@ -25643,6 +25737,32 @@
    "titulo": "POR MEDIO DEL CUAL SE MODIFICA LA LEY 45 DEL 31 DE OCTUBRE DEL 2007 QUE SEÑALA LAS NORMAS DE PROTECCION AL CONSUMIDOR Y QUE NOS PERMITE EJERCER LA SIGUIENTE EXPOSICION DE MOTIVO"
   },
   "8093": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2: Aplica las disposiciones a personas naturales o jurídicas, públicas o privadas, que realicen plantaciones cerca de tendidos eléctricos.",
+     "Artículo 3: Prohíbe sembrar especies arbóreas bajo tendidos eléctricos o a una distancia menor a 10 metros de ellos (alta, media y baja tensión).",
+     "Artículo 6: Establece sanciones con multas municipales de B/. 100.00 a B/. 1,500.00 a quienes incumplan la norma."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1nt_aAtzdknq0xrTPD0Ta9wGQvi-wueTW",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Impone restricciones al diseño paisajístico y arbolado en proyectos de construcción y urbanismo cercanos al tendido eléctrico, bajo sanción de multa.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es bajo y puntual, limitándose a restringir el tipo y ubicación del arbolado que empresas de desarrollo inmobiliario, urbanismo o paisajismo pueden sembrar cerca del cableado eléctrico.",
+    "resumen": "La iniciativa prohíbe la siembra de árboles directamente debajo o a menos de diez metros de líneas eléctricas de alta, media y baja tensión. Asigna a los municipios y al Ministerio de Ambiente el ordenamiento de la vegetación pública y el manejo o remoción de árboles existentes en esas zonas. Establece multas de 100 a 1,500 balboas a quienes infrinjan la prohibición, abarcando tanto a personas naturales como a empresas.",
+    "sectores": [
+     "CEMENTERAS"
+    ],
+    "titulo": "Que regula la siembra de especies arbóreas bajo tendidos eléctricos, establece sanciones, ordena la planificación de la vegetación en espacios públicos y dicta otras disposiciones",
+    "titulo_corto": "Regulación de siembra de árboles bajo tendidos eléctricos"
+   },
    "anteproyecto": "198",
    "comision": "COMISION DE POBLACION, AMBIENTE Y DESARROLLO",
    "etapa": "Enviado a subcomisión para analisis",
@@ -26373,6 +26493,20 @@
    "titulo": "QUE MODIFICA LA LEY 107 DE 2013, QUE CREA EL PROGRAMA DE INCENTIVOS A LA PRODUCCION NACIONAL DE GRANOS Y OTROS RUBROS AGRICOLAS"
   },
   "8105": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1pRz7VIVC-JlKnDdEYVAagxg3Yg0hXjt1",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Se trata de una iniciativa cultural que crea una fecha conmemorativa y un patronato organizador, sin alterar regulaciones sectoriales ni imponer obligaciones sobre la actividad empresarial.",
+    "resumen": "Declara el 28 de octubre de cada año como fecha conmemorativa del desfile del vestido tradicional en Chichica, Comarca Ngäbe-Buglé, y crea un patronato para su organización.\nAsigna un fondo anual de B/. 25,000 mediante la Autoridad de Turismo de Panamá y contempla incentivos de deducibilidad fiscal para donaciones o mejoras de infraestructura en los predios del patronato.",
+    "sectores": [],
+    "titulo": "Que declara el 28 de octubre de cada año Día del Desfile del Vestido Tradicional del Pueblo Ngäbe-Buglé y Campesino",
+    "titulo_corto": "Día del Desfile del Vestido Tradicional Ngäbe-Buglé"
+   },
    "anteproyecto": "207",
    "comision": "COMISION DE ASUNTOS INDIGENAS",
    "etapa": "Enviado a subcomisión para analisis",
@@ -27377,8 +27511,18 @@
    },
    "anteproyecto": "239",
    "comision": "COMISION DE ASUNTOS MUNICIPALES",
-   "etapa": "Segundo Debate",
+   "etapa": "Tercer Debate",
    "etapas": [
+    {
+     "comentario": "PENDIENTE DE III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2026-10-26"
+    },
+    {
+     "comentario": "APROBADO EN II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-10-26"
+    },
     {
      "comentario": "PENDIENTE DE II DEBATE",
      "etapa": "Segundo Debate",
@@ -33410,8 +33554,18 @@
    },
    "anteproyecto": "339",
    "comision": "COMISION DE ASUNTOS AGROPECUARIOS",
-   "etapa": "Segundo Debate",
+   "etapa": "Tercer Debate",
    "etapas": [
+    {
+     "comentario": "PENDIENTE DE III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2026-10-26"
+    },
+    {
+     "comentario": "APROBADO EN II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-10-26"
+    },
     {
      "comentario": "PENDIENTE DE II DEBATE",
      "etapa": "Segundo Debate",
@@ -37702,8 +37856,13 @@
    },
    "anteproyecto": "420",
    "comision": "COMISION DE LA MUJER, LA NIÑEZ Y LA FAMILIA",
-   "etapa": "Segundo Debate",
+   "etapa": "Negado",
    "etapas": [
+    {
+     "comentario": "Rechazado por el pleno.",
+     "etapa": "Negado",
+     "fecha": "2026-10-26"
+    },
     {
      "comentario": "PENDIENTE DE II DEBATE",
      "etapa": "Segundo Debate",
@@ -39440,8 +39599,13 @@
    },
    "anteproyecto": "454",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
-   "etapa": "Primer Debate",
+   "etapa": "Segundo Debate",
    "etapas": [
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-10-26"
+    },
     {
      "comentario": "REGRESADO A DEBATE DESPUES DE ANÁLISIS",
      "etapa": "Regresado de analisis por subcomisión",
@@ -43060,8 +43224,18 @@
    },
    "anteproyecto": "0",
    "comision": "COMISION DE PRESUPUESTO",
-   "etapa": "Primer Debate",
+   "etapa": "Segundo Debate",
    "etapas": [
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-10-26"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-10-26"
+    },
     {
      "comentario": "PENDIENTE DE I DEBATE",
      "etapa": "Primer Debate",
@@ -45107,10 +45281,29 @@
    "titulo": "QUE REGULA LA FABRICACION, IMPORTACION, COMERCIALIZACION, INSTALACION, TENENCIA Y USO DE DISPOSITIVOS LUMINOSOS ESPECIALES PARA VEHICULOS DE EMERGENCIA, SEGURIDAD Y SERVICIOS AUTORIZADOS"
   },
   "8537": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1JPwEUw81k8QBsyi8W-4Q_uSmturMGB4i",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa se limita a regular los requisitos académicos y de voluntariado para el ejercicio individual de la abogacía ante el Órgano Judicial, por lo que no crea obligaciones, costos ni regulaciones para las empresas.",
+    "resumen": "Propone modificar los requisitos para que los graduados en Derecho obtengan su certificado de idoneidad ante la Corte Suprema de Justicia. Facilita las opciones existentes permitiendo presentar la sustentación de tesis de grado, aprobar el examen profesional, o acreditar 480 horas de servicio voluntario en entidades públicas con horarios flexibles.",
+    "sectores": [],
+    "titulo": "Que modifica la Ley 350 de 2022, para garantizar el acceso equitativo a la idoneidad para el ejercicio de la abogacía",
+    "titulo_corto": "Requisitos de idoneidad para la abogacía"
+   },
    "anteproyecto": "131",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
-   "etapa": "Preliminar",
+   "etapa": "Prohijado",
    "etapas": [
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-10-21"
+    },
     {
      "comentario": "PRELIMINAR",
      "etapa": "Preliminar",
@@ -45120,7 +45313,7 @@
    "fecha": "2026-08-11",
    "ficha": "8537",
    "proponente": "H.D MANUEL CHENG PEÑALBA",
-   "proyecto": "",
+   "proyecto": "756",
    "tiene_documento": true,
    "titulo": "QUE MODIFICA LA LEY 350 DE 2022, PARA GARANTIZAR EL ACCESO EQUITATIVO A LA IDONEIDAD PARA EL EJERCICIO DE LA ABOGACIA"
   },
@@ -45242,10 +45435,40 @@
    "titulo": "QUE CREA EL PROGRAMA DE INTEGRACION SOCIAL Y TERRITORIAL Y ESTABLECE EL REGIMEN JURIDICO DEL SUBSIDIO PARA LA ADQUISICION DE LA PRIMERA VIVIENDA DE INTERES SOCIAL Y DICTA OTRAS DISPOSICIONES"
   },
   "8541": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 9: Habilita el procedimiento especial de contrataciones de emergencia previsto en la Ley 22 de 2006 y ordena publicar informes quincenales de compras.",
+     "Artículo 12: Obliga a que toda obra de reconstrucción financiada con fondos públicos en zonas afectadas cumpla con el Reglamento de Diseño Estructural de Panamá (REP) bajo fiscalización del Ministerio de Vivienda."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1agrQ_ctkHQP4dheiSAJs5L0FXIKumR0M",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Reitera la obligación de cumplir el Reglamento de Diseño Estructural de Panamá en obras de reconstrucción con fondos públicos bajo fiscalización del Miviot.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto se enfoca en la organización institucional y operativa del Estado para emergencias, limitando su impacto empresarial a lineamientos para contratistas en obras de reconstrucción.",
+    "resumen": "Crea un régimen legal especial y una comisión adscrita a Sinaproc para coordinar la respuesta institucional ante sismos y otros desastres naturales. Establece tres niveles de emergencia, habilita procedimientos de compras de emergencia para el Estado y exige el cumplimiento del Reglamento de Diseño Estructural en obras públicas de reconstrucción.",
+    "sectores": [
+     "CEMENTERAS"
+    ],
+    "titulo": "Que establece el régimen especial de emergencias sísmica y crea la Comisión de Emergencia en caso de desastre sísmico o de otra naturaleza",
+    "titulo_corto": "Régimen especial de emergencias sísmicas"
+   },
    "anteproyecto": "134",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
-   "etapa": "Preliminar",
+   "etapa": "Prohijado",
    "etapas": [
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-10-21"
+    },
     {
      "comentario": "PRELIMINAR",
      "etapa": "Preliminar",
@@ -45255,7 +45478,7 @@
    "fecha": "2026-08-12",
    "ficha": "8541",
    "proponente": "H.D SHIRLEY DE LA ROSA CASTAÑEDAS VALENTÍN",
-   "proyecto": "",
+   "proyecto": "757",
    "tiene_documento": true,
    "titulo": "QUE ESTABLECE EL REGIMEN ESPECIAL DE EMERGENCIAS SISMICA Y CREA LA COMISION DE EMERGENCIA EN CASO DE DESASTRE SISMICO O DE OTRA NATURALEZA"
   },
@@ -45456,10 +45679,29 @@
    "titulo": "QUE ORDENA EL CIERRE TOTAL DE LAS OPERACIONES DEL BANCO HIPOTECARIO NACIONAL"
   },
   "8547": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1W6qsmCCedZnG_PqKRm8SysS-Mgjer1AL",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa se circunscribe exclusivamente a los requisitos académicos y administrativos para el ejercicio individual de la abogacía, por lo que no impone obligaciones, costos ni modificaciones regulatorias a la actividad de las empresas.",
+    "resumen": "El proyecto propone crear un régimen transitorio para la obtención de la idoneidad como abogado ante la Sala Cuarta de la Corte Suprema de Justicia. Exceptúa del nuevo examen de competencias profesionales a quienes hayan culminado sus estudios o estuviesen matriculados en la carrera de Derecho antes del 24 de noviembre de 2025. Afecta principalmente a estudiantes y graduados de Derecho, así como a las instancias administrativas judiciales encargadas del trámite de idoneidades.",
+    "sectores": [],
+    "titulo": "Que adiciona un parágrafo transitorio al artículo 2 de la Ley 350 de 2022 (reformado por la Ley 500 de 2025) con el fin de establecer un régimen de transición que garantice la seguridad jurídica y el derecho al trabajo",
+    "titulo_corto": "Régimen de transición para idoneidad de abogados"
+   },
    "anteproyecto": "139",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
-   "etapa": "Preliminar",
+   "etapa": "Prohijado",
    "etapas": [
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-10-21"
+    },
     {
      "comentario": "PRELIMINAR",
      "etapa": "Preliminar",
@@ -45469,7 +45711,7 @@
    "fecha": "2026-08-17",
    "ficha": "8547",
    "proponente": "H.D SHIRLEY DE LA ROSA CASTAÑEDAS VALENTÍN",
-   "proyecto": "",
+   "proyecto": "758",
    "tiene_documento": true,
    "titulo": "QUE ADICIONA UN PARAGRAFO TRANSITORIO AL ARTICULO 2 DE LA LEY 350 DE 2022 (REFORMADO POR LA LEY 500 DE 2025) CON EL FIN DE ESTABLECER UN REGIMEN DE TRANSICION QUE GARANTICE LA SEGURIDAD JURIDICA Y EL DERECHO AL TRABAJO"
   },
@@ -45959,8 +46201,18 @@
    },
    "anteproyecto": "154",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
-   "etapa": "Primer Debate",
+   "etapa": "Segundo Debate",
    "etapas": [
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-10-26"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-10-21"
+    },
     {
      "comentario": "PENDIENTE DE I DEBATE",
      "etapa": "Primer Debate",
@@ -46059,8 +46311,13 @@
    },
    "anteproyecto": "155",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
-   "etapa": "Primer Debate",
+   "etapa": "Segundo Debate",
    "etapas": [
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-10-26"
+    },
     {
      "comentario": "REGRESADO A DEBATE DESPUES DE ANÁLISIS",
      "etapa": "Regresado de analisis por subcomisión",
@@ -46586,8 +46843,13 @@
    },
    "anteproyecto": "159",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
-   "etapa": "Primer Debate",
+   "etapa": "Segundo Debate",
    "etapas": [
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-10-26"
+    },
     {
      "comentario": "REGRESADO A DEBATE DESPUES DE ANÁLISIS",
      "etapa": "Regresado de analisis por subcomisión",
@@ -47911,6 +48173,11 @@
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Tercer Debate",
    "etapas": [
+    {
+     "comentario": "APROBADO EN III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2026-10-26"
+    },
     {
      "comentario": "PENDIENTE DE III DEBATE",
      "etapa": "Tercer Debate",
@@ -51236,5 +51503,5 @@
   ],
   "revisada": "2026-10-27T16:03:06"
  },
- "ultima_corrida": "2026-10-27T17:06:52"
+ "ultima_corrida": "2026-10-27T18:03:27"
 }
