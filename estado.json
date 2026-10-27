@@ -553,6 +553,10 @@
    "carpeta": "Primeros auxilios obligatorios en centros educativos (ficha 7986)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "7989": {
+   "carpeta": "Marco legal para proveedores de activos virtuales (PSAV) (ficha 7989)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
   "7990": {
    "carpeta": "Programas de educación nocturna para jóvenes y adultos (ficha 7990)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -593,6 +597,14 @@
    "carpeta": "Requisitos para tesoreros de juntas comunales y municipios (ficha 8008)",
    "comision": "Comisión de Asuntos Municipales"
   },
+  "8010": {
+   "carpeta": "Transparencia de aportes del Canal al Tesoro Nacional (ficha 8010)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
+  "8012": {
+   "carpeta": "Anticipos y fianzas en contrataciones de emergencia (ficha 8012)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
   "8014": {
    "carpeta": "Reforma a justicia comunitaria y Código Penal sobre reincidencia (ficha 8014)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
@@ -628,6 +640,10 @@
   "8036": {
    "carpeta": "Reforma a la ley sobre historial de crédito (ficha 8036)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
+  "8037": {
+   "carpeta": "Procedimiento sumario de interdicción y tutela (ficha 8037)",
+   "comision": "Comisión de la Mujer, la Niñez y la Familia"
   },
   "8038": {
    "carpeta": "Día Nacional del Sobreviviente de Cáncer (ficha 8038)",
@@ -20961,6 +20977,35 @@
    "titulo": "QUE MODIFICA LA LEY 42 DEL 20 DE JUNIO DE 2011: QUE ESTABLECE LINEAMIENTOS PARA LA POLITICA NACIONAL SOBRE BIOCOMBUSTIBLES Y ENERGIA ELECTRICA A PARTIR DE BIOMASA EN EL TERRITORIO NACIONAL"
   },
   "7989": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 5: Designa a la Superintendencia del Mercado de Valores (SMV) como la autoridad competente para autorizar, regular, supervisar, fiscalizar e imponer sanciones a los PSAV.",
+     "Artículo 7: Obliga a todo PSAV a implementar un Sistema Integral de Cumplimiento Regulatorio (SICUR), incluyendo KYC, aplicación de la \"Travel Rule\", designación de oficial de cumplimiento y reporte a la UAF.",
+     "Artículo 10 y 11: Crea la Licencia de Proveedor de Servicios de Activos Virtuales de carácter obligatorio y establece requisitos de idoneidad, solvencia económica, ciberseguridad y manuales ALA/CFT para obtenerla.",
+     "Artículo 12: Faculta a la SMV a fijar aranceles y tasas anuales de supervisión a los PSAV y delimita los servicios autorizados (intercambio, custodia, emisión, transferencias y staking).",
+     "Artículo 14: Crea un Régimen de Declaración Fiscal Simplificada voluntario ante la DGI para personas naturales o jurídicas que operen con activos virtuales.",
+     "Artículos 17 al 20: Habilita la participación voluntaria de los bancos autorizados por la SBP en operaciones con activos virtuales, exigiéndoles matrices de riesgo, KYC reforzado, aprobación por Junta Directiva y trazabilidad de fondos."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1YYVN7iuA5j3eKTQY5OLATqGcxwBoht9c",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Crea una licencia obligatoria bajo la SMV para operar servicios cripto y fija condiciones y controles de cumplimiento estrictos para la interacción bancaria con activos virtuales.",
+      "sector": "FINANCIERO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Tiene un impacto alto sobre el sector financiero y fintech al establecer un régimen de licenciamiento, supervisión y exigencias ALA/CFT ante la SMV y la SBP conforme a los estándares de GAFI.",
+    "resumen": "El proyecto crea un marco regulatorio obligatorio para los Proveedores de Servicios de Activos Virtuales (PSAV) y plataformas cripto en Panamá, bajo la supervisión de la Superintendencia del Mercado de Valores. Establece requisitos de licenciamiento, prevención de blanqueo de capitales (Travel Rule, debida diligencia y reporte a la UAF) y define las pautas para que los bancos locales puedan operar y vincularse voluntariamente con activos virtuales, además de crear un régimen tributario simplificado ante la DGI.",
+    "sectores": [
+     "FINANCIERO"
+    ],
+    "titulo": "Que establece el marco legal integral para la supervisión, registro y control de los Proveedores de Servicios de Activos Virtuales conforme a los Estándares Internacionales de Prevención de Lavado de Activos y Financiamiento del Terrorismo",
+    "titulo_corto": "Marco legal para proveedores de activos virtuales (PSAV)"
+   },
    "anteproyecto": "107",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Enviado a subcomisión para analisis",
@@ -22007,6 +22052,20 @@
    "titulo": "QUE DEROGA LA LEY 6 DE 30 DE MARZO DE 1993, POR LA CUAL SE SUBROGA EL DECRETO NO.121 DE 12 DE MAYO DE 1966, QUE ESTABLECIO LA ZONA DE INSPECCION Y CONTROL DE LA FIEBRE AFTOSA EN LA REGION FRONTERIZA CON LA REPUBLICA DE COLOMBIA Y SE DICTARON OTRAS DISPOSICIONES Y SUS MODIFICACIONES POSTERIORES."
   },
   "8010": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1UF411ewKQrudNjHrHXyI5Ois4hdpRhao",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No impone costos, trámites, impuestos ni restricciones a las empresas, ya que sus disposiciones regulan únicamente la rendición de cuentas y publicidad presupuestaria del sector público a través del MEF.",
+    "resumen": "Propone obligar al Ministerio de Economía y Finanzas (MEF) a habilitar un portal web público y gratuito para dar trazabilidad a los fondos transferidos por el Canal de Panamá al Tesoro Nacional. El sistema deberá detallar las entidades receptoras, montos, proyectos de inversión e indicadores de impacto. No impone cargas ni modifica la regulación de la Autoridad del Canal ni del sector privado.",
+    "sectores": [],
+    "titulo": "Que establece medidas para la transparencia y rendición de cuentas sobre los aportes del Canal de Panamá al Tesoro Nacional",
+    "titulo_corto": "Transparencia de aportes del Canal al Tesoro Nacional"
+   },
    "anteproyecto": "125",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Enviado a subcomisión para analisis",
@@ -22148,6 +22207,36 @@
    "titulo": "QUE ADICIONA CAPITULOS A LA LEY 16 DE 1995, QUE REORGANIZA EL INSTITUTO NACIONAL DE DEPORTES, RELATIVOS AL PROGRAMA DE ALTO RENDIMIENTO DEPORTIVO Y DE MEDICINA APLICADA AL DEPORTE"
   },
   "8012": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1 (reforma el artículo 85 de la Ley 22 de 2006): Exonera de fianzas las adquisiciones de emergencia de agua y alimentos para consumo inmediato; fija en los contratos de emergencia un abono inicial mandatorio del 40% al contratista; y permite compras a empresas extranjeras con registro posterior en PanamáCompra si no hay oferta local."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1-dNkuYCG3o7otksES_i5DJbJz_Y_6Aus",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Exonera la presentación de fianzas en adquisiciones de emergencia de agua y alimentos para consumo inmediato, agilizando las ventas directas al Estado.",
+      "sector": "ALIMENTOS"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Garantiza un abono inicial obligatorio del 40% en contratos de emergencia a todo proveedor u operador de bienes, servicios u obras públicas.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Mejora el flujo de caja de las empresas que contratan con el Estado en emergencias al obligar al pago de un anticipo del 40% y flexibilizar garantías en insumos básicos.",
+    "resumen": "Reforma el procedimiento especial de adquisiciones de emergencia en la Ley de Contrataciones Públicas para ordenar un adelanto obligatorio del 40% a contratistas y proveedores del Estado. Asimismo, elimina la exigencia de fianzas en compras de agua y alimentos para consumo inmediato durante situaciones de emergencia.",
+    "sectores": [
+     "ALIMENTOS",
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que modifica un artículo de la Ley 22 de 27 de junio de 2006, que regula la contratación pública, ordenado por la Ley 153 de 2020",
+    "titulo_corto": "Anticipos y fianzas en contrataciones de emergencia"
+   },
    "anteproyecto": "127",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Enviado a subcomisión para analisis",
@@ -23276,6 +23365,20 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 24 DE 2002, QUE REGULA EL SERVICIO DE INFORMACION SOBRE HISTORIAL DE CREDITO DE LOS CONSUMIDORES O CLIENTES"
   },
   "8037": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1MX5cEDm67rHVUHBlZusOmTl0isyLOwit",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Es una reforma procesal de derecho de familia referida al estado civil y capacidad de las personas naturales; no impone cargas, trámites ni regulaciones al sector empresarial.",
+    "resumen": "La iniciativa incorpora al Código de la Familia un procedimiento sumario específico para tramitar las demandas de interdicción judicial. Define quiénes pueden solicitarla, la intervención obligatoria del Ministerio Público y el régimen de pruebas periciales psiquiátricas. Su objetivo es salvaguardar los derechos personales y patrimoniales de personas con discapacidad mental o psicosocial mediante el nombramiento de tutores o curadores.",
+    "sectores": [],
+    "titulo": "Que adiciona disposiciones al Código de la Familia, relativas al procedimiento sumario de la tutela",
+    "titulo_corto": "Procedimiento sumario de interdicción y tutela"
+   },
    "anteproyecto": "152",
    "comision": "COMISION DE LA MUJER, LA NIÑEZ Y LA FAMILIA",
    "etapa": "Enviado a subcomisión para analisis",
@@ -51622,5 +51725,5 @@
   ],
   "revisada": "2026-10-27T16:03:06"
  },
- "ultima_corrida": "2026-10-27T19:02:42"
+ "ultima_corrida": "2026-10-27T19:56:30"
 }
