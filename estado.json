@@ -885,6 +885,10 @@
    "carpeta": "Creación del Instituto Nacional de la Mujer (ficha 8193)",
    "comision": "Comisión de la Mujer, la Niñez y la Familia"
   },
+  "8196": {
+   "carpeta": "Creación de la Reserva Hidrológica del Río Cricamola (ficha 8196)",
+   "comision": "Comisión de Población, Ambiente y Desarrollo"
+  },
   "8197": {
    "carpeta": "Protección a estudiantes en zonas de difícil acceso (ficha 8197)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -904,6 +908,18 @@
   "8203": {
    "carpeta": "Patronato del CEFODEA de San Miguelito (ficha 8203)",
    "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "8206": {
+   "carpeta": "Transparencia y reutilización de bienes públicos en desuso (ficha 8206)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
+  "8207": {
+   "carpeta": "Sistemas de detección de gas en propiedades horizontales (ficha 8207)",
+   "comision": "Comisión de Infraestructura Pública y Asuntos del Canal"
+  },
+  "8212": {
+   "carpeta": "Conservación y desarrollo del Golfo de Chiriquí (ficha 8212)",
+   "comision": "Comisión de Población, Ambiente y Desarrollo"
   },
   "8213": {
    "carpeta": "Gestión y uso de canchas deportivas municipales (ficha 8213)",
@@ -30151,6 +30167,37 @@
    "titulo": "QUE ESTABLECE LA PARTICIPACIOPN MUNICIPAL COMO APOYO OPERATIVO DE LA AUTORIDAD DE TRANSITO Y TRANSPORTE TERRESTRE EN LA GESTION DE MULTAS POR INFRACCIONES DE TRANSITO"
   },
   "8196": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 9, numeral 6: Faculta al Consejo Directivo para gestionar, evaluar y aprobar iniciativas de proyectos etnoturísticos y ecoturísticos en el área.",
+     "Artículo 14: Suspende la aprobación de proyectos, obras o actividades que impliquen impactos negativos significativos y permanentes sobre el cauce o la cuenca del río Cricamola.",
+     "Artículo 16: Prohíbe el otorgamiento de nuevas concesiones en la cuenca hidrográfica del río Cricamola y suspende aquellas que se encuentren actualmente en trámite."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1mNhC2HHiSDXGdxWt-DWq71JtCsP--91x",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Prohíbe de forma absoluta el otorgamiento de concesiones y suspende las solicitudes en trámite dentro de los 2,364 km² de la cuenca.",
+      "sector": "EXTRACTIVO"
+     },
+     {
+      "nivel": "bajo",
+      "razon": "Condiciona los emprendimientos ecoturísticos y agroturísticos a los lineamientos del plan de manejo y a la previa evaluación del nuevo Consejo Directivo.",
+      "sector": "TURISMO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto impacta principalmente al sector extractivo y de obras de infraestructura al prohibir el otorgamiento de concesiones y suspender el trámite de permisos en la cuenca del río Cricamola. Aunque su alcance geográfico está circunscrito a la comarca Ngäbe-Buglé, establece restricciones definitivas al desarrollo de actividades productivas e industriales en dicha zona.",
+    "resumen": "La iniciativa busca declarar como área protegida, bajo la categoría de reserva hidrológica, toda la cuenca del río Cricamola (2,364 km²) en la comarca Ngäbe-Buglé.\nCrea un Consejo Directivo interinstitucional y comarcal encargado de formular políticas de conservación y aprobar proyectos turísticos o de desarrollo.\nAsimismo, prohíbe el otorgamiento de concesiones en la cuenca y suspende la aprobación de obras o proyectos con impactos significativos en el afluente.",
+    "sectores": [
+     "EXTRACTIVO"
+    ],
+    "titulo": "Que declara la parte baja, media y alta de la cuenca hidrográfica del río Cricamola como área protegida en su categoría de reserva hidrológica y dicta otras disposiciones",
+    "titulo_corto": "Creación de la Reserva Hidrológica del Río Cricamola"
+   },
    "anteproyecto": "286",
    "comision": "COMISION DE POBLACION, AMBIENTE Y DESARROLLO",
    "etapa": "Enviado a subcomisión para analisis",
@@ -30582,6 +30629,20 @@
    "titulo": "QUE AUTORIZA EL SERVICIO DE ESCOLTA Y SEGURIDAD PERSONAL A EX PRESIDENTES DE LA REPUBLICA Y SE ADOPTAN OTRAS MEDIDAS"
   },
   "8206": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1TiGFnexytL2lzGj30jR5ski9o_BumK51",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Es una propuesta de régimen y control administrativo interno exclusiva para las entidades del sector público, por lo que no impone obligaciones, costos ni regulaciones directas a las empresas privadas.",
+    "resumen": "Propone un marco normativo para regular la trazabilidad, registro y destino de los bienes muebles estatales dados de baja o en desuso. Establece la obligación de crear registros internos reportados al Ministerio de Economía y Finanzas y publicados por la ANTAI, priorizando la donación a escuelas, hospitales públicos y organizaciones sin fines de lucro antes de proceder a su reciclaje o descarte.",
+    "sectores": [],
+    "titulo": "Que establece transparencia y reutilización de bienes públicos en desuso y dados de baja",
+    "titulo_corto": "Transparencia y reutilización de bienes públicos en desuso"
+   },
    "anteproyecto": "296",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Enviado a subcomisión para analisis",
@@ -30615,6 +30676,33 @@
    "titulo": "QUE ESTABLECE TRANSPARENCIA Y REUTILIZACION DE BIENES PUBLICOS EN DESUSO Y DADOS DE BAJA"
   },
   "8207": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2: Adiciona el numeral 17 al artículo 49 de la Ley 284 de 2022, estableciendo la obligatoriedad de un sistema centralizado de detección y alarma de gas (bien común esencial) con sensores en cada unidad, asignando la responsabilidad de instalación al promotor o desarrollador en proyectos nuevos y a los órganos de gobierno en PH existentes.",
+     "Artículo 3: Permite al MIVIOT otorgar un aplazamiento de hasta un año para la adecuación e implementación del sistema a solicitud de la PH.",
+     "Artículo 4: Faculta a la Dirección de Propiedad Horizontal del MIVIOT para multar a las propiedades horizontales que incumplan la norma, según las sanciones del artículo 108 numeral 12 de la Ley 284 de 2022.",
+     "Artículo 7: Dispone que la ley es de orden público, interés social y tendrá efectos retroactivos."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1NyyAzoTFVwhPrBaoMs-MuVj1kPZ1dq5Z",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Impone a promotores y constructoras inmobiliarias el costo y la obligación de instalar sistemas centralizados de detección de gas en cada unidad de proyectos nuevos bajo PH.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Afecta de forma directa a los desarrolladores inmobiliarios y constructoras al exigirles incorporar nueva infraestructura de seguridad contra fugas de gas como bien común esencial en todas las edificaciones sujetas a PH.",
+    "resumen": "La iniciativa obliga a incorporar sistemas centralizados de detección y alarma de gases combustibles (gas natural o GLP) en todos los edificios bajo régimen de propiedad horizontal. Establece que la instalación en nuevos proyectos correrá por cuenta del promotor o desarrollador inmobiliario, mientras que en inmuebles existentes corresponderá a la copropiedad. Asimismo, faculta al MIVIOT para otorgar prórrogas de implementación y aplicar sanciones económicas por incumplimiento.",
+    "sectores": [
+     "CEMENTERAS"
+    ],
+    "titulo": "Que modifica la Ley 284 del 14 de febrero de 2022 que regula el Régimen de Propiedad Horizontal y subroga la Ley No. 31 de 18 de junio de 2010, se crea un nuevo régimen para las propiedades horizontales en Panamá",
+    "titulo_corto": "Sistemas de detección de gas en propiedades horizontales"
+   },
    "anteproyecto": "292",
    "comision": "COMISION DE INFRAESTRUCTURA PUBLICA Y ASUNTOS DEL CANAL",
    "etapa": "Enviado a subcomisión para analisis",
@@ -30671,6 +30759,41 @@
    "titulo": "QUE GARANTIZA EL ACCESO EQUITATIVO Y A COSTOS ACCESIBLES A LOS SERVICIOS DE COPIADO, IMPRESIÓN, EMPASTADO DE TESIS, INFORMES Y TRABAJOS DE GRADUACIÓN EN LOS CENTROS DE ESTUDIOS SUPERIORES DE LA REPÚBLICA DE PANAMÁ\" Y SE DICTAN OTRAS DISPOSICIONES"
   },
   "8212": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 5: Crea el Consejo de Gestión del Golfo de Chiriquí con participación de CAMCHI, ARAP, AMP, MiAmbiente y representantes locales.",
+     "Artículo 11 y 12: Establece la zonificación marina y aprueba un Plan de Manejo Integral de obligatorio cumplimiento para el desarrollo de actividades productivas.",
+     "Artículo 15: Condiciona los proyectos de infraestructura estratégica, logística y turística al cumplimiento del plan de manejo y evaluaciones de impacto ambiental.",
+     "Artículo 17: Regula la actividad de pesca deportiva comercial y recreativa, delimitando zonas autorizadas y promoviendo el enfoque de captura y liberación.",
+     "Artículo 19: Prohíbe el uso de trasmallos y redes no selectivas en manglares, arrecifes y zonas sensibles, ordenando la sustitución progresiva de artes de pesca.",
+     "Artículo 22: Dispone sanciones por infracciones que contemplan multas, remediación ambiental y la suspensión o cancelación de permisos o concesiones."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1VCdashJW498jQTBwTVYeML013GVXNGO_",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Prohíbe el uso de trasmallos y redes no selectivas en zonas sensibles y condiciona las faenas pesqueras a una nueva zonificación y plan de manejo.",
+      "sector": "CAMARONERO Y PESQUERO"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Regula el ecoturismo, el avistamiento de fauna y sujeta la pesca deportiva a esquemas controlados con prioridad en captura y liberación.",
+      "sector": "TURISMO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es medio para las actividades pesqueras y turísticas del litoral pacífico occidental, ya que introduce restricciones de uso de artes de pesca, zonificación obligatoria y posibles suspensiones de concesiones por infracciones ambientales.",
+    "resumen": "El proyecto establece un marco legal de gestión ambiental, ordenamiento y zonificación marina para el Golfo de Chiriquí a través de un Plan de Manejo Integral vinculante. Crea un Consejo de Gestión interinstitucional con participación gremial empresarial y prohíbe artes de pesca no selectivas en áreas de reproducción y arrecifes. Impacta a las empresas de pesca, acuicultura, operadores de turismo marítimo y proyectos de infraestructura en el litoral chiricano.",
+    "sectores": [
+     "CAMARONERO Y PESQUERO",
+     "TURISMO"
+    ],
+    "titulo": "Que promueve la conservación y aprovechamiento sostenible del Golfo de Chiriquí",
+    "titulo_corto": "Conservación y desarrollo del Golfo de Chiriquí"
+   },
    "anteproyecto": "300",
    "comision": "COMISION DE POBLACION, AMBIENTE Y DESARROLLO",
    "etapa": "Enviado a subcomisión para analisis",
@@ -49468,7 +49591,7 @@
   "8193": "1d82fe23f021",
   "8194": "c17bc23f8e61",
   "8195": "45c2d201338f",
-  "8196": "cfde496430ff",
+  "8196": "1ae121407170",
   "8197": "aa3ebea49d2e",
   "8198": "13ab0fce41ba",
   "8199": "e94570b9339b",
@@ -49476,10 +49599,10 @@
   "8201": "243f51094aa4",
   "8203": "79632a45bc05",
   "8205": "906daaad2979",
-  "8206": "ee82f95968a0",
-  "8207": "1d5a6cdeacfd",
+  "8206": "828cf359657f",
+  "8207": "0d1c42efcfdd",
   "8210": "b65e98b46354",
-  "8212": "5242f1c85b23",
+  "8212": "d6d9972fa081",
   "8213": "293073b40be6",
   "8214": "ba0a21863436",
   "8215": "d7f2314653a2",
@@ -49982,6 +50105,7 @@
    "8502",
    "7922",
    "8416",
+   "8196",
    "8407",
    "8409",
    "8441",
@@ -50050,8 +50174,10 @@
    "8156",
    "8261",
    "8311",
+   "8207",
    "8281",
    "8025",
+   "8212",
    "8131",
    "8055",
    "8243",
@@ -50130,7 +50256,7 @@
    "7636",
    "7490"
   ],
-  "fecha": "2026-10-27T14:10:08",
+  "fecha": "2026-10-27T15:09:31",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -50247,6 +50373,9 @@
    "8177": "399fc6670871",
    "8179": "399fc6670871",
    "8188": "399fc6670871",
+   "8196": "399fc6670871",
+   "8207": "399fc6670871",
+   "8212": "399fc6670871",
    "8218": "399fc6670871",
    "8222": "399fc6670871",
    "8227": "399fc6670871",
@@ -50762,5 +50891,5 @@
   ],
   "revisada": "2026-10-27T14:14:25"
  },
- "ultima_corrida": "2026-10-27T14:10:08"
+ "ultima_corrida": "2026-10-27T15:09:31"
 }
