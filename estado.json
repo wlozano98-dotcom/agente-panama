@@ -641,6 +641,14 @@
    "carpeta": "Etiquetado accesible y transparencia en contratos (ficha 8044)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
   },
+  "8046": {
+   "carpeta": "Carácter vinculante a consultas ciudadanas (ficha 8046)",
+   "comision": "Comisión de Asuntos Municipales"
+  },
+  "8047": {
+   "carpeta": "Sistema Nacional de Canales de Riego Agrícola (ficha 8047)",
+   "comision": "Comisión de Asuntos Agropecuarios"
+  },
   "8050": {
    "carpeta": "Regulación de contratos de colegios y transporte colegial (ficha 8050)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
@@ -669,6 +677,10 @@
    "carpeta": "Creación del Patronato del Hospital Anita Moreno (ficha 8060)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
+  "8061": {
+   "carpeta": "Presupuesto mínimo para el Ministerio de Salud (ficha 8061)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
   "8062": {
    "carpeta": "Ampliación de la licencia de paternidad (ficha 8062)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
@@ -687,6 +699,10 @@
   },
   "8075": {
    "carpeta": "Prohibición de seguros privados para funcionarios (ficha 8075)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
+  "8076": {
+   "carpeta": "Prohibición de seguros privados en el sector público (ficha 8076)",
    "comision": "Comisión de Economía y Finanzas"
   },
   "8077": {
@@ -23603,6 +23619,33 @@
    "titulo": "QUE GARANTIZA EL DERECHO DEL CONSUMIDOR A LA INFORMACION ACCESIBLE, CLARA Y VERAZ EN ETIQUETADO DE PRODUCTOS, CONTRATOS Y DOCUMENTOS"
   },
   "8046": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Establece el carácter vinculante de las consultas ciudadanas para decisiones administrativas, legislativas o de planificación.",
+     "Artículo 4: Fija los requisitos de obligatoriedad, incluyendo un mínimo de 30% de participación electoral y la asesoría técnica de profesionales avalados por la Junta Técnica de Ingeniería y Arquitectura.",
+     "Artículo 5: Incluye al sector empresarial o productivo relacionado dentro del comité organizador de las consultas ciudadanas.",
+     "Artículo 7: Dispone la comunicación inmediata y la ejecución vinculante del resultado de la consulta."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1ePCrwKitt7PqFUKVN5Hq6dEDVxYWxnqG",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Hace vinculantes las consultas locales sobre planificación y proyectos, lo que puede incidir de forma indirecta en obras públicas y permisos de urbanismo.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Tiene un impacto bajo e indirecto para el sector empresarial, ya que no impone cargas comerciales directas pero condiciona la viabilidad de proyectos urbanos o de infraestructura a los resultados de consultas ciudadanas locales.",
+    "resumen": "Propone que las consultas ciudadanas convocadas por autoridades públicas tengan efecto vinculante sobre decisiones administrativas, legislativas o de planificación local. Para que sus resultados sean obligatorios, exige un quórum mínimo de votación del 30% del padrón electoral de la circunscripción y la participación de técnicos idóneos de ingeniería y arquitectura. Afecta principalmente la toma de decisiones sobre proyectos comunitarios, municipales y de ordenamiento territorial.",
+    "sectores": [
+     "CEMENTERAS"
+    ],
+    "titulo": "Que otorga carácter vinculante a los resultados de las consultas ciudadanas y dicta otras disposiciones",
+    "titulo_corto": "Carácter vinculante a consultas ciudadanas"
+   },
    "anteproyecto": "154",
    "comision": "COMISION DE ASUNTOS MUNICIPALES",
    "etapa": "Enviado a subcomisión para analisis",
@@ -23636,6 +23679,35 @@
    "titulo": "QUE OTORGA CARACTER VINCULANTE A LOS RESULTADOS DE LAS CONSULTAS CIUDADANAS Y DICTA OTRAS DISPOSICIONES."
   },
   "8047": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Crea el Sistema Nacional de Canales de Riego Agrícola (SINACRA) para garantizar el abastecimiento de agua a la producción agrícola.",
+     "Artículo 3: Exige autorización expresa de la Autoridad del Canal de Panamá para desarrollar proyectos dentro de su jurisdicción.",
+     "Artículo 12: Hace obligatorio el uso de fuentes de energía renovable en estaciones de bombeo y conducción, sujeto a viabilidad técnica y económica.",
+     "Artículo 13: Habilita el financiamiento mediante el Fondo Especial de Compensación de Intereses (FECI) y alianzas público-privadas (APP).",
+     "Artículo 15: Obliga a los productores beneficiarios a conformar Juntas de Productores Usuarios responsables de la operación, administración y mantenimiento local.",
+     "Artículo 17: Establece sanciones por infracciones que incluyen el retraso en el pago de cuotas, el desvío no autorizado de caudales y la contaminación con agroquímicos o residuos peligrosos."
+    ],
+    "drive": "https://drive.google.com/drive/folders/10a78VEXtPzlOMgTMVXkVfngxDat_1Xbr",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Incide sobre explotaciones agrícolas tecnificadas que se incorporen a sistemas públicos de riego, obligándolas a participar en Juntas de Usuarios, pagar cuotas y cumplir normas hídricas.",
+      "sector": "BANANERO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto empresarial es bajo y acotado al sector agropecuario, al crear infraestructura pública de riego y regular a los productores beneficiarios mediante juntas de administración y sanciones por uso de agua.",
+    "resumen": "Crea el Sistema Nacional de Canales de Riego Agrícola (SINACRA) bajo el MIDA para planificar, construir y administrar infraestructuras de riego en todo el país. Obliga a los productores beneficiarios a constituir Juntas de Productores Usuarios para operar los sistemas locales y pagar cuotas de mantenimiento. Además, promueve el uso de energías renovables en estaciones de bombeo e impone un régimen de infracciones y sanciones por uso indebido o contaminación del recurso hídrico.",
+    "sectores": [
+     "BANANERO"
+    ],
+    "titulo": "Mediante la cual se implementa el Sistema Nacional de Canales de Riego para la Producción Agrícola",
+    "titulo_corto": "Sistema Nacional de Canales de Riego Agrícola"
+   },
    "anteproyecto": "155",
    "comision": "COMISION DE ASUNTOS AGROPECUARIOS",
    "etapa": "Enviado a subcomisión para analisis",
@@ -24488,6 +24560,20 @@
    "titulo": "QUE CREA EL PATRONATO DEL HOSPITAL REGIONAL DE AZUERO ANITA MORENO EN LA PROVINCIA DE LOS SANTOS"
   },
   "8061": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1czTE3Deamke2SWRPzx33Ym467R3WPZEV",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No genera impacto regulatorio, fiscal ni operativo sobre las empresas, ya que es una norma de asignación presupuestaria interna del Estado y de política pública sanitaria.",
+    "resumen": "La iniciativa busca garantizar un piso presupuestario estatal para el sector salud público a cargo del Ministerio de Salud (MINSA). Establece una asignación mínima del 6 % del PIB para 2027, 7 % para 2028 y 8 % a partir de 2029, incluyendo transferencias a entidades como la Caja de Seguro Social y patronatos hospitalarios.",
+    "sectores": [],
+    "titulo": "Que establece el porcentaje mínimo de asignación presupuestaria para el Ministerio de Salud",
+    "titulo_corto": "Presupuesto mínimo para el Ministerio de Salud"
+   },
    "anteproyecto": "171",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Enviado a subcomisión para analisis",
@@ -25050,6 +25136,34 @@
    "titulo": "QUE PROHIBE EL USO DE FONDOS PUBLICOS PARA EL PAGO DE SEGUROS PRIVADOS DE SALUD DE LOS FUNCIONARIOS PUBLICOS"
   },
   "8076": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Prohíbe la inclusión de partidas presupuestarias para contratar seguros privados de salud, vida, accidentes o similares para servidores públicos en entidades estatales, autónomas, municipios y empresas mixtas.",
+     "Artículo 2: Establece que los servidores públicos solo estarán cubiertos por la CSS y el MINSA, salvo que financien seguros privados voluntariamente con fondos propios.",
+     "Artículo 3: Exceptúa de la prohibición los seguros requeridos por tratados internacionales, misiones diplomáticas/consulares en el exterior y pólizas de vida para estamentos de seguridad.",
+     "Artículo 4: Dispone la nulidad del gasto y sanciones administrativas, patrimoniales y penales para los funcionarios que autoricen dichas partidas presupuestarias.",
+     "Artículo 5: Ordena al Ministerio de Economía y Finanzas (MEF) rechazar de oficio cualquier partida que contravenga esta ley."
+    ],
+    "drive": "https://drive.google.com/drive/folders/141EjVcrAGtmw4Yevso9fwyMyLDXOeJUn",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Elimina las licitaciones y contratos de pólizas colectivas de salud, vida y accidentes financiadas por el Estado, suprimiendo una cartera institucional clave para aseguradoras y corredores.",
+      "sector": "SEGUROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Impacta de manera directa y severa al sector asegurador al eliminar por completo la contratación estatal de pólizas de seguros médicos y de vida para servidores públicos.",
+    "resumen": "Prohíbe que las instituciones del Estado, municipios y empresas mixtas utilicen fondos públicos para contratar pólizas privadas de salud, vida o accidentes para sus funcionarios. Los servidores públicos deberán atenderse a través de la Caja de Seguro Social y el MINSA, salvo que adquieran pólizas individuales con sus propios recursos. Se exceptúan misiones consulares en el exterior, tratados internacionales y seguros de vida para estamentos de seguridad.",
+    "sectores": [
+     "SEGUROS"
+    ],
+    "titulo": "Que prohíbe la inclusión en el presupuesto de las instituciones públicas las partidas destinadas a seguros privados para servidores públicos y dicta otras disposiciones",
+    "titulo_corto": "Prohibición de seguros privados en el sector público"
+   },
    "anteproyecto": "177",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Enviado a subcomisión para analisis",
@@ -45391,8 +45505,13 @@
    },
    "anteproyecto": "133",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
-   "etapa": "Primer Debate",
+   "etapa": "Retirado por proponente",
    "etapas": [
+    {
+     "comentario": "Retirado por el proponente mediante Nota 2026_1075_AN_CTSYDS",
+     "etapa": "Retirado por proponente",
+     "fecha": "2026-10-22"
+    },
     {
      "comentario": "PENDIENTE DE I DEBATE",
      "etapa": "Primer Debate",
@@ -49659,7 +49778,7 @@
    "ficha": "8653",
    "proponente": "H.D LILIA EMERITA BATISTA RODRIGUEZ",
    "proyecto": "",
-   "tiene_documento": false,
+   "tiene_documento": true,
    "titulo": "QUE ESTABLECE EL ENCUENTRO INTERNACIONAL DE MUSICA CORAL EN LA REPUBLICA DE PANAMA"
   }
  },
@@ -51503,5 +51622,5 @@
   ],
   "revisada": "2026-10-27T16:03:06"
  },
- "ultima_corrida": "2026-10-27T18:03:27"
+ "ultima_corrida": "2026-10-27T19:02:42"
 }
