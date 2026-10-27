@@ -317,6 +317,10 @@
    "carpeta": "Reforma a la ley de turismo indígena sostenible (ficha 7785)",
    "comision": "Comisión de Asuntos Indígenas"
   },
+  "7800": {
+   "carpeta": "Certificado de salud mental para mayores de 70 años (ficha 7800)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
   "7801": {
    "carpeta": "Establecimiento de Estándares Básicos de Aprendizaje (EBA) (ficha 7801)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -337,9 +341,21 @@
    "carpeta": "Reducción de alquileres de oficinas públicas (ficha 7808)",
    "comision": "Comisión de Economía y Finanzas"
   },
+  "7810": {
+   "carpeta": "Prohibición de cigarrillos electrónicos y vaporizadores (ficha 7810)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
   "7811": {
    "carpeta": "Paz y salvo municipal para cierre de empresas ante la DGI (ficha 7811)",
    "comision": "Comisión de Economía y Finanzas"
+  },
+  "7812": {
+   "carpeta": "Participación indígena en tarifas y concesiones ambientales (ficha 7812)",
+   "comision": "Comisión de Población, Ambiente y Desarrollo"
+  },
+  "7821": {
+   "carpeta": "Marco regulatorio de criptomonedas y economía digital (ficha 7821)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
   },
   "7824": {
    "carpeta": "Sistema de Matrícula Escolar Digital (ficha 7824)",
@@ -14907,6 +14923,24 @@
    "titulo": "QUE ELIMINA EL USO DE CONTENEDORES DE FOAM PARA ALIMENTOS EN PANAMA"
   },
   "7800": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Exige como requisito de validez un certificado de salud mental para las personas mayores de 70 años que realicen actos jurídicos.",
+     "Artículo 2: Aplica la exigencia a actos como disposición de bienes inmuebles, firma de poderes, trámites notariales y contratos de alto valor.",
+     "Artículo 3: Dispone que el certificado sea expedido únicamente por un psiquiatra del Ministerio de Salud (MINSA)."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1-bJ13W4CvgnbGK4NEJMDJUr4aFSUWPGu",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No impone regulaciones directas ni cargas tributarias al sector empresarial, ya que el requisito recae exclusivamente sobre la capacidad civil de personas naturales mayores de 70 años al suscribir actos jurídicos.",
+    "resumen": "Propone exigir un certificado de salud mental emitido por un psiquiatra del MINSA a toda persona mayor de 70 años que celebre actos jurídicos de trascendencia. La medida abarcaría compraventas de bienes inmuebles, otorgamiento de poderes, trámites notariales y contratos de alto valor para garantizar la capacidad volitiva del adulto mayor.",
+    "sectores": [],
+    "titulo": "Que establece el requisito de certificado de salud mental para personas mayores de setenta (70) años, en actos jurídicos en Panamá",
+    "titulo_corto": "Certificado de salud mental para mayores de 70 años"
+   },
    "anteproyecto": "327",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Enviado a subcomisión para analisis",
@@ -15256,6 +15290,39 @@
    "titulo": "QUE REDUCE LOS GASTOS DE ALQUILER DE OFICINAS EN EL SECTOR PÚBLICO Y DICTA OTRAS DISPOSICIONES"
   },
   "7810": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2: Prohíbe la comercialización en todo el país de sistemas electrónicos de administración de nicotina, cigarrillos electrónicos, vaporizadores, calentadores de tabaco, cartuchos, consumibles y accesorios; restringe a zonas francas solo la exportación y reexportación a terceros países.",
+     "Artículo 3: Prohíbe la compra o promoción de estos dispositivos por mensajería, redes sociales e internet en Panamá, estableciendo sanciones según el Código Sanitario.",
+     "Artículo 4: Faculta a la Autoridad Nacional de Aduanas a inspeccionar, detener, decomisar y suspender la importación y comercialización de estos productos.",
+     "Artículo 7: Tipifica como infracciones sanitarias permitir la comercialización, usar los dispositivos en sitios prohibidos y no informar debidamente la prohibición en los accesos.",
+     "Artículos 9 y 10: Obliga a propietarios y administradores de espacios públicos y privados a colocar letreros con medidas mínimas (8.5 x 14 pulgadas), tipografía Arial 30 y altura fija (1.5 m) en todas las entradas, adoptar políticas disciplinarias para empleados y solicitar auxilio policial para desalojar a infractores."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1ASOqET7g8HvqZKZIHz5IRStTjPxMmo_5",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Prohíbe por completo la venta minorista, importación, distribución y comercio electrónico de vapeadores y sus insumos en el territorio nacional, limitando a las zonas francas únicamente a la exportación o reexportación.",
+      "sector": "OTROS"
+     },
+     {
+      "nivel": "bajo",
+      "razon": "Obliga a los comercios y oficinas a colocar letreros de prohibición con medidas y tipografías específicas en todos sus accesos, además de adoptar procedimientos disciplinarios internos.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Afecta severamente a los comercios dedicados a la venta e importación de cigarrillos electrónicos al prohibir totalmente su actividad en el país, e impone cargas operativas de señalización y control a todos los establecimientos comerciales y oficinas.",
+    "resumen": "El proyecto prohíbe de forma absoluta la comercialización, importación y promoción por internet de cigarrillos electrónicos, vaporizadores y calentadores de tabaco, con o sin nicotina, en el territorio panameño. Permite únicamente su reexportación desde zonas francas y autoriza a la Autoridad Nacional de Aduanas a decomisar estos productos. Asimismo, obliga a todos los establecimientos comerciales y laborales a instalar letreros con especificaciones técnicas estrictas y a aplicar medidas disciplinarias para impedir su consumo en sus instalaciones.",
+    "sectores": [
+     "OTROS"
+    ],
+    "titulo": "Que prohíbe el uso, importación y comercialización de sistemas electrónicos de administración de nicotina, cigarrillos electrónicos, vaporizadores, calentadores de tabaco y otros dispositivos similares, con o sin nicotina, en la República de Panamá",
+    "titulo_corto": "Prohibición de cigarrillos electrónicos y vaporizadores"
+   },
    "anteproyecto": "336",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Enviado a subcomisión para analisis",
@@ -15351,6 +15418,31 @@
    "titulo": "QUE MODIFICA EL ARTICULO 717 DEL CODIGO FISCAL DE LA REPUBLICA DE PANAMA."
   },
   "7812": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Modifica el artículo 100 de la Ley 41 de 1998 para obligar al Ministerio de Ambiente a fijar un porcentaje de participación económica indígena dentro de las tarifas por aprovechamiento de recursos y concesiones en áreas protegidas, previa consulta con el sector privado involucrado.",
+     "Artículo 2: Adiciona el artículo 100-A a la Ley 41 de 1998 para canalizar estos fondos a través de una cuenta bancaria administrada por el Viceministerio de Asuntos Indígenas y autoridades comarcales."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1kACn8fzERVkZT7x2676QlcMtgcTmhioF",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Afecta a operadores y concesionarios de turismo ecológico en áreas protegidas dentro de territorios comarcales ante eventuales ajustes en tarifas de admisión y concesiones.",
+      "sector": "TURISMO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es acotado a empresas que operan concesiones de administración o actividades ecoturísticas en áreas protegidas ubicadas en comarcas indígenas, sin imponer cargas tributarias o laborales generales.",
+    "resumen": "Propone regular la participación económica que corresponde a los pueblos indígenas por el aprovechamiento de recursos naturales en sus territorios y concesiones en áreas protegidas. Ordena al Ministerio de Ambiente destinarles un porcentaje de las tarifas cobradas por estas actividades y crea el Fondo de Apoyo a los Pueblos Indígenas para financiar obras y proyectos comunitarios.",
+    "sectores": [
+     "TURISMO"
+    ],
+    "titulo": "Que modifica el artículo 100 y adiciona el artículo 100-A a la Ley 41 de 1998, General de Ambiente.",
+    "titulo_corto": "Participación indígena en tarifas y concesiones ambientales"
+   },
    "anteproyecto": "344",
    "comision": "COMISION DE POBLACION, AMBIENTE Y DESARROLLO",
    "etapa": "Enviado a subcomisión para analisis",
@@ -15475,6 +15567,38 @@
    "titulo": "QUE SUBROGA LA LEY 230 DE 2021, QUE CREA EL SISTEMA NACIONAL DE ALERTA AMBER PARA LA UBICACIÓN RÁPIDA Y EXPEDITA ANTE LA DESAPARICIÓN O SUSTRACCIÓN DE PERSONAS MENORES DE EDAD"
   },
   "7821": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 5: Crea el Consejo Nacional de Activos Digitales (CONAD) integrado por la SBP, SMV, MICI, DGI, MEF, BNP y la Asociación Bancaria de Panamá.",
+     "Artículo 7 y 12: Obliga a los VASP a registrarse, mantener un capital mínimo operativo de $500,000 USD, someterse a auditorías anuales y custodiar fondos de clientes en cuentas separadas.",
+     "Artículo 9 y 27: Faculta a las instituciones financieras a prestar servicios de conversión de criptomonedas a dólares o balboas bajo regulación de la SBP.",
+     "Artículo 10 y 16: Exige la implementación de medidas AML/CFT bajo directrices de GAFI, reportes obligatorios a la UAF y debida diligencia de clientes (KYC).",
+     "Artículo 13: Exige la aprobación previa de la SMV para ofertas iniciales de criptomonedas (ICO) o tokens de seguridad (STO).",
+     "Artículo 15: Crea el Fondo de Protección para Inversionistas en Activos Digitales, financiado con el 0.5% de cada transacción y aportes anuales de las plataformas.",
+     "Artículo 26: Declara el uso voluntario de criptomonedas en transacciones comerciales, sin otorgarles curso legal forzoso.",
+     "Artículo 32: Concede exoneración de impuesto sobre la renta por cinco años a startups blockchain que generen al menos 20 empleos y fija tarifas preferenciales para ganancias de capital.",
+     "Artículo 37: Sanciona operar sin licencia con multas de $100,000 a $1,000,000 USD, y sanciona infracciones AML/CFT con multas del 10% de ingresos anuales o cierre de operaciones."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1OMZHVgzrYFP0IAGzjVNwWxqmqBpJqUTL",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Crea el marco de supervisión para criptoactivos bajo la SBP y SMV, permite a entidades financieras operar servicios de conversión e impone exigencias de capital, auditorías y cumplimiento AML/CFT (GAFI).",
+      "sector": "FINANCIERO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Tiene un impacto alto en el centro financiero panameño al establecer licencias, supervisión de la SBP/SMV y obligaciones de prevención de blanqueo de capitales (GAFI) para entidades financieras y proveedores de activos virtuales.",
+    "resumen": "Propone regular el uso, intercambio, custodia y supervisión de criptoactivos en Panamá a través de la creación del Consejo Nacional de Activos Digitales. Establece exigencias de licenciamiento, capital mínimo ($500,000) y estrictas normas de prevención de blanqueo de capitales (GAFI) para plataformas y exchanges. Además, define que el cobro o pago en criptomonedas es estrictamente voluntario en el comercio y otorga incentivos fiscales a startups tecnológicas.",
+    "sectores": [
+     "FINANCIERO"
+    ],
+    "titulo": "Que establece el marco regulatorio para el uso de criptomonedas y fomenta la economía digital en Panamá",
+    "titulo_corto": "Marco regulatorio de criptomonedas y economía digital"
+   },
    "anteproyecto": "345",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Enviado a subcomisión para analisis",
@@ -51970,5 +52094,5 @@
   ],
   "revisada": "2026-10-27T16:03:06"
  },
- "ultima_corrida": "2026-10-27T21:54:07"
+ "ultima_corrida": "2026-10-27T22:53:45"
 }
