@@ -1,5 +1,5 @@
 {
- "comisiones_revisadas": "2026-10-27T14:07:22",
+ "comisiones_revisadas": "2026-10-27T17:03:21",
  "drive": {
   "7404": {
    "carpeta": "Obligatoriedad de educación media y preescolar (ficha 7404)",
@@ -741,17 +741,33 @@
    "carpeta": "Día cívico por víctimas de la dictadura (ficha 8110)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "8117": {
+   "carpeta": "Descuento en aros y lentes para personas con discapacidad (ficha 8117)",
+   "comision": "Comisión de la Mujer, la Niñez y la Familia"
+  },
   "8118": {
    "carpeta": "Señalización de zonas de alta accidentalidad vial (ficha 8118)",
    "comision": "Comisión de Comunicación y Transporte"
+  },
+  "8120": {
+   "carpeta": "Regulación e impuestos a vapeadores y sistemas de nicotina (ficha 8120)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
   "8123": {
    "carpeta": "Regulación del uso de celulares en centros educativos (ficha 8123)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "8124": {
+   "carpeta": "Ley de etiquetado frontal nutricional (EFAN) (ficha 8124)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
   "8126": {
    "carpeta": "Sanciones a funcionarios por divulgar antecedentes penales (ficha 8126)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "8127": {
+   "carpeta": "Nueva Ley de Carrera Administrativa (ficha 8127)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
   "8130": {
    "carpeta": "Control de calidad y octanaje de combustibles (ficha 8130)",
@@ -1901,6 +1917,10 @@
    "carpeta": "Alivio económico y moratoria crediticia por terremoto de 2026 (ficha 8644)",
    "comision": "Comisión de Economía y Finanzas"
   },
+  "8645": {
+   "carpeta": "Derogatoria de concesión minera a Vera Gold Corporation (ficha 8645)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
   "8646": {
    "carpeta": "Manejo de residuos en eventos masivos (ficha 8646)",
    "comision": "Comisión de Población, Ambiente y Desarrollo"
@@ -1908,6 +1928,10 @@
   "8647": {
    "carpeta": "Contratación excepcional de aulas escolares (ficha 8647)",
    "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "8648": {
+   "carpeta": "Reforma al beneficio a jubilados y tasa a remesas al exterior (ficha 8648)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
   "8649": {
    "carpeta": "Prohibición y gestión del asbesto o amianto (ficha 8649)",
@@ -1924,6 +1948,10 @@
   "8652": {
    "carpeta": "Modificación a Ley de Descentralización por emergencia (ficha 8652)",
    "comision": "Comisión de Asuntos Municipales"
+  },
+  "8653": {
+   "carpeta": "Encuentro Internacional de Música Coral (ficha 8653)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
   }
  },
  "fichas": {
@@ -26641,6 +26669,31 @@
    "titulo": "POR LA CUAL EL MUNICIPIO RESPECTIVO ENAJENA A FAVOR DE LAS EMPRESAS DEDICADAS A PRESTAR EL SERVICIO DE GRÚAS TODOS AQUELLOS VEHÍCULOS QUE SE ENCUENTRAN EN SUS PATIOS DESATENDIDOS POR SUS PROPIETARIOS POR UN TÉRMINO MAYOR DE SEIS MESES"
   },
   "8117": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Adiciona el numeral 20 al artículo 2 de la Ley 134 de 2013 para establecer un descuento del 15% en la compra de aros y lentes con prescripción médica a personas con discapacidad certificadas por SENADIS.",
+     "Artículo 2: Otorga al Ministerio de Salud, junto con SENADIS y ACODECO, un plazo no mayor a seis meses para reglamentar la aplicación y fiscalización del beneficio."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1t_6elkPAVyKi8gA7OBBQTNQ4YeTAUnFB",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Obliga a ópticas y proveedores de dispositivos médicos de salud visual a otorgar un descuento obligatorio del 15% en monturas y lentes formulados.",
+      "sector": "SALUD"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea una obligación económica directa sobre las ópticas y distribuidores de salud visual al exigirles asumir un descuento por ley en sus productos prescritos.",
+    "resumen": "La propuesta adiciona un beneficio a la Ley 134 de 2013 para otorgar un descuento obligatorio del 15% en la compra de aros y lentes con prescripción médica a personas con discapacidad certificadas por la SENADIS. La medida afecta directamente a ópticas y comercios que distribuyen dispositivos de salud visual, bajo la fiscalización de la ACODECO y el Ministerio de Salud.",
+    "sectores": [
+     "SALUD"
+    ],
+    "titulo": "Que modifica la Ley 134 de 31 de diciembre de 2013, para incluir un beneficio adicional en aros y lentes con prescripción médica",
+    "titulo_corto": "Descuento en aros y lentes para personas con discapacidad"
+   },
    "anteproyecto": "222",
    "comision": "COMISION DE LA MUJER, LA NIÑEZ Y LA FAMILIA",
    "etapa": "Enviado a subcomisión para analisis",
@@ -26728,6 +26781,44 @@
    "titulo": "QUE MODIFICA LA LEY 21 DE 2010 Y ESTABLECE LA OBLIGACION DE IDENTIFICAR, SEÑALIZAR Y REGULAR LAS ZONAS DE ALTA ACCIDENTALIDAD VIAL EN LA REPUBLICA DE PANAMÁ"
   },
   "8120": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 4: Exige un Aviso de Operación específico ante el Ministerio de Comercio e Industrias para la importación, distribución y venta de estos productos.",
+     "Artículo 5: Obliga a fabricantes e importadores a notificar al MINSA 60 días antes de la importación y pagar una tasa de B/.250.00 por cada variante de marca.",
+     "Artículo 7: Prohíbe la venta a menores de edad y obliga a comercios físicos y digitales a verificar la identidad del comprador y colocar carteles de advertencia de medidas y tipografía específicas.",
+     "Artículo 8: Prohíbe la venta en máquinas automáticas, la exhibición al alcance manual del cliente y el uso de empaques o figuras alusivas a menores o alimentos.",
+     "Artículos 11 y 12: Prohíbe el consumo en oficinas, transporte y establecimientos comerciales cerrados, responsabilizando a propietarios y gerentes bajo pena de sanciones.",
+     "Artículos 13 y 14: Establece que los empaques deben llevar una advertencia sanitaria obligatoria que cubra el 30% del frontal, además de detallar ingredientes, nicotina y datos del importador.",
+     "Artículo 15: Restringe la publicidad en televisión, radio, cine y transporte público, permitiéndola solo en puntos de venta y entornos digitales restringidos a adultos.",
+     "Artículo 17: Dispone el reporte anual obligatorio a la Dirección General de Salud Pública sobre el volumen de ventas en unidades y datos de la empresa.",
+     "Artículo 27: Fija multas por infracciones leves de B/.1,000 a B/.50,000 y por faltas graves de B/.25,000 a B/.100,000, incluyendo la posible revocación de Aviso de Operación y cierre definitivo.",
+     "Artículos 28 y 30: Modifica la Ley 45 de 1995 para aplicar el Impuesto Selectivo al Consumo a tabaco calentado ($0.05/g), bolsas orales ($0.04/g) y líquidos de vapeo (de $0.05 a $0.20 por ml según el volumen)."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1MrjrILM2cd6vlv6-Oh210yh1pviNbkBN",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Regula integralmente el comercio mayorista, minorista y digital de vapeadores y sucedáneos de nicotina, imponiendo requisitos de registro, etiquetado, prohibición de venta a menores y nuevos impuestos selectivos.",
+      "sector": "OTROS"
+     },
+     {
+      "nivel": "bajo",
+      "razon": "Prohíbe el uso de estos dispositivos en ambientes laborales cerrados y responsabiliza a empleadores y administradores del cumplimiento y la señalización en sus instalaciones.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Tiene un impacto alto en los distribuidores y comercios minoristas del sector tabaco y vapeo al fijarles un nuevo marco regulatorio obligatorio, tasas, advertencias y tributos específicos, mientras genera obligaciones de control interno en espacios laborales para todas las empresas.",
+    "resumen": "Establece el marco legal para la importación, distribución, comercialización y publicidad de cigarrillos electrónicos, vapeadores, productos de tabaco calentado y bolsas de nicotina en Panamá. Crea registros sanitarios previos, restricciones estrictas de empaque y publicidad, prohibición de consumo en ambientes cerrados y laborales, y aplica un nuevo Impuesto Selectivo al Consumo sobre líquidos y consumibles.",
+    "sectores": [
+     "OTROS"
+    ],
+    "titulo": "Que regula el uso, comercialización, publicidad, calidad y seguridad de los sistemas electrónicos de administración de nicotina, bolsas para consumo oral, productos calentados para inhalación, líquidos de vapeo y sistemas similares sin nicotina, modifica artículos de la Ley 45 de 1995 y dicta otras disposiciones",
+    "titulo_corto": "Regulación e impuestos a vapeadores y sistemas de nicotina"
+   },
    "anteproyecto": "227",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Enviado a subcomisión para analisis",
@@ -26836,6 +26927,35 @@
    "titulo": "QUE REGULA EL USO DE TELEFONOS CELULARES EN TODAS LAS INSTITUCIONES OFICIALES Y PARTICULARES DE CENTROS DE EDUCACION BASICA, MEDIA Y PROMEDIA"
   },
   "8124": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 3: Obliga a todas las personas naturales o jurídicas que fabriquen, importen, envasen, distribuyan o comercialicen alimentos preenvasados y bebidas.",
+     "Artículo 6: Define los límites y umbrales críticos de azúcares, grasas, grasas saturadas, grasas trans, sodio, edulcorantes y estimulantes según el modelo de la OPS.",
+     "Artículo 7 y 8: Establece la obligatoriedad y especificaciones técnicas de los sellos octogonales negros de advertencia frontal, exigiendo un tamaño no menor al 5% de la cara principal de exhibición.",
+     "Artículo 9: Enumera las excepciones al etiquetado frontal (alimentos frescos sin procesar, café, leche pura, harinas, sal, azúcar a granel, entre otros).",
+     "Artículo 10: Prohíbe incluir declaraciones saludables, propiedades nutricionales o certificaciones de sociedades médicas en productos que deban llevar uno o más sellos de advertencia.",
+     "Artículo 12 (Parágrafo I): Establece un plazo de adecuación de un año a partir de la entrada en vigencia para que las empresas ajusten el etiquetado de sus productos."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1l-4GD2vZK-HTKlNMwHFeGkWodyOfwDWp",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Obliga a fabricantes e importadores a reformular productos o rediseñar sus empaques para incluir advertencias nutricionales visibles, prohibiéndoles además el uso de alegaciones saludables o sellos de respaldo.",
+      "sector": "ALIMENTOS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea obligaciones y costos directos e inmediatos para la industria y distribuidores de alimentos y bebidas preenvasadas en materia de empaque, etiquetado y mercadeo de sus productos.",
+    "resumen": "Establece la obligatoriedad del etiquetado frontal de advertencia (sellos octogonales negros) en alimentos y bebidas preenvasados, tanto nacionales como importados, que superen los umbrales de azúcares, grasas, sodio, o contengan edulcorantes y estimulantes. Afecta directamente a fabricantes, importadores y comercializadores de alimentos al exigir el rediseño de empaques y prohibir declaraciones nutricionales o de salud en productos con sellos.",
+    "sectores": [
+     "ALIMENTOS"
+    ],
+    "titulo": "Que crea el Etiquetado Frontal de Advertencia Nutricional (EFAN) para la Promoción de Decisiones Saludables.",
+    "titulo_corto": "Ley de etiquetado frontal nutricional (EFAN)"
+   },
    "anteproyecto": "228",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Enviado a subcomisión para analisis",
@@ -26954,6 +27074,20 @@
    "titulo": "QUE ADICIONA ARTICULOS A LA LEY 69 DE 2007 Y DICTA MEDIDAS DE PROTECCION DE GARANTIAS CONSTITUCIONALES REFERENTE A INFORMACION DE ANTECEDENTE PENALES"
   },
   "8127": {
+   "analisis": {
+    "con_pdf": false,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1UeUI6PJcLxPd6tCY7y51Kg06BOoCxuRy",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No genera impacto sobre las empresas privadas, ya que su ámbito de aplicación se limita exclusivamente a la función pública y al régimen de los servidores del Estado.",
+    "resumen": "Análisis basado solo en el título. La iniciativa busca reemplazar la normativa marco que regula las relaciones laborales y estatutarias de los servidores públicos con el Estado panameño. Afecta exclusivamente al funcionamiento del sector público y a los funcionarios estatales, sin alcance sobre el ámbito privado.",
+    "sectores": [],
+    "titulo": "Que subroga la Ley 9 de 20 de junio de 1994, que establece y regula la Carrera Administrativa",
+    "titulo_corto": "Nueva Ley de Carrera Administrativa"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Enviado a subcomisión para analisis",
@@ -48868,6 +49002,52 @@
    "tiene_documento": true,
    "titulo": "QUE ESTABLECE MEDIDAS TEMPORALES DE ALIVIO ECONOMICO, PROTECCION DEL EMPLEO Y RECUPERACION DE LAS FAMILIAS Y ACTIVIDADES PRODUCTIVAS AFECTADAS POR EL TERREMOTO DEL 9 DE OCTUBRE DE 2026 Y SUS REPLICAS"
   },
+  "8645": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Deroga la Ley 92 de 2013 que aprueba el contrato de concesión minera celebrado entre el Estado y Vera Gold Corporation.",
+     "Artículo 2: Instruye a la Dirección Nacional de Recursos Minerales del MICI a iniciar las actuaciones administrativas para hacer efectiva la extinción de los derechos de la concesión.",
+     "Artículo 3: Faculta a MiAmbiente y al MICI para evaluar riesgos geológicos y ambientales, monitorear depósitos de residuos y determinar obligaciones de restauración en el área de la concesión.",
+     "Artículo 4: Establece que la terminación de la concesión no extingue las responsabilidades ambientales ni las obligaciones de reparación.",
+     "Artículo 5: Declara zona de emergencia ambiental el área de la antigua mina de Remance y sectores de la cuenca del río Santa María."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1w8lZr85BEh1pnsKsjMF3zDZPJsnQRHyo",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Extingue directamente la concesión comercial para extracción de oro a la empresa Vera Gold Corporation y ordena la terminación inmediata de sus derechos operativos.",
+      "sector": "EXTRACTIVO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Impacto alto para la minería metálica al revocar por vía legislativa un contrato de concesión vigente y exigir responsabilidades de remediación ambiental.",
+    "resumen": "Propone derogar la Ley 92 de 2013 que aprobó el contrato de concesión de minería metálica (oro) a la empresa Vera Gold Corporation en la provincia de Veraguas. Ordena al MICI la terminación de los derechos de explotación minera y faculta a MiAmbiente a evaluar pasivos y obligaciones de restauración. Además, declara en emergencia ambiental el área de la antigua mina de Remance y crea un observatorio de monitoreo.",
+    "sectores": [
+     "EXTRACTIVO"
+    ],
+    "titulo": "Que deroga la Ley 92 del 7 de noviembre del 2013 y dicta otras disposiciones",
+    "titulo_corto": "Derogatoria de concesión minera a Vera Gold Corporation"
+   },
+   "anteproyecto": "211",
+   "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
+   "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-10-20"
+    }
+   ],
+   "fecha": "2026-10-20",
+   "ficha": "8645",
+   "proponente": "H.D FRANCISCO JAVIER BREA TRISTÁN",
+   "proyecto": "",
+   "tiene_documento": true,
+   "titulo": "QUE DEROGA LA LEY 92 DEL 7 DE NOVIEMBRE DEL 2013 Y DICTA OTRAS DISPOSICIONES"
+  },
   "8646": {
    "analisis": {
     "con_pdf": true,
@@ -48960,6 +49140,50 @@
    "proyecto": "",
    "tiene_documento": true,
    "titulo": "POR LA CUAL SE ESTABLECE EL PROCEDIMIENTO DE CONTRATACIÓN EXCEPCIONAL PARA LA CONSTRUCCIÓN INMEDIATA DE AULAS ESCOLARES EN ÁREAS DE DIFÍCIL ACCESO, ÁREAS COMARCALES Y REGIONES RURALES DEL PAÍS CON POBREZA MULTIDIMENSIONAL, SE ADICIONAN CAUSALES AL ARTÍCULO 79 DE LA LEY 22 DE 27 DE JUNIO DE 2006, SE MODIFICA EL ARTÍCULO 85, Y SE DICTAN OTRAS DISPOSICIONES."
+  },
+  "8648": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 3: Aumenta a B/.300.00 anuales el beneficio permanente para jubilados (B/.100 en abril, B/.100 en agosto y B/.100 en diciembre para pensiones de hasta B/.800.00).",
+     "Artículo 5, numeral 4: Crea una tasa de aportación del 3% al programa de incentivo aplicada a las remesas hacia el exterior tramitadas a través de empresas no bancarias y medios tecnológicos.",
+     "Artículo 5, numerales 1 al 3: Asigna al fondo fiduciario el 30.77% del ISC recaudado sobre bebidas alcohólicas, el 50% de bienes comisados por delitos contra la administración pública y el 13% de ingresos estatales por juegos de azar."
+    ],
+    "drive": "https://drive.google.com/drive/folders/138JBFrgsPhzDour4A1FarlQPLdcxSZJf",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Crea una tasa de aportación del 3% sobre las remesas hacia el exterior procesadas por empresas no bancarias y plataformas tecnológicas, afectando sus costos y tarifas.",
+      "sector": "FINANCIERO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Establece un nuevo gravamen del 3% sobre el envío de remesas al exterior que impacta directamente a las casas de cambio, remesadoras no bancarias y plataformas fintech de transferencias.",
+    "resumen": "El anteproyecto busca universalizar e incrementar los bonos permanentes para jubilados y pensionados de la Caja de Seguro Social a B/.300.00 anuales distribuidos en tres pagos. Para financiarlo, establece un fideicomiso en el Banco Nacional que captará fondos de bienes comisados, ingresos de juegos de azar, recaudación del ISC de bebidas alcohólicas y una nueva tasa del 3% a las remesas al exterior enviadas por medios no bancarios y plataformas tecnológicas.",
+    "sectores": [
+     "FINANCIERO"
+    ],
+    "titulo": "Que modifica y adiciona artículos a la Ley 438 de 14 de junio de 2024; modifica el artículo 35 de la Ley 57 de 2013, crea el fondo en fideicomiso y dicta otras disposiciones",
+    "titulo_corto": "Reforma al beneficio a jubilados y tasa a remesas al exterior"
+   },
+   "anteproyecto": "216",
+   "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
+   "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-10-21"
+    }
+   ],
+   "fecha": "2026-10-21",
+   "ficha": "8648",
+   "proponente": "H.D JAVIER FRANCISCO SUCRE MEJIA",
+   "proyecto": "",
+   "tiene_documento": true,
+   "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 438 DE 14 DE JUNIO DE 2024; MODIFICA EL ARTICULO 35 DE LA LEY 57 DE 2013, CREA EL FONDO EN FIDEICOMISO Y DICTA OTRAS DISPOSICIONES"
   },
   "8649": {
    "analisis": {
@@ -49138,6 +49362,38 @@
    "proyecto": "",
    "tiene_documento": true,
    "titulo": "QUE MODIFICA LA LEY 37 DE 2009, QUE DESCENTRALIZA DE LA ADMINISTACIÓN PÚBLICA, PARA ATENDER LA EMERGENCIA NACIONAL EN LAS ÁREAS AFECTADAS POR EL TERREMOTO DEL 9 DE OCTUBRE DE 2026"
+  },
+  "8653": {
+   "analisis": {
+    "con_pdf": false,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1EUrRN39YICE8NBheQc7K9C--WiYOnv4X",
+    "fecha_analisis": "2026-10-27",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Es una propuesta de carácter netamente cultural y de fomento artístico que no impone obligaciones, costos ni regulaciones para las empresas.",
+    "resumen": "Análisis basado solo en el título. La iniciativa busca institucionalizar la realización de un encuentro internacional de música coral en el país. Por su naturaleza cultural y protocolar, no contiene disposiciones regulatorias ni cargas operativas dirigidas al sector privado.",
+    "sectores": [],
+    "titulo": "Que establece el Encuentro Internacional de Música Coral en la República de Panamá",
+    "titulo_corto": "Encuentro Internacional de Música Coral"
+   },
+   "anteproyecto": "223",
+   "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
+   "etapa": "Preliminar",
+   "etapas": [
+    {
+     "comentario": "PRELIMINAR",
+     "etapa": "Preliminar",
+     "fecha": "2026-10-26"
+    }
+   ],
+   "fecha": "2026-10-26",
+   "ficha": "8653",
+   "proponente": "H.D LILIA EMERITA BATISTA RODRIGUEZ",
+   "proyecto": "",
+   "tiene_documento": false,
+   "titulo": "QUE ESTABLECE EL ENCUENTRO INTERNACIONAL DE MUSICA CORAL EN LA REPUBLICA DE PANAMA"
   }
  },
  "huellas_base": {
@@ -50980,5 +51236,5 @@
   ],
   "revisada": "2026-10-27T16:03:06"
  },
- "ultima_corrida": "2026-10-27T16:02:36"
+ "ultima_corrida": "2026-10-27T17:06:52"
 }
