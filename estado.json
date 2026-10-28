@@ -113,6 +113,10 @@
    "carpeta": "Extensión del régimen de intereses preferenciales hipotecarios (ficha 7538)",
    "comision": "Comisión de Economía y Finanzas"
   },
+  "7539": {
+   "carpeta": "Regulación de la instrumentación quirúrgica (ficha 7539)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
   "7543": {
    "carpeta": "Ley de deporte seguro (ficha 7543)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -128,6 +132,10 @@
   "7554": {
    "carpeta": "Reforma a la ley de protección a los animales domésticos (ficha 7554)",
    "comision": "Comisión de Población, Ambiente y Desarrollo"
+  },
+  "7560": {
+   "carpeta": "Derogación de normas del Reglamento Interno de la Asamblea (ficha 7560)",
+   "comision": "Comisión de Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
   },
   "7568": {
    "carpeta": "Creación del Patronato del Hospital Nicolás A. Solano (ficha 7568)",
@@ -152,6 +160,14 @@
   "7576": {
    "carpeta": "Patronato del Hospital Manuel Amador Guerrero (ficha 7576)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
+  "7578": {
+   "carpeta": "Titulación y venta de tierras del BDA (ficha 7578)",
+   "comision": "Comisión de Asuntos Agropecuarios"
+  },
+  "7582": {
+   "carpeta": "Extensión de lactancia materna en el trabajo a 24 meses (ficha 7582)",
+   "comision": "Comisión de la Mujer, la Niñez y la Familia"
   },
   "7590": {
    "carpeta": "Agravantes para hurto y robo en salud y educación (ficha 7590)",
@@ -6658,6 +6674,33 @@
    "titulo": "QUE MODIFICA LA LEY 3 DE 1985, QUE ESTABLECE UN REGIMEN DE INTERESES PREFERENCIALES EN CIERTOS PRESTAMOS HIPOTECARIOS, Y DICTA OTRAS DISPOSICIONES"
   },
   "7539": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2: Exige título universitario e idoneidad para ejercer funciones en instituciones públicas y privadas con servicios de cirugía.",
+     "Artículos 4, 5 y 6: Reserva la profesión a personas de nacionalidad panameña y sujeta el ejercicio a idoneidad emitida por el Consejo Técnico de Salud Pública.",
+     "Artículo 8: Dispone que los instrumentistas en centros privados se rigen por políticas de la empresa pero sin percibir ingresos por debajo del salario mínimo.",
+     "Artículo 10: Otorga al personal el derecho a recibir capacitación continua en servicio no menor a 25 horas al año."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1YEcsqd8msqQiQVqdaw5ArUgjCMW8tvt2",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Obliga a hospitales y clínicas privadas a operar quirófanos exclusivamente con personal panameño e idóneo, además de asegurar horas mínimas de capacitación anual.",
+      "sector": "SALUD"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea restricciones de contratación laboral exclusiva de nacionales idóneos y obligaciones de formación continua para los quirófanos de hospitales y clínicas privadas.",
+    "resumen": "Regula el ejercicio de la profesión de instrumentación quirúrgica en centros de salud públicos y privados. Reserva la profesión exclusivamente a nacionales panameños idóneos avalados por el Consejo Técnico de Salud y establece funciones y derechos de capacitación. Afecta a hospitales y clínicas privadas que cuenten con quirófanos al limitar el perfil de contratación y exigir educación continua.",
+    "sectores": [
+     "SALUD"
+    ],
+    "titulo": "Que regula la profesión de técnicos y licenciados en instrumentación quirúrgica en la República de Panamá y dicta otras disposiciones",
+    "titulo_corto": "Regulación de la instrumentación quirúrgica"
+   },
    "anteproyecto": "122",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Enviado a subcomisión para analisis",
@@ -7431,6 +7474,20 @@
    "titulo": "QUE ESTABLECE CRITERIOS GENERALES PARA LA CREACION DEL PROGRAMA DE PLANIFICACION Y FLEXIBILIDAD ACADEMICA PARA ESTUDIANTES DE ALTO RENDIMIENTO DEPORTIVO, CULTURAL Y ARTISTICO DEL SISTEMA EDUCATIVO PANAMEÑO"
   },
   "7560": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1EJP3f-mM76pnyB6NaKhyWK7JyNsQ_Aqs",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No tiene relación con la actividad empresarial; regula aspectos netamente procedimentales sobre el orden y uso de la palabra en las sesiones de la Asamblea Nacional.",
+    "resumen": "Propone derogar los artículos 181, 182 y 183 de la Ley 49 de 1984, que rige el funcionamiento interno de la Asamblea Nacional. Estas normas regulan las interrupciones del orador y la facultad de la Presidencia de la sesión para llamar al orden a los diputados durante los debates. La propuesta afecta exclusivamente el procedimiento y la disciplina interna parlamentaria.",
+    "sectores": [],
+    "titulo": "Que deroga normas de la Ley 49 de 1984, que dicta el Reglamento Orgánico del Régimen Interno de la Asamblea Nacional",
+    "titulo_corto": "Derogación de normas del Reglamento Interno de la Asamblea"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE CREDENCIALES, REGLAMENTO, ETICA PARLAMENTARIA Y ASUNTOS JUDICIALES",
    "etapa": "Enviado a subcomisión para analisis",
@@ -8005,6 +8062,24 @@
    "titulo": "POR EL CUAL MODIFICA LA LEY 81 DE 2019 SOBRE PROTECCION DE DATOS PERSONALES, EN BENEFICIO DE LOS MEDIOS DE COMUNICACIÓN SOCIAL"
   },
   "7578": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 5 (modifica el artículo 9 de la Ley 45 de 2002): Otorga a empresarios agropecuarios (personas naturales o jurídicas) que usufructúen tierras sin litigio la primera opción de compra de hasta 40 hectáreas a B/.400.00 por hectárea, y el excedente al 75% del avalúo oficial a pagar en hasta siete años.",
+     "Artículo 6 (modifica el artículo 10 de la Ley 45 de 2002): Establece la tabla de precios y destinos de los terrenos, incluyendo asignaciones para uso agropecuario empresarial y comercial según avalúo.",
+     "Artículo 8 (adiciona artículo nuevo a la Ley 45 de 2002): Exonera a los compradores ante la ANATI del pago por el valor de la tierra, debiendo sufragar únicamente los gastos del trámite de titulación."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1KbwEb_rOvVwa0qTJxKbUBDBInnzufOXf",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto se enfoca en la regularización y venta de tierras agrícolas administradas por el BDA a campesinos y ocupantes históricos. No modifica regulaciones, cargas tributarias ni normas operativas aplicables a los sectores corporativos supervisados.",
+    "resumen": "La iniciativa establece un procedimiento para que la Autoridad Nacional de Administración de Tierras (ANATI) transfiera al Banco de Desarrollo Agropecuario (BDA) las tierras de antiguos asentamientos campesinos extinguidos, con el fin de titularlas y venderlas. Otorga opciones preferenciales de compra y precios tasados por hectárea a exasentados, pequeños productores y empresarios agropecuarios que se encuentren ocupando o usufructuando dichos terrenos.",
+    "sectores": [],
+    "titulo": "Que modifica la Ley 45 de 5 de agosto de 2002",
+    "titulo_corto": "Titulación y venta de tierras del BDA"
+   },
    "anteproyecto": "153",
    "comision": "COMISION DE ASUNTOS AGROPECUARIOS",
    "etapa": "Enviado a subcomisión para analisis",
@@ -8081,6 +8156,31 @@
    "titulo": "QUE ESTABLECE EL MARCO LEGAL, LA PROMOCION Y DESARROLLO DE LA INTELIGENCIA ARTIFICIAL EN LA REPUBLICA DE PANAMA"
   },
   "7582": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Modifica el artículo 33 de la Ley 50 de 1995 para extender a 24 meses el beneficio de extracción o amamantamiento en el trabajo, exigiendo condiciones obligatorias que incluyen refrigerador exclusivo, instalaciones sanitarias y un área mínima de 4 metros cuadrados.",
+     "Artículo 2: Modifica el artículo 35 de la Ley 50 de 1995 para establecer que toda empresa pública o privada debe contar con una sala de lactancia con refrigeración adecuada durante los primeros 24 meses del lactante."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1L5jeupbN7ObTYU_ug8-x6v9dLLmsr478",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Exige a los empleadores mantener salas de lactancia de al menos 4 m² con equipamiento específico y prolonga la obligación de proveer facilidades hasta los 24 meses de edad del hijo.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea una obligación laboral transversal que amplía el tiempo de adecuación de facilidades de lactancia para colaboradoras y fija requisitos mínimos de espacio físico en las empresas.",
+    "resumen": "El proyecto propone extender de 12 a 24 meses de edad del menor el período en que las madres trabajadoras pueden amamantar o extraerse leche en su jornada de trabajo. Establece que toda empresa debe contar con una sala de lactancia adecuada con especificaciones mínimas, como un espacio no menor a cuatro metros cuadrados, refrigerador de uso exclusivo e instalaciones sanitarias. La medida impacta las obligaciones laborales y de infraestructura de los empleadores del sector privado.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que modifica el Texto Único de la Ley 50 de 1995, por la cual se protege y fomenta la lactancia materna",
+    "titulo_corto": "Extensión de lactancia materna en el trabajo a 24 meses"
+   },
    "anteproyecto": "161",
    "comision": "COMISION DE LA MUJER, LA NIÑEZ Y LA FAMILIA",
    "etapa": "Enviado a subcomisión para analisis",
@@ -50908,7 +51008,7 @@
   "7536": "16e576b131b8",
   "7537": "31f8f5e5ec51",
   "7538": "2462d990f06a",
-  "7539": "3e86fcd3e24e",
+  "7539": "922e0d245384",
   "7540": "5c1c7506f00a",
   "7541": "e82befe319d2",
   "7542": "dd7cc52e2abe",
@@ -50923,7 +51023,7 @@
   "7554": "e2fab0ea5197",
   "7555": "72475ba0fa37",
   "7558": "68c245ce8c94",
-  "7560": "fcc54efdf630",
+  "7560": "59f8eb3143ee",
   "7563": "6a0578d4167f",
   "7566": "75e2df447799",
   "7567": "d349c197e615",
@@ -50934,9 +51034,9 @@
   "7574": "3a6a91061e94",
   "7576": "85d83c3e4375",
   "7577": "d299433bd9d2",
-  "7578": "c83d94369674",
+  "7578": "cf62de92dc31",
   "7581": "050c6e54794a",
-  "7582": "9b98c0ef1460",
+  "7582": "3e78ecf5cc03",
   "7583": "410a6cd8ea79",
   "7585": "3014561dc646",
   "7590": "a2a15284a994",
@@ -51982,6 +52082,7 @@
    "7984",
    "8234",
    "8253",
+   "7539",
    "8077",
    "7998",
    "7708",
@@ -52056,9 +52157,10 @@
    "7538",
    "7529",
    "7636",
-   "7490"
+   "7490",
+   "7582"
   ],
-  "fecha": "2026-10-28T04:01:51",
+  "fecha": "2026-10-28T05:02:14",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -52076,8 +52178,10 @@
    "7532": "399fc6670871",
    "7536": "399fc6670871",
    "7538": "399fc6670871",
+   "7539": "399fc6670871",
    "7554": "399fc6670871",
    "7573": "399fc6670871",
+   "7582": "399fc6670871",
    "7604": "399fc6670871",
    "7609": "399fc6670871",
    "7611": "399fc6670871",
@@ -52746,7 +52850,7 @@
    "521",
    "523"
   ],
-  "revisada": "2026-10-28T04:02:44"
+  "revisada": "2026-10-28T05:02:43"
  },
- "ultima_corrida": "2026-10-28T04:01:51"
+ "ultima_corrida": "2026-10-28T05:02:14"
 }
