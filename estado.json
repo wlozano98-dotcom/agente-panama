@@ -1,5 +1,5 @@
 {
- "comisiones_revisadas": "2026-10-27T23:48:34",
+ "comisiones_revisadas": "2026-10-28T06:00:13",
  "drive": {
   "7404": {
    "carpeta": "Obligatoriedad de educación media y preescolar (ficha 7404)",
@@ -77,12 +77,24 @@
    "carpeta": "Traspaso de la Cinta Norteña al Municipio de Panamá (ficha 7498)",
    "comision": "Comisión de Asuntos Municipales"
   },
+  "7500": {
+   "carpeta": "Reforma a la Ley Orgánica de la Lotería Nacional (ficha 7500)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
   "7502": {
    "carpeta": "Reforma a la justicia comunitaria de paz (ficha 7502)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
   "7511": {
    "carpeta": "Día del desfile del vestido ngäbe-buglé y campesino (ficha 7511)",
+   "comision": "Comisión de Asuntos Indígenas"
+  },
+  "7513": {
+   "carpeta": "Permisos de armas de fuego para uso agrícola (ficha 7513)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "7521": {
+   "carpeta": "Acceso a la justicia y jurisdicción indígena (ficha 7521)",
    "comision": "Comisión de Asuntos Indígenas"
   },
   "7527": {
@@ -100,6 +112,10 @@
   "7532": {
    "carpeta": "Evaluación y transparencia de incentivos tributarios (ficha 7532)",
    "comision": "Comisión de Economía y Finanzas"
+  },
+  "7535": {
+   "carpeta": "Aumento de penas por delitos ambientales y urbanísticos (ficha 7535)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
   "7536": {
    "carpeta": "Protección de la indemnidad sexual de menores (ficha 7536)",
@@ -5273,6 +5289,20 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS AL CODIGO PENAL SOBRE DELITOS INFORMATICOS"
   },
   "7500": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1s27QYPjaR86rIJPEZAhOPCtLkaK6r4aB",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No genera impactos para el sector empresarial privado, ya que sus disposiciones regulan exclusivamente el régimen interno de una entidad pública de beneficencia y los ingresos de los billeteros oficiales.",
+    "resumen": "La iniciativa propone modificar la estructura de gobierno y operación de la Lotería Nacional de Beneficencia. Entre los cambios principales, establece un aumento a un mínimo del 20% en la comisión que perciben los billeteros por la venta de billetes y chances, y reorganiza la Junta Directiva de la entidad estatal para incorporar representantes del sindicato de billeteros y de los compradores. Afecta únicamente a la institución pública y a los concesionarios o vendedores oficiales de lotería.",
+    "sectores": [],
+    "titulo": "Que modifica artículos del Decreto Gabinete 224 de 16 de julio de 1969, Orgánico de la Lotería Nacional de Beneficencia",
+    "titulo_corto": "Reforma a la Ley Orgánica de la Lotería Nacional"
+   },
    "anteproyecto": "88",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Enviado a subcomisión para analisis",
@@ -5809,6 +5839,20 @@
    "titulo": "QUE INSTITUYE EL SELLO DE MARCA PAIS AGROPECUARIO \"PANAMÁ PRODUCE+”"
   },
   "7513": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1A5mZX2MN3pxk0bmoHJPbT1ztuE0b6dNS",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La propuesta regula trámites de posesión y porte de armas para personas naturales en zonas rurales, sin crear obligaciones, costos ni regulaciones directas para las empresas.",
+    "resumen": "La iniciativa crea la categoría de armas de uso agrícola (escopetas calibre 12 y rifles calibre 22) para que agricultores y campesinos puedan proteger sus cultivos y animales en zonas rurales. Establece un procedimiento simplificado y gratuito de registro y emisión de permisos de tenencia y porte a través de los municipios, remitiendo copia a la DIASP. Su objetivo es evitar que los trabajadores del campo incurran en delitos por posesión ilegal de armas.",
+    "sectores": [],
+    "titulo": "Que modifica la Ley 57 de 29 de mayo de 2011, General de Armas de Fuego, Municiones y Materiales Relacionados",
+    "titulo_corto": "Permisos de armas de fuego para uso agrícola"
+   },
    "anteproyecto": "98",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Enviado a subcomisión para analisis",
@@ -5958,6 +6002,20 @@
    "titulo": "QUE DECLARA OFICIALMENTE EL FESTIVAL ACUATICO A ORILLAS DEL RIO SANTA MARIA"
   },
   "7521": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1OI6wtk4xIkQtm7FHmI-5cx_xIvNw-JOz",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto regula exclusivamente el funcionamiento del sistema judicial, administrativo y comunitario de los pueblos indígenas, sin establecer cargas, impuestos ni regulaciones aplicables a las empresas privadas.",
+    "resumen": "La iniciativa busca reconocer la validez de la justicia comunitaria tradicional indígena y garantizar que las personas indígenas cuenten con defensores, intérpretes y peritos culturales en procesos judiciales y administrativos. Asimismo, adiciona garantías procesales al Código de Procedimiento Penal y establece deberes de contratación para entidades del sector justicia.",
+    "sectores": [],
+    "titulo": "Por medio de la cual se reconoce el derecho de los pueblos indígenas al reconocimiento de sus formas tradicionales de administración de justicia, y al acceso a la justicia, tales como el derecho a una asistencia legal, traductor y perito indígenas, en las causas administrativas y judiciales y se adoptan otras disposiciones",
+    "titulo_corto": "Acceso a la justicia y jurisdicción indígena"
+   },
    "anteproyecto": "106",
    "comision": "COMISION DE ASUNTOS INDIGENAS",
    "etapa": "Enviado a subcomisión para analisis",
@@ -6452,6 +6510,35 @@
    "titulo": "QUE MODIFICA LA LEY 70 DE 2012, DE PROTECCION A LOS ANIMALES DOMESTICOS"
   },
   "7535": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 412: Sanciona con prisión de 4 a 6 años a consultores autorizados que incorporen datos falsos o inexactos, o que omitan información fundamental en estudios de impacto ambiental (EIA) o planes de manejo.",
+     "Artículo 414: Castiga con prisión de 4 a 10 años al promotor o concesionario que incumpla los EIA, auditorías o planes aprobados por el Ministerio de Ambiente, con agravantes de hasta la mitad si causa daños graves.",
+     "Artículo 417: Establece pena de 4 a 8 años de prisión para promotores, constructores o técnicos directores que realicen construcciones no autorizadas en viales, servidumbres de ríos, áreas verdes o bienes de dominio público.",
+     "Artículo 418: Sanciona con 4 a 8 años de prisión al promotor o concesionario que inicie la ejecución de obras sujetas a EIA sin haber obtenido previamente la resolución de aprobación ambiental.",
+     "Artículo 420: Impone de 4 a 8 años de prisión a quien construya o urbanice infringiendo la normativa y poniendo en grave riesgo el ambiente o la vida humana.",
+     "Artículo 50: Incorpora como pena accesoria la realización obligatoria de trabajos de reforestación de bosques o limpieza de áreas protegidas."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1hKzYUsKhzE2xLS4oeGvoWZLczA7S_SQl",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Crea graves riesgos penales y penas de prisión de hasta 10 años para promotores, constructores y directores técnicos por fallas u omisiones en trámites ambientales y licencias de construcción.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Criminaliza con penas severas de cárcel faltas administrativas vinculadas a la construcción, como iniciar proyectos sin EIA aprobado, incumplir medidas de mitigación o edificar fuera de parámetros urbanísticos.",
+    "resumen": "El proyecto endurece las sanciones penales para promotores, constructores y consultores ambientales, elevando las penas de prisión de 4 hasta 10 años por iniciar obras sin Estudio de Impacto Ambiental (EIA), incumplir compromisos ambientales aprobados o presentar información falsa. Asimismo, castiga penalmente la construcción no autorizada en servidumbres o áreas de protección y agrega trabajos obligatorios de reforestación o limpieza como penas accesorias.",
+    "sectores": [
+     "CEMENTERAS"
+    ],
+    "titulo": "Por la cual se modifican los artículos 412, 413, 414, 417, 418, 419, 420 y 50 del Código Penal",
+    "titulo_corto": "Aumento de penas por delitos ambientales y urbanísticos"
+   },
    "anteproyecto": "119",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Enviado a subcomisión para analisis",
@@ -50982,7 +51069,7 @@
   "7497": "136ca67eba48",
   "7498": "869a40273007",
   "7499": "5ea330b544ae",
-  "7500": "60a3aa4bd19d",
+  "7500": "007425243071",
   "7501": "656770dcecaa",
   "7502": "712d3169a7a3",
   "7503": "1f9de520a7ea",
@@ -50993,10 +51080,10 @@
   "7510": "ef849ac36efc",
   "7511": "233faa6cad04",
   "7512": "6c6d1483a947",
-  "7513": "e3dc193a0fad",
+  "7513": "5f5e2713a2da",
   "7516": "051562ec338a",
   "7519": "9768c84f5b54",
-  "7521": "48a29f466416",
+  "7521": "fe88106a2386",
   "7525": "71f5dc305fe3",
   "7527": "821eccc1cf0a",
   "7528": "547d88594444",
@@ -51004,7 +51091,7 @@
   "7531": "d89b0c435cab",
   "7532": "b852a58ac39f",
   "7533": "ee38155d6190",
-  "7535": "6623f1e994f7",
+  "7535": "f3cfe51e1e21",
   "7536": "16e576b131b8",
   "7537": "31f8f5e5ec51",
   "7538": "2462d990f06a",
@@ -52106,6 +52193,7 @@
    "8022",
    "7497",
    "8117",
+   "7535",
    "7748",
    "7714",
    "7419",
@@ -52160,7 +52248,7 @@
    "7490",
    "7582"
   ],
-  "fecha": "2026-10-28T05:02:14",
+  "fecha": "2026-10-28T06:02:07",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -52176,6 +52264,7 @@
    "7529": "399fc6670871",
    "7531": "399fc6670871",
    "7532": "399fc6670871",
+   "7535": "399fc6670871",
    "7536": "399fc6670871",
    "7538": "399fc6670871",
    "7539": "399fc6670871",
@@ -52850,7 +52939,7 @@
    "521",
    "523"
   ],
-  "revisada": "2026-10-28T05:02:43"
+  "revisada": "2026-10-28T06:02:54"
  },
- "ultima_corrida": "2026-10-28T05:02:14"
+ "ultima_corrida": "2026-10-28T06:02:07"
 }
