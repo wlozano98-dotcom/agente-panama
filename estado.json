@@ -201,6 +201,10 @@
    "carpeta": "Prevención y sanción de la violencia vicaria (ficha 7550)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
   },
+  "7551": {
+   "carpeta": "Acceso a actas del Consejo de Gabinete (ficha 7551)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
   "7554": {
    "carpeta": "Reforma a la ley de protección a los animales domésticos (ficha 7554)",
    "comision": "Comisión de Población, Ambiente y Desarrollo"
@@ -2165,13 +2169,25 @@
    "carpeta": "Aprobación de estatutos del ICCROM (ficha 8624)",
    "comision": "Comisión de Relaciones Exteriores"
   },
+  "8629": {
+   "carpeta": "Defensoría legal gratuita para microempresas en AMPYME (ficha 8629)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
   "8630": {
    "carpeta": "Reforma a la Ley de Beneficios para Jubilados (Ley 6 de 1987) (ficha 8630)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
+  "8631": {
+   "carpeta": "Incompatibilidades en libretas de la Lotería Nacional (ficha 8631)",
+   "comision": "Comisión de Economía y Finanzas"
+  },
   "8632": {
    "carpeta": "Infraestructura alimentaria en escuelas oficiales (ficha 8632)",
    "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "8633": {
+   "carpeta": "Servicios públicos temporales en asentamientos informales (ficha 8633)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
   },
   "8634": {
    "carpeta": "Festival Artesanal y Folclórico de La Arena y su Patronato (ficha 8634)",
@@ -7728,6 +7744,20 @@
    "titulo": "QUE ADOPTA MEDIDAS DE PREVENCION Y SANCION CONTRA LA VIOLENCIA VICARIA Y ADICIONA ARTICULOS AL CODIGO PENAL DE LA REPUBLICA DE PANAMA"
   },
   "7551": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1m9ozgRkS76Xe24FEBaF_1SqIJjHTvCfn",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No genera impacto directo sobre la actividad empresarial; es una reforma orientada exclusivamente a la transparencia gubernamental y al régimen de acceso a la información pública.",
+    "resumen": "Propone eliminar la restricción de acceso a las actas, notas y archivos de las discusiones del Consejo de Gabinete y de la Presidencia de la República. Modifica la Ley 6 de 2002 de Transparencia para que estas deliberaciones sean de acceso público. No crea obligaciones ni trámites para el sector privado.",
+    "sectores": [],
+    "titulo": "Que transparenta las actas y otros archivos del Consejo de Gabinete",
+    "titulo_corto": "Acceso a actas del Consejo de Gabinete"
+   },
    "anteproyecto": "136",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Suspendido",
@@ -50522,6 +50552,32 @@
    "titulo": "QUE ADICIONA A LA LEY 462 DE 2025 ORGANICA DE LA LEY DE LA CAJA DE SEGURO SOCIAL, CUYA VIRTUD SE LE RECONOCE EL DERECHO A LOS JUBILADOS QUE SIGUEN LABORANDO, A QUE LAS NUEVAS CUOTAS PAGADAS LES SEA INCREMENTADO EL MONTO DE SU PENSION QUE GOZAN"
   },
   "8629": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Modifica el artículo 4 de la Ley 8 de 2000 para definir conceptos clave como 'microempresa beneficiaria' (ingresos anuales hasta B/.50,000.00), 'empresa grande o multinacional', 'orientación jurídica MIPYME' y 'defensoría de oficio gratuita'.",
+     "Artículos 2 y 3: Adiciona atribuciones a la AMPYME en los artículos 6 y 7 de la Ley 8 de 2000 para promover el acceso a la justicia y proveer asesoría legal y representación de oficio a microempresas vulnerables.",
+     "Artículo 4 (Artículos 25-A a 25-E): Regula el funcionamiento de la defensoría de oficio y la orientación jurídica, estableciendo la conciliación formal con mérito ejecutivo como mecanismo preferente de solución de controversias con empresas grandes."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1cvvSv3F0bW9c01-GELNiqE2MKzxk0Szr",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Facilita asistencia legal pública a microempresas y promueve procesos de conciliación frente a grandes corporaciones, sin imponer cargas tributarias ni regulatorias directas.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es bajo y transversal, ya que se limita a dotar de apoyo legal institucional a las microempresas de menores ingresos frente a disputas contractuales con agentes económicos grandes.",
+    "resumen": "La iniciativa crea dentro de la AMPYME un servicio de orientación jurídica para micro, pequeñas y medianas empresas, así como una defensoría de oficio gratuita exclusiva para microempresas con facturación anual de hasta B/.50,000.00. El propósito es brindarles asistencia y representación legal administrativa en controversias comerciales frente a empresas grandes o multinacionales, impulsando la conciliación como mecanismo prioritario.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que modifica y adiciona artículos a la Ley 8 de 2000, que crea la Autoridad de la Micro, Pequeña y Mediana Empresa",
+    "titulo_corto": "Defensoría legal gratuita para microempresas en AMPYME"
+   },
    "anteproyecto": "199",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Preliminar",
@@ -50614,6 +50670,20 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 6 DE 1987, SOBRE BENEFICIOS A LOS JUBILADOS, PENSIONADOS Y TERCERA EDAD, Y DICTA OTRAS DISPOSICIONES"
   },
   "8631": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1IMcv3EXqH2NyNRwejqLs3MhwQuDaatFH",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No impone obligaciones, costos ni regulaciones para el sector privado, ya que su alcance se restringe a normas de probidad para funcionarios públicos y a la asignación de concesiones individuales de la Lotería Nacional de Beneficencia.",
+    "resumen": "Propone prohibir que altos servidores públicos, sus cónyuges y parientes cercanos obtengan o administren libretas de chances y billetes de la Lotería Nacional de Beneficencia. Contempla excepciones para familiares que dependan económicamente de libretas asignadas previamente y ordena publicar un registro mensual con la identidad de todos los billeteros del país. Afecta directamente a funcionarios del Estado y a la administración interna de la institución benéfica estatal.",
+    "sectores": [],
+    "titulo": "Que adiciona disposiciones al Decreto de Gabinete N.° 224 de 16 de julio de 1969, sobre las libretas de la Lotería Nacional de Beneficencia",
+    "titulo_corto": "Incompatibilidades en libretas de la Lotería Nacional"
+   },
    "anteproyecto": "201",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
    "etapa": "Preliminar",
@@ -50674,6 +50744,33 @@
    "titulo": "QUE PROMUEVE EL FORTALECIMIENTO PROGRESIVO DE LA INFRAESTRUCTURA ALIMENTARIA EN LOS CENTROS EDUCATIVOS OFICIALES Y DICTA OTRAS DISPOSICIONES"
   },
   "8633": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2: Declara sujetos obligados al cumplimiento de la ley al IDAAN, a las empresas concesionarias de distribución eléctrica (Naturgy, ENSA) y a los proveedores de internet (ISP).",
+     "Artículo 3: Establece que la ley es de orden público y de superior jerarquía frente a los contratos de concesión, reglamentos o manuales de servicio de las prestadoras.",
+     "Artículo 4: Fija requisitos uniformes de contratación sin distinguir estatus dominial de la tierra, exigiendo solo cédula, certificaciones de residencia de la Junta Comunal y del Juez de Paz, y no tener bienes o medidores previos.",
+     "Artículo 5: Somete los plazos de instalación y las sanciones por negativa o dilación al régimen de la Ley 6 de 1997 mediante el proceso abreviado regulado por la ASEP."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1BC6y-MpmkEBTSyr2-TyjP-vJLwE_OyBV",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Obliga a las distribuidoras eléctricas y empresas de telecomunicaciones a conectar usuarios en asentamientos informales flexibilizando requisitos contractuales bajo supervisión de la ASEP.",
+      "sector": "OTROS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Altera las condiciones de contratación y operación de las concesionarias de energía y proveedores de internet, obligándolos a prestar servicio en áreas sin titulación formal y supeditando sus contratos de concesión a esta normativa.",
+    "resumen": "Establece un régimen obligatorio para que las empresas de distribución eléctrica (ENSA, Naturgy) y los proveedores de internet brinden servicios temporales en asentamientos informales a personas con más de cinco años de residencia. Elimina el requisito de titularidad sobre la tierra sustituyéndolo por certificaciones comunitarias de residencia, y sujeta a las empresas a procesos sancionatorios abreviados ante la ASEP por dilaciones.",
+    "sectores": [
+     "OTROS"
+    ],
+    "titulo": "Por el cual se establece el marco regulatorio para la prestación de los servicios públicos de agua, energía eléctrica e internet en áreas excepcionales, de forma temporal en la República de Panamá y dicta otras disposiciones",
+    "titulo_corto": "Servicios públicos temporales en asentamientos informales"
+   },
    "anteproyecto": "203",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Preliminar",
@@ -51601,7 +51698,7 @@
   "7547": "5142f03d04f2",
   "7548": "ed80715c9d87",
   "7550": "fc866030dfd6",
-  "7551": "f018ab9d21bc",
+  "7551": "f1d04ba402ce",
   "7554": "e2fab0ea5197",
   "7555": "72475ba0fa37",
   "7558": "16917f6458a7",
@@ -52426,11 +52523,11 @@
   "8625": "b0026feb65af",
   "8626": "8ba495ed0451",
   "8628": "c34515f7cb23",
-  "8629": "5a8ad5ea0d39",
+  "8629": "d612df811bb1",
   "8630": "94c65bea2dc2",
-  "8631": "f14586b39eab",
+  "8631": "06c74cae216c",
   "8632": "1d80a9b223a5",
-  "8633": "7f7aa2420094",
+  "8633": "18c444a59393",
   "8634": "2d60225cb634",
   "8635": "a311ddce8705",
   "8636": "d7fa4e2fe610",
@@ -52486,6 +52583,7 @@
    "8596",
    "8141",
    "8277",
+   "8633",
    "8528",
    "7532",
    "8586",
@@ -52494,6 +52592,7 @@
    "8609",
    "7699",
    "8415",
+   "8629",
    "8546",
    "8400",
    "7656",
@@ -52750,7 +52849,7 @@
    "7582",
    "7493"
   ],
-  "fecha": "2026-10-28T11:02:53",
+  "fecha": "2026-10-28T12:00:32",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -53035,7 +53134,9 @@
    "8609": "399fc6670871",
    "8611": "399fc6670871",
    "8613": "399fc6670871",
+   "8629": "399fc6670871",
    "8630": "399fc6670871",
+   "8633": "399fc6670871",
    "8638": "399fc6670871",
    "8641": "399fc6670871",
    "8643": "399fc6670871",
@@ -53448,7 +53549,7 @@
    "521",
    "523"
   ],
-  "revisada": "2026-10-28T11:03:42"
+  "revisada": "2026-10-28T12:01:01"
  },
- "ultima_corrida": "2026-10-28T11:02:53"
+ "ultima_corrida": "2026-10-28T12:00:32"
 }
