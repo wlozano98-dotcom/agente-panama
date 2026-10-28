@@ -49,6 +49,18 @@
    "carpeta": "Modificación de garantías de bienes y vehículos en Ley 45 (ficha 7465)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
   },
+  "7470": {
+   "carpeta": "Régimen jurídico de la reutilización de aguas depuradas (ficha 7470)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
+  "7479": {
+   "carpeta": "Apoyo a cuidadores y rescatistas de animales (ficha 7479)",
+   "comision": "Comisión de Asuntos Municipales"
+  },
+  "7486": {
+   "carpeta": "Sanciones al contrabando y comercio ilícito (ficha 7486)",
+   "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
   "7488": {
    "carpeta": "Asistencia domiciliaria al adulto mayor dependiente (ficha 7488)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
@@ -64,6 +76,10 @@
   "7491": {
    "carpeta": "Aumento de aranceles a la panela y derivados (ficha 7491)",
    "comision": "Comisión de Economía y Finanzas"
+  },
+  "7493": {
+   "carpeta": "Regulación y ecoturismo en Ciénaga de Las Macanas (ficha 7493)",
+   "comision": "Comisión de Población, Ambiente y Desarrollo"
   },
   "7496": {
    "carpeta": "Preservación de monumentos históricos por caso fortuito (ficha 7496)",
@@ -4363,6 +4379,46 @@
    "titulo": "QUE CREA EL PROGRAMA INTERINSTITUCIONAL MINSA-CSS, PARA LA IMPLEMENTACION DE CONVENIOS ESTRATEGICOS QUE OPTIMICEN LA OBTENCION DE DIAGNOSTICOS Y TRATAMIENTOS MEDICOS TEMPRANOS Y OPORTUNOS A NIVEL NACIONAL"
   },
   "7470": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 10: Obliga a futuros concesionarios o autorizados a sufragar los costos para adecuar la reutilización a las normas de calidad vigentes.",
+     "Artículo 12: Restringe la reutilización de las aguas depuradas o regeneradas únicamente a usos industriales o agrícolas.",
+     "Artículo 15: Establece la tabla de valores máximos admisibles (VMA) de patógenos y turbidez para usos urbanos, agrícolas, industriales y recreativos, obligando a realizar análisis periódicos en laboratorios certificados.",
+     "Artículo 16: Exige a toda entidad privada la obtención previa de un permiso y la aprobación de las autoridades sanitarias para usar aguas regeneradas.",
+     "Artículo 17: Prohíbe el uso de aguas regeneradas en consumo humano, acuicultura de moluscos y en la industria alimentaria (salvo las aguas de proceso y limpieza que cumplan con la tabla del artículo 15).",
+     "Artículo 18: Establece multas de B/. 2,000.00 a B/. 5,000.00 en caso de reincidencia por infracciones a la ley, sancionadas por el alcalde distrital."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1vEtt2NiusTC2X1EYNNBM7v_hqv10oyOm",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Regula el uso de aguas regeneradas en procesos fabriles, calderas, lavado y torres de refrigeración, exigiendo permisos sanitarios y cumplimiento de parámetros físico-químicos.",
+      "sector": "INDUSTRIAS"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Restringe estrictamente el uso de aguas regeneradas, prohibiéndola de forma general y permitiéndola únicamente bajo parámetros microbiológicos específicos para aguas de proceso y limpieza.",
+      "sector": "ALIMENTOS"
+     },
+     {
+      "nivel": "bajo",
+      "razon": "Prohíbe expresamente la utilización de aguas depuradas o regeneradas para el cultivo de moluscos filtradores en acuicultura.",
+      "sector": "CAMARONERO Y PESQUERO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Afecta a las empresas que busquen o requieran utilizar aguas tratadas para sus operaciones productivas o de refrigeración, al imponer la obligación de tramitar permisos sanitarios, someterse a monitoreos de laboratorio y cumplir con límites permisibles bajo pena de multa.",
+    "resumen": "Crea el marco legal para regular y promover el uso de aguas residuales tratadas procedentes de la Planta de Tratamiento de Aguas Residuales de la Ciudad de Panamá (PTAR). Autoriza su aprovechamiento exclusivamente para actividades industriales, agrícolas, de servicios y recreativas, fijando límites técnicos de calidad y exigiendo permisos sanitarios previos ante el MINSA.",
+    "sectores": [
+     "INDUSTRIAS",
+     "ALIMENTOS"
+    ],
+    "titulo": "Por el cual se establece el régimen jurídico de la reutilización de las aguas depuradas (circulación hídrica) como parte de la gestión integrada de circulación de los recursos hídricos",
+    "titulo_corto": "Régimen jurídico de la reutilización de aguas depuradas"
+   },
    "anteproyecto": "58",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Enviado a subcomisión para analisis",
@@ -4558,6 +4614,20 @@
    "titulo": "QUE MODIFICA ARTICULOS DE LA LEY 27 DEL 23 DE MAYO DE 2017, QUE CREA LA LICENCIA DE PATERNIDAD, PARA LOS TRABAJADORES DE EMPRESA PRIVADA Y LOS SERVIDORES PUBLICOS"
   },
   "7479": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1xWB-NeeAsUqtNuB1nS4MQKXAsA1fX9vb",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El proyecto se enfoca en regular labores altruistas de protección animal y gestiones de las alcaldías, sin imponer cargas, regulaciones vinculantes ni obligaciones directas sobre el sector empresarial.",
+    "resumen": "Propone la creación del Registro Único de Rescatistas a nivel municipal para respaldar a personas y organizaciones sin fines de lucro dedicadas al rescate animal. Establece que los municipios deberán destinar al menos el 1% de su presupuesto anual para brindar apoyo, insumos y coordinar jornadas de atención y esterilización. Su alcance está centrado en el bienestar animal y la gestión municipal de carácter asistencial.",
+    "sectores": [],
+    "titulo": "Que reconoce y apoya la labor de las personas cuidadoras y rescatistas de animales y otras disposiciones",
+    "titulo_corto": "Apoyo a cuidadores y rescatistas de animales"
+   },
    "anteproyecto": "67",
    "comision": "COMISION DE ASUNTOS MUNICIPALES",
    "etapa": "Enviado a subcomisión para analisis",
@@ -4644,6 +4714,38 @@
    "titulo": "QUE DECLARA EL DIA DE LA CONSTITUCION POLITICA DE LA REPUBLICA DE PANAMA"
   },
   "7486": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Modifica el artículo 288-A del Código Penal reduciendo de $500,000 a B/.20,000 la cuantía mínima para sancionar penalmente el contrabando con 5 a 8 años de prisión, tipificando el traslado irregular de mercancías desde regímenes preferenciales o francos y el tráfico ilegal de tabaco.",
+     "Artículo 2: Modifica el artículo 288-B del Código Penal estableciendo en B/.20,000 la cuantía mínima para el delito de defraudación aduanera por alteración de valores, declaraciones falsas o uso indebido de regímenes suspensivos.",
+     "Artículo 4: Modifica el artículo 288-D del Código Penal imponiendo penas de 6 a 9 años de prisión cuando en la defraudación aduanera se declaren destinatarios naturales o jurídicos inexistentes.",
+     "Artículo 5: Modifica el artículo 22 de la Ley 5 de 2007 facultando al Ministerio de Comercio e Industrias (MICI) a suprimir de oficio el Aviso de Operación de los comercios donde se vendan productos del comercio ilícito."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1Mk6rTzJ-V49TEu96hF_dDiaaMUa-7bz5",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Faculta la cancelación de oficio del aviso de operación a comercios minoristas que vendan mercancía ilícita y penaliza el paso no autorizado desde regímenes aduaneros especiales.",
+      "sector": "OTROS"
+     },
+     {
+      "nivel": "bajo",
+      "razon": "Eleva el riesgo de contingencias penales para empresas importadoras al bajar a $20,000 el umbral para considerar fraude aduanero una discrepancia tributaria.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La drástica disminución del umbral penal de defraudación aduanera a $20,000 incrementa la exposición penal de importadores y comerciantes, sumado a la sanción de cierre definitivo de avisos de operación por venta de mercancía ilegal.",
+    "resumen": "El proyecto reduce drásticamente de $500,000 a $20,000 la cuantía mínima para tipificar como delito penal el contrabando y la defraudación aduanera, imponiendo penas de 5 a 8 años de prisión. Además, sanciona con mayor rigor el contrabando desde zonas francas y faculta al MICI a revocar el aviso de operación de cualquier establecimiento comercial que venda mercancía ilícita. Afecta a importadores, comercios minoristas y usuarios de regímenes fiscales especiales.",
+    "sectores": [
+     "OTROS"
+    ],
+    "titulo": "Que modifica el Código Penal y dicta otras disposiciones relacionadas al comercio ilícito y contrabando",
+    "titulo_corto": "Sanciones al contrabando y comercio ilícito"
+   },
    "anteproyecto": "74",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
    "etapa": "Enviado a subcomisión para analisis",
@@ -4998,6 +5100,44 @@
    "titulo": "QUE MODIFICA FRACCIONES ARANCELARIAS CON EL OBJETIVO DE INCREMENTAR EL ARANCEL DE IMPORTACIÓN DE LA PANELA O LA RASPADURA Y DICTA OTRAS DISPOSICIONES"
   },
   "7493": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 9: Prohíbe la tala de árboles, la extracción de minerales y materiales de construcción, y el desarrollo de infraestructura que afecte el ecosistema del humedal.",
+     "Artículos 11 y 12: Fijan lineamientos y ordenan la creación de un Plan de Desarrollo Ecoturístico Sostenible con zonificación comercial y de servicios.",
+     "Artículo 18: Otorga al Ministerio de Ambiente la potestad exclusiva para expedir permisos y autorizaciones para actividades dentro del área protegida."
+    ],
+    "drive": "https://drive.google.com/drive/folders/17NyDnvRh99hZ7tPZKLTKlZNmiIX0-H6N",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Regula el ecoturismo y turismo rural comunitario a nivel estrictamente local, supeditándolo a planes de manejo y permisos de MiAMBIENTE.",
+      "sector": "TURISMO"
+     },
+     {
+      "nivel": "bajo",
+      "razon": "Prohíbe de forma absoluta la extracción de minerales dentro del polígono del humedal protegido.",
+      "sector": "EXTRACTIVO"
+     },
+     {
+      "nivel": "bajo",
+      "razon": "Veda la extracción de materiales de construcción y canteras dentro de los límites del área protegida.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es bajo y focalizado a nivel geográfico en Herrera, restringiendo actividades extractivas y exigiendo autorizaciones para actividades turísticas dentro del humedal.",
+    "resumen": "Propone formalizar el marco legal para la protección ambiental y el fomento del ecoturismo en la Ciénaga de Las Macanas, provincia de Herrera, ratificándola como Reserva de Uso Múltiple. Establece prohibiciones específicas de aprovechamiento extractivo y regula el desarrollo de actividades turísticas rurales comunitarias. Afecta de forma localizada a operadores turísticos, agropecuarios y de extracción de materiales en las inmediaciones del humedal.",
+    "sectores": [
+     "TURISMO",
+     "EXTRACTIVO",
+     "CEMENTERAS"
+    ],
+    "titulo": "Que crea el marco regulatorio para la protección, restauración y desarrollo ecoturístico sostenible de la Ciénaga de Las Macanas en la provincia de Herrera",
+    "titulo_corto": "Regulación y ecoturismo en Ciénaga de Las Macanas"
+   },
    "anteproyecto": "81",
    "comision": "COMISION DE POBLACION, AMBIENTE Y DESARROLLO",
    "etapa": "Enviado a subcomisión para analisis",
@@ -51050,20 +51190,20 @@
   "7463": "8983e375927e",
   "7465": "7ce2326fea13",
   "7467": "f66d9c1ba199",
-  "7470": "7fd0a65de389",
+  "7470": "58a246d5b577",
   "7471": "19a58bcbd953",
   "7472": "b5c8c45ae4dc",
   "7475": "f4139041cc9c",
   "7477": "a49310617ee6",
-  "7479": "dbbb93b846ef",
+  "7479": "0e5b491236f1",
   "7484": "1eb6801ccf12",
-  "7486": "aa626895a222",
+  "7486": "c6a4a1a4faf6",
   "7487": "d4b7c44a3d72",
   "7488": "28ccbfcb8791",
   "7489": "760621b85753",
   "7490": "47bc46fc4c8f",
   "7491": "5848d2595141",
-  "7493": "fc093d90a0bc",
+  "7493": "67f33e3a14e6",
   "7495": "d5c7b1b6e1a5",
   "7496": "1176b66a2900",
   "7497": "136ca67eba48",
@@ -52003,6 +52143,7 @@
    "8400",
    "7656",
    "8474",
+   "7470",
    "8302",
    "8304",
    "7787",
@@ -52227,6 +52368,7 @@
    "7972",
    "7642",
    "7682",
+   "7486",
    "7717",
    "7461",
    "7650",
@@ -52246,9 +52388,10 @@
    "7529",
    "7636",
    "7490",
-   "7582"
+   "7582",
+   "7493"
   ],
-  "fecha": "2026-10-28T06:02:07",
+  "fecha": "2026-10-28T07:18:00",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -52257,9 +52400,12 @@
    "7447": "399fc6670871",
    "7461": "399fc6670871",
    "7465": "399fc6670871",
+   "7470": "399fc6670871",
+   "7486": "399fc6670871",
    "7488": "399fc6670871",
    "7490": "399fc6670871",
    "7491": "399fc6670871",
+   "7493": "399fc6670871",
    "7497": "399fc6670871",
    "7529": "399fc6670871",
    "7531": "399fc6670871",
@@ -52939,7 +53085,7 @@
    "521",
    "523"
   ],
-  "revisada": "2026-10-28T06:02:54"
+  "revisada": "2026-10-28T07:18:30"
  },
- "ultima_corrida": "2026-10-28T06:02:07"
+ "ultima_corrida": "2026-10-28T07:18:00"
 }
