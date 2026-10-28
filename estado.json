@@ -17,6 +17,14 @@
    "carpeta": "Reforma al Reglamento Interno de la Asamblea Nacional (ficha 7411)",
    "comision": "Comisión de Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
   },
+  "7412": {
+   "carpeta": "Reforma al Régimen Interno de la Asamblea Nacional (ficha 7412)",
+   "comision": "Comisión de Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
+  },
+  "7413": {
+   "carpeta": "Reforma al Reglamento Interno de la Asamblea Nacional (ficha 7413)",
+   "comision": "Comisión de Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
+  },
   "7414": {
    "carpeta": "Tiempos de debate en la Asamblea Nacional (ficha 7414)",
    "comision": "Comisión de Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
@@ -949,6 +957,10 @@
    "carpeta": "Atención integral de la insuficiencia ovárica primaria (ficha 8084)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
+  "8085": {
+   "carpeta": "Aumento de descuentos para personas con discapacidad (ficha 8085)",
+   "comision": "Comisión de la Mujer, la Niñez y la Familia"
+  },
   "8091": {
    "carpeta": "Uso de medios electrónicos en trámites gubernamentales (ficha 8091)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
@@ -1156,6 +1168,10 @@
   "8183": {
    "carpeta": "Aumento de penas por delitos sexuales y femicidio (ficha 8183)",
    "comision": "Comisión de Gobierno, Justicia y Asuntos Constitucionales"
+  },
+  "8184": {
+   "carpeta": "Reforma a la Ley de Biocombustibles y Código Fiscal (ficha 8184)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
   },
   "8186": {
    "carpeta": "Monitoreo electrónico para protección de víctimas de violencia (ficha 8186)",
@@ -2602,6 +2618,20 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS DEL TEXTO UNICO DE LA LEY 49 DE 1984, QUE ADOPTA EL REGLAMENTO ORGANICO DEL REGIMEN INTERNO DE LA ASAMBLEA NACIONAL"
   },
   "7412": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1tCdswX1SMENnz9rp99AhZp6mJsTZ6MDS",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa se limita al régimen administrativo, disciplinario y procesal interno del Órgano Legislativo, por lo que no impone obligaciones, costos ni modificaciones regulatorias para las empresas.",
+    "resumen": "Propone una reforma integral al Reglamento Orgánico del Régimen Interno de la Asamblea Nacional (RORI). Establece normas para la votación nominal y electrónica, descuentos de salario a diputados por inasistencias, reestructuración y obligatoriedad de reuniones semanales de comisiones, y mayores exigencias de transparencia y rendición de cuentas ciudadana. Afecta directamente la gestión administrativa, parlamentaria y disciplinaria de los diputados y funcionarios legislativos.",
+    "sectores": [],
+    "titulo": "Que modifica el Reglamento Orgánico de Régimen Interno de la Asamblea Nacional",
+    "titulo_corto": "Reforma al Régimen Interno de la Asamblea Nacional"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE CREDENCIALES, REGLAMENTO, ETICA PARLAMENTARIA Y ASUNTOS JUDICIALES",
    "etapa": "Enviado a subcomisión para analisis",
@@ -2630,6 +2660,20 @@
    "titulo": "QUE MODIFICA EL REGLAMENTO ORGANICO DE REGIMEN INTERNO DE LA ASAMBLEA NACIONAL"
   },
   "7413": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1fuw2tzgnrr8NsfUmQkKxSWpDsqw6MwLi",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No genera impacto económico, tributario ni regulatorio sobre las empresas, ya que regula exclusivamente la organización y los procedimientos parlamentarios internos del Órgano Legislativo.",
+    "resumen": "Propone modificar el funcionamiento interno de la Asamblea Nacional de Panamá. Incluye cambios en la conformación y temáticas de las comisiones permanentes, reglas de asistencia y votación de los diputados, mecanismos de transparencia en contrataciones de personal y compras menores, y la obligación de consultar a gremios y sociedad civil durante el primer debate. Afecta exclusivamente la gestión parlamentaria interna y los trámites legislativos.",
+    "sectores": [],
+    "titulo": "Que reforma y adiciona, artículos a la Resolución No. 116 de 9 de febrero de 2010, que aprueba el Texto Único de la Ley 49 de 1984, que adopta el Reglamento Orgánico del Régimen Interno de la Asamblea Nacional",
+    "titulo_corto": "Reforma al Reglamento Interno de la Asamblea Nacional"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE CREDENCIALES, REGLAMENTO, ETICA PARLAMENTARIA Y ASUNTOS JUDICIALES",
    "etapa": "Enviado a subcomisión para analisis",
@@ -27240,6 +27284,31 @@
    "titulo": "QUE ESTABLECE MEDIDAS PARA LA DETECCION TEMPRANA, ATENCION INTEGRAL, EDUCACION E INVESTIGACION SOBRE LA INSUFICIENCIA OVARICA PRIMARIA (IOP) EN LA REPUBLICA DE PANAMA"
   },
   "8085": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1 (modifica el numeral 11 del artículo 2 de la Ley 134 de 2013): Eleva del 10% al 20% el descuento obligatorio en todas las prótesis, órtesis y aparatos o accesorios de ayuda técnica y tecnológica para la comunicación.",
+     "Artículo 1 (adiciona el numeral 20 al artículo 2 de la Ley 134 de 2013): Establece un descuento obligatorio del 50% en cursos, seminarios, talleres educativos y de capacitación (básico, medio, superior y posuniversitario) en centros privados y públicos para personas sin beca."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1LIENmUUk9SonUIqCV3g5ee4Yp6nmazlP",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Duplica del 10% al 20% el descuento comercial obligatorio en la venta de prótesis, órtesis y dispositivos de asistencia técnica médica.",
+      "sector": "SALUD"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Afecta los márgenes comerciales de empresas proveedoras de dispositivos ortopédicos y de salud, así como de centros educativos y de capacitación privada obligados a asumir descuentos por ley bajo sanción de ACODECO.",
+    "resumen": "La iniciativa reforma la Ley 134 de 2013 para elevar los beneficios económicos obligatorios otorgados a personas con discapacidad certificadas. En particular, incrementa del 10% al 20% el descuento obligatorio en la venta de prótesis, órtesis y aparatos de ayuda técnica o tecnológica. Además, establece un nuevo descuento obligatorio del 50% en cursos, seminarios, talleres y programas educativos de todos los niveles ofrecidos por centros privados y públicos a quienes no cuenten con beca.",
+    "sectores": [
+     "SALUD"
+    ],
+    "titulo": "Que modifica la Ley 134 del 31 de diciembre 2013, que establece equiparación económica para las personas con discapacidad",
+    "titulo_corto": "Aumento de descuentos para personas con discapacidad"
+   },
    "anteproyecto": "191",
    "comision": "COMISION DE LA MUJER, LA NIÑEZ Y LA FAMILIA",
    "etapa": "Suspendido",
@@ -31721,6 +31790,40 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS AL CODIGO PENAL, EN MATERIA RELACIONADA CON VIOLACION y OTROS DELITOS SEXUALES Y CONTRA LA VIDA"
   },
   "8184": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Modifica el artículo 9 de la Ley 42 de 2011 para crear dos tipos de permisos ante la Secretaría Nacional de Energía: Permiso de Planta de Producción de Bioetanol Anhidro y Permiso de Usuario de Bioetanol Anhidro en Zonas Libres de Combustibles (este último condicionado a insuficiencia de oferta nacional).",
+     "Artículo 2: Modifica el artículo 14 de la Ley 42 de 2011 para ordenar el uso obligatorio de un 10% de bioetanol anhidro en mezclas con gasolinas y exigir que los importadores-distribuidores adquieran la totalidad del producto nacional de forma prioritaria sobre importaciones.",
+     "Artículo 3: Modifica el artículo 16-A de la Ley 42 de 2011 para crear la Comisión de Coordinación y Seguimiento para el Programa de Biocombustibles, facultada para evaluar hectáreas requeridas, abastecimiento, precios y cadena de comercialización.",
+     "Artículo 5: Modifica el parágrafo 1 del artículo 1057-G del Código Fiscal estableciendo un impuesto al consumo de combustibles (ICCDP) de B/.0.60 por galón para gasolinas mezcladas en Panamá con bioetanol, frente a B/.3.78 por galón para mezclas formuladas en el extranjero, y B/.0.25 frente a B/.1.58 por galón para el biodiésel.",
+     "Artículo 6: Otorga estabilidad jurídica hasta por quince (15) años a las fórmulas de precios que se fijen por vía reglamentaria para las mezclas de bioetanol con gasolinas."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1CtxyszU-bwpPcFE94W8Dr2NEdpsxMJnA",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Obliga a las petroleras y distribuidoras mayoristas a incorporar 10% de bioetanol, comprar obligatoriamente la producción nacional y reestructura las tarifas del impuesto al consumo de combustibles según el origen de la mezcla.",
+      "sector": "PETRÓLEO"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Genera un mercado protegido y prioritario para los ingenios y destilerías agroindustriales locales que produzcan bioetanol a partir de materia prima nacional.",
+      "sector": "INDUSTRIAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Impacta de forma directa y sustancial la cadena de importación, formulación, almacenamiento y distribución mayorista de combustibles, a la vez que modifica impuestos específicos y fija compras forzosas a la agroindustria local.",
+    "resumen": "Establece la obligatoriedad de mezclar un 10% de bioetanol anhidro en las gasolinas a nivel nacional, obligando a los importadores y distribuidores de hidrocarburos a comprar prioritariamente toda la producción local de bioetanol. Crea un régimen de permisos ante la Secretaría Nacional de Energía, otorga estabilidad jurídica de hasta 15 años a las fórmulas de precios y modifica el impuesto al consumo de combustibles (ICCDP) gravando fuertemente la mezcla preformulada importada frente a la realizada en territorio panameño.",
+    "sectores": [
+     "PETRÓLEO",
+     "INDUSTRIAS"
+    ],
+    "titulo": "Que modifica la Ley 42 de 20 de abril de 2011, que establece lineamientos para la política nacional sobre biocombustibles y energía eléctrica a partir de biomasa en el territorio nacional, modifica un artículo del Código Fiscal y dicta otra disposición",
+    "titulo_corto": "Reforma a la Ley de Biocombustibles y Código Fiscal"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Suspendido",
@@ -51332,8 +51435,8 @@
   "7408": "c0478fd9116d",
   "7410": "5c229442f490",
   "7411": "52229517baf2",
-  "7412": "95107b09f2ff",
-  "7413": "673274dd208b",
+  "7412": "726a8406fd3c",
+  "7413": "51c0b95b2cae",
   "7414": "658fb4cad976",
   "7415": "735178f06a46",
   "7416": "5fc52a59476d",
@@ -51774,7 +51877,7 @@
   "8082": "46fa5fe068e2",
   "8083": "be6ea533d7f1",
   "8084": "552e2547d1c2",
-  "8085": "628f1a40901b",
+  "8085": "e9d513a3d0a9",
   "8088": "9f78b5d9782a",
   "8091": "cff76dc0a4b5",
   "8092": "2787d2ce708d",
@@ -51853,7 +51956,7 @@
   "8180": "72bb0fdc12cb",
   "8182": "9d8006bb4c6b",
   "8183": "743e11d580bf",
-  "8184": "3781be217e49",
+  "8184": "d10b7c6cf358",
   "8186": "d534d8fe2a3a",
   "8188": "315473ac671a",
   "8189": "7bfef9a93794",
@@ -52324,6 +52427,7 @@
    "7656",
    "8474",
    "7470",
+   "8085",
    "8302",
    "8304",
    "7787",
@@ -52429,6 +52533,7 @@
    "8323",
    "7767",
    "8079",
+   "8184",
    "7976",
    "8367",
    "8325",
@@ -52573,7 +52678,7 @@
    "7582",
    "7493"
   ],
-  "fecha": "2026-10-28T09:07:20",
+  "fecha": "2026-10-28T10:05:01",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -52703,6 +52808,7 @@
    "8079": "399fc6670871",
    "8082": "399fc6670871",
    "8083": "399fc6670871",
+   "8085": "399fc6670871",
    "8091": "399fc6670871",
    "8093": "399fc6670871",
    "8094": "399fc6670871",
@@ -52729,6 +52835,7 @@
    "8170": "399fc6670871",
    "8177": "399fc6670871",
    "8179": "399fc6670871",
+   "8184": "399fc6670871",
    "8188": "399fc6670871",
    "8196": "399fc6670871",
    "8207": "399fc6670871",
@@ -53269,7 +53376,7 @@
    "521",
    "523"
   ],
-  "revisada": "2026-10-28T09:08:15"
+  "revisada": "2026-10-28T10:05:44"
  },
- "ultima_corrida": "2026-10-28T09:07:20"
+ "ultima_corrida": "2026-10-28T10:05:01"
 }
