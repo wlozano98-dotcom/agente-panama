@@ -13,6 +13,14 @@
    "carpeta": "Plan de resocialización para personas en situación de calle (ficha 7406)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
+  "7411": {
+   "carpeta": "Reforma al Reglamento Interno de la Asamblea Nacional (ficha 7411)",
+   "comision": "Comisión de Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
+  },
+  "7414": {
+   "carpeta": "Tiempos de debate en la Asamblea Nacional (ficha 7414)",
+   "comision": "Comisión de Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
+  },
   "7419": {
    "carpeta": "Ruta ecoturística Cuatro Caras de la Naturaleza (ficha 7419)",
    "comision": "Comisión de Comercio y Asuntos Económicos"
@@ -21,9 +29,17 @@
    "carpeta": "Protección e inclusión de personas con autismo (TEA) (ficha 7423)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
+  "7425": {
+   "carpeta": "Fomento al cooperativismo agropecuario (ficha 7425)",
+   "comision": "Comisión de Asuntos Agropecuarios"
+  },
   "7428": {
    "carpeta": "Regulación de la formación dual como modalidad educativa (ficha 7428)",
    "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "7430": {
+   "carpeta": "Reforma al Reglamento Interno de la Asamblea Nacional (ficha 7430)",
+   "comision": "Comisión de Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
   },
   "7435": {
    "carpeta": "Incentivo solar para acueductos y reforma al arrastre de pérdidas (ficha 7435)",
@@ -2544,6 +2560,20 @@
    "titulo": "QUE CREA LA FIGURA DEL AUDITORIA DE CUMPLIMIENTO NORMATIVO ESTATAL PARA LAS ENTIDADES PUBLICAS COMO GARANTE DE LA TRANSPARENCIA INSTITUCIONAL"
   },
   "7411": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1RA9t6tCOi3jyhVFC8D616GhRXPMiTV8A",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Se trata de una norma de derecho parlamentario que rige exclusivamente la administración interna, el debate y la disciplina de los diputados, sin generar obligaciones directas, regulaciones ni costos para el sector empresarial.",
+    "resumen": "Propone una reforma integral al régimen disciplinario y operativo de la Asamblea Nacional orientada a la transparencia y la rendición de cuentas. Elimina el voto secreto, introduce descuentos salariales a los diputados por inasistencias o tardanzas injustificadas, y exige un intervalo mínimo de 24 horas entre debates. Asimismo, crea normas de parlamento abierto y obliga a registrar públicamente las reuniones de cabildeo sostenidas por los parlamentarios.",
+    "sectores": [],
+    "titulo": "Que modifica y adiciona artículos del Texto Único de la Ley 49 de 1984, que adopta el Reglamento Orgánico del Régimen Interno de la Asamblea Nacional",
+    "titulo_corto": "Reforma al Reglamento Interno de la Asamblea Nacional"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE CREDENCIALES, REGLAMENTO, ETICA PARLAMENTARIA Y ASUNTOS JUDICIALES",
    "etapa": "Enviado a subcomisión para analisis",
@@ -2628,6 +2658,20 @@
    "titulo": "QUE REFORMA Y ADICIONA, ARTICULOS A LA RESOLUCION NO.116 DE 9 DE FEBRERO DE 2010, QUE APRUEBA EL TEXTO UNICO DE LA LEY 49 DE 1984, QUE ADOPTA EL REGLAMENTO ORGANICO DEL REGIMEN INTERNO DE LA ASAMBLEA NACIONAL"
   },
   "7414": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1JEQjRONBMgURPCxzL7Vgx_OoUMe2mV3a",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No tiene impacto en el sector empresarial, ya que se limita exclusivamente al funcionamiento interno y a las reglas de uso de la palabra de los diputados dentro del parlamento.",
+    "resumen": "La propuesta modifica el artículo 173 del Reglamento Orgánico del Régimen Interno de la Asamblea Nacional para ampliar el tiempo de intervención de los diputados durante las discusiones legislativas. Establece que los diputados podrán hablar hasta por una hora en su primera intervención y hasta por treinta minutos en una segunda vuelta. Regula únicamente el procedimiento parlamentario de debate y réplica entre diputados.",
+    "sectores": [],
+    "titulo": "Que reforma el artículo 173 del Reglamento Orgánico del Régimen Interno de la Asamblea Nacional",
+    "titulo_corto": "Tiempos de debate en la Asamblea Nacional"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE CREDENCIALES, REGLAMENTO, ETICA PARLAMENTARIA Y ASUNTOS JUDICIALES",
    "etapa": "Enviado a subcomisión para analisis",
@@ -3165,6 +3209,33 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTÍCULOS A LA LEY 186 DE 2020, SOBRE SOCIEDADES DE EMPRENDIMIENTO, PARA FORTALECER EL APOYO A LOS MICROEMPRENDEDORES"
   },
   "7425": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 5: Exonera del impuesto sobre la renta durante sus primeros cinco años a las cooperativas agropecuarias y concede deducciones de dicho impuesto por inversiones en infraestructura, equipamiento y capital de trabajo.",
+     "Artículo 18: Crea un programa estatal de subsidios y financiamiento blando con tasas de interés preferenciales para la construcción y equipamiento de cuartos fríos.",
+     "Artículo 19: Otorga una exención del impuesto sobre la renta por diez años para cooperativas agropecuarias que instalen cuartos fríos, además de deducibilidad en las inversiones en equipos y obra.",
+     "Artículo 20: Faculta al IPACOOP y a la ACODECO para regular precios de perecederos almacenados en cuartos fríos, realizar inspecciones a inventarios y sancionar con multas o revocación de beneficios a intermediarios o cooperativas por especulación o acaparamiento."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1iulHTuI1azlgYBx1dktqoq3lFuzkQYDx",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Otorga incentivos fiscales para la producción agropecuaria e introduce facultades de regulación de precios, inspecciones y sanciones de ACODECO sobre la comercialización de alimentos perecederos.",
+      "sector": "ALIMENTOS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Establece exenciones de impuesto sobre la renta e incentivos para cooperativas agropecuarias, pero a su vez impone controles de precios y fiscalización a la comercialización e intermediación de productos perecederos.",
+    "resumen": "La iniciativa busca incentivar la organización de pequeños y medianos productores agropecuarios a través de cooperativas mediante exenciones tributarias, financiamiento blando y apoyo técnico. Asimismo, crea el Consejo Nacional de Cooperativismo Agropecuario y establece medidas de supervisión con la ACODECO para fiscalizar y regular los precios de productos perecederos almacenados en cuartos fríos.",
+    "sectores": [
+     "ALIMENTOS"
+    ],
+    "titulo": "Que fomenta la asociación de los productores agropecuarios en Panamá por medio del cooperativismo",
+    "titulo_corto": "Fomento al cooperativismo agropecuario"
+   },
    "anteproyecto": "19",
    "comision": "COMISION DE ASUNTOS AGROPECUARIOS",
    "etapa": "Enviado a subcomisión para analisis",
@@ -3270,6 +3341,20 @@
    "titulo": "QUE ESTABLECE Y REGULA LA FORMACION DUAL COMO MODALIDAD EDUCATIVA EN EL TERRITORIO NACIONAL"
   },
   "7430": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1l97s5H5GWuPVSfYhi4CK6PtL9pMhyVAG",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Es una propuesta de carácter estrictamente institucional y parlamentario interno que no impone tributos, cargas ni obligaciones regulatorias a las empresas.",
+    "resumen": "Propone una reforma integral a la normativa interna de la Asamblea Nacional, reorganizando y creando comisiones permanentes, fijando el voto electrónico como prioritario y regulando el trámite de proyectos y objeciones presidenciales. Asimismo, establece un régimen de deberes, prohibiciones e incompatibilidades para los diputados, incluyendo declaraciones de intereses económicos.",
+    "sectores": [],
+    "titulo": "Que modifica y adiciona artículos a la Ley 49 de 1984, que adopta el Reglamento Orgánico del Régimen Interno de la Asamblea Nacional",
+    "titulo_corto": "Reforma al Reglamento Interno de la Asamblea Nacional"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE CREDENCIALES, REGLAMENTO, ETICA PARLAMENTARIA Y ASUNTOS JUDICIALES",
    "etapa": "Enviado a subcomisión para analisis",
@@ -51246,10 +51331,10 @@
   "7406": "4b2669432bb4",
   "7408": "c0478fd9116d",
   "7410": "5c229442f490",
-  "7411": "612a06cf4640",
+  "7411": "52229517baf2",
   "7412": "95107b09f2ff",
   "7413": "673274dd208b",
-  "7414": "0befb29d5556",
+  "7414": "658fb4cad976",
   "7415": "735178f06a46",
   "7416": "5fc52a59476d",
   "7417": "024c96898f76",
@@ -51259,9 +51344,9 @@
   "7422": "670c75f82132",
   "7423": "a6cce8d8dc5b",
   "7424": "7d1a102a4498",
-  "7425": "b20752ed1a16",
+  "7425": "433f2373cb6a",
   "7428": "10dda69d091e",
-  "7430": "5e8f31d7287d",
+  "7430": "e81239e0f207",
   "7431": "f7eb3a59aa6c",
   "7432": "ffdc6c1f2bd4",
   "7433": "381d87b983de",
@@ -52480,6 +52565,7 @@
    "7604",
    "7573",
    "7435",
+   "7425",
    "7538",
    "7529",
    "7636",
@@ -52487,10 +52573,11 @@
    "7582",
    "7493"
   ],
-  "fecha": "2026-10-28T08:15:49",
+  "fecha": "2026-10-28T09:07:20",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
+   "7425": "399fc6670871",
    "7428": "399fc6670871",
    "7435": "399fc6670871",
    "7440": "399fc6670871",
@@ -53182,7 +53269,7 @@
    "521",
    "523"
   ],
-  "revisada": "2026-10-28T08:16:20"
+  "revisada": "2026-10-28T09:08:15"
  },
- "ultima_corrida": "2026-10-28T08:15:49"
+ "ultima_corrida": "2026-10-28T09:07:20"
 }
