@@ -165,6 +165,14 @@
    "carpeta": "Descarte de chatarra en entidades del Estado (ficha 7597)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
+  "7598": {
+   "carpeta": "Publicación de actas de comisiones de la Asamblea (ficha 7598)",
+   "comision": "Comisión de Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
+  },
+  "7601": {
+   "carpeta": "Programa de Prevención de la Salud y Atención Primaria (ficha 7601)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
   "7604": {
    "carpeta": "Margen máximo a insumos agropecuarios (ficha 7604)",
    "comision": "Comisión de Asuntos Agropecuarios"
@@ -173,8 +181,16 @@
    "carpeta": "Protección de arbolado y áreas verdes urbanas (ficha 7609)",
    "comision": "Comisión de Población, Ambiente y Desarrollo"
   },
+  "7611": {
+   "carpeta": "Programa de aceleración y alivios fiscales a mipymes (ficha 7611)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
   "7622": {
    "carpeta": "Política nacional de orientación vocacional (ficha 7622)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
+  "7625": {
+   "carpeta": "Regulación del trabajo en naves mercantes y pesqueras (ficha 7625)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
   "7634": {
@@ -8463,6 +8479,20 @@
    "titulo": "QUE MODIFICA LA LEY 276 DE 30 DE DICIEMBRE DE 2021, QUE REGULA LA GESTION INTEGRAL DE RESIDUOS SOLIDOS EN LA REPUBLICA DE PANAMA, Y DICTA OTRAS DISPOSICIONES"
   },
   "7598": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/16OlJKvmPaQwWe88Qdk25umMBRQHHVtX6",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No tiene impacto en las empresas; regula exclusivamente procedimientos internos, archivo y transparencia documental de la Asamblea Nacional.",
+    "resumen": "Propone modificar el reglamento interno de la Asamblea Nacional para hacer públicas y de acceso digital todas las actas de las comisiones legislativas. Establece que la Secretaría General debe mantener un registro digital difundido periódicamente y que las actas solo podrán reservarse de manera temporal y justificada por razones de seguridad del Estado u orden público.",
+    "sectores": [],
+    "titulo": "Que modifica la Ley 49 del 4 de diciembre de 1984, que dicta el Reglamento Orgánico del Régimen Interno de la Asamblea Nacional",
+    "titulo_corto": "Publicación de actas de comisiones de la Asamblea"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE CREDENCIALES, REGLAMENTO, ETICA PARLAMENTARIA Y ASUNTOS JUDICIALES",
    "etapa": "Enviado a subcomisión para analisis",
@@ -8491,6 +8521,20 @@
    "titulo": "QUE MODIFICA LA LEY 49 DEL 4 DE DICIEMBRE DE 1984, QUE DICTA EL REGLAMENTO ORGANICO DEL REGIMEN INTERNO DE LA ASAMBLEA NACIONAL"
   },
   "7601": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1vsDLQA6rACymDxrCcMfv-m7fjutCOPFG",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No genera impacto sobre el sector empresarial privado, ya que su alcance se restringe a la organización de servicios y asignación presupuestaria dentro del sistema de salud pública (MINSA y CSS).",
+    "resumen": "La iniciativa crea un programa nacional de medicina preventiva y atención primaria ejecutado por el Ministerio de Salud (MINSA) en coordinación con la Caja de Seguro Social (CSS). Su objetivo es acondicionar centros de salud públicos e implementar médicos itinerantes y giras mensuales de atención en corregimientos rurales o de difícil acceso. Está dirigido a la población usuaria del sistema público de salud y a las entidades sanitarias estatales.",
+    "sectores": [],
+    "titulo": "Que crea el Programa Nacional de Prevención de la Salud y la Atención Primaria de la República de Panamá, y dicta otras disposiciones",
+    "titulo_corto": "Programa de Prevención de la Salud y Atención Primaria"
+   },
    "anteproyecto": "177",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Enviado a subcomisión para analisis",
@@ -8996,6 +9040,35 @@
    "titulo": "LEY DE PROTECCION, CONSERVACION Y FOMENTO DE ARBOLADO Y AREAS VERDES EN PROYECTOS RESIDENCIALES, ZONAS, URBANAS, RURALES Y SUS MUNICIPIOS"
   },
   "7611": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 4: Modifica el artículo 5 de la Ley 8 de 2000 para actualizar los umbrales de facturación de microempresas (de B/. 36,000.01 a B/. 200,000.00) y pequeñas empresas (de B/. 200,000.01 a B/. 1,000,000.00), e incorpora las unidades económicas de subsistencia y de acumulación.",
+     "Artículo 7: Otorga recursos no reembolsables de hasta B/. 5,000.00 a microempresas y hasta B/. 10,000.00 a pequeñas empresas mediante concurso, exigiendo inscripción en AMPYME, 40 horas de capacitación y afiliación a la CSS.",
+     "Artículo 9: Concede exoneración total del impuesto sobre la renta (ISR) durante los dos primeros periodos fiscales a microempresas que se formalicen, y fija una rebaja del 50% de dicho impuesto en el tercer año.",
+     "Artículo 10: Establece que las pequeñas empresas bajo sociedad anónima inscritas en AMPYME pagarán el 50% del ISR el primer periodo fiscal y el 75% en el segundo año.",
+     "Artículo 11: Otorga un descuento del 10% en el pago del ISR (pagan el 90%) durante un periodo fiscal a medianas empresas que acrediten que al menos el 50% de sus proveedores son unidades económicas, micro o pequeñas empresas registradas en AMPYME.",
+     "Artículo 12: Dispone la creación de un fideicomiso en el Banco Nacional de Panamá con una asignación presupuestaria anual mínima de B/. 3,000,000.00 para financiar el programa."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1GwbAgkI4Ji6EvZXBeBUOqX6757l54Tf8",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Crea incentivos y descuentos tributarios sobre el impuesto sobre la renta y subsidios financieros para micro, pequeñas y medianas empresas de cualquier actividad económica que cumplan requisitos de registro y formalización.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Establece incentivos tributarios directos sobre el impuesto sobre la renta y acceso a fondos no reembolsables para micro y pequeñas empresas formalizadas, además de beneficios fiscales a medianas empresas que utilicen proveedores acreditados ante AMPYME.",
+    "resumen": "El proyecto crea un programa de aceleración adscrito a la AMPYME para otorgar fondos no reembolsables de hasta $5,000 a microempresas y hasta $10,000 a pequeñas empresas mediante concurso. Asimismo, ajusta los rangos de clasificación empresarial por nivel de facturación e introduce incentivos fiscales, otorgando exoneraciones temporales o rebajas escalonadas del impuesto sobre la renta para micro, pequeñas y medianas empresas inscritas en el registro empresarial.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que crea el Programa de Aceleración a la Micro y Pequeña Empresa y modifica un artículo de la Ley 8 del 2000, de la Autoridad de la Micro, Pequeña y Mediana Empresa",
+    "titulo_corto": "Programa de aceleración y alivios fiscales a mipymes"
+   },
    "anteproyecto": "183",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Enviado a subcomisión para analisis",
@@ -9585,6 +9658,34 @@
    "titulo": "QUE MODIFICA Y ADICIONA ARTÍCULOS A LA LEY 136 DE 2013, PARA INCLUIR LA ZONA DE AMORTIGUAMIENTO DEL CONJUNTO MONUMENTAL HISTÓRICO DEL CASCO ANTIGUO DE LA CIUDAD DE PANAMÁ Y EL CONJUNTO MONUMENTAL HISTÓRICO DEL CASCO ANTIGUO DE LA CIUDAD DE COLÓN"
   },
   "7625": {
+   "analisis": {
+    "con_pdf": false,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1-8YsMCWK3C_RA7VVtS_vmF4Cx0NQkHzV",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "alto",
+    "impactos": [
+     {
+      "nivel": "alto",
+      "razon": "Establece reglas laborales y de contratación directas para las tripulaciones de pesca comercial tanto de servicio interior como internacional.",
+      "sector": "CAMARONERO Y PESQUERO"
+     },
+     {
+      "nivel": "alto",
+      "razon": "Crea un régimen laboral obligatorio específico para la operación de naves mercantes y de logística marítima de servicio interior.",
+      "sector": "TRANSPORTE"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Impacta directamente a empresas pesqueras y de transporte marítimo local al definir un régimen laboral especializado que podría alterar contratos, jornadas y costos operativos.",
+    "resumen": "Análisis basado solo en el título. La propuesta busca crear un marco laboral específico para regular las condiciones de trabajo de los tripulantes a bordo de naves mercantes de servicio interior y embarcaciones de pesca comercial de bandera panameña. Impacta directamente a los armadores y empresas del sector marítimo auxiliar y pesquero.",
+    "sectores": [
+     "CAMARONERO Y PESQUERO",
+     "TRANSPORTE"
+    ],
+    "titulo": "Por el cual se dicta el marco regulatorio del trabajo en el mar a bordo de naves mercantes de servicio interior en la República de Panamá y naves de pesca comercial de servicio interior e internacional de bandera panameña y se dictan otras disposiciones",
+    "titulo_corto": "Regulación del trabajo en naves mercantes y pesqueras"
+   },
    "anteproyecto": "189",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Enviado a subcomisión para analisis",
@@ -50842,8 +50943,8 @@
   "7595": "1e7fcb348b19",
   "7596": "cd606f8767a4",
   "7597": "e63e95a4b56a",
-  "7598": "d0be7bf79426",
-  "7601": "b84b06acf0da",
+  "7598": "355f9a0aae40",
+  "7601": "33e734dc00be",
   "7602": "db348dbf9d76",
   "7603": "7949d8d3273b",
   "7604": "bf6056c1eaad",
@@ -50852,7 +50953,7 @@
   "7607": "247540d5f244",
   "7608": "9a9b33dca03b",
   "7609": "ca5216bd5882",
-  "7611": "5a0821235b31",
+  "7611": "fc148ef00abb",
   "7612": "bab75cbeff3d",
   "7613": "dd352cce8376",
   "7614": "0be3c3afdebf",
@@ -50862,7 +50963,7 @@
   "7622": "2c51f96a347b",
   "7623": "2686a84141a2",
   "7624": "8a389b8e51d2",
-  "7625": "601d7115b864",
+  "7625": "8433358baa09",
   "7627": "39c133fab280",
   "7634": "28ffdbbdec15",
   "7635": "472ae5581bcd",
@@ -51786,6 +51887,7 @@
    "7922",
    "8416",
    "8196",
+   "7625",
    "8407",
    "8409",
    "8441",
@@ -51898,6 +52000,7 @@
    "7826",
    "8050",
    "8149",
+   "7611",
    "7733",
    "8022",
    "7497",
@@ -51955,7 +52058,7 @@
    "7636",
    "7490"
   ],
-  "fecha": "2026-10-28T03:02:45",
+  "fecha": "2026-10-28T04:01:51",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -51977,6 +52080,8 @@
    "7573": "399fc6670871",
    "7604": "399fc6670871",
    "7609": "399fc6670871",
+   "7611": "399fc6670871",
+   "7625": "399fc6670871",
    "7635": "399fc6670871",
    "7636": "399fc6670871",
    "7642": "399fc6670871",
@@ -52641,7 +52746,7 @@
    "521",
    "523"
   ],
-  "revisada": "2026-10-28T03:03:17"
+  "revisada": "2026-10-28T04:02:44"
  },
- "ultima_corrida": "2026-10-28T03:02:45"
+ "ultima_corrida": "2026-10-28T04:01:51"
 }
