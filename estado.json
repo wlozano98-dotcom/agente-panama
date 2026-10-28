@@ -27212,6 +27212,11 @@
    "etapa": "Tercer Debate",
    "etapas": [
     {
+     "comentario": "APROBADO EN III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2026-10-27"
+    },
+    {
      "comentario": "PENDIENTE DE III DEBATE",
      "etapa": "Tercer Debate",
      "fecha": "2026-10-26"
@@ -29340,6 +29345,11 @@
    "comision": "COMISION DE ASUNTOS MUNICIPALES",
    "etapa": "Tercer Debate",
    "etapas": [
+    {
+     "comentario": "APROBADO EN III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2026-10-27"
+    },
     {
      "comentario": "PENDIENTE DE III DEBATE",
      "etapa": "Tercer Debate",
@@ -35417,6 +35427,11 @@
    "comision": "COMISION DE ASUNTOS AGROPECUARIOS",
    "etapa": "Tercer Debate",
    "etapas": [
+    {
+     "comentario": "APROBADO EN III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2026-10-27"
+    },
     {
      "comentario": "PENDIENTE DE III DEBATE",
      "etapa": "Tercer Debate",
@@ -47158,8 +47173,13 @@
    },
    "anteproyecto": "131",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
-   "etapa": "Prohijado",
+   "etapa": "Primer Debate",
    "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-10-27"
+    },
     {
      "comentario": "PROHIJADO",
      "etapa": "Prohijado",
@@ -47328,8 +47348,13 @@
    },
    "anteproyecto": "134",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
-   "etapa": "Prohijado",
+   "etapa": "Primer Debate",
    "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-10-27"
+    },
     {
      "comentario": "PROHIJADO",
      "etapa": "Prohijado",
@@ -47561,8 +47586,13 @@
    },
    "anteproyecto": "139",
    "comision": "COMISION DE GOBIERNO, JUSTICIA Y ASUNTOS CONSTITUCIONALES",
-   "etapa": "Prohijado",
+   "etapa": "Primer Debate",
    "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-10-27"
+    },
     {
      "comentario": "PROHIJADO",
      "etapa": "Prohijado",
@@ -50037,8 +50067,13 @@
    },
    "anteproyecto": "0",
    "comision": "COMISION DE ECONOMIA Y FINANZAS",
-   "etapa": "Tercer Debate",
+   "etapa": "Enviado al Ejecutivo",
    "etapas": [
+    {
+     "comentario": "ENVIADO AL ORGANO EJECUTIVO",
+     "etapa": "Enviado al Ejecutivo",
+     "fecha": "2026-10-27"
+    },
     {
      "comentario": "APROBADO EN III DEBATE",
      "etapa": "Tercer Debate",
@@ -50644,10 +50679,30 @@
    },
    "anteproyecto": "200",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
-   "etapa": "Primer Debate",
+   "etapa": "Tercer Debate",
    "etapas": [
     {
+     "comentario": "PENDIENTE DE III DEBATE",
+     "etapa": "Tercer Debate",
+     "fecha": "2026-10-27"
+    },
+    {
+     "comentario": "APROBADO EN II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-10-27"
+    },
+    {
+     "comentario": "PENDIENTE DE II DEBATE",
+     "etapa": "Segundo Debate",
+     "fecha": "2026-10-26"
+    },
+    {
      "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-10-22"
+    },
+    {
+     "comentario": "APROBADO EN I DEBATE",
      "etapa": "Primer Debate",
      "fecha": "2026-10-22"
     },
@@ -50911,8 +50966,18 @@
    },
    "anteproyecto": "207",
    "comision": "COMISION DE ASUNTOS MUNICIPALES",
-   "etapa": "Preliminar",
+   "etapa": "Primer Debate",
    "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-10-28"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-10-27"
+    },
     {
      "comentario": "PRELIMINAR",
      "etapa": "Preliminar",
@@ -50922,7 +50987,7 @@
    "fecha": "2026-10-13",
    "ficha": "8637",
    "proponente": "H.D JAVIER FRANCISCO SUCRE MEJIA",
-   "proyecto": "",
+   "proyecto": "759",
    "tiene_documento": true,
    "titulo": "QUE MODIFICA DISPOSICIONES DE LA LEY 37 DE 2009, QUE DESCENTRALIZA LA ADMINISTRACION PUBLICA, PARA FACILITAR LA ATENCION DE EMERGENCIAS CATASTROFICAS Y LA RECONSTRUCCION TRAS EL TERREMOTO EN PANAMA"
   },
@@ -51093,8 +51158,18 @@
    },
    "anteproyecto": "214",
    "comision": "COMISION DE ASUNTOS MUNICIPALES",
-   "etapa": "Preliminar",
+   "etapa": "Primer Debate",
    "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-10-28"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-10-27"
+    },
     {
      "comentario": "PRELIMINAR",
      "etapa": "Preliminar",
@@ -51104,7 +51179,7 @@
    "fecha": "2026-10-20",
    "ficha": "8642",
    "proponente": "H.D PATSY CRISTINA LEE RENTERÍA DE HUANG,H.D ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO,H.D LENÍN ALBERTO ULATE RODRÍGUEZ,H.D YARELIS ANAYANSI RODRÍGUEZ BATISTA,H.D JANINE PRADO CASTAÑO,H.D JORGE ALBERTO GONZÁLEZ LÓPEZ,H.D EDUARDO ALEJANDRO GAITÁN BEITÍA,H.D LUIS HENRIQUE DUKE WALKER,H.D ALEXANDRA MARÍA BRENES SAMANIEGO,H.D JORGE ISAAC BLOISE IGLESIAS",
-   "proyecto": "",
+   "proyecto": "760",
    "tiene_documento": true,
    "titulo": "QUE ADICIONA DISPOSICIONES A LA LEY 37 DE 2009, QUE DESCENTRALIZA LA ADMINISTRACION PUBLICA, PARA LA ATENCION EXTRAORDINARIA DE LAS CONSECUENCIAS DEL TERREMOTO DE 9 DE OCTUBRE DE 2026"
   },
@@ -51548,8 +51623,18 @@
    },
    "anteproyecto": "222",
    "comision": "COMISION DE ASUNTOS MUNICIPALES",
-   "etapa": "Preliminar",
+   "etapa": "Primer Debate",
    "etapas": [
+    {
+     "comentario": "PENDIENTE DE I DEBATE",
+     "etapa": "Primer Debate",
+     "fecha": "2026-10-28"
+    },
+    {
+     "comentario": "PROHIJADO",
+     "etapa": "Prohijado",
+     "fecha": "2026-10-27"
+    },
     {
      "comentario": "PRELIMINAR",
      "etapa": "Preliminar",
@@ -51559,7 +51644,7 @@
    "fecha": "2026-10-26",
    "ficha": "8652",
    "proponente": "H.D ALAIN ALBENIS CEDEÑO HERRERA",
-   "proyecto": "",
+   "proyecto": "761",
    "tiene_documento": true,
    "titulo": "QUE MODIFICA LA LEY 37 DE 2009, QUE DESCENTRALIZA DE LA ADMINISTACIÓN PÚBLICA, PARA ATENDER LA EMERGENCIA NACIONAL EN LAS ÁREAS AFECTADAS POR EL TERREMOTO DEL 9 DE OCTUBRE DE 2026"
   },
@@ -52043,7 +52128,7 @@
   "8079": "cf0893c0aa8e",
   "8080": "844618eec7be",
   "8081": "e08d09f91443",
-  "8082": "46fa5fe068e2",
+  "8082": "b17892cbdee3",
   "8083": "be6ea533d7f1",
   "8084": "552e2547d1c2",
   "8085": "e9d513a3d0a9",
@@ -52082,7 +52167,7 @@
   "8130": "220507d641a3",
   "8131": "9d270e31df23",
   "8132": "b04668505bc5",
-  "8134": "bcbf7436ed87",
+  "8134": "fda5424664c3",
   "8135": "900708b0a745",
   "8136": "ffd5d1a9d3a7",
   "8139": "3af15d03d0f8",
@@ -52190,7 +52275,7 @@
   "8259": "07f5c4202189",
   "8261": "3e5b28578baa",
   "8262": "c8c5e25a1a9b",
-  "8263": "ca28f4e95df5",
+  "8263": "2df122dba247",
   "8265": "058a592d83a1",
   "8266": "dfd6c6baea21",
   "8267": "be415efbc23e",
@@ -52435,16 +52520,16 @@
   "8534": "ab8414a871e2",
   "8535": "8a2f925a701e",
   "8536": "0e6485bfceaf",
-  "8537": "e3e736111652",
+  "8537": "7ec22018d60b",
   "8538": "d965446ca422",
   "8539": "bbf22bb1c3dc",
   "8540": "1b1b0284dfe2",
-  "8541": "278008a7597d",
+  "8541": "546d13efd37d",
   "8542": "0f4281ab8d09",
   "8543": "f1c3363aed3e",
   "8545": "e1cdb35667a7",
   "8546": "4622bc850982",
-  "8547": "197874c8cf99",
+  "8547": "00e2797f2c9b",
   "8548": "052c7a0bb1be",
   "8549": "af0c384ec755",
   "8550": "a66e873a13ff",
@@ -52508,7 +52593,7 @@
   "8610": "2daedf306a3b",
   "8611": "92628e3584e0",
   "8612": "15bee8237dc5",
-  "8613": "b47afdcf2f72",
+  "8613": "d54668aac8d3",
   "8614": "fed31db4de75",
   "8615": "b2b971f511da",
   "8616": "cc351726f43e",
@@ -52524,19 +52609,19 @@
   "8626": "8ba495ed0451",
   "8628": "c34515f7cb23",
   "8629": "d612df811bb1",
-  "8630": "94c65bea2dc2",
+  "8630": "302c77a248f4",
   "8631": "06c74cae216c",
   "8632": "1d80a9b223a5",
   "8633": "18c444a59393",
   "8634": "2d60225cb634",
   "8635": "a311ddce8705",
   "8636": "d7fa4e2fe610",
-  "8637": "e4e414814a58",
+  "8637": "3e800703fd5b",
   "8638": "bd5b425566c8",
   "8639": "c9780f9853a7",
   "8640": "aa1496feba12",
   "8641": "4cc3fa2f8fc9",
-  "8642": "ac956506ffec",
+  "8642": "6552089e6ea6",
   "8643": "6cf904953a4c",
   "8644": "4148f246f390",
   "8645": "59ae8c6f0884",
@@ -52546,19 +52631,20 @@
   "8649": "df96cac3332c",
   "8650": "8af175a548ee",
   "8651": "595b5938e9a7",
-  "8652": "f29727a04334",
+  "8652": "b3e5ab0c2cf1",
   "8653": "d3e5563a55e0"
  },
  "inicio": "2026-10-08",
  "matriz_generada": {
   "claves": [
+   "8613",
    "8630",
    "8263",
    "8448",
    "8082",
    "8093",
    "8486",
-   "8613",
+   "8541",
    "7779",
    "8495",
    "8602",
@@ -52567,7 +52653,6 @@
    "8646",
    "8647",
    "8648",
-   "8541",
    "8644",
    "8645",
    "7936",
@@ -52849,7 +52934,7 @@
    "7582",
    "7493"
   ],
-  "fecha": "2026-10-28T14:14:13",
+  "fecha": "2026-10-28T15:09:02",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -53551,7 +53636,7 @@
    "521",
    "523"
   ],
-  "revisada": "2026-10-28T14:14:48"
+  "revisada": "2026-10-28T15:09:39"
  },
- "ultima_corrida": "2026-10-28T14:14:13"
+ "ultima_corrida": "2026-10-28T15:09:02"
 }
