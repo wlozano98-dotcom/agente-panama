@@ -237,17 +237,33 @@
    "carpeta": "Regulación de los Comités de Salud comunitarios (ficha 7684)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
+  "7692": {
+   "carpeta": "Escalafón para ingenieros y arquitectos del Estado (ficha 7692)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
   "7694": {
    "carpeta": "Programa de cine educativo y teatro en comunidades rurales (ficha 7694)",
    "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "7695": {
+   "carpeta": "Régimen especial de oficinas de backoffice en San Miguelito (ficha 7695)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
   },
   "7699": {
    "carpeta": "Incentivos para el uso de biobardas en ríos (ficha 7699)",
    "comision": "Comisión de Población, Ambiente y Desarrollo"
   },
+  "7700": {
+   "carpeta": "Creación de corregimientos de Gardi y Uggubseni (ficha 7700)",
+   "comision": "Comisión de Asuntos Indígenas"
+  },
   "7701": {
    "carpeta": "Política integral contra el acoso escolar y social (ficha 7701)",
    "comision": "Comisión de Educación, Cultura y Deportes"
+  },
+  "7702": {
+   "carpeta": "Regulación de técnicos y licenciados en salud ocupacional (ficha 7702)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
   },
   "7705": {
    "carpeta": "Protección y preservación de rompientes de olas (ficha 7705)",
@@ -11401,6 +11417,20 @@
    "titulo": "QUE REFORMA LA LEY 34 DE 2008, DE RESPONSABILIDAD SOCIAL FISCAL, Y LA LEY 38 DE 2012, SOBRE EL FONDO DE AHORRO DE PANAMÁ, Y DICTA OTRAS DISPOSICIONES"
   },
   "7692": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1RC55Nevh3YHmUXS7JPCwLl1cKrXi2iID",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No genera impacto sobre la actividad de las empresas privadas, ya que sus disposiciones regulan exclusivamente la relación laboral y salarial de los profesionales de la ingeniería y arquitectura que laboran para el Estado.",
+    "resumen": "Propone la creación de un escalafón, clasificación de puestos, ascensos periódicos y una escala salarial obligatoria para ingenieros y arquitectos idóneos del sector público. La escala define salarios base por grado académico y experiencia con revisiones bienales junto a la SPIA. Su ámbito se restringe a dependencias gubernamentales, entidades autónomas y empresas con participación estatal.",
+    "sectores": [],
+    "titulo": "Que establece el escalafón, las nomenclaturas de cargos, ascenso y reconocimiento de antigüedades, para los profesionales de la ingeniería y arquitectura al servicio del Estado",
+    "titulo_corto": "Escalafón para ingenieros y arquitectos del Estado"
+   },
    "anteproyecto": "238",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Enviado a subcomisión para analisis",
@@ -11509,6 +11539,40 @@
    "titulo": "POR LA CUAL SE ESTABLECE EL PROGRAMA NACIONAL DE PROYECCIONES AUDIOVISUALES EDUCATIVAS Y EL FOMENTO DEL TEATRO Y ARTE EN COMUNIDADES RURALES"
   },
   "7695": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 5: Obliga a las empresas acogidas al régimen a remitir un informe estadístico anual sobre sus operaciones en San Miguelito a la Dirección General de Ingresos.",
+     "Artículo 6: Limita la prestación de servicios del régimen a brindar soporte únicamente a empresas de su propio grupo corporativo.",
+     "Artículo 7: Concede una deducción de gastos de establecimiento o traslado en el ISR potenciada con un factor multiplicador del 35%, con un tope de hasta el 50% de la renta neta gravable.",
+     "Artículos 8 y 9: Exonera de la base imponible del impuesto de Aviso de Operaciones los activos de la sede a empresas que contraten un mínimo de personal residente en el distrito (10 o 5 trabajadores).",
+     "Artículo 10: Exonera del impuesto de transferencia de bienes inmuebles (ITBI) por 10 años la primera enajenación de locales comerciales nuevos destinados al régimen de backoffice.",
+     "Artículo 12: Autoriza la cesión gratuita de terrenos del Estado al Municipio de San Miguelito para fungir como promotor del régimen."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1RzDkMDqxmvJ-xeRA2mjV7tSMbISGU_j3",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Crea una sobrededucción del 35% en el ISR y exclusión de activos en el aviso de operación para empresas que trasladen operaciones administrativas a San Miguelito y contraten residentes.",
+      "sector": "TODAS LAS EMPRESAS"
+     },
+     {
+      "nivel": "bajo",
+      "razon": "Exonera por 10 años el ITBI en la primera venta de locales comerciales nuevos construidos por desarrolladores inmobiliarios para estas actividades.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Establece incentivos fiscales directos pero focalizados en el distrito de San Miguelito para empresas que trasladen o instalen sus unidades de apoyo administrativo interno.",
+    "resumen": "Propone crear un régimen especial para atraer y trasladar centros de servicios compartidos y soporte administrativo interno (backoffice) al distrito de San Miguelito. Otorga incentivos fiscales en impuesto sobre la renta, aviso de operación y transferencia de bienes inmuebles a empresas que se establezcan allí y contraten residentes locales. Afecta a empresas que operen centros de soporte corporativo y a promotores inmobiliarios de locales comerciales.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que establece el régimen especial regional de sedes de oficinas administrativas de apoyo interno (BackOffice) para la generación de empleo formal y fomento de inversión en el Distrito de San Miguelito",
+    "titulo_corto": "Régimen especial de oficinas de backoffice en San Miguelito"
+   },
    "anteproyecto": "241",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Enviado a subcomisión para analisis",
@@ -11712,6 +11776,20 @@
    "titulo": "QUE PROMUEVE E INCENTIVA EL USO DE BIOBARDAS EN LOS RIOS CON DESEMBOCADURA EN EL MAR DENTRO DEL TERRITORIO DE LA REPUBLICA DE PANAMA"
   },
   "7700": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/14XK9spWix-0-Xleylz07DNZuNehqZhXN",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Se trata de una reorganización político-administrativa dentro de una comarca indígena que no genera costos, obligaciones ni modificaciones regulatorias para el sector privado.",
+    "resumen": "La propuesta establece la creación de dos nuevos corregimientos en la comarca Guna Yala: Gardi (segregado de Narganá) y Uggubseni (segregado de Ailigandí). Define las comunidades que integrarán cada corregimiento y su cabecera local. Asimismo, instruye a entidades estatales como el MINGOB, MEF y el Tribunal Electoral a prestar asistencia técnica y administrativa.",
+    "sectores": [],
+    "titulo": "Que crea los nuevos corregimientos de Gardi, segregado del corregimiento de Narganá; y de Uggubseni, segregado del corregimiento de Ailigandí, y se dictan otras disposiciones",
+    "titulo_corto": "Creación de corregimientos de Gardi y Uggubseni"
+   },
    "anteproyecto": "243",
    "comision": "COMISION DE ASUNTOS INDIGENAS",
    "etapa": "Enviado a subcomisión para analisis",
@@ -11797,6 +11875,32 @@
    "titulo": "QUE ESTABLECE LA POLITICA PUBLICA DE ACCION INTEGRAL CONTRA EL ACOSO ESCOLAR Y SOCIAL"
   },
   "7702": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 1: Establece la obligatoriedad de contar con idoneidad profesional expedida por el Consejo Técnico de Salud para ejercer la salud ocupacional.",
+     "Artículo 4: Fija como requisito indispensable ser de nacionalidad panameña y aprobar un examen de certificación básica para obtener la idoneidad, impidiendo la contratación de técnicos o especialistas extranjeros en esta área.",
+     "Artículo 8: Prohíbe expresamente a estos profesionales diagnosticar o instituir tratamientos médicos dentro de los centros laborales."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1KTSe04wEKRHNVLgSm_Vauhf5CpOYQlcX",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Restringe la contratación de oficiales o consultores de salud y seguridad ocupacional exclusivamente a profesionales panameños debidamente idóneos.",
+      "sector": "TODAS LAS EMPRESAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "El impacto es bajo y transversal, ya que no altera los esquemas operativos ni tributarios generales, pero condiciona a las empresas a contratar únicamente personal o asesores de salud en el trabajo con idoneidad y nacionalidad panameña.",
+    "resumen": "El proyecto formaliza y regula el ejercicio profesional de los técnicos y licenciados en salud ocupacional en el país, subordinando su práctica a la obtención de idoneidad ante el Consejo Técnico de Salud. Además, reserva el ejercicio de esta disciplina exclusivamente a ciudadanos de nacionalidad panameña y delimita sus funciones, prohibiéndoles diagnosticar o recetar tratamientos médicos.",
+    "sectores": [
+     "TODAS LAS EMPRESAS"
+    ],
+    "titulo": "Que reconoce la profesión de Técnicos y Licenciados en Salud Ocupacional",
+    "titulo_corto": "Regulación de técnicos y licenciados en salud ocupacional"
+   },
    "anteproyecto": "250",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Enviado a subcomisión para analisis",
@@ -50679,16 +50783,16 @@
   "7686": "e2eecfbebf37",
   "7689": "6c01fb90121c",
   "7691": "9ef5e01d107d",
-  "7692": "1438659f4328",
+  "7692": "661a40b36e4e",
   "7693": "a040c0f2b9e5",
   "7694": "32603c119040",
-  "7695": "2c8c417441e6",
+  "7695": "99dd1ef02f51",
   "7696": "a382acdc92b5",
   "7698": "9eeecf640f3e",
   "7699": "987e7cf8a74f",
-  "7700": "a844e5cf2bd7",
+  "7700": "fad7e3fea7de",
   "7701": "2aae75a228e1",
-  "7702": "b8be7b918690",
+  "7702": "82fe87e127c8",
   "7704": "567e14ecabd5",
   "7705": "55a62f91b226",
   "7708": "98ab16353439",
@@ -51455,11 +51559,13 @@
  "inicio": "2026-10-08",
  "matriz_generada": {
   "claves": [
-   "8613",
-   "8263",
-   "8082",
-   "8486",
    "8630",
+   "8263",
+   "8448",
+   "8082",
+   "8093",
+   "8486",
+   "8613",
    "7779",
    "8495",
    "8602",
@@ -51491,13 +51597,11 @@
    "8356",
    "8609",
    "7699",
-   "8093",
    "8415",
    "8546",
    "8400",
    "7656",
    "8474",
-   "8448",
    "8302",
    "8304",
    "7787",
@@ -51535,6 +51639,7 @@
    "8152",
    "8345",
    "8432",
+   "7695",
    "8567",
    "8522",
    "8447",
@@ -51676,6 +51781,7 @@
    "8074",
    "8075",
    "7554",
+   "7702",
    "7826",
    "8050",
    "8149",
@@ -51734,7 +51840,7 @@
    "7636",
    "7490"
   ],
-  "fecha": "2026-10-28T01:19:10",
+  "fecha": "2026-10-28T02:11:43",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -51764,7 +51870,9 @@
    "7659": "399fc6670871",
    "7662": "399fc6670871",
    "7683": "399fc6670871",
+   "7695": "399fc6670871",
    "7699": "399fc6670871",
+   "7702": "399fc6670871",
    "7705": "399fc6670871",
    "7708": "399fc6670871",
    "7714": "399fc6670871",
@@ -52416,7 +52524,7 @@
    "521",
    "523"
   ],
-  "revisada": "2026-10-28T01:19:50"
+  "revisada": "2026-10-28T02:12:30"
  },
- "ultima_corrida": "2026-10-28T01:19:10"
+ "ultima_corrida": "2026-10-28T02:11:43"
 }
