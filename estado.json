@@ -29,9 +29,25 @@
    "carpeta": "Incentivo solar para acueductos y reforma al arrastre de pérdidas (ficha 7435)",
    "comision": "Comisión de Economía y Finanzas"
   },
+  "7437": {
+   "carpeta": "Creación del Sistema de Hospitales Veterinarios Públicos (ficha 7437)",
+   "comision": "Comisión de Asuntos Agropecuarios"
+  },
+  "7438": {
+   "carpeta": "Prohibición de nepotismo en la Asamblea Nacional (ficha 7438)",
+   "comision": "Comisión de Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
+  },
+  "7440": {
+   "carpeta": "Régimen de fomento para sucursales en Panamá Oeste (ficha 7440)",
+   "comision": "Comisión de Comercio y Asuntos Económicos"
+  },
   "7447": {
    "carpeta": "Reforma a la ley de protección de personas adultas mayores (ficha 7447)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
+  "7449": {
+   "carpeta": "Reforma al Reglamento Interno de la Asamblea Nacional (ficha 7449)",
+   "comision": "Comisión de Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
   },
   "7456": {
    "carpeta": "Día de los Derechos Humanos (ficha 7456)",
@@ -3484,6 +3500,20 @@
    "titulo": "QUE MODIFICA LA LEY 22 DE 2006, QUE REGULA LA CONTRATACION PUBLICA"
   },
   "7437": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1SLW0zktPUqokDsRXb66CUpRifAmwRNfU",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa regula un servicio asistencial estatal dirigido a la atención pública de animales domésticos, sin imponer cargas, regulaciones, tributos ni obligaciones directas sobre el sector empresarial privado.",
+    "resumen": "La iniciativa propone la creación de una red nacional de hospitales veterinarios públicos bajo la dirección del MIDA y en colaboración con el MINSA. Su propósito es brindar atención médica, cirugías, vacunación y esterilización para animales de compañía de manera gratuita o a bajo costo para la ciudadanía. El sistema se financiará primordialmente a través del Presupuesto General del Estado y donaciones.",
+    "sectores": [],
+    "titulo": "Que crea el Sistema Nacional de Hospitales Veterinarios Públicos de Panamá",
+    "titulo_corto": "Creación del Sistema de Hospitales Veterinarios Públicos"
+   },
    "anteproyecto": "28",
    "comision": "COMISION DE ASUNTOS AGROPECUARIOS",
    "etapa": "Enviado a subcomisión para analisis",
@@ -3517,6 +3547,20 @@
    "titulo": "QUE CREA EL SISTEMA NACIONAL DE HOSPITALES VETERINARIOS PUBLICOS DE PANAMA"
   },
   "7438": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1knuPQj1GsspN4Oj41p-lZoGO10IFFoVN",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Es una reforma puramente interna sobre la contratación y organización del personal en la Asamblea Nacional, sin efectos ni obligaciones para el sector privado.",
+    "resumen": "Propone adicionar el artículo 230-A al reglamento interno de la Asamblea Nacional para prohibir que parientes dentro del cuarto grado de consanguinidad o segundo de afinidad trabajen en la misma unidad administrativa. Establece además la reubicación de funcionarios en caso de nepotismo sobreviniente. Afecta únicamente al personal y a la estructura interna del Órgano Legislativo.",
+    "sectores": [],
+    "titulo": "Que modifica el Reglamento Orgánico del Régimen Interno de la Asamblea Nacional",
+    "titulo_corto": "Prohibición de nepotismo en la Asamblea Nacional"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE CREDENCIALES, REGLAMENTO, ETICA PARLAMENTARIA Y ASUNTOS JUDICIALES",
    "etapa": "Enviado a subcomisión para analisis",
@@ -3568,6 +3612,43 @@
    "titulo": "QUE MODIFICA EL CODIGO PENAL"
   },
   "7440": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 2: Limita los beneficios a empresas con sede en Panamá que inviertan en infraestructura, adquieran o arrienden oficinas o locales comerciales en Panamá Oeste.",
+     "Artículo 5: Exige a las sucursales acogidas presentar un informe estadístico anual de operaciones ante la Dirección General de Ingresos (DGI).",
+     "Artículo 7: Autoriza deducir del impuesto sobre la renta los costos y gastos de instalación y funcionamiento en Panamá Oeste con un incremento de hasta un 10% adicional al gasto real.",
+     "Artículo 8: Permite deducir del impuesto sobre la renta los salarios con un 10% adicional sobre el monto real pagado, siempre que se traslade un mínimo de 10 colaboradores residentes en Panamá Oeste.",
+     "Artículo 9: Exonera de la base imponible del Impuesto de Aviso de Operación los activos adquiridos para la instalación de las sucursales.",
+     "Artículo 10: Concede exoneración del Impuesto de Transferencia de Bienes Inmuebles (ITBI de 2%) por 10 años en la venta de locales comerciales nuevos y por 5 años en locales de segunda mano destinados a este régimen.",
+     "Artículo 11: Propone gravar con una tasa del 3% a empresas digitales y plataformas de streaming multinacionales que perciban ingresos de usuarios en Panamá.",
+     "Artículo 12: Obliga a mantener el mismo salario, derechos y prestaciones a los empleados transferidos desde la capital."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1aOTAyvGFwcnCi-tsgElaTjqWkBx0ADLQ",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "bajo",
+    "impactos": [
+     {
+      "nivel": "bajo",
+      "razon": "Crea un régimen opcional de incentivos tributarios (deducción extra de costos y planillas) y condiciones salariales para cualquier empresa que reubique personal y oficinas administrativas en Panamá Oeste.",
+      "sector": "TODAS LAS EMPRESAS"
+     },
+     {
+      "nivel": "bajo",
+      "razon": "Exonera temporalmente el 2% del impuesto de transferencia de bienes inmuebles a promotores que vendan locales comerciales para este fin en La Chorrera.",
+      "sector": "CEMENTERAS"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Ofrece deducciones fiscales voluntarias y exoneraciones a empresas que inviertan en sedes operativas en Panamá Oeste, junto con una tasa tributaria del 3% aplicable a empresas digitales y de streaming.",
+    "resumen": "Crea un régimen de incentivos fiscales y laborales para que las empresas con sede en la ciudad de Panamá trasladen o abran sucursales y centros administrativos en la provincia de Panamá Oeste (particularmente La Chorrera), contratando o reubicando personal residente en esa zona. Otorga deducciones adicionales de gastos y salarios en el impuesto sobre la renta, exenciones en el aviso de operación y en el ITBI de locales comerciales, e introduce una tasa tributaria del 3% a plataformas digitales y streaming.",
+    "sectores": [
+     "TODAS LAS EMPRESAS",
+     "CEMENTERAS"
+    ],
+    "titulo": "Que establece un régimen fiscal y laboral de fomento, para la reubicación de sucursales empresariales del Oeste, desde la ciudad capital de Panamá hacia Panamá Oeste, para promover el traslado de empleos y servicios en esta zona del país",
+    "titulo_corto": "Régimen de fomento para sucursales en Panamá Oeste"
+   },
    "anteproyecto": "30",
    "comision": "COMISION DE COMERCIO Y ASUNTOS ECONOMICOS",
    "etapa": "Enviado a subcomisión para analisis",
@@ -3806,6 +3887,20 @@
    "titulo": "QUE REFORMA LA LEY 36 DE 2016, QUE ESTABLECE LA NORMATIVA PARA LA PROTECCION INTEGRAL DE LOS DERECHOS DE LAS PERSONAS ADULTAS MAYORES Y DICTA OTRAS DISPOSIOCIONES"
   },
   "7449": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/10ggJYUQBByp2mrtPajBvN98DGDoUHAD3",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No tiene impacto sobre el sector empresarial ya que regula estrictamente el funcionamiento y los procedimientos parlamentarios internos de la Asamblea Nacional.",
+    "resumen": "Propone modificar el reglamento interno parlamentario para fijar un plazo de 15 días hábiles en la elección de comisiones permanentes mediante cociente si no hay consenso, y regular las condiciones de receso durante las sesiones permanentes del pleno legislativo.",
+    "sectores": [],
+    "titulo": "Que modifica y adiciona artículos al Texto Único de la Ley 49 de 1984, que adopta el Reglamento Orgánico del Régimen Interno de la Asamblea Nacional",
+    "titulo_corto": "Reforma al Reglamento Interno de la Asamblea Nacional"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE CREDENCIALES, REGLAMENTO, ETICA PARLAMENTARIA Y ASUNTOS JUDICIALES",
    "etapa": "Enviado a subcomisión para analisis",
@@ -51172,14 +51267,14 @@
   "7433": "381d87b983de",
   "7435": "1b9f8704501b",
   "7436": "4c94d4e8b677",
-  "7437": "ec2c8b1e92cf",
-  "7438": "ed44d06b157a",
+  "7437": "3679883bf456",
+  "7438": "64395f037636",
   "7439": "4270ede8dc92",
-  "7440": "79eb0ac37b22",
+  "7440": "d1272b2e708b",
   "7441": "43b93cf311e2",
   "7445": "26d83071f0cb",
   "7447": "137375e40d6d",
-  "7449": "8e2aed98126e",
+  "7449": "9b77a6baf8d0",
   "7450": "ad8f111cd7ea",
   "7452": "826b1c79169f",
   "7453": "6857bae56121",
@@ -52359,6 +52454,7 @@
    "7491",
    "7812",
    "7879",
+   "7440",
    "7754",
    "7884",
    "7999",
@@ -52391,12 +52487,13 @@
    "7582",
    "7493"
   ],
-  "fecha": "2026-10-28T07:18:00",
+  "fecha": "2026-10-28T08:15:49",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
    "7428": "399fc6670871",
    "7435": "399fc6670871",
+   "7440": "399fc6670871",
    "7447": "399fc6670871",
    "7461": "399fc6670871",
    "7465": "399fc6670871",
@@ -53085,7 +53182,7 @@
    "521",
    "523"
   ],
-  "revisada": "2026-10-28T07:18:30"
+  "revisada": "2026-10-28T08:16:20"
  },
- "ultima_corrida": "2026-10-28T07:18:00"
+ "ultima_corrida": "2026-10-28T08:15:49"
 }
