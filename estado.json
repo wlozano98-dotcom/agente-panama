@@ -193,6 +193,14 @@
    "carpeta": "Programa de Apoyo Educativo (ficha 7638)",
    "comision": "Comisión de Educación, Cultura y Deportes"
   },
+  "7641": {
+   "carpeta": "Procedimiento de designación de cargos públicos por la Asamblea (ficha 7641)",
+   "comision": "Comisión de Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
+  },
+  "7642": {
+   "carpeta": "Gestión sostenible de acuíferos y aguas subterráneas (ficha 7642)",
+   "comision": "Comisión de Población, Ambiente y Desarrollo"
+  },
   "7647": {
    "carpeta": "Transparencia en federaciones deportivas (ficha 7647)",
    "comision": "Comisión de Educación, Cultura y Deportes"
@@ -228,6 +236,14 @@
   "7662": {
    "carpeta": "Reforma a la custodia de registros contables y agentes residentes (ficha 7662)",
    "comision": "Comisión de Economía y Finanzas"
+  },
+  "7674": {
+   "carpeta": "Comisión para Revisión de Pensiones y Jubilaciones (ficha 7674)",
+   "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
+  "7682": {
+   "carpeta": "Marco regulatorio de recursos hídricos (ficha 7682)",
+   "comision": "Comisión de Población, Ambiente y Desarrollo"
   },
   "7683": {
    "carpeta": "Sanción penal por paralización y deterioro de obras públicas (ficha 7683)",
@@ -9851,6 +9867,20 @@
    "titulo": "QUE CREA EL PROGRAMA DE APOYO EDUCATIVO Y DICTA OTRA DISPOSICION"
   },
   "7641": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1sBjT4dkWMLdhkBvWyPIgqa322D3bONYO",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Se trata de una reforma estrictamente interna al funcionamiento del Órgano Legislativo para la selección de autoridades públicas, por lo que no establece obligaciones, costos ni cambios regulatorios para las empresas.",
+    "resumen": "Propone regular el proceso de nombramiento de altos funcionarios a cargo del Órgano Legislativo (Contralor, directores del Canal, magistrados y Defensor del Pueblo). Crea una Comisión Técnica de Mérito y Evaluación integrada por la sociedad civil para evaluar perfiles y establece fases formales de convocatoria pública, entrevistas y votación en el pleno.",
+    "sectores": [],
+    "titulo": "Que adiciona el procedimiento de designación a cargos públicos, reforma el Reglamento Orgánico del Régimen Interno de la Asamblea Nacional y dicta otras disposiciones",
+    "titulo_corto": "Procedimiento de designación de cargos públicos por la Asamblea"
+   },
    "anteproyecto": "0",
    "comision": "COMISION DE CREDENCIALES, REGLAMENTO, ETICA PARLAMENTARIA Y ASUNTOS JUDICIALES",
    "etapa": "Enviado a subcomisión para analisis",
@@ -9879,6 +9909,41 @@
    "titulo": "QUE ADICIONA EL PROCEDIMIENTO DE DESIGNACIÓN A CARGOS PUBLICOS, REFORMA EL REGLAMENTO ORGANICO DEL REGIMEN INTERNO DE LA ASAMBLEA NACIONAL Y DICTA OTRAS DISPOSICIONES"
   },
   "7642": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [
+     "Artículo 8: Obliga a las empresas públicas o privadas de perforación y construcción de pozos a contar con profesionales en hidrogeología o geología.",
+     "Artículo 13: Crea el Registro de Perforadores del Subsuelo del Ministerio de Ambiente, exigiendo inscripción obligatoria a personas naturales o jurídicas que perforen para aprovechamiento de aguas subterráneas.",
+     "Artículo 14: Establece la obligación de tramitar un permiso de exploración previo a cada perforación (vigencia de 3 meses) y remitir informe técnico a MiAmbiente.",
+     "Artículo 17: Obliga a los usuarios de aguas subterráneas para fines industriales, hidroeléctricos, agrícolas, acuícolas, turísticos y comerciales sin servicio de IDAAN a obtener permiso o concesión de uso de agua con MiAmbiente.",
+     "Artículo 21: Faculta a MiAmbiente a establecer regulaciones y restricciones a las actividades humanas dentro de zonas de recarga de acuíferos identificadas.",
+     "Artículo 23: Sanciona el incumplimiento de la norma con multas e inhabilitación temporal o definitiva para realizar exploraciones y perforaciones de aguas subterráneas."
+    ],
+    "drive": "https://drive.google.com/drive/folders/1cbkVLLGTd9WcE5HunEmXti40q53W6I3b",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Impone registro obligatorio y contratación de personal técnico a perforadoras de pozos, además de exigir concesión ambiental para el aprovechamiento industrial de agua subterránea.",
+      "sector": "INDUSTRIAS"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Obliga a hoteles y complejos turísticos no conectados a la red del IDAAN a formalizar permisos o concesiones de agua subterránea ante MiAmbiente.",
+      "sector": "TURISMO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Crea nuevas obligaciones operativas y regulatorias para las empresas dedicadas a la perforación del subsuelo y para todo comercio o industria que dependa de pozos propios de agua sin suministro del IDAAN.",
+    "resumen": "La iniciativa crea un marco integral para el monitoreo, protección y aprovechamiento de acuíferos bajo la supervisión del Ministerio de Ambiente. Exige la inscripción obligatoria en un registro de perforadores y la contratación de geólogos o hidrogeólogos para perforar pozos. Además, obliga a usuarios industriales, turísticos, agropecuarios y comerciales que usen aguas subterráneas a tramitar concesiones o permisos.",
+    "sectores": [
+     "INDUSTRIAS",
+     "TURISMO"
+    ],
+    "titulo": "Que promueve la gestión sostenible de los acuíferos y aguas subterráneas en la República de Panamá y dicta otras disposiciones",
+    "titulo_corto": "Gestión sostenible de acuíferos y aguas subterráneas"
+   },
    "anteproyecto": "202",
    "comision": "COMISION DE POBLACION, AMBIENTE Y DESARROLLO",
    "etapa": "Enviado a subcomisión para analisis",
@@ -10881,6 +10946,20 @@
    "titulo": "QUE FACULTA A LA SECRETARIA NACIONAL DE CIENCIA, TECNOLOGIA E INNOVACION A TRANSPARENTAR, REGULAR Y ADMINISTRAR SUS PROGRAMAS DE BECAS"
   },
   "7674": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1t1PCFirKzwiz5LE_Ya9EDxEPBMt0xrdM",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No establece obligaciones, trámites ni variaciones en las cuotas obrero-patronales para las empresas, ya que los ajustes propuestos se financiarían mediante traslados de fondos del Presupuesto General del Estado.",
+    "resumen": "Propone la creación de una comisión técnica encargada de evaluar y recomendar al Órgano Ejecutivo, cada dos años, incrementos en las pensiones y jubilaciones de la Caja de Seguro Social y del Estado. El proyecto contempla que los eventuales aumentos sean cubiertos con asignaciones del Presupuesto General del Estado transferidas a la entidad de seguridad social.",
+    "sectores": [],
+    "titulo": "Que crea la Comisión Nacional para la Revisión de Pensiones y Jubilaciones y dicta otras disposiciones",
+    "titulo_corto": "Comisión para Revisión de Pensiones y Jubilaciones"
+   },
    "anteproyecto": "229",
    "comision": "COMISION DE TRABAJO, SALUD Y DESARROLLO SOCIAL",
    "etapa": "Enviado a subcomisión para analisis",
@@ -11086,6 +11165,40 @@
    "titulo": "QUE ADOPTA EL PROTOCOLO DE ENMIENDA DEL ACUERDO DE MARRAKECH, POR EL CUAL SE ESTABLECE LA ORGANIZACION MUNDIAL DEL COMERCIO Y EL ANEXO A DICHO PROTOCOLO REFERENTE AL ACUERDO SOBRE SUBVENCIONES A LA PESCA"
   },
   "7682": {
+   "analisis": {
+    "con_pdf": false,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1_oUuyTCAZzQp-UJEpGs0qRw7bqfKyKDC",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "medio",
+    "impactos": [
+     {
+      "nivel": "medio",
+      "razon": "Podría establecer nuevos requisitos, tarifas o restricciones para la obtención de concesiones de agua y descarga de efluentes industriales.",
+      "sector": "INDUSTRIAS"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Afectaría directamente a la industria de bebidas y procesamiento de alimentos que requiere concesiones continuas de agua potable o de fuentes naturales.",
+      "sector": "ALIMENTOS"
+     },
+     {
+      "nivel": "medio",
+      "razon": "Impacta la operación de canteras y proyectos mineros sujetos a permisos estrictos de uso y protección de cuencas hídricas.",
+      "sector": "EXTRACTIVO"
+     }
+    ],
+    "modelo": "gemini-3.8-flash",
+    "razon": "Una ley marco de recursos hídricos suele regular concesiones, cánones de uso, cuotas de extracción y normas ambientales de vertimiento que impactan los costos operativos de sectores productivos intensivos en el uso de agua.",
+    "resumen": "Análisis basado solo en el título. El proyecto propone crear un marco legal integral para la gobernanza, conservación, asignación y aprovechamiento de las fuentes de agua en el territorio nacional. Afectará a todas las actividades económicas y empresas que dependen de concesiones de agua cruda, derechos de extracción o permisos de vertimiento para operar.",
+    "sectores": [
+     "INDUSTRIAS",
+     "ALIMENTOS",
+     "EXTRACTIVO"
+    ],
+    "titulo": "Que establece el marco regulatorio para la gestión integrada de los recursos hídricos de la República de Panamá",
+    "titulo_corto": "Marco regulatorio de recursos hídricos"
+   },
    "anteproyecto": "232",
    "comision": "COMISION DE POBLACION, AMBIENTE Y DESARROLLO",
    "etapa": "Enviado a subcomisión para analisis",
@@ -50755,8 +50868,8 @@
   "7635": "472ae5581bcd",
   "7636": "f107b406f060",
   "7638": "b79aad45f757",
-  "7641": "e4b4fe54b6ee",
-  "7642": "f9a3363a67ee",
+  "7641": "ad44e9024d0d",
+  "7642": "9ddee58ecb8e",
   "7644": "cdffe5357991",
   "7645": "db8ab4a2386b",
   "7647": "8200a1ebf3ed",
@@ -50772,12 +50885,12 @@
   "7659": "8589c3999a18",
   "7662": "30249070e594",
   "7669": "99610dd7e650",
-  "7674": "523463591edb",
+  "7674": "940e084f87f9",
   "7675": "51e3ec97dcf2",
   "7677": "1a39ac3f2d52",
   "7678": "121e469ea80d",
   "7680": "81292df84dcc",
-  "7682": "598d8fc5f5a8",
+  "7682": "3b6c1eaaed7b",
   "7683": "8e4025387377",
   "7684": "3878031fc873",
   "7686": "e2eecfbebf37",
@@ -51820,6 +51933,8 @@
    "7428",
    "7908",
    "7972",
+   "7642",
+   "7682",
    "7717",
    "7461",
    "7650",
@@ -51840,7 +51955,7 @@
    "7636",
    "7490"
   ],
-  "fecha": "2026-10-28T02:11:43",
+  "fecha": "2026-10-28T03:02:45",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -51864,11 +51979,13 @@
    "7609": "399fc6670871",
    "7635": "399fc6670871",
    "7636": "399fc6670871",
+   "7642": "399fc6670871",
    "7650": "399fc6670871",
    "7655": "399fc6670871",
    "7656": "399fc6670871",
    "7659": "399fc6670871",
    "7662": "399fc6670871",
+   "7682": "399fc6670871",
    "7683": "399fc6670871",
    "7695": "399fc6670871",
    "7699": "399fc6670871",
@@ -52524,7 +52641,7 @@
    "521",
    "523"
   ],
-  "revisada": "2026-10-28T02:12:30"
+  "revisada": "2026-10-28T03:03:17"
  },
- "ultima_corrida": "2026-10-28T02:11:43"
+ "ultima_corrida": "2026-10-28T03:02:45"
 }
