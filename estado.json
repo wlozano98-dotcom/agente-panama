@@ -205,6 +205,10 @@
    "carpeta": "Reforma a la ley de protección a los animales domésticos (ficha 7554)",
    "comision": "Comisión de Población, Ambiente y Desarrollo"
   },
+  "7558": {
+   "carpeta": "Flexibilidad académica para estudiantes de alto rendimiento (ficha 7558)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
+  },
   "7560": {
    "carpeta": "Derogación de normas del Reglamento Interno de la Asamblea (ficha 7560)",
    "comision": "Comisión de Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
@@ -260,6 +264,10 @@
   "7601": {
    "carpeta": "Programa de Prevención de la Salud y Atención Primaria (ficha 7601)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
+  "7603": {
+   "carpeta": "Reforma a la Ley Orgánica de Educación sobre bachilleratos e infraestructura (ficha 7603)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
   },
   "7604": {
    "carpeta": "Margen máximo a insumos agropecuarios (ficha 7604)",
@@ -784,6 +792,14 @@
   "7992": {
    "carpeta": "Marco de atención de la diabetes y reforma a leyes de salud (ficha 7992)",
    "comision": "Comisión de Trabajo, Salud y Desarrollo Social"
+  },
+  "7995": {
+   "carpeta": "Reforma a la Ley de Descentralización Municipal (ficha 7995)",
+   "comision": "Comisión de Asuntos Municipales"
+  },
+  "7996": {
+   "carpeta": "Festival Internacional del Manito Ocueño (ficha 7996)",
+   "comision": "Comisión de Educación, Cultura y Deportes"
   },
   "7998": {
    "carpeta": "Reforma a la Ley de Contratación Pública y Código Penal (ficha 7998)",
@@ -7882,6 +7898,20 @@
    "titulo": "QUE ESTABLECE PROTECCION INTEGRAL A LAS PERSONAS NATURALES QUE PRESENTAN DENUNCIAS Y SON TESTIGOS EN FALTAS ADMINISTRATIVAS Y EN MATERIA DE CORRUPCION"
   },
   "7558": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1PD44rIprUgD4Upjq_JQakuEB_Ox91D-Z",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa se limita a la regulación del régimen curricular escolar y apoyos estatales para deportistas y artistas, sin generar costos, trámites ni obligaciones para el sector empresarial.",
+    "resumen": "Propone lineamientos para flexibilizar la carga y el calendario académico de estudiantes con desempeño sobresaliente en el deporte y las artes. Obliga a las autoridades educativas a coordinar planes de estudio especiales y contempla coberturas presupuestarias estatales para sufragar gastos de representación en competencias oficiales.",
+    "sectores": [],
+    "titulo": "Que establece criterios generales para la creación del Programa de Planificación y Flexibilidad Académica para Estudiantes de Alto Rendimiento Deportivo, Cultural y Artístico del Sistema Educativo Panameño",
+    "titulo_corto": "Flexibilidad académica para estudiantes de alto rendimiento"
+   },
    "anteproyecto": "142",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Suspendido",
@@ -9177,6 +9207,20 @@
    "titulo": "POR LA CUAL SE APRUEBA EL ACUERDO MARCO DE COOPERACION ENTRE LA REPUBLICA DE PANAMA Y LA REPUBLICA DOMINICANA, FIRMADO EN SANTO DOMINGO EL 8 DE NOVIEMBRE DE 2022."
   },
   "7603": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1TOMw5V677EzzCWEWbW_5OjJXIgx1ijxz",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No impone obligaciones, costos, trámites ni restricciones a las empresas privadas. La iniciativa regula únicamente la administración de infraestructura escolar y el diseño curricular del Ministerio de Educación (MEDUCA).",
+    "resumen": "Propone obligar al Estado a construir y adecuar centros educativos a nivel de corregimiento y habilitar el uso de planteles existentes en jornada vespertina para impartir educación media. Además, crea bachilleratos en logística, transporte multimodal e innovación tecnológica, con planes piloto en áreas cercanas a zonas económicas especiales.",
+    "sectores": [],
+    "titulo": "Que modifica y adiciona artículos a la Ley 47 de 1946, Orgánica de Educación, y dicta otras disposiciones",
+    "titulo_corto": "Reforma a la Ley Orgánica de Educación sobre bachilleratos e infraestructura"
+   },
    "anteproyecto": "178",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Suspendido",
@@ -22818,6 +22862,20 @@
    "titulo": "QUE ADICIONA UN ARTÍCULO TRANSITORIO AL CÓDIGO FISCAL PARA AUTORIZAR LA ACUÑACIÓN DE MONEDAS CONMEMORATIVAS PARA LA ASOCIACIÓN PRO OBRAS DE BENEFICENCIA"
   },
   "7995": {
+   "analisis": {
+    "con_pdf": false,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/1osfk1x83Izfqq_ooOOqO0UEMnvBTPulf",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "No presenta impacto directo sobre el sector empresarial privado, ya que regula la estructura político-administrativa, transferencias presupuestarias y funcionamiento de los gobiernos locales.",
+    "resumen": "Análisis basado solo en el título. El proyecto propone modificar la Ley 37 de 2009, norma marco de descentralización que rige la asignación de recursos y competencias hacia los municipios y juntas comunales. Está enfocado en la gobernanza, fiscalización y régimen administrativo de los gobiernos locales.",
+    "sectores": [],
+    "titulo": "Que reforma la Ley 37 de 2009, que descentraliza la administración, y dicta otras disposiciones",
+    "titulo_corto": "Reforma a la Ley de Descentralización Municipal"
+   },
    "anteproyecto": "105",
    "comision": "COMISION DE ASUNTOS MUNICIPALES",
    "etapa": "Suspendido",
@@ -22876,6 +22934,20 @@
    "titulo": "QUE REFORMA LA LEY 37 DE 2009, QUE DESCENTRALIZA LA ADMINISTRACION, Y DICTA OTRAS DISPOSICIONES"
   },
   "7996": {
+   "analisis": {
+    "con_pdf": true,
+    "disposiciones": [],
+    "drive": "https://drive.google.com/drive/folders/17y63BVSmG613xwHSEMkVQ4PAbUHioDvt",
+    "fecha_analisis": "2026-10-28",
+    "impacto": "ninguno",
+    "impactos": [],
+    "modelo": "gemini-3.8-flash",
+    "razon": "La iniciativa es de naturaleza estrictamente cultural y de administración pública local; no impone cargas, regulaciones ni obligaciones directas a las empresas privadas.",
+    "resumen": "El proyecto modifica la Ley 53 de 1999 para elevar a categoría internacional el Festival Folclórico del Manito Ocueño, celebrado en Ocú, provincia de Herrera. Además, actualiza la estructura y atribuciones de su Patronato organizador y establece una asignación presupuestaria estatal anual a través del Ministerio de Cultura y la Autoridad de Turismo de Panamá.",
+    "sectores": [],
+    "titulo": "Que eleva a categoría internacional el Festival Folclórico del Manito Ocueño",
+    "titulo_corto": "Festival Internacional del Manito Ocueño"
+   },
    "anteproyecto": "118",
    "comision": "COMISION DE EDUCACION, CULTURA Y DEPORTES",
    "etapa": "Suspendido",
@@ -51532,7 +51604,7 @@
   "7551": "f018ab9d21bc",
   "7554": "e2fab0ea5197",
   "7555": "72475ba0fa37",
-  "7558": "68c245ce8c94",
+  "7558": "16917f6458a7",
   "7560": "59f8eb3143ee",
   "7563": "6a0578d4167f",
   "7566": "75e2df447799",
@@ -51556,7 +51628,7 @@
   "7598": "355f9a0aae40",
   "7601": "33e734dc00be",
   "7602": "db348dbf9d76",
-  "7603": "7949d8d3273b",
+  "7603": "64feb82aa188",
   "7604": "bf6056c1eaad",
   "7605": "14d8fdf6df98",
   "7606": "14f2fea472bc",
@@ -51798,8 +51870,8 @@
   "7992": "3c9a291a68db",
   "7993": "e7c806f6557f",
   "7994": "ae3fac0d27da",
-  "7995": "3627d600ac4e",
-  "7996": "f62aa82ae90e",
+  "7995": "e60e8e752e0c",
+  "7996": "cbe4adc8183b",
   "7997": "8eef966a3274",
   "7998": "f02b873e85ef",
   "7999": "bbbbdb85be27",
@@ -52678,7 +52750,7 @@
    "7582",
    "7493"
   ],
-  "fecha": "2026-10-28T10:05:01",
+  "fecha": "2026-10-28T11:02:53",
   "notas": {
    "7406": "399fc6670871",
    "7419": "399fc6670871",
@@ -53376,7 +53448,7 @@
    "521",
    "523"
   ],
-  "revisada": "2026-10-28T10:05:44"
+  "revisada": "2026-10-28T11:03:42"
  },
- "ultima_corrida": "2026-10-28T10:05:01"
+ "ultima_corrida": "2026-10-28T11:02:53"
 }
