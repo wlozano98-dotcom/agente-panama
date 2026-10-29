@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aprendizaje de la oficina</title>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* Pestaña "Aprendizaje" de la ventana del cerebro (Andrés, 2026-10-26): cómo avanza el aprendizaje de TODA la oficina,
+   semana a semana. Los datos los arma el Worker (/oficina/aprendizaje) y entran en DATOS. */
+:root { --tinta: #18191f; --suave: #5b5e6b; --morado: #9500c5; --lila: #d4bbff; --fondo: #f6f4fa; --tarjeta: #fff;
+  --linea: #e7e3ef; --bien: #2f8f6a; --mal: #c0392b; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Figtree, system-ui, sans-serif; color: var(--tinta); background: var(--fondo); }
+main { max-width: 1240px; margin: 0 auto; padding: 28px 28px 40px; }
+h1 { font-size: 26px; margin: 0 0 4px; letter-spacing: -.01em; }
+.sub { color: var(--suave); margin: 0 0 18px; max-width: 70ch; line-height: 1.45; }
+.estado { display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px; border-radius: 999px; font-weight: 600; font-size: 13px;
+  background: #fff4e5; color: #8a5a00; margin-bottom: 18px; }
+.estado.on { background: #e6f5ee; color: var(--bien); }
+.estado i { width: 8px; height: 8px; border-radius: 50%; background: currentColor; }
+.totales { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; margin-bottom: 18px; }
+.total { background: var(--tarjeta); border-radius: 16px; padding: 14px 16px; border: 1px solid var(--linea); }
+.total b { display: block; font-size: 28px; font-variant-numeric: tabular-nums; }
+.total span { color: var(--suave); font-size: 13px; }
+.graficos { display: grid; grid-template-columns: repeat(auto-fit, minmax(520px, 1fr)); gap: 14px; }
+.grafico { background: var(--tarjeta); border-radius: 18px; padding: 16px 18px 12px; border: 1px solid var(--linea); min-width: 0; }
+.grafico h2 { font-size: 16px; margin: 0 0 2px; }
+.grafico .meta { color: var(--suave); font-size: 13px; margin: 0 0 10px; }
+.grafico .meta .bien { color: var(--bien); font-weight: 600; }
+.grafico svg { width: 100%; height: 210px; display: block; }
+.leyenda { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 12.5px; color: var(--suave); margin-top: 6px; }
+.leyenda span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 3px; background: var(--c); margin-right: 6px; vertical-align: -1px; }
+.vacio { height: 210px; display: grid; place-items: center; text-align: center; color: var(--suave); font-size: 14px; background: #faf9fc;
+  border-radius: 12px; padding: 0 24px; line-height: 1.45; }
+.eje { fill: var(--suave); font-size: 11px; }
+.guia { stroke: var(--linea); }
+.pie { color: var(--suave); font-size: 12.5px; margin-top: 18px; line-height: 1.5; }
+@media (max-width: 600px) { main { padding: 18px 16px 28px; } .graficos { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Cómo aprende la oficina</h1>
+  <p class="sub">Cada vez que el equipo reacciona a un aviso, corrige un reporte o elige qué normas van a Keymonitor, los
+    agentes lo usan para la próxima vez. Aquí se ve, semana a semana, si eso se nota en su trabajo.</p>
+  <div id="estado" class="estado"><i></i><span></span></div>
+  <div class="totales" id="totales"></div>
+  <div class="graficos" id="graficos"></div>
+  <p class="pie" id="pie"></p>
+</main>
+<script>
+var DATOS = __DATOS__;
+var COLORES = ["#9500c5", "#2e3566", "#36a37e", "#e8a33d", "#b48cf2", "#c0392b", "#5b8def"];
+var NOMBRES = { monitor: "Paula", entrevistas: "Diego", relatora: "Fernando", normativa: "Inés", regulatoria: "Mateo", judicial: "Elena",
+  cifras: "Tomás", kiwi: "Kiwi", perfilador: "Sofía", keylaw: "Keylaw", keymonitor: "Keymonitor", keyeconomics: "Keyeconomics",
+  bolaroja: "Bola roja", dato: "Datos", formato: "Formato", redaccion: "Redacción", puntos: "Puntos", conexiones: "Conexiones" };
+var nombre = function (k) { return NOMBRES[k] || k; };
+function $(id) { return document.getElementById(id); }
+function el(t, c, txt) { var e = document.createElement(t); if (c) e.className = c; if (txt != null) e.textContent = txt; return e; }
+var NS = "http://www.w3.org/2000/svg";
+function s(t, a) { var e = document.createElementNS(NS, t); for (var k in a) e.setAttribute(k, a[k]); return e; }
+function semana(iso) { var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso); return m ? m[3] + "/" + m[2] : iso; }
+
+var e = DATOS.estado;
+var solo = (e.agentes || []).map(function (a) { return nombre(a.agente); });
+$("estado").classList.toggle("on", !!e.activo || solo.length > 0);
+$("estado").querySelector("span").textContent = e.activo
+  ? "Aprendizaje encendido desde el " + semana(e.desde) + ": los agentes usan lo que marca el equipo"
+  : solo.length
+    ? "Aprendizaje encendido solo para " + solo.join(", ") + " desde el " + semana(e.agentes[0].desde) +
+      "; los demás agentes guardan lo que marca el equipo y lo usarán desde el lanzamiento"
+    : "Aprendizaje apagado hasta el lanzamiento: lo que marca el equipo se guarda, pero los agentes todavía no lo usan";
+
+DATOS.totales.forEach(function (t) {
+  var c = el("div", "total"); c.append(el("b", null, t.valor.toLocaleString("es")), el("span", null, t.texto)); $("totales").append(c);
+});
+
+// gráfico de líneas: series {clave: [valor por semana o null]}, en porcentaje (0-100) o en número
+function lineas(series, semanas, pct) {
+  var W = 560, H = 210, iz = 40, de = 12, ar = 12, ab = 26;
+  var vals = []; Object.keys(series).forEach(function (k) { series[k].forEach(function (v) { if (v != null) vals.push(v); }); });
+  var max = pct ? 100 : Math.max(1, Math.ceil(Math.max.apply(null, vals) * 1.15));
+  var svg = s("svg", { viewBox: "0 0 " + W + " " + H, role: "img" });
+  var x = function (i) { return iz + (W - iz - de) * (semanas.length > 1 ? i / (semanas.length - 1) : .5); };
+  var y = function (v) { return ar + (H - ar - ab) * (1 - v / max); };
+  [0, .5, 1].forEach(function (f) {
+    var v = max * f; svg.append(s("line", { x1: iz, x2: W - de, y1: y(v), y2: y(v), class: "guia" }));
+    var t = s("text", { x: iz - 6, y: y(v) + 4, "text-anchor": "end", class: "eje" }); t.textContent = pct ? Math.round(v) + " %" : (Math.round(v * 10) / 10); svg.append(t);
+  });
+  var cada = Math.max(1, Math.ceil(semanas.length / 8));  // con muchos días, no todas las fechas caben abajo
+  semanas.forEach(function (w, i) { if (i % cada && i !== semanas.length - 1) return; var t = s("text", { x: x(i), y: H - 6, "text-anchor": "middle", class: "eje" }); t.textContent = semana(w); svg.append(t); });
+  Object.keys(series).forEach(function (k, n) {
+    var c = COLORES[n % COLORES.length], d = "", previo = false;
+    series[k].forEach(function (v, i) { if (v == null) { previo = false; return; } d += (previo ? "L" : "M") + x(i) + "," + y(v); previo = true; });
+    if (d) svg.append(s("path", { d: d, fill: "none", stroke: c, "stroke-width": 2.5, "stroke-linejoin": "round", "stroke-linecap": "round" }));
+    series[k].forEach(function (v, i) {
+      if (v == null) return;
+      var p = s("circle", { cx: x(i), cy: y(v), r: 4, fill: c });
+      var tt = s("title", {}); tt.textContent = nombre(k) + " · semana del " + semana(semanas[i]) + ": " + (pct ? Math.round(v) + " %" : Math.round(v * 10) / 10);
+      p.append(tt); svg.append(p);
+    });
+  });
+  return svg;
+}
+
+// cómo crece el cerebro, día a día desde el primero (los mismos puntos y conexiones de la pantalla de la entrada)
+(function () {
+  var cr = DATOS.crecimiento; if (!cr || !cr.dias.length) return;
+  var c = el("section", "grafico"), ult = cr.dias.length - 1;
+  c.append(el("h2", null, "Cómo crece el cerebro"));
+  c.append(el("p", "meta", "Puntos (personas, instituciones, proyectos y documentos) y conexiones entre ellos, día a día desde el " +
+    semana(cr.dias[0]) + ". Hoy: " + cr.series.puntos[ult].toLocaleString("es") + " puntos y " + cr.series.conexiones[ult].toLocaleString("es") + " conexiones."));
+  c.append(lineas(cr.series, cr.dias, false));
+  var l = el("div", "leyenda");
+  Object.keys(cr.series).forEach(function (k, n) { var sp = el("span", null, nombre(k)); sp.style.setProperty("--c", COLORES[n % COLORES.length]); l.append(sp); });
+  c.append(l); $("graficos").append(c);
+})();
+
+DATOS.graficos.forEach(function (g) {
+  var c = el("section", "grafico"); c.append(el("h2", null, g.titulo));
+  var m = el("p", "meta"); m.append(document.createTextNode(g.explica + " "));
+  m.append(el("span", "bien", g.bien === "baja" ? "Si aprende, baja." : "Si aprende, sube.")); c.append(m);
+  var hay = Object.keys(g.series).some(function (k) { return g.series[k].some(function (v) { return v != null; }); });
+  if (!hay) { c.append(el("div", "vacio", g.vacio)); }
+  else {
+    c.append(lineas(g.series, DATOS.semanas, g.pct));
+    var l = el("div", "leyenda");
+    Object.keys(g.series).forEach(function (k, n) { var sp = el("span", null, nombre(k) + (g.casos && g.casos[k] ? " (" + g.casos[k] + ")" : "")); sp.style.setProperty("--c", COLORES[n % COLORES.length]); l.append(sp); });
+    c.append(l);
+  }
+  $("graficos").append(c);
+});
+$("pie").textContent = "Semanas de lunes a domingo, últimas " + DATOS.semanas.length + ". Entre paréntesis, cuántos casos hay detrás de cada línea: " +
+  "con pocos casos una semana puede moverse mucho. Datos al " + DATOS.fecha + ".";
+</script>
+</body>
+</html>

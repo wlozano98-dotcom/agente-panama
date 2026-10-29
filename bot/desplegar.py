@@ -10,6 +10,7 @@ está, solo TELEGRAM_CHAT_ID). BOT_WEBHOOK_SECRET y OFICINA_CLAVE se generan la 
 import base64
 import json
 import os
+import re
 import secrets
 import sys
 import urllib.error
@@ -53,9 +54,39 @@ def subir_codigo():
     for nombre in ("keyword-negro", "keyword-blanco"):  # logos de Keyword dentro de la página
         datos = base64.b64encode(open(os.path.join(CARPETA, "img", nombre + ".png"), "rb").read()).decode()
         pagina = pagina.replace(f"__LOGO_{nombre.split('-')[1].upper()}__", "data:image/png;base64," + datos)
-    codigo = codigo.replace("__PAGINA_OFICINA__", json.dumps(pagina)).encode()
+    # la escena dibujada: la oficina de siempre + bot/escena_entrada.css y .js (Andrés, 2026-10-26: la publicada, con
+    # la entrada en el medio, Kiwi con el logo y la pantalla con el cerebro; reemplaza a escena_nueva)
+    previa = ""
+    if os.path.exists(os.path.join(CARPETA, "escena_entrada.js")):
+        css = open(os.path.join(CARPETA, "escena_entrada.css"), encoding="utf-8").read()
+        js = open(os.path.join(CARPETA, "escena_entrada.js"), encoding="utf-8").read()
+        pagina = pagina.replace("Math.min(2, base", "Math.min(3, base")  # cuatro zonas: al arrastrar se llega a la económica
+        fin = pagina.rindex("})();")
+        previa = (pagina[:fin] + js + "\n" + pagina[fin:]).replace("</style>", css + "\n</style>", 1).replace(
+            "<title>", '<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet"><title>', 1)
+        pagina = previa  # la escena dibujada es la oficina publicada
+    # íconos y logo del modelo de Keyperfil de Keyword (ejemplos/ y el sistema de diseño no se suben al repo)
+    activos = {}
+    carpeta_kp = os.path.join(os.path.dirname(CARPETA), "ejemplos", "keyword", "keyperfil")
+    for n in ("birrete", "foco", "info"):
+        if os.path.exists(os.path.join(carpeta_kp, n + ".png")):
+            activos[n] = "data:image/png;base64," + base64.b64encode(open(os.path.join(carpeta_kp, n + ".png"), "rb").read()).decode()
+    # logo en azul marino como en el modelo (PNG: el conversor a PDF del navegador dibuja mal los SVG)
+    import io
+    from PIL import Image
+    negro = Image.open(os.path.join(CARPETA, "img", "keyword-negro.png")).convert("RGBA")
+    marino = Image.new("RGBA", negro.size, (46, 53, 102, 255))
+    marino.putalpha(negro.getchannel("A"))
+    salida = io.BytesIO(); marino.save(salida, "PNG")
+    activos["logo"] = "data:image/png;base64," + base64.b64encode(salida.getvalue()).decode()
+    codigo = codigo.replace("__KP_ACTIVOS__", json.dumps(activos))
+    mapa = open(os.path.join(os.path.dirname(CARPETA), "diseno", "mapa.html"), encoding="utf-8").read()
+    aprendizaje = open(os.path.join(os.path.dirname(CARPETA), "diseno", "aprendizaje.html"), encoding="utf-8").read()
+    codigo = codigo.replace("__PAGINA_APRENDIZAJE__", json.dumps(aprendizaje))
+    codigo = codigo.replace("__PAGINA_MAPA__", json.dumps(mapa)).replace("__PAGINA_OFICINA__", json.dumps(pagina)).replace("__PAGINA_PREVIA__", json.dumps(previa)).encode()
     meta = json.dumps({"main_module": "worker.js", "compatibility_date": "2026-09-01",
-                       "bindings": [{"type": "d1", "name": "DB", "id": d1.id_base()}],
+                       "bindings": [{"type": "d1", "name": "DB", "id": d1.id_base()},
+                                    {"type": "vectorize", "name": "VECTORES", "index_name": "cerebro-panama"}],
                        "keep_bindings": ["secret_text"]})
     cuerpo = (
         f"--{limite}\r\nContent-Disposition: form-data; name=\"metadata\"\r\n"

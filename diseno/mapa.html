@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mapa del cerebro</title>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<style>
+/* El mapa del cerebro (cerebro/mapa.py lo llena con los datos de D1). Línea gráfica de Keyword. */
+:root {
+  --fondo: #F6F4FA; --tinta: #18191F; --suave: #6B6E78; --linea: #E4E0EC; --panel: #FFFFFF;
+  --morado: #9500C5; --lavanda: #D4BBFF; --marino: #2E3566;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; background: var(--fondo); color: var(--tinta); font-family: Figtree, system-ui, sans-serif; }
+canvas { display: block; width: 100vw; height: 100vh; cursor: grab; }
+canvas:active { cursor: grabbing; }
+.cabeza { position: fixed; top: 20px; left: 20px; max-width: 420px; background: var(--panel); border-radius: 18px;
+  padding: 18px 20px; box-shadow: 0 8px 30px rgba(24, 25, 31, .08); }
+.cabeza h1 { margin: 0 0 4px; font-size: 20px; font-weight: 700; letter-spacing: -.01em; }
+.cabeza p { margin: 0; color: var(--suave); font-size: 13px; line-height: 1.45; }
+.cifras { display: flex; gap: 16px; margin: 12px 0 10px; }
+.cifras b { display: block; font-size: 20px; color: var(--morado); }
+.cifras span { font-size: 11px; color: var(--suave); text-transform: uppercase; letter-spacing: .04em; }
+.filtros { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.filtro { border: 1px solid var(--linea); background: #fff; border-radius: 999px; padding: 5px 10px 5px 8px; font: 500 12px Figtree, sans-serif;
+  display: inline-flex; align-items: center; gap: 6px; cursor: pointer; color: var(--tinta); }
+.filtro i { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+.filtro.apagado { opacity: .4; }
+.buscar { margin-top: 10px; width: 100%; border: 1px solid var(--linea); border-radius: 10px; padding: 8px 10px; font: 14px Figtree, sans-serif; }
+.panel { position: fixed; top: 20px; right: 20px; bottom: 20px; width: 360px; background: var(--panel); border-radius: 18px;
+  box-shadow: 0 8px 30px rgba(24, 25, 31, .1); padding: 20px; overflow: auto; display: none; }
+.panel.ver { display: block; }
+.panel .tipo { font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--morado); }
+.panel h2 { margin: 4px 0 6px; font-size: 19px; line-height: 1.25; }
+.panel .cargo { color: var(--suave); font-size: 13px; margin-bottom: 14px; }
+.panel h3 { font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--suave); margin: 16px 0 6px; }
+.panel button.vecino { display: flex; width: 100%; align-items: center; gap: 8px; text-align: left; border: 0; background: transparent;
+  padding: 6px 4px; border-radius: 8px; font: 13px Figtree, sans-serif; color: var(--tinta); cursor: pointer; }
+.panel button.vecino:hover { background: var(--fondo); }
+.panel button.vecino i { width: 8px; height: 8px; border-radius: 50%; flex: none; }
+.panel .cerrar { position: absolute; top: 14px; right: 14px; border: 0; background: var(--fondo); width: 30px; height: 30px; border-radius: 50%;
+  cursor: pointer; font-size: 16px; }
+.panel a { color: var(--morado); font-weight: 600; font-size: 13px; }
+.pie { position: fixed; left: 20px; bottom: 16px; font-size: 12px; color: var(--suave); }
+.borrador { position: fixed; left: 50%; top: 16px; transform: translateX(-50%); background: var(--lavanda); color: var(--tinta);
+  font-size: 12px; font-weight: 600; padding: 6px 12px; border-radius: 999px; }
+@media (max-width: 760px) { .cabeza { right: 16px; left: 16px; max-width: none; } .panel { left: 16px; right: 16px; width: auto; top: auto; height: 55vh; } .borrador { display: none; } }
+</style>
+</head>
+<body>
+<canvas id="lienzo"></canvas>
+<div class="borrador">Borrador · solo en esta Mac · no está en la oficina</div>
+<div class="cabeza">
+  <h1>El cerebro de Keyword Panamá</h1>
+  <p>Cada punto es un actor, un proyecto o un documento; cada línea, una relación. Arrastra para moverte, usa la rueda para acercarte y toca un punto para ver con qué se une.</p>
+  <div class="cifras" id="cifras"></div>
+  <div class="filtros" id="filtros"></div>
+  <input class="buscar" id="buscar" placeholder="Buscar: Mulino, Presupuesto, Gaceta…" aria-label="Buscar en el mapa">
+</div>
+<aside class="panel" id="panel" aria-live="polite"></aside>
+<div class="pie" id="pie"></div>
+<script>
+var DATOS = __DATOS__;
+var TIPOS = {
+  persona: ["Personas", "#9500C5"], institucion: ["Instituciones", "#2E3566"], comision: ["Comisiones", "#B48CF2"],
+  partido: ["Partidos", "#E8A33D"], proyecto: ["Proyectos de ley", "#36A37E"], documento: ["Documentos", "#8A8D96"],
+};
+var color = function (t) { return (TIPOS[t] || ["", "#8A8D96"])[1]; };
+var apagados = {}, seleccionado = null, vecinos = new Set(), busqueda = "";
+
+// grado (cuántas líneas tiene cada punto) para el tamaño
+var porId = {};
+DATOS.nodos.forEach(function (n) { n.grado = 0; porId[n.id] = n; });
+var lineas = DATOS.lineas.filter(function (l) { return porId[l.a] && porId[l.b]; })
+  .map(function (l) { porId[l.a].grado++; porId[l.b].grado++; return { source: l.a, target: l.b, t: l.t, d: l.d }; });
+DATOS.nodos.forEach(function (n) { n.r = n.tipo === "documento" ? 3 : 3.5 + Math.sqrt(n.grado) * 1.5; });
+
+// cifras de arriba
+var cuenta = {}; DATOS.nodos.forEach(function (n) { cuenta[n.tipo] = (cuenta[n.tipo] || 0) + 1; });
+document.getElementById("cifras").innerHTML = [["Actores", (cuenta.persona || 0) + (cuenta.institucion || 0) + (cuenta.comision || 0) + (cuenta.partido || 0)],
+  ["Documentos", cuenta.documento || 0], ["Proyectos", cuenta.proyecto || 0], ["Conexiones", lineas.length]]
+  .map(function (x) { return "<div><b>" + x[1].toLocaleString("es") + "</b><span>" + x[0] + "</span></div>"; }).join("");
+document.getElementById("pie").textContent = "Datos del cerebro al " + DATOS.fecha;
+var filtros = document.getElementById("filtros");
+Object.keys(TIPOS).forEach(function (t) {
+  if (!cuenta[t]) return;
+  var b = document.createElement("button"); b.className = "filtro"; b.type = "button";
+  b.innerHTML = '<i style="background:' + TIPOS[t][1] + '"></i>' + TIPOS[t][0] + " · " + cuenta[t];
+  b.onclick = function () { apagados[t] = !apagados[t]; b.classList.toggle("apagado", apagados[t]); dibujar(); };
+  filtros.append(b);
+});
+
+var lienzo = document.getElementById("lienzo"), ctx = lienzo.getContext("2d"), dpr = window.devicePixelRatio || 1, ancho, alto;
+function medir() { ancho = innerWidth; alto = innerHeight; lienzo.width = ancho * dpr; lienzo.height = alto * dpr; dibujar(); }
+
+var sim = d3.forceSimulation(DATOS.nodos)
+  .force("enlace", d3.forceLink(lineas).id(function (n) { return n.id; }).distance(function (l) { return l.t === "menciona" ? 55 : 35; }).strength(0.35))
+  .force("carga", d3.forceManyBody().strength(function (n) { return -18 - n.grado * 2.5; }).distanceMax(600))
+  .force("choque", d3.forceCollide().radius(function (n) { return n.r + 1.5; }))
+  .force("x", d3.forceX(0).strength(0.03)).force("y", d3.forceY(0).strength(0.03))
+  .stop();
+for (var i = 0; i < 320; i++) sim.tick();  // se acomoda antes de mostrar
+var vista = d3.zoomIdentity;
+// nombres fijos solo para los 14 más conectados (el resto aparece al acercarse, al buscar o al tocar)
+var umbral = DATOS.nodos.map(function (n) { return n.grado; }).sort(function (a, b) { return b - a; })[13] || 0;
+
+function visible(n) { return !apagados[n.tipo]; }
+function coincide(n) { return busqueda && (n.nombre + " " + n.cargo).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").indexOf(busqueda) >= 0; }
+var pulso = 0;
+function dibujar() {
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  ctx.clearRect(0, 0, ancho, alto);
+  ctx.translate(ancho / 2 + vista.x, alto / 2 + vista.y); ctx.scale(vista.k, vista.k);
+  var foco = seleccionado || busqueda;
+  ctx.lineWidth = 0.6 / vista.k;
+  lineas.forEach(function (l) {
+    if (!visible(l.source) || !visible(l.target)) return;
+    var activa = seleccionado && (l.source === seleccionado || l.target === seleccionado);
+    ctx.strokeStyle = activa ? "rgba(149,0,197,.75)" : foco ? "rgba(24,25,31,.04)" : "rgba(24,25,31,.10)";
+    ctx.lineWidth = (activa ? 1.4 : 0.6) / vista.k;
+    ctx.beginPath(); ctx.moveTo(l.source.x, l.source.y); ctx.lineTo(l.target.x, l.target.y); ctx.stroke();
+  });
+  DATOS.nodos.forEach(function (n) {
+    if (!visible(n)) return;
+    var resalta = n === seleccionado || vecinos.has(n) || coincide(n);
+    ctx.globalAlpha = foco && !resalta ? 0.15 : 1;
+    ctx.fillStyle = color(n.tipo);
+    ctx.beginPath(); ctx.arc(n.x, n.y, n.r, 0, 2 * Math.PI); ctx.fill();
+    if (n.tipo === "comision") { ctx.strokeStyle = "#9500C5"; ctx.lineWidth = 1 / vista.k; ctx.stroke(); }
+    if (n.nuevo) { ctx.strokeStyle = "rgba(149,0,197," + (0.6 - (pulso % 1) * 0.6) + ")"; ctx.lineWidth = 1.5 / vista.k;
+      ctx.beginPath(); ctx.arc(n.x, n.y, n.r + 2 + (pulso % 1) * 8, 0, 2 * Math.PI); ctx.stroke(); }
+    if (n === seleccionado) { ctx.strokeStyle = "#18191F"; ctx.lineWidth = 2 / vista.k; ctx.beginPath(); ctx.arc(n.x, n.y, n.r + 3, 0, 2 * Math.PI); ctx.stroke(); }
+  });
+  ctx.globalAlpha = 1;
+  // nombres: los más conectados siempre; el resto al acercarse o si está resaltado
+  ctx.font = "600 " + 11 / vista.k + "px Figtree, sans-serif"; ctx.textAlign = "center"; ctx.lineJoin = "round";
+  DATOS.nodos.forEach(function (n) {
+    if (!visible(n)) return;
+    var resalta = n === seleccionado || vecinos.has(n) || coincide(n);
+    if (resalta || (!foco && (n.grado >= umbral && vista.k < 2.2 || vista.k >= 2.2 && n.grado >= 6 && n.tipo !== "documento" || vista.k > 4.5))) {
+      var t = n.nombre.length > 34 ? n.nombre.slice(0, 32) + "…" : n.nombre;
+      ctx.strokeStyle = "rgba(246,244,250,.92)"; ctx.lineWidth = 3.5 / vista.k; ctx.strokeText(t, n.x, n.y - n.r - 4 / vista.k);
+      ctx.fillStyle = "#18191F"; ctx.fillText(t, n.x, n.y - n.r - 4 / vista.k);
+    }
+  });
+}
+
+var zoom = d3.zoom().scaleExtent([0.2, 8]).on("zoom", function (e) { vista = e.transform; dibujar(); });
+d3.select(lienzo).call(zoom);
+lienzo.addEventListener("click", function (e) {
+  var x = (e.clientX - ancho / 2 - vista.x) / vista.k, y = (e.clientY - alto / 2 - vista.y) / vista.k, mejor = null, d = 14 / vista.k;
+  DATOS.nodos.forEach(function (n) { if (!visible(n)) return; var dd = Math.hypot(n.x - x, n.y - y) - n.r; if (dd < d) { d = dd; mejor = n; } });
+  elegir(mejor);
+});
+
+var panel = document.getElementById("panel");
+function elegir(n) {
+  seleccionado = n; vecinos = new Set();
+  if (!n) { panel.classList.remove("ver"); dibujar(); return; }
+  var grupos = {};
+  lineas.forEach(function (l) {
+    var otro = l.source === n ? l.target : l.target === n ? l.source : null;
+    if (!otro) return;
+    vecinos.add(otro);
+    var etiqueta = DATOS.relacion[l.t] || l.t;
+    if (l.target === n && l.t === "menciona") etiqueta = "Aparecen aquí";
+    else if (l.target === n && l.t === "presento") etiqueta = "Lo presentó";
+    else if (l.target === n) etiqueta = { integra: "La integran", preside: "La preside", pertenece_a: "Miembros", suplente_de: "Su suplente", dirige: "La dirige" }[l.t] || etiqueta;
+    (grupos[etiqueta] = grupos[etiqueta] || []).push(otro);
+  });
+  var h = '<button class="cerrar" type="button" aria-label="Cerrar">×</button>';
+  var UNO = { persona: "Persona", institucion: "Institución", comision: "Comisión", partido: "Partido", proyecto: "Proyecto de ley", documento: "Documento" };
+  h += '<div class="tipo">' + (UNO[n.tipo] || n.tipo) + (n.sub ? " · " + n.sub : "") + "</div>";
+  h += "<h2>" + esc(n.nombre) + "</h2>";
+  var linea = [n.cargo, n.partido].filter(Boolean).join(" · ");
+  if (linea) h += '<div class="cargo">' + esc(linea) + "</div>";
+  if (n.url) h += '<a href="' + esc(n.url) + '" target="_blank" rel="noopener">Abrir la fuente ↗</a>';
+  h += '<div class="cargo">' + vecinos.size + " conexiones</div>";
+  Object.keys(grupos).forEach(function (g) {
+    h += "<h3>" + esc(g.charAt(0).toUpperCase() + g.slice(1)) + " · " + grupos[g].length + "</h3>";
+    grupos[g].slice(0, 40).forEach(function (o) {
+      h += '<button class="vecino" type="button" data-id="' + esc(o.id) + '"><i style="background:' + color(o.tipo) + '"></i>' + esc(o.nombre) + "</button>";
+    });
+    if (grupos[g].length > 40) h += '<div class="cargo">y ' + (grupos[g].length - 40) + " más</div>";
+  });
+  panel.innerHTML = h; panel.classList.add("ver"); panel.scrollTop = 0;
+  panel.querySelector(".cerrar").onclick = function () { elegir(null); };
+  panel.querySelectorAll(".vecino").forEach(function (b) { b.onclick = function () { centrar(porId[b.dataset.id]); }; });
+  dibujar();
+}
+function centrar(n) {
+  elegir(n);
+  var k = Math.max(vista.k, 1.6), t = d3.zoomIdentity.translate(-n.x * k, -n.y * k).scale(k);
+  d3.select(lienzo).transition().duration(600).call(zoom.transform, t);
+}
+function esc(t) { return String(t || "").replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+
+document.getElementById("buscar").addEventListener("input", function (e) {
+  busqueda = e.target.value.trim().toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+  if (busqueda.length < 3) busqueda = "";
+  dibujar();
+});
+document.getElementById("buscar").addEventListener("keydown", function (e) {
+  if (e.key !== "Enter" || !busqueda) return;
+  // primero los actores y proyectos (no los documentos que los nombran); entre ellos, el más conectado
+  var n = DATOS.nodos.filter(function (x) { return visible(x) && coincide(x); })
+    .sort(function (a, b) { return ((a.tipo === "documento") - (b.tipo === "documento")) || b.grado - a.grado; })[0];
+  if (n) centrar(n);
+});
+addEventListener("keydown", function (e) { if (e.key === "Escape") elegir(null); });
+addEventListener("resize", medir);
+medir();
+// encuadre inicial: todo el mapa en el espacio libre (a la derecha del cuadro de arriba en pantallas anchas)
+(function () {
+  var xs = DATOS.nodos.map(function (n) { return n.x; }), ys = DATOS.nodos.map(function (n) { return n.y; });
+  var x0 = Math.min.apply(null, xs), x1 = Math.max.apply(null, xs), y0 = Math.min.apply(null, ys), y1 = Math.max.apply(null, ys);
+  var libreX = ancho > 900 ? 460 : 0, k = Math.min((ancho - libreX - 40) / (x1 - x0), (alto - 40) / (y1 - y0), 2) * 0.95;
+  d3.select(lienzo).call(zoom.transform, d3.zoomIdentity.translate(libreX / 2 - (x0 + x1) / 2 * k, -(y0 + y1) / 2 * k).scale(k));
+})();
+if (!matchMedia("(prefers-reduced-motion: reduce)").matches && DATOS.nodos.some(function (n) { return n.nuevo; }))
+  d3.timer(function (t) { pulso = t / 1600; dibujar(); });
+</script>
+</body>
+</html>

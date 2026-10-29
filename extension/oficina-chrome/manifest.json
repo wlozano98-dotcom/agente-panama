@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Keyword · Chrome de la oficina",
+  "version": "1.8",
+  "description": "Trae a la Mac de la oficina cada edición de la Gaceta Oficial (Inés), los edictos del Pleno y comunicados de la Corte Suprema (Elena), las listas de X de medios y autoridades (Paula y Diego) y los boletines de prensa de la Asamblea (Fernando).",
+  "permissions": ["alarms", "scripting", "tabs", "notifications"],
+  "host_permissions": ["https://www.organojudicial.gob.pa/*", "https://www.gacetaoficial.gob.pa/*", "http://127.0.0.1:8765/*", "https://x.com/*", "https://www.asamblea.gob.pa/*"],
+  "background": { "service_worker": "fondo.js" },
+  "action": { "default_title": "Revisar la Gaceta y la Corte ahora", "default_icon": { "16": "icono16.png", "48": "icono48.png" } },
+  "icons": { "16": "icono16.png", "48": "icono48.png", "128": "icono128.png" }
+}

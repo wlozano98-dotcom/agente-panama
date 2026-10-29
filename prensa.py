@@ -364,6 +364,7 @@ def avisos_agenda(citas, fichas_de):
             mensajes.append(actual)
             actual = "📅 <b>Agenda de comisiones (sigue)</b>"
         actual += "\n\n" + b
+    actual += "\n\nLa Relatora escuchará todas. Marca en la oficina (mesa de la Relatora) en cuáles quieres Keylaw."
     return mensajes + [actual] if bloques else []
 
 
