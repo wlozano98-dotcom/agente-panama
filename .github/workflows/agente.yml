@@ -39,6 +39,7 @@ jobs:
           GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
           CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLIENTES_JSON: ${{ secrets.CLIENTES_JSON }}
         run: python agente.py
 
       # La Cronista (prensa.py): noticias, agenda de comisiones y Orden del Día del Pleno de www.asamblea.gob.pa, que tiene anti-bots y solo

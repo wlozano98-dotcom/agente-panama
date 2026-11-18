@@ -179,8 +179,9 @@ def numero(f):
 
 CLIENTES_DATOS = json.load(open(os.path.join(CARPETA, "datos", "clientes.json"), encoding="utf-8"))
 SECTORES = CLIENTES_DATOS["sectores"]
-CLIENTES = CLIENTES_DATOS["clientes"]
-TEMAS = sorted({t for c in CLIENTES.values() for t in c.get("temas", [])})
+import clientes as _clientes  # noqa: E402  (ficha privada: CLIENTES_JSON o datos/clientes_privados.json)
+CLIENTES = _clientes.CLIENTES
+TEMAS = _clientes.temas()
 TODAS = "TODAS LAS EMPRESAS"
 SECTORES_GENERALES = {"OTROS", "INDUSTRIAS", TODAS}
 NIVELES = ["alto", "medio", "bajo"]
@@ -193,8 +194,8 @@ def sectores_cliente(c):
 
 def clientes_afectados(r):
     """Cruce local de sectores y temas con la ficha de clientes (los nombres nunca pasan por Gemini)."""
-    temas, sectores = set(r.get("temas", [])), set(r.get("sectores", [])) - SECTORES_GENERALES
-    return sorted(n for n, c in CLIENTES.items() if temas & set(c.get("temas", [])) or sectores_cliente(c) & sectores)
+    texto = f"{r.get('titulo', '')} {r.get('resumen', '')}"
+    return sorted(_clientes.afectados(r.get("sectores", []), r.get("temas", []), texto))
 
 
 def completar_impacto(r):
@@ -519,9 +520,6 @@ def lineas_impacto(r):
         lineas.append(f"<i>{e(r['razon'])}</i>")
         return lineas
     lineas.append(f"🏭 <b>Sectores impactados:</b> {e(texto_sectores(r) or '—')}")
-    clientes = clientes_afectados(r)
-    if clientes:
-        lineas.append(f"👥 <b>Clientes:</b> {e(', '.join(clientes))}")
     return lineas
 
 

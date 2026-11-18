@@ -172,9 +172,7 @@ menciones, relaciones, declaraciones, expedientes, productos, tareas. Todo corre
   "• Viñeta" (pone o quita), → / ← (nivel de la viñeta), Quitar formato; se escribe en párrafos normales y Enter en
   una viñeta vacía sale de la lista. Se guarda como texto: **negrita**, _cursiva_, <u>subrayado</u>, viñetas "- " (dos
   espacios por nivel). "Copiar correo" copia con formato (HTML) y, si el navegador no deja, como texto.
-- DATOS DE PRUEBA (BORRAR antes de la versión final): declaraciones de Fernando Boyd Galindo en documentos con fuente
-  `prueba_asamblea` / `prueba_entrevista` (sin fragmentos, no entran a Kiwi). Borrar con: DELETE FROM declaraciones
-  WHERE documento LIKE 'prueba:%'; DELETE FROM documentos WHERE fuente LIKE 'prueba%'. También MEDIOS_EJEMPLO.
+- Datos de prueba de Boyd BORRADOS (2026-11-17, paso a operación). MEDIOS_EJEMPLO solo queda en bot/oficina2.html (no se despliega).
 - PDF de paso: `mesa.limpiar_pdf` borra cada día los PDF de más de 7 días (normas partidas, ediciones, Keyperfil) en
   la Mac y en Drive, y deja normas.pdf en NULL. El texto de cada norma queda en el cerebro (fuente "gaceta_texto").
 - DISEÑO PUBLICADO (2026-10-25): la escena dibujada en SVG (bot/escena_nueva.js + .css) se suma a oficina.html al
@@ -377,6 +375,16 @@ menciones, relaciones, declaraciones, expedientes, productos, tareas. Todo corre
   "archivado" y se pide después con un clic. Keylaw y Keymonitor usan como guía de tono los ejemplos reales
   (`cerebro.ejemplos()`, de `ejemplos/keyword/`, no se suben). Cada reporte: editable, "Copiar correo" (viñetas con
   asterisco), revisado/enviado.
+
+## Operación (desde 2026-11-17)
+
+- Primer cliente real en Panamá. Ficha PRIVADA: `datos/clientes_privados.json` (en .gitignore) en la máquina de la
+  mesa y secreto CLIENTES_JSON en GitHub (mismo JSON; lo carga Andrés). Informe de ChatGPT en `Invesitgacion/cliente_1_…`.
+- `clientes.py`: cruce LOCAL (sector, tema, nombre/marca, palabra clave; sin tildes, palabra completa), base de las
+  ALERTAS PERSONALIZADAS (siguiente paso). Los avisos de Telegram NO llevan clientes (Andrés, 2026-11-18: serán cientos;
+  la forma de reportar no cambia). Lo usan agente.py (matriz y .md de Drive). `python3 clientes.py <texto>` prueba el
+  cruce. Al mudar a la PC: copiar datos/clientes_privados.json.
+- OJO repo público: estado.json y los logs de Actions son públicos; nunca imprimir ni guardar ahí nombres de clientes.
 
 ## Pendientes (2026-10-09)
 
