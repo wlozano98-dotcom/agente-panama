@@ -178,7 +178,7 @@ def biblioteca(producto):
             casos.append(f"Asunto: {d['asunto']}\n\n{d['texto']}".strip())
         except (ValueError, KeyError):
             pass
-    casos = [c for c in casos if len(c) > 300]
+    casos = [c for c in casos if len(c) > 300 and "No se pudo entregar" not in c[:400]]  # sin rebotes del correo
     _BIBLIOTECA[producto] = [(c, _palabras(c[:2500])) for c in casos]
     return _BIBLIOTECA[producto]
 
