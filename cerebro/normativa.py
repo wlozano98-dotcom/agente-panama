@@ -195,7 +195,7 @@ def redactar(ids):
         numero = numero_de(grupo[0]["gaceta_titulo"])
         lista = "\n".join(f"- id {n['id']}: {n['tipo']} {n['numero']} de {n['entidad']} — {n['titulo']} (páginas {n['paginas']})"
                           for n in grupo)
-        r = ia.generar_pdf_json(REDACCION + cerebro.ejemplos("Keymonitor"), subir(numero),
+        r = ia.generar_pdf_json(REDACCION + cerebro.ejemplos("Keymonitor", parecido_a=lista), subir(numero),
                                 f"Gaceta Oficial N.º {numero.replace('_', '-')}. Normas elegidas:\n{lista}", ESQUEMA_REDACCION)
         por_id = {n["id"]: n for n in grupo}
         productos = []

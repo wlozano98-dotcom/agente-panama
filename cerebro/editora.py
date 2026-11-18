@@ -80,7 +80,10 @@ def corregir(tipo, titulo, contenido, fuentes, texto_fuente=None):
     """Kiwi revisa un reporte: devuelve (texto corregido, revisión). Si Gemini falla, (el mismo texto, None).
     texto_fuente: el material que recibió el agente, cuando no está guardado como documento (pases pedidos en el chat)."""
     try:
-        r = ia.generar_json(REVISION, f"FORMATO ESPERADO: {FORMATOS.get(tipo, tipo)}\n\nREPORTE:\nAsunto: {titulo}\n\n{contenido}"
+        producto = {"keylaw": "Keylaw", "keymonitor": "Keymonitor", "keyeconomics": "Keyeconomics", "bolaroja": "BolaRoja"}.get(tipo, tipo)
+        manual = cerebro.manual(producto)  # el manual vivo (Escuela de agentes): manda sobre el formato de una línea
+        formato = FORMATOS.get(tipo, tipo) + (f"\n\nMANUAL DE ESTILO (revisa contra esto):\n{manual}" if manual else "")
+        r = ia.generar_json(REVISION, f"FORMATO ESPERADO: {formato}\n\nREPORTE:\nAsunto: {titulo}\n\n{contenido}"
                             f"\n\nTEXTO DE LAS FUENTES:\n{(texto_fuente or '')[:60000] or fuentes_de(fuentes) or '(sin fuentes guardadas)'}", ESQUEMA)
     except Exception as e:
         print(f"  Kiwi (revisión): {e}", flush=True)

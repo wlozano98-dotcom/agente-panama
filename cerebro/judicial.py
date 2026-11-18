@@ -223,7 +223,7 @@ def redactar(ids):
         texto = cerebro.texto_documento(x["documento"]) if x["documento"] else x["descripcion"]
         instr = REDACCION.replace("Recibes una edición de\nla Gaceta Oficial (PDF) y la lista de normas que la oficina eligió.",
                                   "Recibes la información de un fallo de la Corte Suprema de Justicia que la oficina eligió.")
-        r = ia.generar_json(instr + cerebro.ejemplos("Keymonitor"),
+        r = ia.generar_json(instr + cerebro.ejemplos("Keymonitor", parecido_a=f"{x['proceso']} {texto[:3000]}"),
                             f"id {x['id']}\nTribunal: {x['tribunal']} · Proceso: {x['proceso']}\nFuente: {x['fuente']} ({x['url']})\n\n{texto[:10000]}",
                             ESQUEMA_REDACCION)
         for k in r["keymonitor"][:1]:

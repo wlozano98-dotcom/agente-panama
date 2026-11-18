@@ -465,3 +465,40 @@ oficina. Hacerlo DESPUÉS de la mudanza física (otro día), en este orden:
    de Actions (incluido CLIENTES_JSON) y el GH_TOKEN. Si el repo pasa a PRIVADO (mejor, por los clientes), las Actions
    gastan minutos del plan de la oficina: medir el workflow horario antes.
 6. En la PC: `git remote set-url origin <nuevo>`. Apagar los Workers viejos solo cuando todo ande una semana.
+
+## Escuela de agentes (propuesta v2, 2026-11-18) — que los agentes APRENDAN como una persona nueva
+
+YA EXISTE (no rehacer): nivel 1 = cerebro.ejemplos() (los 3 archivos más recientes de ejemplos/keyword/<P>, fijos; para
+Keylaw son 5 de ECUADOR, no de Panamá —corrección del revisor independiente—; los 842 de Ecuador NO se usan). Nivel 2 = el Worker guarda en `correcciones` la versión del
+agente y la del equipo al editar (POST /oficina/producto) y cerebro.aprendido() mete las 4 ÚLTIMAS en el prompt;
+normativa.criterio_equipo (qué normas eligió el equipo), monitor.criterio_equipo y `reacciones` (👍/👎), anuncios
+(memoria de lo ya avisado), editora (Kiwi revisa con FORMATOS fijos en el código) y la pestaña Aprendizaje (métricas
+por semana). Estado al 18/11: aprendizaje general APAGADO (0 correcciones), Paula encendida (51 👍 / 24 👎).
+HUECOS: (a) las correcciones no se acumulan: entra la 5.ª y la 1.ª se olvida (es memoria corta, no aprendizaje);
+(b) Kiwi revisa con un formato de 1 línea, no con lo aprendido; (c) los ejemplos no son los parecidos al caso;
+(d) nada mide al agente fuera de producción (no hay examen); (e) nada enseña QUÉ elegir de una sesión.
+
+PIEZAS NUEVAS (todas en la PC; lo de Ecuador solo se lee de ../Agente Zimbra AN y se queda local):
+1. Manual vivo por producto (ejemplos/keyword/<P>/MANUAL.md, local): estilo Keyword universal + reglas del país +
+   LECCIONES con evidencia. Lo usan el agente que escribe Y Kiwi al revisar (reemplaza FORMATOS).
+2. Biblioteca de casos: los 842 Keylaw + lo de Panamá con embeddings en un índice local; ejemplos() pasa a dar los
+   3-5 más parecidos (comisión, tipo de sesión, tema).
+3. Destilador de lecciones (cierra el hueco a): cada noche clasifica cada corrección (dato, selección, estructura,
+   tono, largo) y cuando un patrón se repite lo vuelve lección del manual (con fecha y ejemplos); lo contradicho sale.
+4. Banco de pares "sesión → Keylaw": Panamá los genera solo (transcripción en el cerebro + versión final del equipo).
+   Ecuador: ENTRENADOR NOCTURNO con el Chrome de la PC (extensión): recorre la pestaña de videos de Facebook de las ~8
+   comisiones que cubren ~500 Keylaw (Desarrollo Económico 106, Biodiversidad 59, Régimen Económico 57, Soberanía
+   Alimentaria 55, Salud 43, Trabajo 38, Garantías 26, Educación 24), empareja video y Keylaw (fecha ±1, comisión,
+   proyecto), baja el audio (yt-dlp con la sesión de Chrome), Whisper en la GPU y guarda el par. Despacio y de noche
+   (pocas por hora, pausas); cuenta de Facebook dedicada; si Facebook pide verificación, se detiene y avisa (no se
+   esquiva). Pleno: canal de YouTube de la Asamblea de Ecuador (por verificar).
+5. Examen: pares apartados (nunca se usan para aprender). Examinador con rúbrica: puntos clave del Keylaw real
+   cubiertos, datos que no están en la transcripción, estructura y fórmulas, tono, largo → nota 0-100. Ningún cambio
+   al manual, al prompt o al modelo se adopta si no sube la nota. Sirve también para elegir modelo (con la prueba a ciegas).
+6. Ciclo de práctica (el entrenador): con los pares de entrenamiento escribe → compara con el real → saca errores →
+   propone lecciones → re-examina → adopta si mejora. Cada noche con tope de gasto.
+7. Selector (red neuronal chica, local, con ≥100 pares): qué tramos de la transcripción terminan en el Keylaw.
+8. Afinado (nivel 3) con ≥300-500 pares: modelo barato que ya escribe como Keyword; el caro solo revisa.
+9. Grado por agente y producto (practicante / junior / autónomo) con la nota del examen y el % que cambia el equipo;
+   se ve en la oficina. Siempre revisa una persona antes de enviar.
+Mismo esquema después para Keymonitor, Keyeconomics (78 reales + fuentes públicas del INEC: pares fáciles) y bola roja.

@@ -120,7 +120,7 @@ def relatar(video, keylaw=None):
     if len(texto) < 500:
         sys.exit(f"{video}: transcripción vacía o muy corta, no se reporta")
     ctx, com = contexto(info)
-    r = ia.generar_json(INSTRUCCIONES + cerebro.ejemplos("Keylaw"), f"{ctx}\n\nTranscripción:\n{texto}", ESQUEMA)
+    r = ia.generar_json(INSTRUCCIONES + cerebro.ejemplos("Keylaw", parecido_a=f"{ctx}\n{texto[:4000]}"), f"{ctx}\n\nTranscripción:\n{texto}", ESQUEMA)
     if re.match(r"\d{4}-\d{2}-\d{2}$", r.get("fecha_sesion") or ""):
         info["fecha"] = r["fecha_sesion"]  # el video se sube después de la sesión
     doc, _ = cerebro.guardar_documento("youtube_asamblea", video, texto, tipo="transcripcion",

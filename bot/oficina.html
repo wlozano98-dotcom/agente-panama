@@ -492,6 +492,9 @@ details.edicion > .acciones { margin-bottom: 6px; }
 .con-foto i { position: absolute; inset: auto 0 0; padding: 3px 0 5px; font: 600 10.5px var(--fuente); font-style: normal; color: #fff; text-align: center; background: rgb(0 0 0 / .45); opacity: 0; transition: opacity .15s; }
 .con-foto:hover i { opacity: 1; }
 .resumen-reg { margin: 6px 0 0; font-size: 13.5px; line-height: 1.55; color: var(--texto); max-width: 80ch; }
+.motivos { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 8px 0 4px; }
+.motivos .motivo { font: inherit; font-size: 12px; padding: 3px 10px; border-radius: 999px; border: 1px solid #c9c2d6; background: transparent; color: inherit; cursor: pointer; }
+.motivos .motivo.activo { background: #9500C5; border-color: #9500C5; color: #fff; }
 </style>
 </head>
 <body>
@@ -1612,10 +1615,23 @@ function tarjetaReporte(x) {
   });
   guardar.disabled = true;
   acc.append(el("span", "espacio"));
-  function marcar(e, t) { postJSON("/oficina/producto", { id: x.id, estado: e }).then(function () { x.estado = e; estado.editando = false; avisar(t); pintarTodo(); }); }
+  // por qué se corrigió (aprendizaje, 2026-11-18): vale más que comparar textos; opcional, se manda al marcar revisado/enviado
+  var motivos = [], fila = el("div", "motivos");
+  fila.append(el("span", "chica", "¿Qué corregiste? (opcional, ayuda a que el agente aprenda)"));
+  [["dato", "Un dato"], ["sobra", "Sobraba algo"], ["falta", "Faltaba algo"], ["tono", "Tono"], ["orden", "Orden"], ["largo", "Largo"], ["formato", "Formato"]].forEach(function (m) {
+    var c = el("button", "motivo", m[1]); c.type = "button";
+    c.onclick = function () { var i = motivos.indexOf(m[0]); if (i < 0) motivos.push(m[0]); else motivos.splice(i, 1); c.classList.toggle("activo", i < 0); };
+    fila.append(c);
+  });
+  function marcar(e, t) {
+    var cuerpoPost = { id: x.id, estado: e, motivos: motivos };
+    if (!guardar.disabled) cuerpoPost.contenido = ta.value;  // lo que no se guardó también cuenta
+    postJSON("/oficina/producto", cuerpoPost).then(function () { if (cuerpoPost.contenido != null) x.contenido = cuerpoPost.contenido; x.estado = e; estado.editando = false; avisar(t); pintarTodo(); });
+  }
   if (x.estado === "borrador") boton(acc, "Marcar revisado", "", function () { marcar("revisado", "Marcado como revisado"); });
   if (x.estado !== "enviado") boton(acc, "Marcar enviado", "", function () { marcar("enviado", "Marcado como enviado"); });
   cuerpo.append(editor, acc);
+  if (x.estado !== "enviado") cuerpo.append(fila);
   var norma = estado.normas.filter(function (n) { return n.producto === x.id && n.pdf && /^http/.test(n.pdf); })[0];
   if (norma) {
     var adj = el("p", "chica"); adj.append("Adjunto para el correo: ");

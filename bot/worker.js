@@ -688,25 +688,30 @@ async function oficina(request, env, url) {
   }
   // la persona revisa el borrador: lo corrige, lo marca revisado o enviado
   if (url.pathname === "/oficina/producto" && request.method === "POST") {
-    const { id, estado, contenido } = await request.json();
+    const { id, estado, contenido, motivos } = await request.json();
     if (estado && !["borrador", "revisado", "enviado", "archivado"].includes(estado)) return json({ error: "Estado no válido." }, 400);
-    if (contenido != null) {
-      // aprendizaje nivel 2: la versión del agente queda en `original` y cada corrección del equipo en `correcciones`;
-      // los siguientes reportes del mismo tipo se escriben viéndolas (cerebro.aprendido)
-      // apagado hasta el lanzamiento (Andrés, 2026-10-26): cerebro/aprendizaje.py encender
-      const p = await env.DB.prepare("SELECT tipo, agente, contenido, original FROM productos WHERE id = ?").bind(String(id)).first();
-      const nuevo = String(contenido).slice(0, 20000);
-      if (p && (await aprendizajeActivo(env)) && nuevo.trim() !== String(p.contenido || "").trim()) {
-        const original = p.original || p.contenido || "";
-        await env.DB.batch([
-          env.DB.prepare("UPDATE productos SET original = ? WHERE id = ? AND original IS NULL").bind(original, String(id)),
-          env.DB.prepare("INSERT OR REPLACE INTO correcciones (producto, tipo, agente, original, corregido, actualizado) VALUES (?, ?, ?, ?, ?, ?)")
-            .bind(String(id), p.tipo, p.agente, original, nuevo, new Date().toISOString().slice(0, 19)),
-        ]);
+    // aprendizaje nivel 2: la versión del agente queda en `original` (al primer cambio) y la corrección del equipo se
+    // registra en `correcciones` SOLO al marcar el reporte revisado o enviado (2026-11-18, revisor independiente: guardar
+    // a medio editar enseñaba textos a medias), con los motivos que marca la persona (dato, sobra, falta, tono, orden,
+    // largo, formato). Apagado: cerebro/aprendizaje.py encender.
+    const activo = await aprendizajeActivo(env);
+    const p = await env.DB.prepare("SELECT tipo, agente, contenido, original FROM productos WHERE id = ?").bind(String(id)).first();
+    const ahora = new Date().toISOString().slice(0, 19);
+    if (p && activo && contenido != null && !p.original && String(contenido).trim() !== String(p.contenido || "").trim())
+      await env.DB.prepare("UPDATE productos SET original = ? WHERE id = ? AND original IS NULL").bind(p.contenido || "", String(id)).run();
+    await env.DB.prepare("UPDATE productos SET estado = COALESCE(?, estado), contenido = COALESCE(?, contenido), actualizado = ? WHERE id = ?")
+      .bind(estado || null, contenido == null ? null : String(contenido).slice(0, 20000), ahora, String(id)).run();
+    if (p && activo && (estado === "revisado" || estado === "enviado")) {
+      const q = await env.DB.prepare("SELECT contenido, original FROM productos WHERE id = ?").bind(String(id)).first();
+      const lista = Array.isArray(motivos) ? motivos.filter((m) => MOTIVOS.includes(m)) : [];
+      if (q && q.original && String(q.contenido || "").trim() !== String(q.original).trim()) {
+        await env.DB.prepare("INSERT OR REPLACE INTO correcciones (producto, tipo, agente, original, corregido, actualizado, motivos) VALUES (?, ?, ?, ?, ?, ?, ?)")
+          .bind(String(id), p.tipo, p.agente, q.original, String(q.contenido), ahora, lista.length ? JSON.stringify(lista) : null).run();
+      } else if (q && !q.original) {  // aprobado sin cambios: también enseña (el agente acertó)
+        await env.DB.prepare("INSERT OR REPLACE INTO correcciones (producto, tipo, agente, original, corregido, actualizado, motivos) VALUES (?, ?, ?, ?, ?, ?, ?)")
+          .bind(String(id), p.tipo, p.agente, q.contenido || "", q.contenido || "", ahora, JSON.stringify(["sin_cambios"])).run();
       }
     }
-    await env.DB.prepare("UPDATE productos SET estado = COALESCE(?, estado), contenido = COALESCE(?, contenido), actualizado = ? WHERE id = ?")
-      .bind(estado || null, contenido == null ? null : String(contenido).slice(0, 20000), new Date().toISOString().slice(0, 19), String(id)).run();
     return json({ ok: true });
   }
   // la mesa de tareas: lo que alguien pide en la oficina y la Mac de la oficina hace (cerebro/mesa.py)
@@ -1010,6 +1015,8 @@ async function buscarCerebro(env, q) {
     "snippet(fragmentos, 2, '«', '»', '…', 28) AS trozo FROM fragmentos f JOIN documentos d ON d.id = f.documento " +
     "WHERE fragmentos MATCH ? ORDER BY rank LIMIT 30").bind(limpia).all()).results;
 }
+
+const MOTIVOS = ["dato", "sobra", "falta", "tono", "orden", "largo", "formato"];
 
 async function aprendizajeActivo(env) {
   const f = await env.DB.prepare("SELECT valor FROM config WHERE clave = 'aprendizaje'").first().catch(() => null);

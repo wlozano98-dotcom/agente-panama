@@ -66,6 +66,17 @@ def afectados(sectores=(), temas_=(), texto=""):
     return salida
 
 
+def enmascarar(texto, extra=()):
+    """Tapa con [cliente] los nombres y marcas de los clientes (y `extra`) antes de mandar un texto a un modelo externo."""
+    texto = str(texto or "")
+    nombres = [n for c, d in CLIENTES.items() for n in [c] + list(d.get("nombres", []))] + list(extra)
+    for n in sorted({n for n in nombres if n and len(n) > 2}, key=len, reverse=True):
+        patron = "".join("[" + re.escape(ch) + re.escape(normal(ch).strip() or ch).upper() + re.escape(normal(ch).strip()) + "]"
+                         if normal(ch).strip() and normal(ch).strip() != ch.lower() else re.escape(ch) for ch in n)
+        texto = re.sub(r"(?<!\w)" + patron + r"(?!\w)", "[cliente]", texto, flags=re.I)
+    return texto
+
+
 def linea(sectores=(), temas_=(), texto="", html=False):
     """'👥 Cliente (menciona Marca)' o '' si no toca a ningún cliente."""
     a = afectados(sectores, temas_, texto)

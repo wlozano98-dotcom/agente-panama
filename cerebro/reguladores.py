@@ -253,7 +253,7 @@ def redactar(ids):
             texto = texto_pdf(it["url"]) or texto
         instr = REDACCION.replace("Recibes una edición de\nla Gaceta Oficial (PDF) y la lista de normas que la oficina eligió.",
                                   "Recibes una resolución, acuerdo o consulta pública de un regulador que la oficina eligió.")
-        r = ia.generar_json(instr + cerebro.ejemplos("Keymonitor"),
+        r = ia.generar_json(instr + cerebro.ejemplos("Keymonitor", parecido_a=f"{it['titulo']} {texto[:3000]}"),
                             f"id {it['id']}\nEnte: {it['ente']}\nTipo: {it['tipo']}\nTítulo: {it['titulo']}\n"
                             f"{'Plazo de comentarios: ' + it['plazo'] if it['plazo'] else ''}\n\n{texto[:12000]}", ESQUEMA_REDACCION)
         for k in r["keymonitor"][:1]:

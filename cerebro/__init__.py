@@ -152,20 +152,61 @@ def telegram_pausado(texto, vista_previa=False, destino="general", ref=None, age
     _COLA["fila"].put((texto, vista_previa, destino, ref, agente))
 
 
-def ejemplos(producto, n=3):
-    """Correos reales de Keyword (ejemplos/keyword/<Producto>/, no se suben) para que los agentes copien tono y forma.
-    Se quitan remitente y fecha; solo quedan asunto y cuerpo."""
+_BIBLIOTECA = {}
+_VACIAS = set("""de la el en y a los las del que se por con para una un al su sus lo como es o mas ya no le les este esta
+estos estas ese esa fue han ha sido ser son entre sobre desde hasta segun tambien cual quien donde cuando nos ponemos
+conocimiento estimados saludos cordiales asunto fecha keylaw keymonitor proyecto ley""".split())
+
+
+def _palabras(texto):
+    return {w for w in normal(texto).lower().split() if len(w) > 3 and w not in _VACIAS and not w.isdigit()}
+
+
+def biblioteca(producto):
+    """Reportes reales de Keyword de un producto: ejemplos/keyword/<Producto>/*.txt y, para Keymonitor, el corpus
+    bajado del correo (ejemplos/keyword/Keymonitor_corpus/*/reporte.json). Solo local: ejemplos/ no se sube."""
     import glob
-    rutas = sorted(glob.glob(os.path.join(CARPETA, "ejemplos", "keyword", producto, "*.txt")), reverse=True)[:n]
-    out = []
-    for r in rutas:
+    if producto in _BIBLIOTECA:
+        return _BIBLIOTECA[producto]
+    casos = []
+    for r in sorted(glob.glob(os.path.join(CARPETA, "ejemplos", "keyword", producto, "*.txt")), reverse=True):
         lineas = [l for l in open(r, encoding="utf-8").read().splitlines() if not l.startswith(("Fecha:", "De:"))]
-        out.append("\n".join(lineas).strip())
+        casos.append("\n".join(lineas).strip())
+    for r in sorted(glob.glob(os.path.join(CARPETA, "ejemplos", "keyword", producto + "_corpus", "*", "reporte.json")), reverse=True):
+        try:
+            d = json.load(open(r, encoding="utf-8"))
+            casos.append(f"Asunto: {d['asunto']}\n\n{d['texto']}".strip())
+        except (ValueError, KeyError):
+            pass
+    casos = [c for c in casos if len(c) > 300]
+    _BIBLIOTECA[producto] = [(c, _palabras(c[:2500])) for c in casos]
+    return _BIBLIOTECA[producto]
+
+
+def manual(producto):
+    """El manual vivo del producto (ejemplos/keyword/<Producto>/MANUAL.md, local): estilo Keyword, reglas de Panamá y
+    lecciones aprobadas. Lo usan el agente que escribe y Kiwi al revisar. Vacío si todavía no existe."""
+    ruta = os.path.join(CARPETA, "ejemplos", "keyword", producto, "MANUAL.md")
+    return open(ruta, encoding="utf-8").read().strip() if os.path.exists(ruta) else ""
+
+
+def ejemplos(producto, n=3, parecido_a=None):
+    """Manual del producto + reportes reales de Keyword para copiar tono y forma + correcciones del equipo.
+    Con `parecido_a` (título, tema, comisión o texto de la fuente) elige los n casos más PARECIDOS de la biblioteca
+    (Escuela de agentes, 2026-11-18); sin él, los n primeros. Los nombres de clientes se tapan."""
+    import clientes
+    casos = biblioteca(producto)
+    if parecido_a and casos:
+        q = _palabras(parecido_a[:4000])
+        casos = sorted(casos, key=lambda c: len(q & c[1]) / (len(c[1]) ** 0.5 + 1), reverse=True)
+    out = [clientes.enmascarar(c[0][:3500]) for c in casos[:n]]
     tipo = {"Keylaw": "keylaw", "Keymonitor": "keymonitor", "BolaRoja": "bolaroja"}.get(producto)
-    if not out:
-        return aprendido(tipo) if tipo else ""
-    return ("\n\nEJEMPLOS REALES de Keyword (son de Ecuador: copia su tono, registro, estructura y largo, NO sus "
-            "instituciones ni datos):\n\n" + "\n\n-----\n\n".join(out)) + (aprendido(tipo) if tipo else "")
+    m = manual(producto)
+    texto = f"\n\nMANUAL DE ESTILO DE KEYWORD PARA ESTE PRODUCTO (síguelo):\n{m}" if m else ""
+    if out:
+        texto += ("\n\nEJEMPLOS REALES de Keyword (casi todos son de Ecuador: copia su tono, registro, estructura y largo, "
+                  "NUNCA sus instituciones, leyes ni nombres; Panamá tiene sus propias):\n\n" + "\n\n-----\n\n".join(out))
+    return texto + (aprendido(tipo) if tipo else "")
 
 
 def aprendido(tipo, n=4, largo=2500):
@@ -178,7 +219,7 @@ def aprendido(tipo, n=4, largo=2500):
     if not e["activo"]:  # apagado hasta el lanzamiento (Andrés, 2026-10-26)
         return ""
     try:
-        filas = d1.consulta("SELECT original, corregido FROM correcciones WHERE tipo = ? AND actualizado >= ? "
+        filas = d1.consulta("SELECT original, corregido, motivos FROM correcciones WHERE tipo = ? AND actualizado >= ? "
                             "ORDER BY actualizado DESC LIMIT ?", [tipo, e["desde"], n * 3])
     except Exception:
         return ""
@@ -186,7 +227,11 @@ def aprendido(tipo, n=4, largo=2500):
     for f in filas:
         a, b = (f["original"] or "").strip(), (f["corregido"] or "").strip()
         if a and b and difflib.SequenceMatcher(None, a, b).ratio() < 0.995:  # una coma no enseña nada
-            casos.append(f"VERSIÓN DEL AGENTE:\n{a[:largo]}\n\nVERSIÓN CORREGIDA POR EL EQUIPO:\n{b[:largo]}")
+            import clientes
+            motivos = ", ".join(json.loads(f.get("motivos") or "[]"))
+            casos.append((f"QUÉ CORRIGIÓ (según el equipo): {motivos}\n\n" if motivos else "")
+                         + f"VERSIÓN DEL AGENTE:\n{clientes.enmascarar(a[:largo])}\n\n"
+                         f"VERSIÓN CORREGIDA POR EL EQUIPO:\n{clientes.enmascarar(b[:largo])}")
         if len(casos) >= n:
             break
     if not casos:
