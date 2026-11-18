@@ -1,7 +1,7 @@
 """Estudio de grabación: video público de YouTube → transcripción (Whisper local) → cerebro. El audio se borra.
 
 Uso (en la Mac): ~/.venvs/whisper/bin/python cerebro/transcribir.py <id de YouTube> [fuente]
-Necesita uv (yt-dlp reciente con Python 3.12) y el entorno ~/.venvs/whisper con mlx-whisper.
+Necesita uv (yt-dlp reciente con Python 3.12) y el entorno ~/.venvs/whisper con mlx-whisper (Mac) o faster-whisper (PC).
 Deja la transcripción en salidas/transcripciones/<id>.json (segmentos con tiempos) y .txt.
 """
 import json
@@ -39,13 +39,30 @@ def bajar_audio(video, carpeta):
 _GPU = threading.Lock()
 
 
+INDICACION = "Sesión de la Asamblea Nacional de Panamá. Honorable diputado, señora presidenta, proyecto de ley, primer debate."
+_FW = None  # modelo de faster-whisper (PC con NVIDIA), se carga una vez
+
+
 def transcribir(ruta_audio):
-    import mlx_whisper
+    """Mac: mlx-whisper (Metal). PC de la oficina (WSL2 + NVIDIA): faster-whisper con CUDA (large-v3-turbo, float16)."""
+    global _FW
+    try:
+        import mlx_whisper
+    except ImportError:
+        mlx_whisper = None
     with _GPU:
-        r = mlx_whisper.transcribe(ruta_audio, path_or_hf_repo=MODELO, language="es", condition_on_previous_text=False,
-                                   initial_prompt="Sesión de la Asamblea Nacional de Panamá. Honorable diputado, "
-                                                  "señora presidenta, proyecto de ley, primer debate.")
-    return [{"ini": round(s["start"], 1), "fin": round(s["end"], 1), "texto": s["text"].strip()} for s in r["segments"]]
+        if mlx_whisper:
+            r = mlx_whisper.transcribe(ruta_audio, path_or_hf_repo=MODELO, language="es", condition_on_previous_text=False,
+                                       initial_prompt=INDICACION)
+            segmentos = [(s["start"], s["end"], s["text"]) for s in r["segments"]]
+        else:
+            from faster_whisper import WhisperModel
+            if _FW is None:
+                _FW = WhisperModel("large-v3-turbo", device="cuda", compute_type="float16")
+            seg, _ = _FW.transcribe(ruta_audio, language="es", condition_on_previous_text=False, initial_prompt=INDICACION,
+                                    vad_filter=True)
+            segmentos = [(s.start, s.end, s.text) for s in seg]
+    return [{"ini": round(a, 1), "fin": round(b, 1), "texto": t.strip()} for a, b, t in segmentos]
 
 
 def hhmmss(seg):

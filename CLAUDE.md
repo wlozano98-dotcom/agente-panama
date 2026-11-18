@@ -384,6 +384,12 @@ menciones, relaciones, declaraciones, expedientes, productos, tareas. Todo corre
   ALERTAS PERSONALIZADAS (siguiente paso). Los avisos de Telegram NO llevan clientes (Andrés, 2026-11-18: serán cientos;
   la forma de reportar no cambia). Lo usan agente.py (matriz y .md de Drive). `python3 clientes.py <texto>` prueba el
   cruce. Al mudar a la PC: copiar datos/clientes_privados.json.
+- MUDANZA a la PC de la oficina: guía para IA en `docs/INSTALAR_PC.md` (WSL2 mirrored, systemd, Tailscale, Claude
+  Code allá). transcribir.py usa faster-whisper (CUDA) si no hay mlx-whisper; en_vivo usa el ffmpeg del sistema si no
+  está ~/.local/bin/ffmpeg. Cambio a las cuentas de Cloudflare/GitHub de la oficina: PLAN.md «Cambio de cuentas».
+- **Vigía externo** (2026-11-18): Worker aparte `vigia-panama` (bot/vigia.js, `python3 bot/desplegar_vigia.py`), cron
+  cada 5 min; si `latidos` no se mueve en 15 min avisa al grupo de la oficina (cada 2 h mientras siga y al volver).
+  Se arma solo con el primer latido fresco. Estado: https://vigia-panama.agentemonitoreopa.workers.dev
 - OJO repo público: estado.json y los logs de Actions son públicos; nunca imprimir ni guardar ahí nombres de clientes.
 
 ## Pendientes (2026-10-09)

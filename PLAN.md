@@ -448,3 +448,20 @@ RTX 5080 de 16 GB, un disco de 1,82 TB (606 GB ya usados: preguntar qué son).
 En la demo la oficina mostró la mesa "apagada": el proceso vivía, pero D1 llegó al límite diario de escrituras del plan
 gratis (error 7500) y no se guardaba nada hasta las 00:00 UTC. Solución: Workers Paid (USD 5/mes) en la cuenta
 agentemonitoreopa (lo hace Andrés).
+
+## Cambio de cuentas (Cloudflare y GitHub de la oficina) — pendiente, 2026-11-18
+
+Andrés: Workers Paid se activa en la cuenta de Cloudflare de la OFICINA (ya existe) y el repo pasa al GitHub de la
+oficina. Hacerlo DESPUÉS de la mudanza física (otro día), en este orden:
+1. Cloudflare: Andrés pone en .env CLOUDFLARE_ACCOUNT_ID / CLOUDFLARE_TOKEN de la oficina (token con D1 Edit, Workers
+   Scripts Edit, Vectorize Edit, Account Settings Read); guardar los viejos como CLOUDFLARE_*_ANTERIOR.
+2. D1: exportar la base vieja (API D1 export → .sql), crear la nueva (`d1.id_base(crear=True)`) e importar. Detener la
+   mesa durante la copia (si no, se pierden escrituras). Comprobar conteos tabla por tabla.
+3. Vectorize: crear `cerebro-panama` (768, coseno) en la cuenta nueva y poner config "vectores_hasta" = 0 (la mesa
+   vuelve a pasar todo; Gemini pagado, costo bajo).
+4. `python3 bot/desplegar.py` (Worker, claves y webhook de Telegram) y `python3 bot/desplegar_vigia.py`. La URL de la
+   oficina cambia (subdominio workers.dev de la cuenta nueva): avisar a Andrés el enlace nuevo con la clave.
+5. GitHub: transferir el repo a la organización (conserva historia y redirige). Revisar/crear de nuevo los secretos
+   de Actions (incluido CLIENTES_JSON) y el GH_TOKEN. Si el repo pasa a PRIVADO (mejor, por los clientes), las Actions
+   gastan minutos del plan de la oficina: medir el workflow horario antes.
+6. En la PC: `git remote set-url origin <nuevo>`. Apagar los Workers viejos solo cuando todo ande una semana.

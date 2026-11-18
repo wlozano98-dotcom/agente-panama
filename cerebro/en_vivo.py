@@ -13,6 +13,7 @@ transmisión la Relatora escribe el Keylaw. (Andrés, 2026-10-26: de 5 a 2 minut
 import glob
 import json
 import os
+import shutil
 import subprocess
 import sys
 import threading
@@ -31,7 +32,9 @@ CANAL = "https://www.youtube.com/@AsambleaNacional507/streams"
 TROZO = 120                 # segundos de cada trozo de audio
 VENTANA = 2                 # trozos que ve cada revisión en caliente: el nuevo y el anterior (4 minutos)
 SALIDA = os.path.join(cerebro.CARPETA, "salidas", "transcripciones")
-FFMPEG = os.path.expanduser("~/.local/bin/ffmpeg")
+FFMPEG = os.path.expanduser("~/.local/bin/ffmpeg")  # Mac; en la PC (WSL2) el de apt
+if not os.path.exists(FFMPEG):
+    FFMPEG = shutil.which("ffmpeg") or "ffmpeg"
 
 AVISO = """Eres la Relatora de Keyword y sigues EN VIVO una sesión de la Asamblea Nacional de Panamá. Recibes los
 últimos minutos transcritos (Whisper), lo dicho antes en resumen y lo que ya avisaste en esta sesión. Decide si pasó algo que un cliente empresarial
