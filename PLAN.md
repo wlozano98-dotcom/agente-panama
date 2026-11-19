@@ -514,13 +514,13 @@ están en la matriz `Invesitgacion/260923 Matriz Scraper - KW PTY.xlsx`, no se s
 | lun 23 – mié 25/11 | Generación de scrapers (los otros cuatro países) |
 | jue 26 – vie 27/11 | Generación de plataformas por país |
 | desde el mar 1/12 | Entrada en funcionamiento de la plataforma |
-| jue 3 – mié 9/12 | Capacitación en la oficina de Costa Rica (una semana) |
+| lun 7 – jue 10/12 | Capacitación en la oficina de Costa Rica |
 
 La escuela de agentes (Keymonitor y Keylaw) corre en paralelo desde ya.
 
 Decisiones de Andrés (2026-11-19): entraban los 7 países (Guatemala salió después); UNA plataforma; UNA sola PC, en ECUADOR, corre los 5 (la
 mesa, el receptor y el Chrome de la oficina para los sitios con anti-bots: ojo con bloqueos por país); la
-investigación de cada país la hace María José con ChatGPT (un prompt por país, lo prepara Claude); capacitación (ahora 3-9/12) en COSTA RICA, donde se concentra el equipo. Cronograma en PDF A4 horizontal con el diseño de Keyword:
+investigación de cada país la hace María José con ChatGPT (un prompt por país, lo prepara Claude); capacitación (7-10/12) en COSTA RICA, donde se concentra el equipo. Cronograma en PDF A4 horizontal con el diseño de Keyword:
 ~/Downloads/261119 Cronograma lanzamiento regional.pdf (lo arma el script del scratchpad, no se sube).
 
 Decisiones técnicas para que entre en el plazo:
