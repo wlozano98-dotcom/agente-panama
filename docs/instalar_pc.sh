@@ -43,7 +43,7 @@ paso "entorno de la mesa y Whisper (~/.venvs/whisper)"
 python3 -m venv ~/.venvs/whisper
 ~/.venvs/whisper/bin/pip install -q --upgrade pip
 ~/.venvs/whisper/bin/pip install -q faster-whisper pypdf requests pillow nvidia-cublas-cu12 "nvidia-cudnn-cu12==9.*"
-CUDA_LIBS=$(~/.venvs/whisper/bin/python -c "import os,nvidia.cublas.lib as a,nvidia.cudnn.lib as b;print(os.path.dirname(a.__file__)+':'+os.path.dirname(b.__file__))")
+CUDA_LIBS=$(~/.venvs/whisper/bin/python -c "import os,nvidia.cublas.lib as a,nvidia.cudnn.lib as b;print(list(a.__path__)[0]+':'+list(b.__path__)[0])")
 
 paso "navegador para PDF y Keyperfil (~/.venvs/nav)"
 python3 -m venv ~/.venvs/nav
@@ -51,26 +51,29 @@ python3 -m venv ~/.venvs/nav
 ~/.venvs/nav/bin/playwright install --with-deps chromium
 
 paso "servicio que arranca solo (vigilante → mesa y receptor)"
-mkdir -p ~/.config/systemd/user
-cat > ~/.config/systemd/user/vigilante.service <<EOF
+# Servicio del SISTEMA (no de usuario): en WSL, WSLg tapa /run/user/<uid> y systemctl --user no conecta (2026-11-19).
+mkdir -p "$DIR/salidas/logs"
+sudo tee /etc/systemd/system/vigilante.service >/dev/null <<EOF
 [Unit]
-Description=Vigilante Agente Panama
+Description=Vigilante Agente Panama (oficina Keyword)
 After=network-online.target
+Wants=network-online.target
 [Service]
-WorkingDirectory=%h/agente-panama
+User=$USER
+WorkingDirectory=$DIR
 Environment=TZ=America/Panama
-Environment=PATH=%h/.local/bin:/usr/local/bin:/usr/bin:/bin
+Environment=HOME=$HOME
+Environment=PATH=$HOME/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/lib/wsl/lib
 Environment=LD_LIBRARY_PATH=$CUDA_LIBS
 ExecStart=/usr/bin/python3 cerebro/vigilante.py
 Restart=always
 RestartSec=20
-StandardOutput=append:%h/agente-panama/salidas/logs/vigilante.log
-StandardError=append:%h/agente-panama/salidas/logs/vigilante.log
+StandardOutput=append:$DIR/salidas/logs/vigilante.log
+StandardError=append:$DIR/salidas/logs/vigilante.log
 [Install]
-WantedBy=default.target
+WantedBy=multi-user.target
 EOF
-sudo loginctl enable-linger "$USER"
-systemctl --user daemon-reload
+sudo systemctl daemon-reload
 
 paso "comprobaciones"
 ~/.venvs/whisper/bin/python -c "import cerebro; cerebro.cargar_env(); from db.d1 import consulta; print('D1:', consulta('SELECT 1'))" || echo "OJO: D1 no responde (.env)"
@@ -80,5 +83,5 @@ WhisperModel('large-v3-turbo', device='cuda', compute_type='float16'); print('Wh
 [ -f datos/clientes_privados.json ] && echo "ficha privada: OK" || echo "OJO: falta datos/clientes_privados.json"
 
 echo
-echo "Listo. Para arrancar (SOLO cuando la Mac esté apagada, paso 9): systemctl --user enable --now vigilante"
+echo "Listo. Para arrancar (SOLO cuando la Mac esté apagada, paso 9): sudo systemctl enable --now vigilante"
 echo "Ver: pgrep -fl 'mesa|receptor'; tail -f salidas/logs/vigilante.log"

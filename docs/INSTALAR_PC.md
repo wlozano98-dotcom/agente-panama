@@ -3,6 +3,8 @@
 Uso interno de Claude u otra IA que haga la mudanza; Andrés no la lee. Ejecutar en orden, verificar cada paso
 (columna «Comprobar») antes de seguir y anotar en CLAUDE.md lo que cambie. Nada de esto va con claves en el chat.
 
+OJO (2026-11-19, instalación real): el servicio va como servicio DEL SISTEMA (/etc/systemd/system/vigilante.service, User=keyword), no de usuario: WSLg tapa /run/user/<uid> y `systemctl --user` no conecta. Usuario de Ubuntu: `keyword`; Tailscale: oficina-wsl (tag:oficina, red keyword.com.ec); se entra con `ssh keyword@oficina-wsl`.
+
 ATAJO (2026-11-19): en la Mac `bash docs/empaquetar_mudanza.sh` (→ ~/mudanza.tgz, baja antes lo que está solo en
 iCloud); en la PC, dentro de WSL, `bash instalar_pc.sh ~/mudanza.tgz` (copiar antes docs/instalar_pc.sh): hace los pasos
 2.3-2.5, 4 y 6 y deja el servicio creado pero SIN arrancar (se arranca en el paso 9, con la Mac apagada).
