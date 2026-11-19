@@ -505,8 +505,8 @@ Mismo esquema después para Keymonitor, Keyeconomics (78 reales + fuentes públi
 
 ## Lanzamiento regional: producción el 1 de enero de 2027 (Andrés, 2026-11-19)
 
-Siete países (matriz `Invesitgacion/260923 Matriz Scraper - KW PTY.xlsx`, no se sube): Panamá, Costa Rica, Guatemala,
-El Salvador, Honduras, Nicaragua y República Dominicana. Sin pausa de Navidad.
+SEIS países (matriz `Invesitgacion/260923 Matriz Scraper - KW PTY.xlsx`, no se sube): Panamá, Costa Rica, El Salvador,
+Honduras, Nicaragua y República Dominicana. GUATEMALA SALE (Andrés, 2026-11-19), aunque está en la matriz. Sin pausa de Navidad.
 
 | Fechas | Qué |
 | - | - |
@@ -519,7 +519,7 @@ El Salvador, Honduras, Nicaragua y República Dominicana. Sin pausa de Navidad.
 | lun 21 – jue 31/12 | Pruebas de producción |
 | vie 1/1/2027 | Producción para los clientes |
 
-Decisiones de Andrés (2026-11-19): entran los 7 países; UNA plataforma; UNA sola PC, en ECUADOR, corre los 7 (la
+Decisiones de Andrés (2026-11-19): entraban los 7 países (Guatemala salió después); UNA plataforma; UNA sola PC, en ECUADOR, corre los 6 (la
 mesa, el receptor y el Chrome de la oficina para los sitios con anti-bots: ojo con bloqueos por país); la
 investigación de cada país la hace María José con ChatGPT (un prompt por país, lo prepara Claude); capacitación del
 14 al 18/12 en COSTA RICA, donde se concentra el equipo. Cronograma en PDF A4 horizontal con el diseño de Keyword:
