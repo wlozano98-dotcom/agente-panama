@@ -23,7 +23,8 @@ WHISPER = os.path.expanduser("~/.venvs/whisper/bin/python")
 PROCESOS = {
     # nombre: (script, python, log)
     "mesa": ("cerebro/mesa.py", WHISPER, "mesa.log"),
-    "receptor": ("cerebro/receptor_gaceta.py", sys.executable, "receptor.log"),
+    # el receptor también usa el entorno de la mesa: necesita pypdf (en la PC el python del sistema no lo tiene, 2026-11-19)
+    "receptor": ("cerebro/receptor_gaceta.py", WHISPER, "receptor.log"),
 }
 ARTICULO = {"mesa": "La mesa", "receptor": "El receptor"}
 PUERTOS = {"receptor": 8765}  # el 29/10 otra sesión de Claude ocupó el 8765 con su propio servidor web
