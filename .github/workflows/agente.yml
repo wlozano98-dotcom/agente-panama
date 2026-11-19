@@ -1,8 +1,8 @@
 name: Agente Panamá
 
+# Desde el 2026-11-19 la revisión de cada hora la hace la mesa de la PC de la oficina (REVISION_LOCAL=1,
+# cerebro/mesa.py revisar_asamblea). Aquí queda solo el botón manual, para emergencias.
 on:
-  schedule:
-    - cron: "17 * * * *" # cada hora, al minuto 17 (hora UTC)
   workflow_dispatch: # botón "Run workflow" para correrlo a mano
 
 permissions:

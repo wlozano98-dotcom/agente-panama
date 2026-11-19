@@ -4,7 +4,7 @@
 # Uso: bash instalar_pc.sh [ruta de mudanza.tgz]   (por defecto ~/mudanza.tgz). Se puede correr de nuevo sin daño.
 set -euo pipefail
 MUDANZA=${1:-$HOME/mudanza.tgz}
-REPO=${REPO:-https://github.com/wlozano98-dotcom/agente-panama.git}
+REPO=${REPO:-https://github.com/keyword-sb/monitor-regional.git}
 DIR=$HOME/agente-panama
 paso() { echo; echo "== $*"; }
 
