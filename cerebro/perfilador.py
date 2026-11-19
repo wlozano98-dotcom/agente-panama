@@ -118,7 +118,9 @@ def contexto(e):
 def perfilar(consulta):
     e = encontrar(consulta)
     texto, fuentes = contexto(e)
-    r = ia.generar_json(INSTRUCCIONES, f"Actor: {e['nombre']} ({e['cargo'] or e['subtipo']})\n\nContexto:\n{texto}", ESQUEMA)
+    # local=True: el perfil es interno y editable («Rehacer con IA» lo vuelve a armar con Gemini)
+    r = ia.generar_json(INSTRUCCIONES, f"Actor: {e['nombre']} ({e['cargo'] or e['subtipo']})\n\nContexto:\n{texto}", ESQUEMA,
+                        local=True)
     expediente = {"nombre": e["nombre"], "cargo": e["cargo"], "subtipo": e["subtipo"], **r, "fuentes": fuentes}
     d1.insertar_muchas("expedientes", ["entidad", "contenido", "fuentes", "actualizado"],
                        [[e["id"], json.dumps(expediente, ensure_ascii=False), json.dumps(fuentes, ensure_ascii=False),
