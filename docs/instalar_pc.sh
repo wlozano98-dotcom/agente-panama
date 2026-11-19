@@ -47,7 +47,7 @@ CUDA_LIBS=$(~/.venvs/whisper/bin/python -c "import os,nvidia.cublas.lib as a,nvi
 
 paso "navegador para PDF y Keyperfil (~/.venvs/nav)"
 python3 -m venv ~/.venvs/nav
-~/.venvs/nav/bin/pip install -q playwright
+~/.venvs/nav/bin/pip install -q playwright pypdf   # pypdf: prensa.py (Orden del Día) corre con este python
 ~/.venvs/nav/bin/playwright install --with-deps chromium
 
 paso "servicio que arranca solo (vigilante → mesa y receptor)"

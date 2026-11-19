@@ -534,3 +534,13 @@ Decisiones técnicas para que entre en el plazo:
   solo por el Chrome de la oficina (como la Gaceta de Panamá); no se esquiva.
 - Diciembre: las asambleas entran en receso o en sesiones extraordinarias (Panamá vuelve el 2 de enero); las pruebas
   de producción tienen que reproducir datos reales de octubre-noviembre, no esperar actividad nueva.
+
+### Repositorio en Keyword (2026-11-19)
+
+Andrés es miembro (no admin) de keyword-sb: no puede crear repos ni recibir la transferencia. Gijar crea
+`keyword-sb/monitor-regional` (privado, vacío) y le da Admin a wlozano98-dotcom (los secretos solo los carga un admin).
+Al estar listo: `git remote set-url origin https://github.com/keyword-sb/monitor-regional.git && git push -u origin main`;
+la revisión de cada hora pasa a la mesa de la PC (`REVISION_LOCAL=1` en el .env; cerebro/mesa.py revisar_asamblea) y en
+el repo nuevo el workflow queda solo manual (sin `schedule`) y estado.json deja de versionarse (lo escribe la PC).
+El repo viejo (wlozano98-dotcom/agente-panama) se ARCHIVA, no se borra: la página de privacidad de la app de Google
+(PRIVACIDAD.md) apunta ahí. Actualizar REPO en docs/instalar_pc.sh.

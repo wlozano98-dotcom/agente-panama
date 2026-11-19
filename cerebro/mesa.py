@@ -243,6 +243,27 @@ def revisar_cifras():
         time.sleep(3600)
 
 
+def revisar_asamblea():
+    """La revisión de cada hora que hacía GitHub Actions (agente.py + prensa.py), al minuto 17. Solo corre con
+    REVISION_LOCAL=1 en el .env: si también corre en GitHub, los avisos de Telegram salen dos veces. En un repo privado
+    de la organización de Keyword cada corrida (~4 min) gastaría los minutos gratis de Actions; por eso pasa a la PC."""
+    import subprocess
+    if os.environ.get("REVISION_LOCAL") != "1":
+        return
+    nav = os.environ.get("NAV_PYTHON") or os.path.expanduser("~/.venvs/nav/bin/python")
+    pasos = (("asamblea", [sys.executable, "agente.py"], 45), ("prensa", [nav, "prensa.py"], 15))
+    while True:
+        h = time.localtime()
+        time.sleep((17 * 60 - (h.tm_min * 60 + h.tm_sec)) % 3600 or 3600)
+        for nombre, orden, minutos in pasos:
+            try:
+                latido(f"Revisión de la hora: {nombre}")
+                r = subprocess.run(orden, cwd=cerebro.CARPETA, capture_output=True, text=True, timeout=minutos * 60)
+                print(f"{nombre}: {'ok' if r.returncode == 0 else 'error ' + r.stderr.strip()[-300:]}", flush=True)
+            except Exception as e:
+                print(f"{nombre}: {e}", flush=True)
+
+
 def revisar_judicial():
     """Órgano Judicial: cada 5 minutos analiza lo que la extensión del Chrome de la oficina trajo de la web de la Corte
     (edictos del Pleno y comunicados) y avisa por Telegram las decisiones importantes."""
@@ -409,6 +430,7 @@ if __name__ == "__main__":
     threading.Thread(target=escuchar_anunciadas, daemon=True).start()
     threading.Thread(target=pasar_vectores, daemon=True).start()
     threading.Thread(target=agenda_de_x, daemon=True).start()
+    threading.Thread(target=revisar_asamblea, daemon=True).start()
     from cerebro import chat
     threading.Thread(target=chat.escuchar, daemon=True).start()  # chat de doble vía en los grupos de Telegram
     while True:
