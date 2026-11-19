@@ -58,7 +58,11 @@ def transcribir(ruta_audio):
         else:
             from faster_whisper import WhisperModel
             if _FW is None:
-                _FW = WhisperModel("large-v3-turbo", device="cuda", compute_type="float16")
+                try:
+                    _FW = WhisperModel("large-v3-turbo", device="cuda", compute_type="float16")
+                except Exception as e:  # sin CUDA/cuDNN: sigue en el procesador (lento, pero no se detiene)
+                    print(f"Whisper sin GPU ({e}); uso CPU", file=sys.stderr, flush=True)
+                    _FW = WhisperModel("large-v3-turbo", device="cpu", compute_type="int8")
             seg, _ = _FW.transcribe(ruta_audio, language="es", condition_on_previous_text=False, initial_prompt=INDICACION,
                                     vad_filter=True)
             segmentos = [(s.start, s.end, s.text) for s in seg]

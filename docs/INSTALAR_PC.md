@@ -3,6 +3,12 @@
 Uso interno de Claude u otra IA que haga la mudanza; Andrés no la lee. Ejecutar en orden, verificar cada paso
 (columna «Comprobar») antes de seguir y anotar en CLAUDE.md lo que cambie. Nada de esto va con claves en el chat.
 
+ATAJO (2026-11-19): en la Mac `bash docs/empaquetar_mudanza.sh` (→ ~/mudanza.tgz, baja antes lo que está solo en
+iCloud); en la PC, dentro de WSL, `bash instalar_pc.sh ~/mudanza.tgz` (copiar antes docs/instalar_pc.sh): hace los pasos
+2.3-2.5, 4 y 6 y deja el servicio creado pero SIN arrancar (se arranca en el paso 9, con la Mac apagada).
+La PC está en ECUADOR y correrá los 7 países (Lanzamiento regional en PLAN.md). Hora: America/Panama (UTC-5, igual que
+Ecuador); los países de UTC-6 y UTC-4 necesitarán su zona en la configuración multipaís.
+
 PC: Windows 11 Pro, Core Ultra 7 265K, 64 GB, RTX 5080 16 GB. Decisión (PLAN.md): el second brain en **WSL2 (Ubuntu)**,
 no Hyper-V (no pasa la NVIDIA a la VM). Chrome + extensión de la oficina en **Windows**. Sistemas de la oficina: Gijar
 (evalúa el acceso remoto; si propone otra herramienta, adaptar el paso 3).

@@ -502,3 +502,35 @@ PIEZAS NUEVAS (todas en la PC; lo de Ecuador solo se lee de ../Agente Zimbra AN 
 9. Grado por agente y producto (practicante / junior / autónomo) con la nota del examen y el % que cambia el equipo;
    se ve en la oficina. Siempre revisa una persona antes de enviar.
 Mismo esquema después para Keymonitor, Keyeconomics (78 reales + fuentes públicas del INEC: pares fáciles) y bola roja.
+
+## Lanzamiento regional: producción el 1 de enero de 2027 (Andrés, 2026-11-19)
+
+Siete países (matriz `Invesitgacion/260923 Matriz Scraper - KW PTY.xlsx`, no se sube): Panamá, Costa Rica, Guatemala,
+El Salvador, Honduras, Nicaragua y República Dominicana. Sin pausa de Navidad.
+
+| Fechas | Qué |
+| - | - |
+| jue 19 – dom 22/11 | Instalar la oficina de Panamá en la PC (docs/INSTALAR_PC.md); dejarla correr |
+| lun 23 – vie 27/11 | Revisar errores; escuela de agentes (manual y examen del Keymonitor, Keylaw con los 20 de la pasante); EN PARALELO: scrapers de los otros países (qué fuente sirve y cuál no) y plataforma multipaís |
+| sáb 28 – dom 29/11 | Versión final de los agentes |
+| lun 30/11 – sáb 5/12 | Levantar la plataforma de cada país |
+| lun 7 – vie 11/12 | Pruebas del sistema completo |
+| lun 14 – vie 18/12 | Capacitaciones |
+| lun 21 – jue 31/12 | Pruebas de producción |
+| vie 1/1/2027 | Producción para los clientes |
+
+Decisiones de Andrés (2026-11-19): entran los 7 países; UNA plataforma; UNA sola PC, en ECUADOR, corre los 7 (la
+mesa, el receptor y el Chrome de la oficina para los sitios con anti-bots: ojo con bloqueos por país); la
+investigación de cada país la hace María José con ChatGPT (un prompt por país, lo prepara Claude); capacitación del
+14 al 18/12 en COSTA RICA, donde se concentra el equipo. Cronograma en PDF A4 horizontal con el diseño de Keyword:
+~/Downloads/261119 Cronograma lanzamiento regional.pdf (lo arma el script del scratchpad, no se sube).
+
+Decisiones técnicas para que entre en el plazo:
+- UNA sola base de código y UNA cuenta de Cloudflare: el país es configuración (`pais` en config/.env), no una copia
+  del repo por país. Bases D1 por país o regional (decidir antes del 30/11). Lo propio de Panamá (Asamblea, Legispan,
+  Gaceta, reguladores) pasa a módulos `fuentes/<pais>/`.
+- Barrido del 2026-11-19 (un GET por portal de la matriz, 105 URL): ~45 % responde libre, ~30 % tiene anti-bots
+  (Cloudflare, Incapsula, Radware, F5, Akamai) y ~20 % no respondió o la URL está mal. Lo que tiene anti-bots entra
+  solo por el Chrome de la oficina (como la Gaceta de Panamá); no se esquiva.
+- Diciembre: las asambleas entran en receso o en sesiones extraordinarias (Panamá vuelve el 2 de enero); las pruebas
+  de producción tienen que reproducir datos reales de octubre-noviembre, no esperar actividad nueva.
