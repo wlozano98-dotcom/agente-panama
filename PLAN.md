@@ -503,26 +503,24 @@ PIEZAS NUEVAS (todas en la PC; lo de Ecuador solo se lee de ../Agente Zimbra AN 
    se ve en la oficina. Siempre revisa una persona antes de enviar.
 Mismo esquema después para Keymonitor, Keyeconomics (78 reales + fuentes públicas del INEC: pares fáciles) y bola roja.
 
-## Lanzamiento regional: producción el 1 de enero de 2027 (Andrés, 2026-11-19)
+## Lanzamiento regional (Andrés, 2026-11-19; CRONOGRAMA NUEVO, reemplaza al del 1 de enero)
 
-SEIS países (matriz `Invesitgacion/260923 Matriz Scraper - KW PTY.xlsx`, no se sube): Panamá, Costa Rica, El Salvador,
-Honduras, Nicaragua y República Dominicana. GUATEMALA SALE (Andrés, 2026-11-19), aunque está en la matriz. Sin pausa de Navidad.
+CINCO países: Panamá, Costa Rica, El Salvador, Honduras y República Dominicana (GUATEMALA y NICARAGUA salen, aunque
+están en la matriz `Invesitgacion/260923 Matriz Scraper - KW PTY.xlsx`, no se sube).
 
 | Fechas | Qué |
 | - | - |
-| jue 19 – dom 22/11 | Instalar la oficina de Panamá en la PC (docs/INSTALAR_PC.md); dejarla correr |
-| lun 23 – vie 27/11 | Revisar errores; escuela de agentes (manual y examen del Keymonitor, Keylaw con los 20 de la pasante); EN PARALELO: scrapers de los otros países (qué fuente sirve y cuál no) y plataforma multipaís |
-| sáb 28 – dom 29/11 | Versión final de los agentes |
-| lun 30/11 – sáb 5/12 | Levantar la plataforma de cada país |
-| lun 7 – vie 11/12 | Pruebas del sistema completo |
-| lun 14 – vie 18/12 | Capacitaciones |
-| lun 21 – jue 31/12 | Pruebas de producción |
-| vie 1/1/2027 | Producción para los clientes |
+| jue 19 – lun 23/11 | Instalación de la Key Oficina y el second brain en la PC local |
+| lun 23 – mié 25/11 | Generación de scrapers (los otros cuatro países) |
+| jue 26 – vie 27/11 | Generación de plataformas por país |
+| desde el mar 1/12 | Entrada en funcionamiento de la plataforma |
+| jue 3 – mié 9/12 | Capacitación en la oficina de Costa Rica (una semana) |
 
-Decisiones de Andrés (2026-11-19): entraban los 7 países (Guatemala salió después); UNA plataforma; UNA sola PC, en ECUADOR, corre los 6 (la
+La escuela de agentes (Keymonitor y Keylaw) corre en paralelo desde ya.
+
+Decisiones de Andrés (2026-11-19): entraban los 7 países (Guatemala salió después); UNA plataforma; UNA sola PC, en ECUADOR, corre los 5 (la
 mesa, el receptor y el Chrome de la oficina para los sitios con anti-bots: ojo con bloqueos por país); la
-investigación de cada país la hace María José con ChatGPT (un prompt por país, lo prepara Claude); capacitación del
-14 al 18/12 en COSTA RICA, donde se concentra el equipo. Cronograma en PDF A4 horizontal con el diseño de Keyword:
+investigación de cada país la hace María José con ChatGPT (un prompt por país, lo prepara Claude); capacitación (ahora 3-9/12) en COSTA RICA, donde se concentra el equipo. Cronograma en PDF A4 horizontal con el diseño de Keyword:
 ~/Downloads/261119 Cronograma lanzamiento regional.pdf (lo arma el script del scratchpad, no se sube).
 
 Decisiones técnicas para que entre en el plazo:
