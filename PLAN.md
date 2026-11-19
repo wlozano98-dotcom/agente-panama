@@ -505,20 +505,20 @@ Mismo esquema después para Keymonitor, Keyeconomics (78 reales + fuentes públi
 
 ## Lanzamiento regional (Andrés, 2026-11-19; CRONOGRAMA NUEVO, reemplaza al del 1 de enero)
 
-CINCO países: Panamá, Costa Rica, El Salvador, Honduras y República Dominicana (GUATEMALA y NICARAGUA salen, aunque
-están en la matriz `Invesitgacion/260923 Matriz Scraper - KW PTY.xlsx`, no se sube).
+SEIS países: Panamá, Costa Rica, El Salvador, Honduras, Nicaragua y República Dominicana (GUATEMALA sale, aunque
+está en la matriz; Nicaragua salió y VOLVIÓ el mismo día por pedido de Andrés `Invesitgacion/260923 Matriz Scraper - KW PTY.xlsx`, no se sube).
 
 | Fechas | Qué |
 | - | - |
 | jue 19 – lun 23/11 | Instalación de la Key Oficina y el second brain en la PC local |
-| lun 23 – mié 25/11 | Generación de scrapers (los otros cuatro países) |
+| lun 23 – mié 25/11 | Generación de scrapers (los otros cinco países) |
 | jue 26 – vie 27/11 | Generación de plataformas por país |
 | desde el mar 1/12 | Entrada en funcionamiento de la plataforma |
 | lun 7 – jue 10/12 | Capacitación en la oficina de Costa Rica |
 
 La escuela de agentes (Keymonitor y Keylaw) corre en paralelo desde ya.
 
-Decisiones de Andrés (2026-11-19): entraban los 7 países (Guatemala salió después); UNA plataforma; UNA sola PC, en ECUADOR, corre los 5 (la
+Decisiones de Andrés (2026-11-19): entraban los 7 países (Guatemala salió después); UNA plataforma; UNA sola PC, en ECUADOR, corre los 6 (la
 mesa, el receptor y el Chrome de la oficina para los sitios con anti-bots: ojo con bloqueos por país); la
 investigación de cada país la hace María José con ChatGPT (un prompt por país, lo prepara Claude); capacitación (7-10/12) en COSTA RICA, donde se concentra el equipo. Cronograma en PDF A4 horizontal con el diseño de Keyword:
 ~/Downloads/261119 Cronograma lanzamiento regional.pdf (lo arma el script del scratchpad, no se sube).
