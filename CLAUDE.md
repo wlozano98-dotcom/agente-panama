@@ -391,6 +391,14 @@ menciones, relaciones, declaraciones, expedientes, productos, tareas. Todo corre
   cada 5 min; si `latidos` no se mueve en 15 min avisa al grupo de la oficina (cada 2 h mientras siga y al volver).
   Se arma solo con el primer latido fresco. Estado: https://vigia-panama.agentemonitoreopa.workers.dev
 - OJO repo público: estado.json y los logs de Actions son públicos; nunca imprimir ni guardar ahí nombres de clientes.
+- **La oficina corre en la PC de la oficina desde el 2026-11-19** (`ssh keyword@oficina-wsl`, servicio del sistema
+  `vigilante`; `sudo -n /usr/bin/systemctl start|stop|restart|status vigilante` sin clave). La Mac NO corre la oficina.
+  En esa PC hay otros proyectos (Ollama, KeyCurul): no reiniciar Windows sin avisar. Escritorio remoto: solo el de
+  Windows por Tailscale (100.106.205.55). Chrome de la oficina: perfil «Keyword», X = @Andresdkdy.
+- **IA local** (Ollama gpt-oss:20b en la PC, `ia.generar_json(..., local=True)`): SOLO tareas internas que se pueden
+  rehacer y no llegan al cliente (hoy, perfiles de actores). Andrés: «solo para lo que no dañe la calidad del servicio».
+- **Gemini**: clave NUEVA de Keyword para Centroamérica (la genera y carga Gijar en el .env de la PC), tope USD 40/mes
+  para los seis países. No usar la de KeyCurul.
 
 ## Pendientes (2026-10-09)
 
